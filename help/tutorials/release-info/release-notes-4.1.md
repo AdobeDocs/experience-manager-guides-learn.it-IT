@@ -1,9 +1,10 @@
 ---
 title: Note sulla versione | Guida di Adobe Experience Manager versione 4.1
-description: 'Ultima versione delle guide di Adobe Experience Manager '
-source-git-commit: 714d335d95c54fb02b0fe02ad112fa36719dc970
+description: Ultima versione delle guide di Adobe Experience Manager
+exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
+source-git-commit: 7fc8eb3ea46eee89eac4d5779f14d61aa6106505
 workflow-type: tm+mt
-source-wordcount: '2983'
+source-wordcount: '2973'
 ht-degree: 3%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 3%
 * Se utilizzi la versione 3.8.5, devi eseguire l’aggiornamento alla versione 4.0.x prima di eseguire l’aggiornamento alla versione 4.1.
 * Se utilizzi una versione precedente alla versione 3.8.5, consulta la sezione sull’aggiornamento nella guida all’installazione specifica per il prodotto.
 
-Per maggiori dettagli, vedi [Istruzioni di aggiornamento](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-1/Adobe-Experience-Manager-Guides_Upgrade-Instructions_EN.pdf).
+Per maggiori dettagli, vedi [Istruzioni di aggiornamento](assets/Adobe-Experience-Manager-Guides_Upgrade-Instructions_EN.pdf).
 
 ## Matrice di compatibilità
 
@@ -289,4 +290,3 @@ I bug corretti in varie aree sono elencati di seguito:
 * Immagini di SVG il cui rendering non viene eseguito correttamente nelle modalità di authoring di XML Editor. (9426)
 * La linea di base non viene rispettata durante la pubblicazione tramite salesforce. (8953)
 * Non è presente la possibilità di cancellare la rootmap dalle impostazioni delle preferenze utente. (8534)
-
