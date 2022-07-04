@@ -2,7 +2,7 @@
 title: Controllo ortografia e ricerca/sostituzione
 description: Utilizzo del controllo ortografico e ricerca/sostituzione nelle guide AEM
 exl-id: 5f39618d-a919-4d3c-a4de-2896f2d1bf20
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 0b4326b02ef52f5de77c3f26c18feec84567cebb
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 2%
@@ -37,9 +37,9 @@ Se non viene suggerita l’ortografia corretta, è sempre possibile modificarla 
 
 3. Le opzioni sono due:
 
-   ・ **Controllo ortografia del browser** — l&#39;impostazione predefinita in cui il controllo ortografia utilizza il dizionario incorporato del browser.
+   - **Controllo ortografia del browser** — l&#39;impostazione predefinita in cui il controllo ortografia utilizza il dizionario incorporato del browser.
 
-   ・ **Controllo ortografia AEM** — utilizza questo per creare un elenco di parole personalizzato utilizzando il dizionario personalizzato di AEM.
+   - **Controllo ortografia AEM** — utilizza questo per creare un elenco di parole personalizzato utilizzando il dizionario personalizzato di AEM.
 
 4. Scegli **Controllo ortografia AEM**.
 
@@ -59,19 +59,17 @@ L’amministratore può modificare le impostazioni in modo che il dizionario AEM
 
    ![Nodo di configurazione di CRXDE Lite](images/lesson-11/config-node.png)
 
-
 4. Crea un nuovo file.
 
    a) Fai clic con il pulsante destro del mouse sulla cartella di configurazione.
-b) Scegli **Crea > Crea file**.
+
+   b) Scegli **Crea > Crea file**.
 
    ![Creazione di nuovi file dizionario](images/lesson-11/new-dictionary-file.png)
-
 
    c. Denominare il file _**user_Dictionary.txt**_.
 
    ![Testo del dizionario utente](images/lesson-11/user-dictionary.png)
-
 
    d. Fai clic su [!UICONTROL **OK**].
 
@@ -109,12 +107,11 @@ Per ottenere l&#39;elenco di parole personalizzate aggiornato nel dizionario AEM
 
 4. Scegli una
 
-   ・ **File di estrazione prima della sostituzione** — se abilitato da un amministratore, il file viene estratto automaticamente prima di sostituire i termini di ricerca.
+   - **File di estrazione prima della sostituzione** — se abilitato da un amministratore, il file viene estratto automaticamente prima di sostituire i termini di ricerca.
 
-   ・ **Solo parola intera** — limita la ricerca a restituire solo la parola o la frase esatta inserita.
+   - **Solo parola intera** — limita la ricerca a restituire solo la parola o la frase esatta inserita.
 
    ![Trova sostituisci nel repository](images/lesson-11/repository-find-replace.png)
-
 
 5. Fai clic sul pulsante [!UICONTROL **Applica filtro**] per selezionare il percorso nel repository in cui si desidera eseguire la ricerca.
 

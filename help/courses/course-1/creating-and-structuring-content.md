@@ -2,7 +2,7 @@
 title: Creazione di contenuto in [!DNL AEM Guides]
 description: Creazione di contenuto in [!DNL Adobe Experience Manager Guides]
 exl-id: f7cfc5c8-414f-4480-a9c9-b9920975a55d
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 6959927315c7afc62a7423e835a36895c76fdc6d
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 1%
@@ -24,6 +24,7 @@ Dopo aver acquisito familiarità con l’interfaccia utente, puoi iniziare a cre
 1. Seleziona la **+** icona e **Cartella**.
 
    ![+ icon](images/lesson-3/+-icon.png)
+
 1. Assegna un titolo alla cartella.
 1. Seleziona **Crea**.
 È stata creata una nuova cartella che viene ora visualizzata nel Repository. Questa cartella sarà la tua casa per tutto il contenuto del corso.
@@ -37,6 +38,7 @@ Dopo aver acquisito familiarità con l’interfaccia utente, puoi iniziare a cre
    ![Icona Ellissi](images/lesson-3/ellipses-icon.png)
 
    Viene visualizzato il menu Opzioni.
+
 1. Seleziona **Crea cartella \>**.
    ![Creazione di una sottocartella](images/lesson-3/create-subfolder-with-markings.png)
 
@@ -49,6 +51,7 @@ Dopo aver acquisito familiarità con l’interfaccia utente, puoi iniziare a cre
    ![Icona Ellissi](images/lesson-3/ellipses-icon.png)
 
    Viene visualizzato il menu Opzioni.
+
 1. Seleziona **Crea argomento \>**.
 
    ![Creazione di un nuovo argomento](images/lesson-3/create-topic-with-markings.png)
@@ -93,6 +96,7 @@ Puoi salvare il lavoro in qualsiasi momento con Salva o Salva come nuova version
    >[!NOTE]
    > 
    > Se il programma è configurato con etichette predefinite, è possibile selezionarle per garantire un’etichettatura coerente.
+
 1. Seleziona **Salva**.
 
    Hai creato una nuova versione dell’argomento e il numero di versione viene aggiornato.

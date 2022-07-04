@@ -2,7 +2,7 @@
 title: Condizioni
 description: Utilizzo delle condizioni nelle AEM
 exl-id: 2cb670d9-1a22-47c6-8409-52d1d526010a
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 01083e771baced42146044bf319d3897a2c5f51b
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 3%
@@ -31,11 +31,11 @@ I file di esempio che è possibile scegliere di utilizzare per questa lezione so
 
 5. Compila i campi richiesti.
 
-   ・ Il nome deve corrispondere a un attributo utilizzato per il profiling.
+   - Il Nome deve corrispondere a un attributo utilizzato per il profiling.
 
-   ・ Il valore è la voce esatta che verrà utilizzata nell&#39;origine del codice DITA.
+   - Il valore è la voce esatta che verrà utilizzata nell&#39;origine del codice DITA.
 
-   ・ Etichetta è la parola che verrà visualizzata dall’utente che immette gli attributi.
+   - Etichetta è la parola che verrà visualizzata dall’utente che immette gli attributi.
 
 6. Fai clic su [!UICONTROL **Salva**].
 
@@ -104,7 +104,6 @@ Le mappe dello Schema dell&#39;oggetto sono una forma specializzata di mappa a f
    >[!IMPORTANT]
    >
    >Importante: la mappa radice selezionata deve essere la mappa contenente lo schema soggetto.
-
 
    ![Preferenze utente](images/lesson-13/user-preferences-2.png)
 

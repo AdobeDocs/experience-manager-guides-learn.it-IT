@@ -2,7 +2,7 @@
 title: Utilizzo delle immagini nelle guide AEM
 description: Utilizzo delle immagini nelle guide di Adobe Experience Manager
 exl-id: 8b920a9a-bedb-434c-b6fb-3569ce4b7a81
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1f8fe099be2b4123eec6f7c973668b415097ac45
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 0%
@@ -27,10 +27,10 @@ Puoi scaricare il file di immagine di esempio da [qui.](assets/working-with-imag
 
    ![Carica risorse](images/lesson-4/upload-assets.png)
 
-
 1. Seleziona l’immagine da caricare dal sistema locale e seleziona **Apri**.
 
    La [!UICONTROL Caricare risorse] viene visualizzata la finestra di dialogo.
+
 1. Seleziona **Carica**.
 
 ## Inserimento di un’immagine in un argomento
@@ -52,7 +52,6 @@ Per quanto segue, accertati che l’argomento sia aperto nell’editor documenti
 1. Seleziona la **Inserisci immagine** icona.
 
    ![Icona Inserisci immagine](images/lesson-4/insert-image.png)
-
 
    Viene visualizzata la finestra di dialogo Inserisci immagine.
 
@@ -88,9 +87,11 @@ Poiché hai apportato una modifica significativa all’argomento, ora potrebbe e
 1. Nel campo Etichette versione , inserisci le etichette pertinenti.
 
    Le etichette consentono di specificare la versione da includere durante la pubblicazione.
+
    >[!NOTE]
    > 
    > Se il programma è configurato con etichette predefinite, è possibile selezionarle per garantire un’etichettatura coerente.
+
 1. Seleziona **Salva**.
 
    Hai creato una nuova versione dell’argomento e il numero di versione viene aggiornato.

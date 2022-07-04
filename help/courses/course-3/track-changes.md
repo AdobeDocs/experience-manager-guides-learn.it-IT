@@ -2,7 +2,7 @@
 title: Tracciare le modifiche
 description: Tracciamento delle modifiche nelle guide AEM
 exl-id: 57779920-b3b4-44be-a1fb-89ea7c89eef7
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 7bc636b4aceee327d86cfa74a9f8e61e0ad0a1cf
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 0%
@@ -92,9 +92,9 @@ Quando lavori in un ambiente per più autori, può essere difficile tenere tracc
 
 4. In Opzioni, scegli:
 
-   ・ **Traccia Le Modifiche Dalla Versione Selezionata**: Questa opzione mostra tutti gli aggiornamenti di contenuto sotto forma di modifiche tracciate. È quindi possibile scegliere di accettare o rifiutare le modifiche al documento una alla volta o tutte contemporaneamente.
+   - **Traccia Le Modifiche Dalla Versione Selezionata**: Questa opzione mostra tutti gli aggiornamenti di contenuto sotto forma di modifiche tracciate. È quindi possibile scegliere di accettare o rifiutare le modifiche al documento una alla volta o tutte contemporaneamente.
 
-   ・ **Ripristina versione selezionata**: Questa opzione ripristina la versione corrente del documento nella versione selezionata. Non offre alcun controllo sul contenuto accettato o rifiutato.
+   - **Ripristina versione selezionata**: Questa opzione ripristina la versione corrente del documento nella versione selezionata. Non offre alcun controllo sul contenuto accettato o rifiutato.
 
 5. Fai clic su [!UICONTROL **Fine**].
 

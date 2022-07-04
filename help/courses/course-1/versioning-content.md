@@ -2,7 +2,7 @@
 title: Contenuto della versione in [!DNL AEM Guides]
 description: Contenuto della versione in [!DNL Adobe Experience Manager Guides]
 exl-id: 766af002-d17b-4d27-b4d1-baaacc4579ca
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 97254946f5ee732fe3b93ff60dd9ef51a379b9f4
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 1%
@@ -29,8 +29,9 @@ Quando si crea una versione di un documento, viene creata un&#39;istantanea del 
    Le etichette consentono di specificare la versione da includere durante la pubblicazione.
 
    >[!NOTE]
-   > 
-   > Se il programma è configurato con etichette predefinite, è possibile selezionarle per garantire un’etichettatura coerente.
+   >
+   >Se il programma è configurato con etichette predefinite, è possibile selezionarle per garantire un’etichettatura coerente.
+
 1. Seleziona **Salva**.
 
    Hai creato una nuova versione dell’argomento e il numero di versione viene aggiornato. La prima versione di un documento sarà la versione 1.0.

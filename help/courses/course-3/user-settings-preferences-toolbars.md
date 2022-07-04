@@ -2,7 +2,7 @@
 title: Preferenze utente, Impostazioni editor e Barre degli strumenti Editor
 description: Modifica delle preferenze utente e delle impostazioni dell’editor in AEM Guide
 exl-id: 8cb099e4-d985-4eeb-b1a5-0e372b04d218
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 3d81727cdf4a58921724b0f1aa93b0700f821f60
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 2%
@@ -25,13 +25,13 @@ I tag sono segnali visivi che indicano i limiti di un elemento. Un bordo dell’
 
    I tag vengono visualizzati all’interno dell’argomento. Con la Vista tag puoi effettuare le seguenti operazioni:
 
-   ・ Seleziona il contenuto di un elemento facendo clic sul tag di apertura o chiusura.
+   - Seleziona il contenuto di un elemento facendo clic sul tag di apertura o chiusura.
 
-   ・ Espandi o comprimi i tag facendo clic sul segno + o - nel tag.
+   - Espandi o comprimi i tag facendo clic sul segno + o - nel tag .
 
-   ・ Utilizzare il menu di scelta rapida per tagliare, copiare o superare l&#39;elemento selezionato.
+   - Utilizza il menu di scelta rapida per tagliare, copiare o superare l’elemento selezionato.
 
-   ・ Trascina gli elementi selezionando il tag e rilasciando l’elemento in una posizione valida.
+   - Trascina gli elementi selezionando il tag e rilasciando l’elemento in una posizione valida.
 
 2. Fai clic sul pulsante [!UICONTROL **Attiva/Disattiva visualizzazione tag**] per nascondere i tag.
 
@@ -75,11 +75,11 @@ La barra degli strumenti in alto a destra dello schermo consente di passare da u
 
 ![Modalità](images/lesson-2/modes.png)
 
-・ Selezione **Autore** per visualizzare la struttura e il contenuto mentre si lavora con un argomento.
+- Seleziona **Autore** per visualizzare la struttura e il contenuto mentre si lavora con un argomento.
 
-・ Selezione **Origine** per visualizzare il codice XML sottostante che costituisce l&#39;argomento.
+- Seleziona **Origine** per visualizzare il codice XML sottostante che costituisce l&#39;argomento.
 
-・ Selezione **Anteprima** per mostrare come verrà visualizzato un argomento quando un utente lo visualizza nel proprio browser.
+- Seleziona **Anteprima** per mostrare come verrà visualizzato un argomento quando un utente lo visualizza nel proprio browser.
 
 ## Modifica il tema con Preferenze utente
 
