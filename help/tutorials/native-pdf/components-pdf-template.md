@@ -1,7 +1,9 @@
 ---
 title: Funzione di pubblicazione nativa di PDF | Componenti di un modello PDF
 description: Scopri i vari componenti di un modello PDF e come personalizzarli e configurarli.
-source-git-commit: 4665e861ddae7c62fdddf67c7adde543bc1f642d
+hide: true
+hidefromtoc: true
+source-git-commit: 698469293e41558753ff6aada92f050f45be867a
 workflow-type: tm+mt
 source-wordcount: '2208'
 ht-degree: 0%
