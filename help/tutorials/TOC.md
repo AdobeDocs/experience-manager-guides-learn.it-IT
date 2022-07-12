@@ -1,11 +1,11 @@
 ---
-user-guide-title: Tutorials per AEM guide
-user-guide-description: Leggi la nostra raccolta di esercitazioni per le guide di Adobe Experience Manager.
-breadcrumb-title: Tutorials delle guide AEM
-source-git-commit: 0502ab60d45ebac97415b4ae44afc2763380a7cd
+user-guide-title: Tutorial su AEM Guides
+user-guide-description: Leggi la nostra raccolta di tutorial su Adobe Experience Manager Guides.
+breadcrumb-title: Tutorial su AEM Guides
+source-git-commit: be04e01add023cbfeb1319ee946cea053bf6294b
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 11%
+source-wordcount: '108'
+ht-degree: 26%
 
 ---
 
@@ -38,3 +38,4 @@ ht-degree: 11%
    + [Pubblicare un output PDF](./web-editor/native-pdf-web-editor.md)
    + [Configurare caratteri speciali aggiuntivi](./web-editor/configure-additional-special-characters.md)
 + Controllo delle versioni {#versioning}
+   + [Componenti di un modello PDF](./native-pdf/pdf-template.md)
