@@ -1,11 +1,11 @@
 ---
-user-guide-title: Video sulle guide di Adobe Experience Manager
-user-guide-description: Raccolta di video per le guide di Adobe Experience Manager.
-breadcrumb-title: Video sulle guide AEM
+user-guide-title: Video su Adobe Experience Manager Guides
+user-guide-description: Raccolta di video su Adobe Experience Manager Guides.
+breadcrumb-title: Video su AEM Guides
 source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
 workflow-type: tm+mt
 source-wordcount: '122'
-ht-degree: 2%
+ht-degree: 16%
 
 ---
 
