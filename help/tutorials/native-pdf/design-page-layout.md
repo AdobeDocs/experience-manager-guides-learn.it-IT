@@ -1,14 +1,16 @@
 ---
 title: Funzione di pubblicazione nativa di PDF | Progettazione di un layout di pagina
-description: 'Scopri come progettare il layout di pagina per presentare informazioni in diverse sezioni dell’output di PDF. '
+description: Scopri come progettare il layout di pagina per presentare informazioni in diverse sezioni dell’output di PDF.
 hide: true
 hidefromtoc: true
-source-git-commit: 97c7337684e4afb8352912e53d6a59939f7d182f
+exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
+source-git-commit: 64e8ab1288674437f6182010ce4963b3780e98a9
 workflow-type: tm+mt
 source-wordcount: '3289'
 ht-degree: 0%
 
 ---
+
 
 # Progettazione di un layout di pagina
 
@@ -85,7 +87,7 @@ Ad esempio, se si desidera inserire un&#39;immagine nell&#39;area di intestazion
 
 1. Fai clic su Modifica intestazione (<img src="./assets/header-icon.svg" width="25">) per spostare il cursore nell’area di intestazione.
 
-1. Fai clic su Inserisci immagine (<img src="./assets/insert-image-icon.svg" width="25"> ) icon.
+1. Fai clic su Inserisci immagine (<img src="./assets/insert-image-icon.svg" width="25">) icon.
 
    Viene visualizzata la finestra a comparsa Seleziona percorso .
 
@@ -135,6 +137,8 @@ Nell’esempio seguente, verranno inseriti un numero di pagina e un titolo di ar
 
    <img src="./assets/insert-page-number-field.svg" width="400">
 
+   <br>
+
    >[!NOTE]
    >
    >È inoltre possibile modificare il formato di tutti i campi, ad eccezione del formato predefinito. A tale scopo, fare clic sull&#39;icona Modifica accanto al formato da modificare, apportare modifiche e fare clic su OK.
@@ -169,9 +173,9 @@ Nell’esempio seguente, verranno inseriti un numero di pagina e un titolo di ar
 
       <img src="./assets/topic-title-moved-right-footer.png" width="500">
 
-| Angolo sviluppatore: | <img src="./assets/developer-corner-icon.svg" width="40"> |
+| Angolo sviluppatore: | <img src="./assets/developer-corner-icon.svg" width="25"> |
 |--- |--- |
-Se desideri lavorare direttamente con il codice CSS e HTML, puoi farlo anche passando alla vista Origine del layout di pagina e apportando modifiche al codice. Lo snippet di codice seguente mostra la stessa impostazione a piè di pagina eseguita attraverso il codice:
+| Se desideri lavorare direttamente con il codice CSS e HTML, puoi farlo anche passando alla vista Origine del layout di pagina e apportando modifiche al codice. Lo snippet di codice seguente mostra la stessa impostazione a piè di pagina eseguita attraverso il codice: |
 
 ```md
 …
@@ -197,7 +201,7 @@ Nell’esempio seguente verrà inserito un sommario di capitolo nel layout Prima
    >Vedi _Personalizzare un layout di pagina_ per aprire un layout di pagina da personalizzare o modificare.
 
 1. Posizionare il cursore nell’area contenuto del layout di pagina.
-1. Fai clic sul sommario capitolo (<img src="./assets/chapter-toc-icon.svg">) icon.
+1. Fai clic sul sommario capitolo (<img src="./assets/chapter-toc-icon.svg">).
 
    Il capitolo TOC predefinito viene inserito nell’area contenuto.
 
@@ -216,6 +220,8 @@ Nell’esempio seguente verrà inserito un sommario di capitolo nel layout Prima
    Allo stesso modo, se si desidera impostare i titoli fino al livello 5, modificare il secondo elenco a discesa in 5. Il sommario aggiornato verrà visualizzato come mostrato di seguito:
 
    <img src="./assets/chapter-toc-updated.png" width="400">
+
+   <br>
 
    >[!NOTE]
    >
@@ -258,6 +264,8 @@ Per creare un layout di pagina con più colonne, effettua le seguenti operazioni
    Come mostrato nell’esempio seguente, la proprietà Colonna a 360 gradi per il testo dell’intestazione è impostata su tutte. In questo modo, anche se il documento è a più colonne, l’intestazione si estende su più colonne.
 
    <img src="./assets/element-span-across-columns.png" width="400">
+
+   <br>
 
    >[!IMPORTANT]
    È possibile applicare la proprietà Span Column a qualsiasi elemento DITA.
@@ -385,4 +393,3 @@ Per ulteriori dettagli sull&#39;utilizzo di queste proprietà, consulta la docum
 * **Sfondo**: Contiene le proprietà per includere un’immagine di sfondo o un’ombreggiatura colore. È possibile impostare le dimensioni dell&#39;immagine (impostando Altezza o Larghezza), Ripeti sfondo (come ripetizione, non ripetizione, arrotondata o più) e Posizione sfondo (come superiore sinistro, centro destro, centro centrale o più).
 
 * **Colonne multiple**: Contiene le proprietà per configurare le proprietà a più colonne per la pagina o per qualsiasi elemento specifico, ad esempio sommario capitolo. Per ulteriori dettagli sulle proprietà e su come utilizzarle, consulta _Utilizzo del layout di pagina a più colonne_.
-
