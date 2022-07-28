@@ -3,9 +3,9 @@ title: Funzione di pubblicazione nativa di PDF | Progettazione di un layout di p
 description: 'Scopri come progettare il layout di pagina per presentare informazioni in diverse sezioni dell’output di PDF. '
 hide: true
 hidefromtoc: true
-source-git-commit: 77256556d9222ffd096a599e5875c94108ebb8ed
+source-git-commit: 97c7337684e4afb8352912e53d6a59939f7d182f
 workflow-type: tm+mt
-source-wordcount: '3300'
+source-wordcount: '3289'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,10 @@ Le impostazioni Layout di pagina nella sezione **Modello > Impostazioni** consen
 
 I diversi layout di pagina nel modello di PDF possono essere ulteriormente personalizzati utilizzando diversi layout di pagina iniziale, destra o sinistra. È possibile progettare queste pagine in modo diverso utilizzando Progettazione layout pagina.
 
-> **Nota**: Se si desidera avere un layout di pagina singolo per una sezione del libro, non è necessario creare il layout di pagina Primo, Destro o Sinistro.
+>[!NOTE]
+>
+>Se si desidera avere un layout di pagina singolo per una sezione del libro, non è necessario creare il layout di pagina Primo, Destro o Sinistro.
+
 
 Quando crei i layout di pagina, considera quanto segue:
 
@@ -56,7 +59,7 @@ L’esempio seguente illustra il processo di creazione delle varianti di un layo
 
    Per impostazione predefinita, quando si crea un layout di pagina, questo viene aperto anche per la modifica. La schermata seguente mostra un layout di pagina vuoto (predefinito):
 
-   <img src="./assets/default-blank-page-layout.png" height="400">
+   <img src="./assets/default-blank-page-layout.png" width="300">
 
    L’intestazione, il piè di pagina e l’area contenuto di un modello vengono creati per impostazione predefinita. Puoi personalizzare facilmente queste aree utilizzando gli strumenti, le proprietà della pagina e le proprietà del contenuto forniti nell’interfaccia utente. Per la configurazione avanzata, puoi utilizzare la vista Origine e aggiungere codice HTML e CSS personalizzati.
 
@@ -76,7 +79,9 @@ Ad esempio, se si desidera inserire un&#39;immagine nell&#39;area di intestazion
 
 1. Apri il layout di pagina necessario per la modifica.
 
-   > **Nota**: Vedi _Personalizzare un layout di pagina_ per aprire un layout di pagina da personalizzare o modificare.
+   >[!NOTE]
+   >
+   >Vedi _Personalizzare un layout di pagina_ per aprire un layout di pagina da personalizzare o modificare.
 
 1. Fai clic su Modifica intestazione (<img src="./assets/header-icon.svg" width="25">) per spostare il cursore nell’area di intestazione.
 
@@ -114,7 +119,9 @@ Nell’esempio seguente, verranno inseriti un numero di pagina e un titolo di ar
 
 1. Apri il layout di pagina necessario per la modifica.
 
-   Nota: Vedi _Personalizzare un layout di pagina_ per aprire un layout di pagina da personalizzare o modificare.
+   >[!NOTE]
+   >
+   >Vedi _Personalizzare un layout di pagina_ per aprire un layout di pagina da personalizzare o modificare.
 
 1. Fai clic su Modifica piè di pagina (![](./assets/footer-icon.svg)) per spostare il cursore nell’area piè di pagina.
 
@@ -128,7 +135,9 @@ Nell’esempio seguente, verranno inseriti un numero di pagina e un titolo di ar
 
    <img src="./assets/insert-page-number-field.svg" width="400">
 
-   > **Nota**: È inoltre possibile modificare il formato di tutti i campi, ad eccezione del formato predefinito. A tale scopo, fare clic sull&#39;icona Modifica accanto al formato da modificare, apportare modifiche e fare clic su OK.
+   >[!NOTE]
+   >
+   >È inoltre possibile modificare il formato di tutti i campi, ad eccezione del formato predefinito. A tale scopo, fare clic sull&#39;icona Modifica accanto al formato da modificare, apportare modifiche e fare clic su OK.
 
    Il campo numero pagina predefinito viene inserito nell’area piè di pagina del layout di pagina.
 
@@ -160,8 +169,8 @@ Nell’esempio seguente, verranno inseriti un numero di pagina e un titolo di ar
 
       <img src="./assets/topic-title-moved-right-footer.png" width="500">
 
-> **Angolo sviluppatore:**  ![](./assets/developer-corner-icon.svg)
-
+| Angolo sviluppatore: | <img src="./assets/developer-corner-icon.svg" width="40"> |
+|--- |--- |
 Se desideri lavorare direttamente con il codice CSS e HTML, puoi farlo anche passando alla vista Origine del layout di pagina e apportando modifiche al codice. Lo snippet di codice seguente mostra la stessa impostazione a piè di pagina eseguita attraverso il codice:
 
 ```md
@@ -183,7 +192,9 @@ Nell’esempio seguente verrà inserito un sommario di capitolo nel layout Prima
 
 1. Apri il layout di pagina necessario per la modifica.
 
-   Nota: Vedi _Personalizzare un layout di pagina_ per aprire un layout di pagina da personalizzare o modificare.
+   >[!NOTE]
+   >
+   >Vedi _Personalizzare un layout di pagina_ per aprire un layout di pagina da personalizzare o modificare.
 
 1. Posizionare il cursore nell’area contenuto del layout di pagina.
 1. Fai clic sul sommario capitolo (<img src="./assets/chapter-toc-icon.svg">) icon.
@@ -192,7 +203,9 @@ Nell’esempio seguente verrà inserito un sommario di capitolo nel layout Prima
 
    <img src="./assets/chapter-toc-default.png" width="400">
 
-   > **Nota**: Il capitolo predefinito TOC contiene le intestazioni da 1 a 4. In questo caso, Titolo 1 è il Titolo del Capitolo stesso. Pertanto, potrebbe non essere necessario riavere il titolo del capitolo nel sommario o aumentare il livello dei titoli desiderati nel sommario. Puoi personalizzare il sommario modificando le proprietà.
+   >[!NOTE]
+   >
+   >Il capitolo predefinito TOC contiene le intestazioni da 1 a 4. In questo caso, Titolo 1 è il Titolo del Capitolo stesso. Pertanto, potrebbe non essere necessario riavere il titolo del capitolo nel sommario o aumentare il livello dei titoli desiderati nel sommario. Puoi personalizzare il sommario modificando le proprietà.
 
 1. Apri il pannello Proprietà contenuto di HTML per personalizzare i livelli di intestazione del sommario.
 
@@ -204,7 +217,9 @@ Nell’esempio seguente verrà inserito un sommario di capitolo nel layout Prima
 
    <img src="./assets/chapter-toc-updated.png" width="400">
 
-   > **Nota**: Nella versione finale di PDF verranno visualizzate solo le voci del sommario in base al contenuto dei capitoli. Se in un capitolo non sono presenti titoli di livello 5, questo non verrà visualizzato nell&#39;output finale.
+   >[!NOTE]
+   >
+   >Nella versione finale di PDF verranno visualizzate solo le voci del sommario in base al contenuto dei capitoli. Se in un capitolo non sono presenti titoli di livello 5, questo non verrà visualizzato nell&#39;output finale.
 
 ## Utilizzo del layout di pagina a più colonne
 
@@ -214,7 +229,9 @@ Per creare un layout di pagina con più colonne, effettua le seguenti operazioni
 
 1. Apri il layout di pagina necessario per la modifica.
 
-   > **Nota**: Vedi _Personalizzare un layout di pagina_ per aprire un layout di pagina da personalizzare o modificare.
+   >[!NOTE]
+   >
+   >Vedi _Personalizzare un layout di pagina_ per aprire un layout di pagina da personalizzare o modificare.
 
 1. Poiché il layout a più colonne viene applicato al contenuto, escludendo l’area intestazione e piè di pagina, è necessario selezionare l’elemento contenuto nella breadcrumb.
 
@@ -228,7 +245,9 @@ Per creare un layout di pagina con più colonne, effettua le seguenti operazioni
 
    * **Larghezza colonna:** Specifica la larghezza di una colonna in un layout a più colonne. Per impostazione predefinita, la dimensione è impostata in pixel (px), è inoltre possibile specificarla in pt, rem, em, % o in unità.
 
-      >**Nota:** Se non si specifica una dimensione, le colonne vengono ridimensionate automaticamente per adattarsi ai margini di pagina specificati.
+      >[!NOTE]
+      >
+      >Se non si specifica una dimensione, le colonne vengono ridimensionate automaticamente per adattarsi ai margini di pagina specificati.
 
    * **Gap tra colonne** : Specifica lo spazio tra le singole colonne.
 
@@ -240,7 +259,7 @@ Per creare un layout di pagina con più colonne, effettua le seguenti operazioni
 
    <img src="./assets/element-span-across-columns.png" width="400">
 
-   >[**IMPORTANTE**]
+   >[!IMPORTANT]
    È possibile applicare la proprietà Span Column a qualsiasi elemento DITA.
 
    * **Riempimento a colonne** : Specifica come il contenuto riempie le colonne. Per impostazione predefinita, è impostato su Saldo che riempie ogni colonna con la stessa quantità di contenuto.
@@ -248,7 +267,7 @@ Per creare un layout di pagina con più colonne, effettua le seguenti operazioni
    * **Regola colonna** : Se si desidera inserire una riga tra le colonne, utilizzare questa proprietà per definire gli stili di linea o di regola. Specificare i valori per Stile, Colore e Larghezza regola per aggiungere una linea tra le colonne.
 
 
-## Usa proprietà pagina per diversi orientamenti di pagina**
+## Utilizzare Proprietà pagina per diversi orientamenti di pagina
 
 Durante la progettazione di un layout di pagina, è essenziale avere il controllo su varie proprietà di pagina. La funzione PDF nativa racchiude tutte le proprietà principali della pagina nel pannello Proprietà pagina. Il pannello Proprietà pagina consente di accedere a varie proprietà nelle sezioni seguenti:
 
@@ -268,7 +287,7 @@ Durante la progettazione di un layout di pagina, è essenziale avere il controll
 
 Vediamo un esempio in cui viene utilizzata una combinazione di orientamento della pagina verticale e orizzontale e di proprietà di rotazione della vista. In questo esempio verrà creato un PDF con orientamento verticale predefinito, ma verrà eseguito il rendering di una tabella con orientamento orizzontale con contenuto nella visualizzazione a 90 gradi in senso orario. L&#39;output finale avrà un aspetto simile a:
 
-<img src="./assets/portrait-landscape-page-layouts.png" height="800">
+<img src="./assets/portrait-landscape-page-layouts.png" width="400">
 
 Nell’output precedente, le informazioni dell’elenco contatti vengono presentate in modalità orizzontale con contenuto ruotato anche di 90 gradi. Il contenuto rimanente viene visualizzato nella modalità normale verticale.
 
@@ -338,7 +357,7 @@ Esegui i seguenti passaggi per eseguire le attività di cui sopra:
 
    1. In **Proprietà contenuto** , aggiungi un nuovo `outputclass` proprietà con `landscape-style` come valore di proprietà.
 
-      <img src="./assets/new-style-table-outputclass.png" height="400">
+      <img src="./assets/new-style-table-outputclass.png" width="300">
 
    1. Fai clic su **Salva tutto** per salvare il file aggiornato.
 
@@ -350,7 +369,8 @@ Il contenuto della tabella finale verrà riprodotto in modalità orizzontale, co
 
 Il pannello Proprietà contenuto consente di aggiornare facilmente l’aspetto degli elementi nel layout di pagina. Le proprietà nel pannello Proprietà contenuto sono suddivise nelle sezioni seguenti:
 
->**Nota**: Per ulteriori dettagli sull&#39;utilizzo di queste proprietà, consulta la documentazione W3C CSS Page Media Standards .
+>[!NOTE]
+Per ulteriori dettagli sull&#39;utilizzo di queste proprietà, consulta la documentazione W3C CSS Page Media Standards .
 
 * **Attributi**: Contiene le proprietà ID, Classe e Traduci. Se imposti la proprietà Traduci su no, il contenuto di tale elemento specifico non viene tradotto.
 
