@@ -4,7 +4,7 @@ description: Scopri come progettare il layout di pagina per presentare informazi
 hide: true
 hidefromtoc: true
 exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
-source-git-commit: 2607a02867765b8f78134ab4e37012e8b08e222c
+source-git-commit: 651409beb88468bfb5ab35e45028b01fccd91cd5
 workflow-type: tm+mt
 source-wordcount: '3289'
 ht-degree: 0%
@@ -137,7 +137,7 @@ Nell’esempio seguente, verranno inseriti un numero di pagina e un titolo di ar
 
    <img src="./assets/insert-page-number-field.svg" width="400">
 
-   <img src="./assets/transparent-background.png" width="30">
+   <img src="./assets/transparent-background.png" width="70">
 
    >[!NOTE]
    >
@@ -173,8 +173,9 @@ Nell’esempio seguente, verranno inseriti un numero di pagina e un titolo di ar
 
       <img src="./assets/topic-title-moved-right-footer.png" width="500">
 
-| Angolo sviluppatore: | <img src="./assets/developer-corner-icon.svg" width="25"> |
-|--- |--- |
+| _Developer Corner_: <img src="./assets/developer-corner-icon.svg" width="25"> |
+|---|
+
 Se desideri lavorare direttamente con il codice CSS e HTML, puoi farlo anche passando alla vista Origine del layout di pagina e apportando modifiche al codice. Lo snippet di codice seguente mostra la stessa impostazione a piè di pagina eseguita attraverso il codice:
 
 ```md
@@ -206,7 +207,7 @@ Nell’esempio seguente verrà inserito un sommario di capitolo nel layout Prima
    Il capitolo TOC predefinito viene inserito nell’area contenuto.
 
    <img src="./assets/chapter-toc-default.png" width="400">
-    <img src="./assets/transparent-background.png" width="30">
+    <img src="./assets/transparent-background.png" width="70">
 
    >[!NOTE]
    >
@@ -222,7 +223,7 @@ Nell’esempio seguente verrà inserito un sommario di capitolo nel layout Prima
 
    <img src="./assets/chapter-toc-updated.png" width="400">
 
-   <img src="./assets/transparent-background.png" width="30">
+   <img src="./assets/transparent-background.png" width="70">
 
    >[!NOTE]
    >
@@ -266,7 +267,7 @@ Per creare un layout di pagina con più colonne, effettua le seguenti operazioni
 
    <img src="./assets/element-span-across-columns.png" width="400">
 
-   <img src="./assets/transparent-background.png" width="30">
+   <img src="./assets/transparent-background.png" width="70">
 
    >[!IMPORTANT]
    È possibile applicare la proprietà Span Column a qualsiasi elemento DITA.
