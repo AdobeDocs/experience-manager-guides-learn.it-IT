@@ -3,9 +3,10 @@ title: Funzione di pubblicazione nativa di PDF | Componenti di un modello PDF
 description: Scopri i vari componenti di un modello PDF e come personalizzarli e configurarli.
 hide: true
 hidefromtoc: true
-source-git-commit: 698469293e41558753ff6aada92f050f45be867a
+exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
+source-git-commit: e0602e325fec014fe5a9ebe231b0c62611a4e52d
 workflow-type: tm+mt
-source-wordcount: '2208'
+source-wordcount: '2295'
 ht-degree: 0%
 
 ---
@@ -39,6 +40,19 @@ Le impostazioni nel componente Layout di pagina consentono di progettare la stru
 1. Fai clic su **Fine**.
 
    Il nuovo layout viene creato e aggiunto in Layout di pagina.
+
+### Duplicare un layout di pagina
+
+1. In **Modelli** della sezione del modello da duplicare, fare doppio clic su **Layout di pagina** o fai clic su **>** icona prima **Layout di pagina**.
+
+   Viene visualizzato l’elenco dei layout di pagina all’interno del modello.
+
+1. Passa il puntatore del mouse sul layout di pagina da duplicare e fai clic su (*Opzioni* icona) **...** e seleziona **Duplica** dal menu di scelta rapida.
+
+1. In _Layout duplicato_ immettere un nome per il layout di pagina.
+
+1. Fai clic su **Fine**.
+Una copia del layout di pagina selezionato viene creata e aggiunta in Layout di pagina.
 
 ### Personalizzare un layout di pagina
 
