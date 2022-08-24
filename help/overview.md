@@ -1,15 +1,15 @@
 ---
-title: Tutorials per le guide di Experience Manager
+title: Esercitazioni sulle guide di Experience Manager
 description: Una raccolta di tutorial per Experience Manager Guide (precedentemente XML Documentation per Adobe Experience Manager).
 exl-id: 06dd1b77-1a98-430f-8322-475d4fa4947b
-source-git-commit: b2c51539bbe49c6d5de601e319ceb5def99d9020
+source-git-commit: 0ab4c1590507b38cd3dbeb385a2200dc169fc36a
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Tutorials e corsi video per [!DNL Adobe Experience Manager Guides] {#overview}
+# [!DNL Adobe Experience Manager Guides] esercitazioni {#overview}
 
 [!DNL Adobe Experience Manager Guides] (di cui [!DNL AEM Guides] soluzione più avanti in questa guida) è una potente soluzione di gestione dei contenuti per componenti di livello enterprise (CCMS). Abilita il supporto DITA nativo in Adobe Experience Manager, consentendo AEM gestire la creazione e la distribuzione di contenuti basati su DITA. Consente agli autori di creare contenuti utilizzando qualsiasi strumento di authoring DITA offline, ad esempio Adobe FrameMaker o un editor web integrato di facile utilizzo.
 
@@ -30,6 +30,10 @@ Con [!DNL AEM Guides] Le aziende possono offrire esperienze personalizzate e sen
 * **[[!DNL AEM Guides] Corso introduttivo](course-1/overview.md)**
 
    *Scopri come creare, organizzare, creare e pubblicare contenuti con [!DNL Adobe Experience Manager Guides].*
+
+* **[Authoring nell’editor web integrato](course-3/overview.md)**
+
+   *Scopri come creare contenuti utilizzando l’editor web nativo nelle Guide per Experienci Manager. Comprensione completa delle preferenze utente, delle impostazioni dell&#39;editor, della configurazione, delle barre degli strumenti e altro ancora.*
 
 * **[Generazione di output con [!DNL AEM Guides]](course-2/overview.md)**
 
