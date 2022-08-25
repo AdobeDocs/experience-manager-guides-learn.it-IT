@@ -1,17 +1,17 @@
 ---
 title: Tutorials per le guide di Experience Manager
-description: Una raccolta di tutorial per Experience Manager Guide (precedentemente XML Documentation per Adobe Experience Manager).
+description: È possibile trovare video di esercitazione per Experience Manager Guide (precedentemente XML Documentation for Adobe Experience Manager). Informazioni sul supporto DITA nativo e sull'authoring strutturato in Experience Manager.
 exl-id: 06dd1b77-1a98-430f-8322-475d4fa4947b
-source-git-commit: 8a0049d737dd4d80cf42f8b9d4ffa8adc349682f
+source-git-commit: fff5c163bc8551bea298cd8da320c2abf9b9be3b
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '286'
 ht-degree: 3%
 
 ---
 
 # Tutorials per [!DNL Adobe Experience Manager Guides] {#overview}
 
-[!DNL Adobe Experience Manager Guides] (di cui [!DNL AEM Guides] soluzione più avanti in questa guida) è una potente soluzione di gestione dei contenuti per componenti di livello enterprise (CCMS). Abilita il supporto DITA nativo in Adobe Experience Manager, consentendo AEM gestire la creazione e la distribuzione di contenuti basati su DITA. Consente agli autori di creare contenuti utilizzando qualsiasi strumento di authoring DITA offline, ad esempio Adobe FrameMaker o un editor web integrato di facile utilizzo.
+[!DNL Experience Manager Guides] (di cui _[!DNL AEM Guides]_di seguito) è una potente soluzione di gestione dei contenuti per componenti di livello enterprise (CCMS). Consente ad Experience Manager il supporto DITA nativo, consentendo AEM gestire la creazione e la distribuzione di contenuti basati su DITA. Consente agli autori di creare contenuti utilizzando qualsiasi strumento di authoring DITA offline, ad esempio Adobe FrameMaker o un editor web integrato di facile utilizzo.
 
 [!DNL AEM Guides] la soluzione fornisce tutte le funzioni principali di CCMS, come collaborazione, revisione, traduzione, ricerca e report per i contenuti DITA, consentendo agli autori di eseguire più operazioni in minor tempo grazie a un efficiente riutilizzo dei contenuti e a flussi di lavoro efficienti. Inoltre, gli utenti possono sfruttare la funzionalità di pubblicazione con un solo clic e all’avanguardia per generare un output basato su DITA per i formati più popolari: Experience Manager Sites, PDF, HTML5, EPUB e output personalizzato tramite DITA-OT.
 
@@ -19,17 +19,17 @@ Con [!DNL AEM Guides] Le aziende possono offrire esperienze personalizzate e sen
 
 >[!NOTE]
 > 
-> Adobe Experience Manager Guide era precedentemente denominato &quot;XML Documentation for Adobe Experience Manager&quot;. Tieni presente che alcuni riferimenti all’interno della documentazione possono ancora fare riferimento al branding precedente, ma sono ancora applicabili all’offerta corrente.
+> Le guide di Adobe Experience Manager erano precedentemente contrassegnate con il marchio _XML Documentation per Adobe Experience Manager_. Tieni presente che alcuni riferimenti all’interno della documentazione possono ancora fare riferimento al branding precedente, ma sono ancora applicabili all’offerta corrente.
 
 ## Novità
 
 * **[[!DNL AEM Guides] Corso introduttivo](../courses/course-1/overview.md)**
 
-   *Scopri come creare, organizzare, creare e pubblicare contenuti con [!DNL Adobe Experience Manager Guides].*
+   _Scopri come creare, organizzare, creare e pubblicare contenuti con [!DNL Adobe Experience Manager Guides]._
 
 * **[Generazione di output con [!DNL AEM Guides]](../courses/course-2/overview.md)**
 
-   *Scopri come generare l’output utilizzando [!DNL Adobe Experience Manager Guides]. Scopri le varie funzioni disponibili per la generazione dell’output: report, linee di base, condizioni, risoluzione dei problemi, pubblicazione in blocco e attivazione.*
+   _Scopri come generare l’output utilizzando [!DNL Adobe Experience Manager Guides]. Scopri le varie funzioni disponibili per la generazione dell’output: report, linee di base, condizioni, risoluzione dei problemi, pubblicazione in blocco e attivazione._
 
 
 <!--
