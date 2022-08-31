@@ -2,7 +2,7 @@
 user-guide-title: Tutorial su AEM Guides
 user-guide-description: Leggi la nostra raccolta di tutorial su Adobe Experience Manager Guides.
 breadcrumb-title: Tutorial su AEM Guides
-source-git-commit: 3c4ae9f5c00fa4918130df98cd42d7dd06e88543
+source-git-commit: 78db1486af3eb99b165a136d6bae6f7f15a1b527
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 23%
@@ -43,4 +43,4 @@ ht-degree: 23%
    + [Modello PDF nascosto](./native-pdf/pdf-template.md)
    + [Componenti nascosti di un modello di PDF](./native-pdf/components-pdf-template.md)
    + [Progettazione nascosta di un layout di pagina](./native-pdf/design-page-layout.md)
-   + [Foglio di stile nascosto](./native-pdf/Stylesheet.md)
+   + [Foglio di stile nascosto](./native-pdf/stylesheet.md)
