@@ -4,9 +4,9 @@ description: Scopri come progettare il layout di pagina per presentare informazi
 hide: true
 hidefromtoc: true
 exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
-source-git-commit: 563a301e4db20cd8076eaffd970d53b7a8743449
+source-git-commit: 7b96fe9e8fad0e017626be04f5c41c1e42e7469d
 workflow-type: tm+mt
-source-wordcount: '4686'
+source-wordcount: '4649'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ Durante la progettazione di un layout di pagina, è essenziale avere il controll
 >
 >Il pannello Proprietà pagina incapsula le proprietà e segue le regole definite in [Standard per file multimediali](https://www.w3.org/TR/css-page-3/).
 
-* **Dimensioni pagina** : Specifica le dimensioni della pagina da utilizzare per il layout di pagina. L’elenco a discesa Dimensione pagina consente di scegliere tra più di 15 dimensioni di pagina. È inoltre possibile creare un layout di pagina utilizzando una dimensione di pagina personalizzata, vedere [Imposta le dimensioni della pagina](design-page-layout.md#set-the-page-size) per ulteriori dettagli.
+* **Dimensioni pagina** : Specifica le dimensioni della pagina da utilizzare per il layout di pagina. L’elenco a discesa Dimensione pagina consente di scegliere tra più di 15 dimensioni di pagina. È inoltre possibile creare un layout di pagina utilizzando una dimensione di pagina personalizzata, vedere [Imposta le dimensioni della pagina](#set-page-size) per ulteriori dettagli.
 
 * **Orientamento** : Specifica l’orientamento della pagina da utilizzare per il layout di pagina. È possibile scegliere tra l’orientamento della pagina Verticale o Orizzontale. È possibile scegliere di applicare orientamenti diversi a varianti di pagina diverse in un layout di pagina. Ad esempio, se il contenuto contiene una tabella ampia o un’immagine grande, è possibile creare un layout di pagina orizzontale e applicare tale layout alla tabella o all’immagine più ampia.
 
@@ -341,7 +341,7 @@ La schermata seguente mostra un esempio di immagine aggiunta nell’area di inte
 
 <img src="./assets/image-in-header-area.png" width="500">
 
-Una volta inserita un’immagine, puoi modificarne gli attributi per ottenere l’aspetto desiderato. Il modo più semplice per modificare l’aspetto di un’immagine o di qualsiasi altro elemento nel layout di pagina, utilizza il pannello Proprietà contenuto . Vedi [Utilizzare il pannello Proprietà contenuto](design-page-layout.md#work-with-content-properties-panel) per le varie proprietà che sono disponibili tramite l’interfaccia utente per personalizzare.
+Una volta inserita un’immagine, puoi modificarne gli attributi per ottenere l’aspetto desiderato. Il modo più semplice per modificare l’aspetto di un’immagine o di qualsiasi altro elemento nel layout di pagina, utilizza il pannello Proprietà contenuto . Vedi [Utilizzare il pannello Proprietà contenuto](#work-with-content-props) per le varie proprietà che sono disponibili tramite l’interfaccia utente per personalizzare.
 
 ### Aggiungere campi e metadati {#add-fields-metadata}
 
@@ -361,7 +361,7 @@ Sono disponibili le seguenti categorie di campi che è possibile inserire nel la
 
 Ciascuna di queste categorie di campi contiene diverse varianti in cui è possibile inserire le informazioni sul campo. Ad esempio, un campo Data può presentare varianti diverse, ad esempio `YYYY-MM-DD`, `MM/DD/YY`, `MM/DD/YYYY` e così via. Analogamente, il numero di pagina può presentare varianti sotto forma di formati romano, decimale o anche specifici per le impostazioni internazionali, come _Arabo_, _Devanagari_, _Ebraico_ e altro ancora.
 
-Oltre ai campi predefiniti, è anche possibile aggiungere informazioni sui metadati come variabili o campi nel layout di pagina. Questi metadati vengono memorizzati nel contenuto della mappa DITA di origine e possono essere facilmente inseriti nel layout di pagina. Per ulteriori informazioni, consulta [Aggiungere campi e metadati](design-page-layout.md#add-fields-and-metadata).
+Oltre ai campi predefiniti, è anche possibile aggiungere informazioni sui metadati come variabili o campi nel layout di pagina. Questi metadati vengono memorizzati nel contenuto della mappa DITA di origine e possono essere facilmente inseriti nel layout di pagina. <!--For more information, see [Add fields and metadata](design-page-layout.md#add-fields-and-metadata).-->
 
 Nell’esempio seguente, verranno inseriti un numero di pagina e un titolo di capitolo nell’area del piè di pagina di un layout di pagina.
 
@@ -387,7 +387,7 @@ Nell’esempio seguente, verranno inseriti un numero di pagina e un titolo di ca
 
    >[!NOTE]
    >
-   >È inoltre possibile modificare il formato di tutti i campi, ad eccezione del formato predefinito. A tale scopo, fare clic sull&#39;icona Modifica accanto al formato da modificare, apportare modifiche e fare clic su OK. Per ulteriori informazioni, consulta [Aggiungere campi e metadati](design-page-layout.md#add-fields-and-metadata).
+   >È inoltre possibile modificare il formato di tutti i campi, ad eccezione del formato predefinito. A tale scopo, fare clic sull&#39;icona Modifica accanto al formato da modificare, apportare modifiche e fare clic su OK. Per ulteriori informazioni, consulta [Aggiungere campi e metadati](#add-fields-metadata).
 
    Il campo numero pagina predefinito viene inserito nell’area piè di pagina del layout di pagina.
 
@@ -449,7 +449,7 @@ Nell’esempio seguente viene inserito un sommario di capitolo nel primo layout 
 
 >[!NOTE]
 >
->Per questa procedura, si presume che sia stata creata la variante Prima pagina per un layout di pagina capitolo. Per istruzioni su come creare una variante di pagina, consulta _Creare le varianti di layout di pagina prima, destra o sinistra_.
+>Per questa procedura, si presume che sia stata creata la variante Prima pagina per un layout di pagina capitolo. Per istruzioni su come creare una variante di pagina, consulta [Creare le varianti di layout di pagina prima, destra o sinistra](#page-layout-variants).
 
 1. Apri il layout di pagina necessario per la modifica.
 
@@ -483,7 +483,7 @@ Nell’esempio seguente viene inserito un sommario di capitolo nel primo layout 
    >
    >Nella versione finale di PDF verranno visualizzate solo le voci del sommario in base al contenuto dei capitoli. Se in un capitolo non sono presenti titoli di livello 5, questo non verrà visualizzato nell&#39;output finale.
 
-L’aspetto del sommario predefinito può essere personalizzato utilizzando i fogli di stile. Lo stile che inizia con `chaptoc-level-#` (come `chaptoc-level-1`, `chaptoc-level-2`, e così via) vengono utilizzati per personalizzare gli stili per il sommario del capitolo. Per ulteriori dettagli sugli elementi del foglio di stile utilizzati nel sommario e su come personalizzarli, consulta _Personalizzare il sommario del capitolo predefinito_.
+L’aspetto del sommario predefinito può essere personalizzato utilizzando i fogli di stile. Lo stile che inizia con `chaptoc-level-#` (come `chaptoc-level-1`, `chaptoc-level-2`, e così via) vengono utilizzati per personalizzare gli stili per il sommario del capitolo. <!--For more details on the stylesheet elements used in the TOC and how to customize them, see _Customize default chapter TOC_-->.
 
 >[!IMPORTANT]
 >
@@ -519,7 +519,7 @@ Per creare un layout di pagina con più colonne, effettua le seguenti operazioni
 
    * **Gap tra colonne** : Specifica lo spazio tra le singole colonne.
 
-   * **Estensione colonna** : Se desideri che un elemento nel layout di pagina si estenda su più colonne, devi utilizzare questa proprietà. Questo si ottiene modificando lo stile dell’elemento desiderato utilizzando i fogli di stile, per ulteriori informazioni vedi _Sezione che spiega la personalizzazione dello stile_.
+   * **Estensione colonna** : Se desideri che un elemento nel layout di pagina si estenda su più colonne, devi utilizzare questa proprietà. Questo si ottiene modificando lo stile dell’elemento desiderato utilizzando i fogli di stile. <!--for more information see _Section explaining style customization_-->.
 
    Nel layout di pagina, se si desidera che un determinato testo venga visualizzato nella prima pagina di tutti i layout di pagina dei capitoli, è possibile aggiungerlo alla variante Prima pagina del layout di pagina Capitolo.
 
@@ -549,4 +549,4 @@ Il pannello Proprietà contenuto consente di aggiornare facilmente l’aspetto d
 * **Layout** : Contiene le proprietà per configurare il layout di un elemento nel layout di pagina. È possibile impostare Altezza, Larghezza, Margini e Spaziatura (per superiore, inferiore, sinistra o destra), Allineamento orizzontale o verticale, Mobile (come sinistro, destro o nessuno), Cancella (come sinistro, destro, entrambi o nessuno), Posizione dell&#39;elemento (come assoluta, fissa, relativa o più), Visualizzazione (come blocco, contenuto, correzione o più), Indice Z, Trasparenza, Trasformazione (ruotando o ridimensionando) e Origine del modulo (per offset X e Y).
 
 * **Sfondo** : Contiene le proprietà per includere un’immagine di sfondo o un’ombreggiatura colore. È possibile impostare le dimensioni dell&#39;immagine (impostando Altezza o Larghezza), Ripeti sfondo (come ripetizione, non ripetizione, arrotondata o più) e Posizione sfondo (come superiore sinistro, centro destro, centro centrale o più).
-* **Colonne multiple** : Contiene le proprietà per configurare le proprietà a più colonne per la pagina o per qualsiasi elemento specifico, ad esempio sommario capitolo. Per ulteriori dettagli sulle proprietà e su come utilizzarle, consulta _Utilizzo del layout di pagina a più colonne_.
+* **Colonne multiple** : Contiene le proprietà per configurare le proprietà a più colonne per la pagina o per qualsiasi elemento specifico, ad esempio sommario capitolo. Per ulteriori dettagli sulle proprietà e su come utilizzarle, consulta [Utilizzo del layout di pagina a più colonne](#multi-column-layout).
