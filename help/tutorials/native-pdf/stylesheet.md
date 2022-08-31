@@ -3,9 +3,9 @@ title: Funzione di pubblicazione nativa di PDF | Utilizzare gli stili di contenu
 description: Scopri come creare e utilizzare fogli di stile e creare stili per i contenuti.
 hide: true
 hidefromtoc: true
-source-git-commit: 563a301e4db20cd8076eaffd970d53b7a8743449
+source-git-commit: cbd5f4b0763bf4087d016f3d3c8d723518f0b8e7
 workflow-type: tm+mt
-source-wordcount: '3500'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ L’editor degli stili è un editor WYSIWYG che nasconde tutte le complessità d
 * Stili pagina
 * Altri stili
 
-Quando si lavora con contenuto DITA strutturato, la mappatura dello stile per la maggior parte degli elementi DITA è presente nel foglio di stile predefinito. Se si lavora con elementi DITA standard, è possibile modificarne l’aspetto modificando direttamente la definizione dello stile. Queste definizioni di stile sono disponibili nella categoria Altro stile . Per ulteriori dettagli, consulta *Operazioni con altri stili* più avanti in questo argomento.
+Quando si lavora con contenuto DITA strutturato, la mappatura dello stile per la maggior parte degli elementi DITA è presente nel foglio di stile predefinito. Se si lavora con elementi DITA standard, è possibile modificarne l’aspetto modificando direttamente la definizione dello stile. Queste definizioni di stile sono disponibili nella categoria Altro stile . Per ulteriori dettagli, consulta [Operazioni con altri stili](#other-styles) più avanti in questo argomento.
 
 Nelle sezioni seguenti sono illustrate le impostazioni di stile più comunemente utilizzate sotto forma di esempi.
 
@@ -38,15 +38,15 @@ Nelle sezioni seguenti sono illustrate le impostazioni di stile più comunemente
 
 ## Operazioni con gli stili di intestazione {#heading-styles}
 
-Gli stili di intestazione racchiudono tutti gli stili di base per le intestazioni utilizzate nel contenuto. OOTB otterrai 6 stili di intestazione di base e uno stile di intestazione per l’argomento/capitolo e l’intestazione del titolo dell’appendice. In un documento strutturato, l’H1 rappresenta il titolo dell’argomento o del capitolo e l’H2-H6 viene utilizzato per i sottoargomenti o le sezioni all’interno di un argomento/capitolo. Questa gerarchia di intestazioni viene applicata automaticamente al contenuto ogni volta che viene trovata l’intestazione corrispondente.
+Gli stili di intestazione racchiudono tutti gli stili di base per le intestazioni utilizzate nel contenuto. OOTB otterrai 6 stili di intestazione di base e uno stile di intestazione per l&#39;argomento/capitolo e l&#39;intestazione del titolo dell&#39;appendice. In un documento strutturato, l&#39;H1 rappresenta il titolo dell&#39;argomento o del capitolo e l&#39;H2-H6 viene utilizzato per i sottoargomenti o le sezioni all&#39;interno di un argomento/capitolo. Questa gerarchia di intestazioni viene applicata automaticamente al contenuto ogni volta che viene trovata l’intestazione corrispondente.
 
 >[!NOTE]
 >
->È possibile creare stili di intestazione personalizzati che possono essere utilizzati nel contenuto utilizzando la classe outputclass. Per ulteriori dettagli, vedi il passaggio 4 in *Utilizza l’orientamento della pagina e la rotazione della vista* esempio.
+>È possibile creare stili di intestazione personalizzati che possono essere utilizzati nel contenuto utilizzando la classe outputclass. Per ulteriori dettagli, vedi il passaggio 4 in [Utilizza l’orientamento della pagina e la rotazione della vista](design-page-layout.md#page-orientation-rotation) esempio.
 
 ### Creare intestazioni personalizzate a livello di capitolo {#create-chapter-level-heading}
 
-In un libro (o una mappa) si lavora con i Capitoli. Gli stili di intestazione di base sono progettati in modo che vengano applicati alle intestazioni a livello di capitolo senza alcuna personalizzazione. Tuttavia, se desideri creare intestazioni specializzate per il contenuto, dovrai creare tali intestazioni. Ad esempio, il valore predefinito `h1.chapter` viene applicata al titolo del capitolo. Se si desidera che il titolo del capitolo venga visualizzato in uno stile diverso, è necessario personalizzare la `h1.chapter` stile. Allo stesso modo, è possibile creare stili personalizzati per le sottotitoli nel capitolo. Ad esempio, se desideri creare uno stile personalizzato per tutti i 2<sup>nd</sup> e 3<sup>rd</sup> livella le intestazioni nel capitolo, quindi devi creare un nuovo stile come `h2.chatper` e `h3.chatper`.
+In un libro (o una mappa) si lavora con i Capitoli. Gli stili di intestazione di base sono progettati in modo che vengano applicati alle intestazioni a livello di capitolo senza alcuna personalizzazione. Tuttavia, se desideri creare intestazioni specializzate per il contenuto, dovrai creare tali intestazioni. Ad esempio, il valore predefinito `h1.chapter` l&#39;intestazione viene applicata al titolo del capitolo. Se si desidera che il titolo del capitolo venga visualizzato in uno stile diverso, è necessario personalizzare la `h1.chapter` stile. Allo stesso modo, è possibile creare stili personalizzati per le sottotitoli nel capitolo. Ad esempio, se desideri creare uno stile personalizzato per tutti i 2<sup>nd</sup> e 3<sup>rd</sup> livella le intestazioni nel capitolo, quindi devi creare un nuovo stile come `h2.chatper` e `h3.chatper`.
 
 Poiché la funzione Pubblicazione PDF nativa contiene le definizioni degli stili di base per gli stili più comuni, anche se si elimina accidentalmente uno stile, lo stile predefinito viene applicato al contenuto. Ad esempio, se nel foglio di stile non è presente una definizione di stile per lo stile h2, la funzione Pubblicazione nativa di PDF applicherà uno stile di base al contenuto h2.
 
@@ -55,7 +55,7 @@ In questo esempio verrà creato uno stile di intestazione di capitolo di secondo
 1. Aprire il foglio di stile richiesto per la modifica.
    >[!NOTE]
    >
-   >Vedi *Personalizzare uno stile predefinito o nuovo* sezione per l&#39;apertura di un foglio di stile per la personalizzazione o la modifica.
+   >Vedi [Personalizzare uno stile predefinito o nuovo](components-pdf-template.md#customize-style) sezione per l&#39;apertura di un foglio di stile per la personalizzazione o la modifica.
 
 1. In **Stili** elenco, espandere **Stili di intestazione**.
 1. Fai clic con il pulsante destro del mouse su **Stili di intestazione** stile e scegli **Nuovo stile**.
@@ -76,7 +76,7 @@ In questo esempio personalizzeremo le intestazioni dal livello 1 al livello 3 pe
 
    >[!NOTE]
    >
-   >Vedi *Personalizzare uno stile predefinito o nuovo* sezione per l&#39;apertura di un foglio di stile per la personalizzazione o la modifica.
+   >Vedi [Personalizzare uno stile predefinito o nuovo](components-pdf-template.md#customize-style) sezione per l&#39;apertura di un foglio di stile per la personalizzazione o la modifica.
 
 1. In **Stili** elenco, espandere **Stili di intestazione**.
 
@@ -142,7 +142,7 @@ Nell’esempio seguente, verrà creato uno stile di cap per le gocce:
 1. Aprire il foglio di stile richiesto per la modifica.
 
    >[!NOTE]
-   Vedi *Personalizzare uno stile predefinito o nuovo* sezione per l&#39;apertura di un foglio di stile per la personalizzazione o la modifica.
+   Vedi [Personalizzare uno stile predefinito o nuovo](components-pdf-template.md#customize-style) sezione per l&#39;apertura di un foglio di stile per la personalizzazione o la modifica.
 
 1. In **Stili** elenco, espandere **Stili paragrafo**.
 
@@ -177,7 +177,7 @@ Nell’esempio seguente verrà creato uno stile di carattere in linea:
 1. Aprire il foglio di stile richiesto per la modifica.
 
    >[!NOTE]
-   Vedi *Personalizzare uno stile predefinito o nuovo* sezione per l&#39;apertura di un foglio di stile per la personalizzazione o la modifica.
+   Vedi [Personalizzare uno stile predefinito o nuovo](components-pdf-template.md#customize-style) sezione per l&#39;apertura di un foglio di stile per la personalizzazione o la modifica.
 
 1. In **Stili** elenco, espandere **Stili carattere**.
 
@@ -196,7 +196,7 @@ Nell’esempio seguente verrà creato uno stile di carattere in linea:
    * **Font**: Tutte le proprietà relative ai font possono essere personalizzate da questa sezione. Per impostazione predefinita, sono presenti alcuni font abbinati al prodotto. È possibile scegliere il font desiderato per lo stile di carattere. Per il nostro esempio, imposta la Famiglia di font su *Serif* e seleziona *Grassetto* e *Corsivo* nella proprietà Stile font. È inoltre possibile personalizzare altre proprietà dei font, come Spessore font (come grassetto, più chiaro), Decorazione testo (come sottolineato, in linea), Dimensione font, Colore font, Allineamento testo e altro ancora.
 
       >[!NOTE]
-      Puoi anche aggiungere font al modello, memorizzati nella sezione Risorse del modello. Per ulteriori dettagli sull&#39;aggiunta di font e sull&#39;utilizzo delle risorse, consulta **Aggiungi un collegamento alla sezione Risorse**.
+      Puoi anche aggiungere font al modello, memorizzati nella sezione Risorse del modello. Per ulteriori dettagli sull&#39;aggiunta di font e sull&#39;utilizzo delle risorse, consulta [Utilizzare le risorse](components-pdf-template.md#work-with-resources).
 
    * **Layout**: È possibile impostare le proprietà relative al layout quali Altezza e Larghezza, Margine, Spaziatura, Allineamento e altro ancora.
 
@@ -219,7 +219,7 @@ Nell’esempio seguente personalizzeremo lo stile dell’elenco numerato o ordin
 1. Aprire il foglio di stile richiesto per la modifica.
 
    >[!NOTE]
-   Vedi *Personalizzare uno stile predefinito o nuovo* sezione per l&#39;apertura di un foglio di stile per la personalizzazione o la modifica.
+   Vedi [Personalizzare uno stile predefinito o nuovo](components-pdf-template.md#customize-style) sezione per l&#39;apertura di un foglio di stile per la personalizzazione o la modifica.
 
 1. In **Stili** elenco, espandere **Stili elenco**.
 
@@ -278,7 +278,7 @@ Nell’esempio seguente viene illustrato come creare uno stile di tabella e le v
 1. Aprire il foglio di stile richiesto per la modifica.
 
    >[!NOTE]
-   Vedi *Personalizzare uno stile predefinito o nuovo* sezione per l&#39;apertura di un foglio di stile per la personalizzazione o la modifica.
+   Vedi [Personalizzare uno stile predefinito o nuovo](components-pdf-template.md#customize-style) sezione per l&#39;apertura di un foglio di stile per la personalizzazione o la modifica.
 
 1. In **Stili** elenco, fai clic con il pulsante destro del mouse **Stile tabella** e scegli **Nuovo stile**.
 
@@ -331,7 +331,7 @@ Nell’esempio seguente, verrà creato il titolo di una nuova finestra (`wintitl
 1. Aprire il foglio di stile richiesto per la modifica.
 
    >[!NOTE]
-   Vedi *Personalizzare uno stile predefinito o nuovo* sezione per l&#39;apertura di un foglio di stile per la personalizzazione o la modifica.
+   Vedi [Personalizzare uno stile predefinito o nuovo](components-pdf-template.md#customize-style) sezione per l&#39;apertura di un foglio di stile per la personalizzazione o la modifica.
 
 1. In **Stili** elenco, espandi **Altri stili**.
 
