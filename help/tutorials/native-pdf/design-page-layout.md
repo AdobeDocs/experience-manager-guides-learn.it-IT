@@ -4,23 +4,23 @@ description: Scopri come progettare il layout di pagina per presentare informazi
 hide: true
 hidefromtoc: true
 exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
-source-git-commit: f8af7d7180b3d70d17e1410885017212dec721ef
+source-git-commit: 563a301e4db20cd8076eaffd970d53b7a8743449
 workflow-type: tm+mt
-source-wordcount: '4688'
+source-wordcount: '4686'
 ht-degree: 0%
 
 ---
 
 
-# Progettazione di un layout di pagina
+# Progettazione di un layout di pagina {#design-page-layout}
 
 Quando si crea un documento PDF, sono disponibili sezioni diverse per presentare diversi tipi di informazioni. Ad esempio, un documento PDF parte da una pagina iniziale o di copertina, contenente il logo, il titolo del libro o le informazioni sulla versione della tua azienda. Ci sarebbero poi capitoli, appendici o pagine del glossario. Ogni sezione di un documento PDF ha un aspetto diverso e questo si ottiene creando e personalizzando il layout della pagina.
 
 Quando si progetta un layout di pagina, è possibile definire i vari elementi che compongono una pagina. Ad esempio, è possibile definire le dimensioni della pagina, i margini, l’intestazione e il piè di pagina, l’orientamento e altre specifiche di pagina in una pagina. La funzione Pubblicazione nativa di PDF consente di progettare la pagina in base alla [Standard per file multimediali](https://www.w3.org/TR/css-page-3/). La maggior parte delle impostazioni coperte dagli standard Paged Media può essere facilmente personalizzata utilizzando l&#39;interfaccia utente della funzione Pubblicazione nativa di PDF. Per altre formattazioni avanzate, puoi utilizzare la vista Origine per scrivere il tuo codice CSS.
 
-Una volta progettati i layout di pagina, è necessario associare questi layout alle rispettive sezioni nelle impostazioni di layout di pagina di PDF. Consulta la sezione _Creare e personalizzare i layout di pagina_ per informazioni dettagliate su come creare e aprire un layout di pagina per la personalizzazione.
+Una volta progettati i layout di pagina, è necessario associare questi layout alle rispettive sezioni nelle impostazioni di layout di pagina di PDF. Consulta la sezione [Creare e personalizzare i layout di pagina](components-pdf-template.md#create-customize-page-layout) per informazioni dettagliate su come creare e aprire un layout di pagina per la personalizzazione.
 
-## Tipi di layout di pagina
+## Tipi di layout di pagina {#types-of-page-layout}
 
 Un documento PDF contiene in genere le sezioni seguenti:
 
@@ -33,11 +33,11 @@ Un documento PDF contiene in genere le sezioni seguenti:
 * Indice
 * Pagina posteriore
 
-Per presentare le informazioni in un formato specifico, è necessario disporre di un layout di pagina corrispondente. Inoltre, è possibile disporre di una pagina vuota utilizzata come compilatore per iniziare un nuovo capitolo da una pagina dispari o pari. In tal caso, è possibile utilizzare il layout di pagina predefinito o creare un layout di pagina per una pagina vuota. Vedi _Creare un nuovo layout di pagina_ per ulteriori dettagli.
+Per presentare le informazioni in un formato specifico, è necessario disporre di un layout di pagina corrispondente. Inoltre, è possibile disporre di una pagina vuota utilizzata come compilatore per iniziare un nuovo capitolo da una pagina dispari o pari. In tal caso, è possibile utilizzare il layout di pagina predefinito o creare un layout di pagina per una pagina vuota. Vedi [Creare un nuovo layout di pagina](components-pdf-template.md#create-page-layout) per ulteriori dettagli.
 
 Le impostazioni Layout di pagina nella sezione **Modello>Impostazioni** consente di definire il layout di pagina da utilizzare per diverse sezioni di PDF. Ogni layout di pagina può inoltre presentare diverse varianti di pagina prima, destra o sinistra.
 
-### Creare le varianti di layout di pagina prima, destra o sinistra
+### Creare le varianti di layout di pagina prima, destra o sinistra {#page-layout-variants}
 
 I diversi layout di pagina nel modello PDF possono essere ulteriormente personalizzati utilizzando diverse varianti di layout di pagina iniziale, destra o sinistra. È possibile progettare queste pagine in modo diverso utilizzando Progettazione layout pagina.
 
@@ -61,7 +61,7 @@ Quando crei i layout di pagina, considera quanto segue:
 
    >[!NOTE]
    >
-   >Se non si crea un layout di pagina vuoto separato, viene utilizzato il layout di pagina predefinito. Per creare un layout di pagina, consulta _Creare un nuovo layout di pagina_.
+   >Se non si crea un layout di pagina vuoto separato, viene utilizzato il layout di pagina predefinito. Per creare un layout di pagina, consulta [Creare un nuovo layout di pagina](components-pdf-template.md#create-page-layout).
 
 L’esempio seguente illustra il processo di creazione delle varianti di un layout di pagina:
 
@@ -85,7 +85,7 @@ L’esempio seguente illustra il processo di creazione delle varianti di un layo
 
 Il layout di pagina selezionato viene creato utilizzando una copia del layout Capitolo di base. Ciò significa che se sono state apportate modifiche al layout predefinito della pagina Capitolo, le stesse modifiche vengono replicate nel layout della pagina variante al momento della creazione del layout di pagina.
 
-## Operazioni con le Proprietà pagina di un layout di pagina
+## Operazioni con le Proprietà pagina di un layout di pagina {#page-props-page-layout}
 
 Durante la progettazione di un layout di pagina, è essenziale avere il controllo su varie proprietà di pagina. La funzione Pubblicazione PDF nativa racchiude tutte le proprietà principali della pagina nel pannello Proprietà pagina. Il pannello Proprietà pagina consente di accedere a varie proprietà nelle sezioni seguenti:
 
@@ -93,7 +93,7 @@ Durante la progettazione di un layout di pagina, è essenziale avere il controll
 >
 >Il pannello Proprietà pagina incapsula le proprietà e segue le regole definite in [Standard per file multimediali](https://www.w3.org/TR/css-page-3/).
 
-* **Dimensioni pagina** : Specifica le dimensioni della pagina da utilizzare per il layout di pagina. L’elenco a discesa Dimensione pagina consente di scegliere tra più di 15 dimensioni di pagina. È inoltre possibile creare un layout di pagina utilizzando una dimensione di pagina personalizzata, vedere **Imposta le dimensioni della pagina** per ulteriori dettagli.
+* **Dimensioni pagina** : Specifica le dimensioni della pagina da utilizzare per il layout di pagina. L’elenco a discesa Dimensione pagina consente di scegliere tra più di 15 dimensioni di pagina. È inoltre possibile creare un layout di pagina utilizzando una dimensione di pagina personalizzata, vedere [Imposta le dimensioni della pagina](design-page-layout.md#set-the-page-size) per ulteriori dettagli.
 
 * **Orientamento** : Specifica l’orientamento della pagina da utilizzare per il layout di pagina. È possibile scegliere tra l’orientamento della pagina Verticale o Orizzontale. È possibile scegliere di applicare orientamenti diversi a varianti di pagina diverse in un layout di pagina. Ad esempio, se il contenuto contiene una tabella ampia o un’immagine grande, è possibile creare un layout di pagina orizzontale e applicare tale layout alla tabella o all’immagine più ampia.
 
@@ -109,7 +109,7 @@ Durante la progettazione di un layout di pagina, è essenziale avere il controll
 
 * **Nota** : Specifica le proprietà per visualizzare le note a piè di pagina nell’output. È possibile scegliere di specificare i margini e le proprietà di spaziatura insieme a uno stile di bordo.
 
-### Imposta le dimensioni della pagina
+### Imposta le dimensioni della pagina {#set-page-size}
 
 La prima cosa da definire in un layout di pagina è la dimensione della pagina. Nelle Proprietà pagina sono disponibili oltre 15 dimensioni di pagina per un layout di pagina. Puoi anche creare una dimensione di pagina personalizzata eseguendo le seguenti operazioni:
 
@@ -117,7 +117,7 @@ La prima cosa da definire in un layout di pagina è la dimensione della pagina. 
 
    >[!NOTE]
    >
-   >Vedi _Personalizzare un layout di pagina_ per aprire un layout di pagina da personalizzare o modificare.
+   >Vedi [Personalizzare un layout di pagina](components-pdf-template.md#customize-page-layout) per aprire un layout di pagina da personalizzare o modificare.
 
 1. Nel pannello di destra, fai clic su **Proprietà pagina**.
 1. In **Dimensioni pagina** elenco a discesa, seleziona **Personalizzato**.
@@ -130,7 +130,7 @@ La prima cosa da definire in un layout di pagina è la dimensione della pagina. 
    >
    >Alcune delle unità più utilizzate sono px (pixel), pt (punti), rem, em, % (percentuale) e in (pollici).
 
-### Utilizza l’orientamento della pagina e la rotazione della vista
+### Utilizza l’orientamento della pagina e la rotazione della vista {#page-orientation-rotation}
 
 Vediamo un esempio in cui viene utilizzata una combinazione di orientamento della pagina verticale e orizzontale e di proprietà di rotazione della vista. In questo esempio verrà creato un PDF con orientamento verticale predefinito, ma verrà eseguito il rendering di una tabella con orientamento orizzontale con contenuto nella visualizzazione a 90 gradi in senso orario. L&#39;output finale avrà un aspetto simile a:
 
@@ -215,7 +215,7 @@ Esegui i seguenti passaggi per eseguire le attività di cui sopra:
 
 Il contenuto della tabella finale verrà riprodotto in modalità orizzontale, come illustrato all’inizio dell’esempio.
 
-### Aggiungi un&#39;immagine di sfondo
+### Aggiungi un&#39;immagine di sfondo {#add-bg-image}
 
 In base alle tue esigenze, puoi aggiungere un’immagine di sfondo che viene visualizzata su ogni prima pagina di un output di capitolo (PDF). Le proprietà Sfondo nelle Proprietà pagina consentono di aggiungere facilmente un’immagine di sfondo. È possibile scegliere di replicare l&#39;immagine su una pagina e posizionarla in un punto qualsiasi dell&#39;area superiore, inferiore o centrale della pagina.
 
@@ -225,7 +225,7 @@ Ad esempio, per inserire un’immagine di sfondo nella parte centrale dell’are
 
    >[!NOTE]
    >
-   >Vedi _Personalizzare un layout di pagina_ per aprire un layout di pagina da personalizzare o modificare.
+   >Vedi [Personalizzare un layout di pagina](components-pdf-template.md#customize-page-layout) per aprire un layout di pagina da personalizzare o modificare.
 
 1. Fare clic in un punto qualsiasi dell’area contenuto.
 
@@ -255,13 +255,13 @@ La schermata seguente visualizza l&#39;immagine di sfondo con la proprietà Ripe
 
 <img src="./assets/background-image.png" width="500">
 
-## Operazioni con intestazione e piè di pagina
+## Operazioni con intestazione e piè di pagina {#work-header-footer}
 
 Quando si includono informazioni in un layout di intestazione o piè di pagina, tali informazioni vengono ripetute in tutte le pagine che utilizzano tale layout. In genere, l’area di intestazione viene utilizzata per il titolo del capitolo o dell’argomento e l’area piè di pagina viene utilizzata per visualizzare i numeri di pagina.
 
 Quando si crea un nuovo layout di pagina, per impostazione predefinita viene creata l’area di intestazione e piè di pagina. È possibile eseguire molte personalizzazioni nell’area di intestazione e piè di pagina di un layout di pagina. Ad esempio, puoi inserire un’immagine (come un logo), variabili (contenenti informazioni dinamiche) o contenuti statici.
 
-### Modifica dei margini e delle righe di intestazione e piè di pagina
+### Modifica dei margini e delle righe di intestazione e piè di pagina {#header-footer-margins}
 
 Per impostazione predefinita, i margini di intestazione e piè di pagina sono impostati su 1 pollice. Per modificare questo valore predefinito, modifica l’impostazione Margine nel pannello Proprietà pagina . Per modificare le dimensioni di intestazione e piè di pagina, effettua le seguenti operazioni:
 
@@ -269,7 +269,7 @@ Per impostazione predefinita, i margini di intestazione e piè di pagina sono im
 
    >[!NOTE]
    >
-   >Vedi _Personalizzare un layout di pagina_ per aprire un layout di pagina da personalizzare o modificare.
+   >Vedi [Personalizzare un layout di pagina](components-pdf-template.md#customize-page-layout) per aprire un layout di pagina da personalizzare o modificare.
 
 1. Nel pannello di destra, fai clic su **Proprietà pagina**.
 1. Espandi la **Layout** sezione .
@@ -301,7 +301,7 @@ Se desideri lavorare direttamente con il codice CSS e HTML, puoi modificare i va
 >
 >Nell&#39;esempio precedente, vengono utilizzate diverse unità per specificare i valori dei margini.
 
-### Rimuovi intestazione e piè di pagina
+### Rimuovi intestazione e piè di pagina {#remove-header-footer}
 
 Sovrapposizione intestazione e piè di pagina nei margini superiore e inferiore. Tecnicamente, se desideri che nel layout di pagina sia presente un’intestazione e un piè di pagina, devi riservare lo spazio richiesto ai margini superiore e inferiore.
 
@@ -310,7 +310,7 @@ Se non si desidera che un layout di pagina abbia intestazione e piè di pagina, 
 * Se si desidera mantenere i margini superiore e inferiore, lasciare vuota l’area di intestazione e piè di pagina.
 * Se non si desidera mantenere i margini superiore e inferiore (come la progettazione della copertina anteriore e posteriore di una rivista), è possibile rimuovere i margini impostando le proprietà dei margini superiore e inferiore su 0. Questo non lascia spazio all’intestazione e al piè di pagina.
 
-### Aggiungi un’immagine o un logo nell’intestazione
+### Aggiungi un’immagine o un logo nell’intestazione {#add-image-header}
 
 In base alle tue esigenze, puoi aggiungere un’immagine che appare nell’area di intestazione (o in qualsiasi altra parte) del layout di pagina. Sono disponibili due modi per aggiungere un’immagine nel layout di pagina:
 
@@ -327,7 +327,7 @@ Per inserire un’immagine come il logo della tua azienda nell’area di intesta
 
 >[!NOTE]
 >
->Vedi _Personalizzare un layout di pagina_ per aprire un layout di pagina da personalizzare o modificare.
+>Vedi [Personalizzare un layout di pagina](components-pdf-template.md#customize-page-layout) per aprire un layout di pagina da personalizzare o modificare.
 
 1. Fai clic su Modifica intestazione (<img src="./assets/header-icon.svg" width="25">) per spostare il cursore nell’area di intestazione.
 
@@ -341,9 +341,9 @@ La schermata seguente mostra un esempio di immagine aggiunta nell’area di inte
 
 <img src="./assets/image-in-header-area.png" width="500">
 
-Una volta inserita un’immagine, puoi modificarne gli attributi per ottenere l’aspetto desiderato. Il modo più semplice per modificare l’aspetto di un’immagine o di qualsiasi altro elemento nel layout di pagina, utilizza il pannello Proprietà contenuto . Vedi _Utilizzare il pannello Proprietà contenuto_ per le varie proprietà che sono disponibili tramite l’interfaccia utente per personalizzare.
+Una volta inserita un’immagine, puoi modificarne gli attributi per ottenere l’aspetto desiderato. Il modo più semplice per modificare l’aspetto di un’immagine o di qualsiasi altro elemento nel layout di pagina, utilizza il pannello Proprietà contenuto . Vedi [Utilizzare il pannello Proprietà contenuto](design-page-layout.md#work-with-content-properties-panel) per le varie proprietà che sono disponibili tramite l’interfaccia utente per personalizzare.
 
-### Aggiungere campi e metadati
+### Aggiungere campi e metadati {#add-fields-metadata}
 
 I campi sono molto utili quando si desidera inserire informazioni predefinite. Ad esempio, è possibile includere un campo Titolo capitolo nell’area di intestazione del capitolo che viene sostituito con il titolo del capitolo effettivo quando viene pubblicato.
 
@@ -361,7 +361,7 @@ Sono disponibili le seguenti categorie di campi che è possibile inserire nel la
 
 Ciascuna di queste categorie di campi contiene diverse varianti in cui è possibile inserire le informazioni sul campo. Ad esempio, un campo Data può presentare varianti diverse, ad esempio `YYYY-MM-DD`, `MM/DD/YY`, `MM/DD/YYYY` e così via. Analogamente, il numero di pagina può presentare varianti sotto forma di formati romano, decimale o anche specifici per le impostazioni internazionali, come _Arabo_, _Devanagari_, _Ebraico_ e altro ancora.
 
-Oltre ai campi predefiniti, è anche possibile aggiungere informazioni sui metadati come variabili o campi nel layout di pagina. Questi metadati vengono memorizzati nel contenuto della mappa DITA di origine e possono essere facilmente inseriti nel layout di pagina. Per ulteriori informazioni, consulta _Utilizzare campi e metadati_.
+Oltre ai campi predefiniti, è anche possibile aggiungere informazioni sui metadati come variabili o campi nel layout di pagina. Questi metadati vengono memorizzati nel contenuto della mappa DITA di origine e possono essere facilmente inseriti nel layout di pagina. Per ulteriori informazioni, consulta [Aggiungere campi e metadati](design-page-layout.md#add-fields-and-metadata).
 
 Nell’esempio seguente, verranno inseriti un numero di pagina e un titolo di capitolo nell’area del piè di pagina di un layout di pagina.
 
@@ -369,7 +369,7 @@ Nell’esempio seguente, verranno inseriti un numero di pagina e un titolo di ca
 
    >[!NOTE]
    >
-   >Vedi _Personalizzare un layout di pagina_ per aprire un layout di pagina da personalizzare o modificare.
+   >Vedi [Personalizzare un layout di pagina](components-pdf-template.md#customize-page-layout) per aprire un layout di pagina da personalizzare o modificare.
 
 1. Fai clic sul pulsante **Modifica piè di pagina** (![](./assets/footer-icon.svg)) per spostare il cursore nell’area piè di pagina.
 
@@ -387,7 +387,7 @@ Nell’esempio seguente, verranno inseriti un numero di pagina e un titolo di ca
 
    >[!NOTE]
    >
-   >È inoltre possibile modificare il formato di tutti i campi, ad eccezione del formato predefinito. A tale scopo, fare clic sull&#39;icona Modifica accanto al formato da modificare, apportare modifiche e fare clic su OK. Per ulteriori informazioni, consulta _Utilizzare campi e metadati_.
+   >È inoltre possibile modificare il formato di tutti i campi, ad eccezione del formato predefinito. A tale scopo, fare clic sull&#39;icona Modifica accanto al formato da modificare, apportare modifiche e fare clic su OK. Per ulteriori informazioni, consulta [Aggiungere campi e metadati](design-page-layout.md#add-fields-and-metadata).
 
    Il campo numero pagina predefinito viene inserito nell’area piè di pagina del layout di pagina.
 
@@ -433,7 +433,7 @@ Se desideri lavorare direttamente con il codice CSS e HTML, puoi farlo anche pas
 …
 ```
 
-## Operazioni con l’area contenuto
+## Operazioni con l’area contenuto {#content-area}
 
 L’area contenuto è l’area più grande in termini di spazio contenuto. L’area contenuto viene compilata con il contenuto dell’argomento. In alcuni casi speciali, è possibile aggiungere contenuto ricorrenti nell’area contenuto. Questo contenuto viene pubblicato nella posizione specificata nel layout della pagina. Ad esempio, l’intestazione del sommario, del glossario e dell’indice può essere aggiunta come contenuto standard, pubblicato &quot;così com’è&quot; nell’output finale. Un altro esempio è il sommario del capitolo, che viene generalmente aggiunto nella prima pagina di ogni capitolo.
 
@@ -441,7 +441,7 @@ Una delle personalizzazioni più comunemente utilizzate nell’area contenuto è
 
 Nelle sezioni seguenti verranno illustrati vari scenari per personalizzare l’area contenuto.
 
-### Aggiungi un sommario capitolo
+### Aggiungi un sommario capitolo {#add-chapter-toc}
 
 Il sommario di un capitolo funge da riferimento rapido per consentire ai lettori di sapere cosa c&#39;è nel capitolo. In genere, un sommario di capitolo viene aggiunto all&#39;inizio di un capitolo. Quindi, se si desidera utilizzare un sommario capitolo, è possibile aggiungerlo nell&#39;area contenuto del layout della pagina capitolo principale o della variante del layout della prima pagina di un capitolo.
 
@@ -455,7 +455,7 @@ Nell’esempio seguente viene inserito un sommario di capitolo nel primo layout 
 
    >[!NOTE]
    >
-   >Vedi _Personalizzare un layout di pagina_ per aprire un layout di pagina da personalizzare o modificare.
+   >Vedi [Personalizzare un layout di pagina](components-pdf-template.md#customize-a-page-layout) per aprire un layout di pagina da personalizzare o modificare.
 
 1. Posizionare il cursore nell’area contenuto del layout di pagina.
 
@@ -489,7 +489,7 @@ L’aspetto del sommario predefinito può essere personalizzato utilizzando i fo
 >
 >Attualmente, se si eseguono aggiornamenti di stile in un foglio di stile, potrebbe non essere visualizzato nell’anteprima del contenuto. Tuttavia, viene eseguito il rendering dell’output con gli stili aggiornati.
 
-### Utilizzo del layout di pagina a più colonne
+### Utilizzo del layout di pagina a più colonne {#multi-column-layout}
 
 I layout di pagina a più colonne sono molto comuni nella pubblicazione di riviste o indici in un libro. La funzione Pubblicazione nativa di PDF consente di dividere facilmente il documento in più colonne. Utilizzando layout di pagina diversi, è possibile scegliere di mantenere solo una sezione specifica divisa in più colonne mantenendo le altre sezioni in un layout a colonna singola (o normale).
 
@@ -499,7 +499,7 @@ Per creare un layout di pagina con più colonne, effettua le seguenti operazioni
 
    >[!NOTE]
    >
-   >Vedi _Personalizzare un layout di pagina_ per aprire un layout di pagina da personalizzare o modificare.
+   >Vedi [Personalizzare un layout di pagina](components-pdf-template.md#customize-a-page-layout) per aprire un layout di pagina da personalizzare o modificare.
 
 1. Poiché il layout a più colonne viene applicato al contenuto, escludendo l’area intestazione e piè di pagina, è necessario selezionare l’elemento contenuto nella breadcrumb.
 
@@ -536,7 +536,7 @@ Per creare un layout di pagina con più colonne, effettua le seguenti operazioni
    * **Regola colonna** : Se si desidera inserire una riga tra le colonne, utilizzare questa proprietà per definire gli stili di linea o di regola. Specificare i valori per Stile, Colore e Larghezza regola per aggiungere una linea tra le colonne.
 
 
-## Utilizzare il pannello Proprietà contenuto
+## Utilizzare il pannello Proprietà contenuto {#work-with-content-props}
 
 Il pannello Proprietà contenuto consente di aggiornare facilmente l’aspetto degli elementi nel layout di pagina. Le proprietà nel pannello Proprietà contenuto sono suddivise nelle sezioni seguenti:
 

@@ -3,7 +3,7 @@ title: Funzione di pubblicazione nativa di PDF | Utilizzare gli stili di contenu
 description: Scopri come creare e utilizzare fogli di stile e creare stili per i contenuti.
 hide: true
 hidefromtoc: true
-source-git-commit: 78db1486af3eb99b165a136d6bae6f7f15a1b527
+source-git-commit: 563a301e4db20cd8076eaffd970d53b7a8743449
 workflow-type: tm+mt
 source-wordcount: '3500'
 ht-degree: 0%
@@ -11,7 +11,7 @@ ht-degree: 0%
 ---
 
 
-# Utilizzare gli stili di contenuto comuni
+# Utilizzare gli stili di contenuto comuni {#work-with-common-styles}
 
 Un foglio di stile contiene le definizioni degli stili per gli elementi utilizzati nell&#39;output di PDF. È possibile scegliere di lavorare con i fogli di stile di esempio o crearne di nuovi. Nella maggior parte dei casi, la creazione di una copia del foglio di stile di esempio OOTB ti aiuterà a iniziare rapidamente.
 
@@ -36,7 +36,7 @@ Nelle sezioni seguenti sono illustrate le impostazioni di stile più comunemente
 >
 >Negli esempi seguenti, si presume che si stia utilizzando il foglio di stile campione fornito con il prodotto.
 
-## Operazioni con gli stili di intestazione
+## Operazioni con gli stili di intestazione {#heading-styles}
 
 Gli stili di intestazione racchiudono tutti gli stili di base per le intestazioni utilizzate nel contenuto. OOTB otterrai 6 stili di intestazione di base e uno stile di intestazione per l’argomento/capitolo e l’intestazione del titolo dell’appendice. In un documento strutturato, l’H1 rappresenta il titolo dell’argomento o del capitolo e l’H2-H6 viene utilizzato per i sottoargomenti o le sezioni all’interno di un argomento/capitolo. Questa gerarchia di intestazioni viene applicata automaticamente al contenuto ogni volta che viene trovata l’intestazione corrispondente.
 
@@ -44,7 +44,7 @@ Gli stili di intestazione racchiudono tutti gli stili di base per le intestazion
 >
 >È possibile creare stili di intestazione personalizzati che possono essere utilizzati nel contenuto utilizzando la classe outputclass. Per ulteriori dettagli, vedi il passaggio 4 in *Utilizza l’orientamento della pagina e la rotazione della vista* esempio.
 
-### Creare intestazioni personalizzate a livello di capitolo
+### Creare intestazioni personalizzate a livello di capitolo {#create-chapter-level-heading}
 
 In un libro (o una mappa) si lavora con i Capitoli. Gli stili di intestazione di base sono progettati in modo che vengano applicati alle intestazioni a livello di capitolo senza alcuna personalizzazione. Tuttavia, se desideri creare intestazioni specializzate per il contenuto, dovrai creare tali intestazioni. Ad esempio, il valore predefinito `h1.chapter` viene applicata al titolo del capitolo. Se si desidera che il titolo del capitolo venga visualizzato in uno stile diverso, è necessario personalizzare la `h1.chapter` stile. Allo stesso modo, è possibile creare stili personalizzati per le sottotitoli nel capitolo. Ad esempio, se desideri creare uno stile personalizzato per tutti i 2<sup>nd</sup> e 3<sup>rd</sup> livella le intestazioni nel capitolo, quindi devi creare un nuovo stile come `h2.chatper` e `h3.chatper`.
 
@@ -66,7 +66,7 @@ Nuovo stile di intestazione denominato `h2.chapter` viene creato e aggiunto nell
 
 Dopo aver creato uno stile, è possibile personalizzare le proprietà richieste dello stile utilizzando l’editor di stili.
 
-### Crea titoli con numero automatico
+### Crea titoli con numero automatico {#auto-number-heading}
 
 Uno degli stili di output più comunemente utilizzati è quello con titolo autonumerato. Queste intestazioni rappresentano il numero del capitolo, i numeri dell&#39;argomento e dei sottoargomenti. Le intestazioni di numero automatico sono diverse dagli stili di elenco in cui a un elenco di elementi all’interno di un argomento vengono assegnati numeri automatici.
 
@@ -129,11 +129,11 @@ Le proprietà dello stile h1 vengono visualizzate nel pannello Proprietà insiem
 
    <img src="./assets/auto-number-output.png" width="500">
 
-## Operazioni con gli stili di paragrafo
+## Operazioni con gli stili di paragrafo {#paragraph-style}
 
 È possibile creare uno stile di paragrafo per applicare una formattazione speciale a un intero paragrafo. Tuttavia, utilizzando la pseudo-classe, è possibile applicare uno stile solo a una parte specifica del testo. Nell’esempio seguente verrà creato uno stile di paragrafo per utilizzare lo stile del capolettera.
 
-### Creare lo stile del tappo a discesa
+### Creare lo stile del tappo a discesa {#drop-cap-style}
 
 Nelle riviste viene utilizzato uno stile di cappuccio a goccia (o maiuscoletto) e nei documenti letterari in cui al primo carattere di un paragrafo o di una sezione viene assegnato uno stile speciale. È possibile ottenere lo stesso effetto utilizzando la funzione Pubblicazione nativa di PDF.
 
@@ -164,11 +164,11 @@ Come `p` è mappato con `<p>` in DITA, non è necessario aggiungere esplicitamen
 
 <img src="./assets/char-style-drop-cap.png" width="500">
 
-## Utilizzo degli stili di carattere
+## Utilizzo degli stili di carattere {#char-style}
 
 Utilizzando gli stili di carattere, è possibile creare stili per la formattazione di caratteri o parole all’interno del contenuto. Ad esempio, è possibile creare uno stile di carattere per il codice in linea o il nome del file oppure uno stile che utilizza più formati di stile per il contenuto selezionato.
 
-### Creare uno stile di carattere in linea
+### Creare uno stile di carattere in linea {#inline-char-style}
 
 La formattazione di caratteri o parole in linea in un paragrafo è uno stile molto comune. Il processo di creazione di uno stile in linea prevede due attività: prima, creare un nuovo stile nel foglio di stile e poi applicare lo stile nel contenuto utilizzando il `outputclass` attributo.
 
@@ -210,7 +210,7 @@ Nell&#39;esempio seguente viene illustrato il formato Grassetto corsivo applicat
 
 <img src="./assets/char-format-applied.png" width="500">
 
-## Personalizza stile elenco
+## Personalizza stile elenco {#custom-list-style}
 
 Gli stili elenco contengono le impostazioni di stile predefinite per gli elenchi ordinati e non ordinati. Puoi personalizzare facilmente questi stili dell’elenco in base ai tuoi requisiti di documentazione.
 
@@ -269,7 +269,7 @@ Nell’esempio seguente personalizzeremo lo stile dell’elenco numerato o ordin
       <img src="./assets/list-number-format-final.png" width="500">
 
 
-## Operazioni con lo stile di tabella
+## Operazioni con lo stile di tabella {#table-styles}
 
 Utilizzando i fogli di stile, puoi progettare *n* numero di stili di tabella. Utilizzando gli stili di tabella, è possibile progettare l’intera tabella, una particolare riga o colonna. Grazie al controllo dello stile a livello di cella, è possibile creare stili di tabella molto presentabili.
 
@@ -320,7 +320,7 @@ Nell’esempio seguente viene illustrato come creare uno stile di tabella e le v
 
    <img src="./assets/table-final-design.png" width="500">
 
-## Operazioni con altri stili
+## Operazioni con altri stili {#other-styles}
 
 Se si lavora con contenuto strutturato (DITA), si noterà che quasi tutti gli elementi DITA hanno una mappatura dello stile nel foglio di stile predefinito. Ad esempio, un `<shortdesc>` lo stile dell’elemento è definito in **Altro stile** > **.shortdesc** definizione dello stile. È possibile personalizzare facilmente uno qualsiasi di questi stili e vengono applicati automaticamente nell’output di PDF generato dal contenuto strutturato. Ciò significa che, a differenza di altri stili personalizzati, non è necessario aggiungere un `outputclass` sul contenuto di questi stili.
 

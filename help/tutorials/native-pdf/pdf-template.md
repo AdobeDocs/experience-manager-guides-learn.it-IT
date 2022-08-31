@@ -3,14 +3,15 @@ title: Funzione di pubblicazione nativa di PDF | Personalizzare e configurare la
 description: Scopri come personalizzare e configurare i vari componenti della funzione nativa di PDF.
 hide: true
 hidefromtoc: true
-source-git-commit: 0f18d9f7d7967b6f25c5d05b54a22f65e9fc20f7
+exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
+source-git-commit: 563a301e4db20cd8076eaffd970d53b7a8743449
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 0%
 
 ---
 
-# Modello PDF
+# Modello PDF {#PDF-template}
 
 L’utilizzo di un modello garantisce la coerenza del layout e della struttura del contenuto. Poiché i modelli sono predefiniti, puoi evitare di rielaborare i problemi di formattazione che insorgono per ogni nuovo progetto o aggiornamento. I modelli consentono di progettare layout di pagina, contenuti di stile e di applicare varie impostazioni per personalizzare il PDF.
 
@@ -31,7 +32,7 @@ Per creare un nuovo modello PDF, effettua le seguenti operazioni:
 
 Il nuovo modello viene creato e aggiunto nel *Modelli* pannello.
 
-## Duplicare un modello di PDF
+## Duplicare un modello di PDF {#duplicate-pdf-template}
 
 Se si desidera creare un nuovo modello con gli stessi layout di pagina e la stessa formattazione di un modello esistente, è possibile creare una copia. Una volta duplicato un modello, puoi personalizzarne ulteriormente i componenti in base alle esigenze.
 
@@ -53,7 +54,7 @@ Per duplicare un modello PDF esistente, effettua le seguenti operazioni:
 
    Un modello duplicato viene creato e aggiunto in Modelli.
 
-## Personalizzare un modello di PDF
+## Personalizzare un modello di PDF {#customize-pdf-template}
 
 È possibile personalizzare i modelli modificando i componenti del modello e applicando formati di stile utilizzando fogli di stile.
 
@@ -71,13 +72,11 @@ Per personalizzare un modello di PDF, effettua le seguenti operazioni:
    <img src="assets/customize-pdf-template.png" alt="Personalizza campione PDF" width="350">
 
    I vari componenti modello che è possibile personalizzare sono suddivisi nelle sezioni seguenti:
-   * Layout di pagina: Un PDF tipico contiene pagine diverse, ad esempio una copertina anteriore o una pagina titolo, sommario, capitolo, indice e altro ancora. La sezione Layout di pagina consente di progettare l’aspetto di pagine diverse che compongono il PDF. Oltre all’aspetto, è anche possibile definire la disposizione degli elementi della pagina, come l’intestazione, il piè di pagina e le aree contenuto di una pagina. Per ulteriori informazioni sulla personalizzazione del layout di una pagina, consulta ***Creare e personalizzare i layout di pagina***.
-   * Fogli di stile: Le impostazioni nella sezione Foglio di stile consentono di personalizzare l’aspetto dei componenti di layout della pagina come sommario, indice, glossario e altro ancora. Inoltre, è possibile personalizzare gli stili per il contenuto DITA come intestazioni, paragrafi, elenchi e altro ancora. Per ulteriori informazioni sull’utilizzo dei fogli di stile, consulta ***Utilizzare fogli di stile per personalizzare PDF***.
-   * Risorse: Archiviare i file di risorse che è necessario personalizzare o progettare modelli di PDF. Risorse quali loghi, font personalizzati, immagini di sfondo e altro ancora sono memorizzate in Risorse. Per ulteriori informazioni sull’utilizzo delle risorse, consulta ***Utilizzare le risorse***.
-   * Impostazioni: Configura le impostazioni di output per generare un PDF utilizzando il modello . Questa sezione ti consente di definire la mappatura dei modelli per diverse pagine in PDF, la pagina iniziale dei capitoli, i marcatori di stampa e altro ancora. Per ulteriori informazioni sull’applicazione delle impostazioni, consulta ***Impostazioni avanzate di PDF***.
+   * Layout di pagina: Un PDF tipico contiene pagine diverse, ad esempio una copertina anteriore o una pagina titolo, sommario, capitolo, indice e altro ancora. La sezione Layout di pagina consente di progettare l’aspetto di pagine diverse che compongono il PDF. Oltre all’aspetto, è anche possibile definire la disposizione degli elementi della pagina, come l’intestazione, il piè di pagina e le aree contenuto di una pagina. Per ulteriori informazioni sulla personalizzazione del layout di una pagina, consulta [Creare e personalizzare i layout di pagina](components-pdf-template.md#create-customize-page-layout).
+   * Fogli di stile: Le impostazioni nella sezione Foglio di stile consentono di personalizzare l’aspetto dei componenti di layout della pagina come sommario, indice, glossario e altro ancora. Inoltre, è possibile personalizzare gli stili per il contenuto DITA come intestazioni, paragrafi, elenchi e altro ancora. Per ulteriori informazioni sull’utilizzo dei fogli di stile, consulta [Utilizzare fogli di stile per personalizzare PDF](components-pdf-template.md#stylesheet-customization).
+   * Risorse: Archiviare i file di risorse che è necessario personalizzare o progettare modelli di PDF. Risorse quali loghi, font personalizzati, immagini di sfondo e altro ancora sono memorizzate in Risorse. Per ulteriori informazioni sull’utilizzo delle risorse, consulta [Utilizzare le risorse](components-pdf-template.md#work-with-resources).
+   * Impostazioni: Configura le impostazioni di output per generare un PDF utilizzando il modello . Questa sezione ti consente di definire la mappatura dei modelli per diverse pagine in PDF, la pagina iniziale dei capitoli, i marcatori di stampa e altro ancora. Per ulteriori informazioni sull’applicazione delle impostazioni, consulta [Impostazioni avanzate di PDF](components-pdf-template.md#advanced-pdf-settings).
 1. Per personalizzare un componente modello, fai doppio clic su un componente modello oppure fai clic sull’icona > prima di esso.
 
    Ad esempio, fai doppio clic su *Layout di pagina* o fai clic su *>* icona prima *Layout di pagina* per visualizzare i layout di pagina disponibili.
 1. Dopo aver apportato le modifiche desiderate, fai clic su *Salva tutto* o `Ctrl+S`).
-
-
