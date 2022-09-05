@@ -1,10 +1,8 @@
 ---
 title: Funzione di pubblicazione nativa di PDF | Componenti di un modello PDF
 description: Scopri i vari componenti di un modello PDF e come personalizzarli e configurarli.
-hide: true
-hidefromtoc: true
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: 563a301e4db20cd8076eaffd970d53b7a8743449
+source-git-commit: a1367a6915e760e533bb984705f4be37596b5477
 workflow-type: tm+mt
 source-wordcount: '2275'
 ht-degree: 0%
@@ -102,7 +100,7 @@ Per creare un foglio di stile, attenersi alla procedura seguente:
 
 Per impostazione predefinita, i file CSS contengono stili per intestazione, paragrafo, carattere, collegamento ipertestuale, immagine, tabella, div, pagina e altri stili. È possibile ignorare il formato di stile predefinito o creare un nuovo stile.
 
-In genere, si crea un nuovo stile quando si desidera associare uno stile personalizzato per qualsiasi elemento DITA. Affinché tali stili personalizzati funzionino, è necessario assicurarsi di associare il nome della classe dello stile all’attributo outputclass dell’elemento DITA.
+In genere, si crea un nuovo stile quando si desidera associare uno stile personalizzato per qualsiasi elemento DITA. Affinché tali stili personalizzati funzionino, è necessario assicurarsi di associare il nome della classe dello stile all&#39;attributo outputclass dell&#39;elemento DITA.
 
 
 Per creare un nuovo stile, effettua le seguenti operazioni:
@@ -114,7 +112,7 @@ Per creare un nuovo stile, effettua le seguenti operazioni:
 1. In **Tag** , scegli un tag per il quale vuoi creare un nuovo stile.
 1. Specifica una **Classe** nome.
 
-   Questo nome di classe deve essere associato all’attributo outputclass del tag nel contenuto sorgente.
+   Questo nome di classe deve essere associato all&#39;attributo outputclass del tag nel contenuto sorgente.
 1. Seleziona una **Classe Pseudo** per migliorare lo stile dell’elemento.
 1. Fai clic su **Fine**.
 
@@ -165,7 +163,7 @@ Il file selezionato viene importato ed elencato nella cartella Risorse.
 
 ## Impostazioni avanzate di PDF {#advanced-pdf-settings}
 
-Utilizza la sezione Impostazioni per configurare le impostazioni avanzate per il layout di pagina di PDF, iniziando da PDF da pagina pari o dispari, i formati per i riferimenti incrociati e l’abilitazione dei segni di stampa nel PDF finale generato utilizzando il modello.
+Utilizza la sezione Impostazioni per configurare le impostazioni avanzate per il layout di pagina PDF, iniziando da PDF da pagina pari o dispari, i formati per i riferimenti incrociati e l’abilitazione degli indicatori di stampa nel PDF finale generato utilizzando il modello.
 
 Per configurare, fai clic su **Impostazioni** in **Modelli** per visualizzare le seguenti opzioni:
 
