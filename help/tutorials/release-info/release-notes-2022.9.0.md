@@ -1,7 +1,7 @@
 ---
 title: Note sulla versione | Guide Adobe Experience Manager as a Cloud Service, versione di settembre 2022
 description: Versione più recente delle guide di Adobe Experience Manager as a Cloud Service
-source-git-commit: f2ad6e920c47fff61dd85e3aeafb558c7fd6cfea
+source-git-commit: 748a37298849b3fbf6079c19de3cb052dee3a464
 workflow-type: tm+mt
 source-wordcount: '1284'
 ht-degree: 3%
@@ -58,7 +58,7 @@ AEM Guide as a Cloud Service offre molti miglioramenti e nuove funzioni nell’u
 AEM Guide offre la funzione di creare linee di base dinamiche basate su etichette. Se si genera una baseline, si scarica una baseline o si crea un progetto di traduzione utilizzando una baseline, i file vengono selezionati in modo dinamico in base alle etichette aggiornate. Questa funzione è utile in quanto non è necessario modificare la linea di base durante l’aggiornamento delle etichette.
 Puoi anche esportare lo snapshot della baseline come CSV.
 
-![Creare linee di base](assets/preset-metadata.png)
+![Creare linee di base](assets/dynamic-baseline.png)
 
 ### Trova e sostituisci il testo a livello di mappa
 
