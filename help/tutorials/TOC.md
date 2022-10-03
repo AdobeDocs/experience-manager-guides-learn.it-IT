@@ -2,17 +2,17 @@
 user-guide-title: Tutorial su AEM Guides
 user-guide-description: Leggi la nostra raccolta di tutorial su Adobe Experience Manager Guides.
 breadcrumb-title: Tutorial su AEM Guides
-source-git-commit: e3dfbe036758bc4357b474a35e44d12296ac4a52
+source-git-commit: e65bad1487c957894fd206f7e42a998c15497905
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 22%
+source-wordcount: '126'
+ht-degree: 23%
 
 ---
 
 
 # Tutorials per [!DNL Adobe Experience Manager Guides] {#tutorials}
 
-+ [Tutorials per [!DNL AEM Guides] per AEM](overview.md)
++ [Tutorials per [!DNL AEM Guides]](overview.md)
 + Informazioni sulla versione {#release-info}
    + [[!DNL AEM Guides] release](./release-info/latest-release-info.md)
    + Note sulla versione {#release-notes}
