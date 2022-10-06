@@ -2,24 +2,83 @@
 title: Note sulla versione | Guida di Adobe Experience Manager versione 4.1
 description: Ultima versione delle guide di Adobe Experience Manager
 exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
-source-git-commit: 7fc8eb3ea46eee89eac4d5779f14d61aa6106505
+source-git-commit: f74126c1eb7bccf0c9464cbe9b1138af5bd4938f
 workflow-type: tm+mt
-source-wordcount: '2973'
+source-wordcount: '3275'
 ht-degree: 3%
 
 ---
 
-# Ultima versione delle guide di Adobe Experience Manager
+# Rilascio 4.1.x delle guide di Adobe Experience Manager
+
+Queste note sulla versione descrivono le istruzioni di aggiornamento, le nuove funzioni e i miglioramenti introdotti nella versione 4.1.x delle Guide di Adobe Experience Manager (in seguito denominati *Guide AEM*).
 
 ## Aggiornamento alla versione più recente
 
-È possibile aggiornare facilmente la versione corrente delle guide di Adobe Experience Manager (in seguito denominate *Guide AEM*) alla versione 4.1. Prima di procedere con l’aggiornamento alla versione 4.1 di AEM Guide, è necessario tenere in considerazione i seguenti punti:
-
-* Se utilizzi la versione 4.0.x, puoi effettuare direttamente l’aggiornamento alla versione 4.1. Devi eseguire l’aggiornamento alla versione 4.0.x prima di eseguire l’aggiornamento alla versione 4.1.
+È possibile aggiornare facilmente la versione corrente di AEM Guide alla versione 4.1.2. Prima di procedere con l’aggiornamento alla versione 4.1.2 di AEM Guide, è necessario tenere in considerazione i seguenti punti:
+* Se utilizzi le versioni 4.1 o 4.1.x, puoi effettuare direttamente l’aggiornamento alla versione 4.1.2.
+* Se utilizzi la versione 4.0.x, devi eseguire l’aggiornamento alla versione 4.1 o 4.1.x prima di eseguire l’aggiornamento alla versione 4.1.2.
 * Se utilizzi la versione 3.8.5, devi eseguire l’aggiornamento alla versione 4.0.x prima di eseguire l’aggiornamento alla versione 4.1.
 * Se utilizzi una versione precedente alla versione 3.8.5, consulta la sezione sull’aggiornamento nella guida all’installazione specifica per il prodotto.
 
-Per maggiori dettagli, vedi [Istruzioni di aggiornamento](assets/Adobe-Experience-Manager-Guides_Upgrade-Instructions_EN.pdf).
+Per maggiori dettagli, vedi [Istruzioni di aggiornamento](assets/Adobe-Experience-Manager-Guides-Upgrade-Instructions-EN.pdf).
+
+## 4.1.2. | Note sulla versione
+
+## Matrice di compatibilità
+
+In questa sezione viene elencata la matrice di compatibilità per le applicazioni software supportate da AEM versione 4.1.2.
+
+### ADOBE EXPERIENCE MANAGER
+
+**Non UID**
+Versione 6.5 Service Pack 13, 12, 11 o 10
+
+**UUID**
+Versione 6.5 Service Pack 13, 12, 11 o 10
+
+Per ulteriori dettagli, consulta la sezione Requisiti tecnici nella guida all’installazione e alla configurazione delle guide Adobe Experience Manager .
+
+
+### FrameMaker e FrameMaker Publishing Server
+
+| Versione | FMPS 2020 | FMPS 2019 | Fm 2020 | Fm 2019 |
+| --- | --- | --- | --- | --- |
+| 4.1.2 (non UUID) | 2020.2 o superiore* | 2019 | 2020.3 o superiore | 2019.8 (ultimo aggiornamento) |
+| 4.1.2 (UUID) | 2020.2 o superiore* | Non compatibile | 2020.4 o superiore | Non compatibile |
+|  |  |  |  |
+
+*La linea di base e le condizioni create in AEM sono supportate nelle versioni FMPS a partire dal 2020.2.
+
+### Connettore dell&#39;ossigeno
+
+| Versione | Finestre del connettore dell&#39;ossigeno | Mac connettore ossigeno | Modifica in Windows Ossigeno | Modifica in Oxygen Mac |
+| --- | --- | --- |--- |--- |
+| 4.1.2 (non UUID) | 2,0 | 2,0 | 1,6 | 1,6 |
+| 4.1.2 (UUID) | 2.7 | 2,7 | 2.3 | 2.3. |
+|  |  |  |
+
+
+## Problemi risolti
+
+I bug corretti in varie aree sono elencati di seguito:
+
+* Quando si selezionano tutti i profili di cartella, viene visualizzato un profilo di cartella invisibile (errato). (10393)
+* La creazione della linea di base non sceglie la versione più recente, quando il fuso orario dell’utente è diverso da quello del server. (10336)
+* La scelta rapida Control+F non apre il modale di ricerca del browser nella console Risorse dopo l’installazione di AEM Guide 4.1. (10339)
+* Si verifica un errore di creazione della linea di base per l&#39;argomento che ha il riferimento a una cartella. (10383)
+* La scheda Predefiniti di output mostra una schermata vuota a intermittenza e in alcuni casi vengono visualizzati predefiniti non modificabili. (10390)
+* La gestione dello spazio chiave sta generando eccezioni ed errori. (10449)
+
+### Problemi noti con la soluzione alternativa
+
+* La linea di base esportata durante la traduzione non viene caricata nella scheda della linea di base dell&#39;editor.
+
+   **Soluzione alternativa**: Utilizzare la scheda baseline del dashboard mappa DITA.
+
+## 4.1. | Note sulla versione
+
+Queste note sulla versione descrivono le istruzioni di aggiornamento, le nuove funzioni e i miglioramenti introdotti nella versione 4.1.x delle Guide di Adobe Experience Manager (in seguito denominati *Guide AEM*).
 
 ## Matrice di compatibilità
 
@@ -53,13 +112,13 @@ Per ulteriori dettagli, consulta la sezione Requisiti tecnici nella guida all’
 | Versione | Finestre del connettore dell&#39;ossigeno | Mac connettore ossigeno | Modifica in Windows Ossigeno | Modifica in Oxygen Mac |
 | --- | --- | --- |--- |--- |
 | 4.1 (non UUID) | 2,0 | 2,0 | 1,6 | 1,6 |
-| 4.1 (UUID) | 2.7 | 2,7 | 2.3 | 2.3. |
+| 4.1 (UUID) | 2,7 | 2,7 | 2.3. | 2.3. |
 |  |  |  |
 
 
 ## Nuove funzioni e miglioramenti
 
-AEM Guide offre molti miglioramenti e nuove funzioni nell’ultima versione:
+AEM Guide offre molti miglioramenti e nuove funzioni nella versione 4.1:
 
 ### Editor web avanzato
 
