@@ -2,10 +2,10 @@
 title: PDF nativo | Generazione di output PDF
 description: Genera l’output di PDF nelle guide Adobe Experience Manager as a Cloud Service
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: 1b46f5e496e6c974abeba019a9d3174d5bc5315c
+source-git-commit: d832e78b690b533f44dc2205e9fea483d9213c58
 workflow-type: tm+mt
-source-wordcount: '2170'
-ht-degree: 0%
+source-wordcount: '2299'
+ht-degree: 1%
 
 ---
 
@@ -62,7 +62,7 @@ Viene visualizzato il pannello Predefinito .
    * Fai clic sull’icona + contro **Predefiniti** per aggiungere un nuovo predefinito di output **Tipo: PDF**
 3. Per configurare le impostazioni di un predefinito PDF esistente:
    * Fai clic sul pulsante  **Opzioni** ![options](assets/options.svg) accanto al predefinito di output desiderato e seleziona **Modifica**.
-Puoi utilizzare le seguenti impostazioni nella **Generale**, **Layout**, **Sicurezza** e **Avanzate** schede per configurare un predefinito di output PDF:
+Puoi utilizzare le seguenti impostazioni nella **Generale**, **Metadati**, **Layout**, **Sicurezza** e **Avanzate** schede per configurare un predefinito di output PDF:
 
 **Generale**
 
@@ -74,6 +74,23 @@ Utilizzare per specificare le impostazioni di output di base, ad esempio specifi
 | **File PDF** | Specificare un nome di file per salvare il PDF. Per impostazione predefinita, il nome del file PDF aggiunge il nome della mappa DITA insieme al nome del predefinito. Ad esempio, ditamap è &quot;TestMap&quot; e il nome del predefinito è &quot;preset1&quot;, il nome predefinito del pdf sarà &quot;TestMap_preset1.pdf&quot;. |
 | **Applica condizioni utilizzando** | Per il contenuto condizionale, scegli tra le seguenti opzioni per generare un output PDF in base a tali condizioni: <br>* **Nessuno applicato** Seleziona questa opzione se non desideri applicare alcuna condizione sulla mappa e sul contenuto sorgente. <br> * **File Ditaval** Selezionare un file DITAVAL per generare contenuto condizionale. Per selezionare, fare clic su Predefinito condizione e individuare il file. <br> * **Predefinito condizione** Seleziona un predefinito per condizioni dal menu a discesa per applicare una condizione durante la pubblicazione dell’output. Questa opzione è visibile se è stata aggiunta una condizione per il file di mappa DITA. Le impostazioni condizionali sono disponibili nella scheda Predefiniti condizione della console mappa DITA. Per ulteriori informazioni sul predefinito di condizione, consulta [Utilizzare i predefiniti condizione](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-condition-presets.html). <br> |
 | **Usa linea di base** | Se è stata creata una baseline per la mappa DITA selezionata, selezionare questa opzione per specificare la versione da pubblicare. Vedi [Utilizzare la linea di base](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html) per ulteriori dettagli. |
+
+**Metadati**
+
+I metadati sono la descrizione o la definizione del contenuto. I metadati sono utili per la gestione dei contenuti e per la ricerca di file su Internet.
+
+Utilizzare la scheda Metadati per impostare il titolo, l’autore, l’oggetto e le parole chiave per l’output di PDF. Questi metadati vengono mappati sui metadati nella scheda Descrizione all’interno delle Proprietà documento del PDF di output.
+
+**Nota**: Questi metadati sostituiscono i metadati definiti a livello di libro.
+
+![scheda metadati](assets/pdf-metadata.png)
+
+| Impostazione | Descrizione |
+|---|---|
+| **Titolo** | Specificare un titolo breve e chiaro per definire il documento. |
+| **Autore** | Specifica i nomi degli autori che hanno creato il documento. |
+| **Oggetto** | Definire l&#39;oggetto o la raccolta con cui il documento è correlato. |
+| **Parole chiave** | Utilizza le parole chiave pertinenti per migliorare l’ottimizzazione SEO (Search Engine Optimization) e aiutare gli utenti a trovare il contenuto correlato. |
 
 **Layout**
 
