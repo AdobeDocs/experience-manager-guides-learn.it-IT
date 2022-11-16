@@ -2,9 +2,9 @@
 title: Note sulla versione | Guida di Adobe Experience Manager versione 4.1
 description: Ultima versione delle guide di Adobe Experience Manager
 exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
-source-git-commit: 0bddd791e7fb6e6f8eb0f8e2ad73146a758ffc47
+source-git-commit: c7b147777a59d422e93d63118e84d806adaaad24
 workflow-type: tm+mt
-source-wordcount: '3400'
+source-wordcount: '3532'
 ht-degree: 3%
 
 ---
@@ -15,13 +15,56 @@ Queste note sulla versione descrivono le istruzioni di aggiornamento, le nuove f
 
 ## Aggiornamento alla versione più recente
 
-È possibile aggiornare facilmente la versione corrente di AEM Guide alla versione 4.1.2. Prima di procedere con l’aggiornamento alla versione 4.1.2 di AEM Guide, è necessario tenere in considerazione i seguenti punti:
-* Se utilizzi le versioni 4.1 o 4.1.x, puoi effettuare direttamente l’aggiornamento alla versione 4.1.2.
-* Se utilizzi la versione 4.0.x, devi eseguire l’aggiornamento alla versione 4.1 o 4.1.x prima di eseguire l’aggiornamento alla versione 4.1.2.
+È possibile aggiornare facilmente la versione corrente di AEM Guide alla versione 4.1.3. Prima di procedere con l’aggiornamento alla versione 4.1.3 di AEM Guide, è necessario tenere in considerazione i seguenti punti:
+* Se utilizzi le versioni 4.1 o 4.1.x, puoi effettuare direttamente l’aggiornamento alla versione 4.1.3.
+* Se utilizzi la versione 4.0.x, devi eseguire l’aggiornamento alla versione 4.1 o 4.1.x prima di eseguire l’aggiornamento alla versione 4.1.3.
 * Se utilizzi la versione 3.8.5, devi eseguire l’aggiornamento alla versione 4.0.x prima di eseguire l’aggiornamento alla versione 4.1.
 * Se utilizzi una versione precedente alla versione 3.8.5, consulta la sezione sull’aggiornamento nella guida all’installazione specifica per il prodotto.
 
 Per maggiori dettagli, vedi [Istruzioni di aggiornamento](assets/Adobe-Experience-Manager-Guides-Upgrade-Instructions-EN.pdf).
+
+## 4.1.3. | Note sulla versione
+
+## Matrice di compatibilità
+
+Questa sezione elenca la matrice di compatibilità per le applicazioni software supportate dalla versione 4.1.3 di AEM.
+
+### ADOBE EXPERIENCE MANAGER
+
+**Non UID**
+Versione 6.5 Service Pack 13, 12, 11 o 10
+
+**UUID**
+Versione 6.5 Service Pack 13, 12, 11 o 10
+
+Per ulteriori dettagli, consulta la sezione Requisiti tecnici nella guida all’installazione e alla configurazione delle guide Adobe Experience Manager .
+
+
+### FrameMaker e FrameMaker Publishing Server
+
+| Versione | FMPS 2020 | FMPS 2019 | Fm 2020 | Fm 2019 |
+| --- | --- | --- | --- | --- |
+| 4.1.3 (non UUID) | 2020.2 o superiore* | 2019 | 2020.3 o superiore | 2019.8 (ultimo aggiornamento) |
+| 4.1.3 (UUID) | 2020.2 o superiore* | Non compatibile | 2020.4 o superiore | Non compatibile |
+|  |  |  |  |
+
+*La linea di base e le condizioni create in AEM sono supportate nelle versioni FMPS a partire dal 2020.2.
+
+### Connettore dell&#39;ossigeno
+
+| Versione | Finestre del connettore dell&#39;ossigeno | Mac connettore ossigeno | Modifica in Windows Ossigeno | Modifica in Oxygen Mac |
+| --- | --- | --- |--- |--- |
+| 4.1.3 (non UUID) | 2,0 | 2,0 | 1,6 | 1,6 |
+| 4.1.3 (UUID) | 2.7 | 2,7 | 2.3 | 2.3. |
+|  |  |  |
+
+
+## Problemi risolti
+
+Il bug corretto è elencato di seguito:
+
+* L’editor web carica la pagina vuota a intermittenza. (10678)
+
 
 ## 4.1.2. | Note sulla versione
 
@@ -55,7 +98,7 @@ Per ulteriori dettagli, consulta la sezione Requisiti tecnici nella guida all’
 | Versione | Finestre del connettore dell&#39;ossigeno | Mac connettore ossigeno | Modifica in Windows Ossigeno | Modifica in Oxygen Mac |
 | --- | --- | --- |--- |--- |
 | 4.1.2 (non UUID) | 2,0 | 2,0 | 1,6 | 1,6 |
-| 4.1.2 (UUID) | 2.7 | 2,7 | 2.3 | 2.3. |
+| 4.1.2 (UUID) | 2,7 | 2,7 | 2.3. | 2.3. |
 |  |  |  |
 
 
