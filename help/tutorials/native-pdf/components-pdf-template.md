@@ -2,9 +2,9 @@
 title: Funzione di pubblicazione nativa di PDF | Componenti di un modello PDF
 description: Scopri i vari componenti di un modello PDF e come personalizzarli e configurarli.
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: a1367a6915e760e533bb984705f4be37596b5477
+source-git-commit: f693ebb6a96ed9898050a754e10a74db235299fe
 workflow-type: tm+mt
-source-wordcount: '2275'
+source-wordcount: '2516'
 ht-degree: 0%
 
 ---
@@ -185,6 +185,7 @@ Impostare le impostazioni di configurazione di base per iniziare un capitolo dal
    Nell&#39;esempio precedente, Impostazioni avanzate di PDF, Appendice e Note legali sono titoli di argomento di primo livello o titoli di capitolo. A tutte queste intestazioni viene assegnato un numero di pagina.
 
    Ora, se selezioni questa opzione e generi l&#39;output, otterrai il seguente sommario:
+
    <img src="assets/page-number-missing-in-toc.png" alt="Caricare le risorse" width="250">
 
    Qui si nota che al primo capitolo Impostazioni avanzate di PDF non viene assegnato alcun numero di pagina, in quanto contiene argomenti nidificati o secondari. Un numero di pagina se assegnato all&#39;Appendice e all&#39;Ufficio legale perché sono argomenti indipendenti senza alcun argomento figlio.
@@ -201,10 +202,35 @@ Per applicare la struttura del sommario e lo stile dei livelli di intestazione, 
 
 Le impostazioni Layout di pagina consentono un controllo completo sulla specifica del layout di pagina da utilizzare per una sezione specifica del documento. Ad esempio, per selezionare un layout per il sommario, fai clic sul menu a discesa nel campo sommario e seleziona il layout progettato per generare il sommario.
 
-Se non è stato creato un layout per una particolare sezione del documento, è sufficiente scegliere un layout che funga da layout predefinito per tali sezioni o argomenti. Il layout di pagina predefinito viene quindi applicato a tutte le sezioni che non dispongono di un layout di pagina dedicato.
+Le seguenti impostazioni sono disponibili nella sezione Layout di pagina :
 
-Allo stesso modo, se desideri una pagina di copertina e posteriore, devi avere un layout di pagina creato e applicato nelle impostazioni. In caso contrario, il PDF non conterrà le pagine di copertina e posteriore.
+<img src="assets/template-page-layout.png" alt="Layout delle pagine" width="550">
 
+
+**Layout di pagina predefinito**: Selezionare un layout di pagina che funga da layout predefinito per tutte le pagine di PDF. Si tratta del layout di pagina di base applicato alle sezioni o agli argomenti in cui non è stato creato un layout di pagina dedicato.
+
+**Layout di pagina per sezioni diverse**: È possibile scegliere di mappare un layout di pagina con le sezioni seguenti dell’output di PDF:
+* Sommario
+* Elenco delle cifre
+* Elenco delle tabelle
+* Capitoli e argomenti
+* Indice
+* Glossario
+
+Se non si desidera mostrare una particolare sezione nell&#39;output di PDF, è possibile disattivarla disattivando l&#39;interruttore di attivazione.
+
+**Capitolo e argomenti** il layout è sempre abilitato e **Glossario** per impostazione predefinita, il layout è sempre disabilitato. Non puoi attivarli.
+
+È inoltre possibile definire l’ordine in cui queste diverse sezioni vengono generate in PDF. Per modificare l’ordine predefinito di queste pagine, posiziona il cursore del mouse sulla sinistra del layout di una pagina e fai clic sull’icona delle barre punteggiate per trascinare e rilasciare il layout di pagina nella posizione desiderata.
+In PDF i layout di pagina abilitati saranno disponibili nell’ordine in cui sono stati organizzati.
+
+**Layout di pagina per pagine vuote**: È inoltre possibile specificare il layout di pagina per le pagine vuote. Il layout selezionato verrà applicato a tutte le pagine vuote. Ad esempio, se hai progettato un layout di pagina vuoto per tutte le pagine vuote, seleziona **Vuoto** nell’elenco a discesa e tutte le pagine vuote nel documento avranno il layout di pagina vuoto.
+
+**Pagina copertina e pagina posteriore**: Se hai progettato un layout di copertina, mappalo sul **Pagina copertina** opzione . Allo stesso modo, se hai un layout di pagina precedente, mappalo sul **Indietro** opzione . Se non è stato creato alcun layout di copertina o di pagina precedente, viene applicato il layout di pagina predefinito.
+
+>[!NOTE]
+>
+>Le impostazioni della bookmap hanno la precedenza sulle impostazioni di layout della pagina.
 
 Per ulteriori informazioni sui layout di pagina, consulta [Progettazione di un layout di pagina](design-page-layout.md).
 
