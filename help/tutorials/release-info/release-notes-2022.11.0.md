@@ -1,9 +1,10 @@
 ---
 title: Note sulla versione | Guide Adobe Experience Manager as a Cloud Service, versione di novembre 2022
 description: Versione più recente delle guide di Adobe Experience Manager as a Cloud Service
-source-git-commit: 549417d6a45508d0afe98574499f1694ae32e708
+exl-id: 9f329ec1-dd74-47cc-8567-3fadd962584a
+source-git-commit: 84ff7619722fbda2787ce4c27cc69b5f71e25927
 workflow-type: tm+mt
-source-wordcount: '1423'
+source-wordcount: '1370'
 ht-degree: 2%
 
 ---
@@ -131,7 +132,6 @@ Ora è anche possibile generare il sommario nelle mappe DITA utilizzando un’im
 
 I bug corretti in varie aree sono elencati di seguito:
 
-* PDF nativo | Una nota a piè di pagina nell’intestazione di una tabella porta a una nota a piè di pagina in grassetto e allineata al centro all’interno del piè di pagina nell’output di PDF. (10610)
 * PDF nativo | `conkeyref` non viene risolto nell’output di PDF generato. (10564)
 * PDF nativo | Si verificano problemi nell’accesso ai metadati di una mappa nell’output di PDF. (10556)
 * PDF nativo | Lo stile in linea viene utilizzato per generare i tag anziché il nome della classe.  (10498)
@@ -141,7 +141,6 @@ I bug corretti in varie aree sono elencati di seguito:
 * Nota all’interno di un tag para che è un conref non viene visualizzato nell’anteprima. (10559)
 * Se si preme il backspace alla fine di una voce di elenco, l’intero elenco viene rimosso. (10540)
 * Quando si utilizza un’esportazione nativa di PDF, i valori nidificati `<indexterm>` non sono nidificati nell&#39;indice. (10521)
-* Quando si utilizza la pubblicazione della linea di base errata `cq:tags` vengono selezionati (dalla copia di lavoro corrente anziché dalla copia della versione). (10494)
 * **Rientro automatico** nella vista Sorgente manca il pulsante presente nella barra degli strumenti. (10448)
 * Il primo carattere di una voce dell’elenco viene perso mentre l’elenco viene creato nell’editor. (10447)
 * Se una versione di una risorsa DITA viene modificata e salvata nella finestra di modifica della linea di base, vengono visualizzati più pop-up. (10399)
@@ -150,7 +149,6 @@ I bug corretti in varie aree sono elencati di seguito:
 * La post-elaborazione è bloccata per l’intera cartella di lingue le cui risorse sono presenti in un progetto di traduzione attivo. (10332)
 * La scheda Modello in XML Editor non è visibile agli amministratori dei profili di cartella. (10266)
 * Problemi di navigazione si verificano nell&#39;editor Web dopo l&#39;aggiornamento 4.0. (10159)
-* Il primo carattere non funziona in coreano durante l&#39;authoring nell&#39;editor web. (10049)
 * I file SVG non vengono visualizzati in modalità Anteprima. (10010)
 * Se la scheda Output dell’editor contiene più predefiniti, non è possibile scorrere la sezione dei predefiniti e non tutti i predefiniti. (9787)
 * **Modifica** e **Annota** le opzioni per un’immagine non funzionano correttamente nella vista a colonne. (8758)
