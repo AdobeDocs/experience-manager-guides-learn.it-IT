@@ -2,9 +2,9 @@
 title: Note sulla versione | Guide Adobe Experience Manager as a Cloud Service, versione di novembre 2022
 description: Versione più recente delle guide di Adobe Experience Manager as a Cloud Service
 exl-id: 9f329ec1-dd74-47cc-8567-3fadd962584a
-source-git-commit: 84ff7619722fbda2787ce4c27cc69b5f71e25927
+source-git-commit: 0663ed4434fdf583a9446891f944d94b85f375c6
 workflow-type: tm+mt
-source-wordcount: '1370'
+source-wordcount: '1372'
 ht-degree: 2%
 
 ---
@@ -101,9 +101,7 @@ Nel dashboard di traduzione è inoltre possibile visualizzare la colonna Etichet
 <img src="assets/send-translation.png" alt="invia per traduzione" width="600">
 
 
-## Miglioramenti alla pubblicazione nativa di PDF
-
-### PDF con barra delle modifiche che mostra la differenza tra le versioni del documento
+### PDF nativo | PDF con barra delle modifiche che mostra la differenza tra le versioni del documento
 
 Ora è possibile creare un PDF che mostra le differenze di contenuto tra due versioni utilizzando la barra delle modifiche. È possibile scegliere di confrontare la versione corrente con una baseline della versione precedente o tra le due versioni della baseline selezionate.
 
@@ -113,7 +111,7 @@ In PDF viene visualizzata una barra di modifica per indicare il contenuto modifi
 * Mostra il contenuto inserito in verde e sottolineato
 * Mostra il contenuto eliminato in rosso e contrassegnato con barrato
 
-### Supporto delle variabili per Percorso di output e Nome file PDF
+### PDF nativo | Supporto delle variabili per Percorso di output e Nome file PDF
 
 Ora è anche possibile utilizzare le seguenti variabili predefinite per definire il percorso di output e il file PDF. Puoi utilizzare una singola o una combinazione di variabili per definire le seguenti opzioni:
 * `${map_filename}`
@@ -124,7 +122,7 @@ Ora è anche possibile utilizzare le seguenti variabili predefinite per definire
 * `${path_after_langfolder}` (Solo per percorso di output)
 
 
-### Genera sommario per mappe DITA e riordina layout di pagina
+### PDF nativo | Genera sommario per mappe DITA e riordina layout di pagina
 
 Ora è anche possibile generare il sommario nelle mappe DITA utilizzando un’impostazione PDF avanzata del modello. È possibile attivare o disattivare la visualizzazione dei vari layout di pagina e riordinarne la posizione.
 
