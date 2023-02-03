@@ -2,9 +2,9 @@
 title: PDF nativo | Generazione di output PDF
 description: Genera l’output di PDF nelle guide Adobe Experience Manager as a Cloud Service
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: e03ef8e99b2d60dc8d34a76d0a02180eab41e35f
+source-git-commit: 618030a32b6cc8d703e71d4eb91a340cb89a413b
 workflow-type: tm+mt
-source-wordcount: '2663'
+source-wordcount: '2666'
 ht-degree: 1%
 
 ---
@@ -124,7 +124,7 @@ Utilizza le seguenti opzioni per specificare impostazioni avanzate per unire PDF
 | Impostazione | Descrizione |
 | --- | --- |
 | **Creare un PDF con accesso facilitato (con tag)** | Selezionare questa opzione per generare un PDF con tag. Un PDF con tag semplifica la lettura e la navigazione dei contenuti, dei collegamenti ipertestuali, dei segnalibri e così via da parte degli assistenti vocali. Ad esempio, se una tabella è contrassegnata, l’assistente vocale saprà che sta leggendo la tabella e non solo righe e testo. |
-| **PDF di unione inclusi nel sommario** | Selezionare questa opzione per unire i PDF esistenti nell&#39;output aggiungendoli al sommario. I PDF vengono inseriti nella posizione rappresentata nel sommario e le pagine vengono incrementate di conseguenza. |
+| **PDF di unione inclusi nel sommario** | Selezionare questa opzione per unire i PDF esistenti nell&#39;output aggiungendoli alla mappa DITA come file di risorse. I PDF verranno inseriti nella posizione rappresentata nella mappa e le pagine verranno incrementate di conseguenza. |
 | **Incorpora font utilizzati** | Selezionare questa opzione quando si utilizzano font che potrebbero non essere installati nel computer dell’utente finale. Con questa opzione selezionata, i font utilizzati vengono incorporati in PDF, garantendo all’utente la possibilità di vedere PDF come previsto anche se i font non sono installati sul computer. <br> **Nota**: Un font può essere incorporato solo se contiene un&#39;impostazione del fornitore del font che ne consente l&#39;incorporazione. Verificare di disporre dell&#39;impostazione o della licenza necessaria prima di incorporare un font. |
 | **Usa sillabazione automatica** | Se la sillabazione automatica è attivata, le parole alla fine delle linee vengono interrotte in punti grammaticalmente corretti con un trattino. |
 | **Abilita JavaScript** | Abilita questa opzione se disponi di un codice JavaScript da utilizzare per trasformare il contenuto in modo dinamico prima di generare un PDF. |
