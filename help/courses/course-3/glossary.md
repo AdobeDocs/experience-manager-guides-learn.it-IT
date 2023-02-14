@@ -2,7 +2,7 @@
 title: Glossario
 description: Utilizzo del pannello Glossario nelle AEM Guide
 exl-id: 509880b1-852f-44f0-b4a9-09fee8bcb954
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 1%
@@ -15,7 +15,7 @@ Il pannello Glossario consente di analizzare una mappa. Puoi creare un file Glos
 
 I file di esempio che è possibile scegliere di utilizzare per questa lezione sono forniti nel file [glossario.zip](assets/glossary.zip).
 
->[!VIDEO](https://video.tv.adobe.com/v/342765)
+>[!VIDEO](https://video.tv.adobe.com/v/342765?quality=12&learn=on)
 
 ## Aggiungere una voce del glossario a un argomento
 

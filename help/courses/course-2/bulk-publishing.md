@@ -2,7 +2,7 @@
 title: Pubblicazione in blocco
 description: Pubblicazione in blocco in [!DNL Adobe Experience Manager Guides]
 exl-id: b277e846-ef71-47ec-a66c-ac9d392d53e0
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 3%
@@ -13,7 +13,7 @@ ht-degree: 3%
 
 Quando si pubblica, spesso è necessario disporre di più tipi di documentazione. Utilizzando le raccolte mappa puoi controllare il numero e i tipi di output che verranno assemblati e generati e avviare la pubblicazione in blocco. Il dashboard di pubblicazione consente di visualizzare i lavori di pubblicazione attivi. Il dashboard Pubblicazione in blocco consente di attivare le raccolte in blocco.
 
->[!VIDEO](https://video.tv.adobe.com/v/338985)
+>[!VIDEO](https://video.tv.adobe.com/v/338985?quality=12&learn=on)
 
 ## Utilizzo delle raccolte mappa
 

@@ -2,7 +2,7 @@
 title: Flussi di lavoro semplici per la creazione di contenuti
 description: Creazione di contenuto nelle guide AEM
 exl-id: e4b8e512-0688-44f7-b981-78af33b57b08
-source-git-commit: 92c269c4a5f73317345bbd0ab247951656426ff4
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 2%
@@ -13,7 +13,7 @@ ht-degree: 2%
 
 L’Editor guide AEM dispone di più collegamenti che semplificano il flusso di lavoro di creazione dei contenuti. Queste scelte rapide consentono agli utenti di aggiungere e modificare rapidamente le immagini, lavorare con più argomenti contemporaneamente, correggere gli errori, scaricare PDF argomento e lavorare con versioni ed etichette.
 
->[!VIDEO](https://video.tv.adobe.com/v/342770)
+>[!VIDEO](https://video.tv.adobe.com/v/342770?quality=12&learn=on)
 
 ## Aggiungere un’immagine
 
@@ -35,7 +35,7 @@ Le immagini possono essere aggiunte direttamente da un&#39;unità locale.
 
 2. Spostare un&#39;immagine in un&#39;altra posizione all&#39;interno dell&#39;argomento trascinandola e rilasciandola.
 
-3. Utilizzo **Proprietà contenuto** nel pannello laterale destro per modificare l’immagine di
+3. Utilizzo **Proprietà contenuto** nel pannello laterale destro per modificare le
 
    - scala
 

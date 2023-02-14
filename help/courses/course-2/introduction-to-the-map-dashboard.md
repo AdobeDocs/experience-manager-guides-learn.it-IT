@@ -2,7 +2,7 @@
 title: Introduzione al dashboard mappa
 description: Introduzione al dashboard mappa
 exl-id: c2efa073-15e7-42a0-aaa8-04859b0fdf62
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 0%
@@ -11,9 +11,9 @@ ht-degree: 0%
 
 # Introduzione al dashboard mappa
 
-Di seguito viene fornita una panoramica delle principali funzioni del dashboard di mappatura.
+Di seguito viene fornita una panoramica delle funzioni principali del dashboard mappa.
 
->[!VIDEO](https://video.tv.adobe.com/v/339040)
+>[!VIDEO](https://video.tv.adobe.com/v/339040?quality=12&learn=on)
 
 ## Apri una mappa nel dashboard Mappa
 

@@ -2,7 +2,7 @@
 title: Mappe e segnalibri
 description: Creazione e modifica di mappe e segnalibri nelle guide AEM
 exl-id: 9c717e4b-017b-4f2b-b93e-f2c0e7525c55
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 L’Editor mappa delle guide di Adobe Experience Manager consente di creare e modificare i file delle mappe. Utilizzando l&#39;Editor mappa è possibile modificare due tipi di file: mappa DITA e mappa libreria. Per i nostri scopi, consideriamo questi concetti ampiamente intercambiabili.
 L’Editor mappa è disponibile in due modalità: l’Editor mappa di base e l’Editor mappa avanzato.
 
->[!VIDEO](https://video.tv.adobe.com/v/342766)
+>[!VIDEO](https://video.tv.adobe.com/v/342766?quality=12&learn=on)
 
 ## Creare una mappa
 

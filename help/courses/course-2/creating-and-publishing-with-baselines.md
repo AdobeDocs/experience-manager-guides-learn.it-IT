@@ -2,7 +2,7 @@
 title: Creazione e pubblicazione con le linee di base
 description: Creazione e pubblicazione con le linee di base in [!DNL Adobe Experience Manager Guides]
 exl-id: 3c229c30-f2e0-4fb0-b60c-7bae60ef1a5b
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 1%
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 L’utilizzo di una linea di base consente di creare una versione degli argomenti della mappa e del relativo contenuto di riferimento. Può essere basato su una data o un&#39;ora specifica o su etichette.
 
->[!VIDEO](https://video.tv.adobe.com/v/338993)
+>[!VIDEO](https://video.tv.adobe.com/v/338993?quality=12&learn=on)
 
 ## Accesso alla scheda Linee di base nella dashboard Mappa
 

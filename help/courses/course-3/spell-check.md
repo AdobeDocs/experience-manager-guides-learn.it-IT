@@ -2,7 +2,7 @@
 title: Controllo ortografia e ricerca/sostituzione
 description: Utilizzo del controllo ortografico e ricerca/sostituzione nelle guide AEM
 exl-id: 5f39618d-a919-4d3c-a4de-2896f2d1bf20
-source-git-commit: 0b4326b02ef52f5de77c3f26c18feec84567cebb
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 2%
@@ -13,7 +13,7 @@ ht-degree: 2%
 
 L’Editor AEM Guide dispone di potenti funzionalità di controllo ortografico e Trova e Sostituisci .
 
->[!VIDEO](https://video.tv.adobe.com/v/342768)
+>[!VIDEO](https://video.tv.adobe.com/v/342768?quality=12&learn=on)
 
 Correggere un errore di ortografia
 
@@ -39,7 +39,7 @@ Se non viene suggerita l’ortografia corretta, è sempre possibile modificarla 
 
    - **Controllo ortografia del browser** — l&#39;impostazione predefinita in cui il controllo ortografia utilizza il dizionario incorporato del browser.
 
-   - **Controllo ortografia AEM** — utilizza questo per creare un elenco di parole personalizzato utilizzando il dizionario personalizzato di AEM.
+   - **Controllo ortografia AEM** — utilizza questo per creare un elenco di parole personalizzato utilizzando AEM dizionario personalizzato.
 
 4. Scegli **Controllo ortografia AEM**.
 

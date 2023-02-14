@@ -2,7 +2,7 @@
 title: Preferenze utente, Impostazioni editor e Barre degli strumenti Editor
 description: Modifica delle preferenze utente e delle impostazioni dell’editor in AEM Guide
 exl-id: 8cb099e4-d985-4eeb-b1a5-0e372b04d218
-source-git-commit: 3d81727cdf4a58921724b0f1aa93b0700f821f60
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 2%
@@ -13,7 +13,7 @@ ht-degree: 2%
 
 L’editor dispone di un’interfaccia altamente configurabile. La combinazione di Preferenze utente, Impostazioni editor e Profili cartelle consente di personalizzare quasi ogni aspetto del proprio ambiente di lavoro specifico.
 
->[!VIDEO](https://video.tv.adobe.com/v/342769)
+>[!VIDEO](https://video.tv.adobe.com/v/342769?quality=12&learn=on)
 
 ## Mostrare o nascondere i tag degli elementi
 

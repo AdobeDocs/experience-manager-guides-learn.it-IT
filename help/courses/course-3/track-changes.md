@@ -2,7 +2,7 @@
 title: Tracciare le modifiche
 description: Tracciamento delle modifiche nelle guide AEM
 exl-id: 57779920-b3b4-44be-a1fb-89ea7c89eef7
-source-git-commit: 7bc636b4aceee327d86cfa74a9f8e61e0ad0a1cf
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 È possibile tenere traccia di tutti gli aggiornamenti apportati a un documento abilitando la modalità di rilevamento delle modifiche. Questa modalità consente a te e al tuo team di acquisire tutti gli inserimenti e le eliminazioni durante il processo di revisione del documento.
 
->[!VIDEO](https://video.tv.adobe.com/v/342763)
+>[!VIDEO](https://video.tv.adobe.com/v/342763?quality=12&learn=on)
 
 ## Utilizzare la funzione Rileva modifiche
 
@@ -60,7 +60,7 @@ La ricerca restituisce tutte le modifiche corrispondenti alle parole di ricerca.
 
 ## Accettare o rifiutare le modifiche tracciate
 
-I revisori e gli esperti in materia di argomenti possono accettare o rifiutare le modifiche apportate da altri utenti, singolarmente o tutti insieme.
+Revisori ed esperti in materia di argomenti possono accettare o rifiutare le modifiche di altri utenti, singolarmente o tutti insieme.
 
 1. Fai clic sul pulsante [!UICONTROL **Modifiche rilevate**] a destra per accedere al pannello Modifiche rilevate .
 

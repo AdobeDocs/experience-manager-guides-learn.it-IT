@@ -2,7 +2,7 @@
 title: Pannelli
 description: Uso dei pannelli nelle guide AEM
 exl-id: 24ecfc93-3540-4efa-ae85-afb346454b7f
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '1446'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 L’Editor web AEM Guide è suddiviso in più sezioni, tra cui una barra degli strumenti principale, una barra degli strumenti secondaria, un pannello a sinistra, un’area di modifica dei contenuti e un pannello a destra.
 
->[!VIDEO](https://video.tv.adobe.com/v/342760)
+>[!VIDEO](https://video.tv.adobe.com/v/342760?quality=12&learn=on)
 
 ## Ridimensiona il pannello di sinistra
 
@@ -207,7 +207,7 @@ Proprietà contenuto nel pannello a destra include informazioni specifiche sull�
 
 2. Seleziona un **elemento**.
 
-   Proprietà contenuto visualizza il tipo e gli attributi correnti dell’elemento.
+   Proprietà contenuto visualizza il tipo e gli attributi correnti dell&#39;elemento.
 
 3. Digitare un nuovo **Valore** per l’elemento .
 

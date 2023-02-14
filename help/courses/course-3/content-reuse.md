@@ -2,7 +2,7 @@
 title: Riutilizzo del contenuto
 description: Uso ricorrente delle funzioni nelle AEM Guide
 exl-id: 453c5a09-0bcf-4760-87fc-df3ea4a3a30a
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 3%
@@ -13,7 +13,7 @@ ht-degree: 3%
 
 Una delle caratteristiche principali di DITA è la possibilità di riutilizzare il contenuto. Consente il riutilizzo di contenuti da piccole frasi fino a interi argomenti o mappe.  Tuttavia, affinché i contenuti vengano riutilizzati in modo efficace, è necessario gestirli bene. Assicurati di disporre di una strategia dei contenuti efficace quando lavori con informazioni riutilizzabili.
 
->[!VIDEO](https://video.tv.adobe.com/v/342757)
+>[!VIDEO](https://video.tv.adobe.com/v/342757?quality=12&learn=on)
 
 ## Creazione di un argomento riutilizzabile
 

@@ -2,7 +2,7 @@
 title: Risoluzione dei problemi di pubblicazione
 description: Risoluzione dei problemi di pubblicazione in [!DNL Adobe Experience Manager Guides]
 exl-id: b37ea3e7-59cf-4fc5-8fae-e1fadd26f8d8
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -11,9 +11,9 @@ ht-degree: 0%
 
 # Risoluzione dei problemi di pubblicazione
 
-Pubblicare una mappa è solitamente semplice. Apri la mappa, seleziona un predefinito di output e genera un output. Tuttavia, se una mappa o i relativi argomenti presentano errori, la generazione dell’output può non riuscire. In questo caso, è importante sapere come risolvere i problemi.
+Pubblicare una mappa è solitamente semplice. Apri la mappa, seleziona un predefinito di output e genera un output. Tuttavia, se una mappa o i relativi argomenti presentano errori, la generazione dell’output può non riuscire. Quando questo accade, è importante sapere come risolvere i problemi.
 
->[!VIDEO](https://video.tv.adobe.com/v/338990)
+>[!VIDEO](https://video.tv.adobe.com/v/338990?quality=12&learn=on)
 
 ## Preparazione dell&#39;esercizio
 
