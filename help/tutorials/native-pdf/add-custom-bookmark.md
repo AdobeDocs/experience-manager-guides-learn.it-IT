@@ -1,9 +1,9 @@
 ---
-title: Funzione di pubblicazione nativa di PDF | Applicare uno stile personalizzato alle voci del sommario e al contenuto dell’argomento
+title: Funzione di pubblicazione nativa di PDF | Aggiungi un segnalibro personalizzato nell’output di PDF
 description: Scopri come creare e utilizzare fogli di stile e creare stili per i contenuti.
-source-git-commit: fbb81704ea8d9d2793b066fa159b405460fa1dcf
+source-git-commit: fb7ffbaefcdca4302e43d8369bc056c1f08a3ed6
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,7 @@ In genere, il sommario in una mappa DITA viene replicato come segnalibri nell&#3
 `bookmark-level: 3`
 
 Qui, il `bookmark-level` è un attributo e un numero `3` è il valore che indica il livello nella gerarchia dei segnalibri in cui viene aggiunto il segnalibro. Nell&#39;esempio seguente, l&#39;argomento di primo livello &quot;Contatti&quot; ha una tabella, &quot;Elenco contatti&quot;, sulla quale abbiamo aggiunto un `outputclass` attributo con il valore di `custom-bookmark`.
+
 
 <img src="./assets/custom-bookmark-attribute.png" width="500">
 
@@ -33,3 +34,8 @@ La seguente definizione di `custom-bookmark` La classe viene aggiunta nel file C
 Nell’output di PDF, la variabile *Elenco contatti* La tabella viene aggiunta al secondo livello nell’elenco dei segnalibri di PDF, come illustrato di seguito:
 
 <img src="./assets/custom-bookmark-in-pdf-output.png" width="500">
+
+>[!NOTE]
+>
+>È necessario scegliere il livello corretto in cui viene aggiunto il segnalibro personalizzato. Se si specifica un numero inferiore al segnalibro dell&#39;argomento principale, il segnalibro personalizzato assume la posizione del segnalibro principale e tutti gli altri segnalibri vengono visualizzati come elementi secondari. Questo può portare a una struttura di segnalibri inaspettata.
+

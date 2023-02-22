@@ -2,10 +2,10 @@
 user-guide-title: Tutorial su AEM Guides
 user-guide-description: Leggi la nostra raccolta di tutorial su Adobe Experience Manager Guides.
 breadcrumb-title: Tutorial su AEM Guides
-source-git-commit: 638bc7daa3bccfdb0334927ac277c4052cf2becb
+source-git-commit: ae85e78b428f1962945d3212f1b42839dbbe3096
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 22%
+source-wordcount: '175'
+ht-degree: 18%
 
 ---
 
@@ -28,6 +28,7 @@ ht-degree: 22%
          + [Note sulla versione di febbraio](./release-info/release-notes-2022.2.0.md)
          + [Note sulla versione di gennaio](./release-info/release-notes-2022.1.0.md)
       + On-prem/Managed Services {#on-prem-release-notes}
+         + [Note sulla versione 4.2](./release-info/release-notes-4.2.md)
          + [Note sulla versione 4.1.x](./release-info/release-notes-4.1.md)
          + [Note sulla versione 4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
          + [Note sulla versione 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
@@ -40,6 +41,9 @@ ht-degree: 22%
       + [Componenti di un modello di PDF](./native-pdf/components-pdf-template.md)
       + [Progettazione di un layout di pagina](./native-pdf/design-page-layout.md)
       + [Utilizzare gli stili di contenuto comuni](./native-pdf/stylesheet.md)
+      + [Applica stile personalizzato alle voci del sommario e al contenuto dell’argomento](./native-pdf/custom-style-toc.md)
+      + [Aggiungi un segnalibro personalizzato nell’output di PDF](./native-pdf/add-custom-bookmark.md)
+      + [Utilizzare JavaScript per lavorare con contenuto o stile](./native-pdf/use-javascript-content-style.md)
    + [Configurare un DITA-OT personalizzato](./configuring/setup-a-custom-dita-ot.md)
 + Traduzione {#translation}
    + [Escludere i paragrafi dalla traduzione](./translation/exclude-paragraphs-from-translation.md)
