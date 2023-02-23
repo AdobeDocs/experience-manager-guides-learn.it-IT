@@ -1,9 +1,10 @@
 ---
 title: Note sulla versione | Guida di Adobe Experience Manager versione 4.2
 description: Ultima versione delle guide di Adobe Experience Manager
-source-git-commit: 2fb46bdfb7f42fd9b3ef19343700009818c5b4f2
+exl-id: 8a7fef77-63af-462f-89c5-054ab31e079b
+source-git-commit: 890d64aed5f4005e3f4d3143bc35804e39036ad3
 workflow-type: tm+mt
-source-wordcount: '3681'
+source-wordcount: '3668'
 ht-degree: 2%
 
 ---
@@ -251,12 +252,12 @@ In PDF viene visualizzata una barra di modifica per indicare il contenuto modifi
 ### PDF nativo | Supporto delle variabili per Percorso di output e Nome file PDF
 
 Ora è anche possibile utilizzare le seguenti variabili predefinite per definire il percorso di output e il file PDF. Puoi utilizzare una singola o una combinazione di variabili per definire le seguenti opzioni:
-* ${map_filename}
-* ${map_title}
-* ${preset_name}
-* ${language_code}
-* ${map_parentpath} (solo per il percorso di output)
-* ${path_after_langfolder} (solo per il percorso di output)
+* `${map_filename}`
+* `${map_title}`
+* `${preset_name}`
+* `${language_code}`
+* `${map_parentpath}` (Solo per percorso di output)
+* `${path_after_langfolder}` (Solo per percorso di output)
 
 ### PDF nativo | Genera sommario per mappe DITA e riordina layout di pagina
 
