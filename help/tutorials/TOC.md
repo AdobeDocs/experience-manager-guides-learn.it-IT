@@ -2,9 +2,9 @@
 user-guide-title: Tutorial su AEM Guides
 user-guide-description: Leggi la nostra raccolta di tutorial su Adobe Experience Manager Guides.
 breadcrumb-title: Tutorial su AEM Guides
-source-git-commit: d13a04448be357f37290dbd37317d82b5a8ea736
+source-git-commit: 2144508d9e7b4cb3de3e4f55ab160bfa26cd5f52
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '196'
 ht-degree: 18%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 18%
       + [Creare contenuti basati sul web](./knowledge-base/expert-sessions/webbased-authoring-jan2023.md)
       + [Nozioni di base sulla pubblicazione nativa di PDF](./knowledge-base/expert-sessions/native-pdf-publishing-essentials-feb23.md)
    + Pubblicazione{#publishing}
-      + [Configurare una nuova pubblicazione basata su microservizi per le guide AEM as a Cloud Service](./knowledge-base/publishing/configure-microservices.md)
+      + [Configurare la pubblicazione basata su microservizi](./knowledge-base/publishing/configure-microservices.md)
    + Articoli {#kb-articles}
       + Authoring {#authoring}
          + Webeditor {#webeditor}
