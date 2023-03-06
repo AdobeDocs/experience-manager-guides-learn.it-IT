@@ -1,17 +1,17 @@
 ---
-title: Creazione di contenuti basati sul web
+title: Creare contenuti basati sul web
 description: Scopri come creare contenuti strutturati utilizzando l’editor web.
 exl-id: ab051c14-5c1e-4685-89e8-3c90dff9ea5e
-source-git-commit: 285dbf9ea7eb5eb4288dfbdfc977d35b2feef111
+source-git-commit: 3d12389dbd7458a74bb9b9ec488e83bf39c8c9bf
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
 
-# Creazione di contenuti basati sul web
+# Creare contenuti basati sul web
 
-AEM Guide viene fornito con un editor web integrato per la creazione di contenuti strutturati. È possibile lavorare con un’esperienza di authoring semplificata basata su Web, ma scegliere di utilizzare o abilitare funzionalità avanzate quali la convalida condizionale dei contenuti, il controllo ortografia, il riutilizzo dei contenuti, la convalida dei riferimenti, nomi descrittivi e equazioni matematiche di authoring.
+AEM Guides viene fornito con un editor web integrato per la creazione di contenuti strutturati. Puoi lavorare con un’esperienza di authoring semplificata basata sul web, ma puoi comunque scegliere di utilizzare o abilitare funzionalità avanzate come la convalida dei contenuti condizionali, il controllo ortografico, il riutilizzo dei contenuti, la convalida dei riferimenti, i nomi descrittivi e le equazioni matematiche per l’authoring.
 
 ## Panoramica della sessione
 
@@ -26,13 +26,13 @@ In questa sessione imparerai a creare, pubblicare e gestire i contenuti utilizza
 - **Data** - 19 gennaio 2023
 - **Numero di partecipanti** - 89
 - **Durata** - 60 minuti
-- **Pubblico** - Clienti, partner e dipendenti di Adobe
+- **Pubblico** - Clienti, partner e dipendenti Adobi
 
-## Principali aspetti
+## Punti chiave da eliminare
 
 In questa sessione imparerai quanto segue:
 - Configurare le impostazioni per l’editor web
-- Utilizzare le funzionalità dell’editor web per migliorare la produttività degli autori
+- Utilizza le funzionalità dell’editor web per migliorare la produttività degli autori
 - Estendere e integrare le funzioni disponibili
 - Personalizzare l’editor web personalizzando stili o branding
 
@@ -42,20 +42,15 @@ In questa sessione imparerai quanto segue:
 
 - **Guida utente** - [Contenuto autore](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map/authoring-content.html)
 
-- **Forum della community** - Per le interazioni della community specifiche per sessione sull’Experience League, visita  [Forum AEM guide](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Forum della community** - Per le interazioni della community specifiche per sessione su Experience League, visita  [Forum sulle guide dell’AEM](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
-> Le funzioni mostrate in questa sessione sono disponibili nelle seguenti versioni di AEM Guide:
-> - On-prem 4.1.3 o successivo
+> Le funzioni mostrate in questa sessione sono disponibili nelle seguenti versioni delle Guide AEM:
+> - On-prem 4.1.3 o versione successiva
 > - Cloud Services 2211 e successivi
 
 
-## Prossima sessione di esperti
-
-- **Argomento** - [Nozioni di base sulla pubblicazione di PDF nativi](native-pdf-publishing-essentials-feb23.md)
-- **Pianificato il** - 23 febbraio 2023
-
 ## Contattaci
 
-Per qualsiasi domanda, inviaci un’e-mail all’indirizzo <techcomm@adobe.com>
+Per qualsiasi domanda, inviaci un&#39;email all&#39;indirizzo <techcomm@adobe.com>

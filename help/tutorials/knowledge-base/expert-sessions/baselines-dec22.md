@@ -1,21 +1,21 @@
 ---
-title: Gestire il contenuto utilizzando le linee di base
-description: Scopri come utilizzare le linee di base per gestire i contenuti in modo efficace.
+title: Gestire i contenuti tramite le linee di base
+description: Scopri come utilizzare le linee di base per gestire in modo efficace i contenuti.
 exl-id: 3fc2e889-b255-4e8d-9750-ab61337107ae
-source-git-commit: cb7cb66eb4ba81120afb43582867e859661b434c
+source-git-commit: 3d12389dbd7458a74bb9b9ec488e83bf39c8c9bf
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '200'
 ht-degree: 0%
 
 ---
 
-# Gestire il contenuto utilizzando le linee di base
+# Gestire i contenuti tramite le linee di base
 
-La gestione delle versioni nelle guide AEM viene eseguita utilizzando una linea di base che consente di scegliere una versione degli argomenti e delle risorse, che può essere poi utilizzata per la pubblicazione o la traduzione.
+La gestione del rilascio nelle guide AEM viene eseguita utilizzando una linea di base che consente di scegliere una versione degli argomenti e delle risorse da utilizzare per la pubblicazione o la traduzione.
 
 ## Panoramica della sessione
 
-In questa sessione imparerai a utilizzare le linee di base per gestire i contenuti in modo efficace.
+In questa sessione imparerai a utilizzare le linee di base per gestire in modo efficace i contenuti.
 
 ## Registrazione sessione
 
@@ -26,36 +26,31 @@ In questa sessione imparerai a utilizzare le linee di base per gestire i contenu
 - **Data** - 8 dicembre 2022
 - **Numero di partecipanti** - 64
 - **Durata** - 60 minuti
-- **Pubblico** - Clienti, partner e dipendenti di Adobe
+- **Pubblico** - Clienti, partner e dipendenti Adobi
 
-## Principali aspetti
+## Punti chiave da eliminare
 
 In questa sessione imparerai quanto segue:
-- Operazioni di base diverse nelle guide AEM
+- Diverse operazioni di base nelle guide AEM
 - Scaricare, pubblicare e tradurre utilizzando una linea di base
-- Best practice per l’utilizzo di una linea di base
-- Sneak sbirciare in una nuova funzionalità, **Creare linee di base dinamiche**
+- Best practice per l’utilizzo di una baseline
+- Presentazione rapida di una nuova funzionalità in arrivo, **Creare linee di base dinamiche**
 
 ## Risorse correlate
 
 - **Video sulle funzioni** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
-- **Guida utente** - [Operazioni con la linea di base](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html)
+- **Guida utente** - [Utilizzare la previsione](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html)
 
-- **Forum della community** - Per le interazioni della community specifiche per sessione sull’Experience League, visita [Forum AEM guide](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Forum della community** - Per le interazioni della community specifiche per sessione su Experience League, visita [Forum sulle guide dell’AEM](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
->Le funzioni mostrate in questa sessione sono disponibili nelle seguenti versioni di AEM Guide:
-> - On-prem 4.1 e successivi
+>Le funzioni mostrate in questa sessione sono disponibili nelle seguenti versioni delle Guide AEM:
+> - On-prem 4.1 e versioni successive
 > - Cloud Services 2211 e successivi
 
 
-## Prossima sessione di esperti
-
-- **Argomento** - [Creazione di contenuti basati sul web](webbased-authoring-jan2023.md)
-- **Pianificato il** - 19 gennaio 2023
-
 ## Contattaci
 
-Per qualsiasi domanda, inviaci un’e-mail all’indirizzo <techcomm@adobe.com>
+Per qualsiasi domanda, inviaci un&#39;email all&#39;indirizzo <techcomm@adobe.com>
