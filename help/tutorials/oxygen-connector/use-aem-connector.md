@@ -1,5 +1,5 @@
 ---
-source-git-commit: f79a387de64a31dc62455992c54fc82dc6235ebc
+source-git-commit: 2e1f1644e5f22fc928ad813f46137a3f284df022
 workflow-type: tm+mt
 source-wordcount: '5800'
 ht-degree: 1%
@@ -633,33 +633,33 @@ Soluzione : questo problema è stato risolto aggiungendo un server proxy tra DIT
 
 ### Il pannello Guide AEM non individua il percorso del file aperto { .section}
 
-Problema : quando scegli di aprire un file per la modifica in Oxygen XML Author dal server AEM, il file viene aperto per la modifica in Oxygen XML Author. Tuttavia, il pannello Guide AEM non mostra la posizione del file nella struttura di navigazione.
+Problema: quando si sceglie di aprire un file per la modifica in Oxygen XML Author dal server AEM, il file viene aperto per la modifica in Oxygen XML Author. Tuttavia, il pannello Guide AEM non mostra la posizione del file nella struttura di navigazione.
 
-Soluzione : questo problema è stato osservato negli scenari in cui il percorso del file contiene due volte /content/dam. Per impostazione predefinita, tutte le risorse in AEM sono memorizzate nella cartella /content/dam. Se carichi o crei una struttura di cartelle che contiene anche /content/dam, viene rilevato questo problema. È possibile eseguire tutte le normali operazioni su tali file, ma la loro posizione all&#39;interno della struttura di navigazione non viene visualizzata per impostazione predefinita. Per accedere a tale file nella struttura di navigazione, devi passare manualmente alla posizione del file. Nella struttura di navigazione, il percorso duplicato /content/dam è sostituito da /content/assets.
+Soluzione: questo problema è stato osservato negli scenari in cui il percorso del file contiene due volte /content/dam. Per impostazione predefinita, tutte le risorse in AEM sono memorizzate nella cartella /content/dam. Se carichi o crei una struttura di cartelle che contiene anche /content/dam, viene rilevato questo problema. È possibile eseguire tutte le normali operazioni su tali file, ma la loro posizione all&#39;interno della struttura di navigazione non viene visualizzata per impostazione predefinita. Per accedere a tale file nella struttura di navigazione, devi passare manualmente alla posizione del file. Nella struttura di navigazione, il percorso duplicato /content/dam è sostituito da /content/assets.
 
 ### Configurare la registrazione { .section}
 
-Problema : per impostazione predefinita, il plug-in ossigeno per le guide AEM non genera alcun registro, rendendo difficile il debug di qualsiasi scenario di errore.
+Problema: per impostazione predefinita, il plug-in ossigeno per le guide AEM non genera alcun registro, rendendo difficile il debug di qualsiasi scenario di errore.
 
-Soluzione : per abilitare la funzione di generazione dei registri nel plug-in, effettua le seguenti operazioni:
+Soluzione: per abilitare la funzione di generazione dei registri nel plug-in, effettua le seguenti operazioni:
 
     1.  Selezionare il percorso di installazione dell&#39;istanza di Oxygen XML Author.
     
-    2.  Aprire il file ossigenoAuthor19.1.vmoptions in un editor di testo.
+    1.  Aprire il file ossigenoAuthor19.1.vmoptions in un editor di testo.
     
     **Nota:**
     
     Il numero di versione del file può variare in base al numero di versione dell’applicazione installata nel sistema.
     
-    3.  Aggiungi la seguente riga al file:
+    1.  Aggiungi la seguente riga al file:
     
     &quot;
     -Djava.util.logging.config.file=./log.properties
     &quot;
     
-    4.  Salva e chiudi il file 
+    1.  Salva e chiudi il file 
     
-    5.  Nella stessa posizione, crea un file denominato log.properties con il contenuto seguente:
+    1.  Nella stessa posizione, crea un file denominato log.properties con il contenuto seguente:
     
     &quot;
     handlers=java.util.logging.FileHandler
@@ -671,9 +671,9 @@ Soluzione : per abilitare la funzione di generazione dei registri nel plug-in, e
     java.util.logging.FileHandler.format=[%1$tF %1$tT] [%4$s] %5$s %n
     &quot;
     
-    6.  Salva e chiudi il file 
+    1.  Salva e chiudi il file 
     
-    7.  Avvia Oxygen XML Author.
+    1.  Avvia Oxygen XML Author.
     
     
     Il plug-in ora crea i registri nella home directory dell’utente con il nome di file aem-pluginX.log \(*dove X indica il numero di rotazione*\).
