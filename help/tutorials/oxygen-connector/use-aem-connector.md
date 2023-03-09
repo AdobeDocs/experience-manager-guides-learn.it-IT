@@ -1,9 +1,7 @@
 ---
 title: Plug-in ossigeno per Adobe Experience Manager Guides
 description: Scopri come utilizzare il plug-in di ossigeno per le guide di Adobe Experience Manager per creare e gestire i contenuti.
-hide: true
-hidefromtoc: true
-source-git-commit: d52a3c2a09a5a3d8e572191b4f4ebf1aa25f30df
+source-git-commit: 50b1b02c69ff81d4ee050d02ed945e88fac9dae0
 workflow-type: tm+mt
 source-wordcount: '5812'
 ht-degree: 1%
