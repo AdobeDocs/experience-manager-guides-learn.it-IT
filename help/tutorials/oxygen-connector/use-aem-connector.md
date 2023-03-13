@@ -1,9 +1,9 @@
 ---
 title: Plug-in ossigeno per Adobe Experience Manager Guides
 description: Scopri come utilizzare il plug-in di ossigeno per le guide di Adobe Experience Manager per creare e gestire i contenuti.
-source-git-commit: 50b1b02c69ff81d4ee050d02ed945e88fac9dae0
+source-git-commit: c3d50c3fc9f12d98942b6cb68512e01559b47d93
 workflow-type: tm+mt
-source-wordcount: '5812'
+source-wordcount: '5792'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,9 @@ Il plug-in ossigeno per Adobe Experience Manager Guides \(in seguito denominato 
 
 Il plug-in di ossigeno per le guide AEM è disponibile tramite il portale di distribuzione software Adobe. Cerca &quot;ossigeno&quot; nella scheda Experience Manager e scarica il programma di installazione del plug-in dal tuo [Portale di distribuzione software Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html).
 
-**Nota:** Verifica la compatibilità della versione del connettore di ossigeno dalle note sulla versione per le specifiche Adobe Experience Manager Guides.
+>[!NOTE]
+>
+>Verifica la compatibilità della versione del connettore di ossigeno dalle note sulla versione per le specifiche Adobe Experience Manager Guides.
 
 Una volta installato il programma di installazione, installarlo nel computer locale in cui è installato Oxygen XML Author. Prima di iniziare il processo di installazione, è necessario assicurarsi che il sistema soddisfi i requisiti tecnici per installare il plug-in di ossigeno per le guide AEM.
 
@@ -36,9 +38,9 @@ Una volta installato il programma di installazione, installarlo nel computer loc
 
 ### Installare il plug-in su Windows
 
-**Importante:**
-
-Se nel sistema è installata una versione precedente del plug-in, accertarsi di disinstallarla prima di avviare il processo di installazione. Consulta la **Disinstallazione dei pacchetti** sezione nella sezione [Come utilizzare i pacchetti](https://helpx.adobe.com/it/experience-manager/6-4/sites/administering/using/package-manager.html) articolo per le istruzioni di disinstallazione.
+>[!IMPORTANT]
+>
+>Se nel sistema è installata una versione precedente del plug-in, accertarsi di disinstallarla prima di avviare il processo di installazione. Consulta la **Disinstallazione dei pacchetti** sezione nella sezione [Come utilizzare i pacchetti](https://helpx.adobe.com/it/experience-manager/6-4/sites/administering/using/package-manager.html) articolo per le istruzioni di disinstallazione.
 
 Effettuare le seguenti operazioni sul sistema in cui è installato Oxygen XML Author:
 
@@ -63,16 +65,16 @@ Effettuare le seguenti operazioni sul sistema in cui è installato Oxygen XML Au
 
    ![](images/oxygen-aem-connector.png)
 
-   **Nota:**
-
-   Se il pannello Guide dell’AEM non è visibile, consulta le soluzioni alternative nella sezione risoluzione dei problemi:[Pannello Guide AEM mancante](#id192BH200ZAX).
+   >[!NOTE]
+   >
+   >Se il pannello Guide dell’AEM non è visibile, consulta le soluzioni alternative nella sezione risoluzione dei problemi:[Pannello Guide AEM mancante](#id192BH200ZAX).
 
 
 ### Installare il plug-in su Mac
 
-**Importante:**
-
-Se nel sistema è installata una versione precedente del plug-in, accertarsi di disinstallarla prima di avviare il processo di installazione. Consulta la **Disinstallazione dei pacchetti** sezione nella sezione [Come utilizzare i pacchetti](https://helpx.adobe.com/it/experience-manager/6-4/sites/administering/using/package-manager.html) istruzioni per la disinstallazione dell’articolo.
+>[!IMPORTANT]
+>
+>Se nel sistema è installata una versione precedente del plug-in, accertarsi di disinstallarla prima di avviare il processo di installazione. Consulta la **Disinstallazione dei pacchetti** sezione nella sezione [Come utilizzare i pacchetti](https://helpx.adobe.com/it/experience-manager/6-4/sites/administering/using/package-manager.html) istruzioni per la disinstallazione dell’articolo.
 
 Effettuare le seguenti operazioni sul sistema in cui è installato Oxygen XML Author:
 
@@ -82,9 +84,9 @@ Effettuare le seguenti operazioni sul sistema in cui è installato Oxygen XML Au
 
    Il file .dmg contiene una cartella aem-connector-x.x e un file di installazione aem-connector-x.x.
 
-   **Nota:**
-
-   x.x nei nomi file è il numero di versione del plug-in.
+   >[!NOTE]
+   >
+   >x.x nei nomi file è il numero di versione del plug-in.
 
 1. Copia la cartella aem-connector-x.x nella cartella dei plug-in di Oxygen XML Author.
 1. Fai doppio clic sul file di configurazione aem-connector-x.x per avviare il programma di installazione.
@@ -95,9 +97,9 @@ Effettuare le seguenti operazioni sul sistema in cui è installato Oxygen XML Au
 
    ![](images/oxygen-aem-connector-mac.png)
 
-   **Nota:**
-
-   Se il pannello Guide dell’AEM non è visibile, consulta le soluzioni alternative nella sezione risoluzione dei problemi:[Pannello Guide AEM mancante](#id192BH200ZAX).
+   >[!NOTE]
+   >
+   >Se il pannello Guide dell’AEM non è visibile, consulta le soluzioni alternative nella sezione risoluzione dei problemi:[Pannello Guide AEM mancante](#id192BH200ZAX).
 
 
 ### Installa il pacchetto per abilitare la funzione di modifica dei documenti dall’interfaccia web AEM {#id182CE0Q0TY4}
@@ -132,9 +134,9 @@ In qualità di amministratore AEM, effettua le seguenti operazioni per installar
 
    **Modifica in ossigeno** è disponibile nella barra degli strumenti. Per ulteriori informazioni sull&#39;utilizzo di questa opzione, vedere [Apri argomento DITA in Oxygen XML Author dall’interfaccia web AEM](#id182CE0I905Z).
 
-   **Nota:**
-
-   Il **Modifica in ossigeno** è visibile quando si seleziona un argomento DITA. Se si selezionano più argomenti, l&#39;opzione non sarà visibile.
+   >[!NOTE]
+   >
+   >Il **Modifica in ossigeno** è visibile quando si seleziona un argomento DITA. Se si selezionano più argomenti, l&#39;opzione non sarà visibile.
 
 
 ## Configurare il plug-in dell’ossigeno per le guide AEM {#id1826KF00AHS}
@@ -151,7 +153,9 @@ JxBrowser viene utilizzato per l’autenticazione SSO dal plug-in del connettore
 
 Aggiorna i file forniti per configurare le impostazioni di autenticazione web nel plug-in di ossigeno per le guide AEM:
 
-**Nota:** Crea una copia di backup del file prima di aggiornarlo.
+>[!NOTE]
+>
+>Crea una copia di backup del file prima di aggiornarlo.
 
 **Per Mac e ossigeno 24.1**
 
@@ -181,9 +185,9 @@ Aggiungi le seguenti righe in ossigenoAuthor.bat
 -Djdk.module.illegalAccess=permit -Djava.ipc.external=true
 ```
 
-**Nota:**
-
-È necessario eseguire ossigeno da ossigenoAuthor.sh per Mac e ossigenoAuthor.bat per Windows come amministratore.
+>[!NOTE]
+>
+>È necessario eseguire ossigeno da ossigenoAuthor.sh per Mac e ossigenoAuthor.bat per Windows come amministratore.
 
 ### Impostazioni generali
 
@@ -191,7 +195,7 @@ Per configurare le impostazioni di connessione nel plug-in ossigeno per le guide
 
 1. Nel pannello Guide AEM, fai clic sull’icona delle impostazioni, quindi seleziona **Impostazioni**.
 
-   ![](images/Settings.png)
+   ![](images/settings.png)
 
 1. Specifica i dettagli seguenti:
    - **URL server**: URL del server AEM, ad esempio:
@@ -202,9 +206,9 @@ Per configurare le impostazioni di connessione nel plug-in ossigeno per le guide
 
       Nell’URL precedente, specifica il nome host e la porta del server in cui viene distribuito il server AEM.
 
-      **Importante:**
-
-      Se il server AEM è distribuito sulla porta 80 o 443, non è necessario specificarlo nell’URL.
+      >[!IMPORTANT]
+      >
+      >Se il server AEM è distribuito sulla porta 80 o 443, non è necessario specificarlo nell’URL.
 
    - **Autenticazione** Scegli tra **Base \(Nome Utente/Password\)** o **Autenticazione Web**. Nel caso in cui selezioni **Base** autenticazione è necessario immettere il **Nome utente** e **Password** nella finestra Preferenze.
 
@@ -232,7 +236,7 @@ Per configurare gli attributi di profilatura, effettua le seguenti operazioni:
 
 1. In **Classpath** , selezionare com.adobe.o2.connector nella scheda **Usa il caricatore di classe padre dal plug-in con ID** a discesa.
 
-   ![](images/DITA%20Extension.png)
+   ![](images/dita-extension.png)
 
 1. In **Estensioni** , apportare le seguenti modifiche:
 1. 
@@ -286,7 +290,9 @@ La schermata seguente mostra il pannello AEM Guides.
 - **Connetti**: seleziona questa opzione per connettersi al server AEM. L’opzione è disabilitata quando Oxygen XML Author è connesso al server AEM.
 - **Aggiorna**: seleziona questa opzione per ottenere lo stato più recente dei file e della cartella dall’archivio AEM.
 
-   **Nota:** Assicurarsi di salvare i file prima di aggiornarli. Quando selezioni **Aggiorna** , viene visualizzato un avviso per il salvataggio dei file prima di aggiornarli. Se non hai salvato i file, puoi fare clic su **Annulla** e salvarli.
+   >[!NOTE]
+   >
+   >Assicurarsi di salvare i file prima di aggiornarli. Quando selezioni **Aggiorna** , viene visualizzato un avviso per il salvataggio dei file prima di aggiornarli. Se non hai salvato i file, puoi fare clic su **Annulla** e salvarli.
 
 - **Impostazioni**: puoi utilizzare questa opzione per aprire la finestra di dialogo Preferenze generali del plug-in.
 - **Disconnetti**: seleziona questa opzione per chiudere la connessione al server AEM. Questa opzione è disponibile solo se si utilizza la modalità Autenticazione Web.
@@ -331,9 +337,9 @@ Una volta connessi all’archivio AEM, puoi aprire i file per la modifica nell�
 
 Se hai selezionato **Estrazione automatica file all&#39;apertura** opzione \(nella finestra di dialogo Preferenze\), quindi all’apertura di un file, il file viene automaticamente estratto ed è disponibile per la modifica. Per aprire un file, è possibile fare doppio clic sul nome di un file oppure fare clic con il pulsante destro del mouse sul nome del file e scegliere **Apri** dal menu di scelta rapida. Se questa opzione non è selezionata, il file viene aperto in modalità di sola lettura.
 
-**Nota:**
-
-È inoltre possibile fare doppio clic su un file per aprirlo.
+>[!NOTE]
+>
+>È inoltre possibile fare doppio clic su un file per aprirlo.
 
 ### Apri il file nell’editor di guide AEM {#id195GH0V30KX}
 
@@ -370,9 +376,9 @@ Quando un file viene estratto, l&#39;icona del file cambia per mostrare lo stato
 
 Nella schermata precedente, un file estratto da un altro utente viene visualizzato con un&#39;icona di blocco di colore nero \(A\). Il file estratto dall&#39;utente corrente viene visualizzato con un blocco verde \(B\).
 
-**Nota:**
-
-Se il file estratto viene eliminato o spostato in un&#39;altra cartella in AEM, viene visualizzato un messaggio di errore quando si archivia il file. Verificare che il file estratto non venga spostato o eliminato tramite l&#39;interfaccia Web AEM.
+>[!NOTE]
+>
+>Se il file estratto viene eliminato o spostato in un&#39;altra cartella in AEM, viene visualizzato un messaggio di errore quando si archivia il file. Verificare che il file estratto non venga spostato o eliminato tramite l&#39;interfaccia Web AEM.
 
 ### Archiviare un file {#id182CF0J0FHS}
 
@@ -397,15 +403,15 @@ Quando si archivia un file, la copia locale dal sistema viene memorizzata nell&#
 
 1. \(Facoltativo\) Nella finestra di dialogo Archivia, aggiungi un commento in **Commenti sulla versione** casella di testo.
 
-   **Nota:**
-
-   Questo commento viene visualizzato nella cronologia delle versioni AEM del file.
+   >[!NOTE]
+   >
+   >Questo commento viene visualizzato nella cronologia delle versioni AEM del file.
 
 1. Fai clic su **OK**.
 
-**Nota:**
-
-Se il file estratto viene eliminato o spostato in un&#39;altra cartella in AEM, viene visualizzato un messaggio di errore quando si archivia il file. Verificare che il file estratto non venga spostato o eliminato tramite l&#39;interfaccia Web AEM.
+>[!NOTE]
+>
+>Se il file estratto viene eliminato o spostato in un&#39;altra cartella in AEM, viene visualizzato un messaggio di errore quando si archivia il file. Verificare che il file estratto non venga spostato o eliminato tramite l&#39;interfaccia Web AEM.
 
 ### File estratti nella visualizzazione Guide AEM
 
@@ -512,7 +518,7 @@ Per cercare gli argomenti, effettua le seguenti operazioni:
 
    Il risultato viene visualizzato nella scheda Risultati ricerca come elenco con il percorso del file. Se non viene trovato alcun risultato corrispondente per la query di ricerca, non verrà trovato alcun risultato in &lt;path of=&quot;&quot; the=&quot;&quot; selected=&quot;&quot; folder=&quot;&quot;> viene visualizzato il messaggio.
 
-   ![](images/Search.png)
+   ![](images/search.png)
 
 1. \(Facoltativo\) Fare doppio clic su un file nel risultato della ricerca per aprirlo in Oxygen XML Author.
 1. Per tornare alla vista Archivio AEM, eseguire una delle operazioni seguenti:
@@ -523,9 +529,9 @@ Per cercare gli argomenti, effettua le seguenti operazioni:
 
 È possibile aprire e modificare l&#39;argomento DITA in Oxygen XML Author dall&#39;interfaccia Web AEM. Per abilitare questa opzione è necessario installare un pacchetto in AEM. Per ulteriori informazioni sull&#39;installazione del pacchetto, vedere [Installa il pacchetto per abilitare la funzione di modifica dei documenti dall’interfaccia web AEM](#id182CE0Q0TY4).
 
-**Nota:**
-
-Il **Modifica in ossigeno** L&#39;opzione è accessibile da varie posizioni in AEM: quando un argomento viene selezionato, quando un argomento viene visualizzato in anteprima o dalla scheda Argomenti e report della console delle mappe DITA. Se selezioni più argomenti, l’opzione non è visibile nella barra degli strumenti.
+>[!NOTE]
+>
+>Il **Modifica in ossigeno** L&#39;opzione è accessibile da varie posizioni in AEM: quando un argomento viene selezionato, quando un argomento viene visualizzato in anteprima o dalla scheda Argomenti e report della console delle mappe DITA. Se selezioni più argomenti, l’opzione non è visibile nella barra degli strumenti.
 
 **Aprire un argomento DITA**
 
@@ -533,9 +539,9 @@ Per aprire un argomento DITA in Oxygen XML Author, effettuare le seguenti operaz
 
 1. Seleziona un argomento nelle risorse e fai clic su **Modifica in ossigeno** nella barra degli strumenti.
 
-   **Nota:**
-
-   Se l&#39;argomento non è estratto, viene prima estratto e quindi aperto in Ossigeno in modalità di modifica.
+   >[!NOTE]
+   >
+   >Se l&#39;argomento non è estratto, viene prima estratto e quindi aperto in Ossigeno in modalità di modifica.
 
 1. Seleziona autore XML ossigeno *&lt;version>* nel **Avvia applicazione** finestra di messaggio. Puoi selezionare **Ricorda la mia scelta di collegamenti AEM** per salvare la preferenza.
 
@@ -546,9 +552,9 @@ Per modificare un argomento DITA in Oxygen XML Author, effettuare le seguenti op
 1. Seleziona ed estrai un argomento nelle risorse.
 1. Clic **Modifica in ossigeno** nella barra degli strumenti.
 
-   **Nota:**
-
-   Se l&#39;argomento non è estratto, viene prima estratto e quindi aperto in Ossigeno in modalità di modifica.
+   >[!NOTE]
+   >
+   >Se l&#39;argomento non è estratto, viene prima estratto e quindi aperto in Ossigeno in modalità di modifica.
 
 1. Seleziona autore XML ossigeno *&lt;version>* nel **Avvia applicazione** finestra di messaggio. Puoi selezionare **Ricorda la mia scelta di collegamenti AEM** per salvare la preferenza.
 1. Modificare l&#39;argomento in Oxygen XML Author.
@@ -556,18 +562,18 @@ Per modificare un argomento DITA in Oxygen XML Author, effettuare le seguenti op
 
    Per ulteriori informazioni sull&#39;archiviazione di un argomento tramite Oxygen Plugin for AEM Guides, vedere [Archiviare un file](#id182CF0J0FHS).
 
-   **Nota:**
-
-   Accertatevi di archiviare l&#39;argomento utilizzando Oxygen Plugin for AEM Guides. Se si esegue l&#39;archiviazione dall&#39;interfaccia Web AEM, le modifiche apportate in Oxygen XML Author non verranno salvate nella versione archiviata dell&#39;argomento.
+   >[!NOTE]
+   >
+   >Accertatevi di archiviare l&#39;argomento utilizzando Oxygen Plugin for AEM Guides. Se si esegue l&#39;archiviazione dall&#39;interfaccia Web AEM, le modifiche apportate in Oxygen XML Author non verranno salvate nella versione archiviata dell&#39;argomento.
 
 
 ## Utilizzare i profili attributo {#id1827JA002YK}
 
 Le guide AEM consentono di creare e associare facilmente attributi condizionali utilizzando gli attributi DITA pertinenti. Puoi definire gli attributi condizionali a livello globale o a livello di cartella. Le condizioni definite a livello globale sono visibili in tutti i progetti e le condizioni a livello di cartella sono visibili solo nei progetti creati all’interno della cartella specificata. Gli autori dei contenuti possono utilizzare questi attributi condizionali per condizionare il contenuto nei propri argomenti o mappe DITA che creano o utilizzano. Per ulteriori informazioni su come creare attributi condizionali in AEM utilizzando le guide AEM, consulta *Configurare gli attributi condizionali per i profili globali o a livello di cartella* sezione in Installare e configurare Adobe Experience Manager Guides.
 
-**Nota:**
-
-Assicurati di aver aggiunto gli attributi condizionali in AEM e di aver impostato [Preferenza per la personalizzazione degli attributi di profilatura](#id1827K0D0OHT) prima di aggiungere attributi condizionali al contenuto.
+>[!NOTE]
+>
+>Assicurati di aver aggiunto gli attributi condizionali in AEM e di aver impostato [Preferenza per la personalizzazione degli attributi di profilatura](#id1827K0D0OHT) prima di aggiungere attributi condizionali al contenuto.
 
 Per aggiungere attributi condizionali al contenuto in Oxygen XML Author, effettua le seguenti operazioni:
 
@@ -651,9 +657,9 @@ Soluzione: per abilitare la funzione di generazione dei registri nel plug-in, ef
     
     1.  Aprire il file ossigenoAuthor19.1.vmoptions in un editor di testo.
     
-    **Nota:**
-    
-    Il numero di versione del file può variare in base al numero di versione dell&#39;applicazione installata nel sistema.
+    >[!NOTA]
+    >
+    >Il numero di versione del file potrebbe variare in base al numero di versione dell&#39;applicazione installata nel sistema.
     
     1.  Aggiungi la seguente riga al file:
     
