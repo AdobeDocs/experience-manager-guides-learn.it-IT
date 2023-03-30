@@ -1,7 +1,7 @@
 ---
 title: Rapporti nelle guide AEM
 description: Scopri quali sono tutti i rapporti disponibili in AEM per aiutare gli utenti a migliorare la qualità dei contenuti.
-source-git-commit: 91afddedb73a54a3148afe13b456e9a83eeeb0f7
+source-git-commit: b1527db4ee7ee5847026b1ba12c668557c23766f
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 1%
@@ -38,10 +38,10 @@ In questa sessione, condivideremo i rapporti predefiniti disponibili per gli ute
 
 ## Principali aspetti
 
-In questa sessione imparerai quanto segue:
+In questa sessione hai imparato quanto segue:
 - Importanza dei rapporti nel CCMS
-- Quali report sono disponibili
-- Come estendere le funzionalità di reporting
+- Quali report sono disponibili preconfigurati?
+- Come puoi estendere le funzionalità di reporting?
 - Esempi di reporting sul contenuto
 
 
