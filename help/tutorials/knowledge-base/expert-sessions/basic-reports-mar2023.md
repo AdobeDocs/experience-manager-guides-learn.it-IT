@@ -1,26 +1,26 @@
 ---
 title: Rapporti nelle guide AEM
 description: Scopri quali sono tutti i rapporti disponibili in AEM per aiutare gli utenti a migliorare la qualità dei contenuti.
-source-git-commit: b1527db4ee7ee5847026b1ba12c668557c23766f
+source-git-commit: aa5cbe2b8a8be8d7aa8b57d27f71e4a319dd5ccf
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 1%
+source-wordcount: '278'
+ht-degree: 0%
 
 ---
 
-# Creazione di contenuti basati sul web
+# Rapporti nelle guide AEM
 
 In una configurazione organizzativa, è necessario verificare la completezza complessiva del contenuto prima di inviare i documenti da utilizzare agli utenti finali. Questa esigenza diventa ancora più essenziale in ambienti multiutente e su larga scala in cui i contenuti possono essere riutilizzati in contesti diversi e quindi la convalida dei contenuti o dei documenti è una necessità. Nel contesto dei contenuti strutturati, esistono alcuni tipi specifici di rapporti di cui è comunemente necessaria l’elaborazione.
 
 
 ## Panoramica della sessione
 
-In questa sessione, condivideremo i rapporti predefiniti disponibili per gli utenti. In linea di massima verranno trattati i seguenti tipi di rapporti:
-- Funzionalità di reporting delle AEM
+In questa sessione sono stati mostrati i rapporti preconfigurati disponibili per gli utenti. Abbiamo ampiamente trattato quanto segue:
 - Rapporti su documenti (mappa) e argomenti
 - Opzioni di gestione dei metadati e dei metadati in blocco
-- Visualizzare le statistiche di riutilizzo dei contenuti
-- Completezza dell’importazione dei contenuti
+- Report di riutilizzo dei contenuti
+- Correttezza dell’importazione dei contenuti
+- Utilizzo della funzionalità di reporting di AEM Assets
 
 
 ## Registrazione sessione
@@ -40,14 +40,13 @@ In questa sessione, condivideremo i rapporti predefiniti disponibili per gli ute
 
 In questa sessione hai imparato quanto segue:
 - Importanza dei rapporti nel CCMS
-- Quali report sono disponibili preconfigurati?
-- Come puoi estendere le funzionalità di reporting?
-- Esempi di reporting sul contenuto
+- rapporti predefiniti disponibili
+- esempi di reporting sul contenuto
 
 
 ## Risorse correlate
 
-- In questa sessione abbiamo presentato diverse relazioni. Per creare rapporti simili, fare riferimento ai passaggi indicati nel documento allegato. [Scarica PDF](./assets/aem-guides-expert-session-reports-documentation.pdf)
+- [Scarica PDF](./assets/aem-guides-expert-session-reports-documentation.pdf) creare rapporti simili ai casi d’uso dimostrati nella sessione.
 
 - **Video sulle funzioni** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/working-with-reports.html?lang=en)
 
@@ -58,8 +57,8 @@ In questa sessione hai imparato quanto segue:
 >[!NOTE]
 >
 > Le funzioni mostrate in questa sessione sono disponibili nelle seguenti versioni di AEM Guide:
-> - On-prem 4.2 o successivo
-> - Cloud Services 2302 o successivi
+> - On-Prem: 4.2 o successiva
+> - Cloud Services: 2302 o versioni successive
 
 
 
