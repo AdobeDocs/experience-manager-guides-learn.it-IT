@@ -1,9 +1,9 @@
 ---
 title: Rapporti nelle guide AEM
 description: Scopri quali sono tutti i rapporti disponibili in AEM per aiutare gli utenti a migliorare la qualità dei contenuti.
-source-git-commit: 98c81b20a5ae6347d7c06a98112564d5a5b3d81b
+source-git-commit: b909e6848c3f81e3350c1ce07165d5ea00564345
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '280'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ In questa sessione hai imparato quanto segue:
 
 ## Risorse correlate
 
-- **[Scarica PDF](./assets/aem-guides-expert-session-reports-documentation.pdf)** per comprendere i dettagli delle relazioni dimostrate nella sessione.
+- **[Download del manuale dei report sulle guide AEM](./assets/aem-guides-expert-session-reports-documentation.pdf)** per comprendere i dettagli delle relazioni dimostrate nella sessione.
 
 - **Video sulle funzioni** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/working-with-reports.html?lang=en)
 
