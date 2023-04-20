@@ -1,10 +1,11 @@
 ---
 title: Rapporti nelle guide AEM
 description: Scopri quali sono tutti i rapporti disponibili in AEM per aiutare gli utenti a migliorare la qualità dei contenuti.
-source-git-commit: b909e6848c3f81e3350c1ce07165d5ea00564345
+exl-id: f0d761ff-efea-452c-bb8e-865f34a182fc
+source-git-commit: 7871a54f3181fd114e24e0e10cfc15351cefd761
 workflow-type: tm+mt
 source-wordcount: '280'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -36,7 +37,7 @@ In questa sessione sono stati mostrati i rapporti preconfigurati disponibili per
 - **Pubblico** - Clienti, partner e dipendenti di Adobe
 
 
-## Principali aspetti
+## Elementi principali da ricordare
 
 In questa sessione hai imparato quanto segue:
 - Importanza dei rapporti nel CCMS
@@ -64,7 +65,7 @@ In questa sessione hai imparato quanto segue:
 
 ## Prossima sessione di esperti
 
-- **Argomento** - TBD *(in attesa dei risultati del sondaggio)*
+- **Argomento** - Configurazione del contenuto e del modello
 - **Pianificato il** - 27 aprile 2023
 
 
