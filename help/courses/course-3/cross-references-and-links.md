@@ -2,7 +2,7 @@
 title: Collegamenti e riferimenti incrociati
 description: Creazione di riferimenti incrociati e collegamenti nelle guide AEM
 exl-id: bee7d50f-cbdd-4ac8-b15b-101febc4ae80
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 0%
@@ -24,7 +24,7 @@ I file di esempio che è possibile scegliere di utilizzare per questa lezione so
 
 1. Aprire un file in cui si desidera inserire un riferimento incrociato esterno.
 
-2. Assegna un ID all’elemento a cui fare riferimento.
+1. Assegna un ID all’elemento a cui fare riferimento.
 
    a) Fai clic all’interno dell’elemento.
 
@@ -34,15 +34,15 @@ I file di esempio che è possibile scegliere di utilizzare per questa lezione so
 
    d. Visualizza l’elemento e il relativo valore in **Vista struttura** se desiderato.
 
-3. **Salva** l’argomento per verificare che l’archivio disponga dell’ID aggiornato.
+1. **Salva** l’argomento per verificare che l’archivio disponga dell’ID aggiornato.
 
-4. Fai clic sul pulsante [!UICONTROL **Riferimento**] nella barra degli strumenti superiore.
+1. Fai clic sul pulsante [!UICONTROL **Riferimento**] nella barra degli strumenti superiore.
 
    ![Barra degli strumenti](images/lesson-7/references-icon.png)
 
-5. Da **Riferimento contenuto** , seleziona l’ID e l’associazione degli elementi da inserire come riferimento incrociato.
+1. Da **Riferimento contenuto** , seleziona l’ID e l’associazione degli elementi da inserire come riferimento incrociato.
 
-6. Fai clic su [!UICONTROL **Seleziona**].
+1. Fai clic su [!UICONTROL **Seleziona**].
 
 Il riferimento incrociato è stato aggiunto all’argomento.
 
@@ -57,9 +57,9 @@ Alcune modifiche possono causare l’interruzione di riferimenti incrociati. Ad 
 
 1. Passa a **Vista struttura** nel pannello a sinistra.
 
-2. Fai clic sul pulsante [!UICONTROL **Filtro**] icona.
+1. Fai clic sul pulsante [!UICONTROL **Filtro**] icona.
 
-3. Seleziona **Collegamenti interrotti**.
+1. Seleziona **Collegamenti interrotti**.
 
    ![Elenco a discesa Filtro](images/lesson-7/broken-links.png)
 

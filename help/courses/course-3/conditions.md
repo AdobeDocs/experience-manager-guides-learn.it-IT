@@ -2,10 +2,10 @@
 title: Condizioni
 description: Utilizzo delle condizioni nelle AEM
 exl-id: 2cb670d9-1a22-47c6-8409-52d1d526010a
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '497'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -21,15 +21,15 @@ I file di esempio che è possibile scegliere di utilizzare per questa lezione so
 
 1. Seleziona la **Profili cartella** piastrelle.
 
-2. Fai clic su [!UICONTROL **Attributi condizionali**].
+1. Fai clic su [!UICONTROL **Attributi condizionali**].
 
-3. Fai clic su [!UICONTROL **Modifica**] nell’angolo in alto a sinistra del profilo.
+1. Fai clic su [!UICONTROL **Modifica**] nell’angolo in alto a sinistra del profilo.
 
-4. Fate clic su [!UICONTROL **Aggiungi**].
+1. Fai clic su [!UICONTROL **Aggiungi**].
 
    ![Condizioni nei profili cartella](images/lesson-13/add-name.png)
 
-5. Compila i campi richiesti.
+1. Compila i campi richiesti.
 
    - Il Nome deve corrispondere a un attributo utilizzato per il profiling.
 
@@ -37,7 +37,7 @@ I file di esempio che è possibile scegliere di utilizzare per questa lezione so
 
    - Etichetta è la parola che verrà visualizzata dall’utente che immette gli attributi.
 
-6. Fai clic su [!UICONTROL **Salva**].
+1. Fai clic su [!UICONTROL **Salva**].
 
 >[!NOTE]
 >
@@ -49,11 +49,11 @@ Se a un concetto non è stato assegnato alcun profilo cartella personalizzato, p
 
 1. Da **Visualizzazione archivio**, fai clic sull’elemento con cui desideri lavorare per selezionarlo.
 
-2. In **Proprietà contenuto** fai clic sul pulsante [!UICONTROL **Attributo**] a discesa.
+1. In **Proprietà contenuto** fai clic sul pulsante [!UICONTROL **Attributo**] a discesa.
 
-3. Scegliere l&#39;attributo da assegnare.
+1. Scegliere l&#39;attributo da assegnare.
 
-4. Aggiungi un **Valore**.
+1. Aggiungi un **Valore**.
 
 L’associazione attributo e valore ora viene assegnata all’elemento selezionato.
 
@@ -67,15 +67,15 @@ Il pannello Condizioni consente l’assegnazione controllata delle coppie Attrib
 
    ![Icona Preferenze utente](images/lesson-13/user-prefs-icon.png)
 
-   b) Compila i campi richiesti nella sezione **Preferenze utente** finestra di dialogo. Esempio:
+   b) Compila i campi richiesti nella sezione **Preferenze utente** finestra di dialogo. Ad esempio:
 
    ![Preferenze utente](images/lesson-13/user-preferences.png)
 
    c. Fai clic su [!UICONTROL **Salva**].
 
-2. Dal pannello condizioni, espandi i menu a discesa per Audience e Platform. Le condizioni disponibili sono specifiche per il profilo cartella.
+1. Dal pannello condizioni, espandi i menu a discesa per Audience e Platform. Le condizioni disponibili sono specifiche per il profilo cartella.
 
-3. Trascina e rilascia una condizione sull’elemento desiderato per assegnarla.
+1. Trascina e rilascia una condizione sull’elemento desiderato per assegnarla.
 
 ## Assegnare uno schema soggetto
 
@@ -83,11 +83,11 @@ Le mappe dello Schema dell&#39;oggetto sono una forma specializzata di mappa a f
 
 1. Passa a **Visualizzazione archivio**.
 
-2. Selezionare una mappa che fa riferimento alla mappa a video dell&#39;oggetto Schema. In questo esempio viene utilizzata la mappa denominata _Progettazione e layout_.
+1. Selezionare una mappa che fa riferimento alla mappa a video dell&#39;oggetto Schema. In questo esempio viene utilizzata la mappa denominata _Progettazione e layout_.
 
    ![Preferenze utente](images/lesson-13/subject-scheme-map.png)
 
-3. Configura le preferenze utente.
+1. Configura le preferenze utente.
 
    a) Fai clic sul pulsante [!UICONTROL **Preferenze utente**] icona.
 
@@ -119,6 +119,6 @@ Le mappe dello Schema dell&#39;oggetto sono una forma specializzata di mappa a f
 
 1. Passa a **Impostazioni editor**.
 
-2. Seleziona la **Condizioni** scheda .
+1. Seleziona la **Condizioni** scheda .
 
-3. Seleziona la casella **Mostra schema oggetto nel pannello Condizioni**
+1. Seleziona la casella **Mostra schema oggetto nel pannello Condizioni**

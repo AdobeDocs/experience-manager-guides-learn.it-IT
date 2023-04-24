@@ -2,7 +2,7 @@
 title: Crea una mappa in [!DNL AEM Guides]
 description: Scopri come creare una mappa in [!DNL Adobe Experience Manager Guides]
 exl-id: e38a7fd5-2a29-4248-8e8f-e6a87e1eae9c
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 1%
@@ -82,7 +82,7 @@ Il contenuto si apre in [!UICONTROL Anteprima].
 Puoi modificare la gerarchia degli argomenti all’interno della mappa.
 
 1. Fai clic sull’icona di un argomento per selezionarlo.
-2. Utilizza le frecce rispettivamente per ridurre e promuovere gli elementi.
+1. Utilizza le frecce rispettivamente per ridurre e promuovere gli elementi.
 
    ![Icona archivio](images/lesson-8/left-right.png)
 

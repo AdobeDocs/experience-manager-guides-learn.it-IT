@@ -2,7 +2,7 @@
 title: Note sulla versione | Guide Adobe Experience Manager as a Cloud Service, versione di aprile 2022
 description: Rilascio di aprile delle guide di Adobe Experience Manager as a Cloud Service
 exl-id: c735ba24-a803-454b-8723-57dacf90061b
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 3%
@@ -15,8 +15,8 @@ ht-degree: 3%
 
 Aggiorna il tuo [!DNL Adobe Experience Manager Guides] as a Cloud Service (successivamente indicato come *[!DNL AEM Guides]as a Cloud Service*) eseguendo le seguenti operazioni:
 1. Controlla il codice Git dei Cloud Services e passa al ramo configurato nella pipeline dei Cloud Services corrispondente all’ambiente da aggiornare.
-2. Aggiorna `<dox.version>` proprietà in `/dox/dox.installer/pom.xml` file dei tuoi Cloud Services Codice Git a 2022.4.133.
-3. Conferma le modifiche ed esegui la pipeline dei Cloud Services per eseguire l’aggiornamento alla versione di aprile di [!DNL AEM Guides] as a Cloud Service.
+1. Aggiorna `<dox.version>` proprietà in `/dox/dox.installer/pom.xml` file dei tuoi Cloud Services Codice Git a 2022.4.133.
+1. Conferma le modifiche ed esegui la pipeline dei Cloud Services per eseguire l’aggiornamento alla versione di aprile di [!DNL AEM Guides] as a Cloud Service.
 
 ## Matrice di compatibilità
 
@@ -52,8 +52,8 @@ Un riferimento a una chiave di contenuto DITA inserisce una parte di contenuto d
 Ora i riferimenti chiave vengono risolti in base alla mappa radice impostata nel seguente ordine di priorità:
 
 1. Preferenze utente
-2. Pannello Vista mappa
-3. Profilo cartella
+1. Pannello Vista mappa
+1. Profilo cartella
 
 Per ulteriori dettagli, consulta *Risolvere i riferimenti chiave* nella guida utente.
 

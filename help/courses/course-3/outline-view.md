@@ -2,7 +2,7 @@
 title: Vista struttura
 description: Uso della vista Struttura nelle AEM guide
 exl-id: 300f550f-dc79-4971-b8ba-43fe8499ea02
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '399'
 ht-degree: 0%
@@ -31,7 +31,7 @@ La vista struttura passa da espansa a compressa.
 
 1. Fai clic su un elemento per passare a tale posizione.
 
-2. Fai clic sul pulsante [!UICONTROL **Ellissi**] accanto a un elemento per accedere alle opzioni di scelta rapida.
+1. Fai clic sul pulsante [!UICONTROL **Ellissi**] accanto a un elemento per accedere alle opzioni di scelta rapida.
 
    ![Menu di scelta rapida](images/lesson-6/shortcut-options.png)
 
@@ -41,7 +41,7 @@ Un nuovo ID può essere generato automaticamente in base alla configurazione del
 
 1. Fai clic sul pulsante [!UICONTROL **Ellissi**] accanto a qualsiasi elemento.
 
-2. Scegli **Genera ID**.
+1. Scegli **Genera ID**.
 
    ![Menu di scelta rapida Ellissi](images/lesson-6/ellipsis-popup.png)
 
@@ -53,7 +53,7 @@ Gli elementi possono essere riordinati nella vista Struttura.
 
 1. Fare clic e trascinare un elemento in un&#39;altra posizione nella visualizzazione Struttura.
 
-2. Rilascia l’elemento sopra un altro elemento per sostituirlo. Questa azione è indicata da una casella quadrata intorno all’elemento da sostituire.
+1. Rilascia l’elemento sopra un altro elemento per sostituirlo. Questa azione è indicata da una casella quadrata intorno all’elemento da sostituire.
 
    Oppure
 
@@ -63,13 +63,13 @@ Gli elementi possono essere riordinati nella vista Struttura.
 
 1. Seleziona l’elemento.
 
-2. Fai clic sul pulsante [!UICONTROL **Ellissi**].
+1. Fai clic sul pulsante [!UICONTROL **Ellissi**].
 
-3. Seleziona **Rinomina elemento**.
+1. Seleziona **Rinomina elemento**.
 
    ![Menu di scelta rapida Rinomina elemento](images/lesson-6/rename-before.png)
 
-4. Fai doppio clic sul nome di un nuovo elemento.
+1. Fai doppio clic sul nome di un nuovo elemento.
 
 L’elemento è stato rinominato.
 
@@ -77,9 +77,9 @@ L’elemento è stato rinominato.
 
 1. Seleziona l’elemento da eliminare.
 
-2. Fai clic sul pulsante [!UICONTROL **Ellissi**].
+1. Fai clic sul pulsante [!UICONTROL **Ellissi**].
 
-3. Seleziona [!UICONTROL **Annulla racchiudi elemento**].
+1. Seleziona [!UICONTROL **Annulla racchiudi elemento**].
 
 Il contenuto rimane ma la struttura è stata rimossa.
 
@@ -89,7 +89,7 @@ Il contenuto rimane ma la struttura è stata rimossa.
 
    ![Filtri](images/lesson-6/filter-icon.png)
 
-2. Scegli una **Tutto** per mostrare tutti gli elementi o **Collegamenti interrotti** per trovare e correggere i riferimenti interrotti.
+1. Scegli una **Tutto** per mostrare tutti gli elementi o **Collegamenti interrotti** per trovare e correggere i riferimenti interrotti.
 
 ## Ricerca con vista struttura
 
@@ -99,4 +99,4 @@ Una ricerca può essere limitata e restituire risultati in base a un elemento, u
 
    ![Barra di ricerca](images/lesson-6/search-bar.png)
 
-2. Scegli il risultato più adatto alle tue esigenze.
+1. Scegli il risultato più adatto alle tue esigenze.

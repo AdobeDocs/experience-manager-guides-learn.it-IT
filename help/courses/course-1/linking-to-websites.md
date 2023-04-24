@@ -2,7 +2,7 @@
 title: Collegamento a siti web in [!DNL AEM Guides]
 description: Collegamento a siti web in [!DNL Adobe Experience Manager Guides]
 exl-id: 6b89f52e-ac15-4604-8bac-ab0bb5b5a978
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 1%
@@ -18,18 +18,18 @@ I collegamenti web indirizzano i lettori ai siti web per ulteriori informazioni,
 ## Inserimento di un collegamento
 
 1. Seleziona il concetto dall’archivio e aprilo nell’editor.
-2. Aggiungi una stringa di testo al concetto ed evidenziala o evidenzia il testo selezionato esistente.
+1. Aggiungi una stringa di testo al concetto ed evidenziala o evidenzia il testo selezionato esistente.
 
    Questo testo evidenziato è il punto in cui verrà inserito il collegamento.
-3. Seleziona la **Inserisci riferimento incrociato** dalla barra degli strumenti.
+1. Seleziona la **Inserisci riferimento incrociato** dalla barra degli strumenti.
 
    ![Icona Inserisci riferimento incrociato](images/lesson-5/insert-crossref-icon.png)
 
    Viene visualizzata la finestra di dialogo Riferimento.
 
 
-4. Seleziona **Collegamento web** dal menu a sinistra.
-5. Incolla l’URL desiderato, quindi fai clic su **Seleziona**.
+1. Seleziona **Collegamento web** dal menu a sinistra.
+1. Incolla l’URL desiderato, quindi fai clic su **Seleziona**.
 
    Il collegamento funziona e, quando fai clic su , aprirà una pagina web in una nuova scheda del browser.
 

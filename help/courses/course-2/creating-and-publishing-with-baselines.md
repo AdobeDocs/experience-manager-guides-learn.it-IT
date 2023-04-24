@@ -2,7 +2,7 @@
 title: Creazione e pubblicazione con le linee di base
 description: Creazione e pubblicazione con le linee di base in [!DNL Adobe Experience Manager Guides]
 exl-id: 3c229c30-f2e0-4fb0-b60c-7bae60ef1a5b
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 1%
@@ -24,7 +24,7 @@ Puoi accedere alle tue linee di base nella Dashboard mappa.
    ![ellipsis-map-dashboard.png](images/ellipsis-map-dashboard.png)
 Il dashboard mappa si apre in un&#39;altra scheda.
 
-2. Seleziona **Linee di base**.
+1. Seleziona **Linee di base**.
 
    ![baseline-tab.png](images/baseline-tab.png)
 
@@ -38,18 +38,18 @@ Viene visualizzata la scheda Linee di base .
 
    Vengono visualizzate le informazioni della nuova baseline. Il nome predefinito dipende dalla data di creazione.
 
-2. Se necessario, assegna alla baseline un nuovo nome.
+1. Se necessario, assegna alla baseline un nuovo nome.
 
-3. Sotto l&#39;intestazione &quot;Imposta la versione in base a&quot;, selezionare il cerchio per Etichetta.
+1. Sotto l&#39;intestazione &quot;Imposta la versione in base a&quot;, selezionare il cerchio per Etichetta.
    ![set-the-version.png](images/set-the-version.png)
 
    >[!NOTE]
    >
    >NOTA: La *Utilizza la versione più recente se l’etichetta non è presente* casella di controllo selezionata per impostazione predefinita. Se questa opzione non è selezionata e nella mappa sono presenti argomenti o file multimediali senza l’etichetta selezionata, il processo di creazione della linea di base non riuscirà.
 
-4. Inserisci l’etichetta da utilizzare.
+1. Inserisci l’etichetta da utilizzare.
 
-5. Seleziona **Salva**.
+1. Seleziona **Salva**.
 
 Viene creata la baseline. Viene visualizzata una tabella di tutti gli argomenti e delle relative informazioni associate.
 
@@ -67,17 +67,17 @@ La funzione Sfoglia tutti gli argomenti consente di visualizzare le informazioni
 
    ![create-baseline.png](images/create-baseline.png)
 
-2. Sotto l&#39;intestazione &quot;Imposta la versione in base a&quot;, selezionare il cerchio per &quot;Versione su&quot;.
+1. Sotto l&#39;intestazione &quot;Imposta la versione in base a&quot;, selezionare il cerchio per &quot;Versione su&quot;.
 
    ![version-on.png](images/version-on.png)
 
-3. Seleziona l’icona del calendario e specifica la data e l’ora desiderate.
+1. Seleziona l’icona del calendario e specifica la data e l’ora desiderate.
 
    ![calendar.png](images/calendar.png)
 
-4. Se necessario, assegna alla baseline un nuovo nome.
+1. Se necessario, assegna alla baseline un nuovo nome.
 
-5. Seleziona **Salva**.
+1. Seleziona **Salva**.
 
 Viene creata la baseline. Viene visualizzata una tabella di tutti gli argomenti e delle relative informazioni associate.
 
@@ -87,13 +87,13 @@ Puoi assegnare una nuova etichetta in blocco a tutto il contenuto della mappa.
 
 1. Seleziona la linea di base per la quale desideri aggiungere le etichette.
 
-2. Seleziona **Aggiungi etichette**.
+1. Seleziona **Aggiungi etichette**.
 
    ![add-label.png](images/add-labels.png)
 
    Viene visualizzata la finestra di dialogo Aggiungi etichetta.
 
-3. Immettere l&#39;etichetta da assegnare e selezionare **Aggiungi**.
+1. Immettere l&#39;etichetta da assegnare e selezionare **Aggiungi**.
 
 L’etichetta è stata aggiunta a tutti gli argomenti.
 
@@ -101,25 +101,25 @@ L’etichetta è stata aggiunta a tutti gli argomenti.
 
 1. Passa alla scheda Predefiniti di output nel dashboard Mappa.
 
-2. Selezionare la casella di controllo Sito AEM.
+1. Selezionare la casella di controllo Sito AEM.
 
    ![aem-site-check.png](images/aem-site-checkbox.png)
 
-3. Seleziona **Modifica**.
+1. Seleziona **Modifica**.
 
    ![edit-aem.png](images/edit-aem.png)
 
    Viene visualizzata una nuova pagina.
 
-4. Selezionate la casella di controllo Usa linea di base e scegliete la linea di base da utilizzare dal menu a discesa.
+1. Selezionate la casella di controllo Usa linea di base e scegliete la linea di base da utilizzare dal menu a discesa.
 
    ![baseline.png](images/baseline.png)
 
-5. Seleziona **Fine**.
+1. Seleziona **Fine**.
 
    ![done.png](images/done.png)
 
-6. Seleziona **Genera**.
+1. Seleziona **Genera**.
 
    ![generate.png](images/generate.png)
 
@@ -129,20 +129,20 @@ L’etichetta è stata aggiunta a tutti gli argomenti.
 
 1. Passate alla scheda Outputs (Output) nel dashboard della mappa.
 
-2. Selezionare il testo nella colonna Impostazione generazione per aprire l&#39;output.
+1. Selezionare il testo nella colonna Impostazione generazione per aprire l&#39;output.
    ![aem-site-link.png](images/aem-site-link.png)
 
 ## Rimozione di una baseline
 
 1. Nella scheda Linee di base selezionare la linea di base da rimuovere.
 
-2. Seleziona **Rimuovi**.
+1. Seleziona **Rimuovi**.
 
    ![removebaseline.png](images/remove-baseline.png)
 
    Viene visualizzata la finestra di dialogo Rimuovi linea di base.
 
-3. Seleziona **Rimuovi**.
+1. Seleziona **Rimuovi**.
 
 La linea di base viene rimossa.
 
@@ -150,11 +150,11 @@ La linea di base viene rimossa.
 
 1. Nella scheda Linee di base selezionare la linea di base da duplicare.
 
-2. Seleziona **Duplica**.
+1. Seleziona **Duplica**.
 
    ![duplicate.png](images/duplicate.png)
 
-3. Seleziona **Salva**.
+1. Seleziona **Salva**.
 
    ![save.png](images/save.png)
 
@@ -165,21 +165,21 @@ Viene creata la baseline duplicata.
 Puoi specificare direttamente la versione di un argomento utilizzato in una linea di base.
 
 1. Nella scheda Linee di base selezionare la linea di base da modificare.
-2. Seleziona **Modifica**.
+1. Seleziona **Modifica**.
 
    ![edit-aem.png](images/edit-aem.png)
 
-3. Seleziona **Sfoglia tutti gli argomenti**.
+1. Seleziona **Sfoglia tutti gli argomenti**.
 
    ![browse-all-topic.png](images/browse-all-topics.png)
 
    Viene visualizzata una tabella degli argomenti e le relative informazioni associate.
 
-4. Per gli argomenti da modificare, seleziona la versione desiderata dal menu a discesa nella colonna Versione .
+1. Per gli argomenti da modificare, seleziona la versione desiderata dal menu a discesa nella colonna Versione .
 
    ![version-menu a discesa.png](images/version-dropdown.png)
 
-5. Seleziona **Salva**.
+1. Seleziona **Salva**.
 
 Le modifiche sono state salvate. La baseline ora utilizza le versioni dell’argomento specificate.
 
@@ -191,17 +191,17 @@ In questo caso, stiamo creando un predefinito di output basato su una linea di b
 
 1. Passa alla scheda Predefiniti di output nel dashboard Mappa.
 
-2. Seleziona **Crea**.
+1. Seleziona **Crea**.
 
    ![create-output-preset.png](images/create-output-preset.png)
 
    Viene visualizzata una nuova pagina preimpostata di output, denominata Nuovo output.
-3. Nel campo Nome impostazione immettere un nome descrittivo.
+1. Nel campo Nome impostazione immettere un nome descrittivo.
 
-4. Selezionate la casella di controllo Usa linea di base e selezionate la linea di base desiderata dal menu a discesa.
+1. Selezionate la casella di controllo Usa linea di base e selezionate la linea di base desiderata dal menu a discesa.
 
    ![baseline.png](images/baseline.png)
 
-5. Seleziona **Fine**.
+1. Seleziona **Fine**.
 
 Il nuovo predefinito di output è stato creato e viene visualizzato nella pagina dei predefiniti di output.

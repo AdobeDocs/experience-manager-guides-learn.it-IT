@@ -2,7 +2,7 @@
 title: Chiavi
 description: Le chiavi consentono di includere informazioni sulle variabili quando si lavora con DITA nelle guide AEM
 exl-id: cb64e094-fe6d-4a5e-8f0e-25ae58aaa2c6
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 0%
@@ -41,7 +41,7 @@ I file di esempio che è possibile scegliere di utilizzare per questa lezione so
 
    h. Seleziona [!UICONTROL **Extract**] in alto a destra dello schermo.
 
-2. Al termine dell&#39;estrazione, fai clic su [!UICONTROL **Vai alla cartella di destinazione**].
+1. Al termine dell&#39;estrazione, fai clic su [!UICONTROL **Vai alla cartella di destinazione**].
 
    ![Conferma](images/lesson-9/go-to-target.png)
 
@@ -69,9 +69,9 @@ Per utilizzare correttamente le chiavi, le Preferenze utente devono fare riferim
 
    g. **Salva** Preferenze utente.
 
-2. Passa a **Vista mappa**.
+1. Passa a **Vista mappa**.
 
-3. Apri la mappa specificata.
+1. Apri la mappa specificata.
 
 Le chiavi sono risolte.
 
@@ -79,11 +79,11 @@ Le chiavi sono risolte.
 
 1. Apri una mappa con una mappa radice specificata.
 
-2. Selezionare una chiave.
+1. Selezionare una chiave.
 
    ![Elenco a discesa Chiave](images/lesson-9/hybrid-key.png)
 
-3. Inserisci un nuovo keydef.
+1. Inserisci un nuovo keydef.
 
    a) Fai clic su in una posizione valida nella mappa.
 
@@ -95,7 +95,7 @@ Le chiavi sono risolte.
 
    d. Fai clic su [!UICONTROL **Inserisci**].
 
-4. Aggiungi topicmeta all&#39;interno del keydef.
+1. Aggiungi topicmeta all&#39;interno del keydef.
 
    a) Fai clic sul pulsante [!UICONTROL **Inserisci elemento**] nella barra degli strumenti superiore.
 
@@ -103,7 +103,7 @@ Le chiavi sono risolte.
 
    b) Nella finestra di dialogo Inserisci elemento, cerca e seleziona &quot;topicmeta&quot;.
 
-5. Aggiungi le parole chiave all&#39;interno della topicmeta.
+1. Aggiungi le parole chiave all&#39;interno della topicmeta.
 
    a) Fai clic sul pulsante [!UICONTROL **Inserisci elemento**] nella barra degli strumenti superiore.
 
@@ -111,7 +111,7 @@ Le chiavi sono risolte.
 
    b) Nella finestra di dialogo Inserisci elemento, cerca e seleziona &quot;parole chiave&quot;.
 
-6. Aggiungi una parola chiave all’interno di topicmeta.
+1. Aggiungi una parola chiave all’interno di topicmeta.
 
    a) Fai clic sul pulsante [!UICONTROL **Inserisci elemento**] nella barra degli strumenti superiore.
 
@@ -119,7 +119,7 @@ Le chiavi sono risolte.
 
    b) In **Inserisci elemento** finestra di dialogo, cerca e seleziona &quot;parola chiave&quot;
 
-7. Digita il valore per keydef nella parola chiave.
+1. Digita il valore per keydef nella parola chiave.
 
 Nella mappa, il tuo keydef dovrebbe ora essere simile al seguente:
 
@@ -131,16 +131,16 @@ Gli snippet sono piccoli frammenti di contenuto che possono essere riutilizzati 
 
 1. Seleziona un elemento keydef nella mappa.
 
-2. Nel menu contestuale, fai clic su [!UICONTROL **Crea frammento**].
+1. Nel menu contestuale, fai clic su [!UICONTROL **Crea frammento**].
 
-3. Nella finestra di dialogo Nuovo frammento, aggiungi un titolo e una descrizione.
+1. Nella finestra di dialogo Nuovo frammento, aggiungi un titolo e una descrizione.
 È inoltre possibile rimuovere le chiavi o le definizioni di parole chiave esistenti dal Contenuto.
 
-4. Fai clic su [!UICONTROL **Crea**].
+1. Fai clic su [!UICONTROL **Crea**].
 
-5. Nel pannello a sinistra, seleziona **Frammenti**.
+1. Nel pannello a sinistra, seleziona **Frammenti**.
 
-6. Trascina il frammento appena creato dal pannello Frammenti alla mappa.
+1. Trascina il frammento appena creato dal pannello Frammenti alla mappa.
 
-7. Aggiorna la definizione chiave in base alle esigenze utilizzando Proprietà contenuto.
+1. Aggiorna la definizione chiave in base alle esigenze utilizzando Proprietà contenuto.
 Una volta salvato e aggiornato, questo set di chiavi sarà disponibile per tutti gli utenti che hanno definito una mappa che contiene la stessa mappa principale.

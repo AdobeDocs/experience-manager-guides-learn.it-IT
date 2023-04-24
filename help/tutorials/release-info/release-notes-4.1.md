@@ -2,7 +2,7 @@
 title: Note sulla versione | Guida di Adobe Experience Manager versione 4.1
 description: Ultima versione delle guide di Adobe Experience Manager
 exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
-source-git-commit: c7b147777a59d422e93d63118e84d806adaaad24
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '3532'
 ht-degree: 3%
@@ -54,8 +54,8 @@ Per ulteriori dettagli, consulta la sezione Requisiti tecnici nella guida all’
 
 | Versione | Finestre del connettore dell&#39;ossigeno | Mac connettore ossigeno | Modifica in Windows Ossigeno | Modifica in Oxygen Mac |
 | --- | --- | --- |--- |--- |
-| 4.1.3 (non UUID) | 2,0 | 2,0 | 1,6 | 1,6 |
-| 4.1.3 (UUID) | 2.7 | 2,7 | 2.3 | 2.3. |
+| 4.1.3 (non UUID) | 2.0 | 2.0 | 1.6 | 1.6 |
+| 4.1.3 (UUID) | 2.7 | 2.7 | 2.3 | 2.3 |
 |  |  |  |
 
 
@@ -97,8 +97,8 @@ Per ulteriori dettagli, consulta la sezione Requisiti tecnici nella guida all’
 
 | Versione | Finestre del connettore dell&#39;ossigeno | Mac connettore ossigeno | Modifica in Windows Ossigeno | Modifica in Oxygen Mac |
 | --- | --- | --- |--- |--- |
-| 4.1.2 (non UUID) | 2,0 | 2,0 | 1,6 | 1,6 |
-| 4.1.2 (UUID) | 2,7 | 2,7 | 2.3. | 2.3. |
+| 4.1.2 (non UUID) | 2.0 | 2.0 | 1.6 | 1.6 |
+| 4.1.2 (UUID) | 2.7 | 2.7 | 2.3 | 2.3 |
 |  |  |  |
 
 
@@ -154,8 +154,8 @@ Per ulteriori dettagli, consulta la sezione Requisiti tecnici nella guida all’
 
 | Versione | Finestre del connettore dell&#39;ossigeno | Mac connettore ossigeno | Modifica in Windows Ossigeno | Modifica in Oxygen Mac |
 | --- | --- | --- |--- |--- |
-| 4.1 (non UUID) | 2,0 | 2,0 | 1,6 | 1,6 |
-| 4.1 (UUID) | 2,7 | 2,7 | 2.3. | 2.3. |
+| 4.1 (non UUID) | 2.0 | 2.0 | 1.6 | 1.6 |
+| 4.1 (UUID) | 2.7 | 2.7 | 2.3 | 2.3 |
 |  |  |  |
 
 
@@ -186,8 +186,8 @@ Un riferimento a una chiave di contenuto DITA inserisce una parte di contenuto d
 Ora i riferimenti chiave vengono risolti in base alla mappa radice impostata nel seguente ordine di priorità:
 
 1. Preferenze utente
-2. Pannello Vista mappa
-3. Profilo cartella
+1. Pannello Vista mappa
+1. Profilo cartella
 
 Per ulteriori dettagli, consulta *Risolvere i riferimenti chiave* nella guida Utilizzo delle guide di Adobe Experience Manager .
 

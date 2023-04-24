@@ -2,7 +2,7 @@
 title: Pannelli
 description: Uso dei pannelli nelle guide AEM
 exl-id: 24ecfc93-3540-4efa-ae85-afb346454b7f
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '1446'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Le dimensioni dei pannelli persistenti, come il pannello a sinistra, sono regola
 
 1. Posizionare il cursore sul bordo del pannello.
 
-2. Quando viene visualizzata la freccia a due punte, fai clic su e trascina verso l’interno o verso l’esterno come richiesto.
+1. Quando viene visualizzata la freccia a due punte, fai clic su e trascina verso l’interno o verso l’esterno come richiesto.
 
 ## Espandi o comprimi la barra laterale del pannello a sinistra
 
@@ -31,7 +31,7 @@ Nella vista espansa vengono visualizzati i nomi e le icone visualizzati come des
 
    ![Espandi barra laterale](images/lesson-5/expand-sidebar.png)
 
-2. Fai clic sul pulsante [!UICONTROL **Barra laterale**] per comprimere nuovamente il pannello.
+1. Fai clic sul pulsante [!UICONTROL **Barra laterale**] per comprimere nuovamente il pannello.
 
    ![Comprimi barra laterale](images/lesson-5/collapse-sidebar.png)
 
@@ -41,15 +41,15 @@ Nel pannello a sinistra, Preferiti consente di creare un elenco di documenti spe
 
 1. Seleziona **Preferiti** nel pannello a sinistra.
 
-2. Fai clic sul pulsante [!UICONTROL **Plus**] icona.
+1. Fai clic sul pulsante [!UICONTROL **Plus**] icona.
 
    ![Preferiti più](images/lesson-5/favorites-plus.png)
 
-3. Nella finestra di dialogo Nuova raccolta , immetti un **Titolo** e **Descrizione**.
+1. Nella finestra di dialogo Nuova raccolta , immetti un **Titolo** e **Descrizione**.
 
    Se selezioni Pubblico , gli altri utenti potranno vedere questo Preferiti.
 
-4. Fai clic su [!UICONTROL **Crea**].
+1. Fai clic su [!UICONTROL **Crea**].
 
 È stata creata una raccolta Preferiti.
 
@@ -59,19 +59,19 @@ Dopo aver creato una raccolta, è possibile iniziare ad aggiungere i Preferiti.
 
 1. Seleziona **Visualizzazione archivio** nel pannello a sinistra.
 
-2. Fai clic sul pulsante [!UICONTROL **Ellissi**] situato accanto a un argomento per accedere alle opzioni contestuali.
+1. Fai clic sul pulsante [!UICONTROL **Ellissi**] situato accanto a un argomento per accedere alle opzioni contestuali.
 
-3. Seleziona **Aggiungi a** > **Preferiti**.
+1. Seleziona **Aggiungi a** > **Preferiti**.
 
-4. Nella finestra di dialogo Aggiungi ai preferiti, scegli **Nuova raccolta** o **Raccolta esistente**.
+1. Nella finestra di dialogo Aggiungi ai preferiti, scegli **Nuova raccolta** o **Raccolta esistente**.
 
    In questo caso, sceglieremo di aggiungere a una raccolta esistente.
 
    ![Finestra di dialogo Preferiti](images/lesson-5/add-to-favorites-dialog.png)
 
-5. Se necessario, seleziona una raccolta dal menu a discesa.
+1. Se necessario, seleziona una raccolta dal menu a discesa.
 
-6. Fate clic su [!UICONTROL **Aggiungi**].
+1. Fai clic su [!UICONTROL **Aggiungi**].
 
 L&#39;argomento viene aggiunto alla raccolta Preferiti scelta. È possibile visualizzarlo nel menu Preferiti.
 
@@ -81,23 +81,23 @@ Un altro modo per aggiungere un argomento ai Preferiti è quello di un argomento
 
 1. Passa a **Visualizzazione archivio**.
 
-2. Fai doppio clic su un argomento per aprirlo.
+1. Fai doppio clic su un argomento per aprirlo.
 
-3. Fai clic con il pulsante destro del mouse sul file **Scheda Titolo** nell’Editor per accedere alle opzioni contestuali .
+1. Fai clic con il pulsante destro del mouse sul file **Scheda Titolo** nell’Editor per accedere alle opzioni contestuali .
 
-4. Scegli **Aggiungi a** > **Preferiti**.
+1. Scegli **Aggiungi a** > **Preferiti**.
 
    ![Aggiungi ai preferiti](images/lesson-5/addto-favorites.png)
 
-5. Nella finestra di dialogo Aggiungi ai preferiti, scegli **Nuova raccolta** o **Raccolta esistente**.
+1. Nella finestra di dialogo Aggiungi ai preferiti, scegli **Nuova raccolta** o **Raccolta esistente**.
 
    In questo caso, sceglieremo di aggiungere a una nuova raccolta.
 
-6. Nella finestra di dialogo Nuova raccolta , immetti un **Titolo** e **Descrizione**.
+1. Nella finestra di dialogo Nuova raccolta , immetti un **Titolo** e **Descrizione**.
 
    Tieni presente che selezionando **Pubblico** significa che altri utenti possono visualizzare questo preferito.
 
-7. Fai clic su [!UICONTROL **Crea**].
+1. Fai clic su [!UICONTROL **Crea**].
 
 Il nuovo preferito è stato creato e raggruppato. È possibile visualizzarlo nel menu Preferiti.
 
@@ -107,11 +107,11 @@ Il nuovo preferito è stato creato e raggruppato. È possibile visualizzarlo nel
 
 1. Seleziona [!UICONTROL **Preferiti**] nel pannello a sinistra.
 
-2. In Preferiti, fai clic su [!UICONTROL **Freccia**] accanto a una raccolta per visualizzarne il contenuto.
+1. In Preferiti, fai clic su [!UICONTROL **Freccia**] accanto a una raccolta per visualizzarne il contenuto.
 
    ![Visualizza Preferiti](images/lesson-5/view-favorites.png)
 
-3. Fai clic sul pulsante [!UICONTROL **Ellissi**] accanto a un argomento per visualizzare le opzioni contestuali, inclusa l’opzione per eliminarlo dall’elenco Preferiti.
+1. Fai clic sul pulsante [!UICONTROL **Ellissi**] accanto a un argomento per visualizzare le opzioni contestuali, inclusa l’opzione per eliminarlo dall’elenco Preferiti.
 
 ## Filtrare una ricerca nella vista archivio
 
@@ -119,15 +119,15 @@ Il filtro avanzato nell’archivio ti consente di cercare testo con un’ampia v
 
 1. Passa a **Visualizzazione archivio**.
 
-2. Fai clic sul pulsante [!UICONTROL **Ricerca filtro**] icona.
+1. Fai clic sul pulsante [!UICONTROL **Ricerca filtro**] icona.
 
    ![Icona Filtro archivio](images/lesson-5/repository-filter-icon.png)
 
-3. Digitare il testo nel percorso selezionato o scegliere un nuovo percorso, se necessario.
+1. Digitare il testo nel percorso selezionato o scegliere un nuovo percorso, se necessario.
 
    L’elenco dei file viene aggiornato quando si digita il testo nel filtro.
 
-4. Fai clic sull’icona Freccia accanto a una categoria di ricerca per restringere ulteriormente la ricerca, se necessario.
+1. Fai clic sull’icona Freccia accanto a una categoria di ricerca per restringere ulteriormente la ricerca, se necessario.
 
    ![Criteri di filtro](images/lesson-5/filter-criteria.png)
 
@@ -169,21 +169,21 @@ Gli snippet sono piccoli frammenti di contenuto che possono essere riutilizzati 
 
 1. Apri un argomento nell’editor.
 
-2. Seleziona un elemento all’interno dell’argomento.
+1. Seleziona un elemento all’interno dell’argomento.
 
-3. Fai clic sul pulsante secondario del mouse all’interno dell’elemento.
+1. Fai clic sul pulsante secondario del mouse all’interno dell’elemento.
 
-4. Nel menu risultante, scegli Crea [!UICONTROL **Frammento**].
+1. Nel menu risultante, scegli Crea [!UICONTROL **Frammento**].
 
    ![Crea snippet](images/lesson-5/create-snippet.png)
 
-5. Nella finestra di dialogo Nuovo frammento, aggiungi un **Titolo** e **Descrizione**.
+1. Nella finestra di dialogo Nuovo frammento, aggiungi un **Titolo** e **Descrizione**.
 
-6. Modifica lo snippet come necessario.
+1. Modifica lo snippet come necessario.
 
    Tieni presente che un controllo contestuale ti avviserà visivamente in caso di errore nel contenuto.
 
-7. Fai clic su [!UICONTROL **Crea**].
+1. Fai clic su [!UICONTROL **Crea**].
 
 Lo snippet viene aggiunto all’elenco dei snippet disponibili. È pronto per essere trascinato e rilasciato in una posizione valida nell&#39;argomento.
 
@@ -205,11 +205,11 @@ Proprietà contenuto nel pannello a destra include informazioni specifiche sull�
 
 1. Apri un argomento in **Editor XML**.
 
-2. Seleziona un **elemento**.
+1. Seleziona un **elemento**.
 
    Proprietà contenuto visualizza il tipo e gli attributi correnti dell&#39;elemento.
 
-3. Digitare un nuovo **Valore** per l’elemento .
+1. Digitare un nuovo **Valore** per l’elemento .
 
    ![Nuovo valore](images/lesson-5/new-value.png)
 
@@ -221,31 +221,31 @@ Proprietà file mostra ulteriori informazioni sull’intero argomento aperto. Al
 
 1. Apri un argomento nell’editor.
 
-2. Fai clic sul pulsante [!UICONTROL  **Proprietà file**] nel pannello di destra.
+1. Fai clic sul pulsante [!UICONTROL  **Proprietà file**] nel pannello di destra.
 
    ![Icona Proprietà file](images/lesson-5/file-properties-icon.png)
 
-3. Imposta la **Stato del documento** a **Modifica**. L’elenco Riferimenti è attualmente vuoto.
+1. Imposta la **Stato del documento** a **Modifica**. L’elenco Riferimenti è attualmente vuoto.
 
    ![Nessun riferimento](images/lesson-5/no-references.png)
 
-4. Chiudi l’argomento.
+1. Chiudi l’argomento.
 
-5. Seleziona [!UICONTROL **Visualizzazione archivio**] nel pannello a sinistra.
+1. Seleziona [!UICONTROL **Visualizzazione archivio**] nel pannello a sinistra.
 
-6. Apri una mappa.
+1. Apri una mappa.
 
    La visualizzazione diventa Vista mappa.
 
-7. Fai clic sul pulsante [!UICONTROL **Modifica**] icona.
+1. Fai clic sul pulsante [!UICONTROL **Modifica**] icona.
 
    ![Icona Modifica mappa](images/lesson-5/edit-map-icon.png)
 
-8. Una volta aperta la mappa per la modifica, torna a **Visualizzazione archivio**.
+1. Una volta aperta la mappa per la modifica, torna a **Visualizzazione archivio**.
 
-9. Trascina l’argomento con cui stai lavorando nella mappa.
+1. Trascina l’argomento con cui stai lavorando nella mappa.
 
-10. Fai clic sul pulsante [!UICONTROL **Salva**] nella barra degli strumenti superiore.
+1. Fai clic sul pulsante [!UICONTROL **Salva**] nella barra degli strumenti superiore.
 
 L’argomento viene aggiunto alla mappa. Ora quando apri l’argomento e selezioni Proprietà file , puoi vedere che i Riferimenti vengono aggiornati per indicare che l’argomento è utilizzato nella mappa specificata.
 
@@ -257,13 +257,13 @@ Il pannello di destra contiene una scelta rapida per avviare un flusso di lavoro
 
    ![Icona di revisione](images/lesson-5/review-icon.png)
 
-2. Fai clic su [!UICONTROL **Crea revisione**].
+1. Fai clic su [!UICONTROL **Crea revisione**].
 
    ![Crea revisione](images/lesson-5/create-review.png)
 
-3. Nella finestra di dialogo Crea attività di revisione, compila i campi come necessario.
+1. Nella finestra di dialogo Crea attività di revisione, compila i campi come necessario.
 
-4. Fai clic su [!UICONTROL **Avanti**].
+1. Fai clic su [!UICONTROL **Avanti**].
 
 Viene creata l’attività di revisione.
 

@@ -2,7 +2,7 @@
 title: Informazioni sull’interfaccia utente AEM in [!DNL AEM Guides]
 description: Informazioni sull’interfaccia utente AEM in [!DNL Adobe Experience Manager Guides]
 exl-id: 955a05ed-92d3-480e-9c6b-a0ff362cc464
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 2%
@@ -18,7 +18,7 @@ Scopri come gestire risorse, file e cartelle nell’Editor XML, ad Experience Ma
 ## Accesso all’editor XML
 
 1. Nella schermata di accesso, immetti il tuo nome utente e password e seleziona **[!UICONTROL Accesso]**.
-2. Seleziona **[!UICONTROL Editor XML]** dalla pagina Navigazione AEM.
+1. Seleziona **[!UICONTROL Editor XML]** dalla pagina Navigazione AEM.
 
 ## Visualizzazioni editor XML
 
@@ -81,7 +81,7 @@ Puoi scegliere tra più visualizzazioni per l’interfaccia utente di Assets in 
 
 1. Seleziona dall’elenco l’argomento da modificare.
 L’argomento viene visualizzato nell’interfaccia utente di Assets.
-2. Seleziona **Modifica** dalla barra degli strumenti superiore.
+1. Seleziona **Modifica** dalla barra degli strumenti superiore.
 Viene restituito all&#39;editor XML.
 
 ### Ritorno dalla vista a schede

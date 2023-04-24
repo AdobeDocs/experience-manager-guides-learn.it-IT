@@ -2,7 +2,7 @@
 title: Glossario
 description: Utilizzo del pannello Glossario nelle AEM Guide
 exl-id: 509880b1-852f-44f0-b4a9-09fee8bcb954
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 1%
@@ -21,7 +21,7 @@ I file di esempio che è possibile scegliere di utilizzare per questa lezione so
 
 1. Passa a **Glossario** pannello.
 
-2. Trascina e rilascia la voce dalla **Glossario** nella posizione desiderata nell’argomento.
+1. Trascina e rilascia la voce dalla **Glossario** nella posizione desiderata nell’argomento.
 
 Se la mappa contiene voci Glossary e è configurata correttamente, gli argomenti possono essere aggiornati automaticamente in modo da contenere un modulo abbreviato.
 
@@ -31,15 +31,15 @@ Per utilizzare correttamente un glossario, è necessario selezionare la mappa ra
 
 1. Con un argomento aperto, seleziona **Glossario** dal pannello a sinistra.
 
-2. Fai clic sul pulsante [!UICONTROL **Preferenze utente**] nella barra degli strumenti superiore.
+1. Fai clic sul pulsante [!UICONTROL **Preferenze utente**] nella barra degli strumenti superiore.
 
    ![Icona Preferenze utente](images/reuse/user-prefs-icon.png)
 
-3. Fare clic sull&#39;icona chiave per specificare la mappa radice corretta per l&#39;utilizzo del glossario.
+1. Fare clic sull&#39;icona chiave per specificare la mappa radice corretta per l&#39;utilizzo del glossario.
 
-4. Fai clic su [!UICONTROL **Seleziona**].
+1. Fai clic su [!UICONTROL **Seleziona**].
 
-5. Fai clic su [!UICONTROL **Salva**].
+1. Fai clic su [!UICONTROL **Salva**].
 
 Il pannello Glossario viene aggiornato automaticamente.
 
@@ -47,13 +47,13 @@ Il pannello Glossario viene aggiornato automaticamente.
 
 1. Passa a **Visualizzazione archivio**.
 
-2. Seleziona la mappa preconfigurata per l’utilizzo del glossario.
+1. Seleziona la mappa preconfigurata per l’utilizzo del glossario.
 
    ![Icona mappa pre-configurazione](images/lesson-10/preconfig-map.png)
 
-3. Scegli la [!UICONTROL **Vista mappa**].
+1. Scegli la [!UICONTROL **Vista mappa**].
 
-4. Verifica che nella Vista mappa siano visualizzati gli argomenti richiesti.
+1. Verifica che nella Vista mappa siano visualizzati gli argomenti richiesti.
 
 ## Anteprima di una voce Glossale
 
@@ -61,7 +61,7 @@ Poiché è possibile apportare modifiche in blocco, può essere importante visua
 
 1. Scegli **Glossario** dal pannello a sinistra.
 
-2. Fare clic sul menu contestuale accanto a una voce glossaria e selezionare [!UICONTROL **Anteprima**].
+1. Fare clic sul menu contestuale accanto a una voce glossaria e selezionare [!UICONTROL **Anteprima**].
 
 Vengono visualizzati sia il modulo abbreviato che la definizione del glossario.
 
@@ -73,14 +73,14 @@ Utilizza lo strumento Punto attivo per creare un&#39;intera raccolta di voci del
 
    ![Icona punto attivo](images/lesson-10/hotspot-icon.png)
 
-2. Fai clic sul pulsante [!UICONTROL **Chiavi globali**] e selezionare solo i tasti che si desidera applicare.
+1. Fai clic sul pulsante [!UICONTROL **Chiavi globali**] e selezionare solo i tasti che si desidera applicare.
 
-3. Fai clic sul pulsante [!UICONTROL **Argomenti**] menu a discesa per selezionare il contenuto che deve essere interessato.
+1. Fai clic sul pulsante [!UICONTROL **Argomenti**] menu a discesa per selezionare il contenuto che deve essere interessato.
 
-4. Fai clic sul pulsante [!UICONTROL **Filtrare gli argomenti per stato**] elenco a discesa per esaminare le opzioni configurate.
+1. Fai clic sul pulsante [!UICONTROL **Filtrare gli argomenti per stato**] elenco a discesa per esaminare le opzioni configurate.
 
-5. Configura le impostazioni rimanenti in base alle esigenze.
+1. Configura le impostazioni rimanenti in base alle esigenze.
 
-6. Al termine, fai clic su [!UICONTROL **Converti**].
+1. Al termine, fai clic su [!UICONTROL **Converti**].
 
 Il pannello Glossario ora visualizza tutti gli argomenti aggiornati e anche quelli con errori.

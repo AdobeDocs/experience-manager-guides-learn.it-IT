@@ -2,7 +2,7 @@
 title: Note sulla versione | Guide Adobe Experience Manager as a Cloud Service, versione di maggio 2022
 description: Rilascio di maggio delle guide di Adobe Experience Manager as a Cloud Service
 exl-id: 7928a300-5ec9-492c-b9be-02b6f87638c6
-source-git-commit: 0f5c1cabdbda9fa2606f67faedbf9a38ca1ec0aa
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '1874'
 ht-degree: 4%
@@ -15,8 +15,8 @@ ht-degree: 4%
 
 Aggiorna le guide correnti di Adobe Experience Manager as a Cloud Service (in seguito denominate *Guide AEM as a Cloud Service*) eseguendo le seguenti operazioni:
 1. Controlla il codice Git dei Cloud Services e passa al ramo configurato nella pipeline dei Cloud Services corrispondente all’ambiente da aggiornare.
-2. Aggiorna `<dox.version>` proprietà in `/dox/dox.installer/pom.xml` file dei tuoi Cloud Services Codice Git a 2022.5.144.
-3. Conferma le modifiche ed esegui la pipeline dei Cloud Services per eseguire l’aggiornamento alla versione di maggio di AEM Guide as a Cloud Service.
+1. Aggiorna `<dox.version>` proprietà in `/dox/dox.installer/pom.xml` file dei tuoi Cloud Services Codice Git a 2022.5.144.
+1. Conferma le modifiche ed esegui la pipeline dei Cloud Services per eseguire l’aggiornamento alla versione di maggio di AEM Guide as a Cloud Service.
 
 ## Matrice di compatibilità
 
@@ -81,7 +81,7 @@ Se devi creare solo l’ambito di un progetto da tradurre, puoi selezionare
 
 * La **Lingue** vengono visualizzate le cartelle della lingua insieme ai relativi codici della lingua. Ad esempio, francese (fr) e tedesco (de).
 
-* La funzione di traduzione ora supporta anche il codice della lingua, che include sia il paese che la lingua. Esempio, `fr-fr`, `en-us`.
+* La funzione di traduzione ora supporta anche il codice della lingua, che include sia il paese che la lingua. Ad esempio, `fr-fr`, `en-us`.
 
 ![traduzione linguistica](assets/translation-languages.png)
 

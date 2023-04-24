@@ -2,7 +2,7 @@
 title: Risoluzione dei problemi di pubblicazione
 description: Risoluzione dei problemi di pubblicazione in [!DNL Adobe Experience Manager Guides]
 exl-id: b37ea3e7-59cf-4fc5-8fae-e1fadd26f8d8
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Puoi scaricare file di esempio per l&#39;esercizio qui.
 
 ## Cause comuni di errori di pubblicazione
 
-Gli errori possono essere introdotti nel contenuto sorgente. Esempio:
+Gli errori possono essere introdotti nel contenuto sorgente. Ad esempio:
 
 * Riferimento a un percorso di file non correttamente denominato
 
@@ -53,7 +53,7 @@ Il file di registro generato può essere aperto per la revisione.
 
    ![registro degli errori](images/error-log.png)
 
-2. Scorri il registro degli errori.
+1. Scorri il registro degli errori.
 
 ## Visualizzazione e eliminazione dei tipi di errore
 
@@ -63,7 +63,7 @@ Il registro degli errori visualizza ogni tipo di errore in un colore univoco.
 
 1. **Seleziona** o **deseleziona** qualsiasi tipo di errore per mostrare o nascondere l&#39;evidenziazione.
 
-2. Navigare tra gli errori utilizzando **next** o **precedente** tasti (frecce).
+1. Navigare tra gli errori utilizzando **next** o **precedente** tasti (frecce).
 
 ## Risoluzione degli errori
 

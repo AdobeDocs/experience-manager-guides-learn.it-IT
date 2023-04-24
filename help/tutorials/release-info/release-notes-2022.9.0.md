@@ -1,7 +1,8 @@
 ---
 title: Note sulla versione | Guide Adobe Experience Manager as a Cloud Service, versione di settembre 2022
 description: Rilascio di settembre delle guide di Adobe Experience Manager as a Cloud Service
-source-git-commit: 28712c3f2057d7553ed2fe955db0dfe278c8a9b9
+exl-id: f6247f91-43cc-43a4-a6f8-3b1f09d0533f
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '1285'
 ht-degree: 3%
@@ -14,8 +15,8 @@ ht-degree: 3%
 
 Aggiorna le guide correnti di Adobe Experience Manager as a Cloud Service (in seguito denominate *Guide AEM as a Cloud Service*) eseguendo le seguenti operazioni:
 1. Controlla il codice Git dei Cloud Services e passa al ramo configurato nella pipeline dei Cloud Services corrispondente all’ambiente da aggiornare.
-2. Aggiorna `<dox.version>` proprietà in `/dox/dox.installer/pom.xml` file dei tuoi Cloud Services Codice Git a 2022.9.178.
-3. Conferma le modifiche ed esegui la pipeline dei Cloud Services per eseguire l’aggiornamento alla versione di settembre di AEM Guide as a Cloud Service.
+1. Aggiorna `<dox.version>` proprietà in `/dox/dox.installer/pom.xml` file dei tuoi Cloud Services Codice Git a 2022.9.178.
+1. Conferma le modifiche ed esegui la pipeline dei Cloud Services per eseguire l’aggiornamento alla versione di settembre di AEM Guide as a Cloud Service.
 
 ## Passaggi per indicizzare il contenuto esistente
 
@@ -44,7 +45,7 @@ In questa sezione viene elencata la matrice di compatibilità per le applicazion
 
 | AEM guide as a Cloud Release | Finestre del connettore dell&#39;ossigeno | Mac connettore ossigeno | Modifica in Windows Ossigeno | Modifica in Oxygen Mac |
 | --- | --- | --- | --- | --- |
-| 2022.9.0 | 2.7.13 | 2.7.13 | 2.3 | 2.3. |
+| 2022.9.0 | 2.7.13 | 2.7.13 | 2.3 | 2.3 |
 |  |  |  |  |
 
 
@@ -122,7 +123,7 @@ I bug corretti in varie aree sono elencati di seguito:
 * PDF nativo | I riferimenti chiave per Keydefs con immagini o collegamenti esterni non sono stati risolti. (10063)
 * La visualizzazione dell&#39;autore per una mappa non visualizza il testo segnaposto per la tabella e la classifica. (10330)
 * Quando creiamo una nuova baseline, il filtro della baseline già selezionato non viene applicato. (9954)
-* File video mancante dalla linea di base se il nome della cartella principale ha un carattere spazio. (10031)
+* File video mancante dalla linea di base se il nome della cartella principale ha un carattere spazio. 10031)
 * La creazione della linea di base non sceglie la versione più recente quando il fuso orario dell’utente è diverso da quello del server. (10190)
 * La scelta rapida Ctrl + F non apre il modale di ricerca del browser nella console Risorse dopo l’installazione AEM Guide 4.1 in AEM 6.5.12. (10189)
 

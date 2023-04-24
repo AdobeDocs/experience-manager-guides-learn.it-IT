@@ -2,10 +2,10 @@
 title: PDF nativo | Generazione di output PDF
 description: Genera l’output di PDF nelle guide Adobe Experience Manager as a Cloud Service
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: cc7ae2e5445cca11e169667d3af8aa9de93809b9
+source-git-commit: b9cf70ac957bfacbf9a6bf4c3b32d4f73c2b1287
 workflow-type: tm+mt
-source-wordcount: '2666'
-ht-degree: 1%
+source-wordcount: '2755'
+ht-degree: 0%
 
 ---
 
@@ -74,29 +74,46 @@ Utilizzare per specificare le impostazioni di output di base, ad esempio specifi
 | Impostazione | Descrizione |
 | --- | --- |
 | **Percorso di output** | Il percorso all’interno dell’archivio AEM in cui è memorizzato l’output di PDF. Assicurati che il percorso di output non si trovi nella cartella del progetto. Se lasciato vuoto, l&#39;output viene generato nella posizione di output della mappa DITA predefinita.<br>Puoi anche utilizzare le seguenti variabili predefinite per definire il percorso di output. Puoi utilizzare una singola o una combinazione di variabili per definire questa opzione. <br> `${map_filename}`: Utilizza il nome dei file di mappa DITA per creare il percorso di destinazione. <br> `${map_title}`: Utilizza il titolo della mappa DITA per creare il percorso di destinazione. <br>`${preset_name}`: Utilizza il nome del predefinito di output per creare il percorso di destinazione. <br> `${language_code}`: Utilizza il codice della lingua in cui si trova il file di mappa per creare il percorso di destinazione. <br> `${map_parentpath}`: Utilizza il percorso completo del file mappa per creare il percorso di destinazione.  <br>`${path_after_langfolder}`: Utilizza il percorso del file di mappa dopo la cartella della lingua per creare il percorso di destinazione. |
-| **File PDF** | Specificare un nome di file per salvare il PDF. Per impostazione predefinita, il nome del file PDF aggiunge il nome della mappa DITA insieme al nome del predefinito. Ad esempio, ditamap è &quot;TestMap&quot; e il nome del predefinito è &quot;preset1&quot;, il nome predefinito del pdf sarà &quot;TestMap_preset1.pdf&quot;. <br>È inoltre possibile utilizzare le seguenti variabili predefinite per definire il file PDF. Puoi utilizzare una singola o una combinazione di variabili per definire questa opzione. <br>`${map_filename}`<br>`${map_title}`<br>`${preset_name}` <br> `${language_code}`. |
+| **File PDF** | Specificare un nome di file per salvare il PDF. Per impostazione predefinita, il nome del file PDF aggiunge il nome della mappa DITA insieme al nome del predefinito. Ad esempio, ditamap è &#39;TestMap&#39; e il nome del predefinito è &#39;preset1&#39;, il nome predefinito del pdf sarà &#39;TestMap_preset1.pdf&#39;. <br>È inoltre possibile utilizzare le seguenti variabili predefinite per definire il file PDF. Puoi utilizzare una singola o una combinazione di variabili per definire questa opzione. <br>`${map_filename}`<br>`${map_title}`<br>`${preset_name}` <br> `${language_code}`. |
 | **Applica condizioni tramite** | Per il contenuto condizionale, scegli tra le seguenti opzioni per generare un output PDF in base a tali condizioni: <br><ul> <li> **Nessuno applicato** Seleziona questa opzione se non desideri applicare alcuna condizione sulla mappa e sul contenuto sorgente. <br><li> **File Ditaval** Selezionare un file DITAVAL per generare contenuto condizionale. Per selezionare, fare clic su Predefinito condizione e individuare il file. <br> <li> **Predefinito condizione** Seleziona un predefinito per condizioni dal menu a discesa per applicare una condizione durante la pubblicazione dell’output. Questa opzione è visibile se è stata aggiunta una condizione per il file di mappa DITA. Le impostazioni condizionali sono disponibili nella scheda Predefiniti condizione della console mappa DITA. Per ulteriori informazioni sul predefinito di condizione, consulta [Utilizzare i predefiniti condizione](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-condition-presets.html). <br> </ul> |
 | **Usa linea di base** | Se è stata creata una baseline per la mappa DITA selezionata, selezionare questa opzione per specificare la versione da pubblicare. Vedi [Utilizzare la linea di base](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html) per ulteriori dettagli. |
-| **Crea PDF con barra di modifica tra le versioni pubblicate** | Utilizzare le seguenti opzioni per creare un PDF che mostra le differenze di contenuto tra due versioni utilizzando le barre delle modifiche:   <br><ul><li> **Linea di base della versione precedente** Scegli la versione della linea di base da confrontare con la versione corrente o con un&#39;altra linea di base. In PDF viene visualizzata una barra di modifica per indicare il contenuto modificato. Una barra di modifica è una linea verticale che identifica visivamente il contenuto nuovo o rivisto. La barra delle modifiche viene visualizzata a sinistra del contenuto inserito, modificato o eliminato. <br> **Nota**: Se si seleziona **Usa linea di base** e scegli una baseline da pubblicare, il confronto verrà effettuato tra le due versioni della baseline selezionate. Ad esempio, se scegli la versione della linea di base 1.3 in **Usa linea di base** e versione 1.1 in **Linea di base della versione precedente**, il confronto verrà effettuato tra la versione di base 1.1 e la versione di base 1.3. <br><li> **Mostra testo aggiunto** Selezionare questa opzione per visualizzare il testo inserito in verde e sottolineato. Per impostazione predefinita, questa opzione è selezionata. <br> <li> **Mostra testo eliminato** Selezionare questa opzione per visualizzare il testo eliminato in rosso e contrassegnato con barrato. Per impostazione predefinita, questa opzione è selezionata. <br>**Nota** È inoltre possibile personalizzare lo stile della barra delle modifiche, del contenuto inserito o del contenuto eliminato utilizzando il foglio di stile.<br></ul> |
+| **Crea PDF con barra di modifica tra le versioni pubblicate** | Utilizzare le seguenti opzioni per creare un PDF che mostra le differenze di contenuto tra due versioni utilizzando le barre delle modifiche:   <br><ul><li> **Linea di base della versione precedente** Scegli la versione della linea di base da confrontare con la versione corrente o con un&#39;altra linea di base. In PDF viene visualizzata una barra di modifica per indicare il contenuto modificato. Una barra di modifica è una linea verticale che identifica visivamente il contenuto nuovo o rivisto. La barra delle modifiche viene visualizzata a sinistra del contenuto inserito, modificato o eliminato. <br> **Nota**: Se si seleziona **Usa linea di base** e scegli una baseline da pubblicare, il confronto verrà effettuato tra le due versioni della baseline selezionate. Ad esempio, se scegli la versione della linea di base 1.3 in **Usa linea di base** e versione 1.1 in **Linea di base della versione precedente**, il confronto verrà effettuato tra la versione di base 1.1 e la versione di base 1.3. <br><li> **Mostra testo aggiunto** Selezionare questa opzione per visualizzare il testo inserito in verde e sottolineato. Questa opzione è selezionata per impostazione predefinita. <br> <li> **Mostra testo eliminato** Selezionare questa opzione per visualizzare il testo eliminato in rosso e contrassegnato con barrato. Questa opzione è selezionata per impostazione predefinita. <br>**Nota** È inoltre possibile personalizzare lo stile della barra delle modifiche, del contenuto inserito o del contenuto eliminato utilizzando il foglio di stile.<br></ul> |
 | **Flusso di lavoro di post-generazione** | Seleziona per visualizzare un elenco a discesa contenente tutti i flussi di lavoro configurati in AEM. È possibile selezionare il flusso di lavoro da eseguire dopo il completamento del flusso di lavoro di generazione di PDF. |
 
 **Metadati**
 
 I metadati sono la descrizione o la definizione del contenuto. I metadati sono utili per la gestione dei contenuti e per la ricerca di file su Internet.
 
-Utilizzare la scheda Metadati per impostare il titolo, l’autore, l’oggetto e le parole chiave per l’output di PDF. Questi metadati vengono mappati sui metadati nella scheda Descrizione all’interno delle Proprietà documento del PDF di output.
+Utilizzare la scheda Metadati per impostare i campi di metadati, ad esempio il nome dell’autore, il titolo del documento, le parole chiave, le informazioni sul copyright e altri campi di dati per l’output di PDF. È inoltre possibile aggiungere metadati personalizzati per l’output di PDF.
+
+Questi metadati vengono mappati sui metadati nella scheda Descrizione all’interno delle Proprietà documento del PDF di output.
 
 **Nota**: Questi metadati sostituiscono i metadati definiti a livello di libro.
 
 <img src="assets/pdf-metadata.png" alt="scheda metadati" width="600">
 
+Dai predefiniti di output, **seleziona PDF** > **Metadati** per aggiungere e personalizzare le opzioni dei metadati.
+* **Fornire XMP file**
 
-| Impostazione | Descrizione |
-|---|---|
-| **Titolo** | Specificare un titolo breve e chiaro per definire il documento. |
-| **Autore** | Specifica i nomi degli autori che hanno creato il documento. |
-| **Oggetto** | Definire l&#39;oggetto o la raccolta con cui il documento è correlato. |
-| **Parole chiave** | Utilizza le parole chiave pertinenti per migliorare l’ottimizzazione SEO (Search Engine Optimization) e aiutare gli utenti a trovare il contenuto correlato. |
+   I campi metadati possono essere compilati direttamente importando [XMP](https://www.adobe.com/products/xmp.html) File (Extensible Metadata Platform). Puoi scaricare un file XMP di esempio da qui.
+
+[Scarica](assets/SampleXMP.xmp)
+
+   In alternativa, puoi generare un file XMP utilizzando Adobe Acrobat.
+   1. Fai clic su **File** > **Proprietà** in Acrobat.
+   1. Sotto **Descrizione**, fai clic su **Metadati aggiuntivi**.
+   1. Dal pannello di sinistra, seleziona **Avanzate**.
+   1. Fai clic su **Salva**.
+
+   XMP file viene salvato sul dispositivo.
+
+* **Fornire nomi e valori dei metadati**
+
+   1. Aggiungi un nome selezionando dal menu a discesa o aggiungi metadati personalizzati digitando direttamente nel campo del nome.
+   1. Immetti il valore dei metadati e fai clic sull&#39;icona &quot;+&quot;.
+I metadati vengono aggiunti all’elenco dei metadati per PDF.
+
+
 
 **Layout**
 
@@ -105,8 +122,8 @@ Utilizzare per impostare i layout di pagina e specificare le opzioni di visualiz
 | Impostazione | Descrizione |
 | --- | --- |
 | **Modello PDF** | I modelli di PDF forniscono una struttura chiara per la definizione dei layout di pagina, lo stile del contenuto e l’applicazione di varie impostazioni all’output di PDF. Seleziona dall’elenco a discesa del modello di PDF per scegliere il modello preferito. |
-| **Visualizzazione pagina** | Utilizzare Visualizzazione pagina per la visualizzazione di pagina che mostra come viene visualizzato il PDF quando viene aperto. Seleziona dall’elenco a discesa Visualizzazione pagina per scegliere una visualizzazione preferita. <br><ul><li> **Predefinito**  Viene visualizzata in base all’impostazione predefinita del visualizzatore PDF sul computer di un utente.  <br> <li> **Visualizzazione a pagina singola** Visualizza una pagina alla volta.   <br> <li> **Scorrimento a pagina singola** Visualizza una singola pagina in una colonna verticale continua.  <br> <li> **Visualizzazione a due pagine** Visualizza due pagine affiancate alla volta. .<br> <li> **Scorrimento di due pagine** Visualizza le pagine affiancate a due pagine con scorrimento continuo. </ul> |
-| **Zoom** | Selezionare questa opzione per ridimensionare la visualizzazione della pagina che mostra la modalità di visualizzazione di PDF all’apertura.  <br><ul><li> **Predefinito** Viene visualizzato in base all’impostazione predefinita del visualizzatore PDF sul computer di un utente    <br> <li> **100%** Visualizza la pagina nelle sue dimensioni effettive.     <br> <li> **Adatta a pagina** Adatta la larghezza e l’altezza della pagina al riquadro del documento. .<br> <li> **Adatta a larghezza pagina** Fa corrispondere la larghezza della pagina a quella del riquadro del documento.  <br> <li> **Adatta altezza pagina** Fa corrispondere l’altezza della pagina all’altezza del riquadro del documento. </ul> |
+| **Visualizzazione pagina** | Utilizzare Visualizzazione pagina per la visualizzazione di pagina che mostra come viene visualizzato il PDF quando viene aperto. Seleziona dall’elenco a discesa Visualizzazione pagina per scegliere una visualizzazione preferita. <br><ul><li> **Predefinito**  Viene visualizzato in base all’impostazione predefinita del visualizzatore PDF sul computer di un utente.  <br> <li> **Visualizzazione a pagina singola** Visualizza una pagina alla volta.   <br> <li> **Scorrimento a pagina singola** Visualizza una singola pagina in una colonna verticale continua.  <br> <li> **Visualizzazione a due pagine** Visualizza due pagine affiancate alla volta. .<br> <li> **Scorrimento di due pagine** Visualizza le pagine affiancate a due pagine con scorrimento continuo. </ul> |
+| **Zoom** | Selezionare questa opzione per ridimensionare la visualizzazione della pagina che mostra la modalità di visualizzazione di PDF all’apertura.  <br><ul><li> **Predefinito** Visualizza in base alle impostazioni predefinite del visualizzatore PDF sul computer di un utente    <br> <li> **100%** Visualizza la pagina nelle sue dimensioni effettive.     <br> <li> **Adatta a pagina** Adatta la larghezza e l’altezza della pagina al riquadro del documento. .<br> <li> **Adatta a larghezza pagina** Fa corrispondere la larghezza della pagina a quella del riquadro del documento.  <br> <li> **Adatta altezza pagina** Fa corrispondere l’altezza della pagina all’altezza del riquadro del documento. </ul> |
 
 **Sicurezza**
 
@@ -125,7 +142,7 @@ Utilizza le seguenti opzioni per specificare impostazioni avanzate per unire PDF
 | --- | --- |
 | **Creare un PDF con accesso facilitato (con tag)** | Selezionare questa opzione per generare un PDF con tag. Un PDF con tag semplifica la lettura e la navigazione dei contenuti, dei collegamenti ipertestuali, dei segnalibri e così via da parte degli assistenti vocali. Ad esempio, se una tabella è contrassegnata, l’assistente vocale saprà che sta leggendo la tabella e non solo righe e testo. |
 | **PDF di unione inclusi nel sommario** | Selezionare questa opzione per unire i PDF esistenti nell&#39;output aggiungendoli alla mappa DITA come file di risorse. I PDF verranno inseriti nella posizione rappresentata nella mappa e le pagine verranno incrementate di conseguenza. |
-| **Incorpora font utilizzati** | Selezionare questa opzione quando si utilizzano font che potrebbero non essere installati nel computer dell’utente finale. Con questa opzione selezionata, i font utilizzati vengono incorporati in PDF, garantendo all’utente la possibilità di vedere PDF come previsto anche se i font non sono installati sul computer. <br> **Nota**: Un font può essere incorporato solo se contiene un&#39;impostazione del fornitore del font che ne consente l&#39;incorporazione. Verificare di disporre dell&#39;impostazione o della licenza necessaria prima di incorporare un font. |
+| **Incorpora font utilizzati** | Selezionare questa opzione quando si utilizzano font che potrebbero non essere installati nel computer dell&#39;utente finale. Con questa opzione selezionata, i font utilizzati vengono incorporati in PDF, garantendo all’utente la possibilità di vedere PDF come previsto anche se i font non sono installati sul computer. <br> **Nota**: Un font può essere incorporato solo se contiene un&#39;impostazione del fornitore del font che ne consente l&#39;incorporazione. Verificare di disporre dell&#39;impostazione o della licenza necessaria prima di incorporare un font. |
 | **Usa sillabazione automatica** | Se la sillabazione automatica è attivata, le parole alla fine delle linee vengono interrotte in punti grammaticalmente corretti con un trattino. |
 | **Abilita JavaScript** | Abilita questa opzione se disponi di un codice JavaScript da utilizzare per trasformare il contenuto in modo dinamico prima di generare un PDF. |
 | **Incorporare file multimediali** | Seleziona questa opzione per includere audio, video ed eventuali contenuti interattivi in PDF. |
@@ -143,14 +160,14 @@ Una volta configurato il predefinito di output, è possibile generare l&#39;outp
 1. Sotto la **Autore** seleziona la scheda **Archivio** Visualizza.\
    Viene aperto il pannello Archivio .
 
-2. Nel pannello Repository, apri il file di mappa DITA in **Vista mappa**.
+1. Nel pannello Repository, apri il file di mappa DITA in **Vista mappa**.
 
-3. In **Uscita** scheda , fai clic su **Predefiniti** per visualizzare il pannello Preimpostazioni .
+1. In **Uscita** scheda , fai clic su **Predefiniti** per visualizzare il pannello Preimpostazioni .
 Per creare o configurare un predefinito di output, vedi [Creare un predefinito di output PDF](#create-output-preset).
-4. Per salvare le impostazioni, fai clic sul pulsante **Salva tutto** ![salva tutto](assets/SaveFloppy_icon.svg) nell’angolo in alto a sinistra della barra degli strumenti standard nella vista Output.
-5. Fai clic sul pulsante **Genera predefinito** ![genera predefinito](assets/generate-output.svg) sulla barra superiore.
+1. Per salvare le impostazioni, fai clic sul pulsante **Salva tutto** ![salva tutto](assets/SaveFloppy_icon.svg) nell’angolo in alto a sinistra della barra degli strumenti standard nella vista Output.
+1. Fai clic sul pulsante **Genera predefinito** ![genera predefinito](assets/generate-output.svg) sulla barra superiore.
 Nel pannello Predefiniti di output potete visualizzare una barra di avanzamento accanto al predefinito di output selezionato.
-6. Una volta completata la generazione dell&#39;output, fai clic su  **Visualizza output** ![visualizza output](assets/view-output.svg) sulla barra superiore per visualizzare l&#39;output.\
+1. Una volta completata la generazione dell&#39;output, fai clic su  **Visualizza output** ![visualizza output](assets/view-output.svg) sulla barra superiore per visualizzare l&#39;output.\
    A **Completato** nell’angolo inferiore destro dello schermo è visibile una finestra di dialogo.
 Se un output non ha esito positivo, viene visualizzato il seguente messaggio di errore.
 <img src="assets/error-log.png" alt="registro degli errori" width="250">

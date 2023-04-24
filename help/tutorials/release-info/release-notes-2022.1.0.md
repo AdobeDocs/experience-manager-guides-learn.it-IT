@@ -2,7 +2,7 @@
 title: Note sulla versione per [!DNL AEM Guides], versione di gennaio 2022
 description: Rilascio di gennaio [!DNL Adobe Experience Manager Guides] as a Cloud Service
 exl-id: b2da77fa-f17c-440b-be59-acaafcd9a57c
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '2429'
 ht-degree: 3%
@@ -15,8 +15,8 @@ ht-degree: 3%
 
 Aggiorna il tuo [!DNL Adobe Experience Manager Guides] as a Cloud Service (successivamente indicato come [!DNL AEM Guides] as a Cloud Service) eseguendo le seguenti operazioni:
 1. Controlla il codice Git dei Cloud Services e passa al ramo configurato nella pipeline dei Cloud Services corrispondente all’ambiente da aggiornare.
-2. Aggiorna `<dox.version>` proprietà in `/dox/dox.installer/pom.xml` file dei tuoi Cloud Services Codice Git a 2022.1.78.
-3. Conferma le modifiche ed esegui la pipeline dei Cloud Services per eseguire l’aggiornamento alla versione di gennaio di [!DNL AEM Guides] as a Cloud Service.
+1. Aggiorna `<dox.version>` proprietà in `/dox/dox.installer/pom.xml` file dei tuoi Cloud Services Codice Git a 2022.1.78.
+1. Conferma le modifiche ed esegui la pipeline dei Cloud Services per eseguire l’aggiornamento alla versione di gennaio di [!DNL AEM Guides] as a Cloud Service.
 
 ## Matrice di compatibilità
 
@@ -34,7 +34,7 @@ In questa sezione viene elencata la matrice di compatibilità per le applicazion
 
 | [!DNL AEM Guides] Versione cloud | Finestre del connettore dell&#39;ossigeno | Mac connettore ossigeno | Modifica in Windows Ossigeno | Modifica in Oxygen Mac |
 | --- | --- | --- | --- | --- |
-| 2022.1.0 | 2.4.0 | 2.4.0 | 2.2 | 2.2. |
+| 2022.1.0 | 2.4.0 | 2.4.0 | 2.2 | 2.2 |
 |  |  |  |  |  |
 
 

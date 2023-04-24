@@ -2,7 +2,7 @@
 title: Pubblicazione dell’output predefinito nelle AEM guide
 description: Pubblicazione dell'output predefinito in [!DNL Adobe Experience Manager Guides]
 exl-id: 97a259dd-4266-4a7b-8677-3fa261714687
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 0%
@@ -25,13 +25,13 @@ Sono disponibili diversi predefiniti di output tra cui scegliere. Questa guida s
 
    Il dashboard mappa si apre in un&#39;altra scheda.
 
-2. Nella scheda Predefiniti di output, selezionare AEM sito e PDF.
+1. Nella scheda Predefiniti di output, selezionare AEM sito e PDF.
 
    ![Predefiniti di output](images/lesson-9/pdf-aem.png)
 
-3. Seleziona **Genera.**
+1. Seleziona **Genera.**
 
-4. Passa alla pagina Output per visualizzare lo stato degli output generati.
+1. Passa alla pagina Output per visualizzare lo stato degli output generati.
 
    Un cerchio verde indica che la generazione è completa.
 
