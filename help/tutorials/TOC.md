@@ -2,9 +2,9 @@
 user-guide-title: Tutorial su AEM Guides
 user-guide-description: Leggi la nostra raccolta di tutorial su Adobe Experience Manager Guides.
 breadcrumb-title: Tutorial su AEM Guides
-source-git-commit: d6edeaf6b0d309d1e8301b1695edbc5b2f953d7a
+source-git-commit: a2f656c4f547e215a8bbb927f20f8e97d29ef29d
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '733'
 ht-degree: 7%
 
 ---
@@ -182,15 +182,19 @@ ht-degree: 7%
       + [Gestire il contenuto utilizzando le linee di base](./knowledge-base/expert-sessions/baselines-dec22.md)
       + [Creazione di contenuti basati sul web](./knowledge-base/expert-sessions/webbased-authoring-jan2023.md)
       + [Nozioni di base sulla pubblicazione di PDF nativi](./knowledge-base/expert-sessions/native-pdf-publishing-essentials-feb23.md)
-   + Pubblicazione{#publishing}
-      + [Configurare la pubblicazione basata su microservizi](./knowledge-base/publishing/configure-microservices.md)
+      + [Rapporti nelle guide AEM](./knowledge-base/expert-sessions/basic-reports-mar2023.md)
+      + [Configurazione del contenuto e del modello](./knowledge-base/expert-sessions/content-and-template-setup-apr2023.md)
    + Articoli {#kb-articles}
       + Authoring {#authoring}
          + Webeditor {#webeditor}
+            + Personalizzazione {#customizing}
+               + [Aggiungi pulsante personalizzato alla barra degli strumenti](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
+               + [Aggiungere stili personalizzati all’editor web](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
             + Schematro {#schematron}
                + [Convalida dello schema](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
       + Pubblicazione {#publishing}
          + [Configurazione dell’ambiente AEM per la pubblicazione di Native PDF](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
          + [FMPS e guide](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
+         + [Configurare la pubblicazione basata su microservizi](./knowledge-base/publishing/configure-microservices.md)
       + Flussi di lavoro {#workflows}
          + [Flusso di lavoro di post-generazione](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
