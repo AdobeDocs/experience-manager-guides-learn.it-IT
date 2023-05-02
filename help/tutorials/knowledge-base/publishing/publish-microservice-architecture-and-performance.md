@@ -1,9 +1,9 @@
 ---
 title: Architettura e prestazioni di Microsoft Publishing
 description: Scopri come il nuovo microservizio consente la pubblicazione scalabile su AEMaaCS.
-source-git-commit: c67cc61938b407c3b11c5f793c6becdc9e015670
+source-git-commit: a8466a16cea7df7757d15005baaf73a39c7952ea
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '730'
 ht-degree: 0%
 
 ---
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Architettura e analisi delle prestazioni di Cloud Publishing Microservice
 
-Questo articolo condivide le informazioni sull’architettura e alcuni numeri di prestazioni del nuovo microservizio di pubblicazione cloud.
+Questo articolo condivide le informazioni relative all’architettura e ai numeri di prestazioni del nuovo microservizio di pubblicazione cloud.
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ Questo vincolo di risorse era la motivazione principale per ottenere un servizio
 
 ## Introduzione alla nuova architettura
 
-Il servizio utilizza soluzioni cloud all&#39;avanguardia di Adobe come App Builder, IO Eventing, IMS per creare un&#39;offerta senza server. Questi servizi sono a loro volta basati su standard di settore ampiamente accettati come Kubernetes, docker.
+Il servizio utilizza soluzioni cloud all&#39;avanguardia di Adobe come App Builder, IO Eventing, IMS per creare un&#39;offerta senza server. Questi servizi sono a loro volta basati su standard di settore ampiamente accettati come Kubernetes e docker.
 
 Ogni richiesta al nuovo microservizio di pubblicazione viene eseguita in un contenitore docker isolato che esegue una sola richiesta di pubblicazione alla volta. Se vengono ricevute nuove richieste di pubblicazione, vengono creati automaticamente più nuovi contenitori. Questo contenitore singolo per configurazione di richiesta consente al microservizio di fornire le migliori prestazioni ai clienti senza introdurre rischi per la sicurezza. Questi contenitori vengono scartati una volta terminata la pubblicazione, liberando così tutte le risorse utilizzate.
 
@@ -42,7 +42,7 @@ Tutte queste comunicazioni sono protette da Adobe IMS utilizzando l’autenticaz
 
 ## Analisi delle prestazioni
 
-Questa sezione mostra i numeri di prestazioni del microservizio. Nota dato che la vecchia architettura cloud ha avuto problemi nella pubblicazione di mappe di grandi dimensioni o nell&#39;esecuzione di più pubblicazioni simultanee, questa sezione confronta i numeri di prestazioni del microservizio con l&#39;offerta on-prem AEM Guide.
+Questa sezione mostra i numeri delle prestazioni del microservizio. Confronta le prestazioni del microservizio con l&#39;offerta on-prem AEM Guide, dato che la vecchia architettura cloud ha avuto problemi nella pubblicazione simultanea o nella pubblicazione di mappe molto grandi.
 
 Se pubblichi una mappa di grandi dimensioni on-premise, allora potresti dover modificare i parametri dell’heap Java altrimenti potresti riscontrare errori di memoria esaurita. Sul cloud, il microservizio è già profilato e ha un heap Java ottimale e altre configurazioni pronte all&#39;uso.
 
@@ -64,18 +64,18 @@ Se pubblichi una mappa di grandi dimensioni on-premise, allora potresti dover mo
 
 * Cloud
 
-   In questo scenario viene visualizzato il nuovo servizio di pubblicazione Microsoft. Come puoi vedere dall’immagine seguente, con l’aumento dei diversi lavori di pubblicazione simultanei, cloud è in grado di pubblicarli senza un aumento significativo del tempo di pubblicazione.
+   Il nuovo microservizio di pubblicazione brilla in questo scenario. Come puoi vedere dall’immagine seguente, con l’aumento dei diversi lavori di pubblicazione simultanei, cloud è in grado di pubblicarli senza un aumento significativo del tempo di pubblicazione.
 
    <img src="assets/cloud_bulk_publish.png" alt="scheda progetti" width="600">
 
 * On-Prem
 
-   L’esecuzione simultanea della pubblicazione su app prem causa un grave degrado delle prestazioni. Questo calo delle prestazioni è più grave se gli editori pubblicano ancora più mappe simultaneamente.
+   L’esecuzione della pubblicazione simultanea su un server on-prem causa un grave deterioramento delle prestazioni. Questo calo delle prestazioni è più grave se gli editori pubblicano ancora più mappe simultaneamente.
 
    <img src="assets/onprem_bulk_publish.png" alt="scheda progetti" width="600">
 
 ## Vantaggi aggiuntivi
 
-Per recuperare il contenuto di pubblicazione corretto da inviare al microservizio, è necessario eseguire nell’istanza AEM un percorso di ogni richiesta di pubblicazione. La nuova architettura cloud utilizza AEM processi al posto dei flussi di lavoro AEM, come nel caso della vecchia architettura. Questa modifica consente agli amministratori di AEM Guide di configurare singolarmente le impostazioni della coda di pubblicazione cloud senza influire su altri processi AEM o configurazioni del flusso di lavoro.
+Una parte di ogni richiesta di pubblicazione deve essere eseguita sull’istanza AEM per recuperare il contenuto di pubblicazione corretto da inviare al microservizio. La nuova architettura cloud utilizza AEM processi al posto dei flussi di lavoro AEM, come nel caso della vecchia architettura. Questa modifica consente agli amministratori di AEM Guide di configurare singolarmente le impostazioni della coda di pubblicazione cloud senza influire su altri processi AEM o configurazioni del flusso di lavoro.
 
 I dettagli su come configurare il nuovo microservizio di pubblicazione sono disponibili qui: [Configura Microsoft Service](configure-microservices.md)
