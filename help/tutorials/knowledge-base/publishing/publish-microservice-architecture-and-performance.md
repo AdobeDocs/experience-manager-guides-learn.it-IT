@@ -1,7 +1,7 @@
 ---
 title: Architettura e prestazioni di Microsoft Publishing
 description: Scopri come il nuovo microservizio consente la pubblicazione scalabile su AEMaaCS.
-source-git-commit: a8466a16cea7df7757d15005baaf73a39c7952ea
+source-git-commit: 2e45f132ced5ac29118a7301f104bedc03c93253
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Questo vincolo di risorse era la motivazione principale per ottenere un servizio
 
 Il servizio utilizza soluzioni cloud all&#39;avanguardia di Adobe come App Builder, IO Eventing, IMS per creare un&#39;offerta senza server. Questi servizi sono a loro volta basati su standard di settore ampiamente accettati come Kubernetes e docker.
 
-Ogni richiesta al nuovo microservizio di pubblicazione viene eseguita in un contenitore docker isolato che esegue una sola richiesta di pubblicazione alla volta. Se vengono ricevute nuove richieste di pubblicazione, vengono creati automaticamente più nuovi contenitori. Questo contenitore singolo per configurazione di richiesta consente al microservizio di fornire le migliori prestazioni ai clienti senza introdurre rischi per la sicurezza. Questi contenitori vengono scartati una volta terminata la pubblicazione, liberando così tutte le risorse utilizzate.
+Ogni richiesta al nuovo microservizio di pubblicazione viene eseguita in un contenitore docker isolato che esegue una sola richiesta di pubblicazione alla volta. Se vengono ricevute nuove richieste di pubblicazione, vengono creati automaticamente più nuovi contenitori. Questo contenitore singolo per configurazione di richiesta consente al microservizio di fornire le migliori prestazioni ai clienti senza introdurre rischi per la sicurezza. Questi contenitori vengono scartati una volta terminata la pubblicazione, liberando così tutte le risorse non utilizzate.
 
 Tutte queste comunicazioni sono protette da Adobe IMS utilizzando l’autenticazione e l’autorizzazione basate su JWT e vengono eseguite tramite HTTPS.
 
