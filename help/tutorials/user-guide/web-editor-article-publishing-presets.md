@@ -1,13 +1,13 @@
 ---
 title: Creare predefiniti di output dall’editor Web
 description: Scopri come creare i predefiniti di output dall’editor web
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 7fde0057-06a5-428e-a91b-9e9386a56270
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 0%
 
 ---
-
 
 # Creare predefiniti di output dall’editor Web {#id218CL400JW3}
 
@@ -27,7 +27,7 @@ Esegui i seguenti passaggi per creare predefiniti di output per la mappa DITA:
 
 1. In **Uscita** selezionare l&#39;icona + per creare un predefinito di output per la mappa DITA.
 
-   ![](images/output-tab-preset_cs.png)
+   ![](images/output-tab-preset_cs.png){width="350" align="left"}
 
 1. Immetti il nome del predefinito nella finestra di dialogo Aggiungi predefinito , quindi fai clic su **Aggiungi**.
 
@@ -43,20 +43,19 @@ Esegui i seguenti passaggi per creare predefiniti di output per la mappa DITA:
    1. Da **Articoli** selezionare gli argomenti per i quali si desidera generare l&#39;output.
 1. Seleziona la **Genera predefinito** nella parte superiore per generare l’output.
 
-   ![](images/add-preset-articles-tab_cs.png)
+   ![](images/add-preset-articles-tab_cs.png){width="800" align="left"}
 
 1. Verrà visualizzato lo stato del processo di generazione dell&#39;output. La **Argomenti** elenca gli argomenti per i quali viene generato l’output mentre **Stato** visualizza lo stato di pubblicazione di ciascun argomento.
 
    Per visualizzare l&#39;output, posizionare il puntatore del mouse sull&#39;argomento e fare clic su Visualizza output.
 
-   ![](images/add-preset-output-generated_cs.png)
+   ![](images/add-preset-output-generated_cs.png){width="800" align="left"}
 
 
 >[!NOTE]
 >
 > È inoltre possibile modificare, rinominare, duplicare o eliminare un predefinito di output esistente dal menu Opzioni.
 
-![](images/edit-preset_cs.png)
+![](images/edit-preset_cs.png){width="550" align="left"}
 
 **Argomento principale:**[ Pubblicazione basata su articoli dall’editor web](web-editor-article-publishing.md)
-

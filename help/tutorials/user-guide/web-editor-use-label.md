@@ -1,13 +1,13 @@
 ---
 title: Usa etichette
 description: Scopri come utilizzare le etichette
-source-git-commit: 331871308035441f047b1ed588215b586daf3d28
+exl-id: 3ea56d06-537f-4bfd-922d-df1f23e61a20
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 0%
 
 ---
-
 
 # Usa etichette {#id164JBG0M0T1}
 
@@ -33,8 +33,7 @@ Per aggiungere un’etichetta all’argomento, effettua le seguenti operazioni:
 
    Le etichette vengono visualizzate nella cronologia delle versioni dell&#39;argomento selezionato. Nella schermata seguente vengono visualizzate le etichette *x.x* e *Guida utente* aggiunto alla versione evidenziata dell’argomento.
 
-
-![](images/labels.png)
+   ![](images/labels.png){width="300" align="left"}
 
 >[!NOTE]
 >
@@ -49,12 +48,11 @@ Esegui i seguenti passaggi per eliminare un’etichetta:
 
    Nella cronologia delle versioni verranno visualizzate tutte le versioni di un argomento e le relative etichette. L’immagine seguente mostra un esempio di versioni diverse di un argomento e a una versione sono state aggiunte delle etichette.
 
-   ![](images/labels.png)
+   ![](images/labels.png){width="300" align="left"}
 
 1. Fai clic sul pulsante Elimina \(**X**\) per eliminare l&#39;etichetta.
 
-   ![](images/delete-labels.png)
+   ![](images/delete-labels.png){width="300" align="left"}
 
 
 **Argomento principale:**[ Utilizzare l’editor Web](web-editor.md)
-

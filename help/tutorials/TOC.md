@@ -2,7 +2,7 @@
 user-guide-title: Tutorial su AEM Guides
 user-guide-description: Leggi la nostra raccolta di tutorial su Adobe Experience Manager Guides.
 breadcrumb-title: Tutorial su AEM Guides
-source-git-commit: 01c84074bc31898d2a1481d0ed5ddda0a8dba2c0
+source-git-commit: 0cc1e12382fb90784ea78cb500bf0a24d6ec50df
 workflow-type: tm+mt
 source-wordcount: '737'
 ht-degree: 7%
@@ -86,7 +86,7 @@ ht-degree: 7%
                + [Utilizzare l&#39;Editor mappa di base](./user-guide/map-editor-basic-map-editor.md)
                + [Altre funzioni nell’editor mappa](./user-guide/map-editor-other-features.md)
             + Editor digitale {#ditaval-editor}
-               + [Utilizzare l&#39;editor DIAVAL](./user-guide/id17C5E0U0OQE.md)
+               + [Utilizzare l&#39;editor DIAVAL](./user-guide/ditaval-editor.md)
          + Strumenti desktop per la creazione di contenuti {#author-using-desktop-tools}
             + [Creazione di contenuti con gli strumenti desktop](./user-guide/author-desktop-tools.md)
             + [Utilizzo di FrameMaker](./user-guide/author-desktop-framemaker.md)

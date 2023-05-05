@@ -1,13 +1,13 @@
 ---
 title: Riassegna attività di revisione tramite notifica
 description: Scopri come riassegnare l’attività di revisione utilizzando la notifica
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: d20865a8-2c30-4bd7-8594-64e0ccdb665a
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 0%
 
 ---
-
 
 # Riassegna attività di revisione tramite notifica {#id21BNH03M0KS}
 
@@ -28,7 +28,7 @@ Esegui i seguenti passaggi per riassegnare un’attività di revisione dalla not
    >
    > Il revisore deve disporre delle autorizzazioni per riassegnare e deve far parte del gruppo utente-amministratore.
 
-   ![](images/reassign-user-inbox.png)
+   ![](images/reassign-user-inbox.png){width="800" align="left"}
 
 1. Seleziona **Riassegna**.
 
@@ -37,4 +37,3 @@ Una volta riassegnata l&#39;attività di revisione, nella colonna Assegnatario v
 Il revisore assegnato riceve una notifica nella casella in entrata per l&#39;attività di revisione riassegnata.
 
 **Argomento principale:**[ Esamina argomenti o mappe](review.md)
-

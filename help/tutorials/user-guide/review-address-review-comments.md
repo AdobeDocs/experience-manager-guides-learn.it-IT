@@ -1,13 +1,13 @@
 ---
 title: Commenti sulla revisione degli indirizzi
 description: Scopri come gestire i commenti di revisione
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 04f6114d-601f-4e92-a303-18a6dd309a49
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
 source-wordcount: '935'
 ht-degree: 0%
 
 ---
-
 
 # Commenti sulla revisione degli indirizzi {#id2056B0X0KBI}
 
@@ -19,7 +19,7 @@ Un autore può inviare commenti in un documento dall&#39;Editor Web. Vengono for
 >
 > Durante la gestione dei commenti di revisione \(per un documento di revisione attivo\), assicurarsi di non aprire l&#39;argomento in revisione in più schede con la visualizzazione a tag completi abilitata, non passare tra le modalità di visualizzazione Autore e Origine.
 
-![](images/comments-page-web-editor_cs.png)
+![](images/comments-page-web-editor_cs.png){width="650" align="left"}
 
 In modalità Editor web, il pannello di destra contiene le icone Revisione e Modifiche tratte . Il pannello Revisione mostra tutti i commenti inseriti nel documento dai revisori. Il pannello Modifiche rilevate mostra lo stato di tutti i commenti inseriti ed eliminati nel documento.
 
@@ -41,11 +41,11 @@ In modalità Editor web, il pannello di destra contiene le icone Revisione e Mod
 
    Se si desidera incorporare la modifica suggerita \(inserimento o eliminazione\) una alla volta, è sufficiente fare clic con il pulsante destro del mouse sul commento nel contenuto e selezionare Accetta modifica o Rifiuta modifica. A seconda della selezione, il commento viene accettato o rifiutato. In caso di osservazioni accettate, il contenuto è aggiunto nel contenuto; e in caso di rifiuto, viene rimosso dal contenuto. Inoltre, lo stato del commento viene modificato nel pannello Revisione.
 
-   ![](images/import-comment-accept-web-editor_cs.png)
+   ![](images/import-comment-accept-web-editor_cs.png){width="800" align="left"}
 
    Potete inoltre utilizzare la funzione di revisione nel pannello di destra per accettare o rifiutare i commenti. Facendo clic su un commento viene evidenziato il commento nel documento.
 
-   ![](images/changes-tab_cs.png)
+   ![](images/changes-tab_cs.png){width="800" align="left"}
 
    >[!IMPORTANT]
    >
@@ -61,4 +61,3 @@ In modalità Editor web, il pannello di destra contiene le icone Revisione e Mod
 
 
 **Argomento principale:**[ Esamina argomenti o mappe](review.md)
-

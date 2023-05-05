@@ -1,13 +1,13 @@
 ---
 title: Conoscere le funzionalità dell’editor web
 description: Scopri come conoscere le funzionalità dell’editor web
-source-git-commit: cc0fbca257d82cc82db5b5da8d263309fd71de55
+exl-id: 38b378ff-da24-4560-a17f-a2c547aea1b8
+source-git-commit: f7eea65f58927527dbd90138a653f75ee181d141
 workflow-type: tm+mt
 source-wordcount: '14387'
 ht-degree: 0%
 
 ---
-
 
 # Conoscere le funzionalità dell’editor web {#id176NC500V5Z}
 
@@ -544,7 +544,7 @@ Per unire le modifiche in un file di mappa, effettua le seguenti operazioni:
       Puoi scegliere di accettare o rifiutare tutte le modifiche dal pannello Modifiche rilevate oppure di accettare o rifiutare singole modifiche nel file di mappa.
 
 
-**Cronologia versioni** - ![](images/version-history-web-editor-ico.svg)
+**Cronologia delle versioni** - ![](images/version-history-web-editor-ico.svg)
 
 AEM Guide offre diversi modi per visualizzare le versioni create per i file dell’argomento e anche modi per ripristinare una versione specifica. Tuttavia, la maggior parte di queste funzioni è disponibile all&#39;esterno dell&#39;editor Web.
 

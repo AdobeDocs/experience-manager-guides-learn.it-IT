@@ -1,13 +1,13 @@
 ---
 title: Invia argomenti per la revisione
 description: Scopri come inviare argomenti per la revisione
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 7a9b36ad-44d4-4952-9906-d95feb95d0c6
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
 source-wordcount: '2733'
 ht-degree: 0%
 
 ---
-
 
 # Invia argomenti per la revisione {#id199RD0S035Z}
 
@@ -43,7 +43,7 @@ Per creare un&#39;attività di revisione e inviare argomenti per la revisione, e
 
 1. Fai clic sull’icona Seleziona nell’azione rapida e seleziona gli argomenti da inviare per la revisione.
 
-   ![](images/select-asset-62.png)
+   ![](images/select-asset-62.png){width="300" align="left"}
 
 1. Nella barra degli strumenti, fai clic su **Crea attività di revisione**. Viene visualizzata la pagina di creazione dell’attività di revisione.
 
@@ -51,7 +51,7 @@ Per creare un&#39;attività di revisione e inviare argomenti per la revisione, e
    >
    > È possibile creare un&#39;attività di revisione solo per gli argomenti con una revisione. Nel caso in cui l’argomento selezionato non disponga di una revisione, verrà visualizzato un prompt.
 
-   ![](images/create-review-task-023.png)
+   ![](images/create-review-task-023.png){width="650" align="left"}
 
 1. Inserisci un **Titolo** per l&#39;attività e selezionare un DITA **Progetto** dall’elenco a discesa.
 
@@ -91,7 +91,7 @@ Per creare un&#39;attività di revisione e inviare argomenti per la revisione, e
 
    Viene visualizzata la pagina Contenuto .
 
-   ![](images/content_page_review.png)
+   ![](images/content_page_review.png){width="800" align="left"}
 
 1. Nella pagina Contenuto , seleziona una versione dell’argomento da condividere per la revisione.
 
@@ -112,7 +112,7 @@ Per creare un&#39;attività di revisione e inviare argomenti per la revisione, e
 
    Viene visualizzata la pagina Revisori in cui è possibile aggiungere o rimuovere i revisori. Per impostazione predefinita, i revisori aggiunti nel campo Assegna a vengono aggiunti automaticamente a ogni argomento selezionato per la revisione.
 
-   ![](images/add-reviewers-topics.png)
+   ![](images/add-reviewers-topics.png){width="650" align="left"}
 
 1. Nella pagina Revisori è possibile aggiungere o rimuovere revisori. Nella pagina Revisori sono disponibili le seguenti operazioni:
 
@@ -208,7 +208,7 @@ Per inviare uno o più argomenti insieme al file della mappa per la revisione, e
 
    La pagina Contenuto viene visualizzata con tutti gli argomenti a cui si fa riferimento dal file mappa. Se la mappa DITA contiene mappe nidificate, vengono elencati anche gli argomenti delle mappe nidificate.
 
-   ![](images/content-page-map-review.png)
+   ![](images/content-page-map-review.png){width="800" align="left"}
 
 1. Nella pagina Contenuto , seleziona una versione dell’argomento da condividere per la revisione.
 
@@ -265,4 +265,3 @@ Per inviare uno o più argomenti insieme al file della mappa per la revisione, e
 Viene inviata un&#39;e-mail a tutti i revisori con la notifica che gli argomenti sono stati assegnati per la revisione. L’e-mail contiene un collegamento diretto che possono fare clic sull’argomento e accedervi in una finestra del browser. Gli argomenti insieme alla mappa DITA vengono aperti in modalità di revisione.
 
 **Argomento principale:**[ Esamina argomenti o mappe](review.md)
-

@@ -1,13 +1,13 @@
 ---
 title: Assegnazione di tag in blocco al contenuto DITA
 description: Scopri come assegnare tag in blocco al contenuto DITA
-source-git-commit: 528dd5d33f38c29809e7e7dafd77d860daaba8db
+exl-id: 0e855575-e62f-4dc7-869c-7fd3ec61ffdb
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
 source-wordcount: '688'
 ht-degree: 0%
 
 ---
-
 
 # Assegnazione di tag in blocco al contenuto DITA {#id179SG0TN05Z}
 
@@ -31,7 +31,7 @@ Utilizza la funzione di assegnazione tag in blocco per applicare più tag contem
 
 1. Seleziona gli argomenti o la mappa secondaria a cui applicare i tag.
 
-   ![](images/apply-tags-uuid.png)
+   ![](images/apply-tags-uuid.png){width="650" align="left"}
 
 
    >[!NOTE]
@@ -106,4 +106,3 @@ Esegui i seguenti passaggi per rimuovere tutti i tag da uno o più argomenti:
 Se hai un lungo elenco di tag applicati ai tuoi argomenti, allora potresti trovarti un po&#39; complicato navigare. Per nascondere facilmente i tag nella vista della console mappa DITA, fai clic sull’icona Nascondi tag . Allo stesso modo, quando i tag non sono visibili, facendo clic su Mostra tag vengono visualizzati tutti i tag.
 
 **Argomento principale:**[ Gestire i metadati](manage-metadata.md)
-

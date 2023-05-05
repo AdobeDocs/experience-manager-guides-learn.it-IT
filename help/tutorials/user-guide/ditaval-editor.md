@@ -1,15 +1,15 @@
 ---
 title: Usa editor DIAVAL
 description: Scopri come utilizzare l’editor DITAVAL
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+source-git-commit: c6eceb8ea3ce41f12ea1f689dc8aeab2b4ba3d9c
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '758'
 ht-degree: 0%
 
 ---
 
 
-# Editor DITAVAL {#id17C5E0U0OQE}
+# Editor DITAVAL {#ditaval-editor}
 
 I file DITAVAL vengono utilizzati per generare l’output condizionale. In un singolo argomento, puoi aggiungere condizioni utilizzando gli attributi degli elementi per condizionalizzare il contenuto. Quindi, crei un file DITAVAL in cui specifichi le condizioni da prendere per generare contenuto e quale condizione deve essere esclusa dall’output finale.
 
@@ -48,25 +48,25 @@ Esegui i seguenti passaggi per modificare un file DITAVAL:
 
    L&#39;editor DITAVAL ti consente di eseguire le seguenti attività:
 
-   R: Attiva/Disattiva pannello a sinistra : Attiva/disattiva la visualizzazione del pannello a sinistra. Se il file DITAVAL è stato aperto tramite la mappa DITA, la mappa e il repository sono visualizzati in questo pannello. Per ulteriori informazioni sull&#39;apertura di un file tramite mappa DITA, vedere [Modifica argomenti tramite mappa DITA](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
+   R: Attiva/Disattiva pannello a sinistra Attiva/disattiva la visualizzazione del pannello a sinistra. Se il file DITAVAL è stato aperto tramite la mappa DITA, la mappa e il repository sono visualizzati in questo pannello. Per ulteriori informazioni sull&#39;apertura di un file tramite mappa DITA, vedere [Modifica argomenti tramite mappa DITA](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
 
-   B: Salva : Salva le modifiche apportate nel file. Tutte le modifiche vengono salvate nella versione corrente del file.
+   B: Salva Salva Salva le modifiche apportate nel file. Tutte le modifiche vengono salvate nella versione corrente del file.
 
-   C: Aggiungi proprietà : Aggiungi una singola proprietà nel file DITAVAL.
+   C: Aggiungi proprietà Aggiungi una singola proprietà nel file DITAVAL.
 
-       ![](images/ditaval-editor-props.png)
-       
-       Il primo elenco a discesa elenca gli attributi DITA consentiti che è possibile utilizzare nel file DITAVAL. Sono supportati cinque attributi: `audience`, `platform`, `product`, `props` e `otherprops`.
-   
-   : Il secondo elenco a discesa mostra i valori configurati per l&#39;attributo selezionato. Quindi, l’elenco a discesa successivo mostra le azioni che puoi configurare sull’attributo selezionato. I valori consentiti nel menu a discesa delle azioni sono: `include`, `exclude`, `passthrough`e `flag`. Per ulteriori informazioni su questi valori, consulta la definizione di [prop](http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/ditaval/ditaval-prop.html#ditaval-prop) elemento nella documentazione DITA OASIS
+   ![](images/ditaval-editor-props.png)
 
-   D: Aggiungi tutte le proprietà : Se desideri aggiungere con un solo clic tutte le proprietà o gli attributi condizionali definiti nel sistema, utilizza la funzione Aggiungi tutte le proprietà .
+   Il primo elenco a discesa elenca gli attributi DITA consentiti che è possibile utilizzare nel file DITAVAL. Sono disponibili cinque attributi supportati: `audience`, `platform`, `product`, `props`e `otherprops`.
 
->[!NOTE]
->
-> Se nel file DITAVAL sono già presenti tutte le proprietà condizionali definite, non è possibile aggiungere altre proprietà. Viene visualizzato un messaggio di errore in questo scenario.
+   Il secondo elenco a discesa mostra i valori configurati per l&#39;attributo selezionato. Quindi, l’elenco a discesa successivo mostra le azioni che puoi configurare sull’attributo selezionato. I valori consentiti nel menu a discesa delle azioni sono: `include`, `exclude`, `passthrough`e `flag`. Per ulteriori informazioni su questi valori, consulta la definizione di [prop](http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/ditaval/ditaval-prop.html#ditaval-prop) elemento nella documentazione DITA OASIS
 
-    ![](images/ditaval-all-props.png)
+   D: Aggiungi tutte le proprietà Se desideri aggiungere con un solo clic tutte le proprietà o gli attributi condizionali definiti nel sistema, utilizza la funzione Aggiungi tutte le proprietà .
+
+   >[!NOTE]
+   >
+   > Se nel file DITAVAL sono già presenti tutte le proprietà condizionali definite, non è possibile aggiungere altre proprietà. Viene visualizzato un messaggio di errore in questo scenario.
+
+   ![](images/ditaval-all-props.png)
 
 1. Una volta completata la modifica del file DITAVAL, fai clic su **Salva**.
 
@@ -79,13 +79,13 @@ Esegui i seguenti passaggi per modificare un file DITAVAL:
 
 L&#39;editor DITAVAL di AEM Guide supporta la visualizzazione di file DITAVAL in due modalità o viste diverse:
 
-Autore : Questa è una tipica visualizzazione What You Get \(WYSISYG\) dell&#39;editor DITAVAL. È possibile aggiungere o rimuovere proprietà utilizzando la semplice interfaccia utente, che presenta le proprietà, i valori e le azioni nell’elenco a discesa. Nella visualizzazione Autore sono disponibili le opzioni per inserire una singola proprietà e inserire tutte le proprietà con un solo clic.
+**Autore**: Questa è una tipica visualizzazione What You Get \(WYSISYG\) dell&#39;editor DITAVAL. È possibile aggiungere o rimuovere proprietà utilizzando la semplice interfaccia utente, che presenta le proprietà, i valori e le azioni nell’elenco a discesa. Nella visualizzazione Autore sono disponibili le opzioni per inserire una singola proprietà e inserire tutte le proprietà con un solo clic.
 
-: Puoi anche trovare la versione del file DITAVAL su cui stai lavorando passando il puntatore del mouse sul nome del file.
+Puoi anche trovare la versione del file DITAVAL su cui stai lavorando passando il puntatore del mouse sul nome del file.
 
-Origine : Nella visualizzazione Origine viene visualizzato il codice XML sottostante che costituisce il file DITAVAL. Oltre a apportare modifiche regolari al testo in questa visualizzazione, un autore può anche aggiungere o modificare proprietà utilizzando lo Smart Catalog.
+**Origine**: Nella visualizzazione Origine viene visualizzato il codice XML sottostante che costituisce il file DITAVAL. Oltre a apportare modifiche regolari al testo in questa visualizzazione, un autore può anche aggiungere o modificare proprietà utilizzando lo Smart Catalog.
 
-    Per richiamare il Catalogo avanzato, posiziona il cursore alla fine di qualsiasi definizione di proprietà e immetti &quot;&lt;&quot;. L&#39;editor mostrerà un elenco di tutti gli elementi XML validi che è possibile inserire in tale posizione.
-    
-    ![](images/ditaval-source-view.png)
+Per richiamare il Catalogo avanzato, posiziona il cursore alla fine di qualsiasi definizione di proprietà e immetti &quot;&lt;&quot;. L&#39;editor mostrerà un elenco di tutti gli elementi XML validi che è possibile inserire in tale posizione.
+
+![](images/ditaval-source-view.png)
 

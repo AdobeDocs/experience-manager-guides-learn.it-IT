@@ -1,13 +1,13 @@
 ---
 title: Creare un progetto DITA
 description: Scopri come creare un progetto DITA
-source-git-commit: 101766d51d43eb728f0316155acffd19548f83be
+exl-id: 6dc88ac4-249a-4da2-9787-a58370e281ca
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 0%
 
 ---
-
 
 # Creare un progetto DITA {#id1645HA00NM6}
 
@@ -33,7 +33,7 @@ Esegui i seguenti passaggi per creare un progetto DITA:
 
 1. Fai clic su **Crea** \> **Progetto** per avviare la procedura guidata Crea progetto.
 
-   ![](images/project-console-63.png)
+   ![](images/project-console-63.png){width="650" align="left"}
 
 1. Nella pagina Crea progetto , seleziona la **Progetto DITA** modello e fai clic su **Successivo**.
 
@@ -41,7 +41,7 @@ Esegui i seguenti passaggi per creare un progetto DITA:
 
    Informazioni nella **Base** scheda:
 
-   ![](images/create-project.png)
+   ![](images/create-project.png){width="650" align="left"}
 
    - Inserisci il **Titolo**, **Descrizione** e **Data di scadenza**.
 
@@ -75,4 +75,3 @@ Esegui i seguenti passaggi per creare un progetto DITA:
 
 
 **Argomento principale:**[ Esamina argomenti o mappe](review.md)
-

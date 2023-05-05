@@ -1,13 +1,13 @@
 ---
 title: Creare e gestire le linee di base dall’editor web
 description: Scopri come creare e gestire le linee di base dall’editor web
-source-git-commit: 873111892d5b479f80a40c0b18cda9b538f5a1de
+exl-id: 9e390489-16f5-4f9a-a821-5150a66c2ed4
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '1190'
 ht-degree: 0%
 
 ---
-
 
 # Creare e gestire le linee di base dall’editor web {#id223MB0ZF043}
 
@@ -24,7 +24,7 @@ AEM Guide fornisce la funzione Linea di base integrata all’interno dell’Edit
 1. Nel pannello Archivio, apri il file mappa DITA in Vista mappa.
 1. Fai clic sul pulsante **Gestisci** scheda . La **Linea** visualizza le linee di base della mappa DITA.
 
-   ![](images/baseline-manage.png)
+   ![](images/baseline-manage.png){width="800" align="left"}
 
 1. Sulla **Linea** fai clic sull’icona + in alto a destra. Puoi creare una baseline con una versione specifica degli argomenti e il contenuto a cui si fa riferimento disponibile in una data e in un&#39;ora specifiche oppure con un&#39;etichetta definita per una versione degli argomenti.
 1. Immettere un nome per la baseline in **Nome linea di base**.
@@ -52,7 +52,7 @@ AEM Guide fornisce la funzione Linea di base integrata all’interno dell’Edit
 
    Le linee di base basate sulle etichette vengono aggiornate dinamicamente. Se si genera una baseline, si scarica una baseline o si crea un progetto di traduzione utilizzando una baseline, i file vengono selezionati in modo dinamico in base alle etichette aggiornate. Ad esempio, se hai utilizzato la versione 1.2 di un argomento con Label Release 1.0 per la baseline e versioni successive aggiornate 1.5 con Label Release 1.0, la baseline verrà aggiornata dinamicamente e verrà utilizzata la versione 1.5.
 
-   ![](images/dynamic-baseline.png)
+   ![](images/dynamic-baseline.png){width="550" align="left"}
 
    - **Seleziona etichette**: Se per gli argomenti sono state specificate delle etichette, queste vengono elencate nella sezione **Seleziona etichette** a discesa. Potete scegliere l&#39;etichetta\(s\) dall&#39;elenco. Alle etichette selezionate per prime viene data priorità più alta rispetto a quelle successive.
 1. **Riferimenti indiretti**: Per i riferimenti indiretti all&#39;interno della mappa DITA, sono disponibili le seguenti opzioni:
@@ -74,7 +74,7 @@ Puoi gestire le linee di base esistenti utilizzando le varie funzioni presenti n
 - Per visualizzare o modificare il contenuto di una baseline esistente, fai doppio clic sulla baseline dall’elenco nel pannello Linea di base. Nella finestra di modifica della linea di base al centro vengono visualizzati il file di mappa DITA, il contenuto o gli argomenti della mappa e il contenuto a cui si fa riferimento.
 
 
-![](images/baseline-options.png)
+![](images/baseline-options.png){width="550" align="left"}
 
 È inoltre possibile eseguire le seguenti operazioni sulla linea di base dal menu Opzioni:
 
@@ -92,7 +92,7 @@ Puoi gestire le linee di base esistenti utilizzando le varie funzioni presenti n
 
 Utilizzo dell’icona Filtri nella sezione **Filtri della linea di base** potete applicare filtri sulla linea di base aperta nella finestra di modifica della linea di base:
 
-![](images/baseline-filter.png)
+![](images/baseline-filter.png){width="350" align="left"}
 
 - Filtrare i file in base al nome o alla posizione del file.
 - Filtrare i file in base ai valori per colonne diverse come Tipo di file, Tipo di riferimento e così via.
@@ -107,4 +107,3 @@ Utilizzo dell’icona Filtri nella sezione **Filtri della linea di base** potete
 Dopo aver modificato la baseline, puoi fare clic sul pulsante **Salva** per salvare le modifiche alla linea di base. Puoi fare clic su **Reimposta** se non desideri salvare la modifica e reimpostare la linea di base. Quando fai clic sul pulsante **Reimposta** viene visualizzato un messaggio di avviso relativo alla perdita delle modifiche non salvate.
 
 **Argomento principale:**[ Utilizzare l’editor Web](web-editor.md)
-

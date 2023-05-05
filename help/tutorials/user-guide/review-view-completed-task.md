@@ -1,13 +1,13 @@
 ---
 title: Visualizza attività di revisione completata
 description: Scopri come visualizzare un’attività di revisione completata
-source-git-commit: 176aee433300ce8d4d9cfbab2edb007acae4de87
+exl-id: 37f10fc3-e4ca-4e73-a887-65c7e9496f5e
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
-
 
 # Visualizza attività di revisione completata
 
@@ -19,8 +19,7 @@ In qualità di revisore, nel pannello dei commenti viene visualizzato un indicat
 
 Tuttavia, è possibile cercare o filtrare i commenti. Puoi anche scegliere di mostrare o nascondere le condizioni e visualizzare di conseguenza il contenuto condizionale. È possibile scaricare qualsiasi allegato ma non caricare o eliminare allegati per i commenti.
 
-<img src="images/complete-task-reviewer.png" alt="revisore attività revisione completata" width="800">
-
+![](images/complete-task-reviewer.png){width="800" align="left"}
 
 
 ## Autore
@@ -29,7 +28,6 @@ In qualità di autore, puoi visualizzare lo stato come chiuso nel pannello Revis
 
 Tuttavia, è possibile cercare o filtrare i commenti. È possibile scaricare qualsiasi allegato ma non caricare o eliminare allegati per i commenti.
 
-<img src="images/completed-task-author.png" alt=" autore attività di revisione completata" width="800">
+![](images/completed-task-author.png){width="800" align="left"}
 
 Pertanto, sia come revisore che come autore è possibile visualizzare il contenuto rivisto insieme ai commenti, ma non è possibile apportare modifiche in un&#39;attività di revisione completata.
-

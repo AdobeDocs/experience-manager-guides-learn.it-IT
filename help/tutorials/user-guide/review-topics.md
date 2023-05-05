@@ -1,13 +1,13 @@
 ---
 title: Argomenti della revisione
 description: Scopri come esaminare gli argomenti
-source-git-commit: 849985574a4d21334ac73be3e664ff5ea9a898c4
+exl-id: ca94ec2e-cd45-418d-9b35-73d587ba51ec
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
 source-wordcount: '2271'
 ht-degree: 0%
 
 ---
-
 
 # Argomenti della revisione {#id2056B0W0FBI}
 
@@ -37,7 +37,7 @@ Esegui i seguenti passaggi per rivedere un argomento:
 
    La schermata seguente viene visualizzata quando una mappa DITA viene utilizzata per avviare il flusso di lavoro di revisione:
 
-   ![](images/multiple-topics-review.png)
+   ![](images/multiple-topics-review.png){width="800" align="left"}
 
    In questa schermata sono disponibili le seguenti opzioni:
 
@@ -57,13 +57,13 @@ Esegui i seguenti passaggi per rivedere un argomento:
 
    Tutti gli argomenti della mappa sono visualizzati come un singolo documento composito. Gli argomenti che il revisore può esaminare vengono visualizzati normalmente. Gli argomenti che la revisione non può esaminare non vengono visualizzati.
 
-   ![](images/review-read-only.png)
+   ![](images/review-read-only.png){width="800" align="left"}
 
    Nella schermata precedente, l&#39;argomento della descrizione generale viene condiviso per la revisione del revisore corrente, che viene mostrato normalmente. Tuttavia, l&#39;argomento successivo, History of flight content non viene condiviso per la revisione e viene visualizzato in modalità di sola lettura. L’argomento attualmente in discussione è evidenziato anche nel sommario.
 
    La seguente schermata viene visualizzata quando uno o più argomenti vengono selezionati e condivisi per la revisione:
 
-   ![](images/review-composite-view.png)
+   ![](images/review-composite-view.png){width="800" align="left"}
 
    >[!NOTE]
    >
@@ -85,15 +85,15 @@ Esegui i seguenti passaggi per rivedere un argomento:
 
 Quando si visualizza un singolo argomento, si ottiene un&#39;opzione aggiuntiva per tornare alla visualizzazione del documento. Nella schermata seguente, viene aperto per la revisione un particolare argomento da un file mappa. Opzione evidenziata — **Mostra visualizzazione documento** consente all&#39;utente di tornare alla visualizzazione del documento del file mappa.
 
-![](images/switch-document-view.png)
+![](images/switch-document-view.png){width="800" align="left"}
 
 **Utilizzo di diversi tipi di strumenti per la creazione di commenti** - È possibile aggiungere commenti in linea evidenziando il testo, barrando il testo, inserendo testo o aggiungendo una nota commento. Di seguito sono descritti i diversi tipi di strumenti di commento forniti nella barra degli strumenti Commenti :
 
-![](images/comments-toolbar.png)
+![](images/comments-toolbar.png){width="350" align="left"}
 
 - **Evidenziazione** \(![](images/review-highlight-icon.svg)\): Per aggiungere un commento con evidenziazione, seleziona il testo e fai clic sull’icona Evidenzia . In alternativa, fai clic sull’icona Evidenzia e seleziona il testo desiderato:
 
-   ![](images/highlight-comment.png)
+   ![](images/highlight-comment.png){width="650" align="left"}
 
    Nel pannello Commenti viene visualizzato un pop-up in cui è possibile aggiungere commenti per il contenuto evidenziato.
 
@@ -112,7 +112,7 @@ Quando si visualizza un singolo argomento, si ottiene un&#39;opzione aggiuntiva 
 
 1. Seleziona il testo da evidenziare o barrare. Viene visualizzata la barra degli strumenti contestuale.
 
-   ![](images/review-quick-launch-toolbar.png)
+   ![](images/review-quick-launch-toolbar.png){width="550" align="left"}
 
 1. Fai clic sul pulsante **Evidenziazione** o **Barrato** icona.
 1. Puoi aggiungere commenti nel pannello dei commenti per l’azione di evidenziazione o barratura.
@@ -128,7 +128,7 @@ Le attività che è possibile eseguire utilizzando il pannello Commenti sono des
 - Per modificare un commento personale, fai clic sul testo del commento nel pannello Commenti e seleziona **Modifica** dal menu Opzioni.
 - Per eliminare i commenti, fai clic sul commento nel pannello Commenti e seleziona la **Elimina** dal menu Opzioni.
 
-   ![](images/review-comment-options-menu.png)
+   ![](images/review-comment-options-menu.png){width="300" align="left"}
 
    >[!NOTE]
    >
@@ -142,17 +142,17 @@ Le attività che è possibile eseguire utilizzando il pannello Commenti sono des
 
 - La schermata seguente mostra il contenuto in *Revisione* modalità:
 
-![](images/review-author-mode.png)
+![](images/review-author-mode.png){width="550" align="left"}
 
 La schermata seguente mostra il contenuto in *Anteprima* modalità:
 
-![](images/review-preview-mode.png)
+![](images/review-preview-mode.png){width="550" align="left"}
 
 **Aggiungere allegati ai commenti** - Se si desidera integrare il commento fornendo informazioni aggiuntive disponibili in un altro file, è possibile farlo allegandolo al commento. In qualità di revisore, è possibile aggiungere facilmente uno o più file dal sistema locale al commento. È possibile aggiungere un file a tutte le forme di commenti supportate: Evidenzia, Barrato, Inserisci testo o Commento.
 
 Quando si inserisce un commento, viene visualizzata la finestra a comparsa dei commenti. Dopo aver fornito ulteriori commenti o informazioni nella finestra a comparsa, inviarli premendo Invio. Una volta aggiunto il commento, è possibile aggiungere un allegato a tale commento.
 
-![](images/comment-pop-up-panel.png)
+![](images/comment-pop-up-panel.png){width="800" align="left"}
 
 Nella schermata precedente, il documento contiene la finestra a comparsa del commento evidenziato e il commento viene aggiunto anche nel pannello Commenti . Icona dell’allegato del file ![](images/file-attach-review.svg)è disponibile insieme al commento in entrambe le posizioni.
 
@@ -177,21 +177,21 @@ Per aggiungere un allegato al commento, effettua le seguenti operazioni:
 
 - Per impostazione predefinita, vengono visualizzati solo due file allegati a un commento. Se ci sono più file, allora **Visualizza allegato** il pulsante a destra mostra il numero di tutti gli allegati \(che sono più di due\) associati al commento. È possibile fare clic sul numero per visualizzare tutti gli allegati. Ad esempio, se hai quattro allegati con un commento, vedrai +2 sul pulsante.
 
-![](images/review-view-attachment.png)
+![](images/review-view-attachment.png){width="550" align="left"}
 
 - Passando il puntatore del mouse su un allegato è possibile scaricare o rimuovere l&#39;allegato. La rimozione dell&#39;allegato è disponibile solo se il revisore corrente ha aggiunto quel commento, come mostrato nella schermata seguente:
 
-![](images/current-user-comment-options.png)
+![](images/current-user-comment-options.png){width="550" align="left"}
 
 Gli altri revisori o autori ricevono solo l&#39;opzione di download dell&#39;allegato.
 
-![](images/other-reviewer-download.png)
+![](images/other-reviewer-download.png){width="550" align="left"}
 
 - È possibile scaricare tutti gli allegati associati a un commento da **Visualizza allegati** finestra di dialogo. Seleziona gli allegati e fai clic sul pulsante **Scarica** a livello di commento.
 
 - È inoltre possibile eliminare gli allegati associati a un commento dal **Visualizza allegati** finestra di dialogo. Seleziona gli allegati e fai clic sul pulsante **Elimina** icona.
 
-![](images/attach-files-comments-panel.png)
+![](images/attach-files-comments-panel.png){width="550" align="left"}
 
 
 **Pannello delle condizioni** - Se l’argomento include contenuto condizionale, verrà visualizzata la **Condizioni** \(![](images/conditions-icon.svg)\) a destra. Clic su **Condizioni** apre il pannello Condizioni , che consente di evidenziare il contenuto in base alle condizioni disponibili nell’argomento.
@@ -200,7 +200,7 @@ Gli altri revisori o autori ricevono solo l&#39;opzione di download dell&#39;all
 
 : È possibile disabilitare **Evidenzia tutte le condizioni** e visualizza tutto il contenuto presente nell’argomento come testo normale senza evidenziazioni.
 
-![](images/review-conditions-panel.png)
+![](images/review-conditions-panel.png){width="350" align="left"}
 
 Puoi scegliere di nascondere o mostrare una condizione specifica.
 
@@ -208,7 +208,7 @@ Puoi scegliere di nascondere o mostrare una condizione specifica.
 - Se viene visualizzata una condizione, il contenuto condizionale viene evidenziato in modalità di revisione. Ad esempio, nella schermata seguente, solo il contenuto utilizza due condizioni: `win` e `mac` viene evidenziato.
 
 
-![](images/review-condition-normal-mode.png)
+![](images/review-condition-normal-mode.png){width="650" align="left"}
 
 In modalità anteprima, il contenuto non condizionale e il contenuto condizionale che utilizzano le due condizioni visualizzate: `win` e `mac` viene visualizzato. Il contenuto condizionale rimanente per il quale le condizioni sono nascoste non viene visualizzato.
 
@@ -220,7 +220,7 @@ In modalità anteprima, il contenuto non condizionale e il contenuto condizional
 
 - Fare clic sull&#39;icona Commento obsoleto \(![](images/outdated-comment-icon.svg)\) visualizza le differenze tra la versione più recente e la versione con commenti del documento. I numeri di versione \(delle versioni che vengono confrontate\) vengono visualizzati nella parte superiore dei documenti.
 
-   ![](images/comments-page-review-mode.png)
+   ![](images/comments-page-review-mode.png){width="800" align="left"}
 
    >[!NOTE]
    >
@@ -244,4 +244,3 @@ Seleziona una o più delle seguenti opzioni di filtro dal **Tipo filtro** finest
 Per rimuovere il filtro e visualizzare tutti i commenti, deseleziona tutti i filtri dal **Tipo filtro** finestra di dialogo e fai clic su **Applica**.
 
 **Argomento principale:**[ Esamina argomenti o mappe](review.md)
-

@@ -1,13 +1,13 @@
 ---
 title: Creare mappe basate su modelli personalizzati
 description: Scopri come creare mappe basate su modelli personalizzati
-source-git-commit: 66915827a0b169069cc482763f0f50b9e9b6aa64
+exl-id: 02513148-3876-4549-962a-9984f619030f
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 0%
 
 ---
-
 
 # Creare mappe basate su modelli personalizzati {#id225VF0808MP}
 
@@ -33,7 +33,7 @@ Esegui i seguenti passaggi per creare un modello di argomento:
 
 1. In **Interfaccia utente Assets**, passare alla cartella dei modelli dita.
 
-   ![](images/dita-templates.png)
+   ![](images/dita-templates.png){width="800" align="left"}
 
 1. Fai clic su **argomenti** cartella per aprirla.Fai clic su **Crea modello \> DITA**.
 1. Nella pagina Blueprint, seleziona **Argomento** quindi fai clic su **Avanti.**
@@ -55,7 +55,7 @@ Esegui i seguenti passaggi per creare un modello di mappa:
 1. Fai clic su **mappe** cartella per aprirla.
 1. Fai clic su **Crea \> modello DITA.**
 
-   ![](images/create-dita-template.png)
+   ![](images/create-dita-template.png){width="300" align="left"}
 
 1. Nella pagina Blueprint, seleziona **Mappa** e fai clic su **Successivo**.
 1. Nella pagina Proprietà , specifica il modello di mappa **Titolo**.
@@ -104,7 +104,11 @@ Se non si utilizzano parentesi graffe intorno al titolo, la mappa DITA risultant
 Esempio
 
 ```XML
-<title>	<sub>		<b>{title}</b>	</sub></title>
+<title>    
+    <sub>        
+        <b>{title}</b>    
+    </sub>
+</title>
 ```
 
 ## Utilizza il modello di mappa per creare nuove mappe
@@ -144,4 +148,3 @@ La mappa genera tutte le risorse a cui si fa riferimento all’interno della car
 - Se nella cartella viene creata un’altra mappa o un altro argomento allo stesso livello, ai nomi delle risorse appena create viene aggiunto 0,1,2 e così via. Puoi scegliere di aprire la mappa per la modifica o salvare il file mappa nell&#39;archivio.
 
 **Argomento principale:**[ Utilizzare l’Editor mappa](map-editor.md)
-

@@ -1,13 +1,13 @@
 ---
 title: Creare una mappa
 description: Scopri come creare una mappa
-source-git-commit: 66915827a0b169069cc482763f0f50b9e9b6aa64
+exl-id: d35ee09f-f951-4866-a2b1-e4b19f76e7a1
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 0%
 
 ---
-
 
 # Creare una mappa {#id176FEN0D05Z}
 
@@ -25,7 +25,7 @@ Esegui i seguenti passaggi per creare un file di mappa:
    >
    > Il modo in cui gli argomenti vengono indicati in un file di mappa dipende dal modello di mappa. Ad esempio, se selezioni il modello Mappa, l&#39;argomento fa riferimento a \(`topicref`\) vengono utilizzati per fare riferimento agli argomenti. Nel caso di una mappa di registro, i riferimenti agli argomenti vengono creati utilizzando `chapter` elemento in DITA.
 
-   ![](images/map-template.png)
+   ![](images/map-template.png){width="650" align="left"}
 
 1. Nella pagina Proprietà , specifica la mappa **Titolo**.
 
@@ -41,7 +41,7 @@ Esegui i seguenti passaggi per creare un file di mappa:
 
    Ogni nuovo file mappa creato dall’interfaccia utente Assets **Crea** \> **Mappa DITA** oppure all’Editor web viene assegnato un ID mappa univoco. Inoltre, la nuova mappa viene salvata come ultima copia di lavoro in DAM. Fino a quando non si salva una revisione di una mappa appena creata, nella cronologia delle versioni non verrà visualizzato alcun numero di versione. Se apri la mappa per la modifica, le informazioni sulla versione vengono visualizzate nell’angolo superiore destro della scheda del file mappa:
 
-   ![](images/first-version-map-none.png)
+   ![](images/first-version-map-none.png){width="650" align="left"}
 
    Le informazioni sulla versione di una mappa appena creata vengono visualizzate come *nessuno*. Quando si salva una nuova versione, viene assegnato un numero di versione pari a 1.0. Per ulteriori informazioni sul salvataggio di una nuova versione, vedere [Salva come nuova versione](web-editor-features.md#save-as-new-version-id209ME400GXA).
 
@@ -53,4 +53,3 @@ Esegui i seguenti passaggi per creare un file di mappa:
 
 
 **Argomento principale:**[ Utilizzare l’Editor mappa](map-editor.md)
-

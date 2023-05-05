@@ -1,13 +1,13 @@
 ---
 title: Utilizzare l'Editor mappa di base
 description: Scopri come utilizzare l’Editor mappa di base
-source-git-commit: af5c64312a608affe95fd552b3dd1b2e05ea2b8e
+exl-id: 85194806-db3f-442b-a551-540d148d26ec
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
 source-wordcount: '1394'
 ht-degree: 0%
 
 ---
-
 
 # Utilizzare l&#39;Editor mappa di base {#id1942CM005Y4}
 
@@ -37,7 +37,7 @@ Esegui i seguenti passaggi per creare il file mappa:
 
    Il file mappa viene aperto per la modifica nell’Editor mappa. Utilizzando l’Editor mappa, puoi creare una mappa utilizzando gli argomenti attualmente disponibili nella barra Riferimenti.
 
-   ![](images/dita-map-01.png)
+   ![](images/dita-map-01.png){width="800" align="left"}
 
 1. Utilizzo della **Riferimenti** barra , passa alla cartella contenente gli argomenti o le mappe secondarie che desideri aggiungere.
 
@@ -66,13 +66,13 @@ Esegui i seguenti passaggi per creare il file mappa:
 
 La barra degli strumenti principale nell&#39;Editor mappa di base consente di eseguire le seguenti operazioni:
 
-![](images/ditamap-toolbar-actions.png)
+![](images/ditamap-toolbar-actions.png){width="800" align="left"}
 
 **R: Ricerca**
 
 Puoi cercare e includere gli argomenti richiesti da DAM. Facendo clic su questa icona viene visualizzata la finestra di dialogo Ricerca:
 
-![](images/search-dita-map.png)
+![](images/search-dita-map.png){width="800" align="left"}
 
 Immetti le parole chiave che desideri cercare, queste parole chiave sono abbinate al nome del file dell&#39;argomento, al contenuto e anche ai valori dell&#39;attributo. Una volta disponibili i risultati della ricerca, seleziona gli argomenti desiderati e fai clic sul pulsante Verifica per aggiungere i file selezionati alla fine della struttura della mappa. Puoi filtrare i risultati della ricerca specificando i parametri Modifica data .
 
@@ -100,19 +100,19 @@ In **Modalità predefinita**, facendo clic su un collegamento di argomento viene
 **Nota:** In Modalità predefinita è possibile utilizzare le scelte rapide da tastiera per annullare \(`Ctrl+z`\) o Ripristina \(`Ctrl+y`\) l&#39;ultima azione.
 
 
-![](images/dita-map-invalid-source.png)
+![](images/dita-map-invalid-source.png){width="650" align="left"}
 
 **G: Proprietà mappa**
 
 Visualizza la finestra di dialogo Proprietà mappa in cui puoi impostare gli attributi e le informazioni sui metadati per la mappa. Per aggiungere un attributo, fai clic sul pulsante **Aggiungi** nell’angolo in basso a sinistra della finestra di dialogo per ottenere il **Attributo** elenco a discesa. Dall’elenco, seleziona l’attributo da aggiungere. Se l’attributo selezionato dispone di valori predefiniti specificati nella DTD, tali valori verranno presentati in un nuovo elenco a discesa. Puoi selezionare il valore desiderato dall’elenco a discesa. Se non è presente alcun valore predefinito, verrà visualizzata una casella di testo per immettere un valore per l&#39;attributo selezionato.
 
-![](images/map-properties.png)
+![](images/map-properties.png){width="300" align="left"}
 
 ## Funzioni disponibili a livello di argomento nell&#39;Editor mappa di base
 
 Quando si posiziona il puntatore del mouse su un argomento o su un file di mappatura secondaria nell&#39;Editor mappa di base, è possibile eseguire le seguenti operazioni:
 
-![](images/ditamap-actions.png)
+![](images/ditamap-actions.png){width="650" align="left"}
 
 **R: Sposta a sinistra o Sposta a destra**
 
@@ -123,7 +123,7 @@ Fai clic sulla freccia sinistra o destra delle icone per spostare l’argomento 
 Fare clic sull&#39;icona Proprietà per aprire la finestra di dialogo Proprietà riferimento argomento. Utilizzando questa finestra di dialogo, puoi impostare gli attributi dell’argomento e le informazioni sui metadati. Per ulteriori informazioni sugli attributi e i metadati standard dell&#39;argomento, consulta la sezione [topicref](https://docs.oasis-open.org/dita/v1.2/os/spec/langref/topicref.html) documentazione in OASIS DITA Language Specification.
 
 
-![](images/map-properties-metadata.png)
+![](images/map-properties-metadata.png){width="350" align="left"}
 
 **C: Aggiungi nuovo riferimento**
 
@@ -155,7 +155,7 @@ Per utilizzare le tabelle di relazione nell&#39;Editor mappa di base, effettua l
 
 1. Seleziona **Relabile** dalla barra degli strumenti.
 
-   ![](images/reltable.png)
+   ![](images/reltable.png){width="650" align="left"}
 
 1. Trascina gli argomenti dall’elenco degli argomenti all’editor reltable.
 
@@ -163,13 +163,13 @@ Per utilizzare le tabelle di relazione nell&#39;Editor mappa di base, effettua l
    >
    > Puoi aggiungere argomenti da qualsiasi cartella nella barra Riferimenti.
 
-   ![](images/create-reltable.png)
+   ![](images/create-reltable.png){width="550" align="left"}
 
 1. Per aggiungere un’intestazione alla tabella di relazione, fai clic su **Aggiungi reheader**.
 
 1. Per aggiungere una colonna alla tabella di relazione, fare clic su **Aggiungi una colonna**.
 
-   ![](images/complete-reltable.png)
+   ![](images/complete-reltable.png){width="550" align="left"}
 
 1. Fai clic su **Salva**.
 
@@ -189,4 +189,3 @@ Per eliminare un argomento dalla tabella, fai clic sull’icona a forma di croce
 Se si desidera eliminare la tabella di relazione, fare clic in un punto qualsiasi al di fuori della tabella di relazione e fare clic su Elimina.
 
 **Argomento principale:**[ Utilizzare l’Editor mappa](map-editor.md)
-
