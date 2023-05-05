@@ -1,13 +1,13 @@
 ---
 title: Best practice per la traduzione dei contenuti
 description: Scopri le best practice per la traduzione dei contenuti
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 4eff0f27-b3d1-4c6e-af88-bcb3f6d96990
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '1237'
 ht-degree: 1%
 
 ---
-
 
 # Best practice per la traduzione dei contenuti {#id1678G0S702F}
 
@@ -29,7 +29,7 @@ Considera il seguente punto per la traduzione dei contenuti:
 
 L’illustrazione seguente mostra un esempio di struttura di cartelle in AEM quando sono stati utilizzati globalmente contenuti e tre copie in lingua.
 
-![](images/aem-directory_structure.png)
+![](images/aem-directory_structure.png){width="800" align="left"}
 
 ## Configurare il servizio di traduzione
 
@@ -129,4 +129,3 @@ Al termine della traduzione, lo stato del processo di traduzione cambia in *Pron
 > Se si rifiuta la traduzione per uno o più argomenti di un lavoro di traduzione, la **In corso** lo stato di traduzione di tutti gli argomenti rifiutati viene ripristinato al loro stato originale. Lo stato degli argomenti di cui si fa riferimento viene controllato e ripristinato in base allo stato di traduzione più recente. Inoltre, i file di traduzione creati nel progetto di destinazione non vengono eliminati anche se la traduzione viene rifiutata per essi.
 
 **Argomento principale:**[ Tradurre il contenuto](translation.md)
-

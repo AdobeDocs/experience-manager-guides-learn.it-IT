@@ -1,13 +1,13 @@
 ---
 title: Gestione delle attività di pubblicazione tramite il dashboard di pubblicazione
 description: Scopri come gestire le attività di pubblicazione utilizzando il dashboard di pubblicazione
-source-git-commit: 8b6294425c6e60d1c5b37d98e99114014a104ee6
+exl-id: 5ede608d-f905-44b7-9147-ab678ad68ee7
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 0%
 
 ---
-
 
 # Gestione delle attività di pubblicazione tramite il dashboard di pubblicazione {#id205CC08305Z}
 
@@ -15,7 +15,7 @@ Quando nel sistema è in esecuzione un insieme di attività di pubblicazione di 
 
 La dashboard di pubblicazione offre una panoramica completa di tutte le attività di pubblicazione attualmente in esecuzione nel sistema.
 
-![](images/publish-dashboard.png)
+![](images/publish-dashboard.png){width="800" align="left"}
 
 Il dashboard di pubblicazione contiene i seguenti dettagli:
 
@@ -37,7 +37,7 @@ Il pannello a sinistra nel dashboard di pubblicazione fornisce le seguenti opzio
 
 - **Predefinito di output** - Seleziona uno o più predefiniti di output per i quali visualizzare le attività di pubblicazione attualmente attive. Nella schermata seguente, le attività di pubblicazione vengono filtrate per mostrare solo le attività che utilizzano il predefinito di output AEM sito:
 
-![](images/publish-dashboard-preset-filter.png)
+   ![](images/publish-dashboard-preset-filter.png){width="800" align="left"}
 
 - **Iniziato da** - Seleziona un nome utente dall’elenco per visualizzare le attività di pubblicazione avviate dall’utente selezionato.
 
@@ -61,7 +61,7 @@ Esegui le seguenti operazioni per accedere al dashboard di pubblicazione:
 
    Se si fa clic sul collegamento Nome file, viene visualizzata la console Mappa DITA della mappa selezionata.
 
-   ![](images/publish-dashboard-click-filename-link.png)
+   ![](images/publish-dashboard-click-filename-link.png){width="800" align="left"}
 
 
 >[!NOTE]
@@ -76,14 +76,13 @@ Esegui i seguenti passaggi per annullare un’attività di generazione dell’ou
 
 1. Nell’elenco delle attività di pubblicazione attive, fare clic sull’icona Elimina di un’attività da annullare.
 
-   ![](images/publish-dashboard-cancel-task.png)
+   ![](images/publish-dashboard-cancel-task.png){width="800" align="left"}
 
 1. Fai clic su **Sì** al prompt dei messaggi Conferma annullamento.
 
    Il comando Annulla viene accettato e viene eseguito un tentativo di annullamento finché l&#39;attività rimane attiva. Quando l&#39;attività viene terminata, viene rimossa dall&#39;elenco attività attualmente attivo. Lo stato dell&#39;attività viene aggiornato anche nella console mappa DITA come Annullato. Nella schermata seguente, il *HTML5* L&#39;attività viene annullata dal Dashboard di pubblicazione e il relativo stato viene modificato anche nella console mappa DITA.
 
-   ![](images/cancelled-output-task.png)
+   ![](images/cancelled-output-task.png){width="800" align="left"}
 
 
 **Argomento principale:**[ Generazione di output](generate-output.md)
-

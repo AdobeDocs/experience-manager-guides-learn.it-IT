@@ -1,13 +1,13 @@
 ---
 title: Attiva output
 description: Scopri come attivare l'output
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: a3b6cfed-813e-433c-891f-bb0715e7b94a
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 2%
 
 ---
-
 
 # Attiva output {#id214GGF00V5U}
 
@@ -23,7 +23,7 @@ Una volta creata una raccolta di mappe per l’attivazione in blocco, il passagg
 
 1. Seleziona la raccolta da pubblicare e fai clic su **Apri**.
 
-   ![](images/bulk-activation-collection-open.png)
+   ![](images/bulk-activation-collection-open.png){width="800" align="left"}
 
 1. \(*Facoltativo*\) Applica i filtri richiesti dalla barra a sinistra per filtrare la mappa in base al relativo \(status\) modificato, al predefinito di output o alla lingua:
 1. Effettua una delle operazioni seguenti:
@@ -31,10 +31,9 @@ Una volta creata una raccolta di mappe per l’attivazione in blocco, il passagg
    - Per attivare l&#39;output delle mappe selezionate, selezionare i file di mappa e fare clic su **Pubblicazione rapida**.
    - Per attivare l&#39;output di tutte le mappe DITA con i relativi predefiniti configurati, selezionare la casella di controllo accanto a Mappa \(colonna\), quindi fare clic su **Pubblicazione rapida.**
 
-      ![](images/bulk-activation-collection-quick-publish.png)
+      ![](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
 
 
 Una volta attivato l’output per i file di mappa selezionati, la colonna Pubblicato viene aggiornata con la data e l’ora correnti.
 
 **Argomento principale:**[ Attivazione in blocco di contenuti pubblicati](conf-bulk-activation.md)
-

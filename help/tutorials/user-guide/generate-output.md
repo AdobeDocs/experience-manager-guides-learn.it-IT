@@ -1,13 +1,13 @@
 ---
 title: Generazione di output
 description: Scopri come generare output
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 32fc32f8-16b1-4c3c-a6e2-abfb8fba9e66
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
-
 
 # Generazione di output {#id1645H8040HD}
 
@@ -43,29 +43,4 @@ Le informazioni nelle sezioni seguenti sono destinate agli editori che utilizzer
 >[!IMPORTANT]
 >
 > Le funzioni descritte in questo argomento sono disponibili solo per gli utenti con privilegi di editore o amministratore.
-
-- **[Informazioni sui predefiniti di output](generate-output-understand-presets.md)**
-
-- **[Utilizza le variabili per impostare le opzioni Percorso di destinazione, Nome sito o Nome file](generate-output-use-variables.md)**
-
-- **[Creare, modificare, duplicare o rimuovere un predefinito di output](generate-output-create-edit-preset.md)**
-
-- **[Trasmettere i metadati all&#39;output utilizzando DITA-OT](pass-metadata-dita-ot.md)**
-
-- **[profilazione degli attributi condizionali](generate-output-conditional-attribute-profiling.md)**
-
-- **[Utilizzare i predefiniti condizione](generate-output-use-condition-presets.md)**
-
-- **[Utilizzare la linea di base](generate-output-use-baseline-for-publishing.md)**
-
-- **[Genera output per una mappa DITA dalla console mappa](generate-output-for-a-dita-map.md)**
-
-- **[Utilizzare la raccolta mappa per la generazione dell&#39;output](generate-output-use-map-collection-output-generation.md)**
-
-- **[Gestione delle attività di pubblicazione tramite il dashboard di pubblicazione](generate-output-publish-dashboard.md)**
-
-- **[Risoluzione dei problemi di base](generate-output-basic-troubleshooting.md)**
-
-- **[Attivazione in blocco di contenuti pubblicati](conf-bulk-activation.md)**
-
 

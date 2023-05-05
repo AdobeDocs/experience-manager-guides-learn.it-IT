@@ -1,13 +1,13 @@
 ---
 title: profilazione degli attributi condizionali
 description: Scopri come eseguire il profiling dell’attributo condizionale
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 31b0ffe6-44e7-459d-a8df-a64ec868768c
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 0%
 
 ---
-
 
 # profilazione degli attributi condizionali {#id1843I0HN0Y4}
 
@@ -43,7 +43,7 @@ Per definire gli attributi condizionali, effettua le seguenti operazioni:
 
    La schermata seguente mostra la definizione per `platform` attributo con valore di `unix` e un&#39;etichetta `Red Hat Linux`.
 
-   ![](images/add-profile.png)
+   ![](images/add-profile.png){width="800" align="left"}
 
 1. Se desideri aggiungere più valori per lo stesso attributo, fai clic sul pulsante **+** e immetti valore e etichetta aggiuntivi.
 
@@ -54,7 +54,6 @@ Per definire gli attributi condizionali, effettua le seguenti operazioni:
 
 La `platform` l&#39;attributo è memorizzato nel sistema. Ogni volta che un autore decide di utilizzare il `platform` in un argomento DITA in una cartella, i valori verranno visualizzati nella scheda Proprietà nell&#39;editor Web.
 
-![](images/properties-tab.png)
+![](images/properties-tab.png){width="350" align="left"}
 
 **Argomento principale:**[ Generazione di output](generate-output.md)
-

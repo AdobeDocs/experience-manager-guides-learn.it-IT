@@ -1,13 +1,13 @@
 ---
 title: Utilizzare la linea di base
 description: Scopri come utilizzare la linea di base
-source-git-commit: 8b6294425c6e60d1c5b37d98e99114014a104ee6
+exl-id: dcafab53-c388-48c3-9455-e4251cdda17d
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '1917'
 ht-degree: 0%
 
 ---
-
 
 # Utilizzare la linea di base {#id1825FI0J0PF}
 
@@ -46,8 +46,7 @@ Per creare una linea di base, effettua le seguenti operazioni:
 1. In **Imposta la versione in base a**, seleziona una delle seguenti opzioni:
 
    - **Etichetta**: Seleziona questa opzione per scegliere gli argomenti in base all’etichetta applicata. Immetti un’etichetta per filtrare l’elenco in base alla stringa immessa. Dall’elenco a discesa filtrato, puoi scegliere un’etichetta per selezionare argomenti e altre risorse con l’etichetta specificata.
-
-      Quando selezioni **Etichetta**, ti viene inoltre offerta un’opzione aggiuntiva per utilizzare la versione più recente degli argomenti a cui non è stata applicata l’etichetta specificata. Se non selezioni questa opzione e ci sono argomenti o file multimediali che non hanno l&#39;etichetta specificata, il processo di creazione della linea di base non riuscirà. Per ulteriori informazioni sull’aggiunta di etichette, consulta [Usa etichette](web-editor-use-label.md#).
+   Quando selezioni **Etichetta**, ti viene inoltre offerta un’opzione aggiuntiva per utilizzare la versione più recente degli argomenti a cui non è stata applicata l’etichetta specificata. Se non selezioni questa opzione e ci sono argomenti o file multimediali che non hanno l&#39;etichetta specificata, il processo di creazione della linea di base non riuscirà. Per ulteriori informazioni sull’aggiunta di etichette, consulta [Usa etichette](web-editor-use-label.md#).
 
    - **Versione su** &lt;*timestamp*\>: Seleziona la versione degli argomenti in base alla data e all&#39;ora specificate. L’ora specificata corrisponde al fuso orario del server AEM. Se il server si trova in un fuso orario diverso, gli argomenti verranno rilevati in base al fuso orario del server e non in base al fuso orario locale.
 
@@ -55,7 +54,7 @@ Per creare una linea di base, effettua le seguenti operazioni:
 
 1. Se desideri utilizzare una versione diversa per uno o più argomenti, puoi farlo selezionando manualmente tali argomenti. Fai clic su **Sfoglia argomento**, seleziona l’argomento di cui desideri utilizzare una versione diversa. Dall’elenco a discesa Seleziona una versione per l’argomento selezionato, seleziona una versione dell’argomento da utilizzare nella baseline e fai clic su **OK**.
 
-   ![](images/baseline-select-version-drop-down.png)
+   ![](images/baseline-select-version-drop-down.png){width="800" align="left"}
 
    Le informazioni sull&#39;argomento e la relativa versione selezionata vengono memorizzate nel backend. Puoi ripetere questo passaggio per modificare la versione selezionata per più argomenti.
 
@@ -133,9 +132,9 @@ Esegui i seguenti passaggi per aggiungere un’etichetta a più argomenti e cont
 
 1. Fai clic su **Aggiungi etichette**.
 
-   ![](images/add-label-baseline-uuid.png)
+   ![](images/add-label-baseline-uuid.png){width="800" align="left"}
 
-1. In **Aggiungi etichetta** specificare un&#39;etichetta univoca da associare a questa baseline.
+1. In **Aggiungi etichetta** specificare un&#39;etichetta univoca da associare a questa linea di base.
 
    Se l’amministratore ha configurato le etichette predefinite, queste vengono visualizzate in un elenco a discesa. È necessario scegliere un’etichetta dall’elenco.
 
@@ -144,7 +143,7 @@ Esegui i seguenti passaggi per aggiungere un’etichetta a più argomenti e cont
    - Fai clic su **Aggiungi**.
 L&#39;etichetta specificata viene aggiunta alla mappa DITA e agli argomenti e al contenuto a cui si fa riferimento.
 
-      ![](images/label-added-baseline-uuid.png)
+      ![](images/label-added-baseline-uuid.png){width="650" align="left"}
 
 
 ## Esporta linea di base tradotta {#id196SE600GHS}
@@ -163,7 +162,7 @@ Esegui i seguenti passaggi per esportare una baseline tradotta:
 
 1. In **Traduzione** scheda , espandi **Linea** disponibile nella barra a sinistra.
 
-   ![](images/export-baseline.png)
+   ![](images/export-baseline.png){width="800" align="left"}
 
 1. Seleziona la **Usa linea di base** e scegliete la baseline da esportare.
 
@@ -177,4 +176,3 @@ Esegui i seguenti passaggi per esportare una baseline tradotta:
 
 
 **Argomento principale:**[ Generazione di output](generate-output.md)
-

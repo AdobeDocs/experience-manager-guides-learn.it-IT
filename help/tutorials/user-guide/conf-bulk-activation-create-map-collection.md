@@ -1,13 +1,13 @@
 ---
 title: Creare una raccolta di mappe di attivazione in blocco
 description: Scopri come creare una raccolta di mappe di attivazione in blocco
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 7d17fb37-9486-4a3b-a421-08e279c95b6c
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 0%
 
 ---
-
 
 # Creare una raccolta di mappe di attivazione in blocco {#id214GG0E90EV}
 
@@ -43,7 +43,7 @@ Per creare una raccolta di mappe di attivazione in blocco, esegui i seguenti pas
 
    I file di mappa DITA vengono aggiunti alla raccolta di mappe di attivazione in blocco.
 
-   ![](images/bulk-activation-collection-created.png)
+   ![](images/bulk-activation-collection-created.png){width="800" align="left"}
 
 
 La scheda Mappe e predefiniti presenta le informazioni nelle colonne seguenti:
@@ -70,4 +70,3 @@ Nel pannello a sinistra sono disponibili le seguenti opzioni di filtro:
 - **Mappe e predefiniti** tabella: La tabella Mappe e predefiniti presenta le colonne seguenti:
 
 **Argomento principale:**[ Attivazione in blocco di contenuti pubblicati](conf-bulk-activation.md)
-

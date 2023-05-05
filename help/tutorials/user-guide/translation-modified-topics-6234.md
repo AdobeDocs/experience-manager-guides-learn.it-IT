@@ -1,13 +1,13 @@
 ---
 title: Traduci argomenti modificati
 description: Scopri come tradurre gli argomenti modificati
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 48b868c3-27ec-4641-b40d-17a641be7497
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '603'
 ht-degree: 0%
 
 ---
-
 
 # Traduci argomenti modificati {#id16A5A0B6072}
 
@@ -29,7 +29,7 @@ Esegui i seguenti passaggi per inviare un argomento modificato per la ritraduzio
 
    Se fai clic sulla freccia per visualizzare ulteriori dettagli. puoi vedere la copia in lingua particolare non aggiornata.
 
-   ![](images/out-of-sync-uuid.png)
+   ![](images/out-of-sync-uuid.png){width="800" align="left"}
 
 1. Fai clic sulla casella di controllo per selezionare gli argomenti da inviare per la riconversione.
 
@@ -51,7 +51,7 @@ Esegui i seguenti passaggi per inviare un argomento modificato per la ritraduzio
 
 1. Passa al progetto di traduzione nella console Progetto . Nella cartella viene creata una nuova scheda del processo di traduzione. Fai clic sui puntini di sospensione per visualizzare le risorse della cartella.
 
-   ![](images/incremental-job.PNG)
+   ![](images/incremental-job.PNG){width="300" align="left"}
 
 1. Per avviare la traduzione, fare clic sulla freccia sulla scheda del processo di traduzione e selezionare **Inizio** dall&#39;elenco. Un messaggio notifica che il processo è iniziato.
 
@@ -76,4 +76,3 @@ Esegui i seguenti passaggi per inviare un argomento modificato per la ritraduzio
 
 
 **Argomento principale:**[ Tradurre il contenuto](translation.md)
-

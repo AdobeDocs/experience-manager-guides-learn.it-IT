@@ -1,13 +1,13 @@
 ---
 title: Report mappa DITA dall'editor Web
 description: Scopri come eseguire la mappatura DITA del report dall'editor Web
-source-git-commit: 895d9bd3587c871d5223df5b71403d10bdc3d762
+exl-id: b1011cec-6374-4026-bf1c-54a1981c760e
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '1608'
 ht-degree: 0%
 
 ---
-
 
 # Report mappa DITA dall&#39;editor Web {#id231HF0Z0NXA}
 
@@ -25,9 +25,10 @@ Puoi creare un rapporto sugli argomenti eseguendo i seguenti passaggi:
 1. Fai clic sul pulsante **Gestisci** scheda .
 1. Fare doppio clic **Elenco argomenti** a sinistra. Viene visualizzato l&#39;elenco degli argomenti presenti nella mappa DITA.
 
-   ![](images/web-editor-topiclist-panel.png)
+   ![](images/web-editor-topiclist-panel.png){width="800" align="left"}
 
 1. Da **Filtri** Il pannello consente di filtrare gli argomenti in base alla **Tipo di riferimento** \(diretto o indiretto\), **Stato del documento** \(lo stato corrente degli argomenti. Ad esempio, se gli argomenti sono nello stato Modifica, In revisione o Revisione, sono elencati\) o il **Autore** dell&#39;argomento.
+
 1. È inoltre possibile utilizzare le seguenti opzioni di filtro argomento per scegliere di visualizzare le colonne seguenti nell’elenco:
 
    - **Argomento** Il titolo dell&#39;argomento viene specificato nella mappa DITA. Puoi fare clic sull’argomento per modificarlo.
@@ -57,7 +58,7 @@ Per visualizzare i metadati dei riferimenti nella mappa DITA corrente, eseguire 
 1. Fai clic sul pulsante **Gestisci** scheda .
 1. Fare doppio clic **Metadati** a sinistra. Viene visualizzato l&#39;elenco dei metadati di tutti i riferimenti nella mappa DITA. Questo include anche i riferimenti multimediali.
 
-   ![](images/web-editor-metadata-panel.png)
+   ![](images/web-editor-metadata-panel.png){width="800" align="left"}
 
 1. Da **Filtri** puoi filtrare gli argomenti in base a **Stato del documento** \(lo stato corrente degli argomenti. Ad esempio, se gli argomenti sono nello stato Modifica, In revisione o Revisione, sono elencati\), **Riferimenti** \(diretto o indiretto\), **Tipo di file** \(Mappa, Argomento e Immagine\) del riferimento.
 1. Puoi anche scegliere di visualizzare solo il **File senza tag** o anche scegliere tag specifici dal **Tag** per visualizzare i file associati.
@@ -92,7 +93,7 @@ Per visualizzare i metadati dei riferimenti nella mappa DITA corrente, eseguire 
 
 1. Seleziona **Gestisci** dall&#39;alto.
 
-   ![](images/web-editor-manage-metadata.png)
+   ![](images/web-editor-manage-metadata.png){width="350" align="left"}
 
 1. Per aggiungere nuovi tag, selezionateli dall’elenco a discesa per applicarli a tutti gli argomenti selezionati. Per eliminare un tag, fai clic sull’icona a croce accanto al tag .
 
@@ -114,11 +115,11 @@ La **Multimedia** Il rapporto fornisce informazioni dettagliate sui file multime
 
    - Quando ordini per **Multimedia**, il nome****del file multimediale viene visualizzato nella prima colonna e quindi i nomi di tutti i riferimenti in cui sono stati utilizzati, vengono visualizzati in un&#39;altra colonna della stessa riga. Ad esempio, la schermata seguente mostra il WarmCoolForC.gif multimediale nella prima colonna e tre riferimenti in cui viene utilizzato, vengono visualizzati nella terza colonna sulla stessa riga.
 
-      ![](images/multimedia-report-file-order.png)
+      ![](images/multimedia-report-file-order.png){width="650" align="left"}
 
    - Se ordini per **Utilizzato in** La vista trasposta è visibile quando i nomi dei riferimenti in cui sono stati utilizzati i contenuti multimediali sono elencati nella prima colonna, mentre i nomi multimediali sono elencati in un&#39;altra colonna su righe separate. Ad esempio, la schermata seguente mostra i nomi di tre riferimenti \(Regolare la temperatura del sedile, Cambiare la visualizzazione della temperatura del sedile e l&#39;area dell&#39;equipaggio\) nella prima colonna e il WarmCoolForC.gif multimediale viene visualizzato nella terza colonna su tre righe separate.
 
-      ![](images/multimedia-report-used-in-order.png)
+      ![](images/multimedia-report-used-in-order.png){width="650" align="left"}
 
 1. Puoi filtrare i contenuti multimediali in base al **Tipo multimediale** e **Tipo di riferimento**. L’elenco dei file multimediali viene visualizzato in base alla selezione effettuata nell’elenco a discesa. Ad esempio, è possibile scegliere di visualizzare solo i riferimenti audio nella mappa DITA e un file mostra solo i riferimenti audio utilizzati nella mappa.
 
@@ -138,10 +139,11 @@ La **Multimedia** Il rapporto fornisce informazioni dettagliate sui file multime
    >[!NOTE]
    >
    > Fai clic su **Aggiorna** per ottenere un nuovo elenco di contenuti multimediali e vedere eventuali modifiche nel file mappa o se vengono aggiornati elementi multimediali nella mappa DITA.
+
 1. È inoltre possibile fare clic e riprodurre un file audio o video nell’Editor Web. È possibile modificare il volume o la visualizzazione del video. Nel menu di scelta rapida sono disponibili anche le opzioni per scaricare, modificare la velocità di riproduzione o visualizzare l&#39;immagine nell&#39;immagine.
-   ![](images/video-web-editor.png)
+
+   ![](images/video-web-editor.png){width="800" align="left"}
 
 1. Fai clic su **Scarica CSV** per scaricare lo snapshot corrente del file multimediale nella mappa DITA. Il CSV contiene le colonne selezionate e i file multimediali filtrati nel **Multimedia** visualizza. Puoi quindi aprire questo file CSV multimediale in qualsiasi editor CSV.
 
 **Argomento principale:**[ Rapporti](reports-intro.md)
-

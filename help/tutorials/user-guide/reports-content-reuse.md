@@ -1,13 +1,13 @@
 ---
 title: Rapporto Riutilizzo contenuto
 description: Scopri come utilizzare i rapporti di riutilizzo dei contenuti
-source-git-commit: bb7a8d49e5425b7fc856277c054558c75394fcb2
+exl-id: 658ae0fd-9032-4480-b9e4-fe4fec261e72
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 0%
 
 ---
-
 
 # Rapporto Riutilizzo contenuto {#id205BB900OQD}
 
@@ -31,7 +31,7 @@ Per visualizzare il rapporto sul riutilizzo dei contenuti, effettua le seguenti 
 
 1. Fai clic su **Genera report** per ottenere il rapporto sul riutilizzo dei contenuti.
 
-   ![](images/content-reuse-uuid.png)
+   ![](images/content-reuse-uuid.png){width="800" align="left"}
 
    La pagina del rapporto è divisa in due parti:
 
@@ -61,4 +61,3 @@ Per visualizzare il rapporto sul riutilizzo dei contenuti, effettua le seguenti 
 > Puoi anche esportare il rapporto di riutilizzo dei contenuti in formato CSV. A questo scopo, fai clic sul collegamento Esporta in CSV nell’angolo in alto a sinistra dello schermo e scegli una posizione in cui salvare il file CSV. Puoi quindi aprire questo file CSV in qualsiasi editor CSV.
 
 **Argomento principale:**[ Rapporti](reports-intro.md)
-

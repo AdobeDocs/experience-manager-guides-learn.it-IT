@@ -1,13 +1,13 @@
 ---
 title: Rapporto sulla cronologia delle versioni dei file ripristinati
 description: Scopri come ripristinare i rapporti sulla cronologia delle versioni dei file
-source-git-commit: bb7a8d49e5425b7fc856277c054558c75394fcb2
+exl-id: fa90b373-742a-4102-b00f-07e4113fef98
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 0%
 
 ---
-
 
 # Rapporto sulla cronologia delle versioni dei file ripristinati {#id205BBC00PRK}
 
@@ -19,7 +19,7 @@ Puoi accedere a questo rapporto dalle seguenti posizioni:
 
 - **Interfaccia utente Assets**: selezionando un file e aprendo la **Cronologia versioni** dalla barra a sinistra. La **Cronologia versioni** la visualizzazione contiene **Ripristino dei registri delle versioni** nella parte inferiore del pannello. Quando fai clic su questo collegamento, viene visualizzata la cronologia delle versioni ripristinate del file selezionato.
 
-   ![](images/revert-log-from-assets-ui.png)
+   ![](images/revert-log-from-assets-ui.png){width="300" align="left"}
 
 - **Anteprima argomento**: quando visualizzi l’anteprima di un argomento, puoi anche visualizzare la **Cronologia versioni** dalla barra a sinistra. Verrà visualizzato un pannello simile all’interfaccia utente Assets da cui è possibile fare clic sul pulsante **Ripristino dei registri delle versioni** collegamento per accedere alla cronologia delle versioni ripristinate del documento attivo.
 
@@ -38,7 +38,7 @@ Esegui i seguenti passaggi per accedere al rapporto Cronologia precedente:
 
 1. Fai clic su **Mostra registri** per generare il rapporto per il file o la cartella selezionati.
 
-   ![](images/revert-version-history-report.png)
+   ![](images/revert-version-history-report.png){width="800" align="left"}
 
    Il rapporto contiene i seguenti dettagli:
 
@@ -56,4 +56,3 @@ Esegui i seguenti passaggi per accedere al rapporto Cronologia precedente:
 
 
 **Argomento principale:**[ Rapporti](reports-intro.md)
-

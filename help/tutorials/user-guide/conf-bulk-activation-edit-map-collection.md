@@ -1,13 +1,13 @@
 ---
 title: Modificare una raccolta di mappe di attivazione collettiva
 description: Scopri come modificare una raccolta di mappe di attivazione collettiva
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 110eba52-c886-4148-aff9-9c4e1d3d85bd
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 1%
 
 ---
-
 
 # Modificare una raccolta di mappe di attivazione collettiva {#id214GI40B0XA}
 
@@ -33,7 +33,7 @@ Puoi modificare una raccolta di mappe di attivazione in blocco aggiungendo o rim
 
 1. Fai clic su **Elimina**.
 
-   ![](images/bulk-activation-delete-map.png)
+   ![](images/bulk-activation-delete-map.png){width="800" align="left"}
 
    La mappa selezionata viene rimossa dalla raccolta di mappe di attivazione collettiva.
 
@@ -41,4 +41,3 @@ Puoi modificare una raccolta di mappe di attivazione in blocco aggiungendo o rim
 
 
 **Argomento principale:**[ Attivazione in blocco di contenuti pubblicati](conf-bulk-activation.md)
-

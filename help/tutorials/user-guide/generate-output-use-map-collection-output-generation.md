@@ -1,13 +1,13 @@
 ---
 title: Utilizzare la raccolta mappa per la generazione dell'output
 description: Scopri come utilizzare Map Collection per la generazione dell’output
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 32e3af6c-9670-42cc-8dbe-9f99fbc60adf
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 0%
 
 ---
-
 
 # Utilizzare la raccolta mappa per la generazione dell&#39;output {#id1723F20G0HS}
 
@@ -25,7 +25,7 @@ Per creare una raccolta mappa e aggiungere mappe DITA alla raccolta, esegui i se
 
    Se il collegamento Mappa raccolte non è disponibile, seleziona la **Navigazione** nella barra a sinistra, quindi fai clic su **Mappa raccolte**.
 
-   ![](images/access-map-collection-left-rail.png)
+   ![](images/access-map-collection-left-rail.png){width="350" align="left"}
 
 1. Inserisci un Titolo per la raccolta mappa.
 1. Fai clic su **Crea**.
@@ -47,8 +47,7 @@ Per creare una raccolta mappa e aggiungere mappe DITA alla raccolta, esegui i se
 
    I file mappa DITA vengono aggiunti alla raccolta mappa.
 
-
-![](images/maps_presets_62_63.png)
+   ![](images/maps_presets_62_63.png){width="800" align="left"}
 
 Le seguenti opzioni di filtro e i dettagli della mappa vengono visualizzati nella pagina della raccolta:
 
@@ -93,7 +92,6 @@ Per configurare e generare l’output utilizzando una raccolta mappa, esegui i s
 
 Simile al modo di annullare un&#39;attività di generazione dell&#39;output dal [Console mappa DITA](generate-output-for-a-dita-map.md#id2061H100T5Z) o [Pubblica dashboard](generate-output-publish-dashboard.md#), è possibile annullare un&#39;attività di generazione dell&#39;output da una raccolta mappa. Accedi alla scheda Output di una raccolta mappa, vai all&#39;attività di pubblicazione che desideri annullare e fai clic sul pulsante **Annulla questo processo** per annullare l’attività di pubblicazione.
 
-![](images/cancel-publish-task-map-collection.png)
+![](images/cancel-publish-task-map-collection.png){width="800" align="left"}
 
 **Argomento principale:**[ Generazione di output](generate-output.md)
-

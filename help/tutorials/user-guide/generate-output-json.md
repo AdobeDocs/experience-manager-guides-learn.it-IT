@@ -1,13 +1,13 @@
 ---
 title: JSON
 description: Scopri come utilizzare JSON
-source-git-commit: 8b6294425c6e60d1c5b37d98e99114014a104ee6
+exl-id: 0a938cc2-1a6f-4ee4-ad7e-f94ad2a0cf94
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '660'
 ht-degree: 1%
 
 ---
-
 
 # JSON {#id231KK0180T4}
 
@@ -38,7 +38,7 @@ Per il predefinito JSON sono disponibili le seguenti opzioni:
 >
 > È inoltre possibile modificare il file JSON nell’editor Web.
 
-| Opzioni di output JSON | Descrizione |
+| Opzioni JSON | Descrizione |
 | --- | --- |
 | Percorso di output | Il percorso all’interno dell’archivio AEM in cui è memorizzato l’output JSON. |
 | File di indice | Puoi assegnare un nome al file di indice che stai creando per l’output JSON. Per impostazione predefinita, seleziona il nome del file della mappa DITA e aggiunge un suffisso (come `map_filename_index.json`).<br><br>È inoltre possibile utilizzare le variabili durante l&#39;impostazione del file indice. Per ulteriori dettagli sull’utilizzo delle variabili, consulta [Utilizza le variabili per impostare le opzioni Percorso di destinazione, Nome sito o Nome file](generate-output-use-variables.md#id18BUG70K05Z). |
@@ -48,4 +48,3 @@ Per il predefinito JSON sono disponibili le seguenti opzioni:
 | Flusso di lavoro di post-generazione | Quando scegli questa opzione, viene visualizzato un nuovo elenco a discesa Flusso di lavoro di post generazione contenente tutti i flussi di lavoro configurati in AEM. È necessario selezionare un flusso di lavoro da eseguire dopo il completamento del flusso di lavoro di generazione dell’output.<br><br>**Nota**: Per ulteriori informazioni sulla creazione di un flusso di lavoro personalizzato per la generazione dei post-output, vedi _Personalizzare il flusso di lavoro di generazione dei post-output_ nella guida Installazione e configurazione delle guide as a Cloud Service di Adobe Experience Manager . |
 
 **Argomento principale:**[ Informazioni sui predefiniti di output](generate-output-understand-presets.md)
-

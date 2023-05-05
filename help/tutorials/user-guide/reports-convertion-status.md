@@ -1,13 +1,13 @@
 ---
 title: Rapporto sullo stato di conversione
 description: Scopri come visualizzare il rapporto sullo stato di conversione
-source-git-commit: bb7a8d49e5425b7fc856277c054558c75394fcb2
+exl-id: 41887af2-404f-41d7-b54c-ec49797200f0
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 0%
 
 ---
-
 
 # Rapporto sullo stato di conversione {#id205BBA00WZZ}
 
@@ -23,7 +23,7 @@ Esegui i seguenti passaggi per visualizzare il rapporto sullo stato di conversio
 
    Viene visualizzato il Rapporto sullo stato di conversione per tutte le attività di conversione eseguite sul sistema.
 
-   ![](images/conversion-status-report.png)
+   ![](images/conversion-status-report.png){width="800" align="left"}
 
 1. La pagina del rapporto è divisa in due parti:
 
@@ -33,7 +33,7 @@ Esegui i seguenti passaggi per visualizzare il rapporto sullo stato di conversio
 
       Nella schermata seguente vengono visualizzati i dati del rapporto per le attività di conversione con stato Non riuscito, Attivo e In coda.
 
-      ![](images/conversion-report-failed-active-queued.png)
+      ![](images/conversion-report-failed-active-queued.png){width="800" align="left"}
 
    - **Dati dei rapporti:**
 
@@ -55,4 +55,3 @@ Esegui i seguenti passaggi per visualizzare il rapporto sullo stato di conversio
 
 
 **Argomento principale:**[ Rapporti](reports-intro.md)
-

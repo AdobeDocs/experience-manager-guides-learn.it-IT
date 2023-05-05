@@ -1,13 +1,13 @@
 ---
 title: Genera output di documenti FrameMaker
 description: Scopri come generare l’output dei documenti FrameMaker
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: d3cef05b-8574-4e86-ab94-c9b880fb9c29
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '190'
 ht-degree: 1%
 
 ---
-
 
 # Genera output di documenti FrameMaker {#id1645H8040HD}
 
@@ -31,17 +31,4 @@ Le informazioni nelle sezioni seguenti sono destinate agli editori che utilizzer
 >[!IMPORTANT]
 >
 > Le funzioni descritte in questo argomento sono disponibili solo per gli utenti con privilegi di editore o amministratore.
-
-- **[Informazioni sui predefiniti di output](fm-output-understand-presets.md)**
-
-- **[PDF](fm-output-pdf-preset.md)**
-
-- **[HTML5](fm-output-html5-preset.md)**
-
-- **[EPUB](fm-output-epub-preset.md)**
-
-- **[Genera output di file .book o .fm](fm-output-generate.md)**
-
-- **[Visualizza lo stato dell&#39;attività di generazione dell&#39;output](fm-output-view-status.md)**
-
 

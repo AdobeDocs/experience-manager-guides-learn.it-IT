@@ -1,13 +1,13 @@
 ---
 title: Report mappa DITA dal dashboard mappa
 description: Scopri come eseguire il report mappa DITA dal dashboard mappa
-source-git-commit: 8a104cfe17778a71915e3700f49fc6892493ccd0
+exl-id: 8ba1dc83-fa96-4ae0-bfa8-89b5a8949f08
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 0%
 
 ---
-
 
 # Report mappa DITA dal dashboard mappa {#id205BB800EEN}
 
@@ -23,7 +23,7 @@ Esegui i seguenti passaggi per visualizzare il rapporto Mappa DITA:
 
 1. Fai clic su **Rapporti**.
 
-   ![](images/reports-page-uuid.png)
+   ![](images/reports-page-uuid.png){width="800" align="left"}
 
    La pagina Rapporti è divisa in due parti:
 
@@ -35,7 +35,7 @@ Esegui i seguenti passaggi per visualizzare il rapporto Mappa DITA:
 
       Quando fai clic su un argomento, viene visualizzato un rapporto dettagliato dell’argomento selezionato.
 
-      ![](images/detailed-report-uuid.png)
+      ![](images/detailed-report-uuid.png){width="800" align="left"}
 
       Elementi evidenziati in **A**, **B**, **C** e **D** sono descritti di seguito:
 
@@ -79,20 +79,19 @@ Esegui i seguenti passaggi per generare il CSV di un rapporto di mappa DITA:
 
 1. Fai clic su **Genera report** in alto a sinistra per generare il report mappa DITA.
 
-   ![](images/generate-DITA-map-report.png)
+   ![](images/generate-DITA-map-report.png){width="800" align="left"}
 
 1. Riceverai una notifica quando il report sarà pronto per essere scaricato. Fai clic su **Scarica** per scaricare il CSV del rapporto generato.
 
-   ![](images/download-report-dialog.png)
+   ![](images/download-report-dialog.png){width="550" align="left"}
 
 
    Puoi anche scaricare il CSV del rapporto generato in un secondo momento dalla casella in entrata della notifica AEM.
 
    Fai clic sul rapporto generato nella casella in entrata per scaricare il rapporto.
 
-   ![](images/report-inbox--notification.png)
+   ![](images/report-inbox--notification.png){width="300" align="left"}
 
 Una volta scaricato il rapporto nella casella in entrata, puoi anche selezionarlo e utilizzare l’icona Apri nella parte superiore per aprire il rapporto selezionato.
 
 **Argomento principale:**[ Rapporti](reports-intro.md)
-

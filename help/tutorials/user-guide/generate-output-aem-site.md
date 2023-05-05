@@ -1,13 +1,13 @@
 ---
 title: Sito AEM
 description: Scopri come AEM sito
-source-git-commit: 23d6c87b525f0763990166e46f4bd4ac2d6e7cd5
+exl-id: 8523ec55-d7f3-439d-96e8-163c7632f73c
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '2545'
 ht-degree: 0%
 
 ---
-
 
 # Sito AEM {#id205BE3008SW}
 
@@ -86,7 +86,7 @@ Per semplificare la pubblicazione di mappe e argomenti complessi che si collegan
 
 Il contesto di pubblicazione consente di specificare l’argomento da utilizzare per la mappatura della pubblicazione di un output specifico. Comprendiamo questo con l&#39;aiuto di un esempio — diciamo che avete quattro cartelle: campione a, campione b, campione c e campione d. Ogni cartella contiene una mappa DITA - Mappa DITA A, Mappa DITA B, Mappa DITA C e Mappa DITA D. Il collegamento Mappa incrociata si verifica quando un argomento nella Mappa DITA A si collega a un argomento nella Mappa DITA B, C o D. Nella schermata seguente, un argomento del concetto di esempio contiene collegamenti \(o riferimenti\) a file che fanno parte di altre mappe DITA.
 
-![](images/sample-concept-link-to-other.png){width="450" align="left"}
+![](images/sample-concept-link-to-other.png){width="350" align="left"}
 
 Ora, quando configuri le impostazioni di pubblicazione AEM sito per il file di mappa che contiene questo argomento, puoi selezionare il contesto di pubblicazione per il contenuto collegato da utilizzare durante la pubblicazione. Un contesto di pubblicazione è una combinazione di mappa DITA e del relativo predefinito di output. Il predefinito di output, a sua volta, contiene una versione specifica del contenuto e dei predefiniti condizionali. L&#39;intera combinazione della mappa DITA, del predefinito di output, della versione \(files\) e delle condizioni definiscono il contesto di pubblicazione per una mappa collegata.
 
@@ -143,8 +143,7 @@ Se utilizzi `conref` nel contenuto, viene pubblicato come contenuto normale o in
 
 È possibile cercare una stringa nell&#39;output Sito AEM. Per impostazione predefinita, è possibile cercare la stringa solo nei titoli. Per cercare la stringa nel contenuto o nel corpo dell&#39;output del sito AEM, contattare l&#39;amministratore di sistema per abilitare la proprietà flattening.enabled.
 
-
-<img src="images/aem-output-search.png" alt="Uscita AEM sito di ricerca" width="800">
+![Uscita AEM sito di ricerca](images/aem-output-search.png){width="650" align="left"}
 
 Per ulteriori dettagli vedi *Configurare l&#39;appiattimento AEM struttura del nodo del sito* nella guida all’installazione e alla configurazione di guide Adobe Experience Manager .
 

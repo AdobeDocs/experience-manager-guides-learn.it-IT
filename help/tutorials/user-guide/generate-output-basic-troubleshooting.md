@@ -1,13 +1,13 @@
 ---
 title: Risoluzione dei problemi di base
 description: Scopri come risolvere i problemi di base
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: b5ab2618-6f11-4aaa-8471-09521f8bb512
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 0%
 
 ---
-
 
 # Risoluzione dei problemi di base {#id1821I0Y0G0A}
 
@@ -21,7 +21,7 @@ Esegui i seguenti passaggi per visualizzare e controllare il file di registro de
 
    La **Generale** della colonna **Uscite generate** mostra le icone per fornire un&#39;indicazione visiva del successo o del fallimento della generazione dell&#39;output.
 
-   ![](images/output-general-settings.png)
+   ![](images/output-general-settings.png){width="300" align="left"}
 
    Nella schermata precedente, la prima e la terza icona mostrano la generazione di output non riuscita. La seconda icona mostra una generazione di output di successo ma con i messaggi. L’ultima è una generazione di output di successo senza alcun messaggio.
 
@@ -29,7 +29,7 @@ Esegui i seguenti passaggi per visualizzare e controllare il file di registro de
 
    Il file di registro si apre in una nuova scheda.
 
-   ![](images/log-file.png)
+   ![](images/log-file.png){width="800" align="left"}
 
 1. Applica i seguenti filtri per evidenziare il testo nel file di log:
    - Fatale: Evidenzia gli errori fatali nel file di log con colore rosa.
@@ -61,15 +61,15 @@ Esegui i seguenti passaggi per copiare e controllare il file di registro della g
 
    - *Errore relativo al file mappa DITA*: Nel caso in cui si verifichi un errore nel file di mappa DITA o in qualsiasi altro file contenuto nella mappa DITA, il file di registro conterrà una stringa &quot;BUILD FAILED&quot;. Puoi controllare le informazioni fornite nel file di registro per individuare il file errato e risolvere il problema.
 
-      Nel seguente frammento di file di registro di esempio, puoi vedere il `BUILD FAILED` insieme al motivo dell’errore.
+   Nel seguente frammento di file di registro di esempio, puoi vedere il `BUILD FAILED` insieme al motivo dell’errore.
 
-      ![](images/dita-error-in-log-file.png)
+   ![](images/dita-error-in-log-file.png){width="650" align="left"}
 
-      - *Errore relativo alle AEM*: L’altro tipo di errore che è possibile identificare nel file di registro è relativo al processo Guide AEM. In questo caso, il file di mappa DITA viene analizzato correttamente, ma il processo di generazione dell&#39;output non riesce a causa di qualche errore interno nelle guide AEM. Per questo tipo di errori, è necessario chiedere aiuto al team di supporto tecnico.
+   - *Errore relativo alle AEM*: L’altro tipo di errore che è possibile identificare nel file di registro è relativo al processo Guide AEM. In questo caso, il file di mappa DITA viene analizzato correttamente, ma il processo di generazione dell&#39;output non riesce a causa di qualche errore interno nelle guide AEM. Per questo tipo di errori, è necessario chiedere aiuto al team di supporto tecnico.
 
-         Nel seguente frammento di file di registro di esempio, puoi vedere il `BUILD SUCCESSFUL` , seguito da un altro errore tecnico.
+   Nel seguente frammento di file di registro di esempio, puoi vedere il `BUILD SUCCESSFUL` , seguito da un altro errore tecnico.
 
-         ![](images/process-error-in-log-file.png)
+   ![](images/process-error-in-log-file.png){width="650" align="left"}
 
 
 ## Risoluzione dell&#39;errore di compilazione JSP
@@ -90,4 +90,3 @@ Esegui i seguenti passaggi per risolvere il problema:
 
 
 **Argomento principale:**[ Generazione di output](generate-output.md)
-

@@ -1,13 +1,13 @@
 ---
 title: Visualizza lo stato dell'attività di generazione dell'output
 description: Scopri come visualizzare lo stato dell’attività di generazione dell’output
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 6fdaa547-8446-4ce5-95c3-a63d9c1f27d2
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 0%
 
 ---
-
 
 # Visualizza lo stato dell&#39;attività di generazione dell&#39;output {#viewing_output_history}
 
@@ -19,7 +19,7 @@ Esegui i seguenti passaggi per visualizzare la coda di generazione dell’output
 
 1. Fare clic su Output.
 
-   ![](images/output-queued-fm.png)
+   ![](images/output-queued-fm.png){width="800" align="left"}
 
 1. La pagina Output è divisa in due parti:
 
@@ -35,4 +35,3 @@ Esegui i seguenti passaggi per visualizzare la coda di generazione dell’output
 
 
 **Argomento principale:**[ Genera output di documenti FrameMaker](fm-output-generatation.md)
-
