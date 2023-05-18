@@ -1,9 +1,9 @@
 ---
 title: Configurazione del contenuto e del modello
 description: Scopri cosa devi fare per impostare contenuti e modelli in AEM Guide.
-source-git-commit: a2f656c4f547e215a8bbb927f20f8e97d29ef29d
+source-git-commit: 87c92776f417aba49096b447baf81916dea5d57f
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '289'
 ht-degree: 1%
 
 ---
@@ -64,8 +64,8 @@ In questa sessione hai imparato quanto segue:
 
 ## Prossima sessione di esperti
 
-- **Argomento** - TBD
-- **Pianificato il** - 25 maggio 2023
+- **Argomento** - Pubblicazione nativa di PDF - Apprendimento per esempio (parte 1)
+- **Pianificato il** - 10 giugno 2023
 
 
 ## Contattaci
