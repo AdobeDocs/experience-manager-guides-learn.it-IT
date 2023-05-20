@@ -1,41 +1,42 @@
 ---
-title: Aggiungere stili personalizzati all’editor Web Guide
+title: Aggiungere stili personalizzati all’editor web delle guide
 description: Scopri come aggiungere stili personalizzati per modificare l’aspetto dell’editor web Guide.
-source-git-commit: 9e7d5bb4c8f6c6ebe21bfcebdd7d2e13971b8df2
+exl-id: 3a9dd701-9d9d-4d7f-bc0c-855904404fd1
+source-git-commit: ed3adf0cf8006c76461de34c6a2a4ba38d8b3406
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 0%
 
 ---
 
-# Aggiungere stili personalizzati all’editor Web Guide
+# Aggiungere stili personalizzati all’editor web delle guide
 
-In questo articolo impareremo come aggiungere stili personalizzati per modificare l’aspetto predefinito del webeditor.
+Questo articolo illustra come aggiungere stili personalizzati per modificare l’aspetto predefinito dell’editor web.
 
-Ciò comporta i seguenti passaggi:
-- Aggiunta di stili personalizzati tramite Configurazione dell’editor XML del profilo cartella
-- Scelta del rispettivo profilo di cartella in webeditor e verifica le modifiche
+Ciò comporta le seguenti fasi:
+- Aggiunta di stili personalizzati tramite la configurazione dell’editor XML del profilo della cartella
+- Scelta del rispettivo profilo di cartella nell’editor web e verifica delle modifiche
 
 
-## Implementazione tramite un esempio
+## Implementazione con un esempio
 
 Comprendiamo questo con un esempio in cui vogliamo mostrare la breve descrizione e il titolo come blocco separato con alcuni aspetti di stile nell’editor.
 
 ![Anteprima dell’editor web con stili personalizzati](../../../assets/authoring/webeditor-customstyles-preview.png)
 
 
-## Implementazione
+## Implementazione di
 
 
 ### Aggiunta di CSS personalizzati al profilo della cartella
 
-Utilizza i profili di cartella per controllare il *css_layout.css* nella scheda &quot;Configurazione editor XML&quot; e aggiungi il CSS con stili personalizzati
+Utilizza i profili cartella per controllare *css_layout.css* nella scheda &quot;XML Editor Configuration&quot; (Configurazione editor XML) e aggiungi i CSS con stili personalizzati
 
-[utilizza questo collegamento per ulteriori informazioni sul profilo cartella e sulla configurazione del layout del modello CSS](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=en#customize-the-css-template-layout)
+[usa questo collegamento per ulteriori informazioni sul profilo cartella e sulla configurazione del layout del modello CSS](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=en#customize-the-css-template-layout)
 
-Utilizza quanto segue per impostare lo stile precedente nel tuo editor web:
-- Utilizzo [css_layout.css](../../../assets/authoring/webeditor-customstyles-css_layout.css) e caricarlo nel profilo della cartella desiderato
-- Installa il pacchetto allegato [webeditor-style-resources.zip](../../../assets/authoring/webeditor-styles-resources.zip) utilizzo di AEM gestione pacchetti per installare le risorse utilizzate nel file CSS di cui sopra
+Utilizza quanto segue per impostare lo stile precedente nell’editor web:
+- Utilizzare [css_layout.css](../../../assets/authoring/webeditor-customstyles-css_layout.css) e caricarlo nel profilo di cartella desiderato
+- Installare il pacchetto allegato [webeditor-styles-resources.zip](../../../assets/authoring/webeditor-styles-resources.zip) utilizzo di Gestione pacchetti AEM per installare le risorse utilizzate nel file CSS sopra riportato
 
 ```
 This will install the resources at path "/content/dam/resources" which will include sub-folders "fonts" and "images"
@@ -45,8 +46,8 @@ This will install the resources at path "/content/dam/resources" which will incl
 ### Test
 
 - Apri editor web
-- In Preferenze utente scegli il profilo della cartella in cui hai aggiunto gli stili personalizzati. Se l’hai aggiunto al Profilo globale, probabilmente lo stai già utilizzando.
-- Apri un argomento, noterai che l’area di modifica deve avere un’interfaccia utente personalizzata
+- In Preferenze utente, scegli il profilo di cartella in cui hai aggiunto gli stili personalizzati. Se l’hai aggiunto al profilo globale, probabilmente lo stai già utilizzando.
+- Apri un argomento e noterai che l’area di modifica deve avere un’interfaccia utente personalizzata
 
 ```
 Please note this is compatible to AEM Guides version 4.2 and AEM Guides cloud version 2303 (March)
@@ -55,4 +56,4 @@ Please note this is compatible to AEM Guides version 4.2 and AEM Guides cloud ve
 
 ## Riferimenti
 
-Potresti anche essere interessato alla sessione esperta sulle configurazioni del webeditor e la personalizzazione coperta in [Sessione esperta su webeditor](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/webbased-authoring-jan2023.html?lang=en)
+Potresti anche essere interessato alla sessione di esperti sulle configurazioni e la personalizzazione dell’editor web descritta in [Sessione di esperti sull’editor web](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/webbased-authoring-jan2023.html?lang=en)

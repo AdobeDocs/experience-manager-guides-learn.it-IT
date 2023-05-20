@@ -1,19 +1,19 @@
 ---
-title: Creazione di argomenti
-description: Scopri come creare argomenti
-source-git-commit: cc0fbca257d82cc82db5b5da8d263309fd71de55
+title: Crea argomenti
+description: Scopri come creare gli argomenti
+exl-id: 336bbbff-f268-40be-ad3a-9c72923be71b
+source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 0%
 
 ---
 
+# Crea argomenti {#id2056AL00O5Z}
 
-# Creazione di argomenti {#id2056AL00O5Z}
+Le guide AEM consentono di creare argomenti DITA di tipo topic, task, concept, reference, glossary, DITAVAL e altro ancora. Oltre a creare argomenti basati su modelli predefiniti, puoi anche definire modelli personalizzati. Per ulteriori informazioni sull&#39;utilizzo dei modelli DITA personalizzati, vedere *Configurare modelli e tag per l’authoring* in Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
 
-AEM Guide consente di creare argomenti DITA di tipo: argomento, attività, concetto, riferimento, glossario, DITAVAL e altro ancora. Oltre a creare argomenti basati sui modelli predefiniti, puoi anche definire modelli personalizzati. Per ulteriori informazioni sull&#39;utilizzo dei modelli DITA personalizzati, vedere *Configurare modelli e tag per la creazione* in Installare e configurare le guide di Adobe Experience Manager as a Cloud Service.
-
-Esegui i seguenti passaggi per creare un argomento:
+Per creare un argomento, effettua le seguenti operazioni:
 
 1. Nell’interfaccia utente Assets, individua il percorso in cui desideri creare l’argomento.
 
@@ -23,38 +23,37 @@ Esegui i seguenti passaggi per creare un argomento:
 
    ![](images/create_dita_topic.png){width="800" align="left"}
 
-   Per impostazione predefinita, AEM Guide fornisce i modelli di argomenti DITA più comunemente utilizzati. Puoi configurare più modelli di argomento in base ai requisiti organizzativi, vedi *Configurare modelli e tag per la creazione* in Installare e configurare le guide di Adobe Experience Manager as a Cloud Service.
+   Per impostazione predefinita, le guide AEM forniscono i modelli degli argomenti DITA più comunemente utilizzati. Puoi configurare più modelli di argomento in base ai requisiti organizzativi, vedi *Configurare modelli e tag per l’authoring* in Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
 
    >[!NOTE]
    >
-   > Nella vista a elenco dell’interfaccia utente Assets, il tipo di argomento DITA viene visualizzato nella colonna Tipo come Argomento, Attività, Concetto, Riferimento, Glossentry o DITAVAL. La mappa DITA viene visualizzata come mappa.
+   > Nella vista a elenco dell’interfaccia utente Assets, il tipo di argomento DITA viene visualizzato nella colonna Tipo come Argomento, Attività, Concetto, Riferimento, Glossentry o DITAVAL. La mappa DITA viene visualizzata come Mappa.
 
-1. Nella pagina Proprietà, specifica il documento **Titolo**.
+1. Nella pagina Proprietà, specificare il documento **Titolo**.
 
 1. \(Facoltativo\) Specificare il file **Nome**.
 
-   Se l’amministratore ha configurato il nome file automatico in base all’impostazione UID, non verrà visualizzata l’opzione per specificare il nome file. Al file viene assegnato automaticamente un nome di file basato su UUID.
+   Se l’amministratore ha configurato il nome file automatico in base all’impostazione UUID, l’opzione per specificare il nome file non sarà visibile. Al file viene automaticamente assegnato un nome di file basato su UUID.
 
-   Se l’opzione di denominazione del file è disponibile, viene suggerito automaticamente anche il nome in base alla **Titolo** del documento. Se si desidera specificare manualmente il nome del documento, assicurarsi che il **Nome** non contiene spazi, apostrofo o parentesi graffe e termina con .xml o.dita. Per impostazione predefinita, AEM Guide sostituisce tutti i caratteri speciali con i trattini. Per le best practice relative alla denominazione dei file DITA, consulta la sezione Filenames nella guida Best practice .
+   Se è disponibile l’opzione di denominazione del file, anche il nome viene suggerito automaticamente in base al **Titolo** del documento. Se si desidera specificare manualmente il nome del documento, verificare che **Nome** non contiene spazi, apostrofi o parentesi graffe e termina con .xml o .dita. Per impostazione predefinita, le guide AEM sostituiscono tutti i caratteri speciali con trattini. Per informazioni sulle procedure consigliate per la denominazione dei file DITA, vedere la sezione Nomi di file nella guida alle best practice.
 
-1. Fai clic su **Crea**. Viene visualizzato il messaggio Argomento creato.
+1. Fai clic su **Crea**. Viene visualizzato il messaggio Topic Created (Creazione argomento).
 
-   È possibile scegliere di aprire l&#39;argomento per la modifica nell&#39;editor Web o salvare il file dell&#39;argomento nell&#39;archivio AEM.
+   È possibile scegliere di aprire l&#39;argomento per la modifica nell&#39;editor Web o salvare il file dell&#39;argomento nel repository AEM.
 
-   Ogni nuovo argomento creato dall’interfaccia utente Assets **Crea** \> **Argomento DITA** oppure all’Editor web viene assegnato un ID argomento univoco. Il valore di questo ID è il nome del file stesso. Inoltre, un nuovo documento viene salvato come ultima copia di lavoro dell’argomento in DAM. Fino a quando non si salva una revisione di un argomento appena creato, non verrà visualizzato alcun numero di versione nella cronologia delle versioni. Se apri l’argomento per la modifica, le informazioni sulla versione vengono visualizzate nell’angolo superiore destro della scheda del file dell’argomento:
+   Ogni nuovo argomento creato dall’interfaccia utente Assets **Crea** \> **Argomento DITA** oppure all&#39;editor Web viene assegnato un ID argomento univoco. Il valore di questo ID è il nome del file stesso. Inoltre, un nuovo documento viene salvato come ultima copia di lavoro dell’argomento in DAM. Fino a quando non si salva una revisione di un argomento appena creato, nella Cronologia versioni non verrà visualizzato alcun numero di versione. Se si apre l&#39;argomento per la modifica, le informazioni sulla versione vengono visualizzate nell&#39;angolo superiore destro della scheda del file di argomento:
 
    ![](images/topic-version-none_cs.png){width="550" align="left"}
 
-   Le informazioni sulla versione di un argomento appena creato vengono visualizzate come *nessuno*. Quando si salva una nuova versione, viene assegnato un numero di versione pari a 1.0. Per ulteriori informazioni sul salvataggio di una nuova versione, vedere [Salva come nuova versione](web-editor-features.md#save-as-new-version-id209ME400GXA).
+   Le informazioni sulla versione per un argomento appena creato vengono visualizzate come *nessuno*. Quando salvi una nuova versione, ad essa viene assegnato il numero di versione 1.0. Per ulteriori informazioni sul salvataggio di una nuova versione, consulta [Salva come nuova versione](web-editor-features.md#save-as-new-version-id209ME400GXA).
 
 
 >[!NOTE]
 >
-> Se l&#39;amministratore ha configurato l&#39;editor Web per estrarre i file prima della modifica, non sarà possibile modificare un file finché non lo si estrae. Analogamente, se configurato, vi verrà chiesto di archiviare qualsiasi file estratto prima di chiuderlo.
+> Se l&#39;amministratore ha configurato l&#39;editor Web per estrarre i file prima della modifica, non sarà possibile modificare un file finché non lo si estrae. Analogamente, se configurata, verrà richiesto di archiviare tutti i file estratti prima di chiuderli.
 
 >[!IMPORTANT]
 >
-> Dopo aver creato l&#39;argomento DITA, continua a salvare le modifiche nella copia di lavoro e crea una nuova versione dopo aver completato gli aggiornamenti all&#39;argomento.
+> Dopo aver creato l&#39;argomento DITA, salvare le modifiche apportate alla copia di lavoro e creare una nuova versione una volta completati gli aggiornamenti all&#39;argomento.
 
-**Argomento principale:**[ Creazione e visualizzazione in anteprima degli argomenti](create-preview-topics.md)
-
+**Argomento padre:**[ Creazione e anteprima di argomenti](create-preview-topics.md)

@@ -1,47 +1,47 @@
 ---
-title: Configurazione dell’ambiente AEM per la pubblicazione di Native PDF
-description: Configurazione dell’ambiente AEM per la pubblicazione di Native PDF
-source-git-commit: f26b8f94e1d7a3c9dd0aaab2eb196a77119e47ac
+title: Configurazione dell’ambiente AEM per la pubblicazione di PDF nativi
+description: Configurazione dell’ambiente AEM per la pubblicazione di PDF nativi
+exl-id: 40266ca0-0b0b-4418-b606-f70270addbaa
+source-git-commit: 7b48633ef2418fa7c91842a8d2c2a4177017ef58
 workflow-type: tm+mt
 source-wordcount: '797'
 ht-degree: 1%
 
 ---
 
+# Configurazione dell’ambiente AEM per la pubblicazione di PDF nativi
 
-# Configurazione dell’ambiente AEM per la pubblicazione di Native PDF
+Le guide AEM includono un motore di pubblicazione PDF nativo che consente agli utenti di progettare, sviluppare e pubblicare i contenuti in formato PDF.
 
-AEM Guide include un motore di pubblicazione PDF nativo che consente agli utenti di progettare, sviluppare e pubblicare i contenuti in formato PDF.
+Consente di creare layout di pagina e modelli CSS diversi e di progettare i modelli di PDF insieme ai layout di pagina e agli stili CSS.
 
-Fornisce la possibilità di creare diversi layout di pagina, modelli CSS e progettare i modelli di PDF in combinazione con i layout di pagina e CSS.
-
-I passaggi per la configurazione di questo PDF nativo in Guide AEM variano a seconda del sistema operativo. Utilizza i passaggi di configurazione indicati di seguito in base al sistema operativo in cui è installato AEM.
+I passaggi per la configurazione di questo PDF nativo nelle guide AEM variano a seconda del sistema operativo. Utilizza i passaggi di configurazione seguenti in base al sistema operativo in cui è installato AEM.
 
 ## Prerequisiti
 
-Requisiti minimi per la configurazione di Native PDF:
+Requisiti minimi per l&#39;impostazione di Native PDF:
 
-- Piattaforma Java installata, Standard Edition 8 o 11 JDK (Java SE Development Kit) e JRE (Java SE Runtime Environment)
+- Java Platform, Standard Edition 8 o 11 JDK (Java SE Development Kit) e JRE (Java SE Runtime Environment) installati
 - AEM 6.5 SP13, SP12, SP11 o SP10
-- Guide 4.1 e versioni successive (non UUID o UUID)
+- Guide 4.1 e versioni successive (non-UUID o UUID)
 
-Il motore di pubblicazione PDF nativo richiede JDK di Oracle per generare i moduli di nodo nella cartella AEM crx-quickstart . Supporta i seguenti sistemi operativi per impostazione predefinita:
+Il motore di pubblicazione nativo di PDF richiede il JDK Oracle per generare i moduli nodo nella cartella AEM crx-quickstart. Per impostazione predefinita, supporta i seguenti sistemi operativi:
 
 - Windows 10, server Windows 2019 e versioni successive.
-- Linux - (RHEL 8 e versioni successive, CentOS 7 e successive, Ubuntu 18 e versioni successive)
+- Linux - (RHEL 8 e versioni successive, CentOS 7 e versioni successive, Ubuntu 18 e versioni successive)
 - Sistema operativo Mac (basato su Intel)
 
 ## Passaggi di configurazione per Windows Server (JAVA 11/8)
 
-1. Assicurati che AEM server sia inattivo.
+1. Verificare che il server AEM sia inattivo.
 2. Sulla barra delle applicazioni di Windows fare clic con il pulsante destro del mouse sull&#39;icona di Windows e selezionare Sistema.
-3. Nella finestra Impostazioni, in Impostazioni correlate fare clic su Impostazioni di sistema avanzate.
+3. Nella finestra Impostazioni, in Impostazioni correlate, fare clic su Impostazioni di sistema avanzate.
 4. Nella scheda Avanzate fare clic su Variabili di ambiente.
-5. Nella sezione variabili di sistema, fai clic su &quot;_Nuovo_&quot; per creare una nuova variabile di ambiente.
+5. Nella sezione delle variabili di sistema, fai clic su &quot;_Nuovo_&quot; per creare una nuova variabile di ambiente.
 6. Immettere il nome della variabile come JAVA_HOME.
-7. Nel campo value (Valore), fornisci il percorso di installazione Java e fai clic su Ok.
+7. Nel campo value, inserisci il percorso di installazione Java e fai clic su Ok.
 
-   Esempio:
+   Ad esempio:
 
    JAVA 11:
 
@@ -51,11 +51,11 @@ Il motore di pubblicazione PDF nativo richiede JDK di Oracle per generare i modu
 
    C:\Program Files\JAVA\ jdk1.8.0_144
 
-8. Aggiungi seleziona Percorso dalle variabili di sistema e fai clic su Modifica.
+8. Aggiungi Select Path from system variables (Seleziona percorso da variabili di sistema) e fai clic su Modifica.
 
 9. Ora, all&#39;interno delle variabili di percorso fornire il valore del percorso del server e fare clic su Ok.
 
-   Esempio:
+   Ad esempio:
 
    JAVA 11:
 
@@ -65,107 +65,107 @@ Il motore di pubblicazione PDF nativo richiede JDK di Oracle per generare i modu
 
    %JAVA_HOME%\jre\bin\server\
 
-10. Fai nuovamente clic su OK nella finestra di dialogo Variabili di ambiente .
-11. Fare nuovamente clic su OK nella finestra di dialogo Proprietà sistema.
-12. Ora avvia il server AEM.
-13. Genera PDF nativo dai predefiniti nell’editor web.
+10. Fai di nuovo clic su OK nella finestra di dialogo Variabili di ambiente.
+11. Fare di nuovo clic su &#39;OK&#39; nella finestra di dialogo Proprietà - Sistema.
+12. Ora, avvii il server AEM.
+13. Genera PDF nativi dai predefiniti nell’editor web.
 
 ## Passaggi di configurazione per il server Linux (RHEL7/centOS 7)
 
-1. Assicurati che AEM server sia inattivo
-2. Verifica la variabile JAVA_HOME facendo eco $JAVA_HOME
-3. Se la variabile JAVA_HOME non è impostata, segui il passaggio 4. In caso contrario, passare direttamente al punto 5.
-4. Imposta la variabile JAVA_HOME utilizzando i comandi seguenti in base alla versione java installata
+1. Verificare che il server AEM sia inattivo
+2. Verificare la variabile JAVA_HOME eseguendo l&#39;echo $JAVA_HOME
+3. Se la variabile JAVA_HOME non è impostata, seguire il passaggio 4. In caso contrario, passare direttamente al punto 5.
+4. Imposta la variabile JAVA_HOME utilizzando i comandi seguenti in base alla versione Java installata
 
-   Esempio:
+   Ad esempio:
 
    JAVA 11:
 
-   1. esporta JAVA\_HOME=/usr/lib/jvm/java-11.0.15.1
+   1. export JAVA\_HOME=/usr/lib/jvm/java-11.0.15.1
    2. export PATH=$PATH: $JAVA\_HOME/bin
    3. esporta LD\_LIBRARY\_PATH=/usr/lib/jvm/jdk-11.0.15.1/lib/server:/usr/java/jdk-11.0.15.1/lib/server
 
    JAVA 8:
 
-   1. esporta JAVA\_HOME=/usr/lib/jvm/java-11.0.15.1
+   1. export JAVA\_HOME=/usr/lib/jvm/java-11.0.15.1
    2. export PATH=$PATH: $JAVA\_HOME/bin
 
 
-5. Riavvia AEM server
-6. Copia il &quot;_node_modules.zip_&quot; allegato in fondo a questo articolo alla directory crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166/.
-7. Terminale aperto in posizione crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166/.
-8. Elimina la directory node_modules utilizzando il seguente comando
+5. Riavvia il server AEM
+6. Copia il &quot;_node_modules.zip_&quot; collegato in fondo a questo articolo alla directory crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166/.
+7. Apri terminale nella posizione crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166/.
+8. Elimina directory node_modules tramite il comando sottostante
 
-   **rm -rf node_modules**
+   **rm -rf node_module**
 
-9. Decomprimi node_modules.zip utilizzando il comando sottostante
+9. Decomprimi node_module.zip utilizzando il comando sottostante
 
    **decomprimi node_modules.zip**
 
-10. Se il comando dezip non è installato/riconosciuto, può essere installato utilizzando il seguente comando
+10. Se il comando unzip non viene installato o riconosciuto, è possibile installarlo utilizzando il comando seguente
 
-   **yum installa unzip**
+   **decompressione installazione yum**
 
-11. Installa il pacchetto fontconfig.
-Comando: yum installa fontconfig
-12. Genera PDF nativo dai predefiniti nell’editor web.
+11. Installare il pacchetto fontconfig.
+Comando: yum install fontconfig
+12. Genera PDF nativi dai predefiniti nell’editor web.
 
 **NOTA** : il pacchetto node_modules.zip può essere scaricato [qui](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:295d8f03-41e1-429b-8465-2761ce3c2fb3).
 
-L&#39;importazione manuale dei moduli di nodo scaricati per il sistema operativo Linux è una soluzione alternativa per gli utenti che si trovano in Guide 4.1 o versioni precedenti.
+L&#39;importazione manuale dei moduli dei nodi scaricati per il sistema operativo Linux rappresenta una soluzione alternativa per gli utenti che utilizzano le Guide 4.1 o versioni precedenti.
 
-## Passaggi di configurazione per la macchina Mac (JAVA 11/8)
+## Passaggi di configurazione per il computer Mac (JAVA 11/8)
 
 1. Installa Oracle JAVA 11 o Oracle JAVA 8.
-2. Imposta la variabile di ambiente JAVA_HOME nella directory JAVA installata.
+2. Impostare la variabile di ambiente JAVA_HOME sulla directory JAVA installata.
 3. Apri una shell Unix.
-(Bash viene utilizzato qui per configurare la configurazione)
+(Bash viene utilizzato qui per impostare la configurazione)
 
    Comando: nano ~/.bashrc
 
-4. Imposta la variabile JAVA_HOME utilizzando i comandi seguenti in base alla versione java installata
+4. Imposta la variabile JAVA_HOME utilizzando i comandi seguenti in base alla versione Java installata
 
-   Esempio:
+   Ad esempio:
 
    JAVA 11:
 
-   esporta JAVA\_HOME= /Library/Java/JavaVirtualMachines/jdk-11.0.15.1.jdk/Contents/Home
+   export JAVA\_HOME= /Library/Java/JavaVirtualMachines/jdk-11.0.15.1.jdk/Contents/Home
 
 5. Ricarica bashrc
 
    Comando: source ~/.bashrc.
 
-6. Verifica che JAVA_HOME sia impostato utilizzando l&#39;eco del comando $JAVA_HOME
+6. Verificare che JAVA_HOME sia impostato utilizzando il comando echo $JAVA_HOME
 
-7. Esegui i tre comandi seguenti dal percorso di installazione AEM
+7. Eseguire i tre comandi seguenti dal percorso di installazione AEM
 
    C:/{aem-installation-folder}/crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166
 
-   i) trova . -type d -exec chmod 0755 {} \; ii) trova . -type f -exec chmod 0755 {} \; iii) ./node-darwin/bin/node node-darwin/lib/node_modules/npm/bin/npm-cli.js —prefisso . install —unsafe-perm —scripts-prepend-node-path
+   i) trovare . -type d -exec chmod 0755 {} \; ii) find . -type f -exec chmod 0755 {} \; iii) ./node-darwin/bin/node node-darwin/lib/node_modules/npm/bin/npm-cli.js —prefisso . install —unsafe-perm —scripts-prepend-node-path
 
-8. Verifica se Java è installato utilizzando il comando seguente
+8. Verifica se Java è installato con il comando seguente
 
    i) Esecuzione **./node-darwin/bin/node** comando dalla cartella /crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166
 
    ![mac](../assets/publishing/mac.png)
 
-   ii) a = required(&#39;java&#39;)
+   ii) a = require(&#39;java&#39;)
 
-9. Installa il pacchetto fontconfig.
+9. Installare il pacchetto fontconfig.
 Comando: apt install fontconfig
 
-10. Genera PDF nativo dai predefiniti nell’editor web.
+10. Genera PDF nativi dai predefiniti nell’editor web.
 
 ## Risoluzione dei problemi
 
 Di seguito sono riportati gli errori comuni che possono verificarsi durante la generazione di PDF quando le variabili di ambiente non sono impostate correttamente.
 
-### Eccezione puntatore Null nel sistema operativo Windows/Mac
+### Eccezione Null Pointer in Windows/Mac OS
 
-![eccezione puntatore null](../assets/publishing/null-pointer-exception.png)
+![eccezione Null Pointer](../assets/publishing/null-pointer-exception.png)
 
-### Librerie mancanti nel sistema operativo Linux RHEL 7
+### Librerie mancanti nel sistema operativo RHEL 7 Linux
 
 ![librerie mancanti](../assets/publishing/missing-libraries.png)
 
-In caso di problemi durante l&#39;esecuzione di uno dei passaggi precedenti, pubblica la tua domanda nella community AEM Guide [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) per assistenza.
+In caso di problemi durante l’esecuzione di uno dei passaggi precedenti, invia una domanda alla community delle guide dell’AEM [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) per assistenza.

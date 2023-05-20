@@ -1,55 +1,54 @@
 ---
-title: Gestire i predefiniti di output del profilo globale e della cartella
+title: Gestire i predefiniti di output per Profilo globale e Cartella
 description: Scopri come gestire i predefiniti di output per profili globali e cartelle
-source-git-commit: 3b33b27e4acb8d0b185427725e23b8beac0c2a46
+exl-id: 40ea464c-16c8-4c95-9c0e-61b6bad95272
+source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 0%
 
 ---
 
-
-# Gestire i predefiniti di output del profilo globale e della cartella {#id22BLJ0D0V1U}
+# Gestire i predefiniti di output per Profilo globale e Cartella {#id22BLJ0D0V1U}
 
 I predefiniti Profilo globale e Profilo cartella sono disponibili solo per gli utenti amministratori a livello di cartella.
 
-In qualità di amministratore, AEM Guide ti consente di creare e gestire i predefiniti di output per i profili globali e cartelle. Puoi quindi utilizzare facilmente questi predefiniti di output per generare l’output per tutte le mappe correlate a tale profilo globale o di cartelle.
+In qualità di amministratore, AEM Guides consente di creare e gestire predefiniti di output per i profili globali e cartelle. Puoi quindi utilizzare facilmente questi predefiniti di output per generare l’output per tutte le mappe correlate al profilo globale o cartella.
 
 Per creare un predefinito di output per i profili globali e cartelle, effettua le seguenti operazioni:
 
 1. Selezionare la mappa DITA per la quale si desidera creare un predefinito di output.
-1. Seleziona la **Modifica argomenti** dall&#39;opzione **Opzioni** menu del file mappa. Il file mappa viene aperto per la modifica nell&#39;editor Web.
-1. In **Uscita** selezionare l&#39;icona + per creare un predefinito di output per la mappa DITA.
+1. Seleziona la **Modifica argomenti** opzione dalla **Opzioni** del file di mappa. Il file mappa viene aperto per la modifica nell&#39;editor Web.
+1. In **Output** , selezionare l&#39;icona + per creare un predefinito di output per la mappa DITA.
 
    ![](images/add-global-output-preset.png){width="350" align="left"}
 
-1. Immetti i seguenti dettagli nella **Aggiungi predefinito** finestra di dialogo:
+1. Immetti i seguenti dettagli in **Aggiungi predefinito** finestra di dialogo:
    - Tipo
    - Nome
-   - Target \(per Knowledgebase preset\)
-1. Seleziona la **Aggiungi al profilo della cartella** casella di controllo per creare un predefinito di output per il profilo di cartella correlato, quindi fai clic su **Aggiungi**. Il predefinito viene creato e viene visualizzato sotto il **Uscita** scheda di tutte le mappe correlate. \( ![](images/global-preset-icon.svg)\) indica un predefinito a livello di profilo cartella.
-1. Immetti i dettagli di configurazione.
+   - Target \(per predefinito Knowledge Base\)
+1. Seleziona la **Aggiungi al profilo cartella** per creare un predefinito di output per il profilo di cartella correlato, quindi fare clic su **Aggiungi**. Il predefinito viene creato e viene visualizzato sotto **Output** di tutte le mappe correlate. \( ![](images/global-preset-icon.svg)\) indica un predefinito a livello di profilo della cartella.
+1. Immetti i dettagli della configurazione.
 
    >[!NOTE]
    >
    > Questi predefiniti aggiunti al profilo della cartella sono indipendenti dalle mappe, pertanto le configurazioni specifiche della mappa non sono presenti per questi predefiniti.
 
-1. È possibile selezionare la **Genera predefinito** nella parte superiore per generare l&#39;output per le mappe relative al predefinito di output creato. Verrà visualizzato lo stato del processo di generazione dell&#39;output. Per visualizzare l&#39;output, posiziona il puntatore del mouse sull&#39;argomento e fai clic su **Visualizza output**.
+1. È possibile selezionare **Genera predefinito** nella parte superiore per generare l’output per le mappe relative al predefinito di output creato. Viene visualizzato lo stato del processo di generazione dell’output. Per visualizzare l&#39;output, posizionare il puntatore del mouse sull&#39;argomento e fare clic su **Visualizza output**.
 
 >[!NOTE]
 >
-> AEM Guide fornisce anche un predefinito di output PDF predefinito per generare l’output per le mappe DITA.
+> Le guide AEM forniscono anche un predefinito di output PDF predefinito per generare l&#39;output per le mappe DITA.
 
 **Altre operazioni dal menu Opzioni**
 
-Puoi anche eseguire le seguenti operazioni sul predefinito dal menu Opzioni :
+Dal menu Opzioni (Options) potete inoltre eseguire le seguenti operazioni sul predefinito:
 
-- Selezionare il predefinito come predefinito pdf predefinito. Quindi il predefinito selezionato viene utilizzato come predefinito predefinito per generare l’output di PDF utilizzando **Scarica come PDF** opzione per una mappa.
-- **Modifica**, **Rinomina**, **Duplica** oppure **Elimina** un predefinito di output esistente dal **Opzioni** menu.
+- Seleziona il predefinito come predefinito pdf predefinito di default. Il predefinito selezionato viene quindi utilizzato come predefinito predefinito predefinito di default per generare l&#39;output PDF utilizzando **Scarica come PDF** opzione per una mappa.
+- **Modifica**, **Rinomina**, **Duplica**, o **Elimina** un predefinito di output esistente da **Opzioni** menu.
 
 >[!NOTE]
 >
-> Quando un predefinito di output in Profili globali e cartelle viene eliminato, si rifletterà in tutte le mappe correlate e non verrà visualizzato sotto **Uscita** scheda .
+> Quando un predefinito di output in Profili globali e cartelle viene eliminato, si riflette in tutte le mappe correlate e non viene visualizzato in **Output** scheda.
 
-**Argomento principale:**[ Utilizzare l’editor Web](web-editor.md)
-
+**Argomento padre:**[ Utilizzare l’editor web](web-editor.md)

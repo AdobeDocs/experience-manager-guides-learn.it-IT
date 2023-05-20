@@ -1,6 +1,6 @@
 ---
 title: Chiavi
-description: Le chiavi consentono di includere informazioni sulle variabili quando si lavora con DITA nelle guide AEM
+description: Le chiavi consentono di includere informazioni sulle variabili in quando si lavora con DITA nelle guide AEM
 exl-id: cb64e094-fe6d-4a5e-8f0e-25ae58aaa2c6
 source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
@@ -11,9 +11,9 @@ ht-degree: 0%
 
 # Chiavi
 
-Diversi tipi di materiali possono contenere informazioni simili che devono essere personalizzate in luoghi selezionati. Le chiavi consentono di includere informazioni sulle variabili in quando si lavora con DITA.
+Diversi set di materiali possono contenere informazioni simili che devono essere personalizzate in punti selezionati. Le chiavi consentono di includere informazioni sulle variabili in quando si lavora con DITA.
 
-I file di esempio che è possibile scegliere di utilizzare per questa lezione sono forniti nel file [keys.zip](assets/keys.zip).
+I file di esempio che puoi scegliere di utilizzare per questa lezione sono forniti nel file [keys.zip](assets/keys.zip).
 
 >[!VIDEO](https://video.tv.adobe.com/v/342756?quality=12&learn=on)
 
@@ -21,126 +21,126 @@ I file di esempio che è possibile scegliere di utilizzare per questa lezione so
 
 1. Carica il set di file di esempio forniti.
 
-   a) Carica il file zip.
+   a. Carica il file zip.
 
-   b) Aggiorna l’ambiente AEM.
+   b. Aggiornare l’ambiente AEM.
 
-   c. Seleziona il file da estrarre.
+   c. Seleziona il file per l’estrazione.
 
    ![Seleziona ZIP](images/lesson-9/select-zip.png)
 
-   d. Fai clic su [!UICONTROL **Extract Archive**] nella barra degli strumenti superiore.
+   d. Fai clic su [!UICONTROL **Estrai archivio**] nella barra degli strumenti superiore.
 
    ![Barra degli strumenti](images/lesson-9/extract-archive.png)
 
-   e. Nella finestra di dialogo, scegli il percorso specifico per i file da estrarre, ad esempio una cartella denominata Tasti.
+   e. Nella finestra di dialogo, scegli il percorso specifico dei file da estrarre, ad esempio una cartella denominata Chiavi.
 
    f. Fai clic su [!UICONTROL **Successivo**].
 
-   g. Ignora eventuali conflitti in quanto non esistono per contenuti mai caricati in precedenza.
+   g. Ignora eventuali conflitti in quanto non esisteranno per contenuti mai caricati in precedenza.
 
-   h. Seleziona [!UICONTROL **Extract**] in alto a destra dello schermo.
+   h. Seleziona [!UICONTROL **Extract**] in alto a destra.
 
-1. Al termine dell&#39;estrazione, fai clic su [!UICONTROL **Vai alla cartella di destinazione**].
+1. Al termine dell&#39;estrazione, fare clic su [!UICONTROL **Vai alla cartella di destinazione**].
 
    ![Conferma](images/lesson-9/go-to-target.png)
 
-## Risolvere le chiavi ai valori di riferimento
+## Risolvi chiavi ai valori di riferimento
 
-Per utilizzare correttamente le chiavi, le Preferenze utente devono fare riferimento a una mappa specifica come mappa principale. All&#39;interno di questa mappa è presente una raccolta di chiavi, raggruppate all&#39;interno di un gruppo di argomenti. L&#39;apertura della mappa e degli argomenti risolve le chiavi in base ai valori a cui fa riferimento questa mappa.
+Per utilizzare correttamente le chiavi, Preferenze utente deve fare riferimento a una mappa specifica come mappa principale. All&#39;interno di questa mappa è presente una raccolta di chiavi, raggruppate all&#39;interno di un gruppo di argomenti. L&#39;apertura della mappa e degli argomenti risolve le chiavi nei valori a cui fa riferimento la mappa.
 
-1. Specificare una mappa principale.
+1. Specificare una mappa radice.
 
-   a) Dalla schermata Chiavi, apri una mappa.
+   a. Dalla schermata Chiavi, apri una mappa.
 
-   b) Configura le preferenze utente.
+   b. Configurare le preferenze utente.
 
    c. Fai clic sul pulsante [!UICONTROL **Preferenze utente**] nella barra degli strumenti superiore.
 
    ![Barra degli strumenti superiore](images/lesson-9/author-view.png)
 
-   d. Fai clic sull’icona chiave per specificare un **Mappa principale** che verrà utilizzato per risolvere i tasti.
+   d. Fai clic sull’icona a forma di chiave per specificare un’ **Mappa radice** che verrà utilizzato per risolvere le chiavi.
 
-   e. Seleziona le caselle di controllo per le risorse desiderate.
+   e. Selezionare le caselle di controllo relative alle risorse desiderate.
 
-   ![Elenco a discesa Risorse](images/lesson-9/select-assets.png)
+   ![Elenco a discesa delle risorse](images/lesson-9/select-assets.png)
 
    f. Fai clic su [!UICONTROL **Seleziona**].
 
    g. **Salva** Preferenze utente.
 
-1. Passa a **Vista mappa**.
+1. Accedi a **Vista mappa**.
 
 1. Apri la mappa specificata.
 
-Le chiavi sono risolte.
+Le chiavi vengono risolte.
 
-## Aggiungi manualmente un nuovo keydef
+## Aggiungere manualmente un nuovo keydef
 
 1. Apri una mappa con una mappa radice specificata.
 
-1. Selezionare una chiave.
+1. Seleziona una chiave.
 
-   ![Elenco a discesa Chiave](images/lesson-9/hybrid-key.png)
+   ![Elenco a discesa chiave](images/lesson-9/hybrid-key.png)
 
-1. Inserisci un nuovo keydef.
+1. Inserisce un nuovo keydef.
 
-   a) Fai clic su in una posizione valida nella mappa.
+   a. Fai clic in una posizione valida nella mappa.
 
-   b) Seleziona la **Keydef** nella barra degli strumenti superiore.
+   b. Selezionare **Keydef** nella barra degli strumenti superiore.
 
    ![Barra degli strumenti Keydef](images/lesson-9/key-icon.png)
 
-   c. Nella finestra di dialogo Inserisci chiave, immetti un valore univoco per Tasti che abbia senso per la definizione che stai creando.
+   c. Nella finestra di dialogo Inserisci keydef, immettere un valore univoco per Chiavi che abbia senso per la definizione che si sta creando.
 
    d. Fai clic su [!UICONTROL **Inserisci**].
 
-1. Aggiungi topicmeta all&#39;interno del keydef.
+1. Aggiungere topicmeta all&#39;interno del keydef.
 
-   a) Fai clic sul pulsante [!UICONTROL **Inserisci elemento**] nella barra degli strumenti superiore.
-
-   ![Barra degli strumenti Keydef](images/lesson-9/add-icon.png)
-
-   b) Nella finestra di dialogo Inserisci elemento, cerca e seleziona &quot;topicmeta&quot;.
-
-1. Aggiungi le parole chiave all&#39;interno della topicmeta.
-
-   a) Fai clic sul pulsante [!UICONTROL **Inserisci elemento**] nella barra degli strumenti superiore.
+   a. Fai clic sul pulsante [!UICONTROL **Inserisci elemento**] nella barra degli strumenti superiore.
 
    ![Barra degli strumenti Keydef](images/lesson-9/add-icon.png)
 
-   b) Nella finestra di dialogo Inserisci elemento, cerca e seleziona &quot;parole chiave&quot;.
+   b. Nella finestra di dialogo Inserisci elemento, cerca e seleziona &quot;topicmeta&quot;.
 
-1. Aggiungi una parola chiave all’interno di topicmeta.
+1. Aggiungere parole chiave all&#39;interno dell&#39;argomento meta.
 
-   a) Fai clic sul pulsante [!UICONTROL **Inserisci elemento**] nella barra degli strumenti superiore.
+   a. Fai clic sul pulsante [!UICONTROL **Inserisci elemento**] nella barra degli strumenti superiore.
 
    ![Barra degli strumenti Keydef](images/lesson-9/add-icon.png)
 
-   b) In **Inserisci elemento** finestra di dialogo, cerca e seleziona &quot;parola chiave&quot;
+   b. Nella finestra di dialogo Inserisci elemento, cerca e seleziona &quot;parole chiave&quot;.
 
-1. Digita il valore per keydef nella parola chiave.
+1. Aggiungete una parola chiave all&#39;interno dell&#39;argomento meta.
 
-Nella mappa, il tuo keydef dovrebbe ora essere simile al seguente:
+   a. Fai clic sul pulsante [!UICONTROL **Inserisci elemento**] nella barra degli strumenti superiore.
+
+   ![Barra degli strumenti Keydef](images/lesson-9/add-icon.png)
+
+   b. Nel **Inserisci elemento** , cerca e seleziona &quot;keyword&quot;
+
+1. Digitate il valore del keydef nella parola chiave.
+
+Nella mappa, il keydef dovrebbe ora avere un aspetto simile al seguente:
 
 ![Keydef completato](images/lesson-9/keydef.png)
 
-## Configurare un keydef come frammento
+## Configurare un keydef come snippet
 
-Gli snippet sono piccoli frammenti di contenuto che possono essere riutilizzati in vari argomenti del progetto di documentazione. Invece di generare manualmente ogni keydef, puoi configurare un singolo keydef come snippet.
+I frammenti sono piccoli frammenti di contenuto che possono essere riutilizzati in vari argomenti nel progetto di documentazione. Invece di generare manualmente ogni keydef, potete configurare un singolo keydef come snippet.
 
-1. Seleziona un elemento keydef nella mappa.
+1. Selezionare un elemento keydef nella mappa.
 
-1. Nel menu contestuale, fai clic su [!UICONTROL **Crea frammento**].
+1. Nel menu contestuale, fai clic su [!UICONTROL **Crea snippet**].
 
-1. Nella finestra di dialogo Nuovo frammento, aggiungi un titolo e una descrizione.
-È inoltre possibile rimuovere le chiavi o le definizioni di parole chiave esistenti dal Contenuto.
+1. Nella finestra di dialogo Nuovo snippet, aggiungi un titolo e una descrizione.
+Puoi anche rimuovere dal Contenuto le chiavi o le definizioni di parole chiave esistenti.
 
 1. Fai clic su [!UICONTROL **Crea**].
 
-1. Nel pannello a sinistra, seleziona **Frammenti**.
+1. Nel pannello a sinistra, seleziona **Snippet**.
 
-1. Trascina il frammento appena creato dal pannello Frammenti alla mappa.
+1. Trascinate sulla mappa lo snippet appena creato dal pannello Snippet.
 
-1. Aggiorna la definizione chiave in base alle esigenze utilizzando Proprietà contenuto.
-Una volta salvato e aggiornato, questo set di chiavi sarà disponibile per tutti gli utenti che hanno definito una mappa che contiene la stessa mappa principale.
+1. Aggiorna il keydef in base alle esigenze utilizzando Proprietà contenuto.
+Quando viene salvato e aggiornato, questo set di chiavi sarà disponibile per tutti gli utenti che hanno definito una mappa contenente la stessa mappa principale.

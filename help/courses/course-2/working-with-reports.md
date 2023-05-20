@@ -11,33 +11,33 @@ ht-degree: 0%
 
 # Utilizzo dei rapporti
 
-La scheda Rapporti nella dashboard mappa consente di identificare e risolvere i collegamenti interrotti, i contenuti a cui si fa riferimento e che vengono riutilizzati (conref), i riferimenti incrociati o altre informazioni mancanti.
+La scheda Rapporti nel dashboard Mappa consente di identificare e risolvere i collegamenti interrotti, il contenuto a cui si fa riferimento e che viene riutilizzato (conref), i riferimenti incrociati o altre informazioni mancanti.
 
 >[!VIDEO](https://video.tv.adobe.com/v/339039?quality=12&learn=on)
 
-## Preparazione dell&#39;esercizio
+## Preparazione all&#39;esercizio
 
-Puoi scaricare file di esempio per l&#39;esercizio qui.
+I file di esempio per l&#39;esercizio sono disponibili qui.
 
-[Esercizio-Scarica](assets/exercises/working-with-reports.zip)
+[Esercizio-Download](assets/exercises/working-with-reports.zip)
 
-## Caricamento delle risorse
+## Caricamento risorse
 
-1. In Vista archivio, seleziona l’icona Ellissi nella cartella principale per aprire il menu Opzioni.
+1. In Vista archivio, seleziona l’icona con i puntini di sospensione nella cartella principale per aprire il menu Opzioni.
 
    ![ellissi-9.png](images/ellipses-9.png)
 
-1. Seleziona **[!UICONTROL Caricare risorse]**.
+1. Seleziona **[!UICONTROL Carica risorse]**.
 
    ![upload-assets.png](images/upload-assets.png)
 
-1. Seleziona i file da caricare nella cartella e seleziona **Carica**.
+1. Seleziona i file da caricare nella cartella e fai clic su **Carica**.
 
-I file DITA si aprono ed è necessario esaminarli per eventuali problemi relativi a contenuti mancanti, conref o riferimenti incrociati.
+I file DITA vengono aperti ed è necessario esaminarli per individuare eventuali problemi relativi a contenuto, conref o riferimenti incrociati mancanti.
 
 ## Creazione di una mappa
 
-1. Selezionare l&#39;icona Ellissi nella cartella principale per aprire il menu Opzioni.
+1. Seleziona l’icona con i puntini di sospensione nella cartella principale per aprire il menu Opzioni.
 
    ![ellissi-9.png](images/ellipses-9.png)
 
@@ -45,9 +45,9 @@ I file DITA si aprono ed è necessario esaminarli per eventuali problemi relativ
 
    ![create-map.png](images/create-map.png)
 
-   Viene visualizzata la finestra di dialogo Crea nuova mappa .
+   Viene visualizzata la finestra di dialogo Crea nuova mappa.
 
-1. Nel campo Modello , seleziona **Bookmap** o **Mappa** in base al tipo di contenuto che si sta creando) dal menu a discesa e assegna un titolo alla mappa.
+1. Nel campo Modello, seleziona **Bookmap** (o **Mappa** in base al tipo di contenuto che stai creando) dal menu a discesa e assegna alla mappa un titolo.
 
 1. Seleziona **Crea**.
 
@@ -56,87 +56,87 @@ La mappa viene creata e la barra a sinistra cambia automaticamente dalla vista A
 ## Inserimento di componenti mappa
 
 1. Seleziona l’icona della matita nella barra a sinistra.
-Questa è l’icona Modifica e consente di aprire la mappa nell’editor.
+Questa è l’icona Modifica e ti consente di aprire la mappa nell’editor.
 
    ![edit-map.png](images/edit-map.png)
 
-1. Torna alla vista Archivio selezionando l’icona Archivio .
+1. Torna alla vista Archivio selezionando l’icona Archivio.
 
    ![repository-button.png](images/repository-button.png)
 
-1. Aggiungi un argomento alla mappa trascinandolo e rilasciandolo dall’archivio nella mappa nell’editor.
-L’indicatore della riga indica dove verrà inserito l’argomento.
+1. Per aggiungere un argomento alla mappa, trascinalo dall’Archivio nella mappa nell’editor.
+L&#39;indicatore di riga indica dove verrà posizionato l&#39;argomento.
 
 1. Continua ad aggiungere argomenti in base alle esigenze.
 
-1. Al termine, seleziona **Salva come nuova versione.**
+1. Al termine, seleziona **Salva Come Nuova Versione.**
 
-   ![save-as-new-version.png](images/save-as-new-version.png)
+   ![salva come nuova versione.png](images/save-as-new-version.png)
 
-1. In *Commenti per la nuova versione* immettere un commento descrittivo.
+1. In *Commenti per nuova versione* immettere un commento descrittivo.
 
 1. Seleziona **Salva**.
 
 ## Generazione di un output del sito AEM
 
-1. Nell&#39;archivio, seleziona l&#39;icona Ellissi sulla mappa per aprire il menu Opzioni, quindi **Apri dashboard mappa.**
+1. Nel repository, selezionare l&#39;icona con i puntini di sospensione sulla mappa per aprire il menu Opzioni, quindi **Apri Map Dashboard.**
 
    ![open-map-dashboard.png](images/open-map-dashboard.png)
 
-   Il dashboard mappa si apre in un&#39;altra scheda.
-1. Nella scheda Predefiniti di output, seleziona **Sito AEM**.
+   Il quadro comandi Mappa (Map Dashboard) si apre in un’altra scheda.
+1. Nella scheda Predefiniti di output, selezionate **Sito AEM**.
 
-   ![aem-site-check](images/aem-site-checkbox.png)
+   ![aem-site-checkbox](images/aem-site-checkbox.png)
 
 1. Seleziona **Genera**.
 
-1. Passa alla pagina Output per visualizzare lo stato degli output generati.
-In caso di errori, nella scheda Output potrebbe essere visualizzato un cerchio arancione sotto la colonna Impostazioni generazione anziché verde, a indicare che la generazione è completa.
+1. Passare alla pagina Output per visualizzare lo stato degli output generati.
+In caso di errori, nella scheda Output potrebbe essere visualizzato un cerchio arancione anziché verde sotto la colonna Impostazione generazione, a indicare che la generazione è stata completata.
 
-1. Seleziona il collegamento nella colonna Impostazioni generazione per aprire l’output generato.
-Controlla l&#39;output per il contenuto mancante.
+1. Seleziona il collegamento nella colonna Impostazione generazione per aprire l’output generato.
+Controlla l’output per individuare eventuali contenuti mancanti.
 
 ## Scheda Rapporti
 
-Nella scheda Rapporti viene visualizzato un riepilogo dell’argomento e una tabella contenente le informazioni sull’argomento e i problemi all’interno della mappa.
+Nella scheda Rapporti vengono visualizzati un riepilogo degli argomenti e una tabella contenente le informazioni sugli argomenti e i problemi presenti nella mappa.
 
-È consigliabile controllare sempre la presenza di una mappa nei rapporti dopo l’importazione del contenuto.
+Idealmente, dopo l’importazione dei contenuti, controlla sempre la presenza di una mappa nei Report.
 
 ![reports.png](images/reports.png)
 
-La colonna Elementi mancanti indica il numero di immagini mancanti e conref interrotti. È possibile selezionare la **Matita** per aprire l’argomento nell’editor.
+La colonna Elementi mancanti indica il numero di immagini mancanti e di riferimenti interrotti. È possibile selezionare **Matita** per aprire l’argomento nell’editor.
 
 ## Risoluzione delle immagini mancanti
 
-Se mancano immagini dai file, una causa comune potrebbe essere che il contenuto è stato caricato, ma le immagini no. In tal caso, risolvi i problemi di immagine mancanti caricando le immagini in una cartella specifica che corrisponde al percorso e ai nomi dei file previsti dai file.
+Se mancano immagini nei file, la causa comune potrebbe essere il caricamento del contenuto, ma non delle immagini. In tal caso, risolvi i problemi di immagine mancanti caricando le immagini in una cartella specifica corrispondente al percorso e ai nomi file previsti dai file.
 
-1. In *Visualizzazione archivio*, seleziona l’icona Ellissi nella cartella delle immagini per aprire il menu Opzioni .
+1. In entrata *Vista archivio*, seleziona l’icona con i puntini di sospensione nella cartella delle immagini per aprire il menu Opzioni.
 
    ![image-ellipsis.png](images/image-ellipsis.png)
 
-1. Seleziona **[!UICONTROL Caricare risorse]**, quindi seleziona le immagini mancanti.
+1. Seleziona **[!UICONTROL Carica risorse]** e seleziona le immagini mancanti.
 
 1. Seleziona **Carica**.
 
-Le immagini mancanti sono state caricate. Ora, un nuovo output del sito AEM generato visualizzerà queste immagini e la scheda Rapporti non visualizzerà più errori di immagine mancanti.
+Le immagini mancanti sono state caricate. Ora, un output del sito AEM appena generato visualizzerà queste immagini e la scheda Rapporti non mostrerà più eventuali errori di immagine mancanti.
 
 ## Risoluzione dei conflitti interrotti
 
-Se il contenuto a cui si fa riferimento altrove (un rif) si collega a per un file all’interno di un’altra cartella (ad esempio, un file denominato &quot;riutilizzo&quot;). e il contenuto non viene caricato, è necessario risolvere un errore. Ad esempio, devi creare una sottocartella denominata &quot;riutilizzo&quot; e caricare il file mancante in &quot;riutilizzo&quot;.
+Se il contenuto a cui si fa riferimento altrove (un riferimento conf) viene collegato a per un file all’interno di un’altra cartella (ad esempio, una denominata &quot;riutilizza&quot;). e il contenuto non viene caricato, è necessario risolvere un errore. Ad esempio, devi creare una sottocartella denominata &quot;riutilizza&quot; e caricare il file mancante in &quot;riutilizza&quot;.
 
-### Caricamento di una risorsa con [!UICONTROL Risorse] Interfaccia
+### Caricamento di una risorsa con [!UICONTROL Risorse] UI
 
-Oltre al [!UICONTROL Caricare risorse] Puoi caricare le risorse trascinandole e rilasciandole nell’interfaccia utente di Assets.
+Oltre al [!UICONTROL Carica risorse] , puoi caricare le risorse trascinandole e rilasciandole nell’interfaccia utente Assets.
 
-1. In Vista archivio, selezionare l&#39;icona Ellissi nella cartella di riutilizzo per aprire il menu Opzioni.
+1. In Vista archivio, seleziona l’icona con i puntini di sospensione nella cartella Riutilizza per aprire il menu Opzioni.
 
-   ![riutilizzo-ellipsis.png](images/reuse-ellipsis.png)
+   ![reuse-ellipsis.png](images/reuse-ellipsis.png)
 
-1. Seleziona **Visualizzazione nell’interfaccia utente Assets**.
+1. Seleziona **Visualizza nell’interfaccia utente Assets**.
 
    ![assets_ui.png](images/assets_ui.png)
 
-1. Trascina e rilascia il file nella cartella .
-Il file viene caricato e l&#39;errore di controllo viene risolto.
+1. Trascina il file nella cartella.
+Il file viene caricato e l’errore di conversione viene risolto.
 
-Tutti gli errori sono stati risolti. La pagina Rapporti indica che non ci sono più errori e la generazione di un sito AEM genera un output completo senza componenti mancanti.
+Tutti gli errori sono stati risolti. La pagina Rapporti indica che non vi sono altri errori e la generazione di un sito AEM genera un output completo senza componenti mancanti.

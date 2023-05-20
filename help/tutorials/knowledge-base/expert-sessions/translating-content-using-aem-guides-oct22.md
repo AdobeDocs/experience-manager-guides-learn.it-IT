@@ -5,7 +5,7 @@ exl-id: c8dacbdc-4b0b-44ca-82d4-889cd83741ff
 source-git-commit: 3d12389dbd7458a74bb9b9ec488e83bf39c8c9bf
 workflow-type: tm+mt
 source-wordcount: '183'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -28,7 +28,7 @@ In questa sessione imparerai a conoscere il processo di traduzione, il meccanism
 - **Durata** - 60 minuti
 - **Pubblico** - Clienti, partner e dipendenti Adobi
 
-## Punti chiave da eliminare
+## Elementi principali da ricordare
 
 In questa sessione imparerai quanto segue:
 - Motivi per cui le aziende investono nella traduzione per migliorare la propria attività

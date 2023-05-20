@@ -1,63 +1,62 @@
 ---
 title: Creare documenti Markdown
 description: Scopri come creare documenti Markdown
-source-git-commit: fa6e9f8b32d191f5b6f7136724d2145d81317767
+exl-id: ad20ca0b-a01d-4e72-8e3e-1d6feb41e52a
+source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 0%
 
 ---
 
+# Creare documenti Markdown dall’editor web {#id223MIE0B079}
 
-# Creare documenti Markdown dall’editor Web {#id223MIE0B079}
+Markdown è un linguaggio di markup leggero che consente di aggiungere elementi di formattazione ai documenti di testo normale. Le guide AEM consentono di creare, creare e visualizzare in anteprima un argomento Markdown \(.md\) dall’editor Web. Puoi anche caricare i documenti Markdown esistenti e modificarli nell’Editor web.
 
-Markdown è un linguaggio di markup leggero che consente di aggiungere elementi di formattazione a documenti di testo normale. AEM Guide fornisce la funzione per creare, creare e visualizzare in anteprima un argomento Markdown \(.md\) dall’Editor Web. Puoi anche caricare i documenti esistenti di Markdown e modificarli nell’editor Web.
+## Creare un argomento Markdown
 
-## Creazione di un argomento Markdown
-
-Esegui i seguenti passaggi per creare un argomento Markdown dall’editor Web:
+Per creare un argomento Markdown dall’editor Web, effettua le seguenti operazioni:
 
 1. Selezionare una cartella nella vista Archivio.
 1. Crea **Argomento Markdown** in uno dei seguenti modi:
-   1. Fai clic su **Crea file DITA** nell’angolo in alto a destra del pannello Repository, quindi seleziona **Argomento Markdown** dal menu a discesa .
+   1. Clic **Crea file DITA** nell’angolo in alto a destra del pannello Archivio, quindi seleziona **Argomento Markdown** dal menu a discesa.
 
    ![](images/create-markdown-dita-topic.png){width="550" align="left"}
 
-   1. Seleziona **Crea** dal menu Opzioni della cartella selezionata, quindi selezionare **Argomento Markdown** dal menu a discesa .
+   1. Seleziona **Crea** dal menu Opzioni della cartella selezionata, quindi selezionare **Argomento Markdown** dal menu a discesa.
 
    ![](images/create-markdown-options-menu.png){width="550" align="left"}
 
-1. Immetti il nome e il percorso dell’argomento Markdown nel **Crea nuovo argomento di Markdown** finestra di dialogo.
+1. Immetti il nome e il percorso dell&#39;argomento Markdown nel **Crea nuovo argomento Markdown** .
 
 ![](images/create-markdown-dialog.png){width="350" align="left"}
 
 1. Fai clic su **Crea**.
 
-L’argomento Markdown viene creato nel percorso selezionato ed è aperto per la modifica.
+L&#39;argomento Markdown viene creato nel percorso selezionato e può essere modificato.
 
-## Creazione e anteprima di un argomento Markdown
+## Creare e visualizzare in anteprima un argomento Markdown
 
-Esegui i seguenti passaggi per creare un argomento Markdown dall’Editor web:
+Per creare un argomento Markdown dall’editor Web, effettua le seguenti operazioni:
 
-1. Seleziona un argomento Markdown esistente\(.md\) nella vista Archivio.
+1. Seleziona un argomento Markdown esistente\(.md\) nella Vista archivio.
 1. Fare doppio clic sull&#39;argomento per aprirlo nella finestra di modifica.
 
-   L’argomento viene aperto in modalità Origine.
+   L’argomento viene aperto in modalità Sorgente.
 
-1. Aggiorna il contenuto dell’argomento Markdown .
-1. Fai clic su **Anteprima** in alto a destra per visualizzare l’anteprima dell’argomento.
+1. Aggiorna il contenuto nell’argomento Markdown.
+1. Clic **Anteprima** in alto a destra per visualizzare l’anteprima dell’argomento.
 
    >[!NOTE]
    >
-   > La modalità Anteprima mostra come verrà visualizzato un argomento quando viene visualizzato da un utente nel proprio browser.
+   > La modalità Anteprima mostra come verrà visualizzato un argomento quando viene visualizzato da un utente nel browser.
 
-1. Utilizzo **Salva come nuova versione** nella barra degli strumenti principale per salvare le modifiche apportate all’argomento e creare una nuova versione dell’argomento. È inoltre possibile utilizzare **Salva tutto** nella barra degli strumenti principale per salvare le modifiche in tutti gli argomenti aperti.
+1. Utilizzare **Salva come nuova versione** nella barra degli strumenti principale per salvare le modifiche apportate all&#39;argomento e creare una nuova versione dell&#39;argomento. Puoi anche utilizzare **Salva tutto** nella barra degli strumenti principale per salvare le modifiche in tutti gli argomenti aperti.
 
-1. Fai clic su **Chiudi** in alto a destra per chiudere l’argomento Markdown .
+1. Clic **Chiudi** in alto a destra per chiudere l&#39;argomento Markdown.
 
 >[!NOTE]
 >
-> Se le modifiche non sono state salvate, viene visualizzata una finestra a comparsa in cui viene richiesto di salvare l&#39;argomento prima di chiuderlo.
+> Se le modifiche non sono state salvate, viene visualizzata una finestra a comparsa e viene richiesto di salvare l&#39;argomento prima di chiuderlo.
 
-**Argomento principale:**[ Utilizzare l’editor Web](web-editor.md)
-
+**Argomento padre:**[ Utilizzare l’editor web](web-editor.md)

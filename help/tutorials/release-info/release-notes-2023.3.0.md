@@ -1,84 +1,84 @@
 ---
-title: Note sulla versione | Guide Adobe Experience Manager as a Cloud Service, versione di marzo 2023
-description: Rilascio di marzo delle guide di Adobe Experience Manager as a Cloud Service
-source-git-commit: d762cccc4a8f89eb91a1a8eb2c1410a7e0358b85
+title: Note sulla versione | Adobe Experience Manager Guides as a Cloud Service, versione di marzo 2023
+description: Versione di marzo di Adobe Experience Manager Guides as a Cloud Service
+exl-id: b3fe7cc8-1654-467a-ab18-6e6912855ecc
+source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 2%
 
 ---
 
-# Rilascio di marzo delle guide di Adobe Experience Manager as a Cloud Service
+# Versione di marzo di Adobe Experience Manager Guides as a Cloud Service
 
 ## Aggiornamento alla versione di marzo
 
-Aggiorna le guide correnti di Adobe Experience Manager as a Cloud Service (in seguito denominate *Guide AEM as a Cloud Service*) eseguendo le seguenti operazioni:
-1. Controlla il codice Git dei Cloud Services e passa al ramo configurato nella pipeline dei Cloud Services corrispondente all’ambiente da aggiornare.
-2. Aggiorna `<dox.version>` proprietà in `/dox/dox.installer/pom.xml` file dei tuoi Cloud Services Codice Git a 2023.3.242.
-3. Conferma le modifiche ed esegui la pipeline dei Cloud Services per eseguire l’aggiornamento alla versione di marzo di AEM Guide as a Cloud Service.
+Aggiorna le guide Adobe Experience Manager as a Cloud Service correnti (in seguito denominate *Guide AEM as a Cloud Service*) eseguendo i seguenti passaggi:
+1. Consulta il codice Git del Cloud Services e passa al ramo configurato nella pipeline dei Cloud Services corrispondente all’ambiente da aggiornare.
+2. Aggiorna `<dox.version>` proprietà in `/dox/dox.installer/pom.xml` file del codice Git dei tuoi Cloud Services in 2023.3.242.
+3. Apporta le modifiche ed esegui la pipeline dei Cloud Services per l’aggiornamento alla versione di marzo dell’as a Cloud Service AEM Guides.
 
-## Passaggi per indicizzare il contenuto esistente (solo se disponi di una versione precedente al rilascio di settembre delle AEM guide as a Cloud Service)
+## Passaggi per indicizzare il contenuto esistente (solo se utilizzi una versione precedente alla versione di settembre di AEM Guides as a Cloud Service)
 
-Esegui i seguenti passaggi per indicizzare il contenuto esistente e utilizzare il nuovo testo trova e sostituisci a livello di mappa:
+Per indicizzare il contenuto esistente e utilizzare il nuovo testo di ricerca e sostituzione a livello di mappa, effettua le seguenti operazioni:
 
-* Esegui una richiesta POST al server (con autenticazione corretta) - `http://<server:port>/bin/guides/map-find/indexing`.
-(Facoltativo: Puoi trasmettere percorsi specifici delle mappe per indicizzarle, per impostazione predefinita tutte le mappe saranno indicizzate || Esempio : `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
+* Eseguire una richiesta POST al server (con l’autenticazione corretta) - `http://<server:port>/bin/guides/map-find/indexing`.
+(Facoltativo: Puoi trasmettere percorsi specifici delle mappe per indicizzarle; per impostazione predefinita, tutte le mappe saranno indicizzate || Esempio: `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
-* L’API restituirà un jobId. Per controllare lo stato del processo, puoi inviare una richiesta di GET con ID processo allo stesso punto finale - `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
+* L’API restituirà un jobId. Per verificare lo stato del processo, puoi inviare una richiesta di GET con ID processo allo stesso endpoint: `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
 (Ad esempio: http://&lt;
 _localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
 
-* Una volta completato il processo, la richiesta di GET di cui sopra risponderà con successo e menzionerà se eventuali mappe non sono riuscite. Le mappe indicizzate correttamente possono essere confermate dai log del server.
+* Una volta completato il processo, la richiesta di GET di cui sopra risponderà con successo e menzionerà se eventuali mappe non sono riuscite. Le mappe indicizzate correttamente possono essere confermate dai registri del server.
 
 ## Matrice di compatibilità
 
-Questa sezione elenca la matrice di compatibilità per le applicazioni software supportate dalla versione di AEM Guide as a Cloud Service di marzo 2023.
+In questa sezione è elencata la matrice di compatibilità per le applicazioni software supportate dalla versione di marzo 2023 delle guide AEM as a Cloud Service.
 
-### FrameMaker e FrameMaker Publishing Server
+### Server di pubblicazione FrameMaker e FrameMaker
 
-| AEM guide as a Cloud Release | FMPS | FrameMaker |
+| Versione di AEM Guides as a Cloud | FMPS | FrameMaker |
 | --- | --- | --- |
-| 2023.03.0 | Non compatibile | 2022 o superiore |
+| 2023.03.0 | Non compatibile | 2022 o versione successiva |
 |  |  |  |
 
 
-### Connettore dell&#39;ossigeno
+### Connettore ossigeno
 
-| AEM guide as a Cloud Release | Finestre del connettore dell&#39;ossigeno | Mac connettore ossigeno | Modifica in Windows Ossigeno | Modifica in Oxygen Mac |
+| Versione di AEM Guides as a Cloud | Finestre del connettore dell&#39;ossigeno | Connettore di ossigeno Mac | Modifica in finestre a ossigeno | Modifica in Oxygen Mac |
 | --- | --- | --- | --- | --- |
-| 2023.03.0 | 2.9-uuid-2 | 2.9-uuid-2 | 2.3 | 2.3 |
+| 2023.03.0 | 2,9-uuid-2 | 2,9-uuid-2 | 2.3 | 2.3 |
 |  |  |  |  |
 
 
 ## Nuove funzioni e miglioramenti
 
-AEM Guide as a Cloud Service fornisce miglioramenti e nuove funzioni nella versione di marzo 2023:
+AEM Guides as a Cloud Service fornisce miglioramenti e nuove funzioni nella versione di marzo 2023:
 
-### Aprire e riprodurre file video o audio nell’Editor Web
+### Aprire e riprodurre file video o audio nell&#39;editor Web
 
-AEM Guide ora fornisce la funzione per aprire e riprodurre i file audio o video nell’editor Web. È possibile modificare il volume o la visualizzazione del video. Nel menu di scelta rapida sono disponibili anche le opzioni per **Scarica**, modifica **Velocità di riproduzione** o visualizzazione **Immagine nell&#39;immagine**.
+Le guide AEM ora forniscono la funzione di aprire e riprodurre i file audio o video nell’editor web. È possibile modificare il volume o la visualizzazione del video. Nel menu di scelta rapida sono inoltre disponibili le opzioni per **Scarica**, modifica **Velocità di riproduzione**, o visualizzazione **Immagine nell’immagine**.
 
-<img src="assets/video-web-editor.png" alt="riprodurre video" width="600">
+<img src="assets/video-web-editor.png" alt="riproduci video" width="600">
 
 
 ## Problemi risolti
 
-I bug corretti in varie aree sono elencati di seguito:
+Di seguito sono elencati i bug risolti in varie aree:
 
-* Il download del processo PDF non funziona correttamente nell&#39;editor Web. (11496)
-* Output JSON | Mappare metadati con valore di proprietà come `"value in spaces and double quotes"` porta a un errore di pubblicazione. (11438)
-* L&#39;inserimento di file multimediali audio e video non riesce nel formato YouTube sotto il **Inserisci file multimediali** icona. (11320)
-* L&#39;errore di convalida si verifica quando una mappa viene creata utilizzando il modello con un elemento titolo specializzato. (11212)
-* PDF nativo | la nota a piè di pagina presente nell’intestazione della tabella porta al testo in grassetto e allineato al centro nel piè di pagina della pagina corrispondente all’interno dell’output di PDF. (10610)
+* Il processo di download di PDF non funziona in modo appropriato nell’editor web. (11496)
+* Output JSON | Mappa metadati con valore proprietà come `"value in spaces and double quotes"` genera un errore di pubblicazione. (11438)
+* L’inserimento di file multimediali audio e video non riesce nel formato YouTube in **Inserisci file multimediali** icona. (11320)
+* Si verifica un errore di convalida quando si crea una mappa utilizzando il modello che ha un elemento titolo specializzato. (11212)
+* Native PDF | la nota a piè di pagina presente nell’intestazione della tabella porta al testo in grassetto e allineato al centro nel piè di pagina corrispondente all’interno dell’output PDF. (10610)
 >[!NOTE]
 >
->Per riflettere la modifica di Native PDF, elimina la cartella PDF che si trova in /content/dam/dita-templates, quindi esegui l’aggiornamento alla build più recente. (10610)
+>Per riflettere la modifica apportata a Native PDF, elimina la cartella PDF in /content/dam/dita-templates e quindi effettua l’aggiornamento alla build più recente. (10610)
 
 ### Problema noto con la soluzione alternativa
 
-Adobe ha identificato il seguente problema noto per la versione di AEM Guide as a Cloud Service di marzo 2023.
+L’Adobe ha identificato il seguente problema noto per la versione delle guide AEM as a Cloud Service a marzo 2023.
 
 * Gli utenti non possono salvare o creare la versione di una risorsa duplicata.
 
-**Soluzione alternativa**: Prima di apportare modifiche alla risorsa duplicata, rielaborala dall’interfaccia utente di Assets.
-
+**Soluzione alternativa**: prima di apportare qualsiasi modifica alla risorsa duplicata, rielaborala dall’interfaccia utente di Assets.

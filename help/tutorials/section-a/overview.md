@@ -1,6 +1,6 @@
 ---
 title: Panoramica
-description: Panoramica dell’Experience Manager AEM guide.
+description: Panoramica dell’Experience Manager AEM Guides.
 source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
 workflow-type: tm+mt
 source-wordcount: '35'
@@ -11,7 +11,7 @@ ht-degree: 5%
 
 # Panoramica {#overview}
 
-Panoramica del prodotto in 1-2 frasi su cui si basa questa guida utente. Questa guida utente contiene video ed esercitazioni sulle numerose funzioni e funzionalità di *xyz*.
+Panoramica di 1-2 frasi del prodotto su cui si basa questa guida utente. La presente guida utente contiene video e tutorial sulle numerose funzioni e caratteristiche di *xyz*.
 
 <!--
 

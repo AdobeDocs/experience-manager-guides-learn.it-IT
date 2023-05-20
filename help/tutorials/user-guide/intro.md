@@ -1,36 +1,36 @@
 ---
 title: Informazioni sulle guide di Adobe Experience Manager
-description: Informazioni sulle guide di Adobe Experience Manager as a Cloud Service
-source-git-commit: fac7596f16e5321d708dd251012ac9753eb19ea4
+description: Scopri come utilizzare Adobe Experience Manager Guides as a Cloud Service
+exl-id: c55429d9-ce2a-4dbf-b780-377b1372b828
+source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%
 
 ---
 
-
 # Informazioni sulle guide di Adobe Experience Manager {#id1645E0A50MY}
 
-Guide di Adobe Experience Manager \(denominate *Guide AEM* più avanti in questa guida\) è una potente soluzione per la gestione dei contenuti dei componenti di livello enterprise \(CCMS\). Viene in due sapori - on-prem e servizio cloud. Abilita il supporto DITA nativo in Adobe Experience Manager, consentendo AEM gestire la creazione e la distribuzione di contenuti basati su DITA. Consente agli autori di creare contenuti utilizzando un editor web integrato di facile utilizzo.
+Adobe Experience Manager Guides \(denominati *Guide AEM* più avanti in questa guida\) è una potente soluzione di gestione dei contenuti per componenti di livello enterprise \(CCMS\). È disponibile in due versioni: on-prem e cloud service. Abilita il supporto DITA nativo in Adobe Experience Manager, consentendo all’AEM di gestire la creazione e la distribuzione di contenuti basati su DITA. Consente agli autori di creare contenuti utilizzando un editor web integrato di facile utilizzo.
 
-AEM Guide fornisce tutte le funzioni principali di CCMS, come l’authoring, la collaborazione, la revisione, la traduzione, la ricerca, i report e la gestione dei metadati per i contenuti DITA, consentendo agli autori di eseguire più in minor tempo grazie a un efficiente riutilizzo dei contenuti e a flussi di lavoro efficienti. Inoltre, gli utenti possono sfruttare la funzionalità di pubblicazione con un solo clic e all’avanguardia per generare un output basato su DITA per i formati più popolari: Adobe Experience Manager Sites, PDF, HTML5, EPUB e output personalizzato tramite DITA-OT.
+Le guide AEM forniscono tutte le funzioni principali di CCMS, ad esempio l&#39;authoring, la collaborazione, la revisione, la traduzione, la ricerca, i report e la gestione dei metadati per i contenuti DITA, consentendo agli autori di fare di più in meno tempo attraverso un riutilizzo efficiente dei contenuti e potenti flussi di lavoro. Inoltre, gli utenti possono sfruttare la funzionalità di pubblicazione avanzata con un solo clic per generare output basati su DITA per i formati più diffusi, ovvero Adobe Experience Manager Sites, PDF, HTML5, EPUB e output personalizzato tramite DITA-OT.
 
-Con le Guide AEM, le aziende possono offrire esperienze personalizzate e senza soluzione di continuità agli utenti finali e garantire coerenza e uniformità nei contenuti pre e post-vendita. Il controllo completo sull&#39;integrità dei contenuti può essere facilmente raggiunto. Inoltre, i tempi e i costi di localizzazione si riducono notevolmente.
+Con le guide AEM, le aziende possono offrire agli utenti finali esperienze dirette e personalizzate, garantendo coerenza e uniformità nei contenuti pre e post-vendita. Il controllo completo sull&#39;integrità dei contenuti può essere ottenuto facilmente. Inoltre, i tempi e i costi di localizzazione si riducono notevolmente.
 
-## Vantaggi a colpo d&#39;occhio
+## Vantaggi in breve
 
-- Esperienza dei contenuti uniforme pre e post-acquisto per gli utenti finali
+- Esperienza di contenuti pre e post-acquisto uniforme per gli utenti finali
 
-- Esperienza di pubblicazione omnicanale in Experience Manager Sites, PDF, HTML5, EPUB e output personalizzato tramite DITA-OT
+- Esperienza di pubblicazione omni-channel in Experience Manager Sites, PDF, HTML5, EPUB e output personalizzato tramite DITA-OT
 
-- Familiarità con gli strumenti/sistemi di Adobe esistenti e opportunità di consolidamento con un unico partner
+- Familiarità con gli strumenti/sistemi di Adobe esistenti e opportunità di consolidamento con un partner
 
-- CMS singolo per la gestione end-to-end di contenuti tecnici e di marketing
+- Singolo CMS per la gestione end-to-end di contenuti tecnici e di marketing
 
-- Accesso più rapido al mercato con un riutilizzo efficiente dei contenuti
+- Maggiore rapidità di commercializzazione con un riutilizzo efficiente dei contenuti
 
-- Flussi di lavoro avanzati per la revisione, la collaborazione e la traduzione
+- Potenti flussi di lavoro per revisione, collaborazione e traduzione
 
 - Riduzione dei tempi e dei costi di localizzazione
 
-- Costi generali di manutenzione ridotti
+- Riduzione dei costi generali di manutenzione

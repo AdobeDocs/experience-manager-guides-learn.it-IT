@@ -1,5 +1,5 @@
 ---
-title: Usa editor DIAVAL
+title: Usa editor DITAVAL
 description: Scopri come utilizzare l’editor DITAVAL
 source-git-commit: c6eceb8ea3ce41f12ea1f689dc8aeab2b4ba3d9c
 workflow-type: tm+mt
@@ -9,83 +9,83 @@ ht-degree: 0%
 ---
 
 
-# Editor DITAVAL {#ditaval-editor}
+# editor DITAVAL {#ditaval-editor}
 
-I file DITAVAL vengono utilizzati per generare l’output condizionale. In un singolo argomento, puoi aggiungere condizioni utilizzando gli attributi degli elementi per condizionalizzare il contenuto. Quindi, crei un file DITAVAL in cui specifichi le condizioni da prendere per generare contenuto e quale condizione deve essere esclusa dall’output finale.
+I file DITAVAL vengono utilizzati per generare output condizionale. In un singolo argomento, puoi aggiungere condizioni utilizzando gli attributi dell’elemento per condizionare il contenuto. Quindi, create un file DITAVAL in cui specificate le condizioni che devono essere selezionate per generare il contenuto e quali condizioni devono essere escluse dall&#39;output finale.
 
-AEM Guide consente di creare e modificare facilmente i file DIAVAL utilizzando l’editor DITAVAL. L&#39;editor DITAVAL recupera gli attributi \(o tags\) definiti nel tuo sistema ed è possibile usarli per creare o modificare file DITAVAL. Per ulteriori dettagli sulla creazione e la gestione dei tag in AEM, consulta [Amministrazione dei tag](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) nella documentazione AEM.
+Le guide AEM consentono di creare e modificare facilmente i file DITAVAL utilizzando l&#39;editor DITAVAL. L&#39;editor DITAVAL recupera gli attributi \(o tag\) definiti nel sistema ed è possibile utilizzarli per creare o modificare file DITAVAL. Per ulteriori dettagli sulla creazione e la gestione dei tag in AEM, consulta [Amministrazione dei tag](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) sezione nella documentazione AEM.
 
-## Crea file DIAVAL
+## Crea file DITAVAL
 
-Esegui i seguenti passaggi per creare un file DITAVAL:
+Per creare un file DITAVAL, effettuate le seguenti operazioni:
 
 1. Nell’interfaccia utente Assets, individua il percorso in cui desideri creare il file DITAVAL.
 
-1. Fai clic su **Crea** \> **Argomento DITA**.
+1. Clic **Crea** \> **Argomento DITA**.
 
 1. Nella pagina Blueprint, seleziona il modello di file DITAVAL e fai clic su **Successivo**.
 
-1. Nella pagina Proprietà , specifica l’ **Titolo** e **Nome** per il file DITAVAL.
+1. Nella pagina Proprietà, specifica **Titolo** e **Nome** per il file DITAVAL.
 
    >[!NOTE]
    >
-   > Il nome viene suggerito automaticamente in base al Titolo del file. Se si desidera specificare manualmente il nome del file, assicurarsi che il Nome non contenga spazi, apostrofo o parentesi graffe e termini con .ditaval.
+   > Il nome viene suggerito automaticamente in base al Titolo del file. Se si desidera specificare manualmente il nome del file, assicurarsi che il nome non contenga spazi, apostrofi o parentesi graffe e che termini con .ditaval.
 
-1. Fai clic su **Crea**. Viene visualizzato il messaggio Argomento creato.
+1. Fai clic su **Crea**. Viene visualizzato il messaggio Topic Created (Creazione argomento).
 
-   È possibile scegliere di aprire il file DITAVAL per la modifica nell&#39;editor DITAVAL o salvare il file argomento nell&#39;archivio AEM.
+   Potete scegliere di aprire il file DITAVAL per la modifica nell&#39;editor DITAVAL o salvare il file dell&#39;argomento nel repository AEM.
 
 
-## Modifica file DIAVAL
+## Modifica file DITAVAL
 
-Esegui i seguenti passaggi per modificare un file DITAVAL:
+Per modificare un file DITAVAL, effettuare le seguenti operazioni:
 
-1. Nell’interfaccia utente Assets, individua il file DIAVAL da modificare.
+1. Nell’interfaccia utente Assets, individua il file DITAVAL da modificare.
 
 1. Per bloccare il file in modo esclusivo, selezionarlo e fare clic su **Estrai**.
 
-1. Seleziona il file e fai clic su **Modifica** per aprire il file nell’editor AEM Guide DIAVAL.
+1. Seleziona il file e fai clic su **Modifica** per aprire il file nell&#39;editor DITAVAL delle guide AEM.
 
-   L&#39;editor DITAVAL ti consente di eseguire le seguenti attività:
+   L&#39;editor DITAVAL consente di eseguire le seguenti operazioni:
 
-   R: Attiva/Disattiva pannello a sinistra Attiva/disattiva la visualizzazione del pannello a sinistra. Se il file DITAVAL è stato aperto tramite la mappa DITA, la mappa e il repository sono visualizzati in questo pannello. Per ulteriori informazioni sull&#39;apertura di un file tramite mappa DITA, vedere [Modifica argomenti tramite mappa DITA](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
+   A: Attiva/disattiva pannello sinistro Attiva/disattiva la visualizzazione del pannello sinistro. Se avete aperto il file DITAVAL tramite mappa DITA, la mappa e l&#39;archivio vengono visualizzati in questo pannello. Per ulteriori informazioni sull&#39;apertura di un file tramite una mappa DITA, vedere [Modifica argomenti tramite mappa DITA](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
 
-   B: Salva Salva Salva le modifiche apportate nel file. Tutte le modifiche vengono salvate nella versione corrente del file.
+   B: Salva Salva le modifiche apportate nel file. Tutte le modifiche vengono salvate nella versione corrente del file.
 
    C: Aggiungi proprietà Aggiungi una singola proprietà nel file DITAVAL.
 
    ![](images/ditaval-editor-props.png)
 
-   Il primo elenco a discesa elenca gli attributi DITA consentiti che è possibile utilizzare nel file DITAVAL. Sono disponibili cinque attributi supportati: `audience`, `platform`, `product`, `props`e `otherprops`.
+   Nel primo elenco a discesa sono elencati gli attributi DITA consentiti che è possibile utilizzare nel file DITAVAL. Sono supportati cinque attributi: `audience`, `platform`, `product`, `props`, e `otherprops`.
 
-   Il secondo elenco a discesa mostra i valori configurati per l&#39;attributo selezionato. Quindi, l’elenco a discesa successivo mostra le azioni che puoi configurare sull’attributo selezionato. I valori consentiti nel menu a discesa delle azioni sono: `include`, `exclude`, `passthrough`e `flag`. Per ulteriori informazioni su questi valori, consulta la definizione di [prop](http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/ditaval/ditaval-prop.html#ditaval-prop) elemento nella documentazione DITA OASIS
+   Il secondo elenco a discesa mostra i valori configurati per l’attributo selezionato. Nell&#39;elenco a discesa successivo vengono quindi visualizzate le azioni che è possibile configurare per l&#39;attributo selezionato. I valori consentiti nel menu a discesa delle azioni sono: `include`, `exclude`, `passthrough`, e `flag`. Per ulteriori informazioni su questi valori, consulta la definizione di [prop](http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/ditaval/ditaval-prop.html#ditaval-prop) elemento nella documentazione OASIS DITA
 
-   D: Aggiungi tutte le proprietà Se desideri aggiungere con un solo clic tutte le proprietà o gli attributi condizionali definiti nel sistema, utilizza la funzione Aggiungi tutte le proprietà .
+   D: Aggiungi tutte le proprietà Per aggiungere tutte le proprietà condizionali o gli attributi definiti nel sistema con un solo clic, utilizzare la funzione Aggiungi tutte le proprietà.
 
    >[!NOTE]
    >
-   > Se nel file DITAVAL sono già presenti tutte le proprietà condizionali definite, non è possibile aggiungere altre proprietà. Viene visualizzato un messaggio di errore in questo scenario.
+   > Se tutte le proprietà condizionali definite esistono già nel file DITAVAL, non è possibile aggiungere altre proprietà. Viene visualizzato un messaggio di errore in questo scenario.
 
    ![](images/ditaval-all-props.png)
 
-1. Una volta completata la modifica del file DITAVAL, fai clic su **Salva**.
+1. Dopo aver modificato il file DITAVAL, fare clic su **Salva**.
 
    >[!NOTE]
    >
-   > Se chiudi il file senza salvarlo, le modifiche andranno perse. Se non desideri eseguire il commit delle modifiche AEM archivio, fai clic su **Chiudi**, quindi fai clic su **Chiudi senza salvataggio** in **Modifiche non salvate** finestra di dialogo.
+   > Se si chiude il file senza salvare, le modifiche andranno perse. Se non desideri confermare le modifiche nell’archivio AEM, fai clic su **Chiudi** e quindi fare clic su **Chiudi senza salvare** nel **Modifiche non salvate** .
 
 
-## Visualizzazioni dell&#39;editor DITAVAL
+## Visualizzazioni dell’editor DITAVAL
 
-L&#39;editor DITAVAL di AEM Guide supporta la visualizzazione di file DITAVAL in due modalità o viste diverse:
+L’editor DITAVAL di AEM Guides supporta la visualizzazione dei file DITAVAL in due diverse modalità o visualizzazioni:
 
-**Autore**: Questa è una tipica visualizzazione What You Get \(WYSISYG\) dell&#39;editor DITAVAL. È possibile aggiungere o rimuovere proprietà utilizzando la semplice interfaccia utente, che presenta le proprietà, i valori e le azioni nell’elenco a discesa. Nella visualizzazione Autore sono disponibili le opzioni per inserire una singola proprietà e inserire tutte le proprietà con un solo clic.
+**Autore**: questa è una tipica visualizzazione di What You See is What You Get \(WYSISYG\) dell’editor DITAVAL. Puoi aggiungere o rimuovere proprietà utilizzando la semplice interfaccia utente, che presenta le proprietà, i relativi valori e le azioni nell’elenco a discesa. Nella vista Autore sono disponibili le opzioni per inserire una singola proprietà e tutte le proprietà con un solo clic.
 
-Puoi anche trovare la versione del file DITAVAL su cui stai lavorando passando il puntatore del mouse sul nome del file.
+Per trovare la versione del file DITAVAL su cui si sta attualmente lavorando, posizionare il puntatore del mouse sul nome del file.
 
-**Origine**: Nella visualizzazione Origine viene visualizzato il codice XML sottostante che costituisce il file DITAVAL. Oltre a apportare modifiche regolari al testo in questa visualizzazione, un autore può anche aggiungere o modificare proprietà utilizzando lo Smart Catalog.
+**Sorgente**: nella vista Origine viene visualizzato il codice XML sottostante che costituisce il file DITAVAL. Oltre a eseguire modifiche regolari del testo in questa visualizzazione, un autore può anche aggiungere o modificare proprietà utilizzando Smart Catalog.
 
-Per richiamare il Catalogo avanzato, posiziona il cursore alla fine di qualsiasi definizione di proprietà e immetti &quot;&lt;&quot;. L&#39;editor mostrerà un elenco di tutti gli elementi XML validi che è possibile inserire in tale posizione.
+Per richiamare lo Smart Catalog, posizionare il cursore alla fine di qualsiasi definizione di proprietà e immettere &quot;&lt;&quot;. Nell&#39;editor verrà visualizzato un elenco di tutti gli elementi XML validi che è possibile inserire in tale posizione.
 
 ![](images/ditaval-source-view.png)
 

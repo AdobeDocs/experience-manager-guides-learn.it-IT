@@ -11,102 +11,102 @@ ht-degree: 2%
 
 # Pubblicazione in blocco
 
-Quando si pubblica, spesso è necessario disporre di più tipi di documentazione. Utilizzando le raccolte mappa puoi controllare il numero e i tipi di output che verranno assemblati e generati e avviare la pubblicazione in blocco. Il dashboard di pubblicazione consente di visualizzare i lavori di pubblicazione attivi. Il dashboard Pubblicazione in blocco consente di attivare le raccolte in blocco.
+Quando si pubblica un documento, spesso è necessario più di un tipo di documentazione. Utilizzando Map Collections (Raccolte mappe) puoi controllare il numero e i tipi di output che verranno assemblati e generati e avviare la pubblicazione in blocco. Il dashboard di pubblicazione consente di visualizzare i processi di pubblicazione attivi. Il dashboard Pubblicazione in blocco consente di attivare in blocco le raccolte.
 
 >[!VIDEO](https://video.tv.adobe.com/v/338985?quality=12&learn=on)
 
-## Utilizzo delle raccolte mappa
+## Utilizzo delle raccolte di mappe
 
-Utilizzando Raccolte mappa, puoi controllare i tipi di output che verranno generati per una o più mappe.
+Utilizzando Raccolte mappe, puoi controllare i tipi di output che verranno generati per una o più mappe.
 
-### Creare raccolte mappa
+### Creare raccolte mappe
 
-1. Scegliere **Risorse**.
+1. Nel menu Navigazione, fare clic su **Risorse**.
 
-1. Selezionare Mappa raccolte.
-
-1. Fai clic su **Crea**.
-
-1. Digita un titolo della raccolta.
-
-   ![Raccolta mappe](images/map-collection.png)
+1. Seleziona Mappa raccolte.
 
 1. Fai clic su **Crea**.
-1. Chiudi il messaggio di successo.
 
-1. Apri la raccolta mappa (fai clic sulla sezione grigia sotto la tessera)
+1. Digita un titolo per la raccolta.
 
-1. Fai clic su **Modifica**.
+   ![Map-Collection](images/map-collection.png)
 
-1. Aggiungi le mappe come necessario.
+1. Fai clic su **Crea**.
+1. Chiudi il messaggio di operazione riuscita.
+
+1. Apri la raccolta di mappe (fai clic sulla sezione grigia sotto il riquadro).
+
+1. Clic **Modifica**.
+
+1. Aggiungi le mappe come richiesto.
 
 1. Seleziona o deseleziona **Predefiniti di output** per ogni mappa.
-1. Fai clic su **Fine**.
+1. Clic **Fine**.
 
-### Filtrare i predefiniti mappa
+### Filtraggio dei predefiniti per mappe
 
-1. Apri un predefinito mappa.
+1. Apri un predefinito per mappe.
 
 1. Sotto **Filtro** espandi e seleziona le opzioni in base alle esigenze.
 
-### Generazione di contenuti in una raccolta mappa
+### Generazione di contenuto in una raccolta mappa
 
-1. Apri un predefinito mappa.
+1. Apri un predefinito per mappe.
 
 1. Se lo desideri, fai clic su **Genera tutto**.
 
 1. OPPURE, seleziona le mappe e i tipi di output da generare e fai clic su **Genera selezionati**.
 
-1. Se necessario, passa alla scheda Output .
+1. Se necessario, passare alla scheda Output.
 
-1. Esamina l&#39;output.
+1. Rivedi l’output.
 
-## Visualizzazione dei lavori di pubblicazione attivi nel dashboard di pubblicazione
+## Visualizzazione dei processi di pubblicazione attivi nel dashboard di pubblicazione
 
-Il dashboard di pubblicazione consente di visualizzare i lavori di pubblicazione attivi. Mostra un elenco dinamico di mappe e il loro stato corrente. Puoi tenere traccia, gestire o annullare i flussi di lavoro di pubblicazione.
+Il dashboard di pubblicazione consente di visualizzare i processi di pubblicazione attivi. Mostra un elenco dinamico di mappe e il loro stato corrente. Puoi tenere traccia, gestire o annullare i flussi di lavoro di pubblicazione.
 
-1. Nella visualizzazione Navigazione, fai clic sul pulsante **Strumenti** icona.
+1. In visualizzazione Struttura fare clic sul pulsante **Strumenti** icona.
 
 1. Clic **[!DNL Guides]**.
 
-1. Seleziona la **Pubblica dashboard** piastrelle.
+1. Seleziona la **Pubblica dashboard** affiancare.
 
-       Se il dashboard è vuoto, non sono in esecuzione processi di pubblicazione.
+       Se il dashboard è vuoto, non ci sono processi di pubblicazione in esecuzione.
        
    
 1. Filtra il dashboard in base alle esigenze per visualizzare tutti i processi di pubblicazione.
 
-### Utilizzo del dashboard Pubblicazione in blocco
+### Utilizzo del dashboard di pubblicazione in blocco
 
-Il dashboard di pubblicazione in blocco consente di lavorare con le raccolte di attivazione in blocco e di controllare più tipi di output.
+Il dashboard Pubblicazione in blocco consente di utilizzare le raccolte di attivazione in blocco e di controllare più tipi di output.
 
 ### Creazione di una raccolta di attivazione in blocco
 
-1. Nella visualizzazione Navigazione, fai clic sul pulsante **Strumenti** icona.
+1. In visualizzazione Struttura fare clic sul pulsante **Strumenti** icona.
 
 1. Clic **[!DNL Guides]**.
 
-1. Seleziona la **Dashboard di pubblicazione in blocco** piastrelle.
+1. Seleziona la **Dashboard pubblicazione in blocco** affiancare.
 
-1. Digita un titolo della raccolta.
+1. Digita un titolo per la raccolta.
 
 1. Fai clic su **Crea**.
 
-1. Fai clic su **Apri**.
+1. Clic **Apri**.
 
-1. Apri la raccolta mappa (fai clic sulla sezione grigia sotto la tessera)
+1. Apri la raccolta di mappe (fai clic sulla sezione grigia sotto il riquadro).
 
-1. Fai clic su **Modifica**.
+1. Clic **Modifica**.
 
-1. Aggiungi le mappe come necessario.
+1. Aggiungi le mappe come richiesto.
 
 1. Seleziona o deseleziona **Predefiniti di output** per ogni mappa.
-1. Fai clic su **Fine**.
-1. Al termine, chiudi la raccolta mappa.
+1. Clic **Fine**.
+1. Al termine, chiudi la raccolta di mappe.
 
-### Pubblicazione rapida di una raccolta di attivazione in blocco
+### Pubblicazione rapida di una raccolta per attivazione in blocco
 
-1. Seleziona un riquadro della raccolta di attivazione in blocco.
-1. Fai clic su **Apri**.
+1. Seleziona un riquadro Raccolta attivazione in blocco.
+1. Clic **Apri**.
 1. Seleziona una o più mappe.
-1. Fai clic su **Pubblicazione rapida**.
+1. Clic **Pubblicazione rapida**.

@@ -5,7 +5,7 @@ exl-id: ab051c14-5c1e-4685-89e8-3c90dff9ea5e
 source-git-commit: 3d12389dbd7458a74bb9b9ec488e83bf39c8c9bf
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -28,7 +28,7 @@ In questa sessione imparerai a creare, pubblicare e gestire i contenuti utilizza
 - **Durata** - 60 minuti
 - **Pubblico** - Clienti, partner e dipendenti Adobi
 
-## Punti chiave da eliminare
+## Elementi principali da ricordare
 
 In questa sessione imparerai quanto segue:
 - Configurare le impostazioni per l’editor web

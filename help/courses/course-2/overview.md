@@ -11,13 +11,13 @@ ht-degree: 2%
 
 # Panoramica
 
-In questo corso imparerai a effettuare le seguenti operazioni:
+In questo corso imparerai a eseguire le seguenti operazioni:
 
-- [Comprendere il dashboard mappa](./introduction-to-the-map-dashboard.md)
+- [Comprendere il dashboard della mappa](./introduction-to-the-map-dashboard.md)
 - [Utilizzare i rapporti](./working-with-reports.md)
-- [Creare e pubblicare con le linee di base](./creating-and-publishing-with-baselines.md)
+- [Creare e pubblicare con le baseline](./creating-and-publishing-with-baselines.md)
 - [Pubblica con condizioni](./publishing-with-conditions.md)
 - [Comprendere i predefiniti di output](./output-presets.md)
 - [Risoluzione dei problemi di pubblicazione](./troubleshooting-publishing-errors.md)
 - [Pubblicazione in blocco](./bulk-publishing.md)
-- [Raccoglitore](./recap.md)
+- [Riassunto](./recap.md)

@@ -1,6 +1,6 @@
 ---
-title: Note sulla versione | Guide Adobe Experience Manager as a Cloud Service, agosto 2022
-description: Rilascio di agosto delle guide di Adobe Experience Manager as a Cloud Service
+title: Note sulla versione | Adobe Experience Manager Guides as a Cloud Service, versione di agosto 2022
+description: Versione di agosto di Adobe Experience Manager Guides as a Cloud Service
 exl-id: a01bfe8a-4715-438c-bb94-aa1d31f6662d
 source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
@@ -9,31 +9,31 @@ ht-degree: 2%
 
 ---
 
-# Rilascio di agosto delle guide di Adobe Experience Manager as a Cloud Service
+# Versione di agosto di Adobe Experience Manager Guides as a Cloud Service
 
-## Aggiornamento alla versione di agosto
+## Effettua l’aggiornamento alla versione di agosto
 
-Aggiorna le guide correnti di Adobe Experience Manager as a Cloud Service (in seguito denominate *Guide AEM as a Cloud Service*) eseguendo le seguenti operazioni:
-1. Controlla il codice Git dei Cloud Services e passa al ramo configurato nella pipeline dei Cloud Services corrispondente all’ambiente da aggiornare.
-1. Aggiorna `<dox.version>` proprietà in `/dox/dox.installer/pom.xml` file dei tuoi Cloud Services Codice Git a 2022.8.167.
-1. Conferma le modifiche ed esegui la pipeline dei Cloud Services per eseguire l’aggiornamento alla versione di agosto di AEM Guide as a Cloud Service.
+Aggiorna le guide Adobe Experience Manager as a Cloud Service correnti (in seguito denominate *Guide AEM as a Cloud Service*) eseguendo i seguenti passaggi:
+1. Consulta il codice Git del Cloud Services e passa al ramo configurato nella pipeline dei Cloud Services corrispondente all’ambiente da aggiornare.
+1. Aggiorna `<dox.version>` proprietà in `/dox/dox.installer/pom.xml` file del codice Git dei tuoi Cloud Services in 2022.8.167.
+1. Apporta le modifiche ed esegui la pipeline dei Cloud Services per l’aggiornamento alla versione di agosto dell’as a Cloud Service AEM Guides.
 
 ## Matrice di compatibilità
 
-In questa sezione viene elencata la matrice di compatibilità per le applicazioni software supportate dalle AEM Guide as a Cloud Service nella versione di agosto 2022.
+In questa sezione è elencata la matrice di compatibilità per le applicazioni software supportate dalla versione di agosto 2022 delle guide AEM as a Cloud Service.
 
-### FrameMaker e FrameMaker Publishing Server
+### Server di pubblicazione FrameMaker e FrameMaker
 
 | FMPS | FrameMaker |
 | --- | --- |
-| Non compatibile | Aggiornamento 4 e superiore del 2020 |
+| Non compatibile | Aggiornamento 2020 4 e versioni successive |
 |  |  |
 
-*La linea di base e le condizioni create in AEM sono supportate nelle versioni FMPS a partire dal 2020.2.
+*Le condizioni di base e quelle create nell’AEM sono supportate nelle versioni di FMPS a partire dal 2020.2.
 
-### Connettore dell&#39;ossigeno
+### Connettore ossigeno
 
-| AEM guide as a Cloud Release | Finestre del connettore dell&#39;ossigeno | Mac connettore ossigeno |
+| Versione di AEM Guides as a Cloud | Finestre del connettore dell&#39;ossigeno | Connettore di ossigeno Mac |
 | --- | --- | --- |
 | 2022.8.0 | 2.7.5 | 2.7.5 |
 |  |  |  |
@@ -41,91 +41,91 @@ In questa sezione viene elencata la matrice di compatibilità per le applicazion
 
 ## Nuove funzioni e miglioramenti
 
-AEM guide as a Cloud Service offre numerosi miglioramenti e nuove funzioni nella versione di agosto:
+AEM Guides as a Cloud Service fornisce molti miglioramenti e nuove funzioni nella versione di agosto:
 
-### Visualizzazione Layout nell’Editor mappa
+### Vista Layout nell’Editor mappa
 
-Ora è possibile visualizzare il layout completo di una mappa DITA nell&#39;Editor mappa. Quando apri una mappa per la modifica, viene aperta la **Layout** vista dell’Editor mappa. In questa visualizzazione è possibile visualizzare la gerarchia delle mappe in una vista ad albero e organizzare o strutturare gli argomenti in una mappa.
+Ora è possibile visualizzare il layout completo di una mappa DITA nell&#39;Editor mappe. Quando apri una mappa per la modifica, questa apre **Layout** visualizzazione dell&#39;Editor mappa. In questa visualizzazione è possibile visualizzare la gerarchia delle mappe in una visualizzazione struttura, nonché organizzare o strutturare gli argomenti in una mappa.
 
-![visualizzazione layout](assets/layout-view-map.png)
+![vista layout](assets/layout-view-map.png)
 
-La visualizzazione Layout contiene una barra degli strumenti separata che consente di eseguire molte attività sugli argomenti presenti in una mappa.
-È possibile inserire riferimenti ad argomenti, gruppi di argomenti, definizioni di chiavi in una mappa. È possibile riorganizzare gli argomenti presenti in una mappa spostandoli verso l’alto, verso il basso, verso sinistra o verso destra. Puoi anche trascinare gli argomenti per spostarli in una mappa. L’Editor mappa fornisce inoltre le icone per bloccare o sbloccare i file, controllare la cronologia delle versioni e eseguire una gestione delle etichette delle versioni.
+La vista Layout contiene una barra degli strumenti separata che consente di eseguire molte attività sugli argomenti presenti in una mappa.
+È possibile inserire riferimenti ad argomenti, gruppi di argomenti e definizioni chiave in una mappa. È possibile riorganizzare gli argomenti presenti in una mappa spostandoli verso l&#39;alto, verso il basso, a sinistra o a destra. È inoltre possibile trascinare gli argomenti per spostarli in una mappa. L&#39;Editor mappe fornisce anche le icone per bloccare o sbloccare i file, controllare la cronologia delle versioni ed eseguire una gestione delle etichette delle versioni.
 
 
-La vista Layout fornisce anche la **Opzioni di visualizzazione** per visualizzare o nascondere il numero di riga, mostrare o nascondere la casella di controllo o mostrare il nome o il titolo del file per gli argomenti in una mappa.
+La vista Layout fornisce anche **Opzioni di visualizzazione** per mostrare o nascondere il numero di riga, visualizzare o nascondere una casella di controllo o mostrare il nome o il titolo del file per gli argomenti di una mappa.
 
 
 ![view-options](assets/view-options.png)
 
 Puoi anche visualizzare gli argomenti in base ai filtri condizionali applicati.
 
-Oltre a organizzare gli argomenti nel file di mappa, è anche possibile aggiungere, spostare, copiare, incollare o eliminare riferimenti utilizzando il **Opzioni** menu disponibile per un elemento nella vista Layout. Puoi anche trascinare un argomento o una mappa dal pannello archivio alla mappa aperta nell’Editor mappa.
+Oltre ad organizzare gli argomenti nel file mappa, è possibile aggiungere, spostare, copiare, incollare o eliminare riferimenti utilizzando **Opzioni** disponibile per un elemento nella visualizzazione Layout. Puoi anche trascinare un argomento o una mappa dal pannello dell’archivio alla mappa aperta nell’Editor mappe.
 
-Il pannello a destra visualizza le proprietà del contenuto e le proprietà della mappa nella vista Layout dell’Editor mappa. Gli Attributi in linea definiti per l’argomento selezionato vengono visualizzati rispetto all’argomento nella vista Layout. Ad esempio, puoi trovare rapidamente tutti gli argomenti con l’attributo platform definito come `IOS`.
+Nel pannello di destra vengono visualizzate le Proprietà contenuto e le Proprietà mappa nella vista Layout dell’Editor mappa. Gli attributi in linea definiti per l&#39;argomento selezionato vengono visualizzati rispetto all&#39;argomento nella vista Layout. Ad esempio, puoi trovare rapidamente tutti gli argomenti per i quali l’attributo platform è definito come `IOS`.
 
-Ora è anche possibile impostare le informazioni sui metadati per gli argomenti o la mappa. Puoi definire il Titolo della barra di navigazione, Testo collegamento, Descrizione breve e Parole chiave per l’argomento o la mappa selezionati.
+Ora è anche possibile impostare le informazioni sui metadati per gli argomenti o la mappa. È possibile definire il Titolo navigazione, il Testo collegamento, la Descrizione breve e le Parole chiave per l&#39;argomento o la mappa selezionata.
 
-![pannello a destra della visualizzazione layout](assets/layout-inline-attributes.png)
+![pannello destro vista layout](assets/layout-inline-attributes.png)
 
-Per ulteriori dettagli, consulta *Visualizzazione Layout* in Utilizzo delle guide di Adobe Experience Manager as a Cloud Service.
+Per ulteriori dettagli, consulta *Vista Layout* in Utilizzo delle guide di Adobe Experience Manager as a Cloud Service.
 
 ### Attributi in linea nelle impostazioni dell’editor
 
-AEM Guide consente ora la configurazione di **Attributi in linea** da parte dell&#39;amministratore **Impostazioni editor**. Puoi anche aggiungere nuovi attributi in linea o eliminare quelli esistenti dal **Attributi in linea** in Impostazioni editor.
-Gli Attributi in linea configurati per un argomento vengono visualizzati rispetto all’argomento nella visualizzazione Layout.
+Le guide AEM consentono ora la configurazione di **Attributi in linea** dall&#39;amministratore di **Impostazioni editor**. Puoi anche aggiungere nuovi attributi in linea o eliminare quelli esistenti dalla sezione **Attributi in linea** nelle Impostazioni dell’editor.
+Gli attributi in linea configurati definiti per un argomento vengono visualizzati rispetto all&#39;argomento nella vista Layout.
 
 ![Impostazioni editor](assets/editor-settings-inline-attributes.png)
 
 
 ### Filtri aggiuntivi nella vista Archivio
 
-Ora la ricerca del filtro nella visualizzazione archivio è stata resa più efficace. Due nuovi criteri di ricerca, **Ultima modifica** e **Tag** sono stati aggiunti per filtrare i file e limitare la ricerca nell’archivio AEM:
-* **Ultima modifica**: È possibile cercare i file che sono stati modificati per l’ultima volta dopo una data selezionata ma prima di una data selezionata. È inoltre possibile utilizzare i criteri predefiniti e cercare i file modificati per l’ultima volta nelle ultime 2 ore, la settimana scorsa, il mese scorso o l’anno scorso.
-* **Tag**: Puoi anche cercare i file a cui sono stati applicati tag specifici. Puoi digitare il tag o selezionarlo dall’elenco a discesa.
+Ora la ricerca del filtro nella vista archivio è stata resa più potente. Due nuovi criteri di ricerca, **Ultima modifica** e **Tag** Sono stati aggiunti per filtrare i file e restringere la ricerca nell’archivio AEM:
+* **Ultima modifica**: puoi cercare i file che sono stati modificati l’ultima volta dopo una data selezionata, ma prima di una data selezionata. Puoi anche utilizzare i criteri predefiniti e cercare i file che sono stati modificati l’ultima volta nelle ultime 2 ore, l’ultima settimana, l’ultimo mese o l’ultimo anno.
+* **Tag**: puoi anche cercare i file a cui sono applicati tag specifici. Puoi digitare il tag o selezionarlo dall’elenco a discesa.
 
-![Filtri per la visualizzazione archivio](assets/repo-filter-search.png)
+![Filtri di visualizzazione dell’archivio](assets/repo-filter-search.png)
 
 
 ## Problemi risolti
 
-I bug corretti in varie aree sono elencati di seguito:
+Di seguito sono elencati i bug risolti in varie aree:
 
-* L&#39;indice Lucene obsoleto viene utilizzato in /core/article-publish/src/main/java/com/adobe/dxml/article/publish/util/DoxUtils.java (9291)
-* Node.js aggiornato non viene utilizzato per la pubblicazione. (9835)
+* L’indice Lucene obsoleto è utilizzato in /core/article-publish/src/main/java/com/adobe/dxml/article/publish/util/DoxUtils.java (9291)
+* Il file Node.js aggiornato non viene utilizzato per la pubblicazione. (9835)
 * L&#39;argomento DITA non viene aggiornato automaticamente con le modifiche apportate al **Proprietà** pagina. (8745)
-* L&#39;elemento Frontsubject aggiunto a una libreria DITA non funziona correttamente. (9507)
-* PDF nativo | Viene generato un PDF vuoto utilizzando **Generazione rapida** per più file quando viene selezionato un elemento vuoto. (9822)
-* PDF nativo | L&#39;appendice è pubblicata come capitolo nell&#39;output PDF. (9829)
-* PDF nativo | Quando un’immagine di SVG viene modificata, non viene visualizzata aggiornata nel layout di pagina. (9069)
-* Un carattere trattino normale viene inserito quando viene inserito un `Nonbreaking Hyphen` viene inserito utilizzando **Inserisci carattere speciale** finestra di dialogo. (8919)
+* L&#39;elemento Frontmatter aggiunto a una bookmap DITA non funziona correttamente. (9507)
+* Native PDF | Viene generato un PDF vuoto quando si utilizza **Generazione rapida** per più file quando viene selezionato un elemento vuoto. (9822)
+* Native PDF | L’appendice è pubblicata come capitolo nell’output PDF. (9829)
+* Native PDF | Quando si modifica un’immagine SVG, questa non viene visualizzata come aggiornata nel layout della pagina. (9069)
+* Un carattere trattino regolare viene inserito quando `Nonbreaking Hyphen` viene inserito utilizzando il **Inserisci carattere speciale** . (8919)
 * XML Editor non mostra le immagini aggiornate negli argomenti se sono state modificate. (9500)
-* Durante la pubblicazione dell’output tramite l’editor, i predefiniti non possono essere eliminati dal **Uscita** scheda . (9100)
-* Le mappe secondarie di una mappa DITA non vengono estratte utilizzando la **Seleziona tutto** dal menu dei puntini di sospensione. (9814)
-* Impossibile trascinare la mappa o i modelli di argomento dal **Modelli** al modello di mappa personalizzato nell&#39;editor Web. (9846)
-* Impossibile creare un nuovo argomento o un modello di mappa nella sottocartella di una mappa o di un modello di argomento. (9888)
+* Durante la pubblicazione dell’output tramite l’Editor, i predefiniti non possono essere eliminati dal **Output** scheda. (9100)
+* Le mappe secondarie di una mappa DITA non vengono estratte utilizzando **Seleziona tutto** dal menu con i puntini di sospensione. (9814)
+* Impossibile trascinare i modelli di mappa o argomenti dalla **Modelli** al modello di mappa personalizzato nell’editor web. (9846)
+* Impossibile creare un nuovo argomento o modello di mappa nella sottocartella di una mappa o di un modello di argomento. (9888)
 * Non è presente alcuna opzione per sfogliare gli argomenti o le mappe presenti nelle sottocartelle di una mappa o di un modello di argomento. (9889)
 * Quando un file Schematron viene aggiornato e salvato insieme al file DITA, il pannello di destra non viene visualizzato (se il file DITA interrompe le convalide presenti nel file Schematron). (9986)
-* È possibile creare un nuovo predefinito di output duplicato se il nome è lo stesso di un predefinito esistente. (9997)
-* Le immagini di SVG vengono danneggiate e non vengono pubblicate correttamente durante la generazione dell&#39;output di HTML. (9949)
+* È possibile creare un nuovo predefinito di output duplicato se il suo nome è uguale a quello di un predefinito esistente. (9997)
+* Le immagini SVG vengono danneggiate e non vengono pubblicate correttamente al momento della generazione dell’output HTML. (9949)
 
 
 ## Problemi noti
 
-Adobe ha identificato i seguenti problemi noti per la versione di AEM Guide as a Cloud Service nell’agosto 2022.
+L’Adobe ha identificato i seguenti problemi noti per la versione as a Cloud Service di agosto 2022 delle guide AEM.
 
-### Problemi noti con la soluzione alternativa
+### Problemi noti relativi alla soluzione alternativa
 
-Utilizza la soluzione alternativa indicata per i seguenti problemi noti:
+Utilizza la soluzione alternativa specificata per i seguenti problemi noti:
 
-* La visualizzazione Layout non è visibile nell’Editor mappa.
+* La vista Layout non è visibile nell&#39;Editor mappa.
 
-   **Soluzione alternativa**: Aggiorna il file ui_config.json nel profilo della cartella.
+   **Soluzione alternativa**: aggiorna ui_config.json nel Profilo cartella.
 
-* Il problema 8919 si verifica.
+* Symbols.json viene sovrascritto, quindi si verifica il problema 8919.
 
-   **Soluzione alternativa**: L’aggiornamento di simboli.json deve essere unito a simboli.json con override.
+   **Soluzione alternativa**: i file symbols.json aggiornati devono essere uniti con i file symbol.json sostituiti.
 
 ### Altri problemi noti
 
-* Se sono selezionati più file dalla sezione dei risultati visualizzata durante l&#39;esecuzione di una ricerca nell&#39;archivio e quindi trascinati nella visualizzazione dell&#39;autore, viene aggiunto solo un file singolo.
+* Se si selezionano più file dalla sezione dei risultati visualizzata durante l’esecuzione di una ricerca nel repository e quindi si trascina la selezione nella vista di authoring, viene aggiunto un solo file.

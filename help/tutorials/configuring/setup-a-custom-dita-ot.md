@@ -1,5 +1,5 @@
 ---
-title: Imposta DITA-OT personalizzato in [!DNL AEM Guides]
+title: Configurazione DITA-OT personalizzato in [!DNL AEM Guides]
 description: Scopri come impostare DITA-OT personalizzato in [!DNL Adobe Experience Manager Guides]
 role: Admin
 exl-id: f479c2cf-5b8b-4517-be97-81303468007a
@@ -10,18 +10,18 @@ ht-degree: 0%
 
 ---
 
-# Imposta DITA-OT personalizzato in [!DNL AEM Guides] per AEM
+# Configurazione DITA-OT personalizzato in [!DNL AEM Guides] per AEM
 
-I passaggi per aggiungere un DITA-OT personalizzato sono documentati nella sezione . _Utilizzare plug-in DITA-OT personalizzati_ del _Guida all’installazione e alla configurazione_.
+I passaggi per aggiungere un DITA-OT personalizzato sono documentati nella sezione _Usa plug-in DITA-OT personalizzati_ del _Guida all’installazione e alla configurazione_.
 
-Ad alto livello i passaggi sono i seguenti:
+Ad alto livello, i passaggi sono i seguenti:
 
-+ Ottenere la DITA-OT di base
-   + Se si desidera ottenere una copia di DITA-OT preconfigurato da [!DNL AEM Guides], scaricalo dal percorso `/etc/fmdita/dita_resources/DITA-OT.zip`
-   + Se desideri ottenere una versione diversa, puoi scaricare da [repo dita-to](https://www.dita-ot.org/download)
-+ Apporta modifiche a DITA-OT come [aggiunta di un nuovo plug-in](https://www.dita-ot.org/dev/topics/plugins-installing.html), o personalizzazione dei plug-in esistenti (consulta l’esempio nella sezione link correlati di seguito)
-+ Carica `DITA-OT.zip` ricevuto `/apps/<project-folder>/dita_resources` (si consiglia di creare una cartella di progetto personalizzata)
-+ Aggiungi profilo DITA tramite **[!UICONTROL Strumenti]** > **[!UICONTROL Guide]** > **[!UICONTROL Profili DITA]** (utilizza il percorso DITA-OT in cui viene caricato il DITA-OT personalizzato, fai riferimento alla schermata seguente)
++ Ottieni il DITA-OT di base
+   + Se desideri ottenere una copia di DITA-OT preconfigurato da [!DNL AEM Guides], scaricalo dal percorso `/etc/fmdita/dita_resources/DITA-OT.zip`
+   + Se desideri ottenere una versione diversa puoi scaricare da [repository dita-ot](https://www.dita-ot.org/download)
++ Apporta modifiche a DITA-OT come [aggiunta di un nuovo plug-in](https://www.dita-ot.org/dev/topics/plugins-installing.html), o personalizzazione dei plug-in esistenti (vedi esempio nella sezione collegamenti correlati più avanti)
++ Carica `DITA-OT.zip` ricevuto in `/apps/<project-folder>/dita_resources` (si consiglia di creare una cartella di progetto personalizzata)
++ Aggiungi profilo DITA tramite **[!UICONTROL Strumenti]** > **[!UICONTROL Guide]** > **[!UICONTROL Profili DITA]** (utilizzare il percorso DITA-OT in cui viene caricato il DITA-OT personalizzato, fare riferimento alla schermata seguente)
    ![Profili DITA](assets/dita-profile.png)
 
 >[!MORELIKETHIS]

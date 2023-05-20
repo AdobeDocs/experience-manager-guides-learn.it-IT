@@ -1,6 +1,6 @@
 ---
-title: Configurazione dell’Editor AEM Guide
-description: Configurazione dell’editor per AEM Guide
+title: Configurazione editor guide AEM
+description: Configurazione dell’editor per le guide AEM
 exl-id: 437d9598-4afc-431f-81bd-6762e22656b7
 source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
@@ -11,71 +11,71 @@ ht-degree: 0%
 
 # Configurazione editor XML
 
-Se lavori in un ambiente restrittivo, puoi scegliere quali funzioni possono vedere i tuoi autori personalizzando la configurazione dell’editor all’interno di un profilo cartella specifico. L’applicazione di questo profilo cartella può modificare l’aspetto dell’editor stesso, dei modelli CSS, dei frammenti disponibili e delle etichette della versione contenuto.
+Se lavori in un ambiente restrittivo, puoi scegliere quali funzioni gli autori possono visualizzare personalizzando la configurazione dell’editor all’interno di un profilo di cartella specifico. L’applicazione di questo profilo cartella può modificare l’aspetto dell’editor stesso, dei modelli CSS, dei frammenti disponibili e delle etichette di versione del contenuto.
 
-I file di esempio che è possibile scegliere di utilizzare per questa lezione sono forniti nel file [xmleditorconfiguration.zip](assets/xmleditorconfiguration.zip).
+I file di esempio che puoi scegliere di utilizzare per questa lezione sono forniti nel file [xmleditorconfiguration.zip](assets/xmleditorconfiguration.zip).
 
 >[!VIDEO](https://video.tv.adobe.com/v/342762?quality=12&learn=on)
 
 ## Personalizzare la configurazione predefinita dell’interfaccia utente dell’editor
 
-Puoi sempre scaricare la configurazione dell’interfaccia utente predefinita nel sistema locale, apportare modifiche nell’editor di testo desiderato e caricarla nuovamente.
+Puoi sempre scaricare la configurazione dell’interfaccia utente predefinita nel sistema locale, modificarla nell’editor di testo desiderato e caricarla di nuovo.
 
-1. Nella schermata Navigazione, fai clic sul pulsante [!UICONTROL **Strumenti**] icona.
+1. Dalla schermata Navigazione, fai clic su [!UICONTROL **Strumenti**] icona.
 
    ![Icona Strumenti](images/reuse/tools-icon.png)
 
-1. Seleziona **Guide** nel pannello a sinistra.
+1. Seleziona **Guide** nel pannello sinistro.
 
-1. Fai clic sul pulsante [!UICONTROL **Profili cartella**] piastrelle.
+1. Fai clic su [!UICONTROL **Profili cartella**] affiancare.
 
    ![Profili cartella](images/reuse/folder-profiles-tile.png)
 
 1. Seleziona un profilo cartella.
 
-1. Fai clic sul pulsante [!UICONTROL **Configurazione editor XML**] scheda .
+1. Fai clic su [!UICONTROL **Configurazione editor XML**] scheda.
 
-1. Fai clic su [!UICONTROL **Scarica**] Predefinito.
+1. Clic [!UICONTROL **Scarica**] Impostazione predefinita.
 
    ![Scarica predefinito](images/lesson-4/download-default.png)
 
-Ora puoi aprire e modificare il contenuto in un editor di testo. La _Installazione e configurazione delle guide AEM_ La guida contiene esempi su come rimuovere, personalizzare o aggiungere funzioni alla configurazione dell’interfaccia utente.
+Ora puoi aprire e modificare il contenuto in un editor di testo. Il _Installazione e configurazione delle guide AEM_ La Guida contiene esempi di come rimuovere, personalizzare o aggiungere funzioni alla configurazione dell’interfaccia utente.
 
 ## Carica la configurazione dell&#39;interfaccia utente dell&#39;editor XML modificato
 
-Dopo aver personalizzato la configurazione dell’interfaccia utente, puoi caricarla. Tieni presente che un file di configurazione di esempio _ui-config-limited-editor.json_ viene fornito con l’insieme di argomenti di supporto per questa lezione.
+Dopo aver personalizzato la configurazione dell’interfaccia utente, puoi caricarla. Un esempio di file di configurazione _ui-config-restricted-editor.json_ viene fornito con il set di argomenti di supporto per questa lezione.
 
-1. Nel profilo della cartella, fai clic sul pulsante [!UICONTROL **Configurazione editor XML**] scheda .
+1. Nel Profilo cartella, fai clic su [!UICONTROL **Configurazione editor XML**] scheda.
 
-1. In Configurazione dell&#39;interfaccia utente dell&#39;editor XML, fai clic su [!UICONTROL **Carica**].
+1. In Configurazione interfaccia utente editor XML fare clic su [!UICONTROL **Carica**].
 
    ![Caricare](images/lesson-4/upload.png)
 
-1. Fai doppio clic sul file per la configurazione dell’interfaccia utente modificata oppure, come mostrato qui, sul file di esempio fornito.
+1. Fai doppio clic sul file della configurazione dell’interfaccia utente modificata o, come mostrato qui, sul file di esempio fornito.
 
    ![File di configurazione di esempio](images/lesson-4/sample-config-file.png)
 
-1. Fai clic su [!UICONTROL **Salva**] nell’angolo in alto a sinistra dello schermo.
+1. Clic [!UICONTROL **Salva**] nell’angolo in alto a sinistra dello schermo.
 
-Caricamento della configurazione dell&#39;interfaccia utente modificata completato.
+La configurazione dell&#39;interfaccia utente modificata è stata caricata correttamente.
 
 ## Personalizzare il layout del modello CSS
 
 Come per la configurazione dell’interfaccia utente, puoi scaricare il layout del modello CSS. Puoi aprirlo in un editor di testo e apportare modifiche per personalizzare l’aspetto dell’argomento prima di caricarlo.
 
-1. Nella schermata Navigazione, fai clic sul pulsante [!UICONTROL **Strumenti**] icona.
+1. Dalla schermata Navigazione, fai clic su [!UICONTROL **Strumenti**] icona.
 
    ![Icona Strumenti](images/reuse/tools-icon.png)
 
-1. Seleziona **Guide** nel pannello a sinistra.
+1. Seleziona **Guide** nel pannello sinistro.
 
-1. Fai clic sul pulsante [!UICONTROL **Profili cartella**] piastrelle.
+1. Fai clic su [!UICONTROL **Profili cartella**] affiancare.
 
    ![Profili cartella](images/reuse/folder-profiles-tile.png)
 
 1. Seleziona un profilo cartella.
 
-1. Fai clic sul pulsante [!UICONTROL **Configurazione editor XML**] scheda .
+1. Fai clic su [!UICONTROL **Configurazione editor XML**] scheda.
 
 1. In Layout modello CSS, fai clic su [!UICONTROL **Scarica**].
 
@@ -83,91 +83,91 @@ Come per la configurazione dell’interfaccia utente, puoi scaricare il layout d
 
 Ora puoi modificare e salvare il contenuto CSS in un editor di testo.
 
-## Carica il layout del modello CSS modificato
+## Carica il layout modificato del modello CSS
 
-Dopo aver personalizzato il layout del modello CSS, puoi caricarlo. Tieni presente che un file di esempio _css-layout-ONLY-draft-comment-change.css_ viene fornito con l’insieme di argomenti di supporto per questa lezione. Questo file contiene solo la bozza di modifica del commento, mentre _css-layout-draft-comment-change.css_ è l’intero file, disponibile solo a scopo di test o revisione.
+Dopo aver personalizzato il layout del modello CSS, puoi caricarlo. Tieni presente che un file di esempio _css-layout-ONLY-draft-comment-change.css_ viene fornito con il set di argomenti di supporto per questa lezione. Questo file contiene solo la bozza di modifica del commento, mentre _css-layout-draft-comment-change.css_ è l’intero file, disponibile solo a scopo di test o revisione.
 
-1. Nel profilo della cartella, fai clic sul pulsante [!UICONTROL **Configurazione editor XML**] scheda .
+1. Nel Profilo cartella, fai clic su [!UICONTROL **Configurazione editor XML**] scheda.
 
 1. In Layout modello CSS, fai clic su [!UICONTROL **Carica**].
 
    ![Carica CSS](images/lesson-4/upload-css.png)
 
-1. Fai doppio clic sul file per il layout CSS personalizzato o sul file di esempio fornito qui.
+1. Fai doppio clic sul file per il layout CSS personalizzato o sul file di esempio fornito, come mostrato qui.
 
    ![File CSS di esempio](images/lesson-4/sample-css-file.png)
 
-1. Fai clic su [!UICONTROL **Salva**] nell’angolo in alto a sinistra dello schermo.
-Il layout personalizzato del modello CSS è stato caricato correttamente.
+1. Clic [!UICONTROL **Salva**] nell’angolo in alto a sinistra dello schermo.
+Il layout del modello CSS personalizzato è stato caricato correttamente.
 
-## Modificare i frammenti dell’Editor XML
+## Modifica snippet editor XML
 
-Gli snippet sono parti di contenuto riutilizzabili che possono essere specifiche di un prodotto o gruppo. Gli snippet di esempio vengono forniti con i file di supporto per questa lezione.
+I frammenti sono parti di contenuto riutilizzabili che possono essere specifiche per un prodotto o un gruppo. Gli esempi di snippet vengono forniti con i file di supporto per questa lezione.
 
-1. Nella schermata Navigazione, fai clic sul pulsante [!UICONTROL **Strumenti**] icona.
+1. Dalla schermata Navigazione, fai clic su [!UICONTROL **Strumenti**] icona.
 
    ![Icona Strumenti](images/reuse/tools-icon.png)
 
-1. Seleziona **Guide** nel pannello a sinistra.
+1. Seleziona **Guide** nel pannello sinistro.
 
-1. Fai clic sul pulsante [!UICONTROL **Profili cartella**] piastrelle.
+1. Fai clic su [!UICONTROL **Profili cartella**] affiancare.
 
    ![Profili cartella](images/reuse/folder-profiles-tile.png)
 
 1. Seleziona un profilo cartella.
 
-1. Fai clic sul pulsante [!UICONTROL **Configurazione editor XML**] scheda .
+1. Fai clic su [!UICONTROL **Configurazione editor XML**] scheda.
 
-1. In Frammenti editor XML, fai clic su **Carica**.
+1. In Snippet editor XML fare clic su **Carica**.
 
-   ![Caricare snippet](images/lesson-4/upload-snippets.png)
+   ![Carica snippet](images/lesson-4/upload-snippets.png)
 
-1. Scegli i tuoi snippet o utilizza i campioni forniti.
+1. Scegli i tuoi snippet o utilizza gli esempi forniti.
 
    ![Frammento di esempio](images/lesson-4/sample-snippet.png)
 
-1. Fai clic su [!UICONTROL **Salva**] nell’angolo in alto a sinistra dello schermo.
+1. Clic [!UICONTROL **Salva**] nell’angolo in alto a sinistra dello schermo.
 
-Sono stati aggiunti nuovi snippet all’editor.
+I nuovi snippet sono stati aggiunti all&#39;editor.
 
-## Personalizzare le etichette della versione del contenuto XML
+## Personalizza etichette versione contenuto XML
 
-Per impostazione predefinita, gli autori possono creare etichette a loro scelta e associarle a file di argomento. Ciò può portare a diverse variazioni sulla stessa etichetta. Per evitare etichette incoerenti, è inoltre possibile scegliere tra elenchi di etichette predefinite.
+Per impostazione predefinita, gli autori possono creare etichette di propria scelta e associarle ai file di argomento. Questo può portare a diverse varianti sulla stessa etichetta. Per evitare etichette incoerenti, puoi anche scegliere tra elenchi di etichette predefinite.
 
-1. Nella schermata Navigazione, fai clic sul pulsante [!UICONTROL **Strumenti**] icona.
+1. Dalla schermata Navigazione, fai clic su [!UICONTROL **Strumenti**] icona.
 
    ![Icona Strumenti](images/reuse/tools-icon.png)
 
-1. Seleziona **Guide** nel pannello a sinistra.
+1. Seleziona **Guide** nel pannello sinistro.
 
-1. Fai clic sul pulsante [!UICONTROL **Profili cartella**] piastrelle.
+1. Fai clic su [!UICONTROL **Profili cartella**] affiancare.
 
    ![Profili cartella](images/reuse/folder-profiles-tile.png)
 
 1. Seleziona un profilo cartella.
 
-1. Fai clic sul pulsante [!UICONTROL **Configurazione editor XML**] scheda .
+1. Fai clic su [!UICONTROL **Configurazione editor XML**] scheda.
 
-1. In Etichette versione contenuto XML, fai clic su [!UICONTROL **Scarica**].
+1. In Etichette versione contenuto XML fare clic su [!UICONTROL **Scarica**].
 
    ![Etichette di download](images/lesson-4/download-labels.png)
 
-Ora puoi personalizzare le etichette in base alle tue esigenze.
+Ora puoi personalizzare le etichette in base alle esigenze.
 
-## Caricare le etichette della versione del contenuto XML
+## Carica etichette versione contenuto XML
 
-Dopo aver scaricato e modificato le etichette, puoi caricare l’argomento Etichetta versione contenuto XML . È possibile scegliere di utilizzare il file di esempio _label.json_, con l’insieme di argomenti di supporto per questa lezione.
+Dopo aver scaricato e modificato le etichette, è possibile caricare l&#39;argomento Etichetta versione contenuto XML. È possibile scegliere di utilizzare il file di esempio _labels.json_, viene fornito con il set di argomenti di supporto per questa lezione.
 
-1. Nel profilo della cartella, fai clic sul pulsante [!UICONTROL **Configurazione editor XML**] scheda .
+1. Nel Profilo cartella, fai clic su [!UICONTROL **Configurazione editor XML**] scheda.
 
-1. In Etichette versione contenuto XML, fai clic su [!UICONTROL **Carica**].
+1. In Etichette versione contenuto XML fare clic su [!UICONTROL **Carica**].
 
-   ![Caricare etichette](images/lesson-4/upload-labels.png)
+   ![Carica etichette](images/lesson-4/upload-labels.png)
 
-1. Fai doppio clic sul file per le etichette personalizzate o sul file di esempio fornito qui.
+1. Fai doppio clic sul file per le etichette personalizzate o sul file di esempio fornito, come mostrato qui.
 
-   ![File di etichette di esempio](images/lesson-4/sample-labels-file.png)
+   ![File etichette di esempio](images/lesson-4/sample-labels-file.png)
 
-1. Fai clic su [!UICONTROL **Salva**] nell’angolo in alto a sinistra dello schermo.
+1. Clic [!UICONTROL **Salva**] nell’angolo in alto a sinistra dello schermo.
 
-Le etichette della versione del contenuto XML personalizzato sono state caricate.
+Sono state caricate le etichette di versione del contenuto XML personalizzato.

@@ -11,28 +11,28 @@ ht-degree: 3%
 
 # Versione di febbraio di [!DNL Adobe Experience Manager Guides] as a Cloud Service
 
-## Aggiornamento alla versione di febbraio
+## Effettua l’aggiornamento alla versione di febbraio
 
-Aggiorna il tuo [!DNL Adobe Experience Manager Guides] as a Cloud Service (successivamente indicato come [!DNL AEM Guides] as a Cloud Service) eseguendo le seguenti operazioni:
-1. Controlla il codice Git dei Cloud Services e passa al ramo configurato nella pipeline dei Cloud Services corrispondente all’ambiente da aggiornare.
-1. Aggiorna `<dox.version>` proprietà in `/dox/dox.installer/pom.xml` file dei tuoi Cloud Services Codice Git a 2022.2.114.
-1. Conferma le modifiche ed esegui la pipeline dei Cloud Services per eseguire l’aggiornamento alla versione di febbraio di [!DNL AEM Guides] as a Cloud Service.
+Aggiorna il tuo attuale [!DNL Adobe Experience Manager Guides] as a Cloud Service (in seguito denominato [!DNL AEM Guides] as a Cloud Service) eseguendo le seguenti operazioni:
+1. Consulta il codice Git del Cloud Services e passa al ramo configurato nella pipeline dei Cloud Services corrispondente all’ambiente da aggiornare.
+1. Aggiorna `<dox.version>` proprietà in `/dox/dox.installer/pom.xml` file del codice Git dei tuoi Cloud Services in 2022.2.114.
+1. Esegui il commit delle modifiche ed esegui la pipeline dei Cloud Services per l’aggiornamento alla versione di febbraio di [!DNL AEM Guides] as a Cloud Service.
 
 ## Matrice di compatibilità
 
 In questa sezione viene elencata la matrice di compatibilità per le applicazioni software supportate da [!DNL AEM Guides] Versione as a Cloud Service di febbraio 2022.
 
-### FrameMaker e FrameMaker Publishing Server
+### Server di pubblicazione FrameMaker e FrameMaker
 
 | FMPS | FrameMaker |
 | --- | --- |
-| Non compatibile | Aggiornamento 4 e superiore del 2020 |
+| Non compatibile | Aggiornamento 2020 4 e versioni successive |
 |  |  |
 
 
-### Connettore dell&#39;ossigeno
+### Connettore ossigeno
 
-| [!DNL AEM Guides] Versione cloud | Finestre del connettore dell&#39;ossigeno | Mac connettore ossigeno |
+| [!DNL AEM Guides] Versione cloud | Finestre del connettore dell&#39;ossigeno | Connettore di ossigeno Mac |
 | --- | --- | --- |
 | 2022.2.0 | 2.4.0 | 2.4.0 |
 |  |  |  |
@@ -42,80 +42,80 @@ In questa sezione viene elencata la matrice di compatibilità per le applicazion
 
 ### Pubblicazione nativa di PDF
 
-Nella versione di febbraio di [!DNL AEM Guides] as a Cloud Service. È stato introdotto un nuovo motore di pubblicazione con le seguenti funzioni:
+Il supporto per la creazione di un PDF nativo è stato aggiunto anche nella versione di febbraio di [!DNL AEM Guides] as a Cloud Service. È stato introdotto un nuovo motore di pubblicazione con le seguenti caratteristiche:
 * Creare un modello CSS
 * Creare diversi modelli di pagina
-* Modelli Design PDF che includono CSS e modelli di pagina
-* Pubblicare contenuti mappa e argomento in formato PDF
+* Progettare modelli di PDF comprendenti CSS e modelli di pagina
+* Pubblicare contenuti di mappe e argomenti in formato PDF
 
 ### Supporto per il percorso del sito della knowledge base nella pubblicazione basata su articoli
 
-[!DNL AEM Guides] as a Cloud Service fornisce la funzione di pubblicazione basata sugli articoli per generare in modo incrementale un output di uno o più argomenti o pubblicare i contenuti in una piattaforma knowledgebase. Con la versione di febbraio, hai un’opzione aggiuntiva per scegliere il percorso del sito della Knowledge Base al quale l’argomento/mappa deve essere pubblicato. Una volta selezionato il percorso, l&#39;output viene generato nel percorso specificato.
+[!DNL AEM Guides] as a Cloud Service fornisce la funzione di pubblicazione basata su articoli per generare in modo incrementale un output di uno o più argomenti o pubblicare i contenuti su una piattaforma knowledgebase. Con la versione di febbraio, è disponibile un&#39;opzione aggiuntiva per scegliere il percorso del sito della Knowledge Base in cui pubblicare l&#39;argomento o la mappa. Dopo aver selezionato il percorso, l’output viene generato nel percorso specificato.
 
-### Miglioramenti all’editor web
+### Miglioramenti dell’editor web
 
-Sono stati aggiunti molti miglioramenti e nuove funzioni nell’editor web:
+Nell’editor web sono stati aggiunti molti miglioramenti e nuove funzioni:
 
 * **Finestra di dialogo migliorata alla chiusura del file**
 
-[!DNL AEM Guides] Viene richiesto di salvare le modifiche e sbloccare i file bloccati quando si tenta di chiudere un file aperto nell&#39;Editor Web. I prompt vengono visualizzati in base al **Chiedi il check-in alla chiusura** e **Chiedi nuova versione alla chiusura** impostazioni configurate dall&#39;amministratore.
+[!DNL AEM Guides] Quando si tenta di chiudere un file aperto nell&#39;editor Web, as a Cloud Service richiede di salvare le modifiche e sbloccare i file bloccati. I prompt vengono visualizzati in base al **Richiedi il check-in alla chiusura** e **Chiedi nuova versione alla chiusura** configurate dall&#39;amministratore.
 
-In base alla configurazione, è possibile salvare le modifiche e creare una nuova versione del documento. Oppure, puoi anche archiviare il file e salvare le modifiche alla versione corrente.
+In base alla configurazione, è possibile salvare le modifiche e creare una nuova versione del documento. In alternativa, è possibile archiviare il file e salvare le modifiche apportate alla versione corrente.
 
-![File chiuso](assets/file-close-save-changes-unlock.png)
+![Chiusura file](assets/file-close-save-changes-unlock.png)
 
 Per ulteriori dettagli, consulta *Scenari di chiusura e salvataggio dei file* nella Guida utente.
 
-* Al pallet di caratteri è stato aggiunto uno spazio unificatore.  A **ininterrotto** lo spazio impedisce l’interruzione automatica della riga in un particolare punto di un documento HTML. L’editor Web supporta uno spazio unificatore sia per l’output AEM sito che per HTML5.
+* Al pallet dei caratteri è stato aggiunto uno spazio unificatore.  A **non infrangibile** lo spazio impedisce un&#39;interruzione di riga automatica in un punto specifico di un documento HTML. L&#39;editor Web supporta uno spazio unificatore sia per l&#39;output del sito AEM che per quello di HTML5.
 
-* Quando carichi un’immagine dall’Editor web, viene visualizzata una finestra di dialogo di conferma se esiste già un’immagine con lo stesso nome. È possibile mantenere entrambi i file, esistenti e nuovi, oppure sovrascrivere il file esistente e salvare solo il nuovo file.
+* Quando carichi un’immagine dall’editor web, viene visualizzata una finestra di dialogo di conferma se esiste già un’immagine con lo stesso nome. È possibile mantenere entrambi i file, ovvero esistente e nuovo, oppure sovrascrivere il file esistente e salvare solo il nuovo file.
 
-* Se un utente ha bloccato qualsiasi file per le modifiche, un amministratore può rilasciare il blocco e archiviare il file. Questa funzione è utile quando alcuni file devono essere modificati ma sono stati bloccati da utenti che non sono disponibili per il check-in del file
+* Se un utente ha bloccato un file per le modifiche, un amministratore può rilasciare il blocco e archiviare il file. Questa funzionalità risulta utile quando alcuni file devono essere modificati ma sono stati bloccati da utenti non disponibili per l&#39;archiviazione
 
 ### Dashboard mappa
 
-Quando si seleziona per scaricare la mappa DITA, la richiesta viene messa in coda e si riceve una notifica una volta che la mappa è pronta per il download. Puoi scegliere di scaricare il file mappa immediatamente o scaricarlo in un secondo momento dal collegamento fornito nella casella in entrata della notifica AEM.
+Quando si sceglie di scaricare la mappa DITA, la richiesta viene inserita in coda e si riceve una notifica quando la mappa è pronta per il download. Puoi scegliere di scaricare il file mappa immediatamente o in un secondo momento dal collegamento fornito nella casella in entrata delle notifiche AEM.
 
 ![Download mappa](assets/download-map-prompt.png)
 
 ### Recensione
 
-È possibile citare i dettagli nel campo di descrizione dell&#39;attività di revisione, che viene visualizzato nell&#39;e-mail inviata al revisore.
+È possibile indicare i dettagli nel campo descrizione dell&#39;attività di revisione e visualizzarli nell&#39;e-mail inviata al revisore.
 
 ## Problemi risolti
 
-I bug corretti in varie aree sono elencati di seguito:
+Di seguito sono elencati i bug risolti in varie aree:
 
-### Pubblicazione basata su articoli
+### Pubblicazione basata su articolo
 
 * La pubblicazione basata su articoli non pubblica gli articoli in base alla linea di base selezionata. (8771)
 * I file DITAVAL non vengono rispettati nella pubblicazione basata su articoli. (8770)
-* Impossibile eseguire la pubblicazione basata sugli articoli per il profilo Salesforce quando il tipo di record è FAQ e il contenuto del campo articolo è Domanda. (8448)
+* Impossibile eseguire la pubblicazione basata su articolo per il profilo Salesforce quando il tipo di record è Domande frequenti e il contenuto del campo articolo è Domanda. (8448)
 * Impossibile eseguire la pubblicazione basata su articolo per il profilo Salesforce quando il tipo di record è Manuale. (8447)
 
 ### Editor web
 
-* Il trascinamento e il rilascio di una condizione non funziona sugli argomenti DITA. (8761)
-* Non sono disponibili attributi per l&#39;aggiunta di un capitolo nella libreria tramite trascinamento dalla vista Preferiti. (8746)
-* La modifica delle proprietà di un&#39;immagine (altezza, larghezza) causa un errore dell&#39;applicazione. (8722)
-* I collegamenti interrotti non vengono visualizzati nel pannello Struttura nella vista sorgente. (8590)
-* L&#39;editor XML rimuove il tag di nuova riga nel blocco di codice. (8522)
-* L’utilizzo del glossario viene visualizzato come Nota quando viene creata una voce Glossario. (8384)
-* xref non può essere inserito anche in posizioni valide. (8354)
-* L’elenco degli elementi (Alt+Invio) viene visualizzato in grigio nel tema scuro/scuro. (7913)
-* L’elenco dei modelli mappa in **Crea** l&#39;opzione (menu ellissi) del pannello Archivio non corrisponde a **Profilo cartella** in Preferenze utente. (5918)
-* Gli ID elemento non vengono generati automaticamente per gli elementi aggiunti dalla funzione Riutilizza contenuto della barra degli strumenti principale. (5826)
+* Il trascinamento e il rilascio di una condizione non funzionano sugli argomenti DITA. (8761)
+* Attributi mancanti quando si aggiunge un capitolo a una mappa segnalibro mediante trascinamento dalla vista Preferiti. (8746)
+* La modifica delle proprietà di un&#39;immagine (altezza, larghezza) genera un errore di applicazione. (8722)
+* I collegamenti interrotti non vengono visualizzati nel pannello Struttura nella vista origine. (8590)
+* Editor XML rimuove il tag di nuova riga nel blocco di codice. (8522)
+* Glossusage viene visualizzato come Nota quando si crea un Glossentry. (8384)
+* impossibile inserire xref anche in posizioni valide. (8354)
+* L&#39;elenco degli elementi (ALT+INVIO) appare in grigio nel tema scuro/più scuro. (7913)
+* L’elenco dei modelli di mappa in **Crea** option (menu con i puntini di sospensione) del pannello Archivio non è conforme alla **Profilo cartella** in Preferenze utente. (5918)
+* Gli ID degli elementi non vengono generati automaticamente per gli elementi aggiunti dalla funzione Riutilizza contenuto della barra degli strumenti principale. (5826)
 
 ### Interfaccia utente Assets
 
-* La modifica delle immagini non funziona come previsto sul server cloud. (8768)
-* Nel pannello della cronologia delle versioni, la sezione della versione corrente mostra una marca temporale errata e viene modificata dalle informazioni. (8765)
-* Il caricamento di file DITAVAL sul server cloud non riesce quando viene utilizzato lo strumento desktop AEM. (8707)
+* La modifica delle immagini non funziona come previsto nel server cloud. (8768)
+* Nel pannello Cronologia versioni, la sezione della versione corrente mostra una marca temporale errata e informazioni modificate da. (8765)
+* Il caricamento di file DITAVAL sul server cloud non riesce quando si utilizza lo strumento desktop AEM. (8707)
 * Impossibile aggiungere il secondo utente amministratore come primo utente amministratore a una cartella. (8430)
 * Le proprietà non univoche di una risorsa non vengono copiate quando la risorsa viene copiata e incollata. (8241)
 
-### Modifiche all&#39;usabilità
+### Modifiche all’usabilità
 
 * Nel pannello Revisione dell&#39;Editor Web, se un nome utente è lungo, le icone da accettare/rifiutare non vengono visualizzate chiaramente. (8793)
-* In **Trova e sostituisci** , viene visualizzata un’icona indesiderata al passaggio del mouse nella sezione dei risultati. (8775)
-* L’icona Personalizzato non viene selezionata dalla proprietà, ma viene visualizzata l’icona predefinita per i rapporti generati utilizzando il pulsante Genera report . (8573)
+* In **Trova e sostituisci** nella sezione dei risultati viene visualizzata un&#39;icona indesiderata al passaggio del mouse. (8775)
+* L’icona personalizzata non viene selezionata dalla proprietà, ma viene visualizzata l’icona predefinita per i rapporti generati utilizzando il pulsante Genera rapporto. (8573)

@@ -1,5 +1,5 @@
 ---
-title: Tracciare le modifiche
+title: Rileva modifiche
 description: Tracciamento delle modifiche nelle guide AEM
 exl-id: 57779920-b3b4-44be-a1fb-89ea7c89eef7
 source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
@@ -9,23 +9,23 @@ ht-degree: 0%
 
 ---
 
-# Tracciare le modifiche
+# Rileva modifiche
 
-È possibile tenere traccia di tutti gli aggiornamenti apportati a un documento abilitando la modalità di rilevamento delle modifiche. Questa modalità consente a te e al tuo team di acquisire tutti gli inserimenti e le eliminazioni durante il processo di revisione del documento.
+Per tenere traccia di tutti gli aggiornamenti apportati a un documento, attivare la modalità Revisioni. Questa modalità consente a te e al tuo team di acquisire tutti gli inserimenti e le eliminazioni durante il processo di revisione del documento.
 
 >[!VIDEO](https://video.tv.adobe.com/v/342763?quality=12&learn=on)
 
-## Utilizzare la funzione Rileva modifiche
+## Utilizzare la funzione Revisioni
 
-1. Attiva/disattiva la **Tracciare le modifiche** icona della barra degli strumenti per abilitare (o disabilitare) la funzione.
+1. Attiva/disattiva **Rileva modifiche** icona della barra degli strumenti per attivare (o disattivare) la funzione.
 
-   ![Tracciare le modifiche](images/lesson-12/track-changes-icon.png)
+   ![Rileva modifiche](images/lesson-12/track-changes-icon.png)
 
-1. Apporta una modifica all&#39;argomento.
+1. Apportare una modifica nell&#39;argomento.
 
-   Il contenuto aggiunto ora viene visualizzato in verde con una barra delle modifiche. Il contenuto eliminato viene visualizzato in rosso con un barrato.
+   Il contenuto aggiunto ora viene visualizzato in verde con una barra di modifica. Il contenuto eliminato viene visualizzato in rosso barrato.
 
-1. Seleziona la **Modifiche rilevate** a destra per accedere al pannello Modifiche rilevate .
+1. Seleziona la **Modifiche tracciate** sulla destra per accedere al pannello Tracked Changes (Modifiche tracciate).
 
    ![Accetta/Rifiuta tutto](images/lesson-12/accept-reject-all.png)
 
@@ -33,69 +33,69 @@ ht-degree: 0%
 
    ![Icona Salva](images/lesson-12/save-icon.png)
 
-1. Chiudi l’argomento.
+1. Chiudere l&#39;argomento.
 
-Altri utenti possono ora aprire l’argomento e visualizzare le modifiche tracciate esistenti. Possono accettare o rifiutare le modifiche e aggiungere le proprie.
+Gli altri utenti possono ora aprire l’argomento e visualizzare le revisioni esistenti. Possono accettare o rifiutare le modifiche e aggiungerne altre proprie.
 
-## Ricerca modifiche rilevate
+## Cerca revisioni
 
-La funzione di ricerca è utile quando sono presenti molte modifiche tracciate, in quanto lo scorrimento può richiedere molto tempo.
+La funzione di ricerca è utile quando sono presenti molte revisioni, in quanto lo scorrimento delle revisioni può richiedere tempo.
 
-1. Seleziona la **Modifiche rilevate** a destra per accedere al pannello Modifiche rilevate .
+1. Seleziona la **Modifiche tracciate** sulla destra per accedere al pannello Tracked Changes (Modifiche tracciate).
 
-1. Digita una parola o una frase nel campo Ricerca .
-La ricerca restituisce tutte le modifiche corrispondenti alle parole di ricerca.
+1. Digitare una parola o una frase nel campo Ricerca.
+La ricerca restituisce tutte le modifiche che corrispondono alle parole cercate.
 
-## Filtrare le modifiche tracciate
+## Filtrare le revisioni
 
-È inoltre possibile filtrare più modifiche rilevate tramite inserimento, eliminazione o revisore.
+È inoltre possibile filtrare più revisioni per inserimento, eliminazione o revisore.
 
-1. Fai clic sul pulsante [!UICONTROL **Filtro**] nella parte inferiore del pannello Modifiche rilevate.
+1. Fai clic su [!UICONTROL **Filtro**] nella parte inferiore del pannello Tracked Changes (Modifiche tracciate).
 
 1. Seleziona le caselle di controllo per i filtri desiderati.
 
    ![Interfaccia utente filtro](images/lesson-12/filter.png)
 
-1. Fai clic su [!UICONTROL **Applica**].
+1. Clic [!UICONTROL **Applica**].
 
-## Accettare o rifiutare le modifiche tracciate
+## Accetta o rifiuta le revisioni
 
-Revisori ed esperti in materia di argomenti possono accettare o rifiutare le modifiche di altri utenti, singolarmente o tutti insieme.
+I revisori e gli esperti in materia possono accettare o rifiutare le modifiche apportate da altri utenti, singolarmente o contemporaneamente.
 
-1. Fai clic sul pulsante [!UICONTROL **Modifiche rilevate**] a destra per accedere al pannello Modifiche rilevate .
+1. Fai clic su [!UICONTROL **Modifiche tracciate**] sulla destra per accedere al pannello Tracked Changes (Modifiche tracciate).
 
 1. Seleziona una modifica specifica.
 
-1. Fai clic sul pulsante [!UICONTROL **Pollici in alto**] o [!UICONTROL **Pollici verso il basso**] icona associata alla modifica per accettarla o rifiutarla.
+1. Fai clic su [!UICONTROL **Miniature in alto**] o [!UICONTROL **Miniature giù**] per accettare o rifiutare la modifica.
 
-   ![Accetta/Rifiuta interfaccia utente singola](images/lesson-12/accept-reject-single.png)
+   ![Accetta/Rifiuta interfaccia singola](images/lesson-12/accept-reject-single.png)
 
    Oppure
 
-   Fai clic sul pulsante [!UICONTROL **Pollici in alto**] o [!UICONTROL **Pollici verso il basso**] sopra la barra di ricerca per accettare o rifiutare tutte le modifiche.
+   Fai clic su [!UICONTROL **Miniature in alto**] o [!UICONTROL **Miniature giù**] sopra la barra di ricerca per accettare o rifiutare tutte le modifiche.
 
-   ![Accetta/Rifiuta interfaccia utente singola](images/lesson-12/accept-reject-single.png)
+   ![Accetta/Rifiuta interfaccia singola](images/lesson-12/accept-reject-single.png)
 
 1. [!UICONTROL **Salva**] l&#39;argomento.
 
-## Utilizzare la funzione Unisci
+## Utilizzare la funzione di unione
 
-Quando lavori in un ambiente per più autori, può essere difficile tenere traccia delle modifiche apportate da altri autori in un argomento o in una mappa. La funzione Unisci offre un maggiore controllo non solo sulla visualizzazione delle modifiche, ma anche sulle modifiche conservate nell’ultima versione del documento.
+Quando si lavora in un ambiente con più autori, può essere difficile tenere traccia delle modifiche apportate da altri autori in un argomento o in una mappa. La funzione di unione consente di controllare non solo le modifiche, ma anche le modifiche mantenute nell&#39;ultima versione del documento.
 
-1. Aprire un argomento nell&#39;editor Web.
+1. Aprire un argomento nell&#39;Editor Web.
 
-1. Fai clic sul pulsante [!UICONTROL **Unisci**] sulla barra degli strumenti.
+1. Fai clic su [!UICONTROL **Unisci**] sulla barra degli strumenti.
 
-   ![Icona Unisci](images/lesson-12/merge-icon.png)
+   ![Icona unione](images/lesson-12/merge-icon.png)
 
-1. Nella finestra di dialogo Unisci selezionare una versione del file con cui si desidera confrontare la versione corrente del file.
+1. Nella finestra di dialogo Unisci selezionare la versione del file con cui si desidera confrontare la versione corrente del file.
 
-1. In Opzioni, scegli:
+1. In Opzioni, scegliere:
 
-   - **Traccia Le Modifiche Dalla Versione Selezionata**: Questa opzione mostra tutti gli aggiornamenti di contenuto sotto forma di modifiche tracciate. È quindi possibile scegliere di accettare o rifiutare le modifiche al documento una alla volta o tutte contemporaneamente.
+   - **Rileva modifiche dalla versione selezionata**: questa opzione mostra tutti gli aggiornamenti di contenuto sotto forma di revisioni. È quindi possibile scegliere di accettare o rifiutare le modifiche nel documento una alla volta o tutte contemporaneamente.
 
-   - **Ripristina versione selezionata**: Questa opzione ripristina la versione corrente del documento nella versione selezionata. Non offre alcun controllo sul contenuto accettato o rifiutato.
+   - **Ripristina versione selezionata**: questa opzione ripristina la versione corrente del documento alla versione selezionata. Non ti consente alcun controllo su quali contenuti vengono accettati o rifiutati.
 
-1. Fai clic su [!UICONTROL **Fine**].
+1. Clic [!UICONTROL **Fine**].
 
-Se hai selezionato la **Opzione Traccia modifiche dalla versione selezionata**, tutte le modifiche dalla versione selezionata vengono visualizzate nella scheda Modifiche del pannello di destra.
+Se hai selezionato **Opzione Rileva modifiche da versione selezionata**, quindi tutte le modifiche apportate alla versione selezionata vengono visualizzate nella scheda Modifiche del pannello di destra.

@@ -1,6 +1,6 @@
 ---
-title: Rapporto Riutilizzo contenuto
-description: Scopri come utilizzare i rapporti di riutilizzo dei contenuti
+title: Rapporto sul riutilizzo dei contenuti
+description: Scopri come riutilizzare i contenuti del rapporto
 exl-id: 658ae0fd-9032-4480-b9e4-fe4fec261e72
 source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
@@ -9,55 +9,55 @@ ht-degree: 0%
 
 ---
 
-# Rapporto Riutilizzo contenuto {#id205BB900OQD}
+# Rapporto sul riutilizzo dei contenuti {#id205BB900OQD}
 
-Un altro utile rapporto che puoi generare è il Rapporto di riutilizzo dei contenuti . Questo rapporto calcola la percentuale media di utilizzo del contenuto, molto utile per i responsabili di progetto e per i proprietari business per vedere la quantità di contenuto che viene riutilizzato.
+Un altro rapporto utile che puoi generare è il Rapporto sul riutilizzo dei contenuti. Questo rapporto calcola la percentuale media di utilizzo del contenuto, che è molto utile per i project manager e i responsabili aziendali per visualizzare la quantità di contenuto riutilizzato.
 
 >[!TIP]
 >
-> Per garantire il corretto funzionamento del rapporto di riutilizzo dei contenuti, devi abilitare il flusso di lavoro di post-elaborazione. Contatta l’amministratore di sistema per abilitare i flussi di lavoro di post-elaborazione.
+> Per garantire il corretto funzionamento del rapporto sul riutilizzo dei contenuti, devi abilitare il flusso di lavoro di post-elaborazione. Contatta l’amministratore di sistema per abilitare i flussi di lavoro di post-elaborazione.
 
-Per visualizzare il rapporto sul riutilizzo dei contenuti, effettua le seguenti operazioni:
+Per visualizzare il rapporto sul riutilizzo del contenuto, effettua le seguenti operazioni:
 
 1. Fai clic sul collegamento Adobe Experience Manager in alto e scegli **Strumenti**.
 
 1. Seleziona **Guide** dall&#39;elenco degli strumenti.
 
-1. Fai clic sul pulsante **Rapporto Riutilizzo contenuto** piastrelle.
+1. Fai clic sul pulsante **Rapporto sul riutilizzo dei contenuti** affiancare.
 
-1. Fai clic su **Sfoglia** per scegliere un percorso in cui risiedano gli argomenti o inserire manualmente il percorso.
+1. Clic **Sfoglia** per scegliere un percorso in cui risiedono gli argomenti o immetterlo manualmente.
 
-   Il rapporto viene generato effettuando la scansione del contenuto delle cartelle principali e secondarie.
+   Il rapporto viene generato analizzando il contenuto della cartella principale e di tutte le cartelle secondarie.
 
-1. Fai clic su **Genera report** per ottenere il rapporto sul riutilizzo dei contenuti.
+1. Clic **Genera report** per ottenere il report sul riutilizzo dei contenuti.
 
    ![](images/content-reuse-uuid.png){width="800" align="left"}
 
    La pagina del rapporto è divisa in due parti:
 
-   - **Riepilogo del rapporto:**
+   - **Riepilogo rapporto:**
 
-      Elenca il riutilizzo medio dei contenuti, calcolato come istanze di riutilizzo dei contenuti/conteggio totale degli argomenti. Questo rapporto tiene conto di tutti i riferimenti diretti al contenuto di primo livello e dei riferimenti agli argomenti da calcolare. Le istanze di riutilizzo dei contenuti vengono calcolate come la somma totale dei valori nel campo Numero di volte riutilizzati . L’argomento che viene maggiormente riutilizzato è inoltre elencato in Riepilogo rapporto. Facendo clic sul collegamento dell’argomento nell’argomento più riutilizzato viene visualizzata l’anteprima dell’argomento.
+      Elenca il riutilizzo medio del contenuto, calcolato come Istanze di riutilizzo del contenuto/Conteggio totale argomenti. Questo rapporto prende in considerazione tutti i riferimenti diretti al contenuto di primo livello e i riferimenti agli argomenti per il calcolo. Il valore Istanze di riutilizzo del contenuto viene calcolato come la somma totale dei valori nel campo Numero di volte riutilizzate. L’argomento più ampiamente riutilizzato è elencato anche nel Riepilogo del rapporto. Se si fa clic sul collegamento dell&#39;argomento nell&#39;argomento più riutilizzato, viene aperta l&#39;anteprima dell&#39;argomento.
 
    - **Dettagli:**
 
       La sezione Dettagli contiene le colonne seguenti:
 
-      - **Titolo**: Titolo dell&#39;argomento. Facendo clic sul collegamento del titolo dell’argomento si apre l’anteprima dell’argomento.
+      - **Titolo**: titolo dell’argomento. Se si fa clic sul collegamento del titolo dell&#39;argomento, viene visualizzata l&#39;anteprima dell&#39;argomento.
 
-      - **UUID**: Identificatore univoco universale \(UID\) del file.
+      - **UUID**: identificatore univoco universale \(UUID\) del file.
 
-      - **Dimensione**: Dimensione dei file in byte.
+      - **Dimensione**: dimensione dei file in byte.
 
-      - **Stato**: Lo stato corrente del documento: Bozza, In-Review o Revisione.
+      - **Stato**: lo stato corrente del documento: Bozza, In-Review o Rivisto.
 
-      - **Numero di volte riutilizzati**: Numero di volte in cui l’argomento corrispondente è stato riutilizzato. Viene calcolato come somma totale delle voci nelle colonne con riferimento meno 1.
+      - **Numero di volte riutilizzate**: numero di volte in cui l’argomento corrispondente è stato riutilizzato. Calcolato come somma totale delle voci nelle colonne Con riferimento da meno 1.
 
-      - **A cui fa riferimento**: Argomenti a cui è stato fatto riferimento l&#39;argomento corrispondente. In questo caso, vengono considerati solo i riferimenti diretti \(primo livello\). Gli argomenti multipli sono separati da virgole. L&#39;UUID del file a cui si fa riferimento è menzionato anche tra parentesi.Facendo clic sul collegamento del titolo dell&#39;argomento si apre l&#39;anteprima dell&#39;argomento.
+      - **Con riferimento da**: argomenti in cui è stato fatto riferimento all’argomento corrispondente. In questo caso, vengono considerati solo i riferimenti diretti \(primo livello\). Più argomenti sono separati da virgole. L&#39;UUID del file a cui si fa riferimento è indicato anche tra parentesi.Facendo clic sul collegamento del titolo dell&#39;argomento si apre l&#39;anteprima dell&#39;argomento.
 
 
 >[!NOTE]
 >
-> Puoi anche esportare il rapporto di riutilizzo dei contenuti in formato CSV. A questo scopo, fai clic sul collegamento Esporta in CSV nell’angolo in alto a sinistra dello schermo e scegli una posizione in cui salvare il file CSV. Puoi quindi aprire questo file CSV in qualsiasi editor CSV.
+> Puoi anche esportare il rapporto sul riutilizzo dei contenuti in formato CSV. A tale scopo, fai clic sul collegamento Esporta in CSV nell’angolo in alto a sinistra dello schermo e scegli una posizione in cui salvare il file CSV. Puoi quindi aprire il file CSV in qualsiasi editor CSV.
 
-**Argomento principale:**[ Rapporti](reports-intro.md)
+**Argomento padre:**[ Rapporti](reports-intro.md)

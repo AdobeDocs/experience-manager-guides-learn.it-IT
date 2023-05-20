@@ -1,23 +1,23 @@
 ---
 title: Eliminare una raccolta di mappe di attivazione in blocco
 description: Scopri come eliminare una raccolta di mappe di attivazione in blocco
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: f857d60b-bde2-4d71-9243-f71d7ee2f0e9
+source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 0%
 
 ---
 
-
 # Eliminare una raccolta di mappe di attivazione in blocco {#id214GI40B0XA}
 
-Puoi eliminare una raccolta di mappe di attivazione in blocco quando non è più necessaria. Per eliminare una raccolta di mappe di attivazione in blocco, esegui i seguenti passaggi:
+È possibile eliminare una raccolta di mappe di attivazione in blocco quando non è più necessaria. Per eliminare una raccolta di mappe di attivazione in blocco, effettuare le seguenti operazioni:
 
 1. Seleziona **Guide** dall&#39;elenco degli strumenti.
 
 1. Fai clic sul collegamento Adobe Experience Manager in alto e scegli **Strumenti**.
 
-1. Fai clic sul pulsante **Dashboard di pubblicazione in blocco** piastrelle.
+1. Fai clic sul pulsante **Dashboard pubblicazione in blocco** affiancare.
 
    Viene visualizzato un elenco delle raccolte di mappe di attivazione in blocco.
 
@@ -25,10 +25,9 @@ Puoi eliminare una raccolta di mappe di attivazione in blocco quando non è più
 
    Viene visualizzato un messaggio di conferma dell’eliminazione.
 
-1. Fai clic su **Sì**.
+1. Clic **Sì**.
 
-   La raccolta di mappe di attivazione in blocco viene eliminata dal sistema.
+   La raccolta mappa di attivazione in blocco viene eliminata dal sistema.
 
 
-**Argomento principale:**[ Attivazione in blocco di contenuti pubblicati](conf-bulk-activation.md)
-
+**Argomento padre:**[ Attivazione in blocco di contenuti pubblicati](conf-bulk-activation.md)

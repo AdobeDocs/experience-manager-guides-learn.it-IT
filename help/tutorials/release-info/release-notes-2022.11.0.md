@@ -1,6 +1,6 @@
 ---
-title: Note sulla versione | Guide Adobe Experience Manager as a Cloud Service, versione di novembre 2022
-description: Versione as a Cloud Service di novembre delle guide di Adobe Experience Manager
+title: Note sulla versione | Adobe Experience Manager Guides as a Cloud Service, versione di novembre 2022
+description: Versione di novembre di Adobe Experience Manager Guides as a Cloud Service
 exl-id: 9f329ec1-dd74-47cc-8567-3fadd962584a
 source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
@@ -9,44 +9,44 @@ ht-degree: 2%
 
 ---
 
-# Versione as a Cloud Service di novembre delle guide di Adobe Experience Manager
+# Versione di novembre di Adobe Experience Manager Guides as a Cloud Service
 
 ## Aggiornamento alla versione di novembre
 
-Aggiorna le guide correnti di Adobe Experience Manager as a Cloud Service (in seguito denominate *Guide AEM as a Cloud Service*) eseguendo le seguenti operazioni:
-1. Controlla il codice Git dei Cloud Services e passa al ramo configurato nella pipeline dei Cloud Services corrispondente all’ambiente da aggiornare.
-1. Aggiorna `<dox.version>` proprietà in `/dox/dox.installer/pom.xml` file dei tuoi Cloud Services Codice Git a 2022.11.198.
-1. Conferma le modifiche ed esegui la pipeline dei Cloud Services per eseguire l’aggiornamento alla versione di novembre di AEM Guide as a Cloud Service.
+Aggiorna le guide Adobe Experience Manager as a Cloud Service correnti (in seguito denominate *Guide AEM as a Cloud Service*) eseguendo i seguenti passaggi:
+1. Consulta il codice Git del Cloud Services e passa al ramo configurato nella pipeline dei Cloud Services corrispondente all’ambiente da aggiornare.
+1. Aggiorna `<dox.version>` proprietà in `/dox/dox.installer/pom.xml` file del codice Git dei tuoi Cloud Services in 2022.11.198.
+1. Apporta le modifiche ed esegui la pipeline dei Cloud Services per l’aggiornamento alla versione di novembre dell’as a Cloud Service AEM Guides.
 
-## Passaggi per indicizzare il contenuto esistente (solo se disponi di una versione precedente al rilascio di settembre delle AEM guide as a Cloud Service)
+## Passaggi per indicizzare il contenuto esistente (solo se utilizzi una versione precedente alla versione di settembre di AEM Guides as a Cloud Service)
 
-Esegui i seguenti passaggi per l’indicizzazione del contenuto esistente e utilizza il nuovo testo trova e sostituisci a livello di mappa:
+Effettua le seguenti operazioni per indicizzare il contenuto esistente e utilizzare il nuovo testo Trova e sostituisci a livello di mappa:
 
-* Esegui una richiesta POST al server (con autenticazione corretta) - `http://<server:port>/bin/guides/map-find/indexing`.
-(Facoltativo: Puoi trasmettere percorsi specifici delle mappe per indicizzarle, per impostazione predefinita tutte le mappe saranno indicizzate || Esempio : `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
+* Eseguire una richiesta POST al server (con l’autenticazione corretta) - `http://<server:port>/bin/guides/map-find/indexing`.
+(Facoltativo: Puoi trasmettere percorsi specifici delle mappe per indicizzarle; per impostazione predefinita, tutte le mappe saranno indicizzate || Esempio: `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
-* L’API restituirà un jobId. Per controllare lo stato del processo, puoi inviare una richiesta di GET con ID processo allo stesso punto finale - `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
+* L’API restituirà un jobId. Per verificare lo stato del processo, puoi inviare una richiesta di GET con ID processo allo stesso endpoint: `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
 (Ad esempio: http://&lt;
 _localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
 
-* Una volta completato il processo, la richiesta di GET di cui sopra risponderà con successo e menzionerà se eventuali mappe non sono riuscite. Le mappe indicizzate correttamente possono essere confermate dai log del server.
+* Una volta completato il processo, la richiesta di GET di cui sopra risponderà con successo e menzionerà se eventuali mappe non sono riuscite. Le mappe indicizzate correttamente possono essere confermate dai registri del server.
 
 ## Matrice di compatibilità
 
-Questa sezione elenca la matrice di compatibilità per le applicazioni software supportate da AEM Guide as a Cloud Service nella versione di novembre 2022.
+In questa sezione è elencata la matrice di compatibilità per le applicazioni software supportate dalla versione di novembre 2022 delle guide AEM as a Cloud Service.
 
-### FrameMaker e FrameMaker Publishing Server
+### Server di pubblicazione FrameMaker e FrameMaker
 
 | FMPS | FrameMaker |
 | --- | --- |
-| Non compatibile | Aggiornamento 4 e superiore del 2020 |
+| Non compatibile | Aggiornamento 2020 4 e versioni successive |
 |  |  |
 
-*La linea di base e le condizioni create in AEM sono supportate nelle versioni FMPS a partire dal 2020.2.
+*Le condizioni di base e quelle create nell’AEM sono supportate nelle versioni di FMPS a partire dal 2020.2.
 
-### Connettore dell&#39;ossigeno
+### Connettore ossigeno
 
-| AEM guide as a Cloud Release | Finestre del connettore dell&#39;ossigeno | Mac connettore ossigeno | Modifica in Windows Ossigeno | Modifica in Oxygen Mac |
+| Versione di AEM Guides as a Cloud | Finestre del connettore dell&#39;ossigeno | Connettore di ossigeno Mac | Modifica in finestre a ossigeno | Modifica in Oxygen Mac |
 | --- | --- | --- | --- | --- |
 | 2022.11.0 | 2.7.13 | 2.7.13 | 2.3 | 2.3 |
 |  |  |  |  |
@@ -54,100 +54,100 @@ Questa sezione elenca la matrice di compatibilità per le applicazioni software 
 
 ## Nuove funzioni e miglioramenti
 
-AEM Guide as a Cloud Service fornisce miglioramenti e nuove funzioni nella versione di novembre:
+AEM Guides as a Cloud Service fornisce miglioramenti e nuove funzioni nella versione di novembre:
 
 
-### Elimina i file dal pannello archivio
+### Eliminare i file dal pannello dell’archivio
 
-Ora è possibile eliminare facilmente i file (file singolo alla volta) dal **Opzioni** del file selezionato dal pannello archivio.
+Ora è possibile eliminare facilmente i file (un singolo file alla volta) dalla **Opzioni** del file selezionato dal pannello del repository.
 <img src="assets/repository-delete-file.png" alt="Elimina dall’archivio" width="500">
 
-Viene visualizzato un prompt di conferma prima di eliminare il file. Se non viene fatto riferimento al file da nessun altro file, questo viene eliminato e viene visualizzato un messaggio di successo.
+Viene visualizzata una richiesta di conferma prima di eliminare il file. Se non viene fatto riferimento al file da alcun altro file, questo viene eliminato e viene visualizzato un messaggio di operazione riuscita.
 
-Se il file selezionato è estratto, non è possibile eliminarlo e viene visualizzato un messaggio di errore. Se il file selezionato viene aggiunto a una raccolta preferiti o se viene fatto riferimento a un altro file, AEM guide controlla la conferma e ti dà la possibilità di eliminarla forzatamente. Se elimini un argomento di riferimento e hai aperto il file contenente riferimenti per la modifica, verrà visualizzato il collegamento interrotto per il file di riferimento.
+Se il file selezionato è estratto, non è possibile eliminarlo e viene visualizzato un messaggio di errore. Se il file selezionato viene aggiunto a una raccolta di preferiti o se vi si fa riferimento da un altro file, l&#39;AEM guida l&#39;utente e controlla la conferma e ti offre la possibilità di eliminarlo con forza. Se si elimina un argomento di riferimento e si è aperto il file contenente riferimenti per la modifica, verrà visualizzato il collegamento interrotto per il file di riferimento.
 
-**Nota**: È inoltre possibile eliminare il file selezionato utilizzando il tasto Canc della tastiera.
+**Nota**: puoi anche eliminare il file selezionato utilizzando il tasto Canc della tastiera.
 
 
 ### Rimozione delle versioni selezionate dei file
 
-Durante la creazione e la gestione del contenuto, è possibile creare molte versioni per i file DITA nel repository. AEM Guide consente di eliminare dall’archivio le versioni precedenti dei file DITA e liberare spazio su disco.
+Durante la creazione e la gestione del contenuto, è possibile che vengano create molte versioni dei file DITA nell&#39;archivio. Le guide AEM consentono di eliminare versioni precedenti dei file DITA dall&#39;archivio e liberare spazio su disco.
 
 <img src="assets/preview-purge-report.png" alt="Anteprima report di eliminazione" width="500">
 
 
-AEM Guide non elimina la prima versione del file o una versione inclusa in una linea di base o a cui è applicata un’etichetta. L’operazione di eliminazione non elimina nemmeno i file inclusi in una traduzione o in un flusso di lavoro di revisione. È possibile scegliere il numero di versioni da conservare e anche decidere di eliminare i file che sono più vecchi del numero definito di giorni.
+Le guide AEM non eliminano la prima versione del file o una versione inclusa in una baseline o a cui è applicata un&#39;etichetta. L’operazione di rimozione non elimina nemmeno i file inclusi in un flusso di lavoro di traduzione o revisione. Puoi scegliere il numero di versioni da mantenere e decidere anche di eliminare i file che sono più vecchi del numero di giorni definito.
 
-Prima di avviare l’operazione di eliminazione, puoi visualizzare in anteprima il rapporto per vedere le versioni che verranno eliminate. È quindi possibile decidere di avviare o annullare l&#39;operazione di eliminazione.
+Prima di avviare l&#39;operazione di rimozione, è possibile visualizzare in anteprima il report per visualizzare le versioni che verranno eliminate. È quindi possibile decidere di avviare o annullare l&#39;operazione di rimozione.
 
-<img src="assets/download-purge-report.png" alt="Rapporto eliminazione carico" width="500">
+<img src="assets/download-purge-report.png" alt="Rapporto di eliminazione PDownload" width="500">
 
-Una volta completata l&#39;operazione di eliminazione, puoi controllare il report di eliminazione per vedere i file eliminati.
+Una volta completata l&#39;operazione di rimozione, è possibile controllare il report di rimozione per visualizzare i file eliminati.
 
-### Gestire i predefiniti di output del profilo globale e della cartella
+### Gestire i predefiniti di output per Profilo globale e Cartella
 
-Le Guide AEM consentono di creare e gestire i predefiniti di output per i profili globali e cartelle. Puoi quindi utilizzare facilmente questi predefiniti di output per generare l’output per tutte le mappe relative a quel profilo globale o cartelle.
+Le guide AEM consentono di creare e gestire predefiniti di output per i profili globali e cartelle. Puoi quindi utilizzare facilmente questi predefiniti di output per generare l’output per tutte le mappe correlate al profilo globale o cartella.
 
 <img src="assets/add-global-output-preset.png" alt="Aggiungi profilo globale" width="400">
 
-**Nota** Solo gli utenti amministratori a livello di cartella possono creare predefiniti per profili globali e cartelle.
+**Nota** Solo gli utenti amministratori a livello di cartella possono creare predefiniti globali e di profilo cartella.
 
-Questi predefiniti globali vengono visualizzati sotto il **Uscita** scheda di tutte le mappe correlate. Puoi utilizzarli per generare l’output per tutte le mappe correlate. Per generare l’output di PDF, seleziona il predefinito come predefinito di PDF predefinito. È inoltre possibile **Modifica**, **Rinomina**, **Duplica** oppure **Elimina** un predefinito di output esistente dal **Opzioni** menu.
+Questi predefiniti globali vengono visualizzati sotto **Output** di tutte le mappe correlate. Puoi utilizzarli per generare l’output per tutte le mappe correlate. Per generare l&#39;output di PDF, potete selezionare il predefinito come predefinito di default di PDF. È inoltre possibile **Modifica**, **Rinomina**, **Duplica**, o **Elimina** un predefinito di output esistente da **Opzioni** menu.
 
 ### Colonna Etichetta versione aggiunta al dashboard di traduzione
 
-Nel dashboard di traduzione è inoltre possibile visualizzare la colonna Etichetta versione . Viene visualizzata l’etichetta per la versione selezionata del file di origine. Questo può essere utile per selezionare tutti i file con un’etichetta specifica e tradurli in una sola volta.
+Nel dashboard di traduzione è inoltre possibile visualizzare la colonna Etichetta versione. Viene visualizzata l&#39;etichetta per la versione selezionata del file di origine. Questo può aiutarti a selezionare tutti i file con un’etichetta specifica e a tradurli in una volta sola.
 
 <img src="assets/send-translation.png" alt="invia per traduzione" width="600">
 
 
-### PDF nativo | PDF con barra delle modifiche che mostra la differenza tra le versioni del documento
+### Native PDF | PDF con barra delle modifiche che mostra la differenza tra le versioni dei documenti
 
-Ora è possibile creare un PDF che mostra le differenze di contenuto tra due versioni utilizzando la barra delle modifiche. È possibile scegliere di confrontare la versione corrente con una baseline della versione precedente o tra le due versioni della baseline selezionate.
+Ora puoi creare un PDF che mostra le differenze di contenuto tra due versioni utilizzando la barra delle modifiche. È possibile scegliere di confrontare la versione corrente con una baseline della versione precedente o confrontare le due versioni della baseline selezionate.
 
 <img src="assets/pdf-change-version.png" alt="spdf-change-version" width="600">
 
-In PDF viene visualizzata una barra di modifica per indicare il contenuto modificato, inserito o eliminato. Sono inoltre disponibili le seguenti opzioni:
+Nel PDF viene visualizzata una barra delle modifiche che indica il contenuto modificato, inserito o eliminato. Sono inoltre disponibili le seguenti opzioni:
 * Mostra il contenuto inserito in verde e sottolineato
 * Mostra il contenuto eliminato in rosso e contrassegnato con barrato
 
-### PDF nativo | Supporto delle variabili per Percorso di output e Nome file PDF
+### Native PDF | Supporto variabile per percorso di output e nome file PDF
 
-Ora è anche possibile utilizzare le seguenti variabili predefinite per definire il percorso di output e il file PDF. Puoi utilizzare una singola o una combinazione di variabili per definire le seguenti opzioni:
+Ora puoi anche utilizzare le seguenti variabili predefinite per definire il percorso di output e il file di PDF. Puoi utilizzare una singola variabile o una combinazione di variabili per definire queste opzioni:
 * `${map_filename}`
 * `${map_title}`
 * `${preset_name}`
 * `${language_code}`
-* `${map_parentpath}` (Solo per percorso di output)
-* `${path_after_langfolder}` (Solo per percorso di output)
+* `${map_parentpath}` (Solo per il percorso di output)
+* `${path_after_langfolder}` (Solo per il percorso di output)
 
 
-### PDF nativo | Genera sommario per mappe DITA e riordina layout di pagina
+### Native PDF | Genera sommario per mappe DITA e riordina i layout di pagina
 
-Ora è anche possibile generare il sommario nelle mappe DITA utilizzando un’impostazione PDF avanzata del modello. È possibile attivare o disattivare la visualizzazione dei vari layout di pagina e riordinarne la posizione.
+È inoltre possibile generare il sommario nelle mappe DITA utilizzando un&#39;impostazione PDF avanzata del modello. Puoi scegliere di abilitare o disabilitare la visualizzazione dei vari layout di pagina e anche riordinarne la posizione.
 
 ## Problemi risolti
 
-I bug corretti in varie aree sono elencati di seguito:
+Di seguito sono elencati i bug risolti in varie aree:
 
-* PDF nativo | `conkeyref` non viene risolto nell’output di PDF generato. (10564)
-* PDF nativo | Si verificano problemi nell’accesso ai metadati di una mappa nell’output di PDF. (10556)
-* PDF nativo | Lo stile in linea viene utilizzato per generare i tag anziché il nome della classe.  (10498)
-* L’editor web carica la pagina vuota a intermittenza. (10678)
-* La pubblicazione di PDF non riesce se creiamo un predefinito duplicando un predefinito esistente. (10584)
+* Native PDF | `conkeyref` non viene risolto nell’output PDF generato. (10564)
+* Native PDF | Si verificano problemi durante l’accesso ai metadati di una mappa nell’output di PDF. (10556)
+* Native PDF | Lo stile in linea viene utilizzato per generare i tag anziché il nome della classe.  (10498)
+* L’editor web carica una pagina vuota in modo intermittente. (10678)
+* La pubblicazione PDF non riesce se viene creato un predefinito tramite la duplicazione di un predefinito esistente. (10584)
 * **Visualizza registro** non funziona quando la generazione di PDF non riesce per un predefinito. (10576)
-* Nota all’interno di un tag para che è un conref non viene visualizzato nell’anteprima. (10559)
-* Se si preme il backspace alla fine di una voce di elenco, l’intero elenco viene rimosso. (10540)
-* Quando si utilizza un’esportazione nativa di PDF, i valori nidificati `<indexterm>` non sono nidificati nell&#39;indice. (10521)
-* **Rientro automatico** nella vista Sorgente manca il pulsante presente nella barra degli strumenti. (10448)
-* Il primo carattere di una voce dell’elenco viene perso mentre l’elenco viene creato nell’editor. (10447)
-* Se una versione di una risorsa DITA viene modificata e salvata nella finestra di modifica della linea di base, vengono visualizzati più pop-up. (10399)
-* Errore dell&#39;applicazione durante il clic **Modifica** dopo aver selezionato tutti i predefiniti di output dal pannello Generazione rapida. (10388)
-* I metadati personalizzati per l’argomento DITA non vengono mantenuti quando un’azione di copia/incolla viene eseguita dall’interfaccia utente Assets. (10367)
-* La post-elaborazione è bloccata per l’intera cartella di lingue le cui risorse sono presenti in un progetto di traduzione attivo. (10332)
-* La scheda Modello in XML Editor non è visibile agli amministratori dei profili di cartella. (10266)
-* Problemi di navigazione si verificano nell&#39;editor Web dopo l&#39;aggiornamento 4.0. (10159)
+* Nota all’interno di un tag para che è un riferimento conf non viene visualizzato nell’anteprima. (10559)
+* Se si preme backspace alla fine di una voce di elenco, l’intero elenco viene rimosso. (10540)
+* Quando si utilizza un PDF nativo, esporta il `<indexterm>` non sono nidificati nell’indice. (10521)
+* **Rientro automatico** nella visualizzazione Origine. (10448)
+* Il primo carattere di una voce di elenco viene perso durante la creazione dell’elenco nell’editor. (10447)
+* Se una versione di una risorsa DITA viene modificata e salvata nella finestra di modifica della baseline, vengono visualizzati più pop-up. (10399)
+* Si verifica un errore di applicazione quando si fa clic su **Modifica** dopo aver selezionato tutti i predefiniti di output dal pannello Generazione rapida. (10388)
+* I metadati personalizzati per l’argomento DITA non vengono conservati quando si esegue un’azione di copia e incolla dall’interfaccia utente di Assets. (10367)
+* La post-elaborazione è bloccata per l’intera cartella lingua le cui risorse sono presenti in un progetto di traduzione attivo. (10332)
+* La scheda Modello nell&#39;editor XML non è visibile agli amministratori dei profili di cartelle. (10266)
+* Si verificano problemi di navigazione nell’editor web dopo l’aggiornamento 4.0. (10159)
 * I file SVG non vengono visualizzati in modalità Anteprima. (10010)
-* Se la scheda Output dell’editor contiene più predefiniti, non è possibile scorrere la sezione dei predefiniti e non tutti i predefiniti. (9787)
+* Se la scheda Output dell&#39;editor contiene più predefiniti, non è possibile scorrere la sezione dei predefiniti e non vengono visualizzati tutti i predefiniti. (9787)
 * **Modifica** e **Annota** le opzioni per un’immagine non funzionano correttamente nella vista a colonne. (8758)
-* Il collegamento peer non viene risolto e viene visualizzato come testo normale nell’output generato. (7774)
+* Il collegamento tra pari non viene risolto e viene visualizzato come testo normale nell’output generato. (7774)

@@ -1,33 +1,33 @@
 ---
 title: Flusso di lavoro di post-generazione
 description: Panoramica del flusso di lavoro di post-generazione con un esempio
-source-git-commit: 447cd512d1b6cdce3bd1ddded1575dab87daa04a
+exl-id: e19fdc0b-0ec6-46ce-81ed-e9490d12c029
+source-git-commit: 3cfa0a58c5681668fbb3c97dcbe1e8f7e32335fc
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 0%
 
 ---
 
+# Pubblicazione di guide AEM - Flusso di lavoro di post-generazione
 
-# Pubblicazione delle guide AEM - Flusso di lavoro post-generazione
-
-AEM Guide offre la flessibilità di specificare un flusso di lavoro per la generazione dei post-output. È possibile eseguire alcune attività di post-elaborazione sull&#39;output che viene generato utilizzando AEM Guide.
-Ad esempio, potrebbe essere utile impostare alcune proprietà nell’output di PDF o inviare un’e-mail a un set di utenti una volta generato l’output.
+Le guide AEM offrono la flessibilità di specificare un flusso di lavoro per la generazione post-output. Puoi eseguire alcune attività di post-elaborazione sull’output generato utilizzando le guide AEM.
+Ad esempio, potrebbe essere utile impostare alcune proprietà nell’output di PDF oppure inviare un messaggio e-mail a un set di utenti una volta generato l’output.
 
 
-## Quali sono i passaggi necessari per utilizzare i flussi di lavoro di post-generazione?
+## Quali sono i passaggi necessari per utilizzare i flussi di lavoro di post-generazione
 
-### Creare un processo di flusso di lavoro
+### Creare un processo di workflow
 
-Crea un processo di flusso di lavoro basato su Java o ECMA che esegue l’operazione sull’output generato. Ad esempio, copiando alcuni metadati dall’origine al contenuto generato o manipolando i metadati dell’output generato.
-- Prenderemo un esempio di creazione di tale processo utilizzando lo script ECMA (puoi fare riferimento al pacchetto allegato)
-- Per il processo di flusso di lavoro basato su Java, consulta la sezione &quot;*Personalizzare il flusso di lavoro di generazione dei post-output*&quot; [Guida all’installazione e alla configurazione](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_Installation-Configuration-Guide_EN.pdf#page=119)
+Creare un processo di flusso di lavoro basato su Java o ECMA che esegue l&#39;operazione sull&#39;output generato. Ad esempio, copiando alcuni metadati dall’origine al contenuto generato o manipolando i metadati dell’output generato.
+- Prendiamo ad esempio la creazione di tale processo utilizzando lo script ECMA (puoi fare riferimento al pacchetto allegato)
+- Per il processo del flusso di lavoro basato su Java, consulta la sezione &quot;*Personalizzare il flusso di lavoro di generazione post-output*&quot; di [Guida all’installazione e alla configurazione](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_Installation-Configuration-Guide_EN.pdf#page=119)
 
 
 ### Creare un modello di flusso di lavoro
 
-Con il processo di flusso di lavoro personalizzato creato nel passaggio precedente, crea un modello di flusso di lavoro e aggiungi tale passaggio al flusso di lavoro.
-- È inoltre necessario aggiungere un passaggio obbligatorio del processo &quot;*Finalizza post-generazione*&quot; come ultimo passaggio del flusso di lavoro.
+Con il processo di flusso di lavoro personalizzato creato nel passaggio precedente, crea un modello di flusso di lavoro e aggiungi a esso il passaggio del processo.
+- È inoltre necessario aggiungere un passaggio di processo obbligatorio &quot;*Finalizza post-generazione*&quot; come ultimo passaggio del flusso di lavoro.
 
 Fai riferimento al modello di flusso di lavoro di esempio mostrato di seguito:
 
@@ -36,9 +36,9 @@ Fai riferimento al modello di flusso di lavoro di esempio mostrato di seguito:
 
 ### Utilizza questo flusso di lavoro di post-generazione su una mappa
 
-Il flusso di lavoro di post generazione è una proprietà che può essere configurata su qualsiasi predefinito di output all’interno AEM meccanismo di pubblicazione delle Guide . Esempio:
+Il flusso di lavoro di post-generazione è una proprietà che può essere configurata su qualsiasi predefinito di output nel meccanismo di pubblicazione delle guide AEM. Esempio:
 
-![Flusso di lavoro di post-generazione su Output Preset](../assets/workflows/pgwf-preset-settings.png)
+![Flusso di lavoro di post-generazione nel predefinito di output](../assets/workflows/pgwf-preset-settings.png)
 
 
 Supponendo che il modello selezionato sia già stato creato.
@@ -49,8 +49,8 @@ Supponendo che il modello selezionato sia già stato creato.
 Ora puoi eseguire la pubblicazione utilizzando questo predefinito e convalidare l’output del passaggio del processo
 
 
-## Esempi
+## Esempio
 
-Per il tuo riferimento, puoi utilizzare il seguente pacchetto e installarlo tramite il gestore di pacchetti per testare il flusso di lavoro di post-generazione del campione (*come indicato nelle schermate precedenti*)
+Per riferimento, puoi utilizzare il pacchetto seguente e installarlo tramite Gestione pacchetti per testare il flusso di lavoro di esempio di post-generazione (*come indicato nelle schermate precedenti*)
 
-[Un esempio di modello di flusso di lavoro basato su ECMA](../assets/workflows/sample-pgwf-ecma-test-wfmetadata.zip)
+[Esempio di modello di flusso di lavoro di post-generazione basato su ECMA](../assets/workflows/sample-pgwf-ecma-test-wfmetadata.zip)

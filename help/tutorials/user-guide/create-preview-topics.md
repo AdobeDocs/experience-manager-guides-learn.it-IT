@@ -1,22 +1,21 @@
 ---
-title: Creazione e visualizzazione in anteprima degli argomenti
+title: Creazione e anteprima di argomenti
 description: Scopri come creare e visualizzare in anteprima gli argomenti
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: a33daf94-fa7b-40e7-bebe-8ae64399da48
+source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 0%
 
 ---
 
+# Creazione e anteprima di argomenti {#id21BQE0RJ042}
 
-# Creazione e visualizzazione in anteprima degli argomenti {#id21BQE0RJ042}
+Le guide AEM includono una potente funzione per creare argomenti DITA dall’interfaccia utente Assets. Puoi quindi visualizzare in anteprima gli argomenti dall’interfaccia utente di Assets. La modalità Anteprima offre inoltre molte funzioni avanzate per eseguire operazioni chiave come la visualizzazione dei metadati, la modifica dell’argomento nell’editor web, l’apertura dell’origine e la ricerca della differenza di versione basata sul web.
 
-AEM Guide offre una potente funzione per creare argomenti DITA dall’interfaccia utente Assets. Puoi quindi visualizzare in anteprima gli argomenti dall’interfaccia utente di Assets. La modalità Anteprima offre inoltre numerose funzioni avanzate che consentono di eseguire operazioni chiave quali visualizzare i metadati, modificare l’argomento in Editor web, aprire l’origine e trovare la differenza di versione basata sul Web.
+- **[Crea argomenti](web-editor-create-topics.md)**
 
-- **[Creazione di argomenti](web-editor-create-topics.md)**
-
-- **[Anteprima di un argomento](web-editor-preview-topics.md)**
+- **[Visualizzare l&#39;anteprima di un argomento](web-editor-preview-topics.md)**
 
 
-**Argomento principale:**[ Contenuto autore](authoring-content.md)
-
+**Argomento padre:**[ Contenuto autore](authoring-content.md)

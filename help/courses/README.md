@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # Guide di Adobe Experience Manager
 
-Questo è il repository per memorizzare i video e i file di markdown per i corsi &quot;AEM Guide&quot;.
+Questo è l’archivio in cui memorizzare i video e i file markdown per i corsi &quot;AEM Guides&quot;.

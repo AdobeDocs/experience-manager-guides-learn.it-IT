@@ -1,6 +1,6 @@
 ---
-title: Escludere dalla traduzione i paragrafi all’interno di un argomento
-description: Come escludere i paragrafi all’interno di un argomento dalla traduzione
+title: Escludere dalla traduzione i paragrafi di un argomento
+description: Escludere i paragrafi di un argomento dalla traduzione
 feature: Translation
 role: User
 exl-id: 21e41bb4-52f3-4352-92d9-4a60f636de99
@@ -11,16 +11,16 @@ ht-degree: 0%
 
 ---
 
-# Come escludere i paragrafi all’interno di un argomento dalla traduzione
+# Escludere i paragrafi di un argomento dalla traduzione
 
-Il modo più semplice è quello di utilizzare l&#39;attributo translation=no.
+Il modo più semplice è utilizzare translation=no attribute.
 
-+ Gli autori possono inserire l’attributo aggiuntivo come **translation=no** sui paragrafi che non vogliono tradurre. Il fornitore di traduzione deve essere informato e può eseguire la configurazione al termine del processo per ignorare il testo con questo attributo.
-+ La traduzione automatica OOTB (con il connettore di traduzione Microsoft di prova) mostra lo stesso comportamento.
-+ Test con Microsoft Translation : se definisci **translate=no** a livello di paragrafo, non traduce il paragrafo completo. Questo attributo può essere definito in qualsiasi elemento e il contenuto all’interno di tale elemento non verrà tradotto.
++ Gli autori possono inserire l’attributo aggiuntivo come **translation=no** sui paragrafi che non desiderano tradurre. Il fornitore di traduzione deve essere informato e può eseguire la configurazione alla sua fine per ignorare il testo con questo attributo.
++ La traduzione automatica OOTB (con connettore di traduzione Microsoft di prova) presenta lo stesso comportamento.
++ Test con Microsoft Translation : se definisci **translate=no** a livello di paragrafo, quindi non traduce l’intero paragrafo. Questo attributo può essere definito in qualsiasi elemento e il contenuto all’interno di tale elemento non verrà tradotto.
 
 
-Ecco alcune schermate che spiegano ulteriormente questo:
+Ecco alcune schermate che lo spiegano ulteriormente:
 
 **Contenuto sorgente**
 

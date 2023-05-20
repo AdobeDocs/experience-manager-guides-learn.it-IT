@@ -1,6 +1,6 @@
 ---
 title: Glossario
-description: Utilizzo del pannello Glossario nelle AEM Guide
+description: Utilizzo del pannello Glossario nelle guide AEM
 exl-id: 509880b1-852f-44f0-b4a9-09fee8bcb954
 source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
@@ -11,76 +11,76 @@ ht-degree: 1%
 
 # Glossario
 
-Il pannello Glossario consente di analizzare una mappa. Puoi creare un file Glossario e includerlo in una mappa Glossario comune. Questa mappa può quindi essere aggiunta ad altre mappe. L’utilizzo del Glossario facilita la creazione di frasi coerenti e fornisce al lettore una maggiore chiarezza.
+Il pannello Glossario consente di analizzare una mappa. È possibile creare un file di argomento Glossario e includerlo in una mappa Glossario comune. Questa mappa può quindi essere aggiunta ad altre mappe. L&#39;utilizzo del glossario consente di formulare in modo coerente le informazioni e di fornire maggiore chiarezza al lettore.
 
-I file di esempio che è possibile scegliere di utilizzare per questa lezione sono forniti nel file [glossario.zip](assets/glossary.zip).
+I file di esempio che puoi scegliere di utilizzare per questa lezione sono forniti nel file [glossary.zip](assets/glossary.zip).
 
 >[!VIDEO](https://video.tv.adobe.com/v/342765?quality=12&learn=on)
 
-## Aggiungere una voce del glossario a un argomento
+## Aggiungere una voce di glossario a un argomento
 
-1. Passa a **Glossario** pannello.
+1. Accedi a **Glossario** pannello.
 
-1. Trascina e rilascia la voce dalla **Glossario** nella posizione desiderata nell’argomento.
+1. Trascina la voce dalla sezione **Glossario** nella posizione desiderata nell’argomento.
 
-Se la mappa contiene voci Glossary e è configurata correttamente, gli argomenti possono essere aggiornati automaticamente in modo da contenere un modulo abbreviato.
+Se la mappa contiene voci di glossario ed è configurata correttamente, gli argomenti possono essere aggiornati automaticamente in modo da contenere un modulo abbreviato.
 
-## Specificare una mappa principale
+## Specificare una mappa radice
 
-Per utilizzare correttamente un glossario, è necessario selezionare la mappa radice corretta. Quando una mappa principale trova voci Glossarie, queste vengono visualizzate nel pannello Glossario.
+È necessario selezionare la mappa principale corretta per utilizzare correttamente un glossario. Quando una mappa principale individua le voci del glossario, queste vengono visualizzate nel pannello Glossario.
 
 1. Con un argomento aperto, seleziona **Glossario** dal pannello a sinistra.
 
-1. Fai clic sul pulsante [!UICONTROL **Preferenze utente**] nella barra degli strumenti superiore.
+1. Fai clic su [!UICONTROL **Preferenze utente**] nella barra degli strumenti superiore.
 
-   ![Icona Preferenze utente](images/reuse/user-prefs-icon.png)
+   ![Icona Preferenze Utente](images/reuse/user-prefs-icon.png)
 
-1. Fare clic sull&#39;icona chiave per specificare la mappa radice corretta per l&#39;utilizzo del glossario.
+1. Fai clic sull’icona a forma di chiave per specificare la mappa principale corretta per l’utilizzo del glossario.
 
-1. Fai clic su [!UICONTROL **Seleziona**].
+1. Clic [!UICONTROL **Seleziona**].
 
 1. Fai clic su [!UICONTROL **Salva**].
 
 Il pannello Glossario viene aggiornato automaticamente.
 
-## Lavorare con il Glossario
+## Utilizzare il glossario
 
-1. Passa a **Visualizzazione archivio**.
+1. Accedi a **Vista archivio**.
 
-1. Seleziona la mappa preconfigurata per l’utilizzo del glossario.
+1. Selezionare la mappa preconfigurata per l&#39;utilizzo del glossario.
 
    ![Icona mappa pre-configurazione](images/lesson-10/preconfig-map.png)
 
 1. Scegli la [!UICONTROL **Vista mappa**].
 
-1. Verifica che nella Vista mappa siano visualizzati gli argomenti richiesti.
+1. Verificate che in Vista mappa siano visualizzati gli argomenti richiesti.
 
-## Anteprima di una voce Glossale
+## Anteprima di una voce di glossario
 
 Poiché è possibile apportare modifiche in blocco, può essere importante visualizzare in anteprima una voce glossario.
 
 1. Scegli **Glossario** dal pannello a sinistra.
 
-1. Fare clic sul menu contestuale accanto a una voce glossaria e selezionare [!UICONTROL **Anteprima**].
+1. Fare clic sul menu contestuale accanto a una voce glossario e selezionare [!UICONTROL **Anteprima**].
 
 Vengono visualizzati sia il modulo abbreviato che la definizione del glossario.
 
-## Controlla le impostazioni dello strumento Punto attivo
+## Verifica impostazioni strumento punto attivo
 
-Utilizza lo strumento Punto attivo per creare un&#39;intera raccolta di voci del glossario da una singola mappa. Puoi anche cercare e convertire termini di testo specifici in abbreviazioni Glossary collegate.
+Utilizzare lo strumento Punto attivo per creare un&#39;intera raccolta di voci del glossario da una singola mappa. È inoltre possibile cercare e convertire termini di testo specifici in abbreviazioni del glossario collegate.
 
-1. Dal pannello Glossario, seleziona la [!UICONTROL **Icona punto di attivazione**].
+1. Dal pannello Glossario, selezionate [!UICONTROL **Icona punto attivo**].
 
    ![Icona punto attivo](images/lesson-10/hotspot-icon.png)
 
-1. Fai clic sul pulsante [!UICONTROL **Chiavi globali**] e selezionare solo i tasti che si desidera applicare.
+1. Fai clic su [!UICONTROL **Tasti Glossario**] e selezionare solo le chiavi che si desidera applicare.
 
-1. Fai clic sul pulsante [!UICONTROL **Argomenti**] menu a discesa per selezionare il contenuto che deve essere interessato.
+1. Fai clic su [!UICONTROL **Argomenti**] per selezionare il contenuto che dovrebbe essere interessato.
 
-1. Fai clic sul pulsante [!UICONTROL **Filtrare gli argomenti per stato**] elenco a discesa per esaminare le opzioni configurate.
+1. Fai clic su [!UICONTROL **Filtra argomenti per stato**] per rivedere le opzioni configurate.
 
 1. Configura le impostazioni rimanenti in base alle esigenze.
 
 1. Al termine, fai clic su [!UICONTROL **Converti**].
 
-Il pannello Glossario ora visualizza tutti gli argomenti aggiornati e anche quelli con errori.
+Nel pannello Glossario vengono ora visualizzati tutti gli argomenti aggiornati e anche quelli con errori.

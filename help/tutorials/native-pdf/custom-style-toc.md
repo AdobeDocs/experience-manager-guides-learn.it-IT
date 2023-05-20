@@ -1,30 +1,30 @@
 ---
 title: Funzione di pubblicazione nativa di PDF | Applicare uno stile personalizzato alle voci del sommario e al contenuto dell’argomento
-description: Scopri come creare e utilizzare fogli di stile e creare stili per i contenuti.
-source-git-commit: 09918abbdade934468dea1c55d0ca2cd60622b35
+description: Scopri come creare fogli di stile di utilizzo e stili per i contenuti.
+exl-id: f65c9683-a1fc-432a-854b-83e8f39d7dae
+source-git-commit: e2349fc14143e5e49f8672ef1bfa48984df3b1c7
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 0%
 
 ---
 
+# Applicare uno stile personalizzato alle voci del sommario e al contenuto dell’argomento
 
-# Applica stile personalizzato alle voci del sommario e al contenuto dell’argomento
+Talvolta, potrebbe essere utile applicare uno stile personalizzato alle voci del sommario o a un particolare argomento. Ciò può essere ottenuto associando un `outputclass` attributo con `<topicref>` nella mappa DITA. Inoltre, nel caso in cui desideri applicare un formato personalizzato a un intero argomento, ciò può essere ottenuto anche estendendo la definizione di stile dell’attributo nel CSS.
 
-In alcuni casi, potrebbe essere utile applicare uno stile personalizzato alle voci del sommario o a un particolare argomento. Questo può essere ottenuto associando un `outputclass` con l&#39;attributo `<topicref>` nella mappa DITA. Inoltre, se desideri applicare un formato personalizzato a un intero argomento, questo può essere ottenuto anche estendendo la definizione dello stile dell’attributo nel CSS.
+Prendiamo ad esempio un nuovo argomento che si desidera inviare per la revisione. Per identificare facilmente l&#39;argomento aggiornato, è necessario aggiungere una `outputclass` attribuire a `<topicref>` nella mappa DITA e quindi definire uno stile personalizzato per lo stesso elemento nel CSS.
 
-Prendiamo ad esempio un nuovo argomento che desideri inviare per la revisione. Per una facile identificazione dell’argomento aggiornato, devi aggiungere un `outputclass` attributo `<topicref>` nella mappa DITA e quindi definire uno stile personalizzato per lo stesso nel CSS.
-
-Nell&#39;esempio seguente, la *Storia dei voli* è stato assegnato un argomento `outputclass` attributo con il valore di `new-topic`.
+Nell&#39;esempio seguente, il *Cronologia dei voli* all&#39;argomento è stato assegnato un `outputclass` attributo con il valore di `new-topic`.
 
 <img src="./assets/new-topic-attribute-in-map.png" width="500">
 
-Definizione della classe `new-topic` in un CSS puoi definire lo stile per i seguenti elementi:
-* La voce principale nel sommario o nel mini-sommario
+La definizione di classe del `new-topic` in un CSS può consentire di definire lo stile per i seguenti elementi:
+* Voce principale nel sommario o mini-sommario
 * Titolo dell’argomento nel contenuto principale
-* L’intero contenuto dell’argomento, incluso il titolo
+* L&#39;intero contenuto dell&#39;argomento, incluso il titolo
 
-Vediamo come ciascuno di questi scenari può essere definito nel CSS. Nella seguente definizione CSS del `new-topic` Classe , il colore del testo è stato modificato.
+Vediamo come ciascuno di questi scenari può essere definito nel CSS. Nella seguente definizione CSS di `new-topic` è stato modificato il colore del testo.
 
 ```css
 …
@@ -34,15 +34,15 @@ Vediamo come ciascuno di questi scenari può essere definito nel CSS. Nella segu
 …
 ```
 
-Questa definizione controlla il colore del testo nel sommario e il titolo dell’argomento. Il seguente output PDF mostra i diversi colori applicati alla voce del sommario:
+Questa definizione controlla il colore del testo nel sommario e il titolo dell&#39;argomento. Nell&#39;output PDF riportato di seguito viene illustrato il diverso colore applicato alla voce del sommario:
 
 <img src="./assets/pdf-output-toc-entry.jpg" width="500">
 
-Anche il titolo dell’argomento è formattato con lo stesso colore.
+Anche il titolo dell&#39;argomento viene formattato con lo stesso colore.
 
 <img src="./assets/pdf-output-topic-title.jpg" width="500">
 
-Se desideri che la voce del sommario e il titolo dell’argomento abbiano stili diversi, puoi definirli separatamente come mostrato di seguito:
+Se si desidera che la voce del sommario e il titolo dell&#39;argomento abbiano stili diversi, è possibile definirli separatamente come illustrato di seguito:
 
 ```css
 ...
@@ -58,7 +58,7 @@ Se desideri che la voce del sommario e il titolo dell’argomento abbiano stili 
 ...
 ```
 
-Infine, puoi anche applicare gli stili all’intero contenuto dell’argomento. A questo scopo, è necessario aggiungere un suffisso &quot;`-content`&quot; al nome della classe. Nell’esempio seguente, è stata aggiunta una barra di modifica all’intero contenuto dell’argomento:
+Infine, puoi anche applicare stili all’intero contenuto all’interno dell’argomento. Per questo, devi aggiungere un suffisso &quot;`-content`&quot; al nome della classe. Nell&#39;esempio seguente è stata aggiunta una barra di modifica all&#39;intero contenuto dell&#39;argomento:
 
 ```css
 ...
@@ -69,8 +69,6 @@ Infine, puoi anche applicare gli stili all’intero contenuto dell’argomento. 
 ...
 ```
 
-Utilizzando gli attributi di stile di cui sopra, viene aggiunta una barra di modifica a sinistra del *Storia del volo* come illustrato di seguito:
+Utilizzando gli attributi di stile di cui sopra, viene aggiunta una barra di modifica a sinistra del *Cronologia del volo* come mostrato di seguito:
 
 <img src="./assets/pdf-output-topic-content.jpg" width="500">
-
-

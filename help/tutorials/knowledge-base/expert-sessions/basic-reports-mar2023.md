@@ -1,6 +1,6 @@
 ---
 title: Rapporti nelle guide AEM
-description: Scopri quali sono tutti i rapporti disponibili in AEM per aiutare gli utenti a migliorare la qualità dei contenuti.
+description: Scopri quali sono tutti i rapporti disponibili nell’AEM per aiutare gli utenti a migliorare la qualità dei contenuti.
 exl-id: f0d761ff-efea-452c-bb8e-865f34a182fc
 source-git-commit: 7871a54f3181fd114e24e0e10cfc15351cefd761
 workflow-type: tm+mt
@@ -11,15 +11,15 @@ ht-degree: 1%
 
 # Rapporti nelle guide AEM
 
-In una configurazione organizzativa, è necessario verificare la completezza complessiva del contenuto prima di inviare i documenti da utilizzare agli utenti finali. Questa esigenza diventa ancora più essenziale in ambienti multiutente e su larga scala in cui i contenuti possono essere riutilizzati in contesti diversi e quindi la convalida dei contenuti o dei documenti è una necessità. Nel contesto dei contenuti strutturati, esistono alcuni tipi specifici di rapporti di cui è comunemente necessaria l’elaborazione.
+In una configurazione organizzativa, è necessario verificare la completezza complessiva del contenuto prima di inviare i documenti per l’utilizzo da parte degli utenti finali. Tale esigenza diventa ancora più essenziale in ambienti multiutente e su larga scala in cui il contenuto può essere riutilizzato in contesti diversi, per cui la convalida del contenuto o del documento è una necessità. Nel contesto dei contenuti strutturati, sono comunemente necessari alcuni tipi specifici di rapporti.
 
 
 ## Panoramica della sessione
 
-In questa sessione sono stati mostrati i rapporti preconfigurati disponibili per gli utenti. Abbiamo ampiamente trattato quanto segue:
-- Rapporti su documenti (mappa) e argomenti
-- Opzioni di gestione dei metadati e dei metadati in blocco
-- Report di riutilizzo dei contenuti
+In questa sessione abbiamo mostrato i rapporti predefiniti disponibili per gli utenti di. Abbiamo trattato in generale i seguenti argomenti:
+- Documento (mappa) e rapporti sugli argomenti
+- Rapporti sui metadati e opzioni per la gestione in blocco dei metadati
+- Rapporti sul riutilizzo dei contenuti
 - Correttezza dell’importazione dei contenuti
 - Utilizzo della funzionalità di reporting di AEM Assets
 
@@ -34,41 +34,41 @@ In questa sessione sono stati mostrati i rapporti preconfigurati disponibili per
 - **Data** - 30 marzo 2023
 - **Numero di partecipanti** - 102
 - **Durata** - 60 minuti
-- **Pubblico** - Clienti, partner e dipendenti di Adobe
+- **Pubblico** - Clienti, partner e dipendenti Adobi
 
 
 ## Elementi principali da ricordare
 
-In questa sessione hai imparato quanto segue:
-- Importanza dei rapporti nel CCMS
+In questa sessione hai appreso quanto segue:
+- Importanza delle relazioni nel CCMS
 - rapporti predefiniti disponibili
-- esempi di reporting sul contenuto
+- esempi di reporting sui contenuti
 
 
 ## Risorse correlate
 
-- **[Download del manuale dei report sulle guide AEM](./assets/aem-guides-expert-session-reports-documentation.pdf)** per comprendere i dettagli delle relazioni dimostrate nella sessione.
+- **[Scarica il manuale dei rapporti delle guide AEM](./assets/aem-guides-expert-session-reports-documentation.pdf)** per comprendere i dettagli dei rapporti dimostrati nella sessione.
 
 - **Video sulle funzioni** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/working-with-reports.html?lang=en)
 
 - **Guida utente** - [Contenuto autore](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
 
-- **Forum della community** - Per le interazioni della community specifiche per sessione sull’Experience League, visita  [Forum AEM guide](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Forum della community** - Per le interazioni della community specifiche per sessione su Experience League, visita  [Forum sulle guide dell’AEM](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
-> Le funzioni mostrate in questa sessione sono disponibili nelle seguenti versioni di AEM Guide:
-> - On-Prem: 4.2 o successiva
-> - Cloud Services: 2302 o versioni successive
+> Le funzioni mostrate in questa sessione sono disponibili nelle seguenti versioni delle Guide AEM:
+> - On-prem: 4.2 o versione successiva
+> - Cloud Services: 2302 o versione successiva
 
 
 
 ## Prossima sessione di esperti
 
-- **Argomento** - Configurazione del contenuto e del modello
-- **Pianificato il** - 27 aprile 2023
+- **Argomento** - Configurazione di contenuti e modelli
+- **Pianificato per** - 27 aprile 2023
 
 
 ## Contattaci
 
-Per qualsiasi domanda, inviaci un’e-mail all’indirizzo <techcomm@adobe.com>
+Per qualsiasi domanda, inviaci un&#39;email all&#39;indirizzo <techcomm@adobe.com>

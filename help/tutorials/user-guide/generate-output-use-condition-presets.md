@@ -1,75 +1,74 @@
 ---
-title: Utilizzare i predefiniti condizione
-description: Scopri come utilizzare i predefiniti delle condizioni
-source-git-commit: 6eb8d29e71301581e8dbb5b6a4252194c5a89f96
+title: Utilizzare i predefiniti per le condizioni
+description: Scopri come utilizzare i predefiniti per le condizioni
+exl-id: cd8f8196-ba03-4a4b-9ce8-2651de4e5cc2
+source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 2%
 
 ---
 
+# Utilizzare i predefiniti per le condizioni {#id1825FL004PN}
 
-# Utilizzare i predefiniti condizione {#id1825FL004PN}
-
-È possibile definire gli attributi negli argomenti DITA e utilizzare il predefinito di condizione per specificare cosa succede con l&#39;attributo nell&#39;output finale. Ad esempio, è possibile aggiungere attributi come versione 1.0 e versione 2.0 nel contenuto e utilizzare un predefinito per condizioni che includa la versione 1.0 per la versione 1.0 ed escluda la versione 2.0. Analogamente, è possibile aggiungere attributi come OS Windows e OS Linux al contenuto e quindi includere o escludere il contenuto pertinente per l&#39;output finale in base al sistema operativo.
+È possibile definire gli attributi negli argomenti DITA e utilizzare il predefinito di condizione per specificare cosa accade con l&#39;attributo nell&#39;output finale. Ad esempio, puoi aggiungere nel contenuto attributi come versione 1.0 e versione 2.0 e utilizzare un predefinito di condizione per includere la versione 1.0 per la versione 1.0 ed escludere la versione 2.0. Allo stesso modo, è possibile aggiungere al contenuto attributi come OS Windows e OS Linux e quindi includere o escludere il contenuto rilevante per l&#39;output finale in base al sistema operativo.
 
 ## Creare un predefinito di condizione
 
 Per creare un predefinito di condizione, effettua le seguenti operazioni:
 
-1. Fai clic su **Predefiniti condizione** nella console mappa DITA.
-1. Fai clic su **Crea** pulsante .
-1. Immetti un nome per il predefinito in **Condizione nome**.
-1. Seleziona una delle seguenti azioni predefinite da **Imposta l&#39;azione predefinita su** a discesa:
+1. Clic **Predefiniti condizione** nella console delle mappe DITA.
+1. Clic **Crea** pulsante.
+1. Immettete un nome per il predefinito in **Condizione nome**.
+1. Seleziona una delle seguenti azioni predefinite da **Imposta azione predefinita su** elenco a discesa:
 
    - Includi
    - Escludi
-   - Passaggio
-   - Flag L’azione è impostata come azione predefinita per tutti gli attributi, siano essi aggiunti o meno al predefinito di condizione.
+   - Passthrough
+   - Flag L’azione è impostata come azione predefinita per tutti gli attributi, a prescindere che vengano aggiunti o meno al predefinito della condizione.
 
-   Ad esempio, hai 15 attributi di condizione nel documento e ne hai inclusi quattro nel predefinito di condizione. Se si seleziona **escludere** come azione predefinita, viene applicata a tutti e 15 gli attributi.
+   Ad esempio, nel documento sono presenti 15 attributi di condizione, quattro dei quali sono stati inclusi nel predefinito di condizione. Se si seleziona **escludi** come azione predefinita, viene applicata a tutti e 15 gli attributi.
 
-1. Effettua una delle seguenti operazioni per aggiungere gli attributi:
-   - Fai clic su **Aggiungi** a un attributo del predefinito di condizione. Puoi ripetere questo passaggio per aggiungere altri attributi.
-   - Fai clic su **Aggiungi tutto** per aggiungere tutti gli attributi al predefinito di condizione.
-1. \(Facoltativo\) Se necessario, è possibile ignorare l&#39;azione predefinita applicata agli attributi nel passaggio 4. Effettua una delle operazioni seguenti:
+1. Per aggiungere gli attributi, effettuate una delle seguenti operazioni:
+   - Clic **Aggiungi** a un attributo del predefinito di condizione. Puoi ripetere questo passaggio per aggiungere altri attributi.
+   - Clic **Aggiungi tutto** per aggiungere tutti gli attributi al predefinito di condizione.
+1. \(Facoltativo\) Se necessario, è possibile sostituire l&#39;azione predefinita applicata agli attributi nel passaggio 4. Effettua una delle operazioni seguenti:
    - Seleziona più attributi, scegli un’azione da **Imposta l&#39;azione per le condizioni selezionate su** e fai clic su **Applica**.
-   - Seleziona un&#39;azione per un attributo dal **Azione** a discesa.
+   - Selezionare un&#39;azione per un attributo da **Azione** a discesa.
 1. Fai clic su **Salva**.
 
 ## Modificare un predefinito di condizione
 
-Puoi apportare modifiche in un predefinito di condizione esistente per modificare le azioni applicate agli attributi nel predefinito di condizione. Per modificare un predefinito di condizione, effettua le seguenti operazioni:
+È possibile apportare modifiche a un predefinito di condizione esistente per modificare le azioni applicate agli attributi nel predefinito di condizione. Per modificare un predefinito di condizione, effettua le seguenti operazioni:
 
-1. Fai clic su **Predefiniti condizione** nella console mappa DITA.
-1. Fai clic su **Modifica** pulsante .
-1. Apporta le modifiche necessarie per tutti gli attributi nel predefinito per condizioni.
+1. Clic **Predefiniti condizione** nella console delle mappe DITA.
+1. Clic **Modifica** pulsante.
+1. Apporta le modifiche necessarie per tutti gli attributi nel predefinito di condizione.
 1. Fai clic su **Salva**.
 
-## Creare una copia di un predefinito per condizioni
+## Creare una copia di un predefinito di condizione
 
-Puoi creare una copia di un predefinito per condizioni e quindi modificarlo in base alle tue esigenze. Per creare una copia di un predefinito per condizioni, effettua le seguenti operazioni:
+È possibile creare una copia di un predefinito di condizione e quindi modificarlo in base alle proprie esigenze. Per creare una copia di un predefinito di condizione, effettua le seguenti operazioni:
 
-1. Fai clic su **Predefiniti condizione** nella console mappa DITA.
-1. Fai clic su **Duplica** pulsante .
+1. Clic **Predefiniti condizione** nella console delle mappe DITA.
+1. Clic **Duplica** pulsante.
 
    >[!NOTE]
    >
-   > Il nome predefinito del predefinito è `<selected condition preset name>_Duplicate`
+   > Il nome predefinito è `<selected condition preset name>_Duplicate`
 
    Puoi modificare il nome in base alle tue esigenze.
 
-1. \(Facoltativo\) Apporta le modifiche necessarie per tutti gli attributi nel predefinito per condizioni.
+1. \(Facoltativo\) Apportare le modifiche necessarie per tutti gli attributi nel predefinito di condizione.
 1. Fai clic su **Salva**.
 
-## Elimina predefinito di condizione
+## Elimina predefinito condizione
 
-È possibile eliminare uno o più predefiniti di condizioni dal **Predefinito condizione** scheda della console mappa DITA. Esegui i seguenti passaggi per eliminare i predefiniti condizione:
+È possibile eliminare uno o più predefiniti di condizione dal **Predefinito condizione** della console delle mappe DITA. Per eliminare i predefiniti di condizione, effettua le seguenti operazioni:
 
-1. Fai clic su **Predefiniti condizione** nella console mappa DITA.
-1. Seleziona il predefinito/i della condizione da eliminare.
-1. Fai clic su **Rimuovi** pulsante .
-1. Fai clic su **Rimuovi** per confermare l’azione.
+1. Clic **Predefiniti condizione** nella console delle mappe DITA.
+1. Seleziona il predefinito di condizione\(s\) da eliminare.
+1. Clic **Rimuovi** pulsante.
+1. Clic **Rimuovi** per confermare l’azione.
 
-**Argomento principale:**[ Generazione di output](generate-output.md)
-
+**Argomento padre:**[ Generazione di output](generate-output.md)

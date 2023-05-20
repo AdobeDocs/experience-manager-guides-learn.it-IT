@@ -1,6 +1,6 @@
 ---
 title: Profili cartella
-description: Creazione e utilizzo di profili cartella per le guide AEM
+description: Creazione e utilizzo di profili di cartelle per le guide AEM
 exl-id: 5a0daa68-51ae-42d0-8320-6e8bdb1fe545
 source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
@@ -11,23 +11,23 @@ ht-degree: 0%
 
 # Profili cartella
 
-AEM fornisce accesso rapido agli strumenti di configurazione. Personalizzando i Profili cartella, diversi reparti o prodotti possono disporre di modelli univoci, ambienti di authoring, profili di attributi condizionali, snippet o anche configurazioni dell’editor web.
+L’AEM fornisce un accesso rapido agli strumenti di configurazione. Personalizzando i profili cartella, diversi reparti o prodotti possono disporre di modelli, ambienti di authoring, profili di attributi condizionali, snippet o configurazioni dell’editor web univoche.
 
-I file di esempio che è possibile scegliere di utilizzare per questa lezione sono forniti nel file [cartella profiles.zip](assets/folderprofiles.zip).
+I file di esempio che puoi scegliere di utilizzare per questa lezione sono forniti nel file [folderprofiles.zip](assets/folderprofiles.zip).
 
 >[!VIDEO](https://video.tv.adobe.com/v/342758?quality=12&learn=on)
 
 ## Accedere ai profili delle cartelle
 
-Le configurazioni vengono gestite tramite l’icona Profili cartella .
+Le configurazioni vengono gestite tramite l’icona Profili cartella.
 
-1. Nella schermata Navigazione, fai clic sul pulsante [!UICONTROL **Strumenti**] icona.
+1. Dalla schermata Navigazione, fai clic su [!UICONTROL **Strumenti**] icona.
 
    ![Icona Strumenti](images/reuse/tools-icon.png)
 
-1. Seleziona **Guide** nel pannello a sinistra.
+1. Seleziona **Guide** nel pannello sinistro.
 
-1. Fai clic sul pulsante [!UICONTROL **Profili cartella**] piastrelle.
+1. Fai clic su [!UICONTROL **Profili cartella**] affiancare.
 
    ![Profili cartella](images/reuse/folder-profiles-tile.png)
 
@@ -37,177 +37,177 @@ Le configurazioni vengono gestite tramite l’icona Profili cartella .
 
 ## Modificare gli attributi condizionali nel profilo globale
 
-Una volta effettuato l’accesso al profilo globale, puoi modificarne la configurazione. Le impostazioni del profilo globale vengono applicate a tutti gli utenti, se non diversamente specificato.
+Dopo aver effettuato l’accesso al Profilo globale puoi modificarne la configurazione. Le impostazioni Profilo globale vengono applicate a tutti gli utenti, salvo diversa indicazione.
 
-1. Nel profilo globale, seleziona la **Attributi condizionali** scheda .
+1. Nel Profilo globale, seleziona la **Attributi condizionali** scheda.
 
-1. Fai clic su [!UICONTROL **Modifica**] nell’angolo in alto a sinistra dello schermo.
+1. Clic [!UICONTROL **Modifica**] nell’angolo in alto a sinistra dello schermo.
 
    ![Attributi condizionali](images/lesson-3/edit-conditional-attributes.png)
 
-1. Fai clic su [!UICONTROL **Aggiungi**].
+1. Clic [!UICONTROL **Aggiungi**].
 
-1. Popolare **Nome**, **Valore** e **Etichetta** campi per la nuova condizione.
+1. Popolare il **Nome**, **Valore**, e **Etichetta** campi per la nuova condizione.
 
    ![nuova condizione](images/lesson-3/new-condition.png)
 
-1. Fai clic su [!UICONTROL **Salva**] nell’angolo in alto a sinistra dello schermo.
-La nuova condizione è ora disponibile per tutti gli utenti. Puoi selezionarlo nel pannello Proprietà contenuto e applicarlo al contenuto come necessario.
+1. Clic [!UICONTROL **Salva**] nell&#39;angolo in alto a sinistra dello schermo.
+La nuova condizione è ora disponibile per tutti gli utenti. Potete selezionarla nel pannello Proprietà contenuto e applicarla al contenuto in base alle esigenze.
 
 ## Creare un nuovo profilo cartella
 
 Oltre al profilo globale predefinito, puoi creare profili personalizzati.
 
-1. Nella schermata Navigazione, fai clic sul pulsante [!UICONTROL **Strumenti**] icona.
+1. Dalla schermata Navigazione, fai clic su [!UICONTROL **Strumenti**] icona.
 
    ![Icona Strumenti](images/reuse/tools-icon.png)
 
-1. Seleziona **Guide** nel pannello a sinistra.
+1. Seleziona **Guide** nel pannello sinistro.
 
-1. Fai clic sul pulsante [!UICONTROL **Profili cartella**] piastrelle.
+1. Fai clic su [!UICONTROL **Profili cartella**] affiancare.
 
    ![Profili cartella](images/reuse/folder-profiles-tile.png)
 
 1. Fai clic su [!UICONTROL **Crea**].
 
-1. Nella finestra di dialogo Crea profilo cartella .
+1. Nella finestra di dialogo Crea profilo cartella.
 
-   a) Assegna un nome al profilo.
+   a. Denomina il profilo.
 
-   b) Specifica un percorso.
+   b. Specifica un percorso.
 
    c. Fai clic su [!UICONTROL **Crea**].
 
    ![Crea profilo cartella](images/lesson-3/create-folder-profile.png)
 
-Nella pagina Profili cartella viene visualizzata una porzione con il nuovo nome profilo.
+Nella pagina Profili cartella viene visualizzata una sezione con il nuovo nome del profilo.
 
-## Aggiungi utenti amministrativi dalla scheda Generale
+## Aggiungere utenti amministratori dalla scheda Generale
 
-Gli utenti amministratori dispongono dei diritti per aggiornare gli attributi condizionali, i modelli di authoring e i predefiniti di output per il profilo cartella.
+Gli utenti amministratori dispongono delle autorizzazioni per aggiornare Attributi condizionali, Modello di authoring e Predefiniti di output per il Profilo cartella.
 
-1. Fai clic sulla tessera per aprire il profilo cartella desiderato.
+1. Fai clic sul riquadro per aprire il profilo cartella desiderato.
 
    ![Modifica profilo cartella](images/lesson-3/edit-folder-profile.png)
 
-1. Seleziona la **Generale** scheda .
+1. Seleziona la **Generale** scheda.
 
-1. Fai clic su [!UICONTROL **Modifica**] in alto a sinistra sullo schermo.
+1. Clic [!UICONTROL **Modifica**] in alto a sinistra sullo schermo.
 
-1. In Utenti amministratori , seleziona un utente dal menu a discesa o digita il nome di un utente.
+1. In Utenti amministratori, seleziona un utente dal menu a discesa o digita il nome di un utente.
 
-1. Fai clic su [!UICONTROL **Aggiungi**].
+1. Clic [!UICONTROL **Aggiungi**].
 
-   Se necessario, puoi aggiungere più utenti amministratori.
+   Se necessario, puoi aggiungere più utenti amministratore.
 
    ![Aggiungi amministratore](images/lesson-3/add-admin.png)
 
-1. Fai clic su [!UICONTROL **Salva**] nell’angolo in alto a destra dello schermo quando tutti gli utenti sono stati aggiunti.
+1. Clic [!UICONTROL **Salva**] nell’angolo in alto a destra dello schermo, quando tutti gli utenti sono stati aggiunti.
 
-Gli utenti amministratori vengono ora assegnati a questo profilo.
+Gli utenti amministrativi vengono ora assegnati a questo profilo.
 
 ## Aggiungere un nuovo pubblico dalla scheda Attributi condizionali
 
-Una volta effettuato l’accesso al profilo globale, puoi modificarne la configurazione. Le impostazioni del profilo globale vengono applicate a tutti gli utenti, se non diversamente specificato.
+Dopo aver effettuato l’accesso al Profilo globale puoi modificarne la configurazione. Le impostazioni Profilo globale vengono applicate a tutti gli utenti, salvo diversa indicazione.
 
-1. Dall’interno del profilo cartella desiderato, seleziona la **Attributi condizionali** scheda .
+1. Dall’interno del Profilo cartella desiderato, seleziona la **Attributi condizionali** scheda.
 
-1. Fai clic su [!UICONTROL **Modifica**] nell’angolo in alto a sinistra dello schermo.
+1. Clic [!UICONTROL **Modifica**] nell’angolo in alto a sinistra dello schermo.
 
    ![Modifica attributi condizionali 2](images/lesson-3/edit-conditional-attributes-2.png)
 
-1. Fai clic su [!UICONTROL **Aggiungi**].
+1. Clic [!UICONTROL **Aggiungi**].
 
-1. Popolare **Nome**, **Valore** e **Etichetta** campi per la nuova condizione.
+1. Popolare il **Nome**, **Valore**, e **Etichetta** campi per la nuova condizione.
 
-   Fai clic su [!UICONTROL **Plus**] sign consente di aggiungere coppie di valori ed etichette aggiuntive per l’attributo denominato.
+   Facendo clic su [!UICONTROL **Più**] consente di aggiungere altre coppie Valore ed Etichetta per l&#39;attributo denominato.
 
    ![Aggiungi condizioni](images/lesson-3/add-conditions.png)
 
-1. Fai clic su [!UICONTROL **Salva**] nell’angolo in alto a sinistra dello schermo.
+1. Clic [!UICONTROL **Salva**] nell&#39;angolo in alto a sinistra dello schermo.
 
 I nuovi Attributi condizionali sono stati aggiunti a questo profilo.
 
-## Scegliere un modello e una mappa dalla scheda Modelli di authoring
+## Scegli un modello e mappalo dalla scheda Authoring dei modelli
 
-AEM Guide include modelli e mappe di authoring preconfigurati. Puoi limitarli a autori specifici. Per impostazione predefinita, i modelli sono memorizzati nella posizione Risorse all’interno di una cartella di modelli DITA.
+Le guide AEM includono modelli e mappe per l’authoring pronti all’uso. Puoi limitarli a autori specifici. Per impostazione predefinita, i modelli vengono memorizzati nella posizione Risorse all&#39;interno di una cartella di modelli DITA.
 
-1. Dall’interno del profilo cartella desiderato, seleziona la scheda Modelli di authoring .
+1. Dall’interno del Profilo cartella desiderato, seleziona la scheda Authoring Templates (Creazione di modelli).
 
-1. Fai clic su Modifica nell’angolo in alto a sinistra dello schermo.
+1. Fai clic su Modifica nell’angolo in alto a sinistra della schermata.
 
 1. Aggiungi un modello mappa.
 
-   a) Da **Modelli mappa** a discesa, seleziona un’opzione dalle mappe disponibili.
+   a. Dal **Modelli mappa** , seleziona un’opzione dalle mappe disponibili.
 
-   b) Fai clic su [!UICONTROL **Aggiungi**].
+   b. Fai clic su [!UICONTROL **Aggiungi**].
 
    ![Modelli mappa](images/lesson-3/map-templates.png)
 
 1. Aggiungi un modello di argomento.
 
-   a) Da **Modelli di argomento** a discesa, seleziona un’opzione dai modelli disponibili.
+   a. Dal **Modelli di argomento** , seleziona un’opzione dai modelli disponibili.
 
    ![Modelli di argomento](images/lesson-3/topic-templates.png)
 
-1. Fai clic su [!UICONTROL **Aggiungi**].
+1. Clic [!UICONTROL **Aggiungi**].
 
-1. Aggiungi altri modelli di argomento come necessario.
+1. Se necessario, aggiungi altri modelli di argomento.
 
 1. Al termine, fai clic su [!UICONTROL **Salva**] in alto a sinistra sullo schermo.
 
-I nuovi modelli di authoring sono stati aggiunti a questo profilo.
+A questo profilo sono stati aggiunti i nuovi modelli di authoring.
 
 ## Eliminare i predefiniti non essenziali dalla scheda Predefiniti di output
 
-Puoi configurare ogni predefinito di output in base al profilo cartella. I predefiniti di output non necessari devono essere rimossi.
+Puoi configurare ogni predefinito di output in base al profilo della cartella. I predefiniti di output non necessari devono essere rimossi.
 
-1. Dall’interno del profilo cartella desiderato, seleziona la **Predefiniti di output** scheda .
+1. Dall’interno del Profilo cartella desiderato, seleziona la **Predefiniti di output** scheda.
 
-1. Nel pannello a sinistra, seleziona le caselle di controllo di eventuali predefiniti non richiesti.
+1. Nel pannello a sinistra, seleziona le caselle di controllo degli eventuali predefiniti che non sono necessari.
 
    ![Elimina predefiniti](images/lesson-3/delete-presets.png)
 
-1. Fai clic su [!UICONTROL **Elimina predefinito**] nell’angolo in alto a sinistra dello schermo.
+1. Clic [!UICONTROL **Elimina predefinito**] nell’angolo in alto a sinistra dello schermo.
 
 1. Nella finestra di dialogo Elimina predefinito, fai clic su [!UICONTROL **Elimina**].
 
    ![Eliminare](images/lesson-3/delete.png)
 
-Gli unici predefiniti di output visualizzati sono quelli che verranno utilizzati.
+Ora gli unici predefiniti di output mostrati sono quelli che verranno utilizzati.
 
-## Caricare un frammento dalla scheda Configurazione dell’editor XML
+## Caricare un frammento di codice dalla scheda Configurazione dell&#39;editor XML
 
-1. Dall’interno del profilo cartella desiderato, seleziona la **Configurazione editor XML** scheda .
+1. Dall’interno del Profilo cartella desiderato, seleziona la **Configurazione editor XML** scheda.
 
-1. In Frammenti editor XML, fai clic su [!UICONTROL **Carica**].
+1. In Snippet editor XML fare clic su [!UICONTROL **Carica**].
 
    ![Carica snippet](images/lesson-3/upload-snippet.png)
 
-1. Passa a uno snippet creato in precedenza.
+1. Passare a uno snippet creato in precedenza.
 
-1. Fai clic su [!UICONTROL **Apri**].
+1. Clic [!UICONTROL **Apri**].
 
-1. Fai clic su [!UICONTROL **Salva**] in alto a sinistra sullo schermo.
+1. Clic [!UICONTROL **Salva**] in alto a sinistra sullo schermo.
 
-La configurazione dell’editor è stata modificata per includere i frammenti.
+La configurazione dell&#39;editor è stata modificata per includere snippet.
 
-## Specificare il profilo cartella nel repository
+## Specificare il profilo della cartella nel repository
 
-Nell’Editor è possibile visualizzare i risultati delle modifiche apportate ai Profili cartella.
+Nell’editor, puoi visualizzare i risultati delle modifiche apportate ai Profili cartella.
 
-1. Passa a **Visualizzazione archivio**.
+1. Accedi a **Vista archivio**.
 
-1. Fai clic sulla cartella del contenuto con cui desideri lavorare.
+1. Fai clic sulla cartella del contenuto che desideri utilizzare.
 
-1. Fai clic sul pulsante [!UICONTROL **Preferenze utente**] nella barra degli strumenti superiore.
+1. Fai clic su [!UICONTROL **Preferenze utente**] nella barra degli strumenti superiore.
 
    ![Preferenze utente](images/lesson-3/hr-user-prefs.png)
 
-1. Nella finestra di dialogo Preferenze utente, seleziona il profilo cartella desiderato dal menu a discesa.
+1. Nella finestra di dialogo Preferenze utente, seleziona il Profilo cartella desiderato dal menu a discesa.
 
-   ![Seleziona Preferenze utente](images/lesson-3/select-user-pref.png)
+   ![Seleziona preferenze utente](images/lesson-3/select-user-pref.png)
 
 1. Fai clic su [!UICONTROL **Salva**].
 
-Hai applicato il profilo cartella al contenuto. Ora, quando si crea un nuovo argomento DITA, viene visualizzato un elenco ristretto di tipi di argomento in base al profilo cartella. La condizione di pubblico contiene le impostazioni globali e quelle specifiche del profilo cartella. Il file Snippets caricato ha creato un set di snippet predefiniti tra cui scegliere. Il dashboard mappa visualizza i predefiniti di output con restrizioni.
+Hai applicato il Profilo cartella al contenuto. Ora, quando si crea un nuovo argomento DITA, viene visualizzato un elenco limitato di tipi di argomento in base al profilo cartella. La Condizione pubblico contiene le impostazioni globali e quelle specifiche del Profilo cartella. Il file Snippet caricato ha creato un set di snippet predefiniti tra cui scegliere. Nel dashboard Mappa vengono visualizzati i predefiniti di output con restrizioni.

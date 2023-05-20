@@ -1,6 +1,6 @@
 ---
-title: Usa pannello Genera rapida
-description: Scopri come utilizzare il pannello Genera rapida
+title: Usa pannello Generazione rapida
+description: Scopri come utilizzare il pannello Generazione rapida
 exl-id: d48803d9-470c-4679-8def-72b45a85917b
 source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
@@ -9,22 +9,22 @@ ht-degree: 0%
 
 ---
 
-# Utilizza il pannello Genera rapida per generare e visualizzare l’output {#id22AKE050F5L}
+# Utilizza il pannello Generazione rapida per generare e visualizzare l’output {#id22AKE050F5L}
 
-AEM Guide fornisce una **Generazione rapida** pannello integrato all’interno dell’editor Web. Questo pannello consente di generare simultaneamente l’output per i predefiniti di output creati per una mappa DITA. Puoi generare l’output per uno o più predefiniti o tutti i predefiniti creati per una mappa DITA. È inoltre possibile utilizzare **Generazione rapida** per visualizzare in seguito l’output generato per i predefiniti.
+Le guide dell’AEM forniscono **Generazione rapida** integrato all’interno dell’Editor web. Questo pannello consente di generare simultaneamente l&#39;output per i predefiniti di output creati per una mappa DITA. È possibile generare l&#39;output per uno o più predefiniti o per tutti i predefiniti creati per una mappa DITA. È inoltre possibile utilizzare **Generazione rapida** per visualizzare successivamente l&#39;output generato per i predefiniti.
 
 >[!NOTE]
 >
-> La **Generazione rapida** viene visualizzato il pannello per la mappa DITA aperta nel pannello Visualizza mappa.
+> Il **Generazione rapida** viene visualizzato per la mappa DITA aperta nel pannello Vista mappa.
 
 ![](images/quick-generate-map-view.png){width="800" align="left"}
 
-Esegui i seguenti passaggi per generare l’output dal **Generazione rapida** pannello:
+Per generare l&#39;output da, effettua le seguenti operazioni **Generazione rapida** pannello:
 
-1. Apri la mappa DITA in Vista mappa. Viene visualizzata l’icona Genera rapido . Viene visualizzato in **Autore** e **Gestisci** schede.
-1. Fai clic sul pulsante **Generazione rapida** icona \( ![](images/quick-generate-icon.svg)\) per aprire **Generazione rapida** pannello. In **Generazione rapida** è possibile visualizzare l&#39;elenco di tutti i predefiniti di output creati per la mappa DITA.
-1. Seleziona uno o più predefiniti per i quali desideri generare l’output.
-1. Fai clic su **Genera** per generare l’output dei predefiniti selezionati. Viene visualizzato un messaggio di successo sulla generazione dell&#39;output. Se la generazione non riesce viene visualizzato un messaggio di errore. Puoi anche visualizzare il registro degli errori per visualizzare i dettagli dell’errore che si è verificato nel processo di generazione.
-1. Fai clic su **Visualizza output** \( ![](images/view-output-icon.svg)\) icona di un predefinito specifico per visualizzare l&#39;output generato per il predefinito.
+1. Apri la mappa DITA in Vista mappa. Viene visualizzata l’icona Generazione rapida. Viene visualizzato in **Autore** e **Gestisci** schede.
+1. Fai clic su **Generazione rapida** icona \( ![](images/quick-generate-icon.svg)\) per aprire **Generazione rapida** pannello. In **Generazione rapida** è possibile visualizzare l&#39;elenco di tutti i predefiniti di output creati per la mappa DITA.
+1. Selezionate uno o più predefiniti per i quali desiderate generare l&#39;output.
+1. Clic **Genera** per generare l&#39;output per i predefiniti selezionati. Alla generazione dell’output viene visualizzato un messaggio di successo. Se la generazione non riesce, viene visualizzato un messaggio di errore. Puoi anche visualizzare il registro degli errori per visualizzare i dettagli dell’errore che si è verificato nel processo di generazione.
+1. Clic **Visualizza output** \( ![](images/view-output-icon.svg)\) di un predefinito specifico per visualizzare l&#39;output generato per il predefinito.
 
-**Argomento principale:**[ Utilizzare l’editor Web](web-editor.md)
+**Argomento padre:**[ Utilizzare l’editor web](web-editor.md)

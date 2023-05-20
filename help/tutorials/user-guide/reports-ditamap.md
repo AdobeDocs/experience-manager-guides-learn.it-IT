@@ -1,6 +1,6 @@
 ---
-title: Report mappa DITA dal dashboard mappa
-description: Scopri come eseguire il report mappa DITA dal dashboard mappa
+title: Rapporto mappa DITA dal dashboard delle mappe
+description: Scopri come mappare il rapporto DITA dal dashboard delle mappe
 exl-id: 8ba1dc83-fa96-4ae0-bfa8-89b5a8949f08
 source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
@@ -9,89 +9,89 @@ ht-degree: 0%
 
 ---
 
-# Report mappa DITA dal dashboard mappa {#id205BB800EEN}
+# Rapporto mappa DITA dal dashboard delle mappe {#id205BB800EEN}
 
-AEM Guide offre agli amministratori le funzionalità di reporting per verificare l’integrità generale della documentazione prima che venga pubblicata o resa disponibile agli utenti finali. Il rapporto mappa DITA dal dashboard mappa in Guide AEM fornisce informazioni utili come gli argomenti mancanti, gli argomenti con elementi mancanti, l&#39;UUID degli argomenti e dei file multimediali di riferimento e lo stato di ogni argomento. Un rapporto dettagliato a livello di argomento fornisce anche informazioni relative al contenuto DITA, come riferimenti al contenuto e immagini mancanti o riferimenti incrociati.
+Le guide AEM forniscono agli amministratori le funzionalità di reporting per verificare l’integrità complessiva della documentazione prima che venga pubblicata in tempo reale o resa disponibile agli utenti finali. Il report mappa DITA dal dashboard delle mappe nelle guide AEM fornisce informazioni preziose come gli argomenti mancanti, gli argomenti con elementi mancanti, l&#39;UUID degli argomenti e dei file multimediali di riferimento e lo stato di revisione di ciascun argomento. Un report dettagliato a livello di singolo argomento fornisce inoltre informazioni relative al contenuto DITA, ad esempio riferimenti al contenuto e immagini mancanti o rimandi.
 
 >[!NOTE]
 >
-> AEM Guide aggiorna questo rapporto su ogni evento che determina una modifica nel file della mappa o quando viene aggiornato un riferimento all’interno del file dell’argomento.
+> Guide AEM aggiorna questo rapporto su ogni evento che determina una modifica nel file di mappa o quando qualsiasi riferimento all&#39;interno del file di argomento viene aggiornato.
 
-Esegui i seguenti passaggi per visualizzare il rapporto Mappa DITA:
+Per visualizzare il rapporto Mappa DITA, effettuare le seguenti operazioni:
 
-1. Nell’interfaccia utente Assets, individua e fai clic sul file di mappa DITA per il quale desideri visualizzare il rapporto.
+1. Nell’interfaccia utente Assets, passa al file di mappa DITA per il quale desideri visualizzare il rapporto e fai clic su di esso.
 
-1. Fai clic su **Rapporti**.
+1. Clic **Rapporti**.
 
    ![](images/reports-page-uuid.png){width="800" align="left"}
 
    La pagina Rapporti è divisa in due parti:
 
-   - **Riepilogo argomento:**
+   - **Riepilogo argomenti:**
 
-      Elenca il riepilogo complessivo del file di mappa selezionato. Osservando il Riepilogo, puoi rapidamente conoscere il numero totale di argomenti nella mappa, gli argomenti mancanti, il numero di argomenti con elementi mancanti, lo stato degli argomenti — In bozza, In revisione o Stato rivisto.
+      Elenca il riepilogo generale del file di mapping selezionato. Osservando il Riepilogo, è possibile conoscere rapidamente il numero totale di argomenti nella mappa, gli argomenti mancanti, il numero di argomenti con elementi mancanti, lo stato degli argomenti: In bozza, In revisione o Rivisto.
 
    - **Dettagli:**
 
-      Quando fai clic su un argomento, viene visualizzato un rapporto dettagliato dell’argomento selezionato.
+      Quando si fa clic su un argomento, viene visualizzato un report dettagliato dell&#39;argomento selezionato.
 
       ![](images/detailed-report-uuid.png){width="800" align="left"}
 
       Elementi evidenziati in **A**, **B**, **C** e **D** sono descritti di seguito:
 
-      - **Argomento**: Titolo dell&#39;argomento specificato nella mappa DITA. Passando il puntatore del mouse sul titolo dell&#39;argomento viene visualizzato il percorso completo dell&#39;argomento. Se l’argomento presenta problemi, ad esempio riferimenti o immagini mancanti, prima del titolo dell’argomento viene visualizzato un punto rosso.
+      - **Argomento**: titolo dell&#39;argomento specificato nella mappa DITA. Passando il puntatore del mouse sul titolo dell&#39;argomento viene visualizzato il percorso completo dell&#39;argomento. In caso di problemi nell&#39;argomento, come riferimenti o immagini mancanti, viene visualizzato un punto rosso prima del titolo dell&#39;argomento.
 
-      - **Nome file**: Nome del file.
+      - **Nome file**: nome del file.
 
-      - **UUID**: Identificatore univoco universale \(UID\) del file.
+      - **UUID**: identificatore univoco universale \(UUID\) del file.
 
-      - **Autore**: Utente che ha lavorato per ultimo su questo argomento.
+      - **Autore**: utente che ha lavorato per ultimo su questo argomento.
 
-      - **Stato del documento**: Lo stato corrente del documento: Bozza, In-Review o Revisione.
+      - **Stato documento**: lo stato corrente del documento: Bozza, In-Review o Rivisto.
 
-      - **Argomenti mancanti \(B\)**: Se sono presenti argomenti con riferimenti interrotti, tali argomenti sono elencati nell&#39;elenco Argomenti mancanti.
+      - **Argomenti mancanti \(B\)**: se sono presenti argomenti con riferimenti interrotti, tali argomenti vengono elencati nell’elenco Argomenti mancanti.
 
-      - **Elementi mancanti**: Elenca il numero di immagini mancanti o eventuali riferimenti incrociati interrotti.
+      - **Elementi mancanti**: elenca il numero di immagini mancanti o di riferimenti incrociati interrotti, se presenti.
 
-      - **Apri nell&#39;editor \(D\)**: Fare clic su questa icona per aprire l&#39;argomento nell&#39;editor Web.
+      - **Apri nell’editor \(D\)**: facendo clic su questa icona si apre l’argomento nell’Editor web.
 
    Elementi evidenziati in **E** sono descritti di seguito:
 
-   - **Multimedia**: Il percorso delle immagini utilizzate nell’argomento viene mostrato insieme al relativo UID. Se fai clic sul percorso dell&#39;immagine, l&#39;immagine corrispondente viene aperta in una finestra a comparsa. I collegamenti immagine interrotti sono elencati in rosso.
+   - **Multimedia**: insieme al relativo UUID vengono mostrati il percorso delle immagini utilizzate nell’argomento. Se fate clic sul percorso dell&#39;immagine, l&#39;immagine corrispondente viene aperta in una finestra a comparsa. I collegamenti immagine interrotti sono elencati in rosso.
 
-   - **Riferimenti contenuto**: Il percorso del contenuto menzionato nell’argomento viene mostrato insieme al relativo UID. Se fai clic sul titolo del contenuto a cui si fa riferimento, l’argomento corrispondente viene aperto in modalità Anteprima.
+   - **Riferimenti contenuto**: il percorso del contenuto a cui si fa riferimento nell’argomento viene visualizzato insieme al relativo UUID. Se fai clic sul titolo del contenuto a cui si fa riferimento, l’argomento corrispondente viene aperto in modalità Anteprima.
 
-   - **Riferimenti incrociati**: Il percorso del contenuto a cui si fa riferimento viene mostrato insieme al relativo UID. Se fai clic sul titolo del contenuto a cui si fa riferimento, l’argomento corrispondente viene aperto in modalità Anteprima. I riferimenti incrociati interrotti sono elencati in rosso.
+   - **Riferimento incrociato**: viene visualizzato il percorso del contenuto con riferimenti incrociati e il relativo UUID. Se fai clic sul titolo del contenuto a cui si fa riferimento, l’argomento corrispondente viene aperto in modalità Anteprima. I riferimenti incrociati interrotti sono elencati in rosso.
 
-   - **Revisione**: Mostra lo stato dell&#39;attività di revisione dell&#39;argomento. È possibile visualizzare lo stato \(apertura o chiusura\), la data di scadenza e l&#39;assegnatario dell&#39;argomento in esame. Se fai clic sul collegamento dell’argomento, questo apre l’argomento in modalità di revisione.
+   - **Revisione**: mostra lo stato dell’attività di revisione dell’argomento. È possibile visualizzare lo stato \(aperto o chiuso\), la data di scadenza e l&#39;assegnatario dell&#39;argomento in revisione. Se si fa clic sul collegamento dell&#39;argomento, l&#39;argomento viene aperto in modalità di revisione.
 
-   - **Utilizzato in**: Mostra un elenco di altri argomenti o mappe in cui viene utilizzato l&#39;argomento. È inoltre elencato l’UUID di tutti questi argomenti e mappe.
+   - **Utilizzato in**: mostra un elenco di altri argomenti o mappe in cui viene utilizzato l’argomento. È elencato anche l’UUID di tutti questi argomenti e mappe.
 
 
 
-Oltre al rapporto per ogni singolo argomento, gli amministratori possono accedere anche a informazioni quali la cronologia di pubblicazione di una mappa DITA. Per ulteriori informazioni sulla cronologia degli output generati, consulta [Visualizza lo stato dell&#39;attività di generazione dell&#39;output](generate-output-for-a-dita-map.md#viewing_output_history).
+Oltre al report per ogni singolo argomento, gli amministratori hanno anche accesso a informazioni quali la cronologia di pubblicazione di una mappa DITA. Per ulteriori informazioni sulla cronologia degli output generati, consulta [Visualizza lo stato dell&#39;attività di generazione output](generate-output-for-a-dita-map.md#viewing_output_history).
 
-## Genera il rapporto di mappatura DITA CSV
+## Genera il rapporto mappa CSV di DITA
 
-Puoi scaricare ed esportare il CSV di un rapporto di mappa DITA. Il CSV contiene il rapporto dettagliato sulla mappa DITA.
+È possibile scaricare ed esportare il file CSV di un rapporto mappa DITA. Il file CSV contiene il rapporto dettagliato sulla mappa DITA.
 
-Esegui i seguenti passaggi per generare il CSV di un rapporto di mappa DITA:
+Per generare il file CSV di un rapporto mappa DITA, effettuare le seguenti operazioni:
 
-1. Fai clic su **Genera report** in alto a sinistra per generare il report mappa DITA.
+1. Clic **Genera report** in alto a sinistra per generare il report mappa DITA.
 
    ![](images/generate-DITA-map-report.png){width="800" align="left"}
 
-1. Riceverai una notifica quando il report sarà pronto per essere scaricato. Fai clic su **Scarica** per scaricare il CSV del rapporto generato.
+1. Riceverai una notifica quando il report sarà pronto per il download. Clic **Scarica** per scaricare il file CSV del rapporto generato.
 
    ![](images/download-report-dialog.png){width="550" align="left"}
 
 
-   Puoi anche scaricare il CSV del rapporto generato in un secondo momento dalla casella in entrata della notifica AEM.
+   Puoi anche scaricare il file CSV del rapporto generato in un secondo momento dalla casella in entrata delle notifiche AEM.
 
-   Fai clic sul rapporto generato nella casella in entrata per scaricare il rapporto.
+   Fai clic sul rapporto generato nella casella in entrata per scaricarlo.
 
    ![](images/report-inbox--notification.png){width="300" align="left"}
 
 Una volta scaricato il rapporto nella casella in entrata, puoi anche selezionarlo e utilizzare l’icona Apri nella parte superiore per aprire il rapporto selezionato.
 
-**Argomento principale:**[ Rapporti](reports-intro.md)
+**Argomento padre:**[ Rapporti](reports-intro.md)

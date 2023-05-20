@@ -1,21 +1,21 @@
 ---
-title: Nozioni di base sulla pubblicazione di PDF nativi
-description: Scopri come pubblicare PDF utilizzando il motore pdf nativo in AEM Guide.
+title: Nozioni di base sulla pubblicazione nativa di PDF
+description: Scopri come pubblicare PDF utilizzando il motore pdf nativo nelle guide AEM.
 exl-id: e7ba6d2d-ebfb-4400-9b10-c4fb173123cf
 source-git-commit: 093cb6c3b3a523e56f401e813c2b51a414c725d2
 workflow-type: tm+mt
 source-wordcount: '222'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Nozioni di base sulla pubblicazione di PDF nativi
+# Nozioni di base sulla pubblicazione nativa di PDF
 
-AEM Guide dispone di un motore di pubblicazione PDF integrato che consente agli utenti di creare, sviluppare e pubblicare contenuti in formato PDF. La sua ricca gamma di funzionalità consente di creare diversi layout di pagina, personalizzare fogli di stile e progettare vari componenti PDF necessari per la pubblicazione di contenuti senza soluzione di continuità.
+Le guide AEM sono dotate di un motore di pubblicazione PDF integrato che offre agli utenti la possibilità di creare, sviluppare e pubblicare contenuti in formato PDF. La ricca gamma di funzionalità consente di creare layout di pagina diversi, personalizzare i fogli di stile e progettare vari componenti PDF necessari per una pubblicazione fluida dei contenuti.
 
 ## Panoramica della sessione
 
-In questa sessione imparerai a pubblicare PDF utilizzando il motore pdf nativo in AEM Guide
+In questa sessione imparerai a pubblicare PDF utilizzando il motore pdf nativo nelle guide AEM
 
 ## Registrazione sessione
 
@@ -26,15 +26,15 @@ In questa sessione imparerai a pubblicare PDF utilizzando il motore pdf nativo i
 - **Data** - 23 febbraio 2023
 - **Numero di partecipanti** - 135
 - **Durata** - 60 minuti
-- **Pubblico** - Clienti, partner e dipendenti di Adobe
+- **Pubblico** - Clienti, partner e dipendenti Adobi
 
-## Principali aspetti
+## Elementi principali da ricordare
 
 In questa sessione imparerai quanto segue:
-- Nozioni di base sulla pubblicazione in PDF
+- Nozioni di base sulla pubblicazione PDF
 - Creare e personalizzare vari componenti del modello di PDF
 - Struttura e stile dei contenuti per la pubblicazione
-- Manipolazione dell’output tramite script
+- Manipolazione dell&#39;output tramite script
 - Configurazioni avanzate, sicurezza, stampa e produzione
 
 ## Risorse correlate
@@ -43,15 +43,15 @@ In questa sessione imparerai quanto segue:
 
 - **Guida utente** - [Pubblicazione nativa di PDF](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/configuring/config-native-pdf-publish/pdf-template.html?lang=en)
 
-- **Forum della community** - Per le interazioni della community specifiche per sessione sull’Experience League, visita  [Forum AEM guide](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Forum della community** - Per le interazioni della community specifiche per sessione su Experience League, visita  [Forum sulle guide dell’AEM](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
-> Le funzioni mostrate in questa sessione sono disponibili nelle seguenti versioni di AEM Guide:
-> - On-prem 4.2 o successivo
+> Le funzioni mostrate in questa sessione sono disponibili nelle seguenti versioni delle Guide AEM:
+> - On-prem 4.2 o versione successiva
 > - Cloud Services 2211 e successivi
 
 
 ## Contattaci
 
-Per qualsiasi domanda, inviaci un’e-mail all’indirizzo <techcomm@adobe.com>
+Per qualsiasi domanda, inviaci un&#39;email all&#39;indirizzo <techcomm@adobe.com>

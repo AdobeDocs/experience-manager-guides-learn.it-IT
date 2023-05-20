@@ -1,34 +1,34 @@
 ---
-title: Esamina argomenti o mappe
+title: Rivedi argomenti o mappe
 description: Scopri come rivedere argomenti o mappe
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 26860f5d-d744-49b4-8483-4e0f3798af93
+source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 0%
 
 ---
 
+# Rivedi argomenti o mappe {#id1645H6010Q5}
 
-# Esamina argomenti o mappe {#id1645H6010Q5}
+Quasi tutti i documenti tecnici devono essere sottoposti a più cicli di revisione. Nella maggior parte dei casi, un ciclo di revisione coinvolge più revisori. Per gli autori è sempre difficile rispondere ai commenti di più revisori. Inoltre, in uno scenario con più revisori, è utile che un revisore possa visualizzare anche i commenti degli altri revisori.
 
-Quasi tutti i documenti tecnici devono passare attraverso diverse fasi di revisione. Nella maggior parte dei casi, un ciclo di revisione coinvolge più di un revisore. Rivolgersi e rispondere ai commenti di più revisori è sempre una sfida per gli autori. Inoltre, in uno scenario per più revisori, è utile se un revisore può vedere anche i commenti fatti da altri revisori.
+Alcune delle caratteristiche principali offerte dalle guide AEM alla *iniziatori \(o autori\)* sono:
 
-Alcune delle caratteristiche principali offerte da AEM Guide al *iniziatori \(o autori\)* sono:
+- Creare un progetto DITA per il flusso di lavoro di revisione.
+- Invia uno o più argomenti per la revisione in un&#39;unica attività di revisione.
 
-- Crea un progetto DITA per il flusso di lavoro di revisione.
-- Invia uno o più argomenti da esaminare in un&#39;unica attività di revisione.
+- Inviare un argomento per la revisione in più attività di revisione.
 
-- Invia un argomento per la revisione in più attività di revisione.
+- Creare un&#39;attività di revisione selezionando una mappa o un argomento DITA in base alla versione più recente, alla versione alla data o a un&#39;etichetta \(per gli argomenti\) e alla linea di base \(per la mappa\).
 
-- Crea un&#39;attività di revisione selezionando una mappa o un argomento DITA in base alla versione più recente, alla versione in data o a un&#39;etichetta \(per argomenti\) e Linea di base \(per mappa\).
+- Condividere una versione aggiornata dell&#39;argomento per la revisione dal dashboard di revisione.
 
-- Condividi una versione aggiornata dell&#39;argomento per la revisione dalla dashboard di revisione.
+- Accedere ai commenti condivisi su diverse versioni dell&#39;argomento.
 
-- Accedi ai commenti condivisi su diverse versioni dell&#39;argomento.
+- Raggruppa e filtra i commenti in base alla versione dell&#39;argomento.
 
-- Raggruppa e filtra i commenti in base alla versione dell’argomento.
-
-- Vedi differenze affiancate tra diverse versioni di argomenti condivisi per la revisione.
+- Vedi differenze affiancate tra diverse versioni degli argomenti condivisi per la revisione.
 
 - Importa automaticamente i commenti \(eliminati o inseriti\) nella versione dell&#39;argomento condivisa per la revisione.
 
@@ -36,20 +36,20 @@ Alcune delle caratteristiche principali offerte da AEM Guide al *iniziatori \(o 
 Funzioni disponibili per *revisori*:
 
 - Ottieni una visualizzazione composita degli argomenti condivisi per la revisione.
-- Passa dalla visualizzazione composita alla visualizzazione di singoli argomenti.
-- Utilizza gli strumenti di commento, ad esempio inserimento, eliminazione, evidenziazione e nota/commento per fornire il loro feedback.
+- Consente di passare dalla visualizzazione composita alla visualizzazione argomento singolo.
+- Utilizza gli strumenti di commento, come inserimento, eliminazione, evidenziazione e nota/commento del testo, per fornire il loro feedback.
 - Allegare uno o più file a un commento di revisione.
-- Scaricare gli allegati da un commento.
-- Utilizza il pannello Revisione per aggiungere commenti o rispondere ai commenti di altri utenti.
-- Facile conoscenza della versione dell&#39;argomento in esame.
-- Ricevere una notifica quando un&#39;attività viene assegnata loro per la revisione.
-- Vedi le differenze tra le versioni precedenti e successive dell&#39;argomento condiviso per la revisione.
-- Si vedano i commenti degli altri revisori o le risposte ai commenti dell&#39;autore in tempo reale.
-- Accedi ai commenti forniti sulla versione precedente dell&#39;argomento.
+- Scaricare allegati da un commento.
+- Il pannello Revisione consente di aggiungere commenti o rispondere ai commenti di altri utenti.
+- Conoscere facilmente la versione dell&#39;argomento in esame.
+- Ricevi una notifica quando un’attività viene assegnata a loro per la revisione.
+- Vedi le differenze tra la versione precedente e quella più recente dell&#39;argomento condiviso per la revisione.
+- Vedi i commenti fatti da altri revisori o le risposte ai commenti dell’autore in tempo reale.
+- Accedere ai commenti forniti su una versione precedente dell&#39;argomento.
 
 >[!NOTE]
 >
-> Consulta la sezione *Revisione* nella guida alle best practice per le best practice relative alla creazione di attività di revisione.
+> Consulta la *Revisione* sezione nella guida alle best practice per le best practice sulla creazione di attività di revisione.
 
 - **[Creare un progetto DITA](authoring-create-dita-project.md)**
 
@@ -57,10 +57,8 @@ Funzioni disponibili per *revisori*:
 
 - **[Riassegna attività di revisione tramite notifica](reassign-review-using-notification.md)**
 
-- **[Argomenti della revisione](review-topics.md)**
+- **[Rivedi argomenti](review-topics.md)**
 
 - **[Commenti sulla revisione degli indirizzi](review-address-review-comments.md)**
 
-- **[Gestire le attività di revisione utilizzando il dashboard di revisione](review-manage-tasks-review-dashboard.md)**
-
-
+- **[Gestire le attività di revisione mediante il dashboard Revisione](review-manage-tasks-review-dashboard.md)**
