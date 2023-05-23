@@ -2,16 +2,18 @@
 title: Crea argomenti
 description: Scopri come creare gli argomenti
 exl-id: 336bbbff-f268-40be-ad3a-9c72923be71b
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: e69665f3c4a0db10365719ac671cbd3ac0c455ec
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '583'
 ht-degree: 0%
 
 ---
 
 # Crea argomenti {#id2056AL00O5Z}
 
-Le guide AEM consentono di creare argomenti DITA di tipo topic, task, concept, reference, glossary, DITAVAL e altro ancora. Oltre a creare argomenti basati su modelli predefiniti, puoi anche definire modelli personalizzati. Per ulteriori informazioni sull&#39;utilizzo dei modelli DITA personalizzati, vedere *Configurare modelli e tag per l’authoring* in Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
+Le guide AEM consentono di creare argomenti DITA di tipo topic, task, concept, reference, glossary, DITAVAL e altro ancora. Oltre a creare argomenti basati su modelli predefiniti, puoi anche definire modelli personalizzati. Questi modelli devono essere aggiunti al profilo della cartella per essere visualizzati nella blueprint di selezione dei modelli e nell’editor web.
+
+La configurazione Global e Folder Profile (Profilo cartella) è disponibile solo per gli utenti amministratori a livello di cartella. Per informazioni dettagliate sulla configurazione dei profili globali e a livello di cartella, consulta *Configurare i modelli di authoring* in Installare e configurare Adobe Experience Manager Guides per la configurazione.
 
 Per creare un argomento, effettua le seguenti operazioni:
 
@@ -23,7 +25,7 @@ Per creare un argomento, effettua le seguenti operazioni:
 
    ![](images/create_dita_topic.png){width="800" align="left"}
 
-   Per impostazione predefinita, le guide AEM forniscono i modelli degli argomenti DITA più comunemente utilizzati. Puoi configurare più modelli di argomento in base ai requisiti organizzativi, vedi *Configurare modelli e tag per l’authoring* in Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
+   Per impostazione predefinita, le guide AEM forniscono i modelli degli argomenti DITA più comunemente utilizzati. Puoi configurare più modelli di argomento in base ai requisiti organizzativi, vedi *Configurare i modelli di authoring* in Installare e configurare Adobe Experience Manager Guides per la configurazione.
 
    >[!NOTE]
    >

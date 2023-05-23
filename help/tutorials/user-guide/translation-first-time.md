@@ -2,9 +2,9 @@
 title: Best practice per la traduzione dei contenuti
 description: Scopri come best practice per la traduzione dei contenuti
 exl-id: 4eff0f27-b3d1-4c6e-af88-bcb3f6d96990
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: d87a2e054310e3421dcbf347232a420638823b93
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1285'
 ht-degree: 1%
 
 ---
@@ -103,6 +103,16 @@ Per creare un progetto di traduzione, effettua le seguenti operazioni:
 1. Clic **Inizio** per creare un nuovo progetto di traduzione.
 
    Viene creato un nuovo progetto di traduzione con la versione selezionata degli argomenti. In questo momento, viene visualizzato un messaggio pop-up che conferma la creazione del progetto di traduzione. Una volta che tutte le copie per lingua di destinazione sono disponibili nel progetto di traduzione, si riceve una notifica nella casella in entrata. Una volta che l’area di destinazione delle copie per lingua è disponibile nel progetto di traduzione, puoi procedere e avviare il processo di traduzione.
+
+   ![](images/status-translation-uuid.png){width="800" align="left"}
+
+
+La scheda Traduzione include le sezioni seguenti:
+
+- **Riepilogo**: mostra il numero di argomenti a cui si fa riferimento, la lingua di origine e il relativo codice.
+- **Dettagli**: mostra il titolo dell’argomento, il tipo di argomento, il codice della lingua dell’argomento, la lingua di origine, la versione dell’argomento di origine, l’etichetta aggiunta all’argomento e lo stato della traduzione.
+
+
 
 
 ## Avvia il processo di traduzione {#id225IK030OE8}
