@@ -1,7 +1,7 @@
 ---
 title: Note sulla versione | Novità della versione 4.2.1 delle guide di Adobe Experience Manager
 description: Scopri le funzioni nuove e migliorate delle versioni 4.2.1 delle guide di Adobe Experience Manager
-source-git-commit: 8ea7b6d80b94d24910ac00bf1fb1d40d6992a166
+source-git-commit: 6a1c6383f827bcd1e388290a793b69d372b7e7ce
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Ora è possibile passare facilmente dall’Editor Web alla pagina di navigazione
 * Fai clic su **Guide** icona (![](assets/aem-guides-icon.png) ), per tornare alla pagina di navigazione AEM.
 
 
-Per ulteriori dettagli, consulta [Pagina di navigazione AEM](../user-guide/web-editor-launch-editor.md#id2056BG00RZJ)
+Per ulteriori dettagli, consulta [Pagina di navigazione AEM](../user-guide/web-editor-launch-editor.md#id2056BG00RZJ).
 
 ## Supporto avanzato dei metadati nella pubblicazione PDF
 
