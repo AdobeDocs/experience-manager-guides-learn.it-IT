@@ -1,9 +1,9 @@
 ---
 title: Note sulla versione | Novità della versione 4.2.1 delle guide di Adobe Experience Manager
 description: Scopri le funzioni nuove e migliorate delle versioni 4.2.1 delle guide di Adobe Experience Manager
-source-git-commit: 66b83f940457c64dadc5b319e1274960ac0f6da8
+source-git-commit: 8ea7b6d80b94d24910ac00bf1fb1d40d6992a166
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '701'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Ora è possibile passare facilmente dall’Editor Web alla pagina di navigazione
 
 * Fai clic su **Guide** icona (![](assets/aem-guides-icon.png) ), per tornare alla pagina di navigazione AEM.
 
+
+Per ulteriori dettagli, consulta [Pagina di navigazione AEM](../user-guide/web-editor-launch-editor.md#id2056BG00RZJ)
 
 ## Supporto avanzato dei metadati nella pubblicazione PDF
 
@@ -45,7 +47,7 @@ La vista Struttura offre i seguenti miglioramenti:
 
 * Utilizzando la funzione di ricerca, puoi cercare un elemento in base al suo nome, ID, testo o valore dell’attributo.
 
-Per ulteriori dettagli, consultate la descrizione della funzione Visualizzazione Struttura in [Pannello sinistro](../user-guide/web-editor-features.md) sezione.
+Per ulteriori dettagli, consultate la descrizione della funzione Visualizzazione Struttura in [Pannello sinistro](../user-guide/web-editor-features.md#id2051EA0M0HS) sezione.
 
 ## Generare il rapporto Multimedia dall’editor web
 
@@ -80,4 +82,4 @@ Le guide AEM ora forniscono la funzione di aprire e riprodurre i file audio o vi
 
 <img src="assets/video-web-editor.png" alt="riproduci video" width="600">
 
-Per ulteriori dettagli, consulta la descrizione della funzione Visualizzazione archivio in [Pannello sinistro](../user-guide/web-editor-features.md) sezione.
+Per ulteriori dettagli, consulta la descrizione della funzione Visualizzazione archivio in [Pannello sinistro](../user-guide/web-editor-features.md#id2051EA0M0HS) sezione.
