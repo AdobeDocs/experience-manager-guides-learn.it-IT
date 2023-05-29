@@ -1,7 +1,7 @@
 ---
 title: Aggiornare le guide di Adobe Experience Manager
 description: Scopri come aggiornare le guide di Adobe Experience Manager
-source-git-commit: 629a3714e7b75af609238a506688da2674bf31cc
+source-git-commit: 414ee8ae3b12bb40054ddbe9e1a008ebc6058f89
 workflow-type: tm+mt
 source-wordcount: '2750'
 ht-degree: 1%
@@ -68,16 +68,22 @@ Prima di installare la versione 4.0, effettuare le seguenti operazioni:
 
 Questa API è progettata per valutare lo stato corrente del sistema e segnalare se l’aggiornamento è possibile o meno. Per eseguire questo script, attiva il seguente endpoint specificato:
 
-|Punto finale|/bin/dxml/upgrade/3xto4x/report| |Tipo di richiesta|**GET** Puoi utilizzare un browser web per accedere all’istanza AEM come amministratore.| |Risposta prevista|- Nel caso in cui tutti i nodi richiesti possano essere spostati, si otterrà un controllo superato. <br>- Se nella posizione di destinazione è presente un nodo, viene visualizzato un errore rilevante. Pulisci l’archivio \(elimina nodo /var/dxml\) e reinstalla il pacchetto di aggiornamento, quindi attiva di nuovo questo endpoint. <br>**Nota:** Questo non è un errore comune in quanto la posizione di destinazione non è stata utilizzata in precedenza dalle guide AEM 3.x. <br> - Se questo script non riesce, non procedere e segnalalo al tuo team di successo cliente.|
+| Punto finale | /bin/dxml/upgrade/3xto4x/report |
+| --- | --- |
+| Tipo di richiesta | **GET** Puoi utilizzare un browser web per accedere all’istanza AEM come amministratore. |
+| Risposta prevista | - Nel caso in cui tutti i nodi richiesti possano essere spostati, riceverai un controllo superato. <br>- Se nella posizione di destinazione è presente un nodo, viene visualizzato un errore rilevante. Pulisci l’archivio \(elimina nodo /var/dxml\) e reinstalla il pacchetto di aggiornamento, quindi attiva di nuovo questo endpoint. <br>**Nota:** Questo non è un errore comune in quanto la posizione di destinazione non è stata utilizzata in precedenza dalle guide AEM 3.x. <br> - Se questo script non riesce, non procedere e segnalalo al team di successo del cliente. |
 
 **API di migrazione dati di sistema**
 
-Questa API è progettata per migrare i dati di sistema come indicato nella [Mappatura della migrazione](#id2244LE040XA) sezione.
+Questa API è progettata per migrare i dati di sistema come indicato nella **Mappatura della migrazione** sezione.
 
 1. Non eseguire questo script se l’API Verifica compatibilità aggiornamento non riesce \(non procedere\).
 1. Una volta che l’API di verifica compatibilità dell’aggiornamento restituisce il risultato positivo, puoi eseguire lo script di aggiornamento.
 
-|Punto finale|/bin/dxml/upgrade/3xto4x| |Tipo di richiesta|**POST** Questo script è una richiesta POST, quindi deve essere eseguito tramite agenti come Postman.| |Risposta prevista|- Una volta completata la migrazione, è possibile installare la soluzione XML Documentation versione 4.0.<br>- In caso di errori, ripristina l’ultimo punto di controllo e condividi i registri degli errori con l’output API al team di successo del cliente.|
+| Punto finale | /bin/dxml/upgrade/3xto4x |
+| --- | --- |
+| Tipo di richiesta | **POST** Questo script è una richiesta POST, quindi deve essere eseguito tramite agenti come Postman. |
+| Risposta prevista | - Una volta completata la migrazione, è possibile installare la soluzione XML Documentation versione 4.0.<br>- In caso di errori, ripristina l’ultimo punto di controllo e condividi i registri degli errori con l’output API al team di successo del cliente. |
 
 **Mappatura della migrazione**: l’API di cui sopra migra tutti i dati nella posizione di origine alla posizione di destinazione.
 
