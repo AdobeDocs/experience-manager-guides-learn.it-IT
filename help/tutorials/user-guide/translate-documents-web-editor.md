@@ -2,9 +2,9 @@
 title: Traduci documenti dall'editor Web
 description: Scopri come tradurre i documenti dall’editor web
 exl-id: 02fc2b51-5b9a-4ad6-9e2e-726ab7602514
-source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
+source-git-commit: 4d37242019ac2db734f7054324b074c0e8bc60bd
 workflow-type: tm+mt
-source-wordcount: '1517'
+source-wordcount: '1859'
 ht-degree: 0%
 
 ---
@@ -81,6 +81,14 @@ Prima di eseguire i passaggi descritti in questa procedura, verificare di aver c
    Oltre a un nuovo progetto di traduzione, puoi selezionare tra le seguenti opzioni:
 
    - Puoi scegliere di **Creare una struttura** solo per il progetto di traduzione.
+   - Puoi scegliere di **Crea un nuovo progetto di traduzione XLIFF** per convertire il contenuto XML nel formato XLIFF (XML Localization Interchange File Format). XLIFF è un formato aperto basato su XML utilizzato per standardizzare il trasferimento di dati tra vari strumenti utilizzati nel processo di traduzione dei contenuti.
+In un progetto XLIFF, il contenuto viene esportato nel formato XLIFF standard, che può essere fornito ai fornitori di servizi di traduzione. Il formato XLIFF consente il potenziale riutilizzo dei segmenti già tradotti durante la fase di traduzione.\
+      Una volta tradotto, il contenuto XLIFF può essere importato nelle guide AEM, creando una versione tradotta del progetto DITA originale.
+
+      >[!NOTE]
+      >
+      > L’esportazione XLIFF funziona solo con la configurazione di traduzione umana.
+
    - Puoi selezionare **Crea un nuovo progetto di traduzione multilingue** che includerà i processi di traduzione per tutte le lingue selezionate per la traduzione. Ad esempio, se hai selezionato francese, tedesco e spagnolo, verrà creato un progetto che contiene processi di traduzione per tutte e tre le lingue.
    - Se disponi già di un progetto di traduzione, puoi aggiungere argomenti a tale progetto. Seleziona Aggiungi a **Progetto di traduzione esistente** dall’elenco Progetto e scegli un progetto dall’elenco Progetto di traduzione esistente. Puoi ordinare questi progetti in base all’ordine più recente, crescente o decrescente.
 
@@ -98,6 +106,28 @@ Prima di eseguire i passaggi descritti in questa procedura, verificare di aver c
    >
    > Se rifiuti la traduzione per uno o più argomenti in un processo di traduzione, il **In corso** lo stato di traduzione di tutti gli argomenti rifiutati ritorna allo stato originale. Lo stato degli argomenti indicati viene controllato e ripristinato in base all’ultimo stato di traduzione. Inoltre, i file di traduzione creati nel progetto di destinazione non vengono eliminati anche se la traduzione viene rifiutata per essi.
 
+## Aggiungere le regole di traduzione
+
+Le guide AEM consentono agli amministratori di configurare le regole di traduzione. Il formato SRX (Segmentation Rules eXchange) è uno standard per lo scambio di regole di segmentazione tra utenti e ambienti di traduzione diversi. È possibile creare una cartella e aggiungervi file SRX personalizzati.
+
+I file SRX devono essere denominati come `<language-code>.srx`. Ad esempio, en-US o ar-AE.
+
+>[Nota]
+>Il titolo non distingue tra maiuscole e minuscole, quindi puoi avere &quot;en-US&quot; o &quot;en-us&quot; o &quot;EN-us&quot;. Inoltre, le guide AEM possono risolvere il segno &quot;-&quot; (trattino) o &quot;_&quot; (trattino basso). Quindi, puoi avere &quot;en-US&quot; o &quot;en_US&quot;.
+
+Inoltre, puoi inserire questi file in qualsiasi cartella sotto la directory principale delle risorse AEM che sia `./content/dam`.
+
+
+
+Dopo aver creato la cartella che contiene i file SRX, è possibile aggiungere il percorso della cartella nella configurazione del percorso SRX di traduzione all&#39;interno del profilo della cartella.
+
+Per migliorare le prestazioni, si consiglia di mantenere solo i file SRX nella cartella configurata nel profilo della cartella.
+
+
+Guide AEM seleziona le regole SRX in base alla lingua di origine del progetto di traduzione. Cerca un file SRX personalizzato per una lingua e, se non definisci un file SRX personalizzato, seleziona le regole in base alle regole di traduzione predefinite.
+
+
+Per informazioni dettagliate sulla configurazione dei profili globali e a livello di cartella, consulta *Configurare i modelli di authoring* sezione in Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
 
 ## Passa l’etichetta della versione alla versione di destinazione
 

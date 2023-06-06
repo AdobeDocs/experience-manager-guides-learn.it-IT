@@ -2,9 +2,9 @@
 title: Funzione di pubblicazione nativa di PDF | Utilizza JavaScript per lavorare con contenuti o stili
 description: Scopri come creare fogli di stile di utilizzo e stili per i contenuti.
 exl-id: 2f301f6a-0d1c-4194-84c2-0fddaef8d3ec
-source-git-commit: e2349fc14143e5e49f8672ef1bfa48984df3b1c7
+source-git-commit: 99ca14a816630f5f0ec1dc72ba77994ffa71dff6
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '519'
 ht-degree: 0%
 
 ---
@@ -69,3 +69,35 @@ Successivamente, è necessario chiamare questo script da un file modello utilizz
 L’output generato utilizzando questo codice e il modello visualizza il titolo della figura sotto l’immagine:
 
 <img src="./assets/fig-title-below-image.png" width="500">
+
+## Aggiungere una filigrana all&#39;output PDF per le bozze di documenti {#watermark-draft-document}
+
+È inoltre possibile utilizzare JavaScript per aggiungere filigrane condizionali. Queste filigrane vengono aggiunte al documento quando la condizione definita viene soddisfatta.\
+È ad esempio possibile creare un file JavaScript con il codice seguente per creare una filigrana nell&#39;output PDF del documento non ancora approvato. Questa filigrana non viene visualizzata se si genera il PDF per il documento nello stato &quot;Approvato&quot;.
+
+```css
+...
+/*
+* This file can be used to add a watermark to the PDF output
+* */
+
+window.addEventListener('DOMContentLoaded', function () {
+    var watermark = 'Draft'
+    var metaTag = document.getElementsByTagName('meta')
+    css = "@page {\n  @left-middle {\n    content: \"".concat(watermark, "\";\n    z-index: 100;\n    font-family: sans-serif;\n    font-size: 80pt;\n    font-weight: bold;\n    color: gray(0, 0.3);\n    text-align: center;\n    transform: rotate(-54.7deg);\n    position: absolute;\n    left: 0;\n    top: 0;\n    width: 100%;\n    height: 100%;\n  }\n}")
+    head = document.head || document.getElementsByTagName('head')[0], style = document.createElement('style');
+    style.appendChild(document.createTextNode(css));
+    window.pdfLayout.onBeforePagination(function () {
+        for (let i = 0; i < metaTag.length; i++) {
+            if (metaTag[i].getAttribute('name') === 'docstate' && metaTag[i].getAttribute('value') !== 'Approved') {
+                head.appendChild(style);
+            }
+        }
+    })
+});
+...
+```
+
+L&#39;output PDF generato utilizzando questo codice visualizza una filigrana *Bozza* sulla copertina del documento:
+
+<img src="./assets/draft-watermark.png" width="500">

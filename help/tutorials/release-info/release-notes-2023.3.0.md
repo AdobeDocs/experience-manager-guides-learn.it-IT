@@ -1,22 +1,26 @@
 ---
 title: Note sulla versione | Adobe Experience Manager Guides as a Cloud Service, versione di marzo 2023
 description: Versione di marzo di Adobe Experience Manager Guides as a Cloud Service
-exl-id: b3fe7cc8-1654-467a-ab18-6e6912855ecc
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 99ca14a816630f5f0ec1dc72ba77994ffa71dff6
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 2%
+source-wordcount: '378'
+ht-degree: 1%
 
 ---
 
-# Versione di marzo di Adobe Experience Manager Guides as a Cloud Service
 
-## Aggiornamento alla versione di marzo
+# Versione di marzo 2023 di Adobe Experience Manager Guides as a Cloud Service
 
-Aggiorna le guide Adobe Experience Manager as a Cloud Service correnti (in seguito denominate *Guide AEM as a Cloud Service*) eseguendo i seguenti passaggi:
+Questa nota sulla versione descrive le istruzioni per l’aggiornamento, la matrice di compatibilità e i problemi risolti nella versione di marzo 2023 delle Guide di Adobe Experience Manager (in seguito denominate *Guide AEM as a Cloud Service*).
+
+Per ulteriori informazioni sulle nuove funzioni e sui miglioramenti, consulta [Novità della versione di marzo 2023 delle Guide dell’AEM as a Cloud Service](whats-new-2023.3.0.md).
+
+## Aggiornamento alla versione di marzo 2023
+
+Aggiorna l’attuale configurazione as a Cloud Service delle Guide AEM eseguendo i seguenti passaggi:
 1. Consulta il codice Git del Cloud Services e passa al ramo configurato nella pipeline dei Cloud Services corrispondente all’ambiente da aggiornare.
 2. Aggiorna `<dox.version>` proprietà in `/dox/dox.installer/pom.xml` file del codice Git dei tuoi Cloud Services in 2023.3.242.
-3. Apporta le modifiche ed esegui la pipeline dei Cloud Services per l’aggiornamento alla versione di marzo dell’as a Cloud Service AEM Guides.
+3. Apporta le modifiche ed esegui la pipeline dei Cloud Services per l’aggiornamento alla versione di marzo 2023 delle guide AEM as a Cloud Service.
 
 ## Passaggi per indicizzare il contenuto esistente (solo se utilizzi una versione precedente alla versione di settembre di AEM Guides as a Cloud Service)
 
@@ -51,34 +55,3 @@ In questa sezione è elencata la matrice di compatibilità per le applicazioni s
 |  |  |  |  |
 
 
-## Nuove funzioni e miglioramenti
-
-AEM Guides as a Cloud Service fornisce miglioramenti e nuove funzioni nella versione di marzo 2023:
-
-### Aprire e riprodurre file video o audio nell&#39;editor Web
-
-Le guide AEM ora forniscono la funzione di aprire e riprodurre i file audio o video nell’editor web. È possibile modificare il volume o la visualizzazione del video. Nel menu di scelta rapida sono inoltre disponibili le opzioni per **Scarica**, modifica **Velocità di riproduzione**, o visualizzazione **Immagine nell’immagine**.
-
-<img src="assets/video-web-editor.png" alt="riproduci video" width="600">
-
-
-## Problemi risolti
-
-Di seguito sono elencati i bug risolti in varie aree:
-
-* Il processo di download di PDF non funziona in modo appropriato nell’editor web. (11496)
-* Output JSON | Mappa metadati con valore proprietà come `"value in spaces and double quotes"` genera un errore di pubblicazione. (11438)
-* L’inserimento di file multimediali audio e video non riesce nel formato YouTube in **Inserisci file multimediali** icona. (11320)
-* Si verifica un errore di convalida quando si crea una mappa utilizzando il modello che ha un elemento titolo specializzato. (11212)
-* Native PDF | la nota a piè di pagina presente nell’intestazione della tabella porta al testo in grassetto e allineato al centro nel piè di pagina corrispondente all’interno dell’output PDF. (10610)
->[!NOTE]
->
->Per riflettere la modifica apportata a Native PDF, elimina la cartella PDF in /content/dam/dita-templates e quindi effettua l’aggiornamento alla build più recente. (10610)
-
-### Problema noto con la soluzione alternativa
-
-L’Adobe ha identificato il seguente problema noto per la versione delle guide AEM as a Cloud Service a marzo 2023.
-
-* Gli utenti non possono salvare o creare la versione di una risorsa duplicata.
-
-**Soluzione alternativa**: prima di apportare qualsiasi modifica alla risorsa duplicata, rielaborala dall’interfaccia utente di Assets.

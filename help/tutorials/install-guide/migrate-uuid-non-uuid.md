@@ -1,13 +1,13 @@
 ---
 title: Migrazione di contenuti da non-UUID a UUID
-description: Scopri come non-UUID per la migrazione dei contenuti UUID
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+description: Scopri come migrare contenuti non UUID a UUID
+exl-id: 093b380e-9a8b-4e60-aeaa-3458e8c257f2
+source-git-commit: 21edbb2f8a49213ea95fac8a957056711219e7e4
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 0%
 
 ---
-
 
 # Migrazione di contenuti da non-UUID a UUID {#id226TI0U20XA}
 
@@ -57,6 +57,7 @@ Per migrare il contenuto non UUID, effettua le seguenti operazioni:
     - &quot;doBaselines&quot;: true/false \(se le linee di base devono essere aggiornate o meno. Il valore predefinito è true.\)
     - `processLevel`: -1\(failed without restore\), 0\(failed with restore\), 1\(failed with errors\), 2\(successfully upgrade riuscito\) \(Quando si ritenta lo script dopo un errore, verranno elaborati di nuovo solo i file con &quot;fmUpgradeStatus&quot; &lt;= processLevel, altrimenti verranno ignorati. Il valore predefinito è 1.\)
     - &quot;ignoreImageVersions&quot;: true/false \(Ignora l’elaborazione delle versioni delle immagini. Il valore predefinito è false.\)
+    
     >[!NOTA]
     >
     > Possiamo eseguire la migrazione dei contenuti a livello di cartella o del contenuto completo/dam oppure sulla stessa cartella \(eseguire nuovamente la migrazione\).
@@ -69,4 +70,3 @@ Per migrare il contenuto non UUID, effettua le seguenti operazioni:
 >[!NOTE]
 >
 > Se alcuni file non vengono elaborati o sono danneggiati prima della migrazione, rimangono danneggiati anche dopo la migrazione.
-

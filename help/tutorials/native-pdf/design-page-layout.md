@@ -2,9 +2,9 @@
 title: Funzione di pubblicazione nativa di PDF | Progettare il layout di una pagina
 description: Scopri come progettare il layout di pagina per presentare le informazioni in diverse sezioni dell’output PDF.
 exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
-source-git-commit: a1367a6915e760e533bb984705f4be37596b5477
+source-git-commit: 6182455850fb14cc24ce6229f6e4cb2b547901b7
 workflow-type: tm+mt
-source-wordcount: '4649'
+source-wordcount: '4712'
 ht-degree: 0%
 
 ---
@@ -359,7 +359,16 @@ Sono disponibili le seguenti categorie di campi che è possibile inserire nel la
 
 Ciascuna di queste categorie di campi contiene diverse varianti in cui è possibile inserire le informazioni sui campi. Ad esempio, un campo Data può avere diverse varianti, come `YYYY-MM-DD`, `MM/DD/YY`, `MM/DD/YYYY` e così via. Allo stesso modo, il numero di pagina può avere varianti sotto forma di formati romani, decimali o anche specifici delle impostazioni internazionali, ad esempio _Arabo_, _Devanagari_, _Ebraico_, e altro ancora.
 
-Oltre ai campi predefiniti, è possibile aggiungere informazioni sui metadati come variabili o campi nel layout di pagina. Questi metadati vengono memorizzati nel contenuto della mappa DITA di origine e possono essere facilmente inseriti nel layout di pagina. <!--For more information, see [Add fields and metadata](design-page-layout.md#add-fields-and-metadata).-->
+Oltre ai campi predefiniti, è possibile aggiungere informazioni sui metadati come variabili o campi nel layout di pagina. Questi metadati vengono memorizzati nel contenuto della mappa DITA di origine e possono essere facilmente inseriti nel layout di pagina.
+
+Puoi anche selezionare le proprietà dei metadati dalle risorse e aggiungerle al layout di pagina. I metadati della risorsa vengono quindi pubblicati per l’output PDF. Queste proprietà di metadati delle risorse sono impostate da **Proprietà** della mappa DITA o del file di mappa di un libro.
+
+>[!NOTE]
+>
+> I campi di metadati vengono visualizzati in base alla selezione della risorsa o della mappa nella **Da** a discesa.
+
+
+<!--For more information, see [Add fields and metadata](design-page-layout.md#add-fields-and-metadata).-->
 
 Nell’esempio seguente, nell’area del piè di pagina di un layout di pagina vengono inseriti un numero di pagina e un titolo del capitolo.
 

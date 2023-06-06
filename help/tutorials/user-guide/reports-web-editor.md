@@ -2,9 +2,9 @@
 title: Report mappa DITA dall'editor Web
 description: Scopri come mappare il report DITA dall’editor web
 exl-id: b1011cec-6374-4026-bf1c-54a1981c760e
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 5670b4a8f34916c7ff415680c5ddcfab6e9618e6
 workflow-type: tm+mt
-source-wordcount: '1608'
+source-wordcount: '2351'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Per creare un rapporto sugli argomenti, effettuare le seguenti operazioni:
 
    >[!NOTE]
    >
-   > Clic **Aggiorna** per ottenere un nuovo elenco di argomenti e vedere le modifiche apportate al file di mappa o se qualsiasi riferimento all&#39;interno del file di argomento viene aggiornato.
+   > Clic **Aggiorna** per ottenere un nuovo elenco di argomenti e visualizzare le modifiche apportate al file di mappa o se qualsiasi riferimento all&#39;interno del file di argomento viene aggiornato.
 
 1. Clic **Scarica CSV** per scaricare lo snapshot corrente degli argomenti nella mappa DITA. Il file CSV contiene le colonne selezionate e gli argomenti filtrati nel file **Elenco argomenti** visualizzazione. Puoi quindi aprire il file CSV dell’elenco di argomenti in qualsiasi editor CSV.
 
@@ -75,7 +75,7 @@ Per visualizzare i metadati dei riferimenti nella mappa DITA corrente, effettuar
 
          >[!NOTE]
          >
-         > Per impostazione predefinita, sono visibili due tag per un file. Per visualizzare altri tag, fai clic su **Mostra altro**. Clic **Mostra meno** per contrarre nuovamente l&#39;elenco.
+         > Per impostazione predefinita, è possibile visualizzare due tag per un file. Per visualizzare altri tag, fai clic su **Mostra altro**. Clic **Mostra meno** per contrarre nuovamente l&#39;elenco.
 
       - **Tipo di riferimento** Il tipo di riferimento - diretto o indiretto
       - **Stato documento** \(selezionato per impostazione predefinita\) Stato corrente del file di riferimento.
@@ -117,7 +117,7 @@ Il **Multimedia** Il report fornisce informazioni dettagliate sugli elementi mul
 
       ![](images/multimedia-report-file-order.png){width="650" align="left"}
 
-   - Se ordini per **Utilizzato in** , vedrai la vista trasposta in cui i nomi dei riferimenti in cui sono stati utilizzati elementi multimediali sono elencati nella prima colonna, mentre i nomi multimediali sono elencati in un’altra colonna su righe separate. Ad esempio, la schermata seguente mostra i nomi dei tre riferimenti \(Regolare la temperatura del sedile, Modificare la visualizzazione della temperatura del sedile e l&#39;area dell&#39;equipaggio\) nella prima colonna e il file multimediale WarmCoolForC.gif viene visualizzato nella terza colonna su tre righe separate.
+   - Se ordini per **Utilizzato in** , visualizzerai la visualizzazione trasposta in cui i nomi dei riferimenti in cui sono stati utilizzati elementi multimediali sono elencati nella prima colonna, mentre i nomi multimediali sono elencati in un’altra colonna su righe separate. Ad esempio, la schermata seguente mostra i nomi dei tre riferimenti \(Regolare la temperatura del sedile, Modificare la visualizzazione della temperatura del sedile e l&#39;area dell&#39;equipaggio\) nella prima colonna e il file multimediale WarmCoolForC.gif viene visualizzato nella terza colonna su tre righe separate.
 
       ![](images/multimedia-report-used-in-order.png){width="650" align="left"}
 
@@ -138,12 +138,59 @@ Il **Multimedia** Il report fornisce informazioni dettagliate sugli elementi mul
 
    >[!NOTE]
    >
-   > Clic **Aggiorna** per ottenere un nuovo elenco di elementi multimediali e vedere eventuali modifiche nel file di mappa o se eventuali elementi multimediali presenti nella mappa DITA vengono aggiornati.
+   > Clic **Aggiorna** per ottenere un nuovo elenco di elementi multimediali e visualizzare le modifiche apportate al file di mappa o gli eventuali elementi multimediali contenuti nella mappa DITA aggiornati.
 
 1. È inoltre possibile fare clic su un file audio o video e riprodurlo nell&#39;editor Web. È possibile modificare il volume o la visualizzazione del video. Nel menu di scelta rapida sono inoltre disponibili le opzioni per il download, la modifica della velocità di riproduzione o la visualizzazione delle immagini nell&#39;immagine.
 
    ![](images/video-web-editor.png){width="800" align="left"}
 
 1. Clic **Scarica CSV** per scaricare lo snapshot corrente del contenuto multimediale nella mappa DITA. Il file CSV contiene le colonne selezionate e i file multimediali filtrati nel file **Multimedia** visualizzazione. Puoi quindi aprire questo file CSV multimediale in qualsiasi editor CSV.
+
+
+## Visualizzare e correggere i collegamenti interrotti{#report-broken-links}
+
+Il **Collegamenti interrotti** è un report utile che fornisce i dettagli dei collegamenti interrotti presenti nella mappa corrente. È possibile visualizzare i collegamenti interrotti, che possono essere per argomenti DITA, riferimenti a file multimediali, riferimenti a chiavi di contenuto e così via. È anche possibile correggerli qui.
+Il report fornisce informazioni dettagliate quali il collegamento interrotto, il tipo di collegamento, i file in cui viene utilizzato il riferimento e il tipo di file in cui sono stati utilizzati.
+Per visualizzare il rapporto relativo ai collegamenti interrotti, eseguire la procedura seguente:
+1. In **Archivio** aprire il file mappa DITA in Vista mappa.
+1. Fai clic su **Gestisci** scheda.
+1. Doppio clic **Collegamenti interrotti** a sinistra. Viene visualizzato l&#39;elenco dei collegamenti o dei riferimenti interrotti presenti nella mappa DITA.
+1. Dalla sezione **Filtri** pannello è possibile ordinare l’elenco in base ai collegamenti o ai nomi di utilizzati nei riferimenti.
+
+   - Per ordini di **Collegamento interrotto**, i percorsi dei collegamenti interrotti vengono visualizzati nella prima colonna e quindi i nomi di tutti i riferimenti in cui sono stati utilizzati vengono visualizzati in un&#39;altra colonna su righe separate. Se lo stesso collegamento interrotto viene utilizzato in più file, questi vengono visualizzati su una riga e vengono mostrati come raggruppati o sotto-righe. Ad esempio, la schermata seguente mostra tre collegamenti interrotti nella prima colonna e il riferimento in cui vengono utilizzati, `TestMap.ditamap` viene visualizzato nella terza colonna su tre righe separate.
+   ![](images/broken-link-report.png){width="800" align="left"}
+
+   - Se si ordina **Utilizzato in** , visualizzerai la visualizzazione trasposta in cui i nomi dei riferimenti in cui sono stati utilizzati i collegamenti interrotti sono elencati nella prima colonna, mentre i collegamenti interrotti sono elencati in un&#39;altra colonna sulla stessa riga. Ad esempio, la schermata seguente mostra il riferimento (in cui viene utilizzato il collegamento interrotto) `TestMap.ditamap` nella prima colonna e i collegamenti interrotti vengono visualizzati nella terza colonna sulla stessa riga.
+   ![](images/broken-link-filter-usedin.png){width="800" align="left"}
+1. Puoi filtrare i collegamenti interrotti in base al **Tipo di file** e **Tipo di collegamento**. L’elenco dei collegamenti interrotti viene visualizzato in base alla selezione effettuata nel menu a discesa. Ad esempio, è possibile scegliere di visualizzare solo i riferimenti di contenuto nella mappa DITA e un file mostra solo i riferimenti di contenuto utilizzati nella mappa.
+
+   A seconda del tipo di riferimenti utilizzati nella mappa, i riferimenti file, chiave, contenuto, chiave di contenuto, immagine e file multimediali sono elencati nella **Tipo di collegamento** a discesa e **Argomento DITA** o **Mappa DITA** sono elencati nella **Tipo di file** a discesa.
+1. È inoltre possibile utilizzare le seguenti opzioni di filtro per scegliere di visualizzare le colonne seguenti nell&#39;elenco:
+
+   - **Collegamento interrotto** (selezionata per impostazione predefinita) Il percorso del collegamento interrotto viene specificato nella mappa DITA.
+
+   - **Tipo di collegamento** (selezionato per impostazione predefinita) Il tipo di collegamento. Le opzioni disponibili sono Riferimento chiave contenuto, Riferimento contenuto, Argomento DITA, Riferimento file, Riferimento immagine, Riferimento chiave e Riferimento file multimediale.
+
+   - **Utilizzato in** (selezionato per impostazione predefinita) I riferimenti in cui è stato utilizzato il collegamento interrotto. Puoi fare clic sul riferimento per visualizzarlo in modalità di authoring.
+
+   - **Tipo di file** (selezionato per impostazione predefinita) Il tipo di riferimento, Mappa DITA o Argomento DITA.
+Clic **Aggiorna** per ottenere un nuovo elenco dei collegamenti interrotti e visualizzare eventuali modifiche nel file di mappa o se qualsiasi collegamento interrotto all&#39;interno della mappa DITA viene aggiornato.
+1. Puoi fare clic sul pulsante **Correggi collegamento** icona (![](images/fix-broken-link.svg)) per correggere il collegamento interrotto.
+
+   >[!NOTE]
+   >
+   > Passa il puntatore del mouse sul percorso del collegamento interrotto sotto la colonna Collegamento interrotto per visualizzare il collegamento Correggi (![](images/fix-broken-link.svg)).
+
+   È possibile correggere un collegamento in entrambe le visualizzazioni dopo aver ordinato per **Collegamenti interrotti** o da **Utilizzato in**.
+
+   >[!NOTE]
+   >
+   > Quando si corregge un collegamento interrotto mentre è stato ordinato per collegamenti interrotti, il collegamento verrà corretto in tutti i file in cui viene utilizzato (raggruppati in un&#39;unica riga).
+
+1. È necessario aggiornare i dettagli di riferimento richiesti nella **Aggiorna collegamento** . I dettagli richiesti in **Aggiorna collegamento** dipende dal tipo di riferimento.\
+   Una volta corretto un collegamento, questo non viene visualizzato nell’elenco dei collegamenti interrotti. È invece possibile visualizzarlo in Elenco argomenti o Metadati.
+
+1. Clic **Scarica CSV** per scaricare lo snapshot corrente dei collegamenti interrotti nella mappa DITA. Il file CSV contiene le colonne selezionate e i collegamenti interrotti filtrati nella visualizzazione Collegamenti interrotti. Puoi quindi aprire e visualizzare questo file CSV in qualsiasi editor CSV.
+
 
 **Argomento padre:**[ Rapporti](reports-intro.md)

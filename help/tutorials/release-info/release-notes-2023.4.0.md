@@ -1,23 +1,27 @@
 ---
 title: Note sulla versione | Adobe Experience Manager Guides as a Cloud Service, versione di aprile 2023
-description: Ultima versione di Adobe Experience Manager Guides as a Cloud Service
+description: Versione di aprile 2023 di Adobe Experience Manager Guides as a Cloud Service
 exl-id: 3b09f0b3-cfa4-422d-91b7-733ab1c1896c
-source-git-commit: cf612da41f79b0bf9da4c4d7454a0e3c86af7a4c
+source-git-commit: 99ca14a816630f5f0ec1dc72ba77994ffa71dff6
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: '579'
 ht-degree: 2%
 
 ---
 
-# Versione di aprile di Adobe Experience Manager Guides as a Cloud Service
+# Versione di aprile 2023 di Adobe Experience Manager Guides as a Cloud Service
 
-## Effettua l’aggiornamento alla versione più recente
+Questa nota sulla versione descrive le istruzioni per l’aggiornamento, la matrice di compatibilità e i problemi risolti nella versione di aprile 2023 delle Guide di Adobe Experience Manager (in seguito denominate *Guide AEM as a Cloud Service*).
 
-Aggiorna le guide Adobe Experience Manager as a Cloud Service correnti (in seguito denominate *Guide AEM as a Cloud Service*) eseguendo i seguenti passaggi:
+Per ulteriori informazioni sulle nuove funzioni e sui miglioramenti, consulta [Novità della versione di aprile 2023 delle Guide dell’AEM as a Cloud Service](whats-new-2023.4.0.md).
+
+## Aggiornamento alla versione di aprile 2023
+
+Aggiorna l’attuale configurazione as a Cloud Service delle Guide AEM eseguendo i seguenti passaggi:
 
 1. Consulta il codice Git del Cloud Services e passa al ramo configurato nella pipeline dei Cloud Services corrispondente all’ambiente da aggiornare.
 2. Aggiorna `<dox.version>` proprietà in `/dox/dox.installer/pom.xml` file del codice Git dei tuoi Cloud Services in 2023.4.249.
-3. Apporta le modifiche ed esegui la pipeline dei Cloud Services per l’aggiornamento all’ultima versione as a Cloud Service delle guide AEM.
+3. Apporta le modifiche ed esegui la pipeline dei Cloud Services per l’aggiornamento alla versione di aprile 2023 delle guide AEM as a Cloud Service.
 
 ## Passaggi per indicizzare il contenuto esistente (solo se utilizzi una versione precedente alla versione di settembre di AEM Guides as a Cloud Service)
 
@@ -51,39 +55,6 @@ In questa sezione è elencata la matrice di compatibilità per le applicazioni s
 | 2023.04.0 | 2,9-uuid-2 | 2,9-uuid-2 | 2.3 | 2.3 |
 |  |  |  |  |
 
-
-## Nuove funzioni e miglioramenti
-
-AEM Guides as a Cloud Service offre miglioramenti e nuove funzioni nell’ultima versione:
-
-### Supporto avanzato dei metadati nella pubblicazione PDF
-
-Le guide AEM ora forniscono supporto avanzato per i metadati mappati sui metadati nell’output PDF. Le opzioni relative ai metadati includono informazioni sul documento e sul relativo contenuto, ad esempio il nome dell&#39;autore, il titolo del documento, le parole chiave, le informazioni sul copyright e altri campi dati.
-
-<img src="assets/pdf-metadata.png" alt=" metadati pdf nativi">
-
-Potete importare un file XMP e le guide AEM possono scegliere le informazioni dal file. Puoi anche fornire i nomi e i valori dei metadati utilizzando il menu a discesa. Puoi anche aggiungere metadati personalizzati digitando direttamente nel campo del nome.
-
-
-### Pannello Visualizzazione Struttura migliorata
-
-Le guide AEM forniscono un pannello migliorato Visualizzazione struttura in cui è possibile ottenere la visualizzazione gerarchica degli elementi utilizzati nel documento.
-
-<img src="assets/select-element-content-outline-view_cs.png" alt=" metadati pdf nativi">
-
-La vista Struttura offre i seguenti miglioramenti:
-
-* Il menu a discesa Opzioni vista (View Options) viene visualizzato sopra il pannello Visualizzazione struttura (Outline View). Se un elemento ha un ID, un attributo e un testo, puoi selezionarli dal menu a discesa per visualizzarli insieme all’elemento. Gli attributi che possono essere visualizzati nel pannello Visualizzazione struttura sono determinati dalle impostazioni Attributi di visualizzazione configurate dall&#39;amministratore all&#39;interno del **Impostazioni editor**.
-
-* Utilizzando la funzione di ricerca, puoi cercare un elemento in base al suo nome, ID, testo o valore dell’attributo.
-
-
-### Pubblicazione basata su microservizi per guide AEM as a Cloud Service
-
-AEM Guides as a Cloud Service fornisce la funzione di eseguire carichi di lavoro di pubblicazione di grandi dimensioni in concomitanza con la pubblicazione basata su microservizi e di sfruttare la piattaforma senza server Adobe I/O Runtime leader del settore.
-
-Nella versione di aprile è ora possibile eseguire più richieste di pubblicazione simultaneamente e generare output di PDF in blocco in modo molto efficiente utilizzando la pubblicazione di PDF nativi basata su microservizi.
-Per ulteriori dettagli, consulta [Configurare una nuova pubblicazione basata su microservizi per le guide AEM as a Cloud Service](../knowledge-base/publishing/configure-microservices.md).
 
 
 ## Problemi risolti

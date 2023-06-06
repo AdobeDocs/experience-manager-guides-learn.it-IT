@@ -1,7 +1,8 @@
 ---
 title: Note sulla versione | Istruzioni per l’aggiornamento e problemi risolti in Adobe Experience Manager Guides versione 4.2.1
 description: Scopri le correzioni di bug e come effettuare l’aggiornamento alle versioni 4.2.1 delle guide di Adobe Experience Manager
-source-git-commit: 7fdbf99a1224124d63acaebc626e3b09475f3096
+exl-id: 19b23164-4a07-4748-a8c4-1760bfdb2ca6
+source-git-commit: 6d7b17709e7a17c30b544a7f3f3707328431aac0
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 5%
@@ -110,5 +111,3 @@ Di seguito sono elencati i bug risolti in varie aree:
 ### Recensione
 
 * La revisione completata non si apre in modalità di sola lettura. (11387)
-
-

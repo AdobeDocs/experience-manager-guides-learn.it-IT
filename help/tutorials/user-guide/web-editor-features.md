@@ -2,9 +2,9 @@
 title: Conoscere le funzioni dell’editor web
 description: Scopri come conoscere le funzioni dell’editor web
 exl-id: 38b378ff-da24-4560-a17f-a2c547aea1b8
-source-git-commit: f7eea65f58927527dbd90138a653f75ee181d141
+source-git-commit: e7a34908b0e61d33469ef83683507f16ab12f0bd
 workflow-type: tm+mt
-source-wordcount: '14387'
+source-wordcount: '14919'
 ht-degree: 0%
 
 ---
@@ -161,6 +161,7 @@ Le Preferenze utente sono disponibili per tutti gli autori. Utilizzando le prefe
 
 ![](images/user_preference_editor.PNG){width="550" align="left"}
 
+- **Usa tema dispositivo**: seleziona questa casella di controllo per consentire alle guide AEM di passare automaticamente dai temi chiari a quelli scuri in base al tema del dispositivo.
 - **Tema**: puoi scegliere tra i temi Chiaro, Più chiaro, Scuro o Più scuro per l’editor. Nel caso del tema Più chiaro, le barre degli strumenti e i pannelli utilizzano uno sfondo di colore grigio più chiaro. Nel caso del tema Luce, le barre degli strumenti e i pannelli utilizzano lo sfondo grigio chiaro. Nel caso del tema Più scuro, le barre degli strumenti e i pannelli utilizzano uno sfondo nero più scuro. In caso di tema scuro, le barre degli strumenti e i pannelli utilizzano lo sfondo nero. In tutti i temi, l&#39;area di modifica dei contenuti è visualizzata in bianco.
 
 - **Profili cartella**: il profilo cartella controlla diverse configurazioni relative agli attributi condizionali, ai modelli di authoring, ai predefiniti di output e alle configurazioni dell’editor web. Il Profilo globale è visualizzato per impostazione predefinita. Inoltre, se l’amministratore ha configurato i profili delle cartelle nel sistema, anche tali profili vengono visualizzati nell’elenco Profili cartella.
@@ -671,9 +672,20 @@ Per aggiungere un file alla raccolta preferita, utilizzare uno dei metodi seguen
    ![](images/favorite-add-from-file-context-menu_cs.png){width="400" align="left"}
 
 
+Menu Opzioni ** per l&#39;insieme Favroties**\
+È inoltre possibile eseguire molte azioni utilizzando il menu Opzioni disponibile per un insieme Preferiti:
+
+![](images/favorites-options.png){width="400" align="left"}
+- **Rinomina**: rinomina la raccolta selezionata.
+- **Elimina**: elimina il file selezionato.
+- **Aggiorna**: ottieni un nuovo elenco di file e cartelle dal repository.
+- **Visualizza nell’interfaccia utente Assets**: mostra il contenuto del file o della cartella nell’interfaccia utente di Assets.
+
+
 >[!NOTE]
 >
-> Per rimuovere un elemento dall&#39;elenco Preferiti, fare clic sull&#39;icona Opzioni accanto al file o alla cartella nell&#39;elenco Preferiti e scegliere **Rimuovi dai preferiti**.
+> Puoi anche aggiornare l’elenco utilizzando l’icona Aggiorna nella parte superiore.
+
 
 **Vista archivio** - ![](images/Repository_icon.svg)
 
@@ -761,6 +773,8 @@ Nel menu Opzioni vengono visualizzate opzioni diverse a seconda che si selezioni
 - Duplica
 - Check-Out/Check-In
 - Anteprima
+- Sposta in
+- Rinomina
 - Eliminare
 - Copiare
 - Comprimi tutto
@@ -784,6 +798,41 @@ Di seguito sono illustrate le varie opzioni del menu Opzioni:
 - **Anteprima**: ottieni un’anteprima rapida del file \(.dita/.xml\) senza aprirlo.
 
    ![](images/quick-preview_cs.png){width="800" align="left"}
+
+- **Rinomina**: utilizza questa opzione per rinominare il file selezionato. Immetti il nome del nuovo file in **Rinomina risorsa** .
+   - È possibile rinominare un file di qualsiasi tipo.
+   - Non puoi modificare l’estensione di un file.
+   - Due file non possono avere lo stesso nome. Pertanto, non è possibile rinominare un file con un nome già esistente. Viene visualizzato un errore.
+
+- **Sposta in**: utilizza questa opzione per spostare il file selezionato in un’altra cartella.
+   - È possibile digitare il nome della cartella di destinazione o scegliere **Seleziona percorso** per selezionare la cartella di destinazione.
+   - È possibile spostare un file di qualsiasi tipo in qualsiasi destinazione all&#39;interno della cartella Contenuto.
+   - Due file non possono avere lo stesso nome. Pertanto, non è possibile spostare un file in una cartella in cui esiste già un file con lo stesso nome.
+
+   Se si tenta di spostare un file in una cartella in cui esiste un file con lo stesso nome ma con un titolo diverso, viene visualizzata la finestra di dialogo Rinomina e sposta file e sarà necessario rinominare il file prima di spostarlo. Il file spostato nella cartella di destinazione ha il nuovo nome file.
+
+   ![](images/rename-move-asset.png){width="550" align="left"}
+
+   >[!NOTE]
+   > Puoi anche trascinare un file in un’altra cartella di destinazione.
+
+   **Scenari di esclusione**
+
+   Le guide AEM non consentono di rinominare o spostare un file nei seguenti scenari:
+
+   - Non puoi spostare o rinominare un file se fa parte di un flusso di lavoro di revisione o traduzione.
+
+   - Se un altro utente estrae il file, non è possibile rinominarlo o spostarlo, non verrà visualizzata l&#39;opzione Rinomina o Sposta in per il file.
+   >[!NOTE]
+   > Se l’amministratore ti ha assegnato le autorizzazioni per una cartella, solo allora **Rinomina** o **Sposta in** vengono visualizzate le opzioni.
+
+   <details>
+    <summary> Servizi cloud </summary>
+
+   La ridenominazione o lo spostamento di un file non interrompe i riferimenti esistenti da o verso il file, in quanto ogni file ha un UUID univoco.
+   </details>
+
+
 
 - **Elimina**: utilizza questa opzione per eliminare il file selezionato. Viene visualizzata una richiesta di conferma prima di eliminare il file.
 
@@ -1202,32 +1251,86 @@ L’esempio seguente mostra come utilizzare lo schema soggetto nelle guide dell�
 
    ![](images/subject-scheme-apply.png){width="650" align="left"}
 
+   **Gestione delle definizioni gerarchiche delle definizioni e delle enumerazioni dei soggetti**
 
-**Elenco a discesa Attributi**
+   Oltre a gestire le enumerazioni e le definizioni dei soggetti presenti nella stessa mappa, le guide AEM forniscono anche la funzione di definire enumerazioni e definizioni dei soggetti in due mappe separate. Puoi definire la definizione dell’oggetto in una mappa e le definizioni di enumerazione in un’altra mappa, quindi aggiungere il riferimento alla mappa. Ad esempio, il codice XML seguente crea definizioni di oggetti e definizioni di enumerazione in due mappe separate.
 
-Puoi anche modificare il valore dello schema dell’oggetto utilizzando il menu a discesa Attributo dal pannello Proprietà contenuto nella vista Autore. Per modificare il valore, seleziona un valore dal menu a discesa Attributo.
+   Le definizioni dei soggetti sono definite in `subject_scheme_map_1.ditamap`
 
-![](images/subject-scheme-attribute-dropdown.png){width="300" align="left"}
 
-Puoi anche applicare valori a un attributo selezionando più valori dal menu a discesa.
+   ```XML
+   <?xml version="1.0" encoding="UTF-8"?> 
+   <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
+   <subjectScheme id="subject-scheme.ditamap_f0bfda58-377b-446f-bf49-e31bc87792b3"> 
+   <title>subject_scheme_map_1</title> 
+   <subjectdef keys="os" navtitle="Operating system"> 
+   <subjectdef keys="linux" navtitle="Linux"> 
+   <subjectdef keys="redhat" navtitle="RedHat Linux"/> 
+   <subjectdef keys="suse" navtitle="SuSE Linux"/> 
+   </subjectdef> 
+   <subjectdef keys="windows" navtitle="Windows"/> 
+   <subjectdef keys="zos" navtitle="z/OS"/> 
+   </subjectdef> 
+   </subjectScheme>  
+   ```
 
-**Vista origine**
+   La definizione di enumerazione è presente in subject_scheme_map_2.ditamap
 
-È inoltre possibile modificare i valori dall&#39;elenco a discesa dell&#39;attributo nella Vista origine. La Vista origine impedisce inoltre di aggiungere valori errati.
+   ```XML
+   <?xml version="1.0" encoding="UTF-8"?> 
+   <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
+   <subjectScheme id="subject-scheme.ditamap_17c433d9-0558-44d4-826e-3a3373a4c5ae"> 
+   <title>subject_scheme_map_2</title> 
+   <mapref format="ditamap" href="subject_scheme_map_1.ditamap" type="subjectScheme"> 
+   </mapref> 
+   <enumerationdef> 
+   <attributedef name="platform"> 
+   </attributedef> 
+   <subjectdef keyref="os"> 
+   </subjectdef> 
+   </enumerationdef> 
+   </subjectScheme>  
+   ```
 
-![](images/subject-scheme-code-error.png){width="550" align="left"}
+   Qui le definizioni dei soggetti sono definite in `subject_scheme_map_1.ditamap`  mentre la definizione di enumerazione è presente in `subject_scheme_map_2.ditamap`. Il riferimento a `subject_scheme_map_1.ditamap` viene aggiunto anche in `subject_scheme_map_2.ditamap`.
 
-**Visualizzare e applicare lo schema soggetto dal pannello Condizioni**
+   >[!NOTE]
+   >
+   > Come `subject_scheme_map_1.ditamap` e `subject_scheme_map_2.ditamap` sono referenziati tra loro, quindi i modelli dei soggetti vengono risolti.
 
-Potete anche visualizzare e applicare lo schema soggetto dal pannello Condizioni.
+   I riferimenti di enumerazione dei soggetti vengono risolti nel seguente ordine di priorità:
 
-Per visualizzare lo schema soggetto dal pannello Condizioni, l&#39;amministratore di sistema deve selezionare l&#39;opzione **Mostra schema soggetto nel pannello Condizioni** nella scheda Condizione in Impostazioni editor. Per maggiori dettagli vedi, [Scheda Condizione](#id21BMNE0602V).
+   1. Stessa mappa
+   1. Mappa di riferimento
 
-Il pannello Condizioni visualizza la struttura verticale piatta delle definizioni dei soggetti all&#39;interno dello schema.
+   I riferimenti non vengono risolti se l’enumerazione non viene trovata nella stessa mappa e nella mappa di riferimento.
 
-![](images/subject-scheme-condtions-panel.png){width="300" align="left"}
 
-Puoi aggiungere condizioni al contenuto trascinando e rilasciando la condizione desiderata sul contenuto. Il contenuto condizionale viene evidenziato utilizzando il colore definito per la condizione.
+   **Elenco a discesa Attributi**
+
+   Puoi anche modificare il valore dello schema dell’oggetto utilizzando il menu a discesa Attributo dal pannello Proprietà contenuto nella vista Autore. Per modificare il valore, seleziona un valore dal menu a discesa Attributo.
+
+   ![](images/subject-scheme-attribute-dropdown.png){width="300" align="left"}
+
+   Puoi anche applicare valori a un attributo selezionando più valori dal menu a discesa.
+
+   **Vista origine**
+
+   È inoltre possibile modificare i valori dall&#39;elenco a discesa dell&#39;attributo nella Vista origine. La Vista origine impedisce inoltre di aggiungere valori errati.
+
+   ![](images/subject-scheme-code-error.png){width="550" align="left"}
+
+   **Visualizzare e applicare lo schema soggetto dal pannello Condizioni**
+
+   Potete anche visualizzare e applicare lo schema soggetto dal pannello Condizioni.
+
+   Per visualizzare lo schema soggetto dal pannello Condizioni, l&#39;amministratore di sistema deve selezionare l&#39;opzione **Mostra schema soggetto nel pannello Condizioni** nella scheda Condizione in Impostazioni editor. Per maggiori dettagli vedi, [Scheda Condizione](#id21BMNE0602V).
+
+   Il pannello Condizioni visualizza la struttura verticale piatta delle definizioni dei soggetti all&#39;interno dello schema.
+
+   ![](images/subject-scheme-condtions-panel.png){width="300" align="left"}
+
+   Puoi aggiungere condizioni al contenuto trascinando e rilasciando la condizione desiderata sul contenuto. Il contenuto condizionale viene evidenziato utilizzando il colore definito per la condizione.
 
 **Snippet** -  ![](images/insert-snippet-icon.svg)
 
