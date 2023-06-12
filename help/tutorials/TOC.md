@@ -2,9 +2,9 @@
 user-guide-title: Tutorial su AEM Guides
 user-guide-description: Leggi la nostra raccolta di tutorial su Adobe Experience Manager Guides.
 breadcrumb-title: Tutorial su AEM Guides
-source-git-commit: fa8b9cf3af0443ff8a830b0393c66f5804593deb
+source-git-commit: 3b8d37483295ff9ebfb0f09b66080fe99237fdb6
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1072'
 ht-degree: 6%
 
 ---
@@ -272,6 +272,7 @@ ht-degree: 6%
          + [FMPS e guide](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
          + [Architettura e prestazioni dei microservizi](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
          + [Configurare la pubblicazione basata su microservizi](./knowledge-base/publishing/configure-microservices.md)
+         + [Pubblicazione dei numeri delle prestazioni sul cloud](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
          + [Impostare un DITA-OT personalizzato](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
       + Flussi di lavoro {#workflows}
          + [Flusso di lavoro di post-generazione](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
