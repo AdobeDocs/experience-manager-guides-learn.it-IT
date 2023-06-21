@@ -3,8 +3,8 @@ title: Gestire i tag per i file DITA nelle guide AEM
 description: Breve articolo da raccontare sulla gestione di cq:tags nelle guide AEM
 source-git-commit: 06f7adfd4fbbc3b51c6d6c08689697c20c8ce8fe
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '316'
+ht-degree: 1%
 
 ---
 
