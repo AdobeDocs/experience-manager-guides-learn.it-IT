@@ -1,13 +1,13 @@
 ---
 title: Configurare un modello di mappa DITA personalizzato
 description: Scopri come configurare un modello di mappa DITA personalizzato
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+exl-id: 2ad0fc50-97fd-437e-94cc-db5f51f3bc3f
+source-git-commit: 0dea2f1d17e7d9b12d07b459a10a00c1dd7460a5
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '331'
 ht-degree: 1%
 
 ---
-
 
 # Configurare un modello di mappa DITA personalizzato {#id1774F04F05Z}
 
@@ -50,7 +50,6 @@ La prossima volta che crei una nuova mappa, il modello viene visualizzato nella 
 
 >[!TIP]
 >
-> Consulta [appendix.md\#](appendix.md#)il *Modelli personalizzati* sezione nella guida alle best practice per le best practice sull’utilizzo di modelli di mappa personalizzati.
+> Consulta la *Modelli personalizzati* sezione nella guida alle best practice per le best practice sull’utilizzo di modelli di mappa personalizzati.
 
-**Argomento padre:**[ Configurare modelli di argomenti e mappe](conf-template-tags.md)
-
+**Argomento padre:** [Configurare modelli di argomenti e mappe](conf-template-tags.md)
