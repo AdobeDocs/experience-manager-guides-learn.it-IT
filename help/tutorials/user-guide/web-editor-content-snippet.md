@@ -1,7 +1,7 @@
 ---
 title: Inserire uno snippet di contenuto dall'origine dati
 description: Scopri come inserire uno snippet di contenuto dall’origine dati
-source-git-commit: e4fcf6c7b7e69d83edb91e25081dae6e7cf1ae89
+source-git-commit: f01903fe9ae3d60a8b818e881fd3b1d626fcd2bc
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 0%
@@ -31,7 +31,6 @@ I modelli predefiniti per l’origine dati selezionata vengono visualizzati nel 
    >[!NOTE]
    >  
    > Se l’amministratore ha configurato dei modelli personalizzati, questi vengono visualizzati anche nell’elenco a discesa (in base alle configurazioni del percorso del modello eseguite dall’amministratore).
-
 1. Clic **Recupera** per recuperare i dati dall&#39;origine dati e applicare il modello ai dati risultanti dalla query SQL.
 1. È possibile visualizzare i dati nell&#39;anteprima o nella vista origine DITA.
 
