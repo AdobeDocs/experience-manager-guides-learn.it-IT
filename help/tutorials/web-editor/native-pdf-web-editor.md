@@ -2,9 +2,9 @@
 title: Native PDF | Generazione di output PDF
 description: Genera output PDF in Adobe Experience Manager Guides as a Cloud Service
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: 65a35f1c7530ed479e3bc584852fabc30ceecabb
+source-git-commit: d8bc9e2673ce08fe5f71154e9d009d1847b0274d
 workflow-type: tm+mt
-source-wordcount: '2904'
+source-wordcount: '2903'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,11 @@ Utilizzare questo metodo per generare un output PDF per una mappa dal dashboard 
 
 Per ulteriori informazioni sulla generazione di un PDF utilizzando il metodo DITA-OT, vedere [Genera PDF utilizzando DITA-OT](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-pdf.html).
 
-* **FrameMaker Publishing Server (FMPS)**
+* **Server di pubblicazione FrameMaker (FMPS)**
 
 Utilizzare questo metodo per generare un output PDF non solo dal contenuto DITA, ma anche dai documenti di FrameMaker (con estensione book e fm) disponibili nell&#39;archivio AEM. Il PDF può essere creato configurando un predefinito di output e pubblicato utilizzando FrameMaker Publishing Server (FMPS). Puoi progettare e configurare l’aspetto dell’output per PDF e altri formati e memorizzarlo in un file di impostazione (.sts). Questo file di impostazione viene quindi utilizzato da FMPS per generare l&#39;output per una mappa DITA o un file book. Per creare o modificare un predefinito di output, consultate  *Informazioni sui predefiniti di output* sezione nella sezione [Guida utente as a Cloud Service alle guide dell’AEM](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/cs-apr-22/XML-Documentation-for-Adobe-Experience-Manager_CS_User-Guide_EN.pdf).
 
-Per ulteriori informazioni sulla configurazione di FMPS, consulta [Genera output da documenti di FrameMaker](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ffm-output-generatation.html).
+Per ulteriori informazioni sulla configurazione di FMPS, consulta [Genera output da documenti FrameMaker](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ffm-output-generatation.html).
 
 * **Pubblicazione nativa di PDF**
 
@@ -179,6 +179,6 @@ Per visualizzare il registro degli errori, fare clic su **Ignora**, passa il pun
 Se si seleziona la **Scarica file temporanei** nelle impostazioni avanzate, è inoltre possibile scaricare i file HTML provvisori creati durante la generazione dell&#39;output di PDF nativa. Dopo aver generato l’output, puoi scaricare i file temporanei utilizzando **Scarica file temporanei** ![scaricare file temporanei](assets/native-pdf-download-temporary-files-icon.svg)nella barra superiore. Questa funzione consente di visualizzare gli stili e i layout provvisori di HTML e di correggere o modificare gli stili CSS in base alle tue esigenze.
 
 
->NOTA
+>[!NOTE]
 >
 > Il **Scarica file temporanei**  ![scaricare file temporanei](assets/native-pdf-download-temporary-files-icon.svg) viene visualizzata solo se avete generato l&#39;ultimo output di PDF utilizzando il predefinito in cui avete selezionato l&#39;opzione nella **Avanzate** scheda.

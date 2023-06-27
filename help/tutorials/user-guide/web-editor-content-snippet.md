@@ -1,7 +1,7 @@
 ---
 title: Inserire uno snippet di contenuto dall'origine dati
 description: Scopri come inserire uno snippet di contenuto dall’origine dati
-source-git-commit: 3571b8acfa51dc91f9ed0366715357af7b2f1ecb
+source-git-commit: 84dbcd80d8b41ae52ec7389dd0d0a750ea8d6c65
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Ad esempio:
 
    1. La vista origine mostra i dati nella vista origine DITA.
       ![](images/add-content-snippet-generator.png){width="800" align="left"}
-   1. Per salvare i risultati della query, immettere il nome del generatore, quindi fare clic su **AGGIUNGI**.   All’elenco viene aggiunto un nuovo generatore di frammenti di contenuto.
+1. Per salvare i risultati della query, immettere il nome del generatore, quindi fare clic su **AGGIUNGI**.   All’elenco viene aggiunto un nuovo generatore di frammenti di contenuto.
 
    >[!NOTE]
    >
