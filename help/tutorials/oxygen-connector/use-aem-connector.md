@@ -4,9 +4,9 @@ description: Scopri come utilizzare il plug-in di ossigeno per le guide di Adobe
 hide: true
 hidefromtoc: true
 exl-id: 2db9a34e-2efa-47ad-ba6b-02afc5197669
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: ee4722ed92d1b1a59e8baea583517a4470f558c9
 workflow-type: tm+mt
-source-wordcount: '5762'
+source-wordcount: '5885'
 ht-degree: 0%
 
 ---
@@ -212,19 +212,19 @@ Per configurare le impostazioni di connessione nel plug-in ossigeno per le guide
 1. Specifica i dettagli seguenti:
    - **URL server**: URL del server AEM, ad esempio:
 
-      ```http
-      http[s]://<host>:<port>
-      ```
+     ```http
+     http[s]://<host>:<port>
+     ```
 
-      Nell’URL precedente, specifica il nome host e la porta del server in cui viene distribuito il server AEM.
+     Nell’URL precedente, specifica il nome host e la porta del server in cui viene distribuito il server AEM.
 
-      >[!IMPORTANT]
-      >
-      >Se il server AEM è distribuito sulla porta 80 o 443, non è necessario specificarlo nell’URL.
+     >[!IMPORTANT]
+     >
+     >Se il server AEM è distribuito sulla porta 80 o 443, non è necessario specificarlo nell’URL.
 
    - **Autenticazione** Scegli tra **Base \(Nome Utente/Password\)** o **Autenticazione Web**. Nel caso in cui selezioni **Base** autenticazione è necessario immettere il **Nome utente** e **Password** nella finestra Preferenze.
 
-      Se selezioni Autenticazione web, viene visualizzata la schermata di accesso AEM. Immetti le credenziali di accesso e fai clic su **Accedi** pulsante. Una volta effettuato correttamente l&#39;accesso, la schermata di accesso AEM si chiude e il pannello Guide AEM visualizza l&#39;elenco dei file dal server AEM.
+     Se selezioni Autenticazione web, viene visualizzata la schermata di accesso AEM. Immetti le credenziali di accesso e fai clic su **Accedi** pulsante. Una volta effettuato correttamente l&#39;accesso, la schermata di accesso AEM si chiude e il pannello Guide AEM visualizza l&#39;elenco dei file dal server AEM.
 
    - **Timeout connessione**: specifica il tempo in secondi che il client deve attendere una risposta dal server AEM. Se non viene ricevuta alcuna risposta dal server entro il tempo specificato, la richiesta viene terminata. Il valore predefinito è 20 secondi.
 
@@ -256,7 +256,7 @@ Per configurare gli attributi di profilatura, effettua le seguenti operazioni:
 - Clic **Scegli** accanto al **Editor valore attributo personalizzato autore** in **Singole estensioni** e selezionare CustomValueEditor - com.adobe.o2.framework.extn nel **Classe** elenco. Fai clic su **OK**.
 La schermata seguente mostra i **Estensione** scheda per argomenti DITA:
 
-   ![](images/dita-topic-extension-tab.png)
+  ![](images/dita-topic-extension-tab.png)
 
 1. Clic **OK** in tutte le finestre di dialogo per salvare le modifiche.
 
@@ -275,11 +275,11 @@ Per configurare l&#39;estensione mappa DITA, effettuare le seguenti operazioni:
 - Clic **Scegli** accanto al **Editor valore attributo personalizzato autore** in **Singole estensioni** e selezionare CustomValueEditor - com.adobe.o2.framework.extn nel **Classe** elenco. Fai clic su **OK**.
 - *\(Facoltativo\)* Se non si desidera risolvere i riferimenti durante l&#39;apertura di un file di mappa, è necessario eseguire la seguente configurazione aggiuntiva:
 
-   Clic **Scegli** accanto al **Risoluzione riferimenti** in **Singole estensioni** e selezionare CustomDITAMapReferenceResolver - com.adobe.o2.framework.extn nel **Classe** elenco. Fai clic su **OK**.
+  Clic **Scegli** accanto al **Risoluzione riferimenti** in **Singole estensioni** e selezionare CustomDITAMapReferenceResolver - com.adobe.o2.framework.extn nel **Classe** elenco. Fai clic su **OK**.
 
-   La schermata seguente mostra i **Estensione** scheda:
+  La schermata seguente mostra i **Estensione** scheda:
 
-   ![](images/dita-map-extension-tab.png)
+  ![](images/dita-map-extension-tab.png)
 
 1. Clic **OK** in tutte le finestre di dialogo per salvare le modifiche.
 
@@ -302,9 +302,9 @@ La schermata seguente mostra il pannello AEM Guides.
 - **Connetti**: seleziona questa opzione per connettersi al server AEM. L’opzione è disabilitata quando Oxygen XML Author è connesso al server AEM.
 - **Aggiorna**: seleziona questa opzione per ottenere lo stato più recente dei file e della cartella dall’archivio AEM.
 
-   >[!NOTE]
-   >
-   >Assicurarsi di salvare i file prima di aggiornarli. Quando selezioni **Aggiorna** , viene visualizzato un avviso per il salvataggio dei file prima di aggiornarli. Se non hai salvato i file, puoi fare clic su **Annulla** e salvarli.
+  >[!NOTE]
+  >
+  >Assicurarsi di salvare i file prima di aggiornarli. Quando selezioni **Aggiorna** , viene visualizzato un avviso per il salvataggio dei file prima di aggiornarli. Se non hai salvato i file, puoi fare clic su **Annulla** e salvarli.
 
 - **Impostazioni**: puoi utilizzare questa opzione per aprire la finestra di dialogo Preferenze generali del plug-in.
 - **Disconnetti**: seleziona questa opzione per chiudere la connessione al server AEM. Questa opzione è disponibile solo se si utilizza la modalità Autenticazione Web.
@@ -418,6 +418,16 @@ Quando si archivia un file, la copia locale dal sistema viene memorizzata nell&#
    >[!NOTE]
    >
    >Questo commento viene visualizzato nella cronologia delle versioni AEM del file.
+1. Aggiungi etichette in **Etichetta** casella di testo. Immettere un&#39;etichetta e premere Invio. Ad esempio: *Versione 2307*.
+Se l’amministratore ha predefinito un elenco di etichette e lo ha caricato in `label.json` , queste etichette vengono visualizzate come un elenco a discesa. Puoi scegliere una o più etichette dal menu a discesa.
+   ![](images/checkin-dropdown-labels.png){width="300" align="left"}
+È possibile aggiungere più etichette (separate da virgole) alla stessa versione di un argomento.  Ad esempio: *Adobe*, *AEM*,*Guide*
+Tuttavia, non è possibile aggiungere la stessa etichetta alle diverse versioni di un argomento. Se aggiungi un’etichetta già aggiunta a una versione precedente, questa viene aggiunta all’ultima versione e rimossa dalla versione precedente.
+
+   >[!NOTE]
+   > 
+   > Queste etichette vengono visualizzate nella cronologia delle versioni AEM del file.
+
 
 1. Fai clic su **OK**.
 

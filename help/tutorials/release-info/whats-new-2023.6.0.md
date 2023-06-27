@@ -1,16 +1,17 @@
 ---
-title: Note sulla versione | Novità di Adobe Experience Manager Guides, versione di giugno 2023
+title: Note sulla versione | Novità delle guide di Adobe Experience Manager, versione di giugno 2023
 description: Scopri le funzioni nuove e migliorate nella versione di giugno 2023 di Adobe Experience Manager Guides as a Cloud Service
-source-git-commit: 5670b4a8f34916c7ff415680c5ddcfab6e9618e6
+exl-id: ff6ac4a4-76a3-4b41-9da7-6a888de0eca5
+source-git-commit: f6794078e760565f5934faf63a7cbfb919acce90
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1127'
 ht-degree: 0%
 
 ---
 
 # Novità della versione di giugno 2023 di Adobe Experience Manager Guides as a Cloud Service
 
-Questo articolo descrive le funzioni nuove e migliorate della versione di giugno 2023 delle guide di Adobe Experience Manager (in seguito denominate *Guide AEM as a Cloud Service*).
+Questo articolo descrive le funzioni nuove e migliorate della versione di giugno 2023 delle Guide di Adobe Experience Manager (in seguito denominate *Guide AEM as a Cloud Service*).
 
 Per ulteriori dettagli sulle istruzioni di aggiornamento, sulla matrice di compatibilità e sui problemi risolti in questa versione, vedi [Note sulla versione](release-notes-2023.6.0.md) articolo.
 
@@ -41,7 +42,13 @@ Per ulteriori dettagli, consulta [Aggiungere una filigrana all&#39;output PDF pe
 
 ### Supporto per le variabili di lingua negli elementi DITA
 
-Le guide AEM supportano le variabili di linguaggio. Queste variabili sono molto utili per generare stringhe localizzate per elementi come nota, suggerimento, avvertenza, attenzione. Ad esempio, puoi avere i seguenti modi per presentare la NOTA nell’output PDF: Tedesco: Notiz Spagnolo: Nota
+Le guide AEM supportano le variabili di linguaggio. Queste variabili sono molto utili per generare stringhe localizzate per elementi come nota, suggerimento, avvertenza, attenzione.
+Ad esempio, per presentare la NOTA nell’output di PDF puoi procedere come segue:
+
+Tedesco: Notiz
+
+Spagnolo: Nota
+
 
 ### Supporto per le variabili di lingua nel piè di pagina della pagina
 
@@ -51,10 +58,13 @@ Puoi anche utilizzarlo per presentare i numeri in varie lingue.
 ### Prefissi localizzati per il sommario
 
 È inoltre possibile visualizzare i termini localizzati da utilizzare per presentare i prefissi nei titoli.
-Ad esempio, puoi utilizzare i seguenti modi per presentare il prefisso &quot;Chapter&quot; nell’output PDF: tedesco: Kapitel spagnolo: Capítulo
+Ad esempio, per presentare il prefisso &quot;Chapter&quot; nell’output di PDF puoi procedere come segue:
+
+Tedesco: Kapitel
+
+Spagnolo: Capítulo
 
 ### Possibilità di utilizzare i metadati dell’AEM nei layout PDF
-
 
 I metadati sono la descrizione o la definizione del contenuto. Questi metadati vengono memorizzati nel contenuto della mappa DITA di origine.
 
@@ -72,11 +82,11 @@ Per ulteriori dettagli, consulta [Aggiungere campi e metadati](../native-pdf/des
 
 ## Miglioramenti apportati a Schematron
 
-### Utilizzare le istruzioni report per verificare la presenza di regole in Schematron
+### Utilizzare le istruzioni di report per verificare la presenza di regole in Schematron
 
 Le guide dell’AEM supportano ora anche le dichiarazioni contenute nelle relazioni presentate con Schematron. Un’istruzione di report genera un messaggio quando un’istruzione di test restituisce true. Ad esempio, se desideri che la descrizione breve sia inferiore o uguale a 150 caratteri, puoi definire un’istruzione di rapporto per verificare gli argomenti in cui la descrizione breve è superiore a 150 caratteri.
 
-Per ulteriori dettagli, consulta [Utilizzare le istruzioni Assert e Report per verificare la presenza di regole](../user-guide/support-schematron-file.md#schematron-assert-report).
+Per ulteriori dettagli, consulta [Utilizzare le istruzioni di asserzione e di report per verificare la presenza di regole](../user-guide/support-schematron-file.md#schematron-assert-report).
 
 ### Usa espressioni Regex
 

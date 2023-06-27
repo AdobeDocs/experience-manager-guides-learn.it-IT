@@ -1,13 +1,13 @@
 ---
 title: Supporto per i file Schematron
 description: Scopri come convalidare i tuoi argomenti con lo schema
-source-git-commit: 5ad78d32cbfa1c913866fae5dafe97dc8f01139c
+exl-id: e5912fa1-af26-42f4-b5e5-a6d2afd45bc8
+source-git-commit: f6794078e760565f5934faf63a7cbfb919acce90
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 0%
 
 ---
-
 
 # Supporto per i file Schematron
 
@@ -55,7 +55,7 @@ Quando si apre un argomento nell&#39;Editor Web, a destra viene visualizzato il 
 
 Il supporto Schematron nell&#39;Editor Web consente di convalidare i file in base a un insieme di regole e di mantenere coerenza e correttezza negli argomenti.
 
-## Utilizzare le istruzioni Assert e Report per verificare la presenza di regole{#schematron-assert-report}
+## Utilizzare le istruzioni di asserzione e di report per verificare la presenza di regole{#schematron-assert-report}
 
 Le guide dell’AEM supportano anche le dichiarazioni di asserzione e di relazione in Schematron. Queste istruzioni consentono di convalidare gli argomenti DITA.
 
@@ -146,10 +146,3 @@ You have <sch:value-of select="$words"/> letters. This should be greater than <s
 
 </sch:pattern> 
 ```
-
-
-
-
-
-
-

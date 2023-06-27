@@ -2,9 +2,9 @@
 title: Conoscere le funzioni dell’editor web
 description: Scopri come conoscere le funzioni dell’editor web
 exl-id: 38b378ff-da24-4560-a17f-a2c547aea1b8
-source-git-commit: e7a34908b0e61d33469ef83683507f16ab12f0bd
+source-git-commit: b55b4aa572a680181388e24827daa7d045f1e406
 workflow-type: tm+mt
-source-wordcount: '14919'
+source-wordcount: '15310'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ Le impostazioni dell&#39;editor sono disponibili solo per gli utenti amministrat
 
 - **Generale**: le impostazioni Generali consentono di configurare il dizionario da utilizzare con l’editor web. Questa scheda contiene tre sezioni: **Controllo ortografia**, **Condizione**, e **Authoring**.
 
-   ![](images/editor-setting-general.png){width="650" align="left"}
+  ![](images/editor-setting-general.png){width="650" align="left"}
 
    - **Controllo ortografia**: sono disponibili due opzioni: **Controllo ortografia AEM** e **Controllo ortografia browser**. Per impostazione predefinita, l’editor utilizza la funzione Controllo ortografia del browser, in cui il controllo ortografico viene eseguito utilizzando il dizionario integrato del browser. È possibile passare a Controllo ortografia AEM per utilizzare il dizionario AEM, che può anche essere personalizzato per aggiungere un elenco di parole personalizzato. Per ulteriori informazioni sulla personalizzazione del dizionario AEM, vedi *Personalizza dizionario predefinito AEM* nella sezione Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
 
@@ -108,13 +108,13 @@ Le impostazioni dell&#39;editor sono disponibili solo per gli utenti amministrat
 
       - **Mostra la chiave con il titolo nel pannello Schema soggetto**: seleziona questa opzione per mostrare i tasti e i titoli nello schema dell’oggetto. Se non si seleziona questa opzione, vengono visualizzati solo i titoli. Ad esempio, in questo caso, insieme ai titoli vengono visualizzati anche i tasti &quot;os&quot;, &quot;audience&quot; e &quot;other&quot;.
 
-         ![](images/subject-scheme-title.png){width="550" align="left"}
+        ![](images/subject-scheme-title.png){width="550" align="left"}
 
       - **Mostra schema soggetto nel pannello Condizioni**: selezionalo per visualizzare uno schema di soggetti nel pannello condizioni. Se deselezionate questa opzione, le condizioni definite vengono visualizzate nel pannello condizioni.
+
    - **Authoring**
 
       - **Abilita Sostituisci Tutto**: seleziona questa opzione per visualizzare l’icona Sostituisci tutto nel pannello Trova e sostituisci.
-
 
 **Pannelli**: questa impostazione controlla i pannelli visualizzati nel pannello sinistro dell’editor. È possibile attivare o disattivare l&#39;opzione per mostrare o nascondere il pannello desiderato.
 
@@ -126,7 +126,7 @@ Le impostazioni dell&#39;editor sono disponibili solo per gli utenti amministrat
 
 - **Elenco elementi**: in qualità di amministratore, puoi controllare l’elenco degli elementi che un autore può inserire utilizzando [Inserisci elemento](#id204SG30105Z) e definiscono anche il nome visualizzato dell&#39;elemento. L&#39;impostazione Elenco elementi consente di specificare il nome dell&#39;elemento in base alle specifiche DITA e un&#39;etichetta che si desidera utilizzare al posto del nome dell&#39;elemento definito DITA:
 
-   ![](images/editor-setting-element-list.png){width="650" align="left"}
+  ![](images/editor-setting-element-list.png){width="650" align="left"}
 
 Nella schermata precedente, l’ `b` all&#39;elemento è stata assegnata un&#39;etichetta di grassetto, `codeblock` riceve un’etichetta di Blocco di codice insieme ad alcuni altri elementi. Se si seleziona la **Usa solo elementi sopra** , verranno visualizzati solo gli elementi validi \(al punto di inserimento corrente\) di questo elenco nella finestra a comparsa Inserisci elemento.
 
@@ -152,7 +152,7 @@ Gli attributi definiti per un elemento vengono visualizzati nella vista Layout e
 
    - **Propaga le etichette della versione di origine alla versione di destinazione**: seleziona questa opzione per passare l’etichetta della versione del file di origine al file tradotto. Per impostazione predefinita, questa opzione è disabilitata.
 
-   ![](images/editor-setting-translation.png){width="550" align="left"}
+  ![](images/editor-setting-translation.png){width="550" align="left"}
 
 
 **Preferenze utente** - ![](images/user_preference_editor_icon.svg)
@@ -166,11 +166,11 @@ Le Preferenze utente sono disponibili per tutti gli autori. Utilizzando le prefe
 
 - **Profili cartella**: il profilo cartella controlla diverse configurazioni relative agli attributi condizionali, ai modelli di authoring, ai predefiniti di output e alle configurazioni dell’editor web. Il Profilo globale è visualizzato per impostazione predefinita. Inoltre, se l’amministratore ha configurato i profili delle cartelle nel sistema, anche tali profili vengono visualizzati nell’elenco Profili cartella.
 
-   Le configurazioni dell’editor web che un amministratore può definire nel profilo della cartella includono: personalizzazione dell’interfaccia utente, incluse le icone della barra degli strumenti, il layout dell’editor web, snippet e mappa principale. Per ulteriori dettagli, consulta *Configurare profili globali o a livello di cartella* in Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
+  Le configurazioni dell’editor web che un amministratore può definire nel profilo della cartella includono: personalizzazione dell’interfaccia utente, incluse le icone della barra degli strumenti, il layout dell’editor web, snippet e mappa principale. Per ulteriori dettagli, consulta *Configurare profili globali o a livello di cartella* in Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
 
-   >[!NOTE]
-   >
-   > Il nome del profilo cartella corrente viene visualizzato come etichetta per l&#39;icona Preferenze utente nella barra degli strumenti principale.
+  >[!NOTE]
+  >
+  > Il nome del profilo cartella corrente viene visualizzato come etichetta per l&#39;icona Preferenze utente nella barra degli strumenti principale.
 
 - **Percorso base**: per impostazione predefinita, quando accedi all’archivio AEM dall’editor web, vengono visualizzate le risorse dalla posizione /content/dam. La cartella di lavoro potrebbe essere costituita da alcune cartelle all’interno della cartella /content/dam/. Ogni volta, occorrono alcuni clic per raggiungere la cartella di lavoro. È possibile impostare il Percorso base per la cartella di lavoro e la Vista archivio visualizza quindi in primo piano il contenuto di tale posizione. Questo riduce il tempo necessario per accedere alla cartella di lavoro. Inoltre, quando si inserisce un file di riferimento o multimediale nell&#39;argomento, il percorso di esplorazione dei file inizia con la cartella impostata nel Percorso base.
 
@@ -665,11 +665,11 @@ Per aggiungere un file alla raccolta preferita, utilizzare uno dei metodi seguen
 
 - Nella vista Archivio, individua il file o la cartella desiderata e fai clic sul pulsante *Opzioni* per aprire il menu di scelta rapida e scegliere **Aggiungi ai preferiti**. Nella finestra di dialogo Aggiungi ai preferiti, puoi scegliere di aggiungere il file o la cartella a un preferito esistente o crearne uno nuovo.
 
-   ![](images/favorite-add-file-folder.png){width="300" align="left"}
+  ![](images/favorite-add-file-folder.png){width="300" align="left"}
 
 - Fai clic con il pulsante destro del mouse sulla scheda di un file nell’editor per aprire il menu di scelta rapida. Scegli **Aggiungi a \> Preferiti** per aggiungere il file all&#39;elenco dei preferiti.
 
-   ![](images/favorite-add-from-file-context-menu_cs.png){width="400" align="left"}
+  ![](images/favorite-add-from-file-context-menu_cs.png){width="400" align="left"}
 
 
 Menu Opzioni ** per l&#39;insieme Favroties**\
@@ -739,27 +739,27 @@ Il menu Opzioni è disponibile nella Vista archivio. Verranno visualizzate opzio
 
 - **Carica risorse**: carica un file dal sistema locale alla cartella selezionata nell’archivio AEM. È inoltre possibile trascinare i file dal sistema locale all&#39;argomento di lavoro corrente. Questa funzione è molto utile se si desidera inserire nell&#39;argomento immagini provenienti dal sistema locale.
 
-   ![](images/upload-assets.png){width="550" align="left"}
+  ![](images/upload-assets.png){width="550" align="left"}
 
-   Puoi selezionare una cartella in cui desideri caricare il file e visualizzare anche un’anteprima dell’immagine. Se si desidera rinominare il file, è possibile farlo nella casella di testo Nome file. Fai clic su carica per completare il processo di caricamento dei file. Se hai trascinato e rilasciato un file di immagine su un argomento, il file di immagine viene aggiunto all’articolo e caricato.
+  Puoi selezionare una cartella in cui desideri caricare il file e visualizzare anche un’anteprima dell’immagine. Se si desidera rinominare il file, è possibile farlo nella casella di testo Nome file. Fai clic su carica per completare il processo di caricamento dei file. Se hai trascinato e rilasciato un file di immagine su un argomento, il file di immagine viene aggiunto all’articolo e caricato.
 
-   Se l’amministratore ha abilitato l’opzione UUIDs in *XMLEditorConfig*, quindi visualizzerai l’UUID dell’immagine caricata in **Sorgente** proprietà.
+  Se l’amministratore ha abilitato l’opzione UUIDs in *XMLEditorConfig*, quindi visualizzerai l’UUID dell’immagine caricata in **Sorgente** proprietà.
 
-   ![](images/uuid-in-source-upload-image_cs.png){width="800" align="left"}
+  ![](images/uuid-in-source-upload-image_cs.png){width="800" align="left"}
 
 - **Trova file nella cartella**: sposta lo stato attivo sulla ricerca nel repository in cui è possibile immettere il termine di ricerca. La ricerca viene eseguita nella cartella selezionata nell’archivio. È inoltre possibile applicare un filtro per restituire file DITA, file di immagine o entrambi.
 
-   ![](images/find-files-in-folders-repo-view_cs.png){width="400" align="left"}
+  ![](images/find-files-in-folders-repo-view_cs.png){width="400" align="left"}
 
-   Puoi anche eseguire ricerche utilizzando l’UUID di un file. In tal caso, i risultati della ricerca visualizzano il titolo del file DITA/XML e, nel caso in cui il file sia un file di immagine, viene visualizzato l&#39;UUID del file. Nell’esempio di ricerca seguente viene eseguita la ricerca dell’UUID di un file di immagine e nei risultati vengono visualizzati l’UUID del file di immagine originale e il titolo dell’argomento del file in cui si fa riferimento a tale immagine.
+  Puoi anche eseguire ricerche utilizzando l’UUID di un file. In tal caso, i risultati della ricerca visualizzano il titolo del file DITA/XML e, nel caso in cui il file sia un file di immagine, viene visualizzato l&#39;UUID del file. Nell’esempio di ricerca seguente viene eseguita la ricerca dell’UUID di un file di immagine e nei risultati vengono visualizzati l’UUID del file di immagine originale e il titolo dell’argomento del file in cui si fa riferimento a tale immagine.
 
-   ![](images/uuid-repo-search-image-topic-file_cs.png){width="300" align="left"}
+  ![](images/uuid-repo-search-image-topic-file_cs.png){width="300" align="left"}
 
 - **Comprimi tutto**: comprime tutte le cartelle aperte nel repository e mostra solo le cartelle a livello principale.
 
-   >[!NOTE]
-   >
-   > Utilizza il **\>** accanto a una cartella per espanderla.
+  >[!NOTE]
+  >
+  > Utilizza il **\>** accanto a una cartella per espanderla.
 
 - **Aggiungi ai preferiti**: aggiunge la cartella selezionata ai preferiti. È possibile scegliere di aggiungerlo a una raccolta Preferiti esistente o nuova.
 
@@ -791,13 +791,13 @@ Di seguito sono illustrate le varie opzioni del menu Opzioni:
 - **Duplica**: utilizza questa opzione per creare un duplicato o una copia del file selezionato. Puoi anche rinominare il file duplicato nel prompt Duplica risorsa. Per impostazione predefinita, il file viene creato con il suffisso \(come nomefile\_1.extension\). Il titolo del file rimane invariato rispetto al file di origine e il nuovo file inizia con la versione 1.0. Tutti i riferimenti, i tag e i metadati vengono copiati mentre le baseline non vengono copiate nel file duplicato.
 - **Estrai**: blocca il file selezionato per la modifica. Per un file bloccato, questa opzione diventa **Check-In**.
 
-   >[!NOTE]
-   >
-   > Se un file è bloccato o estratto da un utente, posizionando il puntatore del mouse sull&#39;icona del blocco viene visualizzato l&#39;utente \(name\) che ha bloccato il file.
+  >[!NOTE]
+  >
+  > Se un file è bloccato o estratto da un utente, posizionando il puntatore del mouse sull&#39;icona del blocco viene visualizzato l&#39;utente \(name\) che ha bloccato il file.
 
 - **Anteprima**: ottieni un’anteprima rapida del file \(.dita/.xml\) senza aprirlo.
 
-   ![](images/quick-preview_cs.png){width="800" align="left"}
+  ![](images/quick-preview_cs.png){width="800" align="left"}
 
 - **Rinomina**: utilizza questa opzione per rinominare il file selezionato. Immetti il nome del nuovo file in **Rinomina risorsa** .
    - È possibile rinominare un file di qualsiasi tipo.
@@ -809,28 +809,29 @@ Di seguito sono illustrate le varie opzioni del menu Opzioni:
    - È possibile spostare un file di qualsiasi tipo in qualsiasi destinazione all&#39;interno della cartella Contenuto.
    - Due file non possono avere lo stesso nome. Pertanto, non è possibile spostare un file in una cartella in cui esiste già un file con lo stesso nome.
 
-   Se si tenta di spostare un file in una cartella in cui esiste un file con lo stesso nome ma con un titolo diverso, viene visualizzata la finestra di dialogo Rinomina e sposta file e sarà necessario rinominare il file prima di spostarlo. Il file spostato nella cartella di destinazione ha il nuovo nome file.
+  Se si tenta di spostare un file in una cartella in cui esiste un file con lo stesso nome ma con un titolo diverso, viene visualizzata la finestra di dialogo Rinomina e sposta file e sarà necessario rinominare il file prima di spostarlo. Il file spostato nella cartella di destinazione ha il nuovo nome file.
 
-   ![](images/rename-move-asset.png){width="550" align="left"}
+  ![](images/rename-move-asset.png){width="550" align="left"}
 
-   >[!NOTE]
-   > Puoi anche trascinare un file in un’altra cartella di destinazione.
+  >[!NOTE]
+  > Puoi anche trascinare un file in un’altra cartella di destinazione.
 
-   **Scenari di esclusione**
+  **Scenari di esclusione**
 
-   Le guide AEM non consentono di rinominare o spostare un file nei seguenti scenari:
+  Le guide AEM non consentono di rinominare o spostare un file nei seguenti scenari:
 
    - Non puoi spostare o rinominare un file se fa parte di un flusso di lavoro di revisione o traduzione.
 
    - Se un altro utente estrae il file, non è possibile rinominarlo o spostarlo, non verrà visualizzata l&#39;opzione Rinomina o Sposta in per il file.
-   >[!NOTE]
-   > Se l’amministratore ti ha assegnato le autorizzazioni per una cartella, solo allora **Rinomina** o **Sposta in** vengono visualizzate le opzioni.
 
-   <details>
+  >[!NOTE]
+  > Se l’amministratore ti ha assegnato le autorizzazioni per una cartella, solo allora **Rinomina** o **Sposta in** vengono visualizzate le opzioni.
+
+  <details>
     <summary> Servizi cloud </summary>
 
-   La ridenominazione o lo spostamento di un file non interrompe i riferimenti esistenti da o verso il file, in quanto ogni file ha un UUID univoco.
-   </details>
+  La ridenominazione o lo spostamento di un file non interrompe i riferimenti esistenti da o verso il file, in quanto ogni file ha un UUID univoco.
+  </details>
 
 
 
@@ -840,23 +841,24 @@ Di seguito sono illustrate le varie opzioni del menu Opzioni:
    - Se non viene fatto riferimento al file da alcun altro file, questo viene eliminato e viene visualizzato un messaggio di operazione riuscita.
    - Se il file è estratto, non è possibile eliminarlo e viene visualizzato un messaggio di errore.
 
-      >[!NOTE]
-      >
-      > Se l&#39;amministratore ha impedito l&#39;eliminazione dei file estratti, viene visualizzato solo il messaggio di errore. Per ulteriori dettagli, consulta *Impedisci l&#39;eliminazione dei file estratti* nella sezione Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
+     >[!NOTE]
+     >
+     > Se l&#39;amministratore ha impedito l&#39;eliminazione dei file estratti, viene visualizzato solo il messaggio di errore. Per ulteriori dettagli, consulta *Impedisci l&#39;eliminazione dei file estratti* nella sezione Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
 
    - Se il file viene aggiunto a un insieme Preferiti, **Forza eliminazione** viene visualizzata una finestra di dialogo che puoi eliminare con forza.
    - Se si fa riferimento al file da un altro file, **Forza eliminazione** viene visualizzata una finestra di dialogo con il messaggio di conferma e puoi eliminare forzatamente il file:
 
-      ![](images/options-menu-force-delete.png){width="550" align="left"}
+     ![](images/options-menu-force-delete.png){width="550" align="left"}
 
-      >[!NOTE]
-      >
-      > Se l&#39;amministratore ha concesso l&#39;autorizzazione per l&#39;eliminazione del file, **Forza eliminazione** è abilitato. Altrimenti, **Forza eliminazione** è disattivato e viene visualizzato un messaggio che informa che non disponi dell’autorizzazione per eliminare i file di riferimento. Per ulteriori dettagli, consulta *Impedisci l&#39;eliminazione dei file di riferimento* nella sezione Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
+     >[!NOTE]
+     >
+     > Se l&#39;amministratore ha concesso l&#39;autorizzazione per l&#39;eliminazione del file, **Forza eliminazione** è abilitato. Altrimenti, **Forza eliminazione** è disattivato e viene visualizzato un messaggio che informa che non disponi dell’autorizzazione per eliminare i file di riferimento. Per ulteriori dettagli, consulta *Impedisci l&#39;eliminazione dei file di riferimento* nella sezione Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
 
    - Se si elimina un argomento di riferimento e si è aperto il file contenente riferimenti per la modifica, verrà visualizzato il collegamento interrotto per il file di riferimento.
-   >[!NOTE]
-   >
-   > È inoltre possibile eliminare il file selezionato in modo simile utilizzando il tasto Elimina della tastiera.
+
+  >[!NOTE]
+  >
+  > È inoltre possibile eliminare il file selezionato in modo simile utilizzando il tasto Elimina della tastiera.
 
 - **Copia**: puoi scegliere tra le seguenti opzioni:
 
@@ -893,16 +895,16 @@ In **Crea nuovo argomento** , fornisci i seguenti dettagli:
 
 - Modello su cui verrà basato l&#39;argomento. Ad esempio, per una configurazione predefinita, puoi scegliere tra i modelli Vuoto, Concetto, DITAVAL, Riferimento, Task, Argomento e Risoluzione dei problemi.
 
-   Se nella cartella è configurato un Profilo cartella, verranno visualizzati solo i modelli di argomento configurati nel Profilo cartella.
+  Se nella cartella è configurato un Profilo cartella, verranno visualizzati solo i modelli di argomento configurati nel Profilo cartella.
 
 - Percorso in cui salvare il file dell&#39;argomento. Per impostazione predefinita, il percorso della cartella attualmente selezionata nell’archivio viene visualizzato nel campo Percorso.
 - Titolo per l&#39;argomento.
 
 - *\(Facoltativo\)* Nome di file dell&#39;argomento. Il nome del file viene suggerito automaticamente in base al Titolo dell’argomento.
 
-   Se l’amministratore ha abilitato i nomi di file automatici in base all’impostazione UUID, il campo Nome non verrà visualizzato come mostrato nella schermata seguente:
+  Se l’amministratore ha abilitato i nomi di file automatici in base all’impostazione UUID, il campo Nome non verrà visualizzato come mostrato nella schermata seguente:
 
-   ![](images/new-topic-without-filename.PNG){width="300" align="left"}
+  ![](images/new-topic-without-filename.PNG){width="300" align="left"}
 
 
 Quando fai clic su **Crea**, l&#39;argomento viene creato nel percorso specificato. Inoltre, l&#39;argomento viene aperto nell&#39;Editor Web per la modifica.
@@ -922,7 +924,7 @@ In **Crea nuova mappa** , fornisci i seguenti dettagli:
 
 - *\(Facoltativo\)* Il nome file della mappa. Il nome del file viene suggerito automaticamente in base al Titolo della mappa.
 
-   Se l’amministratore ha abilitato i nomi di file automatici in base all’impostazione UUID, il campo Nome non viene visualizzato.
+  Se l’amministratore ha abilitato i nomi di file automatici in base all’impostazione UUID, il campo Nome non viene visualizzato.
 
 
 Quando fai clic su **Crea**, la mappa viene creata e aggiunta all’interno della cartella specificata nel campo Percorso. Inoltre, la mappa viene aperta nella vista Mappa. Potete aprire il file mappa nell&#39;Editor mappa e aggiungervi un argomento. Per ulteriori informazioni sull&#39;aggiunta di argomenti a un file di mapping, vedere [Creare una mappa](map-editor-create-map.md#).
@@ -987,9 +989,9 @@ La schermata seguente mostra il menu Opzioni per un file nella vista mappa DITA:
 
 - **Estrai**: estrae il file selezionato. Per un file estratto, questa opzione diventa **Check-In**.
 
-   >[!NOTE]
-   >
-   > Se un file è bloccato o estratto da un utente, posizionando il puntatore del mouse sull&#39;icona del blocco viene visualizzato l&#39;utente \(name\) che ha bloccato il file.
+  >[!NOTE]
+  >
+  > Se un file è bloccato o estratto da un utente, posizionando il puntatore del mouse sull&#39;icona del blocco viene visualizzato l&#39;utente \(name\) che ha bloccato il file.
 
 - **Anteprima**: ottieni un’anteprima rapida del file \(.dita/.xml\) senza aprirlo.
 - **Copia**: puoi scegliere tra le seguenti opzioni:
@@ -1034,15 +1036,15 @@ La vista Struttura offre le seguenti caratteristiche:
 
 - Quando si fa clic su un elemento nella visualizzazione Struttura, il contenuto dell&#39;elemento viene selezionato nella visualizzazione Creazione o Origine. La visualizzazione Struttura rimane sincronizzata con la visualizzazione Creazione e la visualizzazione Origine. Se si apportano modifiche in qualsiasi visualizzazione, è possibile visualizzarle nella visualizzazione Struttura. Ad esempio, se aggiungete un paragrafo o aggiornate un elemento nella vista Creazione, questo verrà visualizzato nella vista Struttura.
 
-   ![](images/select-element-content-outline-view_cs.png){width="650" align="left"}
+  ![](images/select-element-content-outline-view_cs.png){width="650" align="left"}
 
 - Trascina gli elementi. Puoi sostituire facilmente un elemento rilasciandone un altro. Se trascini un elemento su un altro elemento e vedi una casella quadrata intorno all’elemento, questo indica che l’elemento verrà sostituito. Sostituisce l’elemento su cui viene rilasciato l’elemento.
 
-   ![](images/replace-element-outline-view_cs.png){width="300" align="left"}
+  ![](images/replace-element-outline-view_cs.png){width="300" align="left"}
 
-   Se si trascina un elemento, un rettangolo tratteggiato indica che l&#39;elemento può essere posizionato nella posizione corrente. Se il trascinamento della selezione non è valido, viene visualizzato un messaggio di errore per indicare che l’operazione non è consentita.
+  Se si trascina un elemento, un rettangolo tratteggiato indica che l&#39;elemento può essere posizionato nella posizione corrente. Se il trascinamento della selezione non è valido, viene visualizzato un messaggio di errore per indicare che l’operazione non è consentita.
 
-   ![](images/drop-element-outline-view_cs.png){width="300" align="left"}
+  ![](images/drop-element-outline-view_cs.png){width="300" align="left"}
 
 - Il **Opzioni** menu in *Visualizzazione Struttura* consente di eseguire operazioni generiche come Taglia, Copia, Elimina, Genera ID, Inserisci elemento prima o dopo l’elemento corrente, Rinomina o sostituisci un elemento, Annulla il wrapping di un elemento e crea uno snippet dall’elemento selezionato.
 
@@ -1086,7 +1088,7 @@ Per aggiungere un file DITA al pannello Contenuti riutilizzabili, utilizzate uno
 
 - Fai clic sull’icona + accanto a Contenuto riutilizzabile per aprire la finestra di dialogo Sfoglia file. Seleziona il file da aggiungere e fai clic su **Aggiungi** per completare il processo.
 
-   ![](images/reuse-content-add-dita-file_cs.png){width="650" align="left"}
+  ![](images/reuse-content-add-dita-file_cs.png){width="650" align="left"}
 
 - Nella Vista archivio, fai clic sull’icona Opzioni del file desiderato e scegli **Aggiungi a contenuto riutilizzabile** dal menu di scelta rapida.
 
@@ -1109,11 +1111,11 @@ Per inserire contenuto dal pannello Contenuto riutilizzabile, utilizzate uno dei
 
 - Posizionare il puntatore del mouse su un elemento che si desidera inserire, fare clic sull&#39;icona Opzioni e scegliere **Inserisci contenuto riutilizzabile**.
 
-   ![](images/insert-reusable-content_cs.png){width="400" align="left"}
+  ![](images/insert-reusable-content_cs.png){width="400" align="left"}
 
-   >[!NOTE]
-   >
-   > Nota: il **Anteprima** L’opzione è disponibile anche nel menu di scelta rapida, che offre un’anteprima rapida dell’elemento prima di inserirlo.
+  >[!NOTE]
+  >
+  > Nota: il **Anteprima** L’opzione è disponibile anche nel menu di scelta rapida, che offre un’anteprima rapida dell’elemento prima di inserirlo.
 
 - Trascinare l&#39;elemento di contenuto riutilizzabile dal pannello nella posizione desiderata nel documento.
 
@@ -1151,7 +1153,7 @@ Per cercare termini di testo e sostituirli con abbreviazioni del glossario, effe
    - **Crea una nuova versione dopo la conversione**: al termine della conversione dei termini viene creata una nuova versione dell’argomento.
 - **Successivo** viene visualizzato se si seleziona **Manualmente per ogni argomento** opzione. Clic **Successivo** per convertire i termini di ogni argomento in base alle impostazioni selezionate. Richiede la conversione dei termini in ciascun argomento e passa al file successivo. Puoi scegliere di convertire un termine o saltarlo e passare al termine successivo.
 
-   ![](images/manual-convert-skip.png){width="300" align="left"}
+  ![](images/manual-convert-skip.png){width="300" align="left"}
 
 - **Converti** viene visualizzato se si seleziona **Automaticamente per tutti gli argomenti** opzione. Seleziona **Converti** per convertire tutti i termini presenti nel documento in abbreviazioni di glossario collegate.
 
@@ -1303,6 +1305,7 @@ L’esempio seguente mostra come utilizzare lo schema soggetto nelle guide dell�
    1. Stessa mappa
    1. Mappa di riferimento
 
+
    I riferimenti non vengono risolti se l’enumerazione non viene trovata nella stessa mappa e nella mappa di riferimento.
 
 
@@ -1346,17 +1349,17 @@ Per aggiungere uno snippet, utilizzare uno dei metodi seguenti:
 
 - Fare clic sull&#39;icona + accanto a Snippet per aprire la finestra di dialogo Nuovo snippet.
 
-   ![](images/snippet-new-dialog.png){width="550" align="left"}
+  ![](images/snippet-new-dialog.png){width="550" align="left"}
 
-   Nella finestra di dialogo Nuovo frammento, fornisci un titolo che viene visualizzato nel pannello Snippet, una descrizione e il codice XML del contenuto del frammento che desideri creare. Clic **Crea** per salvare e creare lo snippet.
+  Nella finestra di dialogo Nuovo frammento, fornisci un titolo che viene visualizzato nel pannello Snippet, una descrizione e il codice XML del contenuto del frammento che desideri creare. Clic **Crea** per salvare e creare lo snippet.
 
 - Nell’area di modifica del contenuto, fai clic con il pulsante destro del mouse sulla breadcrumb dell’elemento che desideri utilizzare come frammento e scegli **Crea snippet** dal menu di scelta rapida. Viene visualizzata la finestra di dialogo Nuovo snippet con il codice XML dell’elemento selezionato popolato nel **Contenuto** campo. Inserisci il **Titolo** e **Descrizione** per lo snippet e fare clic su **Crea** per salvare il frammento.
 
 - Nell&#39;area di modifica del contenuto, fare clic con il pulsante destro del mouse in un punto qualsiasi del contenuto che si desidera utilizzare come frammento e scegliere **Crea snippet** dal menu di scelta rapida. Viene visualizzata la finestra di dialogo Nuovo snippet con il codice XML dell’elemento selezionato popolato nel **Contenuto** campo. Inserisci il **Titolo** e **Descrizione** per lo snippet e fare clic su **Crea** per salvare il frammento.
 
-   La schermata seguente evidenzia la breadcrumb e l’area del contenuto da cui è possibile richiamare il menu di scelta rapida.
+  La schermata seguente evidenzia la breadcrumb e l’area del contenuto da cui è possibile richiamare il menu di scelta rapida.
 
-   ![](images/snippet-create-from-breadcrumb-content.png){width="350" align="left"}
+  ![](images/snippet-create-from-breadcrumb-content.png){width="350" align="left"}
 
 
 Per inserire uno snippet, utilizzare uno dei metodi seguenti:
@@ -1390,6 +1393,41 @@ Una volta creato il modello, è necessario aggiungerlo al profilo globale o a li
 
 Utilizzando il menu Opzioni di un modello esistente, è possibile scegliere di **Modifica** o **Duplica** ... In caso di duplicazione, la struttura e il tipo \(di documento\) del modello vengono mantenuti ed è possibile riutilizzarli per creare un altro modello da esso.
 
+**Revisione** -  ![](images/active-review-tasklist-icon.svg)
+
+Le guide AEM consentono di visualizzare tutte le attività di revisione nei progetti. Puoi visualizzare tutti i progetti di revisione e le attività di revisione attive all’interno dei progetti di revisione di cui fai parte dal **Revisione** pannello.  È quindi possibile aprire le attività di revisione per visualizzare i commenti dei vari revisori.
+Nel pannello Revisione vengono visualizzate le attività di revisione. In qualità di autore, è possibile indirizzare i commenti in un argomento utilizzando l&#39;Editor Web.
+
+
+Per visualizzare i commenti di revisione nelle attività di revisione attive presenti nei progetti, effettuare le seguenti operazioni:
+
+1. Seleziona revisione ![](images/active-review-tasklist-icon.svg)   nel pannello sinistro. Il **Revisione** viene visualizzato il pannello.  Vengono visualizzati tutti i progetti di revisione e le attività di revisione attive all&#39;interno dei progetti di revisione di cui fai parte.
+
+   ![](images/web-editor-review-panel.png){width="300" align="left"}
+1. Selezionare un progetto di revisione e quindi selezionare un&#39;attività di revisione dall&#39;elenco per aprirla.
+1. Puoi anche filtrare i progetti nei seguenti modi:
+
+   - Immetti il termine o il testo da cercare nel titolo del progetto. Quindi premere Invio per eseguire la ricerca. Ad esempio, puoi cercare tutti i progetti il cui titolo contiene il termine &quot;spazio&quot;.
+
+   - Seleziona ![](images/filter-search-icon.svg)  per aprire **Filtro** . Puoi selezionare tutti o solo progetti specifici. I progetti selezionati sono elencati in **Revisione** pannello.
+     ![](images/active-review-select-project.png){width="300" align="left"}
+
+     Il **Attività avviate da me** è attivata per impostazione predefinita. Ti consente di visualizzare solo le attività avviate.
+
+1. Per impostazione predefinita, nel progetto di revisione viene visualizzato un elenco semplice di argomenti a cui sono associati commenti. Applica i filtri richiesti dalla barra a sinistra per filtrare gli argomenti in base ai commenti di revisione presenti in essi:
+
+   - **Visualizza tutti gli argomenti**: elenca tutti gli argomenti presenti nei progetti.
+   - **Visualizza argomenti con commenti**: elenca solo gli argomenti contenenti commenti di revisione.
+1. È inoltre possibile immettere il termine di ricerca o il testo che si desidera trovare nel titolo o nel percorso del file dell&#39;argomento. Vengono elencati gli argomenti che contengono il termine nel titolo o nel percorso del file.
+1. Fare doppio clic su un argomento per aprirlo nella visualizzazione Autore. È possibile visualizzare i commenti in **Commenti** pannello.
+   ![](images/active-review-task-comments.png){width="800" align="left"}
+
+
+   >[!NOTE]
+   > 
+   > Il **Revisione** e **Commenti** sono sempre sincronizzati. Nel pannello Commenti, i commenti vengono caricati in base all&#39;attività di revisione caricata nel pannello Revisione.
+   > Per ulteriori informazioni su come gestire i commenti, vedere [Commenti sulla revisione degli indirizzi](review-address-review-comments.md#).
+
 **Trova e sostituisci** -  ![](images/FindAndReplace_icon.svg)
 
 L’icona Trova e sostituisci si trova nella parte inferiore del pannello a sinistra. Il pannello Trova e sostituisci consente di cercare e sostituire il testo tra i file di una mappa o di una cartella all’interno dell’archivio. Puoi trovare e sostituire in tutti gli argomenti di una mappa così come gli argomenti presenti nelle mappe secondarie all&#39;interno della mappa.
@@ -1402,9 +1440,9 @@ Per eseguire la ricerca e la sostituzione globali, effettuare le seguenti operaz
 1. Fai clic su **Cerca in** a discesa, seleziona una delle seguenti opzioni per eseguire la ricerca.
    - **Mappa corrente**: per eseguire ricerche nella mappa attualmente aperta
 
-      >[!NOTE]
-      >
-      > Questa opzione viene visualizzata se avete già aperto una mappa per la modifica.
+     >[!NOTE]
+     >
+     > Questa opzione viene visualizzata se avete già aperto una mappa per la modifica.
 
    - **Percorso**: per eseguire una ricerca nel percorso selezionato
    - **Seleziona mappa**: per eseguire ricerche nella mappa selezionata
@@ -1415,7 +1453,7 @@ Per eseguire la ricerca e la sostituzione globali, effettuare le seguenti operaz
    - **Solo parola intera**: seleziona questa opzione se desideri cercare l’intera stringa di ricerca. Ad esempio, se si immette nella stringa di ricerca, il risultato della ricerca restituirà tutti i file contenenti parole come over e overview. Se si desidera limitare la ricerca per restituire il termine specificato, selezionare questa opzione.
    - **Crea nuova versione dopo la sostituzione**: selezionare questa opzione se si desidera creare una nuova versione dell&#39;argomento in cui si sceglie di sostituire il testo. Puoi anche fornire commenti sulla versione che verranno aggiunti a ogni file aggiornato.
 
-      Se non si seleziona questa opzione, le modifiche verranno salvate nella versione corrente dell&#39;argomento e non verrà creata alcuna nuova versione.
+     Se non si seleziona questa opzione, le modifiche verranno salvate nella versione corrente dell&#39;argomento e non verrà creata alcuna nuova versione.
 
    - **Includi riferimento indiretto**: seleziona questa opzione se desideri cercare la stringa nei riferimenti indiretti anche all’interno della mappa DITA. Per impostazione predefinita, questa opzione è disabilitata, pertanto la ricerca viene eseguita solo sui riferimenti diretti.
 
@@ -1428,9 +1466,9 @@ Per eseguire la ricerca e la sostituzione globali, effettuare le seguenti operaz
 
    - **Mappa corrente**: per eseguire ricerche nella mappa attualmente aperta
 
-      >[!NOTE]
-      >
-      > Questa opzione viene visualizzata se avete già aperto una mappa per la modifica.
+     >[!NOTE]
+     >
+     > Questa opzione viene visualizzata se avete già aperto una mappa per la modifica.
 
    - **Percorso**: per eseguire una ricerca nel percorso selezionato
    - **Seleziona mappa**: per eseguire ricerche nella mappa selezionata
@@ -1443,7 +1481,7 @@ Per eseguire la ricerca e la sostituzione globali, effettuare le seguenti operaz
 
    - **Crea nuova versione dopo la sostituzione**: selezionare questa opzione se si desidera creare una nuova versione dell&#39;argomento in cui si sceglie di sostituire il testo. Puoi anche fornire commenti sulla versione che verranno aggiunti a ogni file aggiornato.
 
-      Se non si seleziona questa opzione, le modifiche verranno salvate nella versione corrente dell&#39;argomento e non verrà creata alcuna nuova versione.
+     Se non si seleziona questa opzione, le modifiche verranno salvate nella versione corrente dell&#39;argomento e non verrà creata alcuna nuova versione.
 
    - **Includi riferimento indiretto**: seleziona questa opzione se desideri cercare la stringa nei riferimenti indiretti anche all’interno della mappa DITA. Per impostazione predefinita, questa opzione è disabilitata, pertanto la ricerca viene eseguita solo sui riferimenti diretti.
 

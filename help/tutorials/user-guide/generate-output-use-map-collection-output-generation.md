@@ -2,9 +2,9 @@
 title: Usa raccolta mappe per la generazione dell'output
 description: Scopri come utilizzare la raccolta mappe per la generazione di output
 exl-id: 32e3af6c-9670-42cc-8dbe-9f99fbc60adf
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 22f88ae4097a6067ed65a963ad6765f6f8c24f36
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '898'
 ht-degree: 0%
 
 ---
@@ -66,15 +66,26 @@ Nella pagina della raccolta sono visualizzate le seguenti opzioni di filtro e i 
 
 Per configurare e generare l’output utilizzando una raccolta di mappe, effettua le seguenti operazioni:
 
-1. Apri la raccolta di mappe.
+1. Apri la raccolta Mappa.Puoi visualizzare i vari predefiniti di output come Sito AEM, PDF (incluso Native PDF), HTML5, EPUB e Predefiniti personalizzati. Puoi anche visualizzare i predefiniti per i profili globali e delle cartelle creati dall’amministratore.
+
+   Il ![](images/global-preset-icon.svg) icona indica un predefinito a livello di profilo della cartella.
 1. \(Facoltativo\) Effettuare una delle seguenti operazioni in base alle proprie esigenze:
    - Applica i filtri dalla barra a sinistra per filtrare le mappe modificate, il predefinito di output o la lingua.
    - Se necessario, fai clic su **Modifica** e modificare l&#39;output desiderato attivando o disattivando il pulsante scorrevole.
+
+
+
+     >[!NOTE]
+     >  
+     > Per impostazione predefinita, qualsiasi nuovo predefinito è disattivato.
+
+   - Puoi selezionare **Abilita/disabilita tutti i predefiniti del profilo di cartella** per fare in modo che una mappa DITA selezioni tutti i profili di cartella in un&#39;unica operazione.
+
+
 1. Effettua una delle operazioni seguenti:
 
    - Per generare l&#39;output delle mappe selezionate, selezionate i file di mappa e fate clic su **Genera selezionati**.
    - Per generare l&#39;output di tutte le mappe DITA con i relativi predefiniti configurati, fare clic su **Genera tutto**.
-
    >[!IMPORTANT]
    >
    > Se un processo di generazione dell&#39;output per un predefinito o una mappa DITA è in coda o in corso, non è possibile avviare un&#39;altra attività di generazione dell&#39;output per lo stesso predefinito o mappa.
@@ -85,7 +96,7 @@ Per configurare e generare l’output utilizzando una raccolta di mappe, effettu
 - Per eliminare una raccolta mappa, selezionala nella pagina Mappa raccolta e fai clic su **Elimina**.
 - Per eliminare una mappa DITA da una raccolta di mappe, aprire Raccolta mappe in modalità Modifica, selezionare il file di mappa DITA e fare clic su **Rimuovi da raccolta**.
 
-   Verranno inoltre rimossi tutti i predefiniti o le impostazioni internazionali associati alla mappa DITA dall&#39;insieme Map.
+  Verranno inoltre rimossi tutti i predefiniti o le impostazioni internazionali associati alla mappa DITA dall&#39;insieme Map.
 
 
 ## Annullare un&#39;attività di generazione output da una raccolta di mappe

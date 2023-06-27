@@ -2,9 +2,9 @@
 title: Native PDF | Generazione di output PDF
 description: Genera output PDF in Adobe Experience Manager Guides as a Cloud Service
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: b9cf70ac957bfacbf9a6bf4c3b32d4f73c2b1287
+source-git-commit: 65a35f1c7530ed479e3bc584852fabc30ceecabb
 workflow-type: tm+mt
-source-wordcount: '2755'
+source-wordcount: '2904'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,11 @@ Utilizzare questo metodo per generare un output PDF per una mappa dal dashboard 
 
 Per ulteriori informazioni sulla generazione di un PDF utilizzando il metodo DITA-OT, vedere [Genera PDF utilizzando DITA-OT](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-pdf.html).
 
-* **Server di pubblicazione FrameMaker (FMPS)**
+* **FrameMaker Publishing Server (FMPS)**
 
-Utilizzare questo metodo per generare un output PDF non solo dal contenuto DITA, ma anche dai documenti FrameMaker (con estensione book e fm) disponibili nell&#39;archivio AEM. Il PDF può essere creato configurando un predefinito di output e pubblicato utilizzando FrameMaker Publishing Server (FMPS). Puoi progettare e configurare l’aspetto dell’output per PDF e altri formati e memorizzarlo in un file di impostazione (.sts). Questo file di impostazione viene quindi utilizzato da FMPS per generare l&#39;output per una mappa DITA o un file book. Per creare o modificare un predefinito di output, consultate  *Informazioni sui predefiniti di output* sezione nella sezione [Guida utente as a Cloud Service alle guide dell’AEM](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/cs-apr-22/XML-Documentation-for-Adobe-Experience-Manager_CS_User-Guide_EN.pdf).
+Utilizzare questo metodo per generare un output PDF non solo dal contenuto DITA, ma anche dai documenti di FrameMaker (con estensione book e fm) disponibili nell&#39;archivio AEM. Il PDF può essere creato configurando un predefinito di output e pubblicato utilizzando FrameMaker Publishing Server (FMPS). Puoi progettare e configurare l’aspetto dell’output per PDF e altri formati e memorizzarlo in un file di impostazione (.sts). Questo file di impostazione viene quindi utilizzato da FMPS per generare l&#39;output per una mappa DITA o un file book. Per creare o modificare un predefinito di output, consultate  *Informazioni sui predefiniti di output* sezione nella sezione [Guida utente as a Cloud Service alle guide dell’AEM](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/cs-apr-22/XML-Documentation-for-Adobe-Experience-Manager_CS_User-Guide_EN.pdf).
 
-Per ulteriori informazioni sulla configurazione di FMPS, consulta [Genera output da documenti FrameMaker](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ffm-output-generatation.html).
+Per ulteriori informazioni sulla configurazione di FMPS, consulta [Genera output da documenti di FrameMaker](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ffm-output-generatation.html).
 
 * **Pubblicazione nativa di PDF**
 
@@ -56,7 +56,6 @@ Per creare o configurare un predefinito di output PDF:
 
 1. Nella scheda Output, fai clic su **Predefiniti** nella barra laterale a sinistra.
 Viene visualizzato il pannello Predefinito. <br>
-
 <img src="assets/preset-panel.png" alt="pannello predefinito" width="600">
 
 1. Nell’output **Predefiniti** eseguire una delle operazioni seguenti:
@@ -95,17 +94,17 @@ Questi metadati vengono mappati ai metadati della scheda Descrizione in Propriet
 Dai predefiniti di output, **seleziona PDF** > **Metadati** per aggiungere e personalizzare le opzioni dei metadati.
 * **Fornisci file XMP**
 
-   I campi di metadati possono essere compilati direttamente importando [XMP](https://www.adobe.com/products/xmp.html) (piattaforma di metadati estensibile). Puoi scaricare un esempio di file XMP da qui.
+  I campi di metadati possono essere compilati direttamente importando [XMP](https://www.adobe.com/products/xmp.html) (piattaforma di metadati estensibile). Puoi scaricare un esempio di file XMP da qui.
 
 [Scarica](assets/SampleXMP.xmp)
 
-   In alternativa, puoi generare un file XMP utilizzando Adobe Acrobat.
+  In alternativa, puoi generare un file XMP utilizzando Adobe Acrobat.
    1. Clic **File** > **Proprietà** in Acrobat.
    1. Sotto **Descrizione**, fai clic su **Metadati aggiuntivi**.
    1. Dal pannello a sinistra, seleziona **Avanzate**.
    1. Fai clic su **Salva**.
 
-   Il file XMP viene salvato sul dispositivo.
+  Il file XMP viene salvato sul dispositivo.
 
 * **Fornisci nomi e valori di metadati**
 
@@ -152,6 +151,7 @@ Utilizza le seguenti opzioni per specificare impostazioni avanzate per unire i P
 | **Mostra filigrana** | Seleziona questa opzione per eseguire il rendering delle equazioni MathML presenti nel contenuto. In caso contrario, le equazioni verranno ignorate. |
 | **Abilita equazioni MathML** | Seleziona questa opzione per eseguire il rendering delle equazioni MathML presenti nel contenuto. In caso contrario, per impostazione predefinita, le equazioni verranno ignorate. |
 | **Conformità PDF** | È lo standard al quale intendi salvare il PDF per assicurarti che sia conforme. Seleziona dall’elenco a discesa per scegliere dall’elenco degli standard PDF disponibili. Per ulteriori dettagli sugli standard supportati consulta [Informazioni sugli standard PDF](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
+| **Scarica file temporanei** | Selezionare questa opzione se si desidera scaricare i file di HTML provvisori creati durante la generazione dell&#39;output di PDF nativo. Successivamente puoi scaricare i file temporanei dopo aver generato l’output. |
 
 ## Generare un output PDF {#generate-pdf-output}
 
@@ -173,3 +173,12 @@ Se un output non ha esito positivo, viene visualizzato il seguente messaggio di 
 <img src="assets/error-log.png" alt="registro errori" width="250">
 
 Per visualizzare il registro degli errori, fare clic su **Ignora**, passa il puntatore sulla scheda del predefinito selezionato e fai clic su ![opzioni](assets/options.svg) **Opzioni** > **Visualizza registro**.
+
+### Scarica i file temporanei dopo la generazione dell’output di Native PDF
+
+Se si seleziona la **Scarica file temporanei** nelle impostazioni avanzate, è inoltre possibile scaricare i file HTML provvisori creati durante la generazione dell&#39;output di PDF nativa. Dopo aver generato l’output, puoi scaricare i file temporanei utilizzando **Scarica file temporanei** ![scaricare file temporanei](assets/native-pdf-download-temporary-files-icon.svg)nella barra superiore. Questa funzione consente di visualizzare gli stili e i layout provvisori di HTML e di correggere o modificare gli stili CSS in base alle tue esigenze.
+
+
+>NOTA
+>
+> Il **Scarica file temporanei**  ![scaricare file temporanei](assets/native-pdf-download-temporary-files-icon.svg) viene visualizzata solo se avete generato l&#39;ultimo output di PDF utilizzando il predefinito in cui avete selezionato l&#39;opzione nella **Avanzate** scheda.
