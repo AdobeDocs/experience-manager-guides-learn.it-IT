@@ -1,7 +1,7 @@
 ---
 title: Inserire uno snippet di contenuto dall'origine dati
 description: Scopri come inserire uno snippet di contenuto dall’origine dati
-source-git-commit: f01903fe9ae3d60a8b818e881fd3b1d626fcd2bc
+source-git-commit: 6061d35b86790e24c6f55e4ccac5dbb40c43aae8
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 0%
@@ -16,6 +16,7 @@ Le guide AEM forniscono la funzione di connessione all’origine dati. Puoi recu
 Per creare uno snippet di contenuto utilizzando il generatore di snippet di contenuto e inserirlo nell’argomento, effettua le seguenti operazioni:
 
 1. Seleziona **Origini dati** ![](images/data-source-icon.svg)   nel pannello a sinistra per visualizzare le origini dati collegate. Viene visualizzato il pannello Origini dati (Data Sources), in cui sono visualizzate tutte le origini dati collegate. Per ulteriori dettagli, vedi [Configurare un connettore di origine dati](../cs-install-guide/conf-data-source-connector.md).
+
    >[!NOTE]
    >
    > Verranno visualizzate le origini dati per le quali l’amministratore ha configurato il connettore.
@@ -31,7 +32,9 @@ I modelli predefiniti per l’origine dati selezionata vengono visualizzati nel 
    >[!NOTE]
    >  
    > Se l’amministratore ha configurato dei modelli personalizzati, questi vengono visualizzati anche nell’elenco a discesa (in base alle configurazioni del percorso del modello eseguite dall’amministratore).
+
 1. Clic **Recupera** per recuperare i dati dall&#39;origine dati e applicare il modello ai dati risultanti dalla query SQL.
+
 1. È possibile visualizzare i dati nell&#39;anteprima o nella vista origine DITA.
 
    1. L’anteprima mostra come verranno visualizzati i dati quando vengono inseriti nel contenuto. Nell&#39;anteprima viene visualizzata una piccola frazione di dati nel formato del modello selezionato.
