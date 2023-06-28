@@ -1,13 +1,13 @@
 ---
 title: Architettura e prestazioni del microservizio di pubblicazione cloud
 description: Scopri in che modo il nuovo microservizio consente la pubblicazione scalabile su AEMaaCS.
-source-git-commit: 2e45f132ced5ac29118a7301f104bedc03c93253
+exl-id: 963d8912-be10-4d79-8ddd-12481c0ae682
+source-git-commit: 862f086c4682e3efed06d142ddd099fecc9ca00e
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
-
 
 # Architettura di Cloud Publishing Microservice e analisi delle prestazioni
 
@@ -15,7 +15,7 @@ In questo articolo vengono condivisi approfondimenti sull’architettura e sui n
 
 >[!NOTE]
 >
-> Attualmente la pubblicazione basata su microservizi nelle guide AEM supporta solo l’output PDF utilizzando la pubblicazione PDF nativa o tramite DITA-OT. Nelle prossime versioni, le guide AEM aggiungeranno il supporto per la pubblicazione basata su microservizi per più tipi di output.
+> La pubblicazione basata su microservizi nelle guide AEM supporta i tipi di predefiniti di output PDF (sia nativi che basati su DITA-OT), HTML5 e CUSTOM.
 
 ## Problemi relativi ai flussi di lavoro di pubblicazione esistenti sul cloud
 
@@ -50,29 +50,29 @@ Se pubblichi una mappa di grandi dimensioni in locale, potrebbe essere necessari
 
 * Cloud
 
-   Se esegui una singola pubblicazione sul cloud utilizzando il nuovo servizio, la pubblicazione può richiedere un po’ più di tempo rispetto alla singola pubblicazione locale. Questo periodo di tempo leggermente più lungo è dovuto alla natura distribuita della nuova architettura cloud.
+  Se esegui una singola pubblicazione sul cloud utilizzando il nuovo servizio, la pubblicazione può richiedere un po’ più di tempo rispetto alla singola pubblicazione locale. Questo periodo di tempo leggermente più lungo è dovuto alla natura distribuita della nuova architettura cloud.
 
-   <img src="assets/cloud_single_publish.png" alt="scheda progetti" width="600">
+  <img src="assets/cloud_single_publish.png" alt="scheda progetti" width="600">
 
 * On-premise
 
-   I risultati della pubblicazione singola sono migliori sulla vecchia architettura cloud o on-premise, in quanto la pubblicazione completa avviene sullo stesso pod/computer in cui è in esecuzione l’AEM.
+  I risultati della pubblicazione singola sono migliori sulla vecchia architettura cloud o on-premise, in quanto la pubblicazione completa avviene sullo stesso pod/computer in cui è in esecuzione l’AEM.
 
-   <img src="assets/onprem_single_publish.png" alt="scheda progetti" width="600">
+  <img src="assets/onprem_single_publish.png" alt="scheda progetti" width="600">
 
 ### Esecuzione di più pubblicazioni su cloud rispetto a quelle on-premise
 
 * Cloud
 
-   Il nuovo microservizio di pubblicazione brilla in questo scenario. Come puoi vedere dall’immagine seguente, con l’aumento dei più processi di pubblicazione simultanei, cloud è in grado di pubblicarli senza alcun aumento significativo dei tempi di pubblicazione.
+  Il nuovo microservizio di pubblicazione brilla in questo scenario. Come puoi vedere dall’immagine seguente, con l’aumento dei più processi di pubblicazione simultanei, cloud è in grado di pubblicarli senza alcun aumento significativo dei tempi di pubblicazione.
 
-   <img src="assets/cloud_bulk_publish.png" alt="scheda progetti" width="600">
+  <img src="assets/cloud_bulk_publish.png" alt="scheda progetti" width="600">
 
 * On-premise
 
-   L’esecuzione della pubblicazione simultanea su un server locale causa un grave deterioramento delle prestazioni. Questo calo delle prestazioni è più grave se gli editori pubblicano più mappe contemporaneamente.
+  L’esecuzione della pubblicazione simultanea su un server locale causa un grave deterioramento delle prestazioni. Questo calo delle prestazioni è più grave se gli editori pubblicano più mappe contemporaneamente.
 
-   <img src="assets/onprem_bulk_publish.png" alt="scheda progetti" width="600">
+  <img src="assets/onprem_bulk_publish.png" alt="scheda progetti" width="600">
 
 ## Vantaggi aggiuntivi
 
