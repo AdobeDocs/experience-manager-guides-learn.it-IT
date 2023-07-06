@@ -2,7 +2,7 @@
 title: Funzione di pubblicazione nativa di PDF | Componenti di un modello PDF
 description: Scopri i vari componenti di un modello di PDF e come personalizzarli e configurarli.
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: 360bba8b5e6ab61314486497e9cc41348ff903c1
+source-git-commit: abeef67c07189d54e4adfb634c6094f3dc70e3eb
 workflow-type: tm+mt
 source-wordcount: '2938'
 ht-degree: 0%
@@ -27,23 +27,32 @@ Le impostazioni del componente Layout di pagina consentono di progettare la stru
 1. Nell’editor web, vai al **Output** scheda.
 1. Espandi la barra laterale a sinistra e fai clic su **Modelli**.
 1. Aprire il modello che si desidera utilizzare.
+
    >[!NOTE]
    >
    >Per aprire un modello, fai doppio clic sul nome o sull’icona > accanto al nome.
+
 1. Per creare un nuovo layout di pagina, effettuare una delle seguenti operazioni:
+
    * Passa il cursore sopra **Layout di pagina** e fai clic su (*Opzioni* ) **...** e scegli **Nuovo layout di pagina**.
+
+
    * In **Modelli** fare clic sul pulsante **+** icona accanto a **Modelli** e scegli **Layout di pagina** dal menu di scelta rapida.
 
-     Viene visualizzata la finestra di dialogo Aggiungi layout.
+
+     Verrà aperto il **Aggiungi layout** .
 
      <img src="assets/add-layout-2.png" alt="Finestra di dialogo Aggiungi layout" width="250">
+
 1. Specificare un nome per il nuovo layout di pagina.
    >[!NOTE]
    >
    >Evita di usare caratteri speciali per la denominazione del layout di una pagina. Uno spazio nel nome è sostituito da un carattere di sottolineatura &quot;_&quot;.
+
 1. Clic **Fine**.
 
    Il nuovo layout viene creato e aggiunto in Layout di pagina.
+
 
 ### Duplicare un layout di pagina {#duplicate-page-layout}
 
