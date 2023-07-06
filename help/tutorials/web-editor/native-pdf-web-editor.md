@@ -2,9 +2,9 @@
 title: Native PDF | Generazione di output PDF
 description: Genera output PDF in Adobe Experience Manager Guides as a Cloud Service
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: d8bc9e2673ce08fe5f71154e9d009d1847b0274d
+source-git-commit: 3ae7a2a5954b68da29d4268012be47cd2ac8df3e
 workflow-type: tm+mt
-source-wordcount: '2903'
+source-wordcount: '2951'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,11 @@ Utilizzare questo metodo per generare un output PDF per una mappa dal dashboard 
 
 Per ulteriori informazioni sulla generazione di un PDF utilizzando il metodo DITA-OT, vedere [Genera PDF utilizzando DITA-OT](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-pdf.html).
 
-* **Server di pubblicazione FrameMaker (FMPS)**
+* **FrameMaker Publishing Server (FMPS)**
 
 Utilizzare questo metodo per generare un output PDF non solo dal contenuto DITA, ma anche dai documenti di FrameMaker (con estensione book e fm) disponibili nell&#39;archivio AEM. Il PDF può essere creato configurando un predefinito di output e pubblicato utilizzando FrameMaker Publishing Server (FMPS). Puoi progettare e configurare l’aspetto dell’output per PDF e altri formati e memorizzarlo in un file di impostazione (.sts). Questo file di impostazione viene quindi utilizzato da FMPS per generare l&#39;output per una mappa DITA o un file book. Per creare o modificare un predefinito di output, consultate  *Informazioni sui predefiniti di output* sezione nella sezione [Guida utente as a Cloud Service alle guide dell’AEM](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/cs-apr-22/XML-Documentation-for-Adobe-Experience-Manager_CS_User-Guide_EN.pdf).
 
-Per ulteriori informazioni sulla configurazione di FMPS, consulta [Genera output da documenti FrameMaker](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ffm-output-generatation.html).
+Per ulteriori informazioni sulla configurazione di FMPS, consulta [Genera output da documenti di FrameMaker](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ffm-output-generatation.html).
 
 * **Pubblicazione nativa di PDF**
 
@@ -182,3 +182,10 @@ Se si seleziona la **Scarica file temporanei** nelle impostazioni avanzate, è i
 >[!NOTE]
 >
 > Il **Scarica file temporanei**  ![scaricare file temporanei](assets/native-pdf-download-temporary-files-icon.svg) viene visualizzata solo se avete generato l&#39;ultimo output di PDF utilizzando il predefinito in cui avete selezionato l&#39;opzione nella **Avanzate** scheda.
+
+
+
+### Utilizzare le variabili di lingua
+
+Le guide AEM forniscono anche il supporto per le variabili di lingua. Seleziona **Variabili di lingua** <img src="./assets/language-variables.svg" width="25">  nel pannello a sinistra per definire una versione localizzata delle etichette predefinite, ad esempio Nota, Attenzione e Avvertenza, oppure testo statico nell’output di PDF. Per ulteriori dettagli, consulta [Supporto per le variabili di lingua](../native-pdf/native-pdf-language-variables.md).
+

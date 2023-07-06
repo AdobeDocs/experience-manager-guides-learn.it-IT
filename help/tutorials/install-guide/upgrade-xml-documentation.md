@@ -2,9 +2,9 @@
 title: Aggiornare le guide di Adobe Experience Manager
 description: Scopri come aggiornare le guide di Adobe Experience Manager
 exl-id: fdc395cf-a54f-4eca-b69f-52ef08d84a6e
-source-git-commit: a00484a6e0a900a568ae1f651e96dca31add1bd8
+source-git-commit: 4c31580a7deb3e13931831c1888bbf0fd1bf9e14
 workflow-type: tm+mt
-source-wordcount: '2750'
+source-wordcount: '2896'
 ht-degree: 1%
 
 ---
@@ -236,9 +236,51 @@ Effettua le seguenti operazioni per indicizzare il contenuto esistente e utilizz
 
 - Esegui una richiesta POST al server \(con autenticazione corretta\) - `http://<server:port\>/bin/guides/map-find/indexing`. \(Facoltativo: È possibile passare percorsi specifici delle mappe per indicizzarle. Per impostazione predefinita, tutte le mappe saranno indicizzate \|\| Ad esempio: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`\)
 
-- L’API restituirà un jobId. Per verificare lo stato del processo, puoi inviare una richiesta di GET con ID processo allo stesso endpoint: `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(Ad esempio: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
+- L’API restituirà un jobId. Per verificare lo stato del processo, puoi inviare una richiesta di GET con ID processo allo stesso endpoint:
+
+`http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(Ad esempio: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
 
 - Una volta completato il processo, la richiesta di GET di cui sopra risponderà con successo e menzionerà se eventuali mappe non sono riuscite. Le mappe indicizzate correttamente possono essere confermate dai registri del server.
+
+Se il processo di aggiornamento non riesce e il registro degli errori mostra il seguente errore:
+
+&quot;Il *query* ha letto o attraversato più di *100000 nodi*. Per evitare di influenzare altre attività, l’elaborazione è stata interrotta.&quot;
+
+Ciò potrebbe verificarsi perché l’indice non è configurato correttamente per la query utilizzata nell’aggiornamento. È possibile provare la seguente soluzione alternativa:
+
+1. Nell’indice oak damAssetLucene, aggiungi la proprietà booleana `indexNodeName` as `true` nel nodo.
+   `/oak:index/damAssetLucene/indexRules/dam:Asset`
+1. Aggiungi un nuovo nodo con il nome estratto sotto il nodo.
+
+   `/oak:index/damAssetLucene/indexRules/dam:Asset/properties`
+e imposta le seguenti proprietà nel nodo:
+
+   ```
+   name - rep:excerpt
+   propertyIndex - {Boolean}true
+   notNullCheckEnabled - {Boolean}true
+   ```
+
+   La struttura di `damAssetLucene` dovrebbe avere un aspetto simile a:
+
+   ```
+   <damAssetLucene compatVersion="{Long}2" async="async, nrt" jcr:primaryType="oak:QueryIndexDefinition" evaluatePathRestrictions="{Boolean}true" type="lucene">
+   <indexRules jcr:primaryType="nt:unstructured">
+     <dam:Asset indexNodeName="{Boolean}true" jcr:primaryType="nt:unstructured">
+       <properties jcr:primaryType="nt:unstructured">
+         <excerpt name="rep:excerpt" propertyIndex="{Boolean}true" jcr:primaryType="nt:unstructured" notNullCheckEnabled="{Boolean}true"/>
+       </properties>
+       </dam:Asset>
+     </indexRules>
+   </damAssetLucene>    
+   ```
+
+
+   (insieme ad altri nodi e proprietà esistenti)
+
+1. Reindicizza `damAssetLucene` indicizzare (impostando il flag di reindicizzazione come `true` sotto e attendi che sia `false` di nuovo (questo indica che la reindicizzazione è completa). Tieni presente che potrebbero essere necessarie alcune ore a seconda delle dimensioni dell’indice.
+1. Esegui nuovamente lo script di indicizzazione eseguendo i passaggi precedenti.
+
 
 ## Aggiornamento alla versione 4.2.1 {#upgrade-version-4-2-1}
 

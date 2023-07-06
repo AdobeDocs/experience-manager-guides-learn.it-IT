@@ -2,9 +2,9 @@
 title: Note sulla versione | Novità delle guide di Adobe Experience Manager, versione di giugno 2023
 description: Scopri le funzioni nuove e migliorate nella versione di giugno 2023 di Adobe Experience Manager Guides as a Cloud Service
 exl-id: ff6ac4a4-76a3-4b41-9da7-6a888de0eca5
-source-git-commit: f6794078e760565f5934faf63a7cbfb919acce90
+source-git-commit: f1292c94d77b724467d9eede59687bf0041cbce5
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1205'
 ht-degree: 0%
 
 ---
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 Questo articolo descrive le funzioni nuove e migliorate della versione di giugno 2023 delle Guide di Adobe Experience Manager (in seguito denominate *Guide AEM as a Cloud Service*).
 
-Per ulteriori dettagli sulle istruzioni di aggiornamento, sulla matrice di compatibilità e sui problemi risolti in questa versione, vedi [Note sulla versione](release-notes-2023.6.0.md) articolo.
+Per ulteriori dettagli sulle istruzioni di aggiornamento, sulla matrice di compatibilità e sui problemi risolti in questa versione, consulta [Note sulla versione](release-notes-2023.6.0.md).
 
 ## Rapporto Collegamenti interrotti nell’editor web
 
-Le guide AEM consentono di verificare la completezza complessiva dei documenti tecnici e generare report dall’editor web. Ora, a giugno 2023, la versione AEM Guides offre la funzione per visualizzare e correggere i collegamenti interrotti. Si tratta di un rapporto molto utile che consente di gestire i collegamenti interrotti. È possibile visualizzare facilmente i collegamenti interrotti presenti nella mappa DITA e correggerli.
+Le guide AEM consentono di verificare la completezza complessiva dei documenti tecnici e generare report dall’editor web. Ora, a giugno 2023, la versione AEM Guides offre la funzione per visualizzare e correggere i collegamenti interrotti. Si tratta di un report utile che consente di gestire i collegamenti interrotti. È possibile visualizzare facilmente i collegamenti interrotti presenti nella mappa DITA e correggerli.
 ![](assets/broken-link-report.png){width="800" align="left"}
 
 Una volta corretto un collegamento, questo non viene visualizzato nell’elenco dei collegamenti interrotti.
@@ -26,7 +26,7 @@ Per ulteriori dettagli, consulta [Visualizzare e correggere i collegamenti inter
 
 ## Rinominare e spostare i file nella vista Archivio
 
-Ora è anche possibile rinominare o spostare un file dal pannello dell’archivio. Questa funzione è molto utile e consente di gestire facilmente i file dal pannello Archivio. È possibile selezionare un file e rinominarlo o spostarlo utilizzando **Opzioni** per il file selezionato. Le guide AEM visualizzano un messaggio di operazione riuscita quando si sposta o si rinomina un file.
+Ora è anche possibile rinominare o spostare un file dal pannello dell’archivio. Questa funzione è utile e consente di gestire facilmente i file dal pannello Archivio. È possibile selezionare un file e rinominarlo o spostarlo utilizzando **Opzioni** per il file selezionato. Le guide AEM visualizzano un messaggio di operazione riuscita quando si sposta o si rinomina un file.
 
 ![](assets/rename-move-assets.png){width="650" align="left"}
 
@@ -40,29 +40,26 @@ Ora è possibile aggiungere una filigrana all’output PDF del documento che non
 
 Per ulteriori dettagli, consulta [Aggiungere una filigrana all&#39;output PDF per le bozze di documenti](../native-pdf/use-javascript-content-style.md#watermark-draft-document).
 
-### Supporto per le variabili di lingua negli elementi DITA
+### Supporto per le variabili di lingua
 
-Le guide AEM supportano le variabili di linguaggio. Queste variabili sono molto utili per generare stringhe localizzate per elementi come nota, suggerimento, avvertenza, attenzione.
-Ad esempio, per presentare la NOTA nell’output di PDF puoi procedere come segue:
+Le guide AEM supportano le variabili di linguaggio. È possibile utilizzare le variabili di lingua per definire una versione localizzata delle etichette predefinite, ad esempio Nota, Avvertenza e Avvertenza, o del testo statico nell’output di PDF.
+Puoi aggiungere le variabili di lingua o la versione localizzata delle etichette alle sezioni appropriate nell’output di PDF e nei modelli di output.
 
-Tedesco: Notiz
+#### Variabili di lingua nell’output di PDF
 
-Spagnolo: Nota
+È possibile utilizzare le variabili di lingua per definire etichette localizzate per elementi quali Nota, Attenzione e Avvertenza. Puoi aggiornare il valore di queste variabili in una o più lingue, quindi il valore localizzato viene selezionato automaticamente nell’output di PDF.
+Ad esempio, puoi presentare l’etichetta Nota nell’output PDF nei seguenti modi:
 
+* Inglese: Note
+* Francese: Remarque
+* Tedesco: Hinweis
 
-### Supporto per le variabili di lingua nel piè di pagina della pagina
+#### Variabili di lingua nei modelli di output
 
-È possibile aggiungere una variabile di lingua a un&#39;intestazione o a un piè di pagina in esecuzione nella pagina master di un documento. La variabile viene visualizzata in tutte le pagine del corpo del documento a cui è applicata la pagina master. Ad esempio, 1 di 1 pagina.
-Puoi anche utilizzarlo per presentare i numeri in varie lingue.
+Per creare l&#39;output di PDF in diverse lingue, è necessario creare diversi modelli di PDF contenenti testo localizzato per ogni lingua. Ora, con la funzione Variabili di lingua, è sufficiente creare il modello una sola volta. Quindi, per qualsiasi testo statico da localizzare, puoi creare variabili di lingua corrispondenti e utilizzarle nel modello.
+Puoi creare variabili di lingua per testo più lungo, ad esempio una frase intera o anche un paragrafo. Puoi anche applicare stili e utilizzare il markup HTML per formattare queste variabili di lingua.
 
-### Prefissi localizzati per il sommario
-
-È inoltre possibile visualizzare i termini localizzati da utilizzare per presentare i prefissi nei titoli.
-Ad esempio, per presentare il prefisso &quot;Chapter&quot; nell’output di PDF puoi procedere come segue:
-
-Tedesco: Kapitel
-
-Spagnolo: Capítulo
+Per ulteriori dettagli, vedi [Supporto per le variabili di lingua](../native-pdf/native-pdf-language-variables.md).
 
 ### Possibilità di utilizzare i metadati dell’AEM nei layout PDF
 
