@@ -1,7 +1,7 @@
 ---
 title: Native PDF | Supporto per le variabili linguistiche
 description: Utilizzare le variabili di lingua nei modelli di output e di output di PDF
-source-git-commit: 7c7381d2d5a218de9c4ca1fbc0363eacd43947cd
+source-git-commit: 3e922ef7ed9af200aa8fcfb0cbe4489cf059e335
 workflow-type: tm+mt
 source-wordcount: '1221'
 ht-degree: 0%
@@ -105,18 +105,18 @@ Per inserire una variabile di lingua come `copyright-label` nell’area dell’i
 
 1. Apri il layout di pagina richiesto per la modifica.
 
->[!NOTE]
->
-> Visualizza [Personalizzare il layout di una pagina](../native-pdf/components-pdf-template.md#customize-a-page-layout-customize-page-layout) sezione per aprire un layout di pagina per la personalizzazione o la modifica.:
+   >[!NOTE]
+   >
+   > Visualizza [Personalizzare il layout di una pagina](../native-pdf/components-pdf-template.md#customize-a-page-layout-customize-page-layout) sezione per aprire un layout di pagina per la personalizzazione o la modifica.
 
 1. Seleziona l’intestazione per rendere attiva l’inserimento di una variabile.
 1. Seleziona **Inserisci variabile**  <img src="./assets/insert-language-variable.svg" width="25"> nella barra degli strumenti.
 1. In **Inserisci variabile** , selezionare il nome della variabile di lingua da inserire e fare clic su **Inserisci** per inserirlo nell&#39;area intestazione.
 
->[!NOTE]
->
-> È inoltre possibile immettere la stringa di ricerca nella casella di testo. I nomi delle variabili contenenti la stringa specificata vengono filtrati e visualizzati nell’elenco.
-> La variabile di lingua selezionata viene inserita nell’area dell’intestazione.
+   >[!NOTE]
+   >
+   > È inoltre possibile immettere la stringa di ricerca nella casella di testo. I nomi delle variabili contenenti la stringa specificata vengono filtrati e visualizzati nell’elenco.
+   > La variabile di lingua selezionata viene inserita nell’area dell’intestazione.
 
 La schermata seguente mostra il valore per `copyright-label` aggiunto nell’area dell’intestazione.
 
