@@ -2,9 +2,9 @@
 user-guide-title: Tutorial su AEM Guides
 user-guide-description: Leggi la nostra raccolta di tutorial su Adobe Experience Manager Guides.
 breadcrumb-title: Tutorial su AEM Guides
-source-git-commit: cabb567088e8f118db5af614b64948f56dc1e25e
+source-git-commit: 6adc8544c7ad64bc264465a56944d49949605414
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '1392'
 ht-degree: 5%
 
 ---
@@ -161,7 +161,7 @@ ht-degree: 5%
    + Generazione di output di documenti di FrameMaker {#generate-fm-output}
       + [Genera output di documenti FrameMaker](./user-guide/fm-output-generatation.md)
       + Predefiniti supportati {#fm-docs-generating-presets}
-         + [Predefiniti per la generazione di documenti FrameMaker](./user-guide/fm-output-understand-presets.md)
+         + [Predefiniti per la generazione di documenti di FrameMaker](./user-guide/fm-output-understand-presets.md)
          + [PDF](./user-guide/fm-output-pdf-preset.md)
          + [HTML5](./user-guide/fm-output-html5-preset.md)
          + [EPUB](./user-guide/fm-output-epub-preset.md)
@@ -350,5 +350,4 @@ ht-degree: 5%
       + Casi d’uso {#use-cases}
          + [Utilizzo di contenuti condizionali](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
          + [Utilizzo delle chiavi](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
-+ Articoli nascosti {#hidden}
    + [Usa connettore di ossigeno](./oxygen-connector/use-aem-connector.md)
