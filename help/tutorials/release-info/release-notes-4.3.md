@@ -1,9 +1,9 @@
 ---
 title: Note sulla versione | Istruzioni per l’aggiornamento e problemi risolti nella versione 4.3.0 delle guide di Adobe Experience Manager
 description: Scopri le correzioni di bug e come effettuare l’aggiornamento alle versioni 4.3.0 delle guide di Adobe Experience Manager
-source-git-commit: 756ba69360e1796e36f6cc1ef410443ef8cb4acb
+source-git-commit: 7581085859785c5b8b597ecfeb7dbe58c7c9e2bc
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '998'
 ht-degree: 5%
 
 ---
@@ -81,7 +81,6 @@ Di seguito sono elencati i bug risolti in varie aree:
 - I risultati della ricerca vengono disattivati nel pannello Trova e sostituisci dopo l’apertura di un file cercato. (12142)
 - Il tasto numerico &quot;8&quot; sulla tastiera laterale non funziona nell’editor delle guide AEM. (12106)
 - Gli attributi Inline/Display non vengono visualizzati nella visualizzazione Layout dell&#39;editor Web. (12498)
-- Caricare i file nel plug-in di ossigeno per le guide AEM non funziona in Cloud Services se si dispone di ! nel nome del file. (12207)
 - La configurazione dell’interfaccia utente del profilo globale non corrisponde al profilo cartella. (11970)
 - I riferimenti ai contenuti vengono interrotti quando i file DITA vengono copiati e incollati. (11959)
 - Impossibile modificare il frammento di contenuto nella vista a colonne se sono installate le guide AEM. (7342)
@@ -93,7 +92,7 @@ Di seguito sono elencati i bug risolti in varie aree:
 - `conref` nel tag ph | La finestra di dialogo Sfoglia visualizzata non è corretta. (9481)
 - I collegamenti locali ad altri elementi non vengono risolti in Editor Web. (8790)
 - La funzione Matches() non funziona nella funzione Schematron. (11224)
-- Nel plug-in Ossigeno per guide AEM, l&#39;opzione per aprire una mappa DITA nell&#39;Editor mappe DITA Web viene visualizzata nella vecchia interfaccia utente. (12633)
+
 
 
 ### Gestione
