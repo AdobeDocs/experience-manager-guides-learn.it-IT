@@ -2,9 +2,9 @@
 title: Native PDF | Generazione di output PDF
 description: Genera output PDF in Adobe Experience Manager Guides as a Cloud Service
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: 3ae7a2a5954b68da29d4268012be47cd2ac8df3e
+source-git-commit: c11a9d2153dd2971a133ecd40325266b1d6e236c
 workflow-type: tm+mt
-source-wordcount: '2951'
+source-wordcount: '3071'
 ht-degree: 0%
 
 ---
@@ -112,6 +112,17 @@ Dai predefiniti di output, **seleziona PDF** > **Metadati** per aggiungere e per
    1. Inserisci il valore per i metadati e fai clic sull’icona &quot;+&quot;.
 I metadati vengono aggiunti all’elenco dei metadati per PDF.
 
+Puoi anche utilizzare le variabili per definire i valori dei metadati.  È possibile utilizzare i metadati definiti per il file mappa DITA o mappa segnalibro come variabili. I metadati si trovano sotto `/jcr:content/metadata` nodo del file mappa DITA o del file di mappa di un libro.
+Quando utilizzi una variabile, il relativo valore viene scelto dalle proprietà dei metadati.
+
+Per utilizzare una variabile, è necessario definirla nel `${<variable>}` formato.
+
+Ad esempio, una delle proprietà di metadati definite in /`jcr:content/metadata` il nodo è
+`dc:title`. È possibile specificare `${dc:title}`e il valore del titolo viene utilizzato nell’output finale.
+
+Puoi utilizzare una singola variabile o una combinazione di variabili per definire i metadati. Esempio: `${dc:title} ${dc:docstate}`.
+
+Puoi anche utilizzare la combinazione di una variabile e una stringa.  Esempio: `View ${dc:title} in ${dc:language}`.
 
 
 **Layout**

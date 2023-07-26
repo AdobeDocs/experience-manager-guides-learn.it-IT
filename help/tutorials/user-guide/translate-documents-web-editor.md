@@ -2,9 +2,9 @@
 title: Traduci documenti dall'editor Web
 description: Scopri come tradurre i documenti dall’editor web
 exl-id: 02fc2b51-5b9a-4ad6-9e2e-726ab7602514
-source-git-commit: 4d37242019ac2db734f7054324b074c0e8bc60bd
+source-git-commit: 7df3024578ad289d9c6e0ab8b93f9fc6b9ff0bfe
 workflow-type: tm+mt
-source-wordcount: '1859'
+source-wordcount: '1864'
 ht-degree: 0%
 
 ---
@@ -81,20 +81,19 @@ Prima di eseguire i passaggi descritti in questa procedura, verificare di aver c
    Oltre a un nuovo progetto di traduzione, puoi selezionare tra le seguenti opzioni:
 
    - Puoi scegliere di **Creare una struttura** solo per il progetto di traduzione.
-   - Puoi scegliere di **Crea un nuovo progetto di traduzione XLIFF** per convertire il contenuto XML nel formato XLIFF (XML Localization Interchange File Format). XLIFF è un formato aperto basato su XML utilizzato per standardizzare il trasferimento di dati tra vari strumenti utilizzati nel processo di traduzione dei contenuti.
-In un progetto XLIFF, il contenuto viene esportato nel formato XLIFF standard, che può essere fornito ai fornitori di servizi di traduzione. Il formato XLIFF consente il potenziale riutilizzo dei segmenti già tradotti durante la fase di traduzione.\
-      Una volta tradotto, il contenuto XLIFF può essere importato nelle guide AEM, creando una versione tradotta del progetto DITA originale.
+   - Puoi scegliere di **Crea un nuovo progetto di traduzione XLIFF** per convertire il contenuto XML nel formato XLIFF (XML Localization Interchange File Format). XLIFF è un formato aperto basato su XML utilizzato per standardizzare il trasferimento di dati tra vari strumenti utilizzati nel processo di traduzione dei contenuti. Le guide AEM supportano XLIFF versione 1.2. In un progetto XLIFF, il contenuto viene esportato nel formato XLIFF standard, che può essere fornito ai fornitori di servizi di traduzione. Il formato XLIFF consente il potenziale riutilizzo dei segmenti già tradotti durante la fase di traduzione.\
+     Una volta tradotto, il contenuto XLIFF può essere importato nelle guide AEM, creando una versione tradotta del progetto DITA originale.
 
-      >[!NOTE]
-      >
-      > L’esportazione XLIFF funziona solo con la configurazione di traduzione umana.
+     >[!NOTE]
+     >
+     > L’esportazione XLIFF funziona solo con la configurazione di traduzione umana.
 
    - Puoi selezionare **Crea un nuovo progetto di traduzione multilingue** che includerà i processi di traduzione per tutte le lingue selezionate per la traduzione. Ad esempio, se hai selezionato francese, tedesco e spagnolo, verrà creato un progetto che contiene processi di traduzione per tutte e tre le lingue.
    - Se disponi già di un progetto di traduzione, puoi aggiungere argomenti a tale progetto. Seleziona Aggiungi a **Progetto di traduzione esistente** dall’elenco Progetto e scegli un progetto dall’elenco Progetto di traduzione esistente. Puoi ordinare questi progetti in base all’ordine più recente, crescente o decrescente.
 
-      >[!NOTE]
-      >
-      > Se il progetto esistente è un progetto con ambito, al suo nome viene aggiunto &quot;\(Ambito\)&quot;.
+     >[!NOTE]
+     >
+     > Se il progetto esistente è un progetto con ambito, al suo nome viene aggiunto &quot;\(Ambito\)&quot;.
 
    - Per creare l’ambito di un progetto da tradurre, puoi selezionare **Crea un nuovo progetto di traduzione ambito**. Questo non invierà le copie per la traduzione e lo stato di traduzione originale dei file viene mantenuto. Non vi è alcun impatto sulla copia nella lingua di destinazione degli argomenti trattati che vengono inviati per l’ambito.
 1. Nel campo **Titolo progetto**, inserisci un titolo.

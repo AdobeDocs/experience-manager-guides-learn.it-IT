@@ -1,13 +1,13 @@
 ---
 title: Configurare profili globali o a livello di cartella
 description: Scopri come configurare profili globali o a livello di cartella
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+exl-id: 3370e22c-b996-4261-b250-8b8f8667c2a0
+source-git-commit: 192d807d0020193f39e8340fb6c0b6a50c6489f8
 workflow-type: tm+mt
-source-wordcount: '3890'
+source-wordcount: '3891'
 ht-degree: 0%
 
 ---
-
 
 # Configurare profili globali o a livello di cartella {#id181AH2003PF}
 
@@ -19,7 +19,9 @@ Inoltre, puoi delegare le configurazioni specifiche della cartella a un reparto 
 
 Utilizzando il riquadro Profili cartella nelle impostazioni delle Guide, è possibile configurare le impostazioni nelle schede seguenti:
 
-- **Generale**: la scheda generale è disponibile quando configuri le impostazioni a livello di cartella \(o progetto/prodotto\). È possibile configurare impostazioni quali i percorsi delle cartelle in cui verranno applicate le impostazioni e gli utenti che disporranno dei diritti di amministratore per creare o aggiornare le configurazioni.
+![](assets/folder-profile-tabs.png){width="800" align="left"}
+
+- **Generale**: la scheda generale è disponibile solo quando configuri le impostazioni a livello di cartella \ (o progetto/prodotto\). È possibile configurare impostazioni quali i percorsi delle cartelle in cui verranno applicate le impostazioni e gli utenti che disporranno dei diritti di amministratore per creare o aggiornare le configurazioni.
 
 - **Attributi condizionali**: utilizza questa scheda per configurare gli attributi condizionali a livello globale o di cartella. Un attributo condizionale è una combinazione del nome e del valore dell&#39;attributo e puoi anche definire un&#39;etichetta per esso. È possibile utilizzare gli attributi DITA standard o attributi personalizzati. Gli attributi condizionali definiti a livello globale vengono resi disponibili a tutti gli utenti nei vari progetti. Se sono stati definiti attributi condizionali a livello di cartella, questi vengono uniti agli attributi condizionali definiti a livello globale.
 
@@ -40,16 +42,16 @@ Utilizzando il riquadro Profili cartella nelle impostazioni delle Guide, è poss
    - Vuoto
 
    - DITAVAL
-   >[!NOTE]
-   >
-   > È possibile utilizzare uno qualsiasi dei modelli esistenti come base per creare nuovi modelli. Il modello DITA vuoto non contiene alcuna struttura o elemento come gli altri modelli. È possibile utilizzare come base qualsiasi modello DITA OOTB, apportarvi modifiche e salvarlo con un nome diverso. Dopo aver apportato le modifiche necessarie, aggiungi il modello aggiornato alla configurazione globale o a livello di cartella dei modelli di authoring, quindi diventa disponibile per l’authoring.
 
-   Oltre ai modelli di argomento, puoi anche definire i modelli di mappa che verranno resi disponibili agli autori. Sono disponibili i seguenti modelli di mappa predefiniti:
+  >[!NOTE]
+  >
+  > È possibile utilizzare uno qualsiasi dei modelli esistenti come base per creare nuovi modelli. Il modello DITA vuoto non contiene alcuna struttura o elemento come gli altri modelli. È possibile utilizzare come base qualsiasi modello DITA OOTB, apportarvi modifiche e salvarlo con un nome diverso. Dopo aver apportato le modifiche necessarie, aggiungi il modello aggiornato alla configurazione globale o a livello di cartella dei modelli di authoring, quindi diventa disponibile per l’authoring.
+
+  Oltre ai modelli di argomento, puoi anche definire i modelli di mappa che verranno resi disponibili agli autori. Sono disponibili i seguenti modelli di mappa predefiniti:
 
    - Mappa
 
    - Bookmap
-
 
 - **Predefinito di output**: come per i modelli di authoring, esistono cinque predefiniti di output preconfigurati:
 
@@ -62,7 +64,8 @@ Utilizzando il riquadro Profili cartella nelle impostazioni delle Guide, è poss
    - EPUB
 
    - Personalizzati
-   Gli editori possono utilizzare questi predefiniti di output predefiniti per pubblicare i contenuti. Questi predefiniti possono essere configurati da un amministratore del profilo globale o a livello di cartella. Una volta configurati, i predefiniti di pubblicazione diventano disponibili per gli editori per le mappe DITA appena create. È inoltre possibile applicare predefiniti di pubblicazione alle mappe DITA esistenti. Vedere [Applicare le modifiche ai predefiniti](#id18AGD0K0OHS) per ulteriori dettagli.
+
+  Gli editori possono utilizzare questi predefiniti di output predefiniti per pubblicare i contenuti. Questi predefiniti possono essere configurati da un amministratore del profilo globale o a livello di cartella. Una volta configurati, i predefiniti di pubblicazione diventano disponibili per gli editori per le mappe DITA appena create. È inoltre possibile applicare predefiniti di pubblicazione alle mappe DITA esistenti. Vedere [Applicare le modifiche ai predefiniti](#id18AGD0K0OHS) per ulteriori dettagli.
 
 - **Configurazioni editor XML**: utilizza questa scheda per personalizzare l’aspetto e le varie funzioni dell’editor web. Per l&#39;editor Web sono disponibili le seguenti impostazioni configurabili:
 
@@ -89,6 +92,8 @@ Per configurare il profilo globale, effettua le seguenti operazioni:
 1. Seleziona **Guide** dall&#39;elenco degli strumenti e fare clic su **Profili cartella**.
 
    Per la prima volta viene visualizzata la pagina Profili cartella con solo il riquadro Profilo globale.
+
+   ![](assets/folder-profile-global.png){width="800" align="left"}
 
 1. Fai clic sul pulsante **Profilo globale** affiancare.
 
@@ -117,13 +122,15 @@ Per configurare un profilo a livello di cartella, effettua le seguenti operazion
 
 1. Fai clic su **Crea**.
 
+   ![](assets/create-folder-profile.png){width="300" align="left"}
+
 1. Immetti i seguenti dettagli in **Crea profilo cartella** finestra di dialogo:
    - Nome del profilo della cartella.
    - Percorso della cartella in cui sarà applicabile il profilo.
 
-      >[!NOTE]
-      >
-      > Non è possibile applicare più profili cartella a una cartella. Assicurati che alla cartella che stai selezionando non siano applicati altri profili. Nel caso di cartelle padre-figlio con profili specifici, la cartella figlio utilizzerà le configurazioni del proprio profilo. Le configurazioni della cartella principale non sostituiscono le configurazioni di una cartella secondaria.
+     >[!NOTE]
+     >
+     > Non è possibile applicare più profili cartella a una cartella. Assicurati che alla cartella che stai selezionando non siano applicati altri profili. Nel caso di cartelle padre-figlio con profili specifici, la cartella figlio utilizzerà le configurazioni del proprio profilo. Le configurazioni della cartella principale non sostituiscono le configurazioni di una cartella secondaria.
 
 1. Fai clic su **Crea**.
 
@@ -269,7 +276,7 @@ Per aggiungere l’argomento o i modelli di mappa a un profilo di cartella, effe
 
    - Scegli **Cerca o digita** e immettere o selezionare il nome di un modello dall&#39;elenco a discesa. L’elenco a discesa è costituito da tutti i modelli predefiniti ed eventuali nuovi modelli creati.
 
-      ![](assets/default-template-list.png){width="350" align="left"}
+     ![](assets/default-template-list.png){width="350" align="left"}
 
    - Clic **Sfoglia** e seleziona un modello da DAM.
 
@@ -362,7 +369,7 @@ Per configurare predefiniti di output globali o specifici per le cartelle, effet
 
    - Clic **Modifica** per aprire la configurazione del predefinito selezionato per la modifica.
 
-      Per informazioni sulle impostazioni del predefinito di output, consultate *Informazioni sui predefiniti di output* nelle Guide di Adobe Experience Manager.
+     Per informazioni sulle impostazioni del predefinito di output, consultate *Informazioni sui predefiniti di output* nelle Guide di Adobe Experience Manager.
 
 1. Clic **Salva** per salvare le impostazioni predefinite.
 
@@ -476,4 +483,3 @@ Nell’esempio precedente, &quot;label1&quot; è l’identificatore della sequen
 **Rootmap**
 
 Se gli autori utilizzano una mappa principale specifica, puoi cercare e selezionare tale mappa qui. Puoi definire la rootmap solo per un profilo a livello di cartella.
-

@@ -2,9 +2,9 @@
 title: Attivazione in blocco di contenuti pubblicati
 description: Scopri come attivare in blocco i contenuti pubblicati
 exl-id: 66c454bb-f09e-442f-b863-60ee249a0e08
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: c4f383984501525527136773ce7ef556170e8ad3
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,8 @@ Con la funzione di attivazione in blocco delle guide AEM, puoi attivare in modo 
 
 - Aggiungi una o più mappe \(a una raccolta di mappe\) a una singola attività di attivazione
 
-- Selezionate uno dei diversi predefiniti di output da pubblicare
+- Seleziona uno o più predefiniti di output da pubblicare. Puoi aggiungere predefiniti di output AEM Site, PDF, Native PDF, HTML5, Custom e JSON.
+
 
 - Definire le impostazioni internazionali in cui attivare l&#39;output
 

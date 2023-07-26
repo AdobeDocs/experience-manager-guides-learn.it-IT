@@ -2,9 +2,9 @@
 title: Creare una raccolta di mappe di attivazione in blocco
 description: Scopri come creare una raccolta di mappe di attivazione in blocco
 exl-id: 7d17fb37-9486-4a3b-a421-08e279c95b6c
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: c13d5146f478ed9b9122986a01eaa8a790bc8212
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '483'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,11 @@ La scheda Mappe e predefiniti presenta le informazioni riportate nelle colonne r
 - **UUID**: mostra l’identificatore univoco associato al file.
 
 - **Lingua**: mostra il codice della lingua della mappa DITA.
-- **Predefinito**: mostra il tipo di predefinito di output configurato nel file di mappa.
+- **Predefinito**: mostra il titolo del predefinito di output configurato nel file di mappa. Visualizza inoltre l’icona in base al tipo di predefinito di output.
+
+  >[!NOTE]
+  >
+  > Il piccolo ![](images/global-preset-icon.svg) icona indica un predefinito a livello di profilo della cartella.
 - **Modificato**: indica se la mappa DITA viene aggiornata dopo l&#39;ultima pubblicazione. In base a queste informazioni, è possibile decidere se attivare o meno l&#39;output per questa mappa DITA.
 - **Generato**: mostra la data e l’ora dell’ultimo output generato.
 - **Pubblicato**: mostra la data e l’ora dell’ultimo output pubblicato \(o attivato\). Se fai clic sul collegamento, viene visualizzata la pagina Risultati attivazione con informazioni sul percorso della directory principale in cui viene attivato il contenuto.

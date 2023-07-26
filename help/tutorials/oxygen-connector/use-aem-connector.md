@@ -4,9 +4,9 @@ description: Scopri come utilizzare il plug-in di ossigeno per le guide di Adobe
 hide: true
 hidefromtoc: true
 exl-id: 2db9a34e-2efa-47ad-ba6b-02afc5197669
-source-git-commit: 6adc8544c7ad64bc264465a56944d49949605414
+source-git-commit: a77f93ddc14b6beb440eaa314eebe53fd00265d7
 workflow-type: tm+mt
-source-wordcount: '5885'
+source-wordcount: '5952'
 ht-degree: 0%
 
 ---
@@ -28,13 +28,13 @@ Una volta installato il programma di installazione, installarlo nel computer loc
 
 ### Requisiti tecnici
 
-- Autore Oxygen XML versione 24.1
+- Autore Oxygen XML versione 25.1
 
-- Adobe Experience Manager Guides versione 3.4 o successiva
+- Adobe Experience Manager Guides versione 4.3 o successiva
 
-- Adobe Experience Manager versione 6.5 con Service Pack 10, 11, 12 e 13
+- Adobe Experience Manager versione 6.5 con Service Pack 14, 15, 16 e 17
 
-- Sistema operativo supportato da Oxygen XML Author versione 24.1
+- Sistema operativo supportato da Oxygen XML Author versione 25.1
 
 - Java Development Kit
    - Oracle SE 8 JRE 1.8
@@ -66,7 +66,7 @@ Effettuare le seguenti operazioni sul sistema in cui è installato Oxygen XML Au
 
    Il pannello Guide AEM viene visualizzato in Oxygen XML Author.
 
-   ![](images/oxygen-aem-connector.png)
+   ![Connettore AEM](images/oxygen-aem-connector.png){width="800" align="left"}
 
    >[!NOTE]
    >
@@ -98,7 +98,7 @@ Effettuare le seguenti operazioni sul sistema in cui è installato Oxygen XML Au
 
    Il pannello Guide AEM viene visualizzato in Oxygen XML Author.
 
-   ![](images/oxygen-aem-connector-mac.png)
+   ![Mac connettore AEM](images/oxygen-aem-connector-mac.png) {width="800" align="left"}
 
    >[!NOTE]
    >
@@ -118,7 +118,7 @@ In qualità di amministratore AEM, effettua le seguenti operazioni per installar
 
    Gestione pacchetti gestisce i pacchetti nell’installazione AEM locale. Per ulteriori informazioni sull’utilizzo di Gestione pacchetti, consulta [Come utilizzare i pacchetti](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager.html?lang=en) nella documentazione AEM.
 
-   ![](images/package-manager.png)
+   ![Gestione pacchetti](images/package-manager.png) {width="650" align="left"}
 
 1. Per caricare il pacchetto ossigeno, fai clic su **Carica pacchetto**.
 1. Nella finestra di dialogo Carica pacchetto, individua il file del pacchetto di ossigeno scaricato al punto 1 e fai clic su OK.
@@ -127,7 +127,7 @@ In qualità di amministratore AEM, effettua le seguenti operazioni per installar
 
 1. Per avviare il processo di installazione, fare clic su **Installa**.
 
-   ![](images/oxygen-package.png)
+   ![Pacchetto ossigeno](images/oxygen-package.png){width="650" align="left"}
 
 1. Nella finestra di dialogo Installa pacchetto, fai clic su **Installa**.
 1. Al termine dell’installazione, fai clic sul pulsante Home nell’angolo superiore sinistro di Gestione pacchetti CRX.
@@ -158,7 +158,7 @@ Aggiorna i file forniti per configurare le impostazioni di autenticazione web ne
 >
 >Crea una copia di backup del file prima di aggiornarlo.
 
-**Per Mac e ossigeno 24.1**
+**Per Mac e ossigeno 25.1**
 
 Aggiungi le seguenti righe in env.sh
 
@@ -184,7 +184,7 @@ Aggiungi le seguenti righe in ossigenoAuthor.sh
 -Djdk.module.illegalAccess=permit\-Djava.ipc.external=true\
 ```
 
-**Per Windows e ossigeno 24.1**
+**Per Windows e ossigeno 25.1**
 
 Aggiungi le seguenti righe in env.bat
 
@@ -208,7 +208,7 @@ Per configurare le impostazioni di connessione nel plug-in ossigeno per le guide
 
 1. Nel pannello Guide AEM, fai clic sull’icona delle impostazioni, quindi seleziona **Impostazioni**.
 
-   ![](images/settings.png)
+   ![Impostazioni di connessione ](images/settings.png){width="800" align="left"}
 
 1. Specifica i dettagli seguenti:
    - **URL server**: URL del server AEM, ad esempio:
@@ -245,19 +245,18 @@ Per configurare gli attributi di profilatura, effettua le seguenti operazioni:
 1. In Oxygen XML Author, fare clic su **Opzioni** \> **Preferenze**.
 1. In **Associazione tipo di documento** , seleziona **DITA** e quindi fare clic su **Estendi**.
 
-   ![](images/document_type_association.png)
+   ![associazione tipo di documento](images/document_type_association.png){width="650" align="left"}
 
 1. In **Classpath** , selezionare com.adobe.o2.connector nella scheda **Usa il caricatore di classe padre dal plug-in con ID** a discesa.
 
-   ![](images/dita-extension.png)
+   ![Scheda Percorso classe](images/dita-extension.png){width="650" align="left"}
 
 1. In **Estensioni** , apportare le seguenti modifiche:
-1. 
    - Clic **Scegli** accanto al **Listener dello stato dell’estensione dell’autore** in **Singole estensioni** e selezionare CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn nel **Classe** elenco. Fai clic su **OK**.
-- Clic **Scegli** accanto al **Editor valore attributo personalizzato autore** in **Singole estensioni** e selezionare CustomValueEditor - com.adobe.o2.framework.extn nel **Classe** elenco. Fai clic su **OK**.
+   - Clic **Scegli** accanto al **Editor valore attributo personalizzato autore** in **Singole estensioni** e selezionare CustomValueEditor - com.adobe.o2.framework.extn nel **Classe** elenco. Fai clic su **OK**.
 La schermata seguente mostra i **Estensione** scheda per argomenti DITA:
 
-  ![](images/dita-topic-extension-tab.png)
+     ![Estensione configurata per argomenti DITA](images/dita-topic-extension-tab.png){width="650" align="left"}
 
 1. Clic **OK** in tutte le finestre di dialogo per salvare le modifiche.
 
@@ -280,7 +279,7 @@ Per configurare l&#39;estensione mappa DITA, effettuare le seguenti operazioni:
 
   La schermata seguente mostra i **Estensione** scheda:
 
-  ![](images/dita-map-extension-tab.png)
+  ![Estensione configurata per mappa DITA](images/dita-map-extension-tab.png){width="650" align="left"}
 
 1. Clic **OK** in tutte le finestre di dialogo per salvare le modifiche.
 
@@ -290,7 +289,7 @@ Per configurare l&#39;estensione mappa DITA, effettuare le seguenti operazioni:
 
 La schermata seguente mostra il pannello AEM Guides.
 
-![](images/connector-panel.png)
+![pannello dei connettori](images/connector-panel.png){width="550" align="left"}
 
 **A**\) Visualizza la barra di ricerca.
 
@@ -343,7 +342,7 @@ Una volta connessi all’archivio AEM, puoi aprire i file per la modifica nell�
 
    Il file viene aperto nell&#39;editor di Oxygen XML Author.
 
-   ![](images/guid-in-file-tab.png)
+   ![GUID nella scheda file](images/guid-in-file-tab.png) {width="800" align="left"}
 
    Quando passi il puntatore del mouse sulla scheda di un file, viene visualizzato il percorso del server e il relativo UUID. Nella schermata precedente, viene evidenziato l’UUID del documento.
 
@@ -385,7 +384,7 @@ Se hai selezionato **Estrazione automatica file all&#39;apertura** opzione \(nel
 
 Quando un file viene estratto, l&#39;icona del file cambia per mostrare lo stato di blocco.
 
-![](images/check-out-file.png)
+![Estrarre un file](images/check-out-file.png){width="650" align="left"}
 
 Nella schermata precedente, un file estratto da un altro utente viene visualizzato con un&#39;icona di blocco di colore nero \(A\). Il file estratto dall&#39;utente corrente viene visualizzato con un blocco verde \(B\).
 
@@ -406,7 +405,7 @@ Quando si archivia un file, la copia locale dal sistema viene memorizzata nell&#
 
    Se non sono stati estratti i file dipendenti e si sceglie questa opzione, verranno archiviati solo i file dipendenti di cui è stato eseguito il Check-Out \(separatamente\). Verrà visualizzato un elenco dei file che non è stato possibile archiviare:
 
-   ![](images/check-in-error.png)
+   ![errori di archiviazione](images/check-in-error.png){width="800" align="left"}
 
    Si consiglia vivamente di non spostare un file estratto. Se tuttavia un file estratto viene spostato in un percorso diverso, è necessario annullare l&#39;estrazione del file. Se si desidera aggiornare il file, estrarlo di nuovo, apportare le modifiche e quindi archiviarlo di nuovo. Se si tenta di archiviare un file che è stato spostato dalla posizione originale, verrà visualizzato un errore.
 
@@ -414,15 +413,19 @@ Quando si archivia un file, la copia locale dal sistema viene memorizzata nell&#
 
    Analogamente, se è stato archiviato un file dipendente tramite AEM, l&#39;elenco dei file non viene aggiornato in Oxygen Author fino a quando non si esegue una cartella Aggiorna e aggiorna file estratti. Se si esegue un Check-in con gli utenti dipendenti con alcuni file archiviati tramite AEM, verrà visualizzato un messaggio di errore in cui sono elencati i file che non è stato possibile archiviare.
 
-1. \(Facoltativo\) Nella finestra di dialogo Archivia, aggiungi un commento in **Commenti sulla versione** casella di testo.
+1. \(Facoltativo\) In **Check-in** o **Consegna con dipendenti** , aggiungi un commento in **Commenti sulla versione** casella di testo.
 
    >[!NOTE]
    >
    >Questo commento viene visualizzato nella cronologia delle versioni AEM del file.
-1. Aggiungi etichette in **Etichetta** casella di testo. Immettere un&#39;etichetta e premere Invio. Ad esempio: *Versione 2307*.
-Se l’amministratore ha predefinito un elenco di etichette e lo ha caricato in `label.json` , queste etichette vengono visualizzate come un elenco a discesa. Puoi scegliere una o più etichette dal menu a discesa.
-   ![](images/checkin-dropdown-labels.png){width="300" align="left"}
-È possibile aggiungere più etichette (separate da virgole) alla stessa versione di un argomento.  Ad esempio: *Adobe*, *AEM*,*Guide*
+
+1. Aggiungi etichette in **Etichetta** casella di testo nella **Check-in** o **Consegna con dipendenti** finestra di dialogo . Immettere un&#39;etichetta e premere Invio. Ad esempio: *Versione 2307*.
+
+   Se l’amministratore ha predefinito un elenco di etichette e lo ha caricato in `label.json` , queste etichette vengono visualizzate come un elenco a discesa. Puoi scegliere una o più etichette dal menu a discesa.
+
+   ![Finestra di dialogo Archivia](images/checkin-dropdown-labels.png){width="550" align="left"}
+
+   È possibile aggiungere più etichette (separate da virgole) alla stessa versione di un argomento.  Ad esempio: *Adobe*, *AEM*,*Guide*
 Tuttavia, non è possibile aggiungere la stessa etichetta alle diverse versioni di un argomento. Se aggiungi un’etichetta già aggiunta a una versione precedente, questa viene aggiunta all’ultima versione e rimossa dalla versione precedente.
 
    >[!NOTE]
@@ -444,7 +447,7 @@ Se si dispone di più cartelle, non è facile individuare il numero di file estr
 
    Viene visualizzata la visualizzazione File estratti in Guide AEM.
 
-   ![](images/files-checkedout-view.png)
+   ![file estratti](images/files-checkedout-view.png){width="550" align="left"}
 
 1. Fare clic con il pulsante destro del mouse su un file in questa visualizzazione per visualizzare le opzioni seguenti:
 
@@ -485,7 +488,7 @@ Durante lo spostamento o la copia dei contenuti dal sistema locale all’archivi
 
 - Durante la copia di un file mappa DITA, i riferimenti UUID all&#39;interno del file mappa non vengono modificati.
 
-- Se un file o una cartella presenta un conflitto o un duplicato, viene generato un nome di file univoco per il nuovo file da copiare o spostare.
+- Se un file o una cartella presenta un conflitto o un duplicato, viene generato un nome file univoco per il nuovo file da copiare o spostare.
 
 - Non ci sono due file con lo stesso UUID. A tutti i nuovi file viene assegnato un UUID univoco.
 
@@ -513,7 +516,7 @@ Per visualizzare la cronologia delle versioni di un file, effettuare le operazio
 
    La cronologia delle versioni del file viene visualizzata nella finestra di dialogo Versioni.
 
-   ![](images/version-history.png)
+   ![Cronologia versioni](images/version-history.png){width="550" align="left"}
 
 
 ### Visualizzare i metadati di un file {#id195GHN0H05C}
@@ -526,7 +529,7 @@ Per visualizzare i metadati di un file, effettua le seguenti operazioni:
 
    I metadati del file come la classe DITA, lo stato del documento, la data di modifica, le dimensioni, il titolo e l’UUID vengono visualizzati nella finestra di dialogo Metadati.
 
-   ![](images/metadata.png)
+   ![Visualizza metadati](images/metadata.png){width="550" align="left"}
 
 
 ## Cercare un argomento nel repository AEM {#id1826J20405Z}
@@ -541,7 +544,7 @@ Per cercare gli argomenti, effettua le seguenti operazioni:
 
    Il risultato viene visualizzato nella scheda Risultati ricerca come elenco con il percorso del file. Se non viene trovato alcun risultato corrispondente per la query di ricerca, non verrà trovato alcun risultato in &lt;path of=&quot;&quot; the=&quot;&quot; selected=&quot;&quot; folder=&quot;&quot;> viene visualizzato il messaggio.
 
-   ![](images/search.png)
+   ![Risultati della ricerca](images/search.png){width="550" align="left"}
 
 1. \(Facoltativo\) Fare doppio clic su un file nel risultato della ricerca per aprirlo in Oxygen XML Author.
 1. Per tornare alla vista Archivio AEM, eseguire una delle operazioni seguenti:
@@ -604,13 +607,13 @@ Per aggiungere attributi condizionali al contenuto in Oxygen XML Author, effettu
 1. Seleziona la parte del contenuto in cui desideri applicare gli attributi condizionali.
 1. Fare doppio clic sull&#39;attributo condizionale nel pannello Attributi di Oxygen XML Author.
 
-   ![](images/attribute-panel.png)
+   ![pannello attributi](images/attribute-panel.png){width="300" align="left"}
 
 1. In **Disponibile** nella finestra di dialogo Modifica attributo, seleziona l’attributo e fai clic su **Aggiungi**.
 
    La schermata seguente mostra `audience` attributi.
 
-   ![](images/edit-attributes.png)
+   ![Finestra di dialogo Modifica attributi](images/edit-attributes.png){width="550" align="left"}
 
 1. Fai clic su **OK**.
 
@@ -653,7 +656,7 @@ Soluzione 3:
 
 **Problema** - Quando si esegue una trasformazione DITA-OT su file elaborati dal plug-in, la trasformazione non riesce e viene visualizzato il seguente errore:
 
-![](images/proxy-server-path-error-new.png)
+![Errore di trasformazione DITA-OT](images/proxy-server-path-error-new.png){width="800" align="left"}
 
 **Soluzione** - Questo problema è stato risolto aggiungendo un server proxy tra DITA-OT e il plug-in. Questo server proxy elabora e condivide tutti i file richiesti da DITA-OT per le trasformazioni. La porta predefinita su cui è stato configurato il server è: `5972`. Se si utilizza questa porta per un altro server, è possibile specificare una porta diversa per il server proxy.
 
@@ -676,38 +679,58 @@ Soluzione: questo problema è stato osservato negli scenari in cui il percorso d
 
 Problema: per impostazione predefinita, il plug-in ossigeno per le guide AEM non genera alcun registro, rendendo difficile il debug di qualsiasi scenario di errore.
 
-Soluzione: per abilitare la funzione di generazione dei registri nel plug-in, effettua le seguenti operazioni:
+Soluzione: per configurare i logger per ossigeno e JxBrowser, effettua le seguenti operazioni:
 
-1. Individuare il percorso di installazione dell&#39;istanza di Oxygen XML Author.
+1. Chiudi autore XML ossigeno
 
-1. Aprire il file ossigenoAuthor19.1.vmoptions in un editor di testo.
+1. Crea un file denominato `logback.xml` con il seguente contenuto:
 
-   >[!NOTE]
-   >
-   >Il numero di versione del file può variare in base al numero di versione dell&#39;applicazione installata nel sistema.
-
-1. Aggiungi la seguente riga al file:
-
-   ```java
-   -Djava.util.logging.config.file=./log.properties
+   ```xml
+   <configuration>
+       <appender name="R2" class="ch.qos.logback.core.rolling.RollingFileAppender">
+           <file>${user.home}/Desktop/oxygenLog/oxygen.log</file>
+           <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+               <fileNamePattern>${user.home}/Desktop/oxygenLog/oxygen%i.log.gz</fileNamePattern>
+               <minIndex>1</minIndex>
+               <maxIndex>20</maxIndex>
+           </rollingPolicy>
+           <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+               <maxFileSize>100MB</maxFileSize>
+           </triggeringPolicy>
+           <encoder>
+               <pattern>%r %marker %p [ %t ] %c - %m%n</pattern>
+           </encoder>
+       </appender> 
+   
+       <root level="debug">
+           <appender-ref ref="R2" />
+       </root>
+   </configuration>   
    ```
 
-1. Salva e chiudi il file 
+1. Salva il file in `Oxygen Author 25` directory. Ad esempio, il percorso sarà: `C:\Program Files\Oxygen XML Author 25\logback.xml`)
 
-1. Nella stessa posizione, crea un file denominato log.properties con il contenuto seguente:
+1. Chiudete il file. In questo modo verranno abilitati i registri di ossigeno, che saranno disponibili nel percorso: `${user.home}/Desktop/oxygenLog/oxygen.log`
+1. Apri `oxygenAuthor.bat` in un editor di testo.
+1. Configurare i registri relativi a JxBrowser aggiungendo il parametro
+   `-Denable.aem.jx.log=true`. In questo modo vengono abilitati i registri relativi a JxBrowser, che è possibile visualizzare nel percorso: `${user.home}\AppData\Local\Temp\Oxygen_Plugin_Javax_Log.log`:
+
+
+
 
    ```java
-   handlers=java.util.logging.FileHandler
-   java.util.logging.FileHandler.level = DEBUG
-   java.util.logging.FileHandler.limit = 1048576
-   java.util.logging.FileHandler.count = 5
-   java.util.logging.FileHandler.pattern = %h/aem-plugin%g.log
-   java.util.logging.FileHandler.formatter = java.util.logging.SimpleFormatter
-   java.util.logging.FileHandler.format=[%1$tF %1$tT] [%4$s] %5$s %n
+   SET OXYGEN_JAVA=java.exe
+   if exist "%JAVA_HOME%\bin\java.exe" set OXYGEN_JAVA="%JAVA_HOME%\bin\java.exe"
+   if exist "%~dp0\jre\bin\java.exe" SET OXYGEN_JAVA="%~dp0\jre\bin\java.exe"
+   rem Set environment variables
+   call "%~dp0\env.bat"
+   %OXYGEN_JAVA% -XX:-OmitStackTraceInFastThrow -XX:SoftRefLRUPolicyMSPerMB=10 -Djdk.module.illegalAccess=permit -Djava.ipc.external=true 
+   -Denable.aem.jx.log=true -Dsun.java2d.noddraw=true -Dsun.awt.nopixfmt=true -Dsun.java2d.dpiaware=true -Dsun.io.useCanonCaches=true -Dsun.io.useCanonPrefixCache=true 
+   -Dsun.awt.keepWorkingSetOnMinimize=true -Dcom.oxygenxml.app.descriptor=ro.sync.exml.AuthorFrameDescriptor
+    -Dcom.oxygenxml.ApplicationDataFolder="%APPDATA%" -cp %CP% ro.sync.exml.Oxygen %*
    ```
 
-1. Salva e chiudi il file 
-1. Avvia Oxygen XML Author.
+
+Con i passaggi precedenti, i registri verranno abilitati e potrai utilizzarli per eseguire il debug dei problemi.
 
 
-Il plug-in ora crea i registri nella home directory dell’utente con il nome di file aem-pluginX.log \(*dove X indica il numero di rotazione*\).

@@ -2,9 +2,9 @@
 title: Conoscere le funzioni dell’editor web
 description: Scopri come conoscere le funzioni dell’editor web
 exl-id: 38b378ff-da24-4560-a17f-a2c547aea1b8
-source-git-commit: b55b4aa572a680181388e24827daa7d045f1e406
+source-git-commit: 270b94f0c1e29237c4bdad891c41446de897fddb
 workflow-type: tm+mt
-source-wordcount: '15310'
+source-wordcount: '15461'
 ht-degree: 0%
 
 ---
@@ -115,6 +115,11 @@ Le impostazioni dell&#39;editor sono disponibili solo per gli utenti amministrat
    - **Authoring**
 
       - **Abilita Sostituisci Tutto**: seleziona questa opzione per visualizzare l’icona Sostituisci tutto nel pannello Trova e sostituisci.
+
+
+   - **Citazioni**
+Modificare lo stile delle citazioni. Scegli lo stile di citazione dal menu a discesa che desideri utilizzare nel progetto. Per ulteriori dettagli vedi [Modificare gli stili delle citazioni](./web-editor-apply-citations.md#change-citation-style).
+
 
 **Pannelli**: questa impostazione controlla i pannelli visualizzati nel pannello sinistro dell’editor. È possibile attivare o disattivare l&#39;opzione per mostrare o nascondere il pannello desiderato.
 
@@ -430,11 +435,20 @@ Scegliere la forma preferita Rettangolo ![](images/imagemap-rectangle-toolbar.pn
 
 Se le aree si sovrappongono, è possibile portare la forma avanti o indietro facendo clic sulla relativa icona nella barra degli strumenti. È inoltre possibile rimuovere un&#39;area selezionandola e facendo clic sull&#39;icona Elimina. Facendo doppio clic su un’area si apre la finestra di dialogo Riferimento, in cui è possibile modificare il collegamento di destinazione. Dopo aver contrassegnato le aree richieste sull&#39;immagine, salvare le modifiche facendo clic su Fine.
 
-**Blocca/Sblocca** - ![](images/LockClosed_icon.svg)/ ![](images/LockOpen_icon.svg)
+**Check-out/Check-in** - ![](images/LockClosed_icon.svg)/ ![](images/LockOpen_icon.svg)
 
-Blocca o sblocca il file corrente. Il blocco di \(o l&#39;estrazione\) di un file consente all&#39;utente di accedere in scrittura in modo esclusivo al file. Quando il file è Sbloccato (o archiviato), le modifiche vengono salvate nella versione corrente del file.
+Estrae o archivia il file corrente. Il Check-Out di un file consente all&#39;utente di accedere in scrittura in modo esclusivo al file. Quando il file viene archiviato, le modifiche vengono salvate nella versione corrente del file.
 
-Se ti trovi nella vista Mappa ed espandi la mappa principale, puoi bloccare tutti i file nella mappa con un solo clic. Espandere semplicemente il file di mappa padre e selezionare il file padre, in modo da selezionare tutti i file all&#39;interno della mappa. Quindi puoi fare clic sull’icona Blocca per ottenere il blocco su tutti i file all’interno della mappa.
+Se vi trovate nella vista Mappa ed espandete la mappa padre, potete estrarre tutti i file della mappa con un solo clic. Espandere semplicemente il file di mappa padre e selezionare il file padre, in modo da selezionare tutti i file all&#39;interno della mappa. Quindi puoi selezionare **Estrai**  ![](images/LockClosed_icon.svg) per bloccare tutti i file della mappa.
+
+>[!NOTE]
+>
+> Quando si archivia un file contenente modifiche non salvate, viene richiesto di salvarle. Se le modifiche non vengono salvate, verrà archiviato solo il file.
+
+La descrizione comando per il Check-In/Check-Out è determinata dalla proprietà title nella `ui_config.json` file.
+
+Per ulteriori dettagli, vedi [Configurare il titolo per le icone Archivia ed Estrai](../install-guide/conf-checkin-checkout-title.md) nella Guida all’installazione e alla configurazione on-premise.
+
 
 **Attiva/Disattiva visualizzazione tag** - ![](images/Label_icon.svg)
 
@@ -768,7 +782,7 @@ Il menu Opzioni è disponibile nella Vista archivio. Verranno visualizzate opzio
 
 **Opzioni per un file**
 
-Nel menu Opzioni vengono visualizzate opzioni diverse a seconda che si selezioni un file multimediale o un file DITA. Alcune opzioni comuni disponibili sia per i file multimediali che per i file DITA sono:
+Nel menu Opzioni vengono visualizzate opzioni diverse a seconda che sia stato selezionato un file multimediale o un file DITA. Alcune opzioni comuni disponibili sia per i file multimediali che per i file DITA sono:
 
 - Duplica
 - Check-Out/Check-In
@@ -793,7 +807,8 @@ Di seguito sono illustrate le varie opzioni del menu Opzioni:
 
   >[!NOTE]
   >
-  > Se un file è bloccato o estratto da un utente, posizionando il puntatore del mouse sull&#39;icona del blocco viene visualizzato l&#39;utente \(name\) che ha bloccato il file.
+  > - Se un file è bloccato o estratto da un utente, posizionando il puntatore del mouse sull&#39;icona del blocco viene visualizzato l&#39;utente \(name\) che ha bloccato il file.
+  > - Quando si archivia un file contenente modifiche non salvate, viene richiesto di salvarle. Se le modifiche non vengono salvate, verrà archiviato solo il file.
 
 - **Anteprima**: ottieni un’anteprima rapida del file \(.dita/.xml\) senza aprirlo.
 
@@ -989,14 +1004,18 @@ La schermata seguente mostra il menu Opzioni per un file nella vista mappa DITA:
 
 - **Estrai**: estrae il file selezionato. Per un file estratto, questa opzione diventa **Check-In**.
 
+
+
   >[!NOTE]
   >
-  > Se un file è bloccato o estratto da un utente, posizionando il puntatore del mouse sull&#39;icona del blocco viene visualizzato l&#39;utente \(name\) che ha bloccato il file.
+  > - Se un file è bloccato o estratto da un utente, posizionando il puntatore del mouse sull&#39;icona del blocco viene visualizzato l&#39;utente \(name\) che ha bloccato il file.
+  > - Quando si archivia un file, viene richiesto di salvare le modifiche. Se le modifiche non vengono salvate, verrà archiviato solo il file.
 
 - **Anteprima**: ottieni un’anteprima rapida del file \(.dita/.xml\) senza aprirlo.
 - **Copia**: puoi scegliere tra le seguenti opzioni:
    - **Copia UUID**: copia negli Appunti l’UUID del file selezionato.
    - **Copia percorso**: copia negli Appunti il percorso completo del file selezionato.
+
 
 - **Individua nell’archivio**: mostra la posizione del file selezionato nel repository \(o DAM\).
 - **Espandi tutto**: consente di espandere tutti gli argomenti nei file di mappa.
@@ -1507,7 +1526,7 @@ Per eseguire la ricerca e la sostituzione globali, effettuare le seguenti operaz
    > Per attivare **Sostituisci tutto** , l&#39;amministratore di sistema deve selezionare l&#39;opzione **Abilita Sostituisci Tutto** sotto **Generale** scheda in **Impostazioni editor**.
 
 
-È possibile eseguire una sola operazione di sostituzione alla volta nell&#39;intero sistema e finché l&#39;operazione non viene eseguita, verrà visualizzato lo stato &quot;Sostituisci tutto in corso&quot;. Puoi anche interrompere l’operazione Sostituisci tutto tra o visualizzare il rapporto del registro. Se si interrompe l&#39;operazione, verrà visualizzata una notifica nella Posta in arrivo. Dopo la sostituzione di tutte le occorrenze nel file selezionato, verrà visualizzata una notifica di esito positivo.
+È possibile eseguire una sola operazione di sostituzione alla volta nell&#39;intero sistema e finché l&#39;operazione non viene eseguita, verrà visualizzato lo stato &quot;Sostituisci tutto in corso&quot;. Puoi anche interrompere l’operazione Sostituisci tutto tra o visualizzare il rapporto del registro. Se si interrompe l&#39;operazione, si riceverà una notifica nella Posta in arrivo. Dopo la sostituzione di tutte le occorrenze nel file selezionato, verrà visualizzata una notifica di esito positivo.
 
 ![](images/replace-all-in-progress.png){width="400" align="left"}
 

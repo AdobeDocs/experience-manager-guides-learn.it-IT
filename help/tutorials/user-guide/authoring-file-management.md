@@ -2,9 +2,9 @@
 title: Gestione di file e cartelle
 description: Scopri come gestire file e cartelle
 exl-id: e7810b06-f49f-467a-b987-a5e6f731d4cf
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: d0b3ccb87901c54b86aa7d0dba14dc7201c072e9
 workflow-type: tm+mt
-source-wordcount: '2502'
+source-wordcount: '3079'
 ht-degree: 0%
 
 ---
@@ -49,23 +49,23 @@ Questa sezione spiega come AEM Guides gestisce le operazioni di base dei file, a
 
 - *Trascinare nella stessa posizione*: sono disponibili le opzioni per **Sovrascrivi file esistenti\(s\)**, **Mantieni entrambi i file\(s\)** e un&#39;opzione per creare una versione della copia di lavoro esistente.
 
-   ![](images/uuid-human-readable-drag-drop-same-location.PNG){width="650" align="center"}
+  ![](images/uuid-human-readable-drag-drop-same-location.PNG){width="650" align="center"}
 
-   Se si sceglie **Sovrascrivi file esistenti\(s\)** , il file che viene caricato sostituisce la versione di lavoro corrente del file esistente nella posizione originale. L’UUID non viene creato o modificato.
+  Se si sceglie **Sovrascrivi file esistenti\(s\)** , il file che viene caricato sostituisce la versione di lavoro corrente del file esistente nella posizione originale. L’UUID non viene creato o modificato.
 
-   Se si sceglie **Mantieni entrambi i file\(s\)** , viene creata una nuova copia del file con il suffisso \(come nomefile0.extension\). Al file appena copiato viene assegnato anche un nuovo UUID.
+  Se si sceglie **Mantieni entrambi i file\(s\)** , viene creata una nuova copia del file con il suffisso \(come nomefile0.extension\). Al file appena copiato viene assegnato anche un nuovo UUID.
 
-   Con l&#39;opzione Sovrascrivi file esistente\(s\), se si sceglie di creare una versione dalla copia di lavoro esistente, viene creata anche una nuova versione dalla copia di lavoro del documento.
+  Con l&#39;opzione Sovrascrivi file esistente\(s\), se si sceglie di creare una versione dalla copia di lavoro esistente, viene creata anche una nuova versione dalla copia di lavoro del documento.
 
-   >[!NOTE]
-   >
-   > **Crea nuova versione per file caricato** la funzionalità deve essere abilitata dall’amministratore. Se questa funzione è abilitata, viene creata una nuova versione per il file caricato. Se l’opzione è deselezionata, non viene creata una versione del file caricato. Per ulteriori dettagli, consulta *Crea nuova versione per file caricato* nella sezione Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
+  >[!NOTE]
+  >
+  > **Crea nuova versione per file caricato** la funzionalità deve essere abilitata dall’amministratore. Se questa funzione è abilitata, viene creata una nuova versione per il file caricato. Se l’opzione è deselezionata, non viene creata una versione del file caricato. Per ulteriori dettagli, consulta *Crea nuova versione per file caricato* nella sezione Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
 
-   Se un file è già stato estratto per essere modificato da un altro utente e si tenta di caricare e sovrascrivere il file esistente, il file non riesce e viene visualizzato un errore.
+  Se un file è già stato estratto per essere modificato da un altro utente e si tenta di caricare e sovrascrivere il file esistente, il file non riesce e viene visualizzato un errore.
 
-   >[!NOTE]
-   >
-   >Il **Sovrascrivi file estratto al caricamento** la funzionalità deve essere disabilitata dall&#39;amministratore. Se questa funzionalità è attivata, è possibile sovrascrivere i file estratti. Se la funzionalità non è abilitata, non è possibile sovrascrivere un file estratto. Per ulteriori dettagli, consulta *Sovrascrivi file estratto al caricamento* nella sezione Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
+  >[!NOTE]
+  >
+  >Il **Sovrascrivi file estratto al caricamento** la funzionalità deve essere disabilitata dall&#39;amministratore. Se questa funzionalità è attivata, è possibile sovrascrivere i file estratti. Se la funzionalità non è abilitata, non è possibile sovrascrivere un file estratto. Per ulteriori dettagli, consulta *Sovrascrivi file estratto al caricamento* nella sezione Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
 
 
 - *Trascinare i file in una posizione diversa*: viene creata una nuova copia del file e viene assegnato un nuovo UUID nella nuova posizione. In questo caso, il nome del file è uguale al nome del file originale.
@@ -95,7 +95,7 @@ Se si sceglie **Sposta file\(s\) nel nuovo percorso** , il file esistente viene 
 Con la sostituzione o lo spostamento dei file, se si sceglie di creare una versione dalla copia esistente, viene creata una nuova versione dalla copia di lavoro del documento. Il nuovo file viene sostituito nella posizione esistente o spostato nella nuova posizione.
 
 
-## Spostare i file in blocco
+## Spostare i file in blocco {#move-files-bulk}
 
 AEM Guides viene fornito con Bulk Move Tool che consente all’amministratore di spostare una cartella con un numero elevato di file da una posizione all’altra. Questo strumento consente di spostare facilmente i file all&#39;interno di una o più cartelle in una cartella diversa nell&#39;archivio AEM. Una delle caratteristiche principali di questo strumento è che non solo sposta un numero elevato di file, ma mantiene anche i riferimenti a e dai file che vengono spostati. È possibile modificare il numero di file che è possibile spostare in batch senza ostacolare le attività di creazione e pubblicazione.
 
@@ -125,27 +125,94 @@ Per spostare i file in blocco, effettuare le seguenti operazioni:
 1. Fai clic sul collegamento Adobe Experience Manager in alto e scegli **Strumenti**.
 1. Seleziona **Guide** dall&#39;elenco degli strumenti.
 1. Fai clic sul pulsante **Strumento Sposta in Blocco** affiancare.
+1. La pagina Bulk Move Tool (Strumento Spostamento di massa) viene visualizzata in base alla configurazione. Fornisci i seguenti dettagli su **Strumento Sposta in Blocco** pagina:
 
-   Viene visualizzata la pagina Bulk Move Tool (Strumento spostamento in blocco).
+   <details>
 
-   ![](images/bulk-move-tool_cs.PNG){width="550" align="center"}
+   <summary> File system basato su UUID on-premise </summary>
 
-1. Nella pagina Bulk Move Tool (Strumento di spostamento in blocco), fornisci i seguenti dettagli:
+   ![](images/bulk-move-tool-uuid.png){width="650" align="center"}
 
-   - **Aggiungi suffisso a file duplicati**: se stai spostando cartelle con lo stesso nome, devi selezionare questa opzione. Ad esempio, nella schermata precedente, il **Percorso di origine** contiene il nome delle cartelle da spostare. La cartella denominata topic esiste in due posizioni diverse, test-A e test-B. Quando selezioni questa opzione, le cartelle verranno spostate correttamente. La prima cartella spostata sarà denominata topic, mentre la seconda sarà denominata topic0. L&#39;operazione di spostamento aggiunge un suffisso nelle serie sequenziali \(0, 1, 2 e così via\) alle cartelle con lo stesso nome.
+   >[!TIP]
+   >
+   > Seleziona <img src="images/info-icon.svg" width="25">   vicino a qualsiasi campo per visualizzare ulteriori dettagli su di esso.
 
-      Se si spostano cartelle con lo stesso nome senza selezionare questa opzione, l&#39;operazione verrà interrotta con un messaggio.
 
-   - **Percorso origine\(s\)**: specifica il percorso delle cartelle da spostare. In genere, è necessario copiare e incollare il percorso di origine dalla barra degli indirizzi del browser. È possibile specificare più posizioni di cartella facendo clic sul pulsante **Aggiungi** pulsante.
+   - **Aggiungi suffisso alle cartelle duplicate**: se stai spostando cartelle con lo stesso nome, devi selezionare questa opzione. Ad esempio, nella schermata precedente, **Percorso di origine** contiene il nome delle cartelle da spostare. La cartella denominata topic esiste in due posizioni diverse, test-A e test-B. Quando selezioni questa opzione, le cartelle verranno spostate correttamente. La prima cartella spostata sarà denominata topic, mentre la seconda sarà denominata topic0. L&#39;operazione di spostamento aggiunge un suffisso nelle serie sequenziali \(0, 1, 2 e così via\) alle cartelle con lo stesso nome.
+
+     Se si spostano cartelle con lo stesso nome senza selezionare questa opzione, l&#39;operazione verrà interrotta con un messaggio.
+
+   - **Percorso origine\(s\)**: specifica il percorso delle cartelle da spostare.
+
+      - Seleziona  **Sfoglia cartella**  <img src="images/browse-folder-icon.svg" width="25">    per aprire la finestra di dialogo sfoglia file. Seleziona le cartelle da spostare e fai clic su **Seleziona** per completare il processo.
+
+      - È inoltre possibile digitare o copiare e incollare il percorso di origine. Premi Invio per aggiungere la cartella all’elenco.
+
+        Le cartelle selezionate vengono elencate insieme al relativo percorso. Passa il puntatore del mouse sul tag della cartella per visualizzare il percorso completo.
+      - Puoi anche rimuovere qualsiasi cartella facendo clic su **Rimuovi** <img src="images/remove-folder.svg" width="25"> vicino alla cartella.
+
 
    - **Percorso di destinazione**: specifica il percorso in cui spostare le cartelle di origine.
 
-1. Clic **Sposta in Blocco**.
+      - Seleziona  **Sfoglia cartella** <img src="images/browse-folder-icon.svg" width="25"> per aprire la finestra di dialogo sfoglia file. Selezionare il percorso in cui si desidera spostare le cartelle di origine. e fare clic su Seleziona per completare il processo.
+      - È inoltre possibile digitare o copiare e incollare il percorso di destinazione.
 
-   Il sistema inizia lo spostamento dei file dal percorso di origine a quello di destinazione. Al termine del processo, nella parte inferiore della pagina viene visualizzato un riepilogo del processo di spostamento.
+     La cartella selezionata viene visualizzata insieme al relativo percorso nella casella di testo.
 
-   ![](images/bulk-move-summary.PNG){width="650" align="center"}
 
+   - Clic **Spostamento in blocco**.
+
+     Il sistema inizia lo spostamento dei file dal percorso di origine a quello di destinazione. Al termine del processo, a destra della pagina viene visualizzato un riepilogo del processo di spostamento.
+
+     ![](images/bulk-move-summary-uuid.png){width="650" align="center"}
+
+   </details>
+
+   <details>
+
+   <summary> File system locale non basato su UUID </summary>
+
+   ![](images/bulk-move-tool-non-uuid.png){width="650" align="center"}
+
+   >[!TIP]
+   >
+   > Seleziona <img src="images/info-icon.svg" width="25">   vicino a qualsiasi campo per visualizzare ulteriori dettagli su di esso.
+
+   - **Dimensione batch**: specifica il numero di file da spostare in un singolo batch. I valori predefiniti per 50 file.
+   - **Intervallo di sospensione**: specifica il tempo di attesa in secondi del processo prima di avviare il batch successivo. Durante questo intervallo di sospensione, il sistema corregge i riferimenti ai file spostati e da essi. L&#39;intervallo di sospensione predefinito è di 60 secondi.
+
+
+   - **Aggiungi suffisso alle cartelle duplicate**: se stai spostando cartelle con lo stesso nome, devi selezionare questa opzione. Ad esempio, nella schermata precedente, **Percorso di origine** contiene il nome delle cartelle da spostare. La cartella denominata topic esiste in due posizioni diverse, test-A e test-B. Quando selezioni questa opzione, le cartelle verranno spostate correttamente. La prima cartella spostata sarà denominata topic, mentre la seconda sarà denominata topic0. L&#39;operazione di spostamento aggiunge un suffisso nelle serie sequenziali \(0, 1, 2 e così via\) alle cartelle con lo stesso nome.
+
+     Se si spostano cartelle con lo stesso nome senza selezionare questa opzione, l&#39;operazione verrà interrotta con un messaggio.
+
+   - **Aggiornare i riferimenti dei file estratti**: se si spostano cartelle contenenti file estratti, si consiglia di selezionare questa opzione. Se si seleziona questa opzione, tutti i file estratti verranno salvati e archiviati con una nuova revisione. Questa nuova revisione viene quindi spostata nel percorso di destinazione.
+
+     Se non si seleziona questa opzione, i file estratti vengono spostati nella cartella di destinazione con lo stesso stato estratto. Tuttavia, potrebbe verificarsi una perdita di dati in questo processo in movimento.
+
+
+   - **Percorso origine\(s\)**: specifica il percorso delle cartelle da spostare.
+
+      - Seleziona  **Sfoglia cartella**  <img src="images/browse-folder-icon.svg" width="25">    per aprire la finestra di dialogo sfoglia file. Seleziona le cartelle da spostare e fai clic su **Seleziona** per completare il processo.
+
+      - È inoltre possibile digitare o copiare e incollare il percorso di origine. Premi Invio per aggiungere la cartella all’elenco.
+
+        Le cartelle selezionate vengono elencate insieme al relativo percorso. Passa il puntatore del mouse sul tag della cartella per visualizzare il percorso completo.
+      - Puoi anche rimuovere qualsiasi cartella facendo clic su **Rimuovi** <img src="images/remove-folder.svg" width="25"> vicino alla cartella.
+
+
+   - **Percorso di destinazione**: specifica il percorso in cui spostare le cartelle di origine.
+
+      - Seleziona  **Sfoglia cartella** <img src="images/browse-folder-icon.svg" width="25"> per aprire la finestra di dialogo sfoglia file. Selezionare il percorso in cui si desidera spostare le cartelle di origine. e fare clic su Seleziona per completare il processo.
+      - È inoltre possibile digitare o copiare e incollare il percorso di destinazione.
+
+        La cartella selezionata viene visualizzata insieme al relativo percorso nella casella di testo.
+
+   - Clic **Spostamento in blocco**.
+
+     Il sistema inizia lo spostamento dei file dal percorso di origine a quello di destinazione. Al termine del processo, a destra della pagina viene visualizzato un riepilogo del processo di spostamento.
+     ![](images/bulk-move-summary-non-uuid.png){width="650" align="center"}
+</details>
 
 ## Cerca contenuto DITA
 

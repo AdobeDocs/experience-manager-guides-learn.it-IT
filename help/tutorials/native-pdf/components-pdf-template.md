@@ -2,9 +2,9 @@
 title: Funzione di pubblicazione nativa di PDF | Componenti di un modello PDF
 description: Scopri i vari componenti di un modello di PDF e come personalizzarli e configurarli.
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: abeef67c07189d54e4adfb634c6094f3dc70e3eb
+source-git-commit: 08c1f1a8df5fdbaa0d8f27d2752028d0ee2ed538
 workflow-type: tm+mt
-source-wordcount: '2938'
+source-wordcount: '3672'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 Un modello di PDF include quattro componenti: Layout di pagina, Fogli di stile, Risorse e Impostazioni. Potete creare un modello personalizzando questi singoli componenti e associando il modello a un predefinito di output durante la generazione di un output PDF. Le sezioni seguenti descrivono in dettaglio questi componenti e il loro processo di personalizzazione.
 
 
-## Creare e personalizzare i layout di pagina {#create-customize-page-layout}
+## Creare e personalizzare layout di pagina {#create-customize-page-layout}
 
 Le impostazioni del componente Layout di pagina consentono di progettare la struttura di una pagina definendo l’intestazione, il piè di pagina e l’area del contenuto di una pagina. Utilizzando l&#39;editor di layout di pagina WYSIWYG, è possibile creare un layout di pagina per diverse sezioni di un PDF, ad esempio le pagine di copertina anteriori e posteriori, il capitolo, il sommario, l&#39;indice, la pagina vuota, le pagine di argomento anteriore, le pagine di sfondo, l&#39;elenco delle figure (LOF), l&#39;elenco delle tabelle (LOT), il glossario o creare un layout per una pagina personalizzata. In Impostazioni modello PDF, puoi assegnare un layout di pagina con diverse sezioni all’interno di un PDF, che vengono quindi utilizzate per generare l’output del PDF.
 
@@ -176,13 +176,13 @@ Utilizza la sezione Impostazioni per configurare le impostazioni avanzate per il
 
 Per configurare, fai clic su **Impostazioni** nel **Modelli** per visualizzare le seguenti opzioni:
 
-**Generale**
+### Generale
 
 Impostate le impostazioni di configurazione di base per l&#39;avvio di un capitolo da una pagina pari o dispari, la struttura del sommario e definite il formato della linea guida per le voci del sommario. Puoi definire la seguente impostazione:
 
 * **Inizia un nuovo capitolo da**: ti consente di definire come viene pubblicato ogni capitolo nel PDF finale. È possibile scegliere tra **Nuova pagina**, **Pagina dispari**, **Pagina pari**, o **Pagina corrente**  opzioni. Se si sceglie di iniziare un nuovo capitolo da una pagina dispari, dopo un capitolo che termina in una pagina dispari viene inserita una pagina vuota. Ad esempio, se il capitolo termina alla pagina 15, il processo di pubblicazione inserirà un campo vuoto 16<sup>th</sup> in modo che il nuovo capitolo possa iniziare dal 17<sup>th</sup> pagina.  Se si sceglie **Pagina corrente** , tutti i capitoli vengono pubblicati in continuazione senza interruzioni di pagina. Ad esempio, se un capitolo termina a metà della pagina 15, anche il capitolo successivo inizia dalla quindicesima pagina.
 
-* **Iniziare ogni argomento da una nuova pagina**: se desideri che ogni argomento del capitolo inizi da una nuova pagina, seleziona **Iniziare ogni argomento da una nuova pagina** opzione. Se vuoi mantenere i tuoi argomenti in continuazione senza spazi tra le pagine, deseleziona questa opzione.
+* **Iniziare ogni argomento da una nuova pagina**: se desideri che ogni argomento del capitolo inizi da una nuova pagina, seleziona **Iniziare ogni argomento da una nuova pagina** opzione. Se vuoi mantenere i tuoi argomenti in continuazione senza spazi vuoti di pagina, deseleziona questa opzione.
 
 * **Struttura sommario**: consente di personalizzare la gerarchia del sommario. Vengono utilizzate le seguenti impostazioni aggiuntive:
 
@@ -208,7 +208,7 @@ Per applicare la struttura del sommario e i livelli di intestazione degli stili,
 
 * **Usa marcatore di continuazione tabella**: seleziona questa opzione per definire marcatori per tabelle lunghe distribuite su più pagine. <!--For more information on using table continuation markers, see Use table continuation markers.-->
 
-**Layout di pagina**
+### Layout di pagina {#page-layouts}
 
 Le impostazioni Layout di pagina consentono di specificare il layout di pagina da utilizzare per una sezione specifica del documento. Ad esempio, per selezionare un layout per il sommario, fai clic sul menu a discesa sotto il campo TOC e seleziona il layout progettato per generare il sommario.
 
@@ -245,11 +245,11 @@ Le seguenti impostazioni sono disponibili nella sezione Layout di pagina:
 
 Per ulteriori informazioni sui layout di pagina, vedere [Progettare un layout di pagina](design-page-layout.md).
 
-**Ordine pagine**
+### Ordine pagine {#page-order}
 
-Puoi abilitare o disabilitare le seguenti sezioni nel PDF e anche disporre l’ordine in cui devono essere visualizzate nell’output PDF finale:
+Puoi mostrare o nascondere le seguenti sezioni nel PDF e anche disporre l’ordine in cui devono essere visualizzate nell’output PDF finale:
 
-<img src="assets/page-order-advance-settings.png" alt="Layout di pagina" width="550">
+
 
 * Sommario
 * Capitoli e argomenti
@@ -257,23 +257,64 @@ Puoi abilitare o disabilitare le seguenti sezioni nel PDF e anche disporre l’o
 * Elenco delle tabelle
 * Indice
 * Glossario
+* Citazione
 
-Se non si desidera visualizzare una sezione specifica nell&#39;output PDF, è possibile disattivarla disattivando l&#39;interruttore di attivazione.
+  <img src="assets/page-order-advance-settings.png" alt="Ordine delle pagine" width="550">
 
-Puoi anche definire l’ordine in cui queste diverse sezioni vengono generate nel PDF. Per modificare l&#39;ordine predefinito di queste pagine, selezionare le barre punteggiate per trascinare e rilasciare il layout di pagina nella posizione desiderata.
+  Se non desideri visualizzare una particolare sezione nell’output PDF, puoi nasconderla disattivando l’interruttore.
+
+  Puoi anche definire l’ordine in cui queste diverse sezioni vengono generate nel PDF. Per modificare l&#39;ordine predefinito di queste sezioni, selezionare le barre punteggiate per trascinare le sezioni nella posizione desiderata.
+
+  >[!NOTE]
+  >
+  > Le impostazioni relative all&#39;ordine e all&#39;inclusione si applicano solo a una mappa DITA. Per una mappa segnalibro, queste impostazioni non sono applicabili. Le pagine di una mappa di un libro vengono visualizzate in base all&#39;ordine delle sezioni nella mappa di un libro.
+
+
+.
+**Capitolo e argomenti** il layout è sempre abilitato e **Glossario** Il layout è sempre disattivato per impostazione predefinita. Non è possibile attivarle.
+
+**Unisci pagine**
+
+Per impostazione predefinita, tutte le sezioni iniziano su una nuova pagina. Seleziona la **Pagina precedente** o **Pagina successiva** opzione dalla **Unisci con** per unire una sezione a una pagina precedente o successiva. La sezione viene pubblicata con la pagina selezionata nell’output di PDF. In questo modo, non ci sarà alcuna interruzione di pagina tra le due.
 
 >[!NOTE]
 >
-> Queste impostazioni di ordine e inclusione si applicano solo a una mappa DITA. Per una mappa segnalibro, queste impostazioni non sono applicabili. Le pagine di una mappa di un libro vengono visualizzate in base all&#39;ordine delle sezioni nella mappa di un libro.
+> Questa impostazione si applica solo alla sezione e non ai relativi componenti.  Ad esempio, se selezioni il **Pagina precedente** opzione per **Capitoli e argomenti**, il **Capitoli e argomenti** viene unita alla pagina precedente. I vari capitoli e argomenti vengono pubblicati come da **Generale** settings.Ad esempio, se in **Avvia un nuovo capitolo dall’impostazione**, seleziona **Pagina dispari**, dopo un capitolo che termina in una pagina dispari viene inserita una pagina vuota.
+
+Quando si unisce una sezione alla pagina precedente o successiva, il contenuto viene unito e viene applicato lo stile della sezione di destinazione in cui viene unito il contenuto.
+
+Ad esempio, se abiliti **SOMMARIO** e **Capitolo e argomenti** e seleziona la **Pagina successiva** per **SOMMARIO**, il **SOMMARIO** si unisce alla sezione successiva, che è **Capitolo e argomenti**. Stile del **Capitolo e argomenti** viene applicata al contenuto unito di entrambe le sezioni.
+
+L’opzione di unione funziona in successione, quindi se hai selezionato **Pagina successiva** per più sezioni continue, vengono unite tutte alla prima sezione (nella direzione successiva), per la quale questa proprietà non è impostata. Ad esempio, puoi abilitare **SOMMARIO**, **Capitolo e argomenti**, **Elenco delle figure**, e **Indice**. Quindi, se si imposta **Pagina successiva** per **SOMMARIO**, **Capitolo e argomenti**, **Elenco delle figure**, e **Nessuno** per **Indice**, si fondono tutti con  **Indice**.
 
 
-Il tuo PDF conterrà i layout di pagina abilitati nell’ordine in cui li hai organizzati qui.
-**Capitolo e argomenti** il layout è sempre abilitato e **Glossario** Il layout è sempre disattivato per impostazione predefinita. Non è possibile attivarle.
+**Pagine statiche**
+
+I vari layout di pagina consentono di progettare l’output delle varie sezioni. Queste sezioni vengono generate dalla mappa DITA durante la pubblicazione dell&#39;output.
+Puoi anche creare layout di pagina personalizzati e pubblicarli come pagine statiche nell’output di PDF. Questo consente di aggiungere qualsiasi contenuto statico come note o pagine vuote.
+
+Per aggiungere un layout di pagina personalizzato, effettua le seguenti operazioni:
+
+1. Seleziona **Aggiungi** ![](assets/add-icon.svg) per aggiungere un nuovo layout di pagina. Viene visualizzato il pannello Aggiungi layout di pagina.
+2. Selezionare il layout di pagina dall&#39;elenco e fare clic su Aggiungi. Il nuovo layout di pagina viene aggiunto all&#39;elenco dei layout di pagina.
+
+
+È inoltre possibile eseguire le azioni seguenti:
+
+* Selezionare le barre punteggiate per trascinare e rilasciare il layout di pagina nella posizione desiderata.
+
+* Seleziona **Rimuovi layout** ![](assets/delete-icon.svg)  per rimuovere un layout.
+
+* È inoltre possibile unire una pagina statica alla pagina precedente o a quella successiva.
+
+* Puoi anche aggiungere più volte un layout personalizzato e ordinarlo. Questo consente di pubblicare il contenuto statico di conseguenza.
+
+  È ad esempio possibile utilizzare un layout personalizzato per pubblicare più volte un avviso statico all&#39;interno dell&#39;output di PDF.
 
 
 
 
-**Stampa**
+### Stampa
 
 Configurare le impostazioni di stampa per assegnare gli indicatori di stampa, selezionare i modelli di colore e specificare le proprietà relative alla stampa dell&#39;output PDF.
 
@@ -294,6 +335,34 @@ Configurare le impostazioni di stampa per assegnare gli indicatori di stampa, se
 
   <!--For more information on applying these print settings, see *Printing preferences*.-->
 
-**Riferimenti incrociati**
+### Riferimenti incrociati {#cross-references}
 
-Utilizzate la scheda Riferimento incrociato (Cross-reference) per definire la modalità di pubblicazione dei riferimenti incrociati nel PDF. È possibile formattare i riferimenti incrociati per il titolo dell&#39;argomento, tabelle, figure e altro ancora. <!--For more information, see *Format cross-references*.-->
+Utilizzate la scheda Riferimento incrociato (Cross-reference) per definire la modalità di pubblicazione dei riferimenti incrociati nel PDF. È possibile formattare i riferimenti incrociati per il titolo dell&#39;argomento, tabelle, figure e altro ancora.
+
+È inoltre possibile utilizzare le variabili per definire un riferimento incrociato.  Quando utilizzi una variabile, il relativo valore viene selezionato dalle proprietà. È possibile utilizzare una singola variabile o una combinazione di variabili per definire un riferimento incrociato. Puoi anche utilizzare una combinazione di una stringa e una variabile.
+
+Ad esempio, puoi utilizzare Visualizza dettagli su {chapter}. Se il nome del capitolo è &quot;General settings&quot; (Impostazioni generali), il riferimento incrociato nell’output è &quot;See details on General settings&quot; (Vedi dettagli sulle impostazioni generali).
+
+Le guide AEM forniscono le seguenti variabili predefinite:
+
+* {title}: crea un riferimento incrociato al titolo dell’argomento. Ad esempio, consulta Collegamenti utili a pagina 2.
+* {page} Aggiunge un rimando ai numeri di pagina. Ad esempio, vedere a pagina 1.
+* {description}: aggiunge un riferimento incrociato al testo della descrizione. Per esempio, consulta i dettagli delle guide AEM.
+* {chapter}: aggiunge un riferimento incrociato ai numeri dei capitoli. Ad esempio, vedere il Capitolo 1.
+* {bookmarkText}: crea un rimando al testo contrassegnato con segnalibro. Ad esempio, vedere stop_words a pagina 5.
+* {captionText}: crea un riferimento incrociato alla didascalia della figura o della tabella nell&#39;argomento. Ad esempio, consultate Flusso d&#39;aria a pagina 2.
+* {figure}: aggiunge un riferimento incrociato al numero di figura. Seleziona il numero della figura dagli stili di numerazione automatica definiti per la didascalia della figura.  Ad esempio, puoi utilizzare &quot;Vedi {figure} a pagina {page}&quot;. Il riferimento incrociato nell&#39;output contiene il numero di figura generato automaticamente e il relativo numero di pagina, &quot;Vedere la Figura 1 a pagina 5&quot;.
+* {table}: aggiunge un riferimento incrociato al numero di tabella. Seleziona il numero di tabella dagli stili di numerazione automatica definiti per la didascalia. Ad esempio, puoi utilizzare &quot;Vedi {table} a pagina {page}&quot;. Il riferimento incrociato nell&#39;output contiene il numero di tabella generato automaticamente e il relativo numero di pagina, &quot;Vedere Tabella 1 a pagina 5&quot;.
+
+
+
+  >[!NOTE]
+  >
+  >È possibile creare stili di numerazione automatica per i tag didascalia e sottotitolo.
+
+
+
+
+
+
+<!--For more information, see *Format cross-references*.-->

@@ -2,9 +2,9 @@
 title: Rivedi argomenti
 description: Scopri come rivedere gli argomenti
 exl-id: ca94ec2e-cd45-418d-9b35-73d587ba51ec
-source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
+source-git-commit: b9bf08ccbe2eb17ca8d4dac675155e0b4631f0a9
 workflow-type: tm+mt
-source-wordcount: '2271'
+source-wordcount: '2323'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,6 @@ Per rivedere un argomento, effettua le seguenti operazioni:
 
 
 
-
    Quando si utilizza una mappa DITA per avviare il flusso di lavoro di revisione, viene visualizzata la seguente schermata:
 
    ![](images/multiple-topics-review.png){width="800" align="left"}
@@ -44,16 +43,21 @@ Per rivedere un argomento, effettua le seguenti operazioni:
    - **A**: nome dell’attività di revisione.
    - **B**: fai clic sull’icona Visualizzazione argomenti per mostrare o nascondere il pannello argomenti.
 
-   - **C**: i numeri evidenziati da ***F*** può essere filtrato scegliendo l’opzione di filtro desiderata da qui. È possibile filtrare i commenti in base al tipo, allo stato, al revisore o alla versione. Ad esempio, per visualizzare il numero di commenti barrati in ciascun argomento della sezione Revisione, fare clic sull&#39;icona del filtro e quindi scegliere **Tipo di revisione** \> **Eliminazione**.
+   - **C**: per cercare l’argomento richiesto, immetti una parte del testo del titolo o del percorso file nella barra di ricerca.
 
-      >[!NOTE]
-      >
-      > Quando applicate i filtri, nel pannello dei commenti vengono visualizzati solo i commenti che corrispondono ai filtri selezionati. Il numero di commenti filtrati viene visualizzato a sinistra nel pannello degli argomenti.
+     Seleziona  ![](images/view-options.svg) accanto alla barra di ricerca per scegliere di visualizzare tutti gli argomenti o visualizzare gli argomenti con commenti. Per impostazione predefinita, è possibile visualizzare tutti gli argomenti presenti nell&#39;attività di revisione.
 
-   - **D**: un argomento assegnato per la revisione al revisore corrente viene visualizzato in nero ed è cliccabile. Quando il revisore fa clic su un collegamento di argomento, l’argomento viene riportato in alto sullo schermo.
-   - **E**: un argomento non disponibile per la revisione è disattivato. L&#39;argomento viene visualizzato in modalità di sola lettura e non è consentito aggiungere commenti di revisione su tali argomenti.
 
-   - **F**: numero di commenti ricevuti su un argomento. Questo numero cambia in base al filtro applicato.
+   - **D**: i numeri evidenziati da ***F*** può essere filtrato scegliendo l’opzione di filtro desiderata da qui. È possibile filtrare i commenti in base al tipo, allo stato, al revisore o alla versione. Ad esempio, per visualizzare il numero di commenti barrati in ciascun argomento della sezione Revisione, fare clic sull&#39;icona del filtro e quindi scegliere **Tipo di revisione** \> **Eliminazione**.
+
+     >[!NOTE]
+     >
+     > Quando applicate i filtri, nel pannello dei commenti vengono visualizzati solo i commenti che corrispondono ai filtri selezionati. Il numero di commenti filtrati viene visualizzato a sinistra nel pannello degli argomenti.
+
+   - **E**: un argomento assegnato per la revisione al revisore corrente viene visualizzato in nero ed è cliccabile. Quando il revisore fa clic su un collegamento di argomento, l’argomento viene riportato in alto sullo schermo.
+   - **F**: un argomento non disponibile per la revisione è disattivato. L&#39;argomento viene visualizzato in modalità di sola lettura e non è consentito aggiungere commenti di revisione su tali argomenti.
+
+   - **G**: numero di commenti ricevuti su un argomento. Questo numero cambia in base al filtro applicato.
 
    Tutti gli argomenti della mappa vengono visualizzati come un unico documento composito. Gli argomenti che il revisore può esaminare vengono visualizzati normalmente. Gli argomenti che non possono essere esaminati dalla revisione non vengono visualizzati.
 
@@ -93,13 +97,13 @@ Quando si visualizza un singolo argomento, viene visualizzata un&#39;opzione agg
 
 - **Evidenzia** \(![](images/review-highlight-icon.svg)\): per aggiungere un commento di evidenziazione, seleziona il testo e fai clic sull’icona Evidenzia. Oppure, fai clic sull’icona Evidenzia e seleziona il testo desiderato:
 
-   ![](images/highlight-comment.png){width="650" align="left"}
+  ![](images/highlight-comment.png){width="650" align="left"}
 
-   Nel pannello Commenti viene visualizzato un pop-up in cui è possibile aggiungere il commento per il contenuto evidenziato.
+  Nel pannello Commenti viene visualizzato un pop-up in cui è possibile aggiungere il commento per il contenuto evidenziato.
 
 - **Barrato** \(![](images/review-text-strike-through-icon.svg)\): per suggerire la rimozione del contenuto, selezionarlo e fare clic sull&#39;icona Barrato. Oppure, seleziona il testo desiderato e fai clic sul tasto Canc:
 
-   Nel pannello Commenti viene visualizzato un pop-up in cui è possibile aggiungere il commento per il contenuto eliminato.
+  Nel pannello Commenti viene visualizzato un pop-up in cui è possibile aggiungere il commento per il contenuto eliminato.
 
 - **Inserisci testo** \(![](images/review-insert-text-icon.svg)\): se si desidera inserire del testo, fare clic sull&#39;icona Inserisci testo e posizionare il cursore nel punto in cui si desidera inserire il testo e digitare le informazioni. In alternativa, posizionare il cursore nel punto in cui si desidera inserire il testo e iniziare a digitare. Le informazioni aggiunte vengono visualizzate in verde:
 
@@ -128,11 +132,11 @@ Di seguito sono descritte le attività che è possibile eseguire utilizzando il 
 - Per modificare un commento personalizzato, fai clic sul testo del commento nel pannello Commenti e seleziona **Modifica** dal menu Opzioni.
 - Per eliminare i commenti, fate clic sul commento nel pannello Commenti e selezionate **Elimina** dal menu Opzioni.
 
-   ![](images/review-comment-options-menu.png){width="300" align="left"}
+  ![](images/review-comment-options-menu.png){width="300" align="left"}
 
-   >[!NOTE]
-   >
-   > Il menu Opzioni viene visualizzato solo quando si passa il puntatore del mouse sui commenti. Non viene visualizzato per i commenti degli altri revisori.
+  >[!NOTE]
+  >
+  > Il menu Opzioni viene visualizzato solo quando si passa il puntatore del mouse sui commenti. Non viene visualizzato per i commenti degli altri revisori.
 
 - Tutti gli utenti partecipanti possono rispondere ai commenti inviati da altri utenti. In un commento, fai clic su **Rispondi** e premi Invio per inviare una risposta.
 
@@ -220,11 +224,11 @@ Nella modalità anteprima, il contenuto non condizionato e il contenuto condizio
 
 - Fare clic sull&#39;icona Commento obsoleto \(![](images/outdated-comment-icon.svg)\) visualizza le differenze tra la versione più recente e la versione con commenti del documento. I numeri di versione \(delle versioni confrontate\) vengono visualizzati nella parte superiore dei documenti.
 
-   ![](images/comments-page-review-mode.png){width="800" align="left"}
+  ![](images/comments-page-review-mode.png){width="800" align="left"}
 
-   >[!NOTE]
-   >
-   > Quando passi il cursore sull’icona Commento obsoleto, viene visualizzato il numero di versione dell’argomento su cui è stato aggiunto il commento. Ad esempio, se un commento è stato dato alla versione 1.0, viene visualizzato lo stesso.
+  >[!NOTE]
+  >
+  > Quando passi il cursore sull’icona Commento obsoleto, viene visualizzato il numero di versione dell’argomento su cui è stato aggiunto il commento. Ad esempio, se un commento è stato dato alla versione 1.0, viene visualizzato lo stesso.
 
 - Se si fa clic su un commento non aggiornato, nel pannello a sinistra viene visualizzata la relativa versione. La versione precedente viene visualizzata nel pannello a sinistra, mentre la versione corrente nel pannello a destra. Tutti i commenti sulla versione obsoleta vengono importati sul lato sinistro. Puoi confrontare la versione precedente con la versione corrente.
 
@@ -238,7 +242,7 @@ Seleziona una o più delle seguenti opzioni di filtro da **Tipo di filtro** e fa
 
 - **Versioni** - Filtrare in base ai commenti ricevuti su una particolare versione dell&#39;argomento.
 
-   Quando si utilizzano i filtri, i commenti nel pannello di destra vengono filtrati in base alla selezione e il numero di commenti nel pannello di sinistra viene aggiornato di conseguenza.
+  Quando si utilizzano i filtri, i commenti nel pannello di destra vengono filtrati in base alla selezione e il numero di commenti nel pannello di sinistra viene aggiornato di conseguenza.
 
 
 Per rimuovere il filtro e visualizzare tutti i commenti, deseleziona tutti i filtri dal **Tipo di filtro** e fai clic su **Applica**.

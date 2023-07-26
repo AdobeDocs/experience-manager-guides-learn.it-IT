@@ -1,7 +1,7 @@
 ---
 title: Configurare profili globali o a livello di cartella
 description: Scopri come configurare profili globali o a livello di cartella
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 6f4ab3baf0c0dd333035c3a7d131bd151b17de45
 workflow-type: tm+mt
 source-wordcount: '3962'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Inoltre, puoi delegare le configurazioni specifiche della cartella a un reparto 
 
 Utilizzando il riquadro Profili cartella nelle impostazioni delle Guide, è possibile configurare le impostazioni nelle schede seguenti:
 
-![](assets/folder-profile-tabs.png)
+![](assets/folder-profile-tabs.png){width="800" align="left"}
 
 - **Generale**: la scheda generale è disponibile solo quando configuri le impostazioni a livello di cartella \ (o progetto/prodotto\). È possibile configurare impostazioni quali i percorsi delle cartelle in cui verranno applicate le impostazioni e gli utenti che disporranno dei diritti di amministratore per creare o aggiornare le configurazioni.
 
@@ -93,7 +93,7 @@ Per configurare il profilo globale, effettua le seguenti operazioni:
 
    Per la prima volta viene visualizzata la pagina Profili cartella con solo il riquadro Profilo globale.
 
-   ![](assets/folder-profile-global.png)
+   ![](assets/folder-profile-global.png){width="800" align="left"}
 
 1. Fai clic sul pulsante **Profilo globale** affiancare.
 
@@ -122,7 +122,7 @@ Per configurare un profilo a livello di cartella, effettua le seguenti operazion
 
 1. Fai clic su **Crea**.
 
-   ![](assets/create-folder-profile.png)
+   ![](assets/create-folder-profile.png){width="300" align="left"}
 
 1. Immetti i seguenti dettagli in **Crea profilo cartella** finestra di dialogo:
    - Nome del profilo della cartella.

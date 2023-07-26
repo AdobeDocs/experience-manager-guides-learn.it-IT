@@ -2,10 +2,10 @@
 title: Modificare una raccolta di mappe di attivazione in blocco
 description: Scopri come modificare una raccolta di mappe di attivazione in blocco
 exl-id: 110eba52-c886-4148-aff9-9c4e1d3d85bd
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 25641f5c3207d98228d406e3b553c06d2bad1e10
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 1%
+source-wordcount: '218'
+ht-degree: 0%
 
 ---
 
@@ -26,6 +26,12 @@ ht-degree: 1%
 1. Clic **Modifica**.
 
    Viene visualizzata la pagina di raccolta delle mappe di attivazione in blocco, in cui vengono mostrate le mappe insieme ai relativi predefiniti preconfigurati per ogni lingua disponibile.
+Puoi visualizzare i vari tipi di predefiniti di output e le relative icone, ad esempio Sito AEM, PDF, Native PDF, HTML5, Custom e Output JSON.
+
+   >[!NOTE]
+   >
+   > Il piccolo ![](images/global-preset-icon.svg) icona indica un predefinito a livello di profilo della cartella.
+
 
 1. Usare il dispositivo di scorrimento per disattivare il predefinito di output che si desidera attivare o disattivare.
 
@@ -33,7 +39,7 @@ ht-degree: 1%
 
 1. Fai clic su **Elimina**.
 
-   ![](images/bulk-activation-delete-map.png){width="800" align="left"}
+   ![](images/bulk-activation-delete-map.png){width="600" align="left"}
 
    La mappa selezionata viene rimossa dalla raccolta mappe di attivazione in blocco.
 

@@ -2,7 +2,7 @@
 title: Altre funzioni dell’editor web
 description: Scopri come aggiungere altre funzioni all’editor web
 exl-id: dea19372-8a15-4b5d-aea4-47dc914d779e
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: dd744a8e5b7d60a0e5b4d0ad8f9201950e3ae1ce
 workflow-type: tm+mt
 source-wordcount: '2131'
 ht-degree: 0%
@@ -113,19 +113,19 @@ A seconda che il file sia bloccato o sbloccato e che siano presenti modifiche sa
 
 - **Sblocca e chiudi**: il blocco sul file viene rilasciato e il file viene chiuso.
 
-   ![](images/file-close-unlock-file.png){width="400" align="left"}
+  ![](images/file-close-unlock-file.png){width="400" align="left"}
 
 - **Salva come nuova versione**: le modifiche apportate al contenuto verranno salvate e verrà creata una nuova versione del file. Puoi anche aggiungere etichette e commenti per la nuova versione salvata. Per ulteriori informazioni sul salvataggio di una nuova versione, consulta [Salva come nuova versione](web-editor-features.md#save-as-new-version-id209ME400GXA).
 
 - **Sblocca il file**: se scegli di sbloccare un file, questo verrà sbloccato e le modifiche verranno salvate nella versione corrente del file.
 
->[!NOTE]
->
-> Se si deseleziona l&#39;opzione per sbloccare il file, si ottiene anche un&#39;opzione per chiudere il file senza salvare le modifiche.
+  >[!NOTE]
+  >
+  > Se si deseleziona l&#39;opzione per sbloccare il file, si ottiene anche un&#39;opzione per chiudere il file senza salvare le modifiche.
 
-Ad esempio, nella schermata seguente viene visualizzato uno dei prompt:
+  Ad esempio, nella schermata seguente viene visualizzato uno dei prompt:
 
-![](images/file-close-save-changes-unlock.png){width="400" align="left"}
+  ![](images/file-close-save-changes-unlock.png){width="400" align="left"}
 
 **Indicazioni visive per riferimenti interrotti**
 

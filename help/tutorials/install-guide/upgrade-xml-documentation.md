@@ -2,9 +2,9 @@
 title: Aggiornare le guide di Adobe Experience Manager
 description: Scopri come aggiornare le guide di Adobe Experience Manager
 exl-id: fdc395cf-a54f-4eca-b69f-52ef08d84a6e
-source-git-commit: 4c31580a7deb3e13931831c1888bbf0fd1bf9e14
+source-git-commit: ec67a3b959f9ee5b90a53134c1fe9aff8760cb6f
 workflow-type: tm+mt
-source-wordcount: '2896'
+source-wordcount: '3216'
 ht-degree: 1%
 
 ---
@@ -15,11 +15,13 @@ ht-degree: 1%
 >
 > Segui le istruzioni di aggiornamento specifiche per la versione con licenza del tuo prodotto.
 
-È possibile aggiornare la versione corrente delle guide AEM alla versione 4.2.1
-- Se utilizzi le versioni 4.1, 4.1.x o 4.2, puoi eseguire direttamente l’aggiornamento alla versione 4.2.1.
-- Se utilizzi la versione 4.0, devi effettuare l’aggiornamento alla versione 4.2 prima di passare alla versione 4.2.1.
+È possibile aggiornare la versione corrente delle guide AEM alla versione 4.3.0
+- Se utilizzi la versione 4.2 o 4.2.x, puoi eseguire direttamente l’aggiornamento alla versione 4.3.0.
+- Se utilizzi le versioni 4.1, 4.1.x o 4.2, devi effettuare l’aggiornamento alla versione 4.2.1 prima di eseguire l’aggiornamento alla versione 4.3.0.
+- Se utilizzi la versione 4.0, devi effettuare l’aggiornamento alla versione 4.2 prima di passare alla versione 4.3.0.
 - Se utilizzi la versione 3.8.5, devi effettuare l’aggiornamento alla versione 4.0 prima di passare alla versione 4.2.
 - Se utilizzi una versione precedente alla 3.8.5, consulta la sezione Aggiornamento delle guide AEM nella guida all’installazione specifica per il prodotto.
+
 
 >[!NOTE]
 >
@@ -30,6 +32,7 @@ Per ulteriori informazioni, consulta le procedure seguenti:
 - [Aggiornamento da 3.8.5 a versione 4.0](#id2256DK003E1)
 - [Aggiornamento alla versione 4.2](#id22A3F500SXA)
 - [Aggiornamento alla versione 4.2.1](#upgrade-version-4-2-1)
+- [Aggiornamento alla versione 4.3.0](#upgrade-version-4-3)
 
 
 >[!IMPORTANT]
@@ -228,7 +231,7 @@ Dopo aver installato le guide AEM, è possibile unire le varie configurazioni ap
    - ui\_config.json\(potrebbe essere stato impostato in profili cartella\)
    - modificato `com.adobe.fmdita.config.ConfigManager`
    - Verifica se uno qualsiasi dei codici personalizzati utilizzava percorsi precedenti \(come indicato nella [Mappatura della migrazione](#id2244LE040XA) section\) - devono essere aggiornati ai nuovi percorsi in modo che anche le personalizzazioni funzionino come previsto.
-1. Scopri le nuove configurazioni introdotte nella versione corrente \(seleziona [Note sulla versione](../release-info/release-notes-4.2.md)\) e verificare se sono interessate eventuali funzionalità, quindi adottare le misure appropriate. Un esempio potrebbe essere quello di utilizzare &quot;Gestione migliorata dei file e delle versioni&quot; introdotta nella versione 4.0, per la quale è necessario abilitare una configurazione.
+1. Scopri le nuove configurazioni introdotte nella versione corrente \(seleziona [Note sulla versione](../release-info/release-notes-4.3.md)\) e verificare se sono interessate eventuali funzionalità, quindi adottare le misure appropriate. Un esempio potrebbe essere quello di utilizzare &quot;Gestione migliorata dei file e delle versioni&quot; introdotta nella versione 4.0, per la quale è necessario abilitare una configurazione.
 
 ## Passaggi per indicizzare il contenuto esistente per utilizzare la nuova funzione Trova e sostituisci:
 
@@ -459,4 +462,55 @@ Effettua le seguenti operazioni per indicizzare il contenuto esistente e utilizz
 
 - Una volta completato il processo, la richiesta di GET di cui sopra risponderà con successo e menzionerà se eventuali mappe non sono riuscite. Le mappe indicizzate correttamente possono essere confermate dai registri del server.
 
+
+## Aggiornamento alla versione 4.3.0 {#upgrade-version-4-3}
+
+L’aggiornamento alla versione 4.3.0 dipende dalla versione corrente delle guide AEM. Se utilizzi la versione 4.2 o 4.2.x, puoi eseguire direttamente l’aggiornamento alla versione 4.3.0.
+
+>[!NOTE]
+>
+>La post-elaborazione e l’indicizzazione potrebbero richiedere alcune ore. Si consiglia di avviare il processo di aggiornamento durante le ore non di punta.
+
+****Prerequisiti****
+
+Prima di avviare il processo di aggiornamento delle Guide AEM 4.3.0, assicurati di disporre di:
+
+1. Aggiornato alle versioni 4.2 o 4.2.x delle guide AEM e completato il rispettivo passaggio di installazione.
+1. Ha chiuso tutte le attività di traduzione.
+
+
+
+## Installare la versione 4.3.0
+
+1. Scarica il pacchetto della versione 4.3.0 da [Portale di distribuzione software Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html).
+1. Installa la versione 4.3.0 del pacchetto.
+1. Cancella la cache del browser dopo l’installazione del pacchetto.
+1. Aggiornare `ui_config.json` file da **Configurazione editor XML** nella scheda Profilo cartella.
+
+
+## Dopo aver installato la versione 4.3.0
+
+Dopo aver installato le guide AEM, è possibile unire le varie configurazioni applicabili dalla versione appena installata alla configurazione.
+
+## Passaggi per pubblicare ed elaborare il contenuto esistente per utilizzare il rapporto sui collegamenti interrotti
+
+
+Effettua le seguenti operazioni per la post-elaborazione del contenuto esistente e l’utilizzo del nuovo rapporto sui collegamenti interrotti:
+
+1. (Facoltativo) Se nel sistema sono presenti più di 100.000 file dita, aggiornare `queryLimitReads` in `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` su un valore più grande (qualsiasi valore maggiore del numero di risorse presenti, ad esempio 200.000) e quindi ridistribuiscilo.
+
+   | PID | Chiave proprietà | Valore proprietà |
+   |---|---|---|
+   | org.apache.jackrabbit.oak.query.QueryEngineSettingsService | queryLimitReads | Valore: 200000 <br> Valore predefinito: 100000 |
+
+1. Eseguire una richiesta POST al server (con l’autenticazione corretta) - `http://<server:port>//bin/guides/reports/upgrade`.
+
+1. L’API restituirà un jobId. Per verificare lo stato del processo, puoi inviare una richiesta di GET con ID processo allo stesso endpoint: `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
+Ad esempio: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
+
+1. Una volta completato il processo, la richiesta di GET precedente risponderà con successo. Se il processo non riesce per qualche motivo, l’errore può essere visualizzato dai registri del server.
+
+1. Ripristina il valore predefinito o esistente precedente di `queryLimitReads` se è stato modificato nel passaggio 1.
+
 **Argomento padre:**[ Scarica e installa](download-install.md)
+
