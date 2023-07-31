@@ -1,7 +1,7 @@
 ---
 title: Aggiungere e gestire le citazioni nel contenuto
 description: Scopri come implementare i riferimenti aggiungendo e applicando citazioni al contenuto.
-source-git-commit: f59ed1ffe8567bef48c6772a68361eacb1c7c15f
+source-git-commit: 85eb0228908134080f3f1e2644f3f7c37b8d7497
 workflow-type: tm+mt
 source-wordcount: '1863'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Il **Aggiungi citazione** viene visualizzata.
 
 1. Compila i campi nel **Aggiungi citazione** .
 
-   >
+   >[!NOTE]
    >
    >Puoi anche aggiungere l’ID ISBN, DOI o PubMed. Le guide AEM compilano automaticamente gli altri campi.
 
