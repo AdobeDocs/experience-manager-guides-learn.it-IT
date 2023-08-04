@@ -2,9 +2,9 @@
 title: Configurazione dell’ambiente AEM per la pubblicazione di PDF nativi
 description: Configurazione dell’ambiente AEM per la pubblicazione di PDF nativi
 exl-id: 40266ca0-0b0b-4418-b606-f70270addbaa
-source-git-commit: 7b48633ef2418fa7c91842a8d2c2a4177017ef58
+source-git-commit: 45dfe6078039001327e91ae85ea2a5beeacb2d59
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '906'
 ht-degree: 1%
 
 ---
@@ -90,8 +90,7 @@ Il motore di pubblicazione nativo di PDF richiede il JDK Oracle per generare i m
    1. export JAVA\_HOME=/usr/lib/jvm/java-11.0.15.1
    2. export PATH=$PATH: $JAVA\_HOME/bin
 
-
-5. Riavvia il server AEM
+5. Riavviare il server AEM e passare al passaggio 12, se si utilizza la versione 4.2 o successiva delle Guide.
 6. Copia il &quot;_node_modules.zip_&quot; collegato in fondo a questo articolo alla directory crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166/.
 7. Apri terminale nella posizione crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166/.
 8. Elimina directory node_modules tramite il comando sottostante
@@ -112,7 +111,7 @@ Comando: yum install fontconfig
 
 **NOTA** : il pacchetto node_modules.zip può essere scaricato [qui](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:295d8f03-41e1-429b-8465-2761ce3c2fb3).
 
-L&#39;importazione manuale dei moduli dei nodi scaricati per il sistema operativo Linux rappresenta una soluzione alternativa per gli utenti che utilizzano le Guide 4.1 o versioni precedenti.
+L&#39;importazione manuale dei moduli dei nodi scaricati per il sistema operativo Linux è una soluzione alternativa per gli utenti che utilizzano le Guide 4.1 o versioni precedenti (Passaggi 6-12)
 
 ## Passaggi di configurazione per il computer Mac (JAVA 11/8)
 
@@ -141,7 +140,7 @@ L&#39;importazione manuale dei moduli dei nodi scaricati per il sistema operativ
 
    C:/{aem-installation-folder}/crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166
 
-   i) trovare . -type d -exec chmod 0755 {} \; ii) find . -type f -exec chmod 0755 {} \; iii) ./node-darwin/bin/node node-darwin/lib/node_modules/npm/bin/npm-cli.js —prefisso . install —unsafe-perm —scripts-prepend-node-path
+   i) trovare . -type d -exec chmod 0755 {} \; ii) trovare . -tipo f -exec chmod 0755 {} \; iii) ./node-darwin/bin/node node-darwin/lib/node_modules/npm/bin/npm-cli.js —prefisso . install —unsafe-perm —scripts-prepend-node-path
 
 8. Verifica se Java è installato con il comando seguente
 
@@ -164,8 +163,22 @@ Di seguito sono riportati gli errori comuni che possono verificarsi durante la g
 
 ![eccezione Null Pointer](../assets/publishing/null-pointer-exception.png)
 
+Se il problema persiste anche dopo aver corretto le impostazioni dell’ambiente Java, riconvalida quanto segue:
+
+1. Verifica se il predefinito di output è definito correttamente o crea un nuovo predefinito di output senza spazi.
+
+2. Verifica la directory delle risorse dei nodi in /libs/fmdta/node_resources per assicurarti che tutte le librerie richieste siano installate durante l’installazione.
+
 ### Librerie mancanti nel sistema operativo RHEL 7 Linux
 
 ![librerie mancanti](../assets/publishing/missing-libraries.png)
+
+### Timeout del processo di pubblicazione. Il processo non è stato completato nel tempo specificato (0 ms)
+
+![timeout del processo di pubblicazione](../assets/publishing/publish-process-timeout.png)
+
+Convalida il valore della proprietà timeout per il nodo nodejs in /var/dxml/profiles/b1aad0a7-9079-e56c-1ed8-6fcababe8166/nodejs nell’archivio CRX. Il valore predefinito è 300.
+
+
 
 In caso di problemi durante l’esecuzione di uno dei passaggi precedenti, invia una domanda alla community delle guide dell’AEM [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) per assistenza.
