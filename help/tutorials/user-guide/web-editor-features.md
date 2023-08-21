@@ -2,9 +2,9 @@
 title: Conoscere le funzioni dell’editor web
 description: Scopri come conoscere le funzioni dell’editor web
 exl-id: 38b378ff-da24-4560-a17f-a2c547aea1b8
-source-git-commit: 3ae28dc4266d418e5730e2036c8eee2a804dc847
+source-git-commit: d6e7046e8885191270620d634bda0a5284f76fa2
 workflow-type: tm+mt
-source-wordcount: '15745'
+source-wordcount: '15744'
 ht-degree: 0%
 
 ---
@@ -805,7 +805,7 @@ Nel menu Opzioni vengono visualizzate opzioni diverse a seconda che si selezioni
 
 Di seguito sono illustrate le varie opzioni del menu Opzioni:
 
-- **Modifica**: apri il file per la modifica. Nel caso di un file .ditamap/.bookmap, viene aperto nel [Editor mappe avanzato](map-editor-advanced-map-editor.md#) per la modifica.
+- **Modifica**: apri il file per la modifica. Nel caso di un file .ditamap/.bookmap, viene aperto in [Editor mappe avanzato](map-editor-advanced-map-editor.md#) per la modifica.
 
 - **Duplica**: utilizza questa opzione per creare un duplicato o una copia del file selezionato. Puoi anche rinominare il file duplicato nel prompt Duplica risorsa. Per impostazione predefinita, il file viene creato con il suffisso \(come nomefile\_1.extension\). Il titolo del file rimane invariato rispetto al file di origine e il nuovo file inizia con la versione 1.0. Tutti i riferimenti, i tag e i metadati vengono copiati mentre le baseline non vengono copiate nel file duplicato.
 - **Estrai**: blocca il file selezionato per la modifica. Per un file bloccato, questa opzione diventa **Check-In**.
