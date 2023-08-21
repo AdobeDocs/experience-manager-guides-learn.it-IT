@@ -2,7 +2,7 @@
 title: Configura modello di argomento DITA personalizzato
 description: Scopri come configurare un modello di argomento DITA personalizzato
 exl-id: f79165ef-5118-4574-815d-c4ecb2f7d58b
-source-git-commit: 20980cd289a306fc73146ec3550ae31f15e91591
+source-git-commit: ecd5c315da5d450f29ee5d44cb19bc3546a19d1c
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 2%
@@ -45,7 +45,9 @@ Le guide AEM consentono di configurare una cartella in cui memorizzare la mappa 
 
 `/content/dam/dita-templates/`
 
-Per gestire i file degli argomenti e dei modelli di mapping, sono disponibili cartelle dedicate in cui sono memorizzati gli argomenti e i modelli di mapping. Per impostazione predefinita, tutti i modelli di argomento sono memorizzati nel `/content/dam/dita-templates/topics` cartella. Tutti i modelli di mappa sono memorizzati nel `/content/dam/dita-templates/maps` cartella.
+Per gestire i file degli argomenti e dei modelli di mapping, sono disponibili cartelle dedicate in cui sono memorizzati gli argomenti e i modelli di mapping. Per impostazione predefinita, tutti i modelli di argomento sono memorizzati nel `/content/dam/dita-templates/topics`
+
+cartella. Tutti i modelli di mappa sono memorizzati nel `/content/dam/dita-templates/maps` cartella.
 
 In qualità di amministratore, puoi scegliere di creare modelli di mappe o argomenti personalizzati nella cartella predefinita o di creare una cartella personalizzata in cui memorizzare i modelli personalizzati. Se prevedi di utilizzare la cartella predefinita, puoi saltare questo processo.
 

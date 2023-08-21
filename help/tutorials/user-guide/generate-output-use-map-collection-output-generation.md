@@ -2,9 +2,9 @@
 title: Usa raccolta mappe per la generazione dell'output
 description: Scopri come utilizzare la raccolta mappe per la generazione di output
 exl-id: 32e3af6c-9670-42cc-8dbe-9f99fbc60adf
-source-git-commit: 3ae28dc4266d418e5730e2036c8eee2a804dc847
+source-git-commit: be1a61d9475185da594b382c1daf361d3fe60b08
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '898'
 ht-degree: 0%
 
 ---
@@ -79,13 +79,7 @@ Per configurare e generare l’output utilizzando una raccolta di mappe, effettu
      >  
      > Per impostazione predefinita, qualsiasi nuovo predefinito è disattivato.
 
-1. È possibile abilitare i predefiniti per una mappa DITA nei modi seguenti:
-
-   - Abilita qualsiasi singolo predefinito.
-   - Abilita **Tutti i predefiniti** per fare in modo che una mappa DITA selezioni tutti i predefiniti contemporaneamente. Questa opzione è disabilitata per impostazione predefinita.
-   - Abilita **Predefiniti profilo cartella** per fare in modo che una mappa DITA selezioni tutti i predefiniti di profilo della cartella per essa. Questa opzione è disabilitata per impostazione predefinita.
-     ![modificare una raccolta mappe in cloud services](images/edit-map-collection-cs.png){width="800" align="left"}
-
+   - Puoi selezionare **Abilita/disabilita tutti i predefiniti del profilo di cartella** per fare in modo che una mappa DITA selezioni tutti i profili di cartella in un&#39;unica operazione.
 
 
 1. Effettua una delle operazioni seguenti:

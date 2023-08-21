@@ -2,9 +2,9 @@
 title: Conoscere le funzioni dell’editor web
 description: Scopri come conoscere le funzioni dell’editor web
 exl-id: 38b378ff-da24-4560-a17f-a2c547aea1b8
-source-git-commit: d6e7046e8885191270620d634bda0a5284f76fa2
+source-git-commit: 0a01752122d012cff9fb583ae527842714e8f154
 workflow-type: tm+mt
-source-wordcount: '15744'
+source-wordcount: '15461'
 ht-degree: 0%
 
 ---
@@ -681,25 +681,20 @@ Per aggiungere un file alla raccolta preferita, utilizzare uno dei metodi seguen
 
   ![](images/favorite-add-file-folder.png){width="300" align="left"}
 
-- Fai clic con il pulsante destro del mouse sulla scheda di un file nell’editor per aprire il menu di scelta rapida. Scegli **Aggiungi a** > **Preferiti** per aggiungere il file all&#39;elenco dei preferiti.
+- Fai clic con il pulsante destro del mouse sulla scheda di un file nell’editor per aprire il menu di scelta rapida. Scegli **Aggiungi a \> Preferiti** per aggiungere il file all&#39;elenco dei preferiti.
 
   ![](images/favorite-add-from-file-context-menu_cs.png){width="400" align="left"}
 
->[!NOTE]
->
-> - Per rimuovere un elemento dall&#39;elenco Preferiti, selezionare l&#39;icona Opzioni accanto all&#39;elemento in un insieme Preferiti e scegliere **Rimuovi dai preferiti**.
-> - Per visualizzare l&#39;anteprima del file senza aprirlo, selezionare un file, quindi selezionare **Anteprima** dal menu Opzioni.
 
-
-
-**Menu Opzioni per la raccolta Preferiti**\
+Menu Opzioni ** per l&#39;insieme Favroties**\
 È inoltre possibile eseguire molte azioni utilizzando il menu Opzioni disponibile per un insieme Preferiti:
 
 ![](images/favorites-options.png){width="400" align="left"}
 - **Rinomina**: rinomina la raccolta selezionata.
-- **Elimina**: elimina la raccolta selezionata.
+- **Elimina**: elimina il file selezionato.
 - **Aggiorna**: ottieni un nuovo elenco di file e cartelle dal repository.
 - **Visualizza nell’interfaccia utente Assets**: mostra il contenuto del file o della cartella nell’interfaccia utente di Assets.
+
 
 >[!NOTE]
 >
@@ -815,7 +810,7 @@ Di seguito sono illustrate le varie opzioni del menu Opzioni:
   > - Se un file è bloccato o estratto da un utente, posizionando il puntatore del mouse sull&#39;icona del blocco viene visualizzato l&#39;utente \(name\) che ha bloccato il file.
   > - Quando si archivia un file contenente modifiche non salvate, viene richiesto di salvarle. Se le modifiche non vengono salvate, verrà archiviato solo il file.
 
-- **Anteprima**: ottieni un’anteprima rapida del file (.dita, .xml, audio, video o immagine) senza aprirlo. È possibile ridimensionare il riquadro di anteprima. Se il contenuto contiene `<xref>` o `<conref>`, puoi selezionarlo per aprirlo in una nuova scheda. Il titolo del file viene visualizzato nella finestra. Se non è presente alcun titolo, viene visualizzato il nome del file. Per chiudere **Anteprima** , è possibile selezionare l&#39;icona di chiusura o fare clic in un punto qualsiasi all&#39;esterno del riquadro.
+- **Anteprima**: ottieni un’anteprima rapida del file (.dita/.xml\) senza aprirlo.
 
   ![](images/quick-preview_cs.png){width="800" align="left"}
 
@@ -1016,7 +1011,7 @@ La schermata seguente mostra il menu Opzioni per un file nella vista mappa DITA:
   > - Se un file è bloccato o estratto da un utente, posizionando il puntatore del mouse sull&#39;icona del blocco viene visualizzato l&#39;utente \(name\) che ha bloccato il file.
   > - Quando si archivia un file, viene richiesto di salvare le modifiche. Se le modifiche non vengono salvate, verrà archiviato solo il file.
 
-- **Anteprima**: ottieni un’anteprima rapida del file (.dita, .xml, audio, video o immagine) senza aprirlo. È possibile ridimensionare il riquadro di anteprima. Se il contenuto contiene `<xref>` o `<conref>`, puoi selezionarlo per aprirlo in una nuova scheda.  Il titolo del file viene visualizzato nella finestra. Se non è presente alcun titolo, viene visualizzato il nome del file. Per chiudere **Anteprima** , è possibile selezionare l&#39;icona di chiusura o fare clic in un punto qualsiasi all&#39;esterno del riquadro.
+- **Anteprima**: ottieni un’anteprima rapida del file \(.dita/.xml\) senza aprirlo.
 - **Copia**: puoi scegliere tra le seguenti opzioni:
    - **Copia UUID**: copia negli Appunti l’UUID del file selezionato.
    - **Copia percorso**: copia negli Appunti il percorso completo del file selezionato.
@@ -1139,12 +1134,9 @@ Per inserire contenuto dal pannello Contenuto riutilizzabile, utilizzate uno dei
 
   >[!NOTE]
   >
-  > Seleziona un file, quindi fai clic su **Anteprima** dal **Opzioni** per visualizzare in anteprima il file senza aprirlo. È inoltre possibile visualizzare in anteprima i riferimenti presenti in un argomento. L&#39;ID di riferimento viene visualizzato nella finestra.
-  >
-  > Il **Anteprima** è disponibile anche nel **Opzioni** di un elemento, che offre un’anteprima rapida dell’elemento prima di inserirlo.
+  > Nota: il **Anteprima** L’opzione è disponibile anche nel menu di scelta rapida, che offre un’anteprima rapida dell’elemento prima di inserirlo.
 
 - Trascinare l&#39;elemento di contenuto riutilizzabile dal pannello nella posizione desiderata nel documento.
-
 
 
 **Glossario** -  ![](images/glossary.svg)
@@ -1280,138 +1272,86 @@ L’esempio seguente mostra come utilizzare lo schema soggetto nelle guide dell�
 
    ![](images/subject-scheme-apply.png){width="650" align="left"}
 
-**Gestione delle definizioni gerarchiche delle definizioni e delle enumerazioni dei soggetti**
+   **Gestione delle definizioni gerarchiche delle definizioni e delle enumerazioni dei soggetti**
 
-Oltre a gestire le enumerazioni e le definizioni dei soggetti presenti nella stessa mappa, le guide AEM forniscono anche la funzione di definire enumerazioni e definizioni dei soggetti in due mappe separate. È possibile definire una o più definizioni di oggetto in una mappa e le definizioni di enumerazione in un&#39;altra mappa, quindi aggiungere il riferimento alla mappa. Ad esempio, il codice XML seguente crea definizioni di oggetti e definizioni di enumerazione in due mappe separate.
+   Oltre a gestire le enumerazioni e le definizioni dei soggetti presenti nella stessa mappa, le guide AEM forniscono anche la funzione di definire enumerazioni e definizioni dei soggetti in due mappe separate. Puoi definire la definizione dell’oggetto in una mappa e le definizioni di enumerazione in un’altra mappa, quindi aggiungere il riferimento alla mappa. Ad esempio, il codice XML seguente crea definizioni di oggetti e definizioni di enumerazione in due mappe separate.
 
-Le definizioni dei soggetti sono definite in `subject_scheme_map_1.ditamap`
-
-
-```XML
-  <?xml version="1.0" encoding="UTF-8"?> 
-    <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
-    <subjectScheme id="subject-scheme.ditamap_f0bfda58-377b-446f-bf49-e31bc87792b3"> 
-
-    <title>subject_scheme_map_1</title> 
-    
-    <subjectdef keys="os" navtitle="Operating system">
-        <subjectdef keys="linux" navtitle="Linux">
-        <subjectdef keys="redhat" navtitle="RedHat Linux">
-        </subjectdef>
-        <subjectdef keys="suse" navtitle="SuSE Linux">
-        </subjectdef>
-        </subjectdef>
-        <subjectdef keys="windows" navtitle="Windows">
-        </subjectdef>
-        <subjectdef keys="zos" navtitle="z/OS">
-        </subjectdef>
-        </subjectdef>
-        <subjectdef keys="deliveryTargetValues">
-        <subjectdef keys="print">
-        </subjectdef>
-        <subjectdef keys="online">
-        </subjectdef>
-    </subjectdef>
-    <subjectdef keys="mobile" navtitle="Mobile">
-        <subjectdef keys="android" navtitle="Android">
-        </subjectdef>
-        <subjectdef keys="ios" navtitle="iOS">
-    </subjectdef>
-    </subjectdef>
-    <subjectdef keys="cloud" navtitle="Cloud">
-        <subjectdef keys="aws" navtitle="Amazon Web Services">
-        </subjectdef>
-        <subjectdef keys="azure" navtitle="Microsoft Azure">
-        </subjectdef>
-        <subjectdef keys="gcp" navtitle="Google Cloud Platform">
-        </subjectdef>
-    </subjectdef>
-    </subjectScheme>
-```
-
-La definizione di enumerazione è presente in subject_scheme_map_2.ditamap.
-
-```XML
-    ?xml version="1.0" encoding="UTF-8"?> 
-        <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
-        <subjectScheme id="subject-scheme.ditamap_17c433d9-0558-44d4-826e-3a3373a4c5ae"> 
-        <title>subject_scheme_map_2</title> 
-        <mapref format="ditamap" href="subject_scheme_map_1.ditamap" type="subjectScheme"> 
-        </mapref> 
-        <enumerationdef>
-        <attributedef name="platform">
-        </attributedef>
-        <subjectdef keyref="mobile">
-        </subjectdef>
-        <subjectdef keyref="cloud">
-        </subjectdef>
-        </enumerationdef>
-        </subjectScheme>
-```
-
-Qui le definizioni dei soggetti sono definite in `subject_scheme_map_1.ditamap`  mentre la definizione di enumerazione è presente in `subject_scheme_map_2.ditamap`. Il riferimento a `subject_scheme_map_1.ditamap` viene aggiunto anche in `subject_scheme_map_2.ditamap`.
-
->[!NOTE]
->
-> Come `subject_scheme_map_1.ditamap` e `subject_scheme_map_2.ditamap` sono referenziati tra loro, quindi i modelli dei soggetti vengono risolti.
-
-I riferimenti di enumerazione dei soggetti vengono risolti nel seguente ordine di priorità:
-
-1. Stessa mappa
-1. Mappa di riferimento
+   Le definizioni dei soggetti sono definite in `subject_scheme_map_1.ditamap`
 
 
-I riferimenti non vengono risolti se l’enumerazione non viene trovata nella stessa mappa e nella mappa di riferimento.
+   ```XML
+   <?xml version="1.0" encoding="UTF-8"?> 
+   <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
+   <subjectScheme id="subject-scheme.ditamap_f0bfda58-377b-446f-bf49-e31bc87792b3"> 
+   <title>subject_scheme_map_1</title> 
+   <subjectdef keys="os" navtitle="Operating system"> 
+   <subjectdef keys="linux" navtitle="Linux"> 
+   <subjectdef keys="redhat" navtitle="RedHat Linux"/> 
+   <subjectdef keys="suse" navtitle="SuSE Linux"/> 
+   </subjectdef> 
+   <subjectdef keys="windows" navtitle="Windows"/> 
+   <subjectdef keys="zos" navtitle="z/OS"/> 
+   </subjectdef> 
+   </subjectScheme>  
+   ```
+
+   La definizione di enumerazione è presente in subject_scheme_map_2.ditamap
+
+   ```XML
+   <?xml version="1.0" encoding="UTF-8"?> 
+   <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
+   <subjectScheme id="subject-scheme.ditamap_17c433d9-0558-44d4-826e-3a3373a4c5ae"> 
+   <title>subject_scheme_map_2</title> 
+   <mapref format="ditamap" href="subject_scheme_map_1.ditamap" type="subjectScheme"> 
+   </mapref> 
+   <enumerationdef> 
+   <attributedef name="platform"> 
+   </attributedef> 
+   <subjectdef keyref="os"> 
+   </subjectdef> 
+   </enumerationdef> 
+   </subjectScheme>  
+   ```
+
+   Qui le definizioni dei soggetti sono definite in `subject_scheme_map_1.ditamap`  mentre la definizione di enumerazione è presente in `subject_scheme_map_2.ditamap`. Il riferimento a `subject_scheme_map_1.ditamap` viene aggiunto anche in `subject_scheme_map_2.ditamap`.
+
+   >[!NOTE]
+   >
+   > Come `subject_scheme_map_1.ditamap` e `subject_scheme_map_2.ditamap` sono referenziati tra loro, quindi i modelli dei soggetti vengono risolti.
+
+   I riferimenti di enumerazione dei soggetti vengono risolti nel seguente ordine di priorità:
+
+   1. Stessa mappa
+   1. Mappa di riferimento
 
 
+   I riferimenti non vengono risolti se l’enumerazione non viene trovata nella stessa mappa e nella mappa di riferimento.
 
+   **Elenco a discesa Attributi**
 
-**Limita i valori a un elemento specifico**
+   Puoi anche modificare il valore dello schema dell’oggetto utilizzando il menu a discesa Attributo dal pannello Proprietà contenuto nella vista Autore. Per modificare il valore, seleziona un valore dal menu a discesa Attributo.
 
-È inoltre possibile limitare le condizioni ad alcuni elementi all&#39;interno di un argomento. Utilizza il `<elementdef>` per definire l’elemento e il tag `<attributedef>` per definire la condizione che può essere applicata all&#39;elemento.  Se non aggiungi il `<elementdef>` , puoi applicare le condizioni a tutti gli elementi.
-Ad esempio, utilizza l’enumerazione seguente per limitare `@platform` attribuire a `<shortdesc>` elemento.  Le altre condizioni sono visibili per tutti gli elementi.
+   ![](images/subject-scheme-attribute-dropdown.png){width="300" align="left"}
 
-```XML
-<enumerationdef>
-    <elementdef name="shortdesc">
-    </elementdef>
-    <attributedef name="platform">
-    </attributedef>
-    <subjectdef keyref="deliveryTargetValues">
-    </subjectdef>
-    <subjectdef keyref="os">
-    </subjectdef>
-  </enumerationdef>
-```
+   Puoi anche applicare valori a un attributo selezionando più valori dal menu a discesa.
 
-</details>
+   **Vista origine**
 
+   È inoltre possibile modificare i valori dall&#39;elenco a discesa dell&#39;attributo nella Vista origine. La Vista origine impedisce inoltre di aggiungere valori errati.
 
-**Elenco a discesa Attributi**
+   ![](images/subject-scheme-code-error.png){width="550" align="left"}
 
-Puoi anche modificare il valore dello schema dell’oggetto utilizzando il menu a discesa Attributo dal pannello Proprietà contenuto nella vista Autore. Per modificare il valore, seleziona un valore dal menu a discesa Attributo.
+   **Visualizzare e applicare lo schema soggetto dal pannello Condizioni**
 
-![](images/subject-scheme-attribute-dropdown.png){width="300" align="left"}
+   Potete anche visualizzare e applicare lo schema soggetto dal pannello Condizioni.
 
-Puoi anche applicare valori a un attributo selezionando più valori dal menu a discesa.
+   Per visualizzare lo schema soggetto dal pannello Condizioni, l&#39;amministratore di sistema deve selezionare l&#39;opzione **Mostra schema soggetto nel pannello Condizioni** nella scheda Condizione in Impostazioni editor. Per maggiori dettagli vedi, [Scheda Condizione](#id21BMNE0602V).
 
-**Vista origine**
+   Il pannello Condizioni visualizza la struttura verticale piatta delle definizioni dei soggetti all&#39;interno dello schema.
 
-È inoltre possibile modificare i valori dall&#39;elenco a discesa dell&#39;attributo nella Vista origine. La Vista origine impedisce inoltre di aggiungere valori errati.
+   ![](images/subject-scheme-condtions-panel.png){width="300" align="left"}
 
-![](images/subject-scheme-code-error.png){width="550" align="left"}
-
-**Visualizzare e applicare lo schema soggetto dal pannello Condizioni**
-
-Potete anche visualizzare e applicare lo schema soggetto dal pannello Condizioni.
-
-Per visualizzare lo schema soggetto dal pannello Condizioni, l&#39;amministratore di sistema deve selezionare l&#39;opzione **Mostra schema soggetto nel pannello Condizioni** nella scheda Condizione in Impostazioni editor. Per maggiori dettagli vedi, [Scheda Condizione](#id21BMNE0602V).
-
-Il pannello Condizioni visualizza la struttura verticale piatta delle definizioni dei soggetti all&#39;interno dello schema.
-
-![](images/subject-scheme-condtions-panel.png){width="300" align="left"}
-
-Puoi aggiungere condizioni al contenuto trascinando e rilasciando la condizione desiderata sul contenuto. Il contenuto condizionale viene evidenziato utilizzando il colore definito per la condizione.
+   Puoi aggiungere condizioni al contenuto trascinando e rilasciando la condizione desiderata sul contenuto. Il contenuto condizionale viene evidenziato utilizzando il colore definito per la condizione.
 
 **Snippet** -  ![](images/insert-snippet-icon.svg)
 

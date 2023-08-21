@@ -2,10 +2,10 @@
 title: Creare mappe in base a modelli personalizzati
 description: Scopri come creare mappe basate su modelli personalizzati
 exl-id: 02513148-3876-4549-962a-9984f619030f
-source-git-commit: 3ae28dc4266d418e5730e2036c8eee2a804dc847
+source-git-commit: be1a61d9475185da594b382c1daf361d3fe60b08
 workflow-type: tm+mt
-source-wordcount: '1084'
-ht-degree: 1%
+source-wordcount: '870'
+ht-degree: 0%
 
 ---
 
@@ -26,14 +26,6 @@ Le guide AEM consentono di creare mappe e argomenti personalizzati dalla cartell
 >[!NOTE]
 >
 > Tutte le risorse a cui fare riferimento e che devono essere mantenute in devono essere mantenute all’esterno della cartella dei modelli.
-
-
-È possibile creare modelli di mappe e argomenti nei modi seguenti:
-1. Riquadro Modelli di [Pannello sinistro](./web-editor-features.md#left-panel-id2051ea0m0hs)
-1. [Modelli nell’interfaccia utente Assets](#templates-assets-ui)
-1. [Menu Opzioni](#templates-in-assets-ui)
-
-### Modelli nell’interfaccia utente Assets {#templates-assets-ui}
 
 **Modello argomento**
 
@@ -74,35 +66,6 @@ Per creare un modello di mappa, effettua le seguenti operazioni:
    > Il nome del file deve avere l&#39;estensione .ditamap.
 
 1. (Facoltativo\) Aggiungi una descrizione.Fai clic su **Crea**. Viene visualizzato il messaggio di creazione del modello di mappa. È quindi possibile aprire il modello di mappa e modificarlo. Puoi aggiungere i riferimenti per i modelli di argomento, i modelli di mappa e anche altre risorse nel modello di mappa.
-
-### Menu Opzioni {#options-menu}
-
-Per creare una mappa o un modello di argomento, effettuare le seguenti operazioni:
-
-1. Seleziona la **Mappa** o **Argomento** nella cartella dei modelli corrente. Ad esempio, la cartella `dita-templates`.
-1. Dalla sezione **Opzioni** menu, seleziona **Crea modello mappa** o **Crea modello di argomento**.
-
-   Il **Crea nuovo modello mappa** o **Crea nuovo modello di argomento** viene visualizzata una finestra di dialogo.
-1. Immetti il titolo e il nome del nuovo modello.
-1. Scegli il tipo di modello da creare dal **Modello** elenco a discesa.
-
-Viene visualizzato il messaggio di creazione del modello di mappa. Puoi aggiungere il modello al tuo profilo globale o a livello di cartella. Il nuovo modello viene quindi visualizzato nel processo di creazione di argomenti o mappe e può essere utilizzato per creare mappe o argomenti.
-
-
-L’amministratore può anche creare una cartella e configurarla come la cartella in cui puoi creare e salvare i modelli.
-
-In base alla configurazione, scopri come configurare il percorso della cartella del modello DITA personalizzato:
-<details>
-    <summary> Servizi cloud </summary>
-
-Scopri come [configura percorso cartella modello DITA personalizzato](../install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) nella Guida all&#39;installazione e alla configurazione dei Cloud Service.
-</details>
-
-<details>
-    <summary> Software on-premise</summary>
-
-Scopri come [configura percorso cartella modello DITA personalizzato](../cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) nella Guida all’installazione e alla configurazione on-premise.
-</details>
 
 ## Trasmettere il titolo definito nei modelli
 
@@ -147,9 +110,6 @@ Esempio
     </sub>
 </title>
 ```
-
-
-
 
 ## Utilizza il modello di mappa per creare nuove mappe
 
