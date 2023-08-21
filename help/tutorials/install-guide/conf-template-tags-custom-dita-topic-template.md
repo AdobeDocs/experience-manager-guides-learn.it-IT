@@ -1,13 +1,13 @@
 ---
 title: Configura modello di argomento DITA personalizzato
 description: Scopri come configurare un modello di argomento DITA personalizzato
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+exl-id: f79165ef-5118-4574-815d-c4ecb2f7d58b
+source-git-commit: 20980cd289a306fc73146ec3550ae31f15e91591
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 2%
 
 ---
-
 
 # Configura modello di argomento DITA personalizzato {#id16A7G0O02TD}
 
@@ -45,9 +45,7 @@ Le guide AEM consentono di configurare una cartella in cui memorizzare la mappa 
 
 `/content/dam/dita-templates/`
 
-Per gestire i file degli argomenti e dei modelli di mapping, sono disponibili cartelle dedicate in cui sono memorizzati gli argomenti e i modelli di mapping. Per impostazione predefinita, tutti i modelli di argomento sono memorizzati nel `/content/dam/dita-templates/topics`
-
-cartella. Tutti i modelli di mappa sono memorizzati nel `/content/dam/dita-templates/maps` cartella.
+Per gestire i file degli argomenti e dei modelli di mapping, sono disponibili cartelle dedicate in cui sono memorizzati gli argomenti e i modelli di mapping. Per impostazione predefinita, tutti i modelli di argomento sono memorizzati nel `/content/dam/dita-templates/topics` cartella. Tutti i modelli di mappa sono memorizzati nel `/content/dam/dita-templates/maps` cartella.
 
 In qualità di amministratore, puoi scegliere di creare modelli di mappe o argomenti personalizzati nella cartella predefinita o di creare una cartella personalizzata in cui memorizzare i modelli personalizzati. Se prevedi di utilizzare la cartella predefinita, puoi saltare questo processo.
 
@@ -57,7 +55,7 @@ Per configurare una cartella per i modelli di argomento DITA personalizzati, eff
 >
 > Puoi saltare questo processo se desideri utilizzare la cartella predefinita per memorizzare i modelli personalizzati.
 
-1. Apri la pagina Configurazione della console web Adobe Experience Manager.
+1. Aprire la pagina Configurazione della console Web Adobe Experience Manager.
 
    L&#39;URL predefinito per accedere alla pagina di configurazione è:
 
@@ -75,4 +73,3 @@ Per configurare una cartella per i modelli di argomento DITA personalizzati, eff
 Se il percorso specificato esiste in DAM, tutti i modelli di mappa e argomenti predefiniti vengono copiati in tale cartella. Se il percorso non esiste, la cartella viene creata con tutti i modelli predefiniti per mappe e argomenti.
 
 **Argomento padre:**[ Configurare modelli di argomenti e mappe](conf-template-tags.md)
-

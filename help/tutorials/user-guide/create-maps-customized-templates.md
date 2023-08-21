@@ -2,10 +2,10 @@
 title: Creare mappe in base a modelli personalizzati
 description: Scopri come creare mappe basate su modelli personalizzati
 exl-id: 02513148-3876-4549-962a-9984f619030f
-source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
+source-git-commit: ca96cafa214d2dd03a9933024a195ec4995ee4dc
 workflow-type: tm+mt
-source-wordcount: '870'
-ht-degree: 0%
+source-wordcount: '1084'
+ht-degree: 1%
 
 ---
 
@@ -26,6 +26,14 @@ Le guide AEM consentono di creare mappe e argomenti personalizzati dalla cartell
 >[!NOTE]
 >
 > Tutte le risorse a cui fare riferimento e che devono essere mantenute in devono essere mantenute all’esterno della cartella dei modelli.
+
+
+È possibile creare modelli di mappe e argomenti nei modi seguenti:
+1. Riquadro Modelli di [Pannello sinistro](./web-editor-features.md#left-panel-id2051ea0m0hs)
+1. [Modelli nell’interfaccia utente Assets](#templates-assets-ui)
+1. [Menu Opzioni](#templates-in-assets-ui)
+
+### Modelli nell’interfaccia utente Assets {#templates-assets-ui}
 
 **Modello argomento**
 
@@ -66,6 +74,35 @@ Per creare un modello di mappa, effettua le seguenti operazioni:
    > Il nome del file deve avere l&#39;estensione .ditamap.
 
 1. (Facoltativo\) Aggiungi una descrizione.Fai clic su **Crea**. Viene visualizzato il messaggio di creazione del modello di mappa. È quindi possibile aprire il modello di mappa e modificarlo. Puoi aggiungere i riferimenti per i modelli di argomento, i modelli di mappa e anche altre risorse nel modello di mappa.
+
+### Menu Opzioni {#options-menu}
+
+Per creare una mappa o un modello di argomento, effettuare le seguenti operazioni:
+
+1. Seleziona la **Mappa** o **Argomento** nella cartella dei modelli corrente. Ad esempio, la cartella `dita-templates`.
+1. Dalla sezione **Opzioni** menu, seleziona **Crea modello mappa** o **Crea modello di argomento**.
+
+   Il **Crea nuovo modello mappa** o **Crea nuovo modello di argomento** viene visualizzata una finestra di dialogo.
+1. Immetti il titolo e il nome del nuovo modello.
+1. Scegli il tipo di modello da creare dal **Modello** elenco a discesa.
+
+Viene visualizzato il messaggio di creazione del modello di mappa. Puoi aggiungere il modello al tuo profilo globale o a livello di cartella. Il nuovo modello viene quindi visualizzato nel processo di creazione di argomenti o mappe e può essere utilizzato per creare mappe o argomenti.
+
+
+L’amministratore può anche creare una cartella e configurarla come la cartella in cui puoi creare e salvare i modelli.
+
+In base alla configurazione, scopri come configurare il percorso della cartella del modello DITA personalizzato:
+<details>
+    <summary> Servizi cloud </summary>
+
+Scopri come [configura percorso cartella modello DITA personalizzato](../install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) nella Guida all&#39;installazione e alla configurazione dei Cloud Service.
+</details>
+
+<details>
+    <summary> Software on-premise</summary>
+
+Scopri come [configura percorso cartella modello DITA personalizzato](../cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) nella Guida all’installazione e alla configurazione on-premise.
+</details>
 
 ## Trasmettere il titolo definito nei modelli
 
@@ -111,6 +148,9 @@ Esempio
 </title>
 ```
 
+
+
+
 ## Utilizza il modello di mappa per creare nuove mappe
 
 >[!NOTE]
@@ -138,12 +178,12 @@ La mappa genera tutte le risorse a cui si fa riferimento all’interno della car
 - Se la mappa contiene il riferimento a un modello di mappa, ne viene creata una copia all&#39;interno della cartella, nella stessa gerarchia della cartella mappe nella cartella `dita-templates` cartella.
 - Se la mappa contiene il riferimento generico a un argomento o a una mappa esterna al `dita-templates/topics` o `dita-templates/maps` cartella, viene fatto riferimento solo allo stesso e non viene creata alcuna copia.
 
-   >[!NOTE]
-   >
-   > `dita-templates/topics` e `dita-templates/maps` sono i percorsi predefiniti nelle Guide e sono configurabili.
+  >[!NOTE]
+  >
+  > `dita-templates/topics` e `dita-templates/maps` sono i percorsi predefiniti nelle Guide e sono configurabili.
 
 
-   Se all’interno del modello mappa è presente una definizione di chiave del modello argomento, viene creata una nuova chiave \(quindi nuovo argomento\) a cui viene fatto riferimento nella mappa.
+  Se all’interno del modello mappa è presente una definizione di chiave del modello argomento, viene creata una nuova chiave \(quindi nuovo argomento\) a cui viene fatto riferimento nella mappa.
 
 - Se nella cartella viene creato un altro argomento o mappa allo stesso livello, i nomi delle nuove risorse vengono aggiunti 0, 1, 2 e così via. È possibile scegliere di aprire la mappa per la modifica o salvare il file di mappa nel repository.
 
