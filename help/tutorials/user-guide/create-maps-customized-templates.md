@@ -2,7 +2,7 @@
 title: Creare mappe in base a modelli personalizzati
 description: Scopri come creare mappe basate su modelli personalizzati
 exl-id: 02513148-3876-4549-962a-9984f619030f
-source-git-commit: ca96cafa214d2dd03a9933024a195ec4995ee4dc
+source-git-commit: 3ae28dc4266d418e5730e2036c8eee2a804dc847
 workflow-type: tm+mt
 source-wordcount: '1084'
 ht-degree: 1%
@@ -61,7 +61,7 @@ Per creare un modello di mappa, effettua le seguenti operazioni:
 
 1. In **Interfaccia utente Assets**, passare alla cartella dita-templates.
 1. Clic **mappe** cartella per aprirla.
-1. Clic **Crea \> Modello DITA.**
+1. Clic **Crea** > **Modello DITA.**
 
    ![](images/create-dita-template.png){width="300" align="left"}
 
