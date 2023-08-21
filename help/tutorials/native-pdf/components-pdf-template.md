@@ -2,9 +2,9 @@
 title: Funzione di pubblicazione nativa di PDF | Componenti di un modello PDF
 description: Scopri i vari componenti di un modello di PDF e come personalizzarli e configurarli.
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: 08c1f1a8df5fdbaa0d8f27d2752028d0ee2ed538
+source-git-commit: 18ec7e1b19cd6404b86f965be96caa88a0a067fe
 workflow-type: tm+mt
-source-wordcount: '3672'
+source-wordcount: '3934'
 ht-degree: 0%
 
 ---
@@ -107,25 +107,36 @@ Per creare un foglio di stile, effettuare le seguenti operazioni:
 
 ### Crea un nuovo stile {#create-style}
 
-Per impostazione predefinita, i file CSS contengono stili per intestazione, paragrafo, carattere, collegamento ipertestuale, immagine, tabella, div, pagina e altri stili. Potete sovrascrivere il formato di stile predefinito o creare un nuovo stile.
+Per impostazione predefinita, i file CSS forniti con il modello contengono stili per intestazione, paragrafo, carattere, collegamento ipertestuale, immagine, tabella, div, pagina e altri stili. Potete sovrascrivere il formato di stile predefinito o creare un nuovo stile.
 
-In genere, viene creato un nuovo stile quando si desidera associare uno stile personalizzato a qualsiasi elemento DITA. Affinché tali stili personalizzati funzionino, è necessario assicurarsi di associare il nome della classe dello stile all&#39;attributo outputclass dell&#39;elemento DITA.
+
+È possibile creare un nuovo stile da utilizzare nel layout di pagina del modello o applicare uno stile personalizzato per qualsiasi elemento DITA. Per applicare questi stili personalizzati all&#39;elemento DITA, è necessario assicurarsi che il nome della classe dello stile sia uguale al nome dell&#39;elemento DITA o al `outputclass` attributo.  Ad esempio: `<div>` in DITA è disciplinato dal `.div {}` in CSS o i relativi `outputclass` attributo. Se si applica `<div outputclass="my-div">` in DITA, è governato dal `.div {}` o `.my-div {}` nel CSS.
+
 
 
 Per creare un nuovo stile, effettuare le seguenti operazioni:
-1. Fare clic con il pulsante destro del mouse su uno stile e scegliere Nuovo stile dal menu di scelta rapida.
+1. Espandere la barra laterale sinistra e fare doppio clic sul modello in cui si desidera creare lo stile.
+1. Espandi **Fogli di stile** sezione. Apre il **Stili** che contiene tutte le opzioni di stile.
+1. Seleziona l’icona + per aggiungere un nuovo stile.
 
-   Viene visualizzata la finestra di dialogo Aggiungi stile.
+   **Aggiungi stile** viene visualizzata.
 
-   <img src="assets/add-style.png" alt="Aggiungi nuovo stile" width="300"/>
-1. In **Tag** , scegliere un tag per il quale si desidera creare un nuovo stile.
-1. Specifica un **Classe** nome.
 
-   Questo nome di classe deve essere associato all’attributo outputclass del tag nel contenuto sorgente.
-1. Seleziona un **Pseudo classe** per migliorare lo stile dell’elemento.
+   <img src="assets/add-style.png" alt="Aggiungi nuovo stile" width="500"/>
+
+1. Specifica un **Classe** nome. Per applicare uno stile all&#39;elemento DITA, assicurarsi che il nome della classe dello stile sia uguale al nome dell&#39;elemento DITA o al `outputclass` attributo.
+1. In **Tag** (facoltativo), scegli un tag per il quale vuoi creare un nuovo stile.
+
+
+1. Seleziona un **Pseudo classe** per applicare uno stile a un elemento. Una pseudoclasse consente di definire uno stato speciale dell’elemento. Ad esempio, utilizza la pseudoclasse per assegnare uno stile a un elemento quando passi il cursore del mouse su di esso o quando lo sposti su di esso. È inoltre possibile selezionare più pseudo-classi. Ad esempio, puoi utilizzare una pseudoclasse `a::visited {color: blue;}` per assegnare uno stile ai collegamenti visitati.
+
+1. Aggiungi il selettore per il nuovo stile. Il **Selettore** Questo campo consente di aggiungere selettori personalizzati oltre alla combinazione di Classe, Tag e Pseudo Classe. Ad esempio, puoi creare `table a.link` stile per tutti i collegamenti ipertestuali di una tabella.
+
+   Per ulteriori informazioni sui tag CSS, vedi [Fai riferimento alla grammatica dello stile CSS](https://www.w3.org/TR/CSS21/syndata.html#characters).
+
 1. Clic **Fine**.
 
-   Un nuovo stile viene creato e aggiunto sotto lo stile di base.
+   Viene creato un nuovo stile che viene aggiunto all&#39;elenco degli stili.
 
 ### Personalizzare uno stile predefinito o nuovo {#customize-style}
 
@@ -143,17 +154,26 @@ Per personalizzare uno stile, effettuare le seguenti operazioni:
 
    Verrà aperto il foglio di stile per la modifica e verrà visualizzato l&#39;elenco degli stili nel pannello Stili.
 
-   <img src="assets/customize-style.png" alt="Personalizza stile" width="450">
+   <img src="assets/customize-style.png" alt="Personalizza stile" width="800">
 
-1. Per personalizzare uno stile, fate doppio clic su uno stile o fate clic sull&#39;icona > prima di uno stile per visualizzarlo e personalizzarlo utilizzando l&#39;editor stili.
+1. Per personalizzare uno stile, selezionatelo per visualizzarlo e personalizzarlo utilizzando l&#39;editor stili.
 
-Per informazioni dettagliate sull&#39;utilizzo degli stili più comuni, vedere [Utilizzare gli stili di contenuto comuni](stylesheet.md).
+
+### Proprietà degli stili
+
+Nel pannello centrale puoi modificare le proprietà, ma potrebbe essere difficile ottenere un’istantanea di tutti i valori presenti.  Il **Proprietà** fornisce una visualizzazione rapida di tutti gli attributi e i valori dello stile.
+
+Nel pannello centrale puoi modificare le proprietà comunemente utilizzate, ma non tutte le proprietà supportate dal CSS. In **Proprietà** , è possibile modificare tutte le proprietà supportate dal CSS e visualizzarle in anteprima. Per modificare le proprietà non è necessario passare alla vista origine.
+
+
+Ulteriori informazioni sull’utilizzo dell’editor di stili per [Utilizzare gli stili di contenuto comuni](stylesheet.md).
 
 ## Utilizzare le risorse {#work-with-resources}
 
 Questo è un contenitore per tutte le risorse utilizzate per progettare un modello. Può essere considerata come una cartella, che contiene risorse quali immagini di sfondo, font personalizzati, loghi e altro ancora. Ogni volta che aggiungi una risorsa nel modello, questa viene caricata o archiviata nella cartella delle risorse. Puoi quindi utilizzare queste risorse per personalizzare o progettare i modelli di PDF.
 
 Per aggiungere un file di risorse alla cartella Risorse, effettua le seguenti operazioni:
+
 1. Passa il puntatore del mouse sulla scheda della cartella Risorse e fai clic su (icona Opzioni) ... e scegli Importa.
 
    Viene visualizzata la finestra di dialogo Carica risorse.

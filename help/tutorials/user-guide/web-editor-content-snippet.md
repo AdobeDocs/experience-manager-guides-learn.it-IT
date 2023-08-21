@@ -1,9 +1,9 @@
 ---
 title: Inserire uno snippet di contenuto dall'origine dati
 description: Scopri come inserire uno snippet di contenuto dall’origine dati
-source-git-commit: 0f1c9d545dfc6dc53742c6f8d89cd48d33de2681
+source-git-commit: af5ec027ea093a28ba2a2ffd0ca3895546ed6e76
 workflow-type: tm+mt
-source-wordcount: '1549'
+source-wordcount: '1685'
 ht-degree: 0%
 
 ---
@@ -32,14 +32,18 @@ Selezionare un&#39;origine dati per visualizzare i generatori di frammenti di co
 
 ![](images/data-sources-list-view.png){width="300" align="left"}
 
+*Elenco delle origini dati connesse.*
 
 ### Vista affiancata   ![](images/data-sources-tile-view-icon.svg)
 
 ![](images/data-sources-tile-view.png){width="300" align="left"}
 
+*Visualizzare le origini dati collegate come sezioni.*
+
 È possibile utilizzare i dati delle origini dati in due modi:
 - Inserire uno snippet di contenuto
 - Creare un argomento
+
 
 
 ## Inserire uno snippet di contenuto dall&#39;origine dati
@@ -53,6 +57,7 @@ Per creare uno snippet di contenuto utilizzando il generatore di snippet di cont
 1. Selezionare un&#39;origine dati per visualizzare i generatori di frammenti di contenuto disponibili per l&#39;origine dati selezionata.
 
    ![](images/code-snippet-generator.png){width="300" align="left"}
+   *Nel pannello Origini dati sono elencati i generatori di frammenti di contenuto disponibili.*
 
 1. Seleziona **Aggiungi** per aggiungere un nuovo generatore di frammenti di contenuto. Il **Aggiungi generatore frammenti di contenuto** viene visualizzato il pannello.
 
@@ -75,6 +80,8 @@ Ad esempio:
 
    1. La vista origine mostra i dati nella vista origine DITA.
       ![](images/add-content-snippet-generator.png){width="800" align="left"}
+      *Aggiungi un generatore di frammenti di contenuto. Visualizza i dati in modalità di origine o anteprima.*
+
 1. Per salvare i risultati della query, immettere il nome del generatore, quindi fare clic su **AGGIUNGI**.   All’elenco viene aggiunto un nuovo generatore di frammenti di contenuto.
 
    >[!NOTE]
@@ -102,6 +109,7 @@ Fai clic con il pulsante destro del mouse su un generatore di frammenti di conte
 
 ![](images/insert-content-snippet.png){width="800" align="left"}
 
+*Modifica e inserisci uno snippet di dati.*
 
 ## Creare un argomento utilizzando il generatore di argomenti
 
@@ -118,6 +126,9 @@ Per creare un argomento utilizzando il generatore di argomenti, effettuare le se
 1. Selezionare un&#39;origine dati per visualizzare i generatori di frammenti di contenuto e i generatori di argomenti disponibili per l&#39;origine dati selezionata.
 
    ![](images/data-sources.png){width="300" align="left"}
+
+   *Aggiungere un generatore di argomenti per un&#39;origine dati connessa.*
+
 1. Seleziona **Aggiungi** ![](images/Add_icon.svg) e seleziona **Generatore di argomenti** dal menu a discesa, per aggiungere un nuovo generatore di argomenti. Il **Aggiungi generatore di argomenti** viene visualizzato il pannello.
 
 
@@ -128,13 +139,14 @@ Per creare un argomento utilizzando il generatore di argomenti, effettuare le se
 
    ![](images/topic-generator-fetch-configuration.png){width="300" align="left"}
 
+   *Aggiungi i dettagli di Query dati, Modello di mappatura dati e Nodo principale per il generatore di argomenti e assegnagli un nome univoco nel pannello Recupera configurazione.*
 
    1. Immetti la query nel **Query dati** casella di testo.
    1. Seleziona il modello da mappare con l&#39;origine dati dall&#39; **Modello di mappatura dati** a discesa.
 
-   >[!NOTE]
-   >
-   > Se l’amministratore ha configurato dei modelli personalizzati, questi vengono visualizzati anche nell’elenco a discesa (in base alle configurazioni del percorso del modello eseguite dall’amministratore). È ad esempio possibile creare un modello di argomento contenente un elenco ordinato, tabelle, paragrafi o altri elementi DITA.
+      >[!NOTE]
+      >
+      > Se l’amministratore ha configurato dei modelli personalizzati, questi vengono visualizzati anche nell’elenco a discesa (in base alle configurazioni del percorso del modello eseguite dall’amministratore). È ad esempio possibile creare un modello di argomento contenente un elenco ordinato, tabelle, paragrafi o altri elementi DITA.
 
    1. Inserisci il **Nodo principale**. Questo è il nodo in cui desideri accedere ai tuoi dati. Il generatore di argomenti crea quindi ogni argomento al livello definito nel nodo principale. Ad esempio, puoi aggiungere &quot;problemi&quot; come nodo principale in Jira. Pertanto, se una query restituisce 13 problemi, riceverai 13 argomenti, uno per ogni problema.
 
@@ -148,6 +160,8 @@ Per creare un argomento utilizzando il generatore di argomenti, effettuare le se
    **Configurazione output**
 
    ![](images/topic-generator-output-configuration.png){width="300" align="left"}
+
+   *Immettete i dettagli del percorso di output e della convenzione di denominazione degli argomenti nel pannello Configurazione output. Generare una mappa DITA e denominarla.*
 
    1. Inserisci il **Percorso di output** dettagli in cui salvare gli argomenti.
    1. In **Convenzione di denominazione argomento**, puoi immettere un valore o una variabile con i tag di velocità. I nuovi temi seguiranno la Convenzione. Ad esempio, puoi immettere `$key` per creare argomenti in base ai tasti Jira.
@@ -166,7 +180,7 @@ Per creare un argomento utilizzando il generatore di argomenti, effettuare le se
 
    ![](images/topic-generator-metadata.png){width="300" align="left"}
 
-
+   *Aggiungi le proprietà dei metadati nel pannello Metadati per passare agli argomenti.*
 
 1. Inserisci il nome del generatore e fai clic su **Salva** per salvare i risultati della query. Un nuovo generatore di argomenti viene aggiunto all&#39;elenco.
 
@@ -175,6 +189,8 @@ Per creare un argomento utilizzando il generatore di argomenti, effettuare le se
 
 
    ![](images/edit-topic-generator.png){width="650" align="left"}
+
+   *Genera nuovi argomenti da un generatore di argomenti esistente.*
 
    >[!NOTE]
    >
@@ -192,6 +208,8 @@ Fare clic con il pulsante destro del mouse su un generatore di argomenti per apr
   >Se l&#39;argomento esiste già, è possibile sovrascrivere i dati nell&#39;argomento o salvarli come nuova versione.
 
   ![](images/generate-topic-options.png)
+
+  *Genera un argomento e, se il file esiste già, salvalo come nuova versione o sovrascrivilo.*
 
 - **Modifica**: utilizza questa opzione per modificare e salvare il generatore di argomenti.
 - **Elimina**: utilizza questa opzione per eliminare il generatore di argomenti selezionato.
