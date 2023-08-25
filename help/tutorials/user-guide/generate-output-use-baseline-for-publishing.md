@@ -2,9 +2,9 @@
 title: Utilizzare la previsione
 description: Scopri come utilizzare la linea di base
 exl-id: dcafab53-c388-48c3-9455-e4251cdda17d
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8e2e2c60f223b3967fad10372abee3192016c4ef
 workflow-type: tm+mt
-source-wordcount: '1917'
+source-wordcount: '1936'
 ht-degree: 0%
 
 ---
@@ -43,40 +43,20 @@ Per creare una baseline, effettuare le operazioni riportate di seguito.
 
 1. Nella pagina Baseline fare clic su **Crea**.
 1. Immettere un nome per la baseline in **Nome linea di base**.
+   ![creare una baseline](images/create-baseline.png){width="800" align="left"}
 1. In entrata **Imposta la versione in base a**, seleziona una delle opzioni seguenti:
 
    - **Etichetta**: seleziona questa opzione per scegliere gli argomenti in base all’etichetta ad essi applicata. Immettere un&#39;etichetta per filtrare l&#39;elenco in base alla stringa immessa. Dall’elenco delle risorse filtrate, puoi scegliere un’etichetta per selezionare gli argomenti e le altre risorse con l’etichetta specificata.
+
    Quando selezioni **Etichetta** Inoltre, è disponibile un&#39;opzione aggiuntiva per utilizzare la versione più recente degli argomenti a cui non è stata applicata l&#39;etichetta specificata. Se non si seleziona questa opzione e sono presenti file di argomento o file multimediali senza l&#39;etichetta specificata, il processo di creazione della linea di base avrà esito negativo. Per ulteriori informazioni sull&#39;aggiunta di etichette, vedere [Usa etichette](web-editor-use-label.md#).
 
    - **Versione su** &lt;*timestamp*\>: seleziona la versione degli argomenti in base alla data e all&#39;ora specificate. L’ora specificata qui corrisponde al fuso orario del server AEM. Se il server si trova in un fuso orario diverso, gli argomenti verranno selezionati in base al fuso orario del server e non a quello locale.
 
    Dopo aver selezionato un&#39;etichetta o una versione come alla data, tutti gli argomenti e i file multimediali a cui si fa riferimento nella mappa vengono selezionati di conseguenza. Questa selezione di argomenti non viene visualizzata nell&#39;interfaccia utente, ma viene salvata nel back-end.
 
-1. Se si desidera utilizzare una versione diversa per uno o più argomenti, è possibile selezionare manualmente tali argomenti. Clic **Sfoglia argomento**, selezionare l&#39;argomento per il quale si desidera utilizzare una versione diversa. Dall&#39;elenco a discesa Seleziona una versione per l&#39;argomento selezionato, selezionare una versione dell&#39;argomento che si desidera utilizzare nella baseline e fare clic su **OK**.
-
-   ![](images/baseline-select-version-drop-down.png){width="800" align="left"}
-
-   Le informazioni sull&#39;argomento e sulla versione selezionata vengono memorizzate nel back-end. È possibile ripetere questo passaggio per modificare la versione selezionata per più argomenti.
-
-1. Fai clic su **Sfoglia tutti gli argomenti** collegamento per caricare tutti gli argomenti e i file multimediali a cui si fa riferimento dalla mappa DITA.L&#39;UUID degli argomenti e dei file multimediali viene inoltre visualizzato sotto il titolo dell&#39;argomento o il nome del file \(media\).
-
    >[!NOTE]
    >
-   > Se nella mappa DITA è presente un set di file molto grande, con mappe e argomenti nidificati, il caricamento di tutti i file potrebbe richiedere del tempo se si fa clic su Sfoglia tutti gli argomenti.
-
-   Il contenuto della mappa è presentato nelle tre sezioni seguenti: File mappa, Contenuto \(riferimenti argomento\) e Contenuto di riferimento \(argomenti nidificati, mappe e altre risorse\). Una volta disponibili tutti i contenuti a cui si fa riferimento, è possibile selezionare singolarmente la versione dell&#39;argomento che si desidera utilizzare nella baseline.
-
-   Il **Versione** elenco a discesa mostra le versioni disponibili degli argomenti o del contenuto a cui si fa riferimento. Per il contenuto a cui si fa riferimento, è possibile scegliere automaticamente una versione.
-
-   Se si sceglie **Scegli automaticamente** per il contenuto di riferimento, il sistema seleziona automaticamente la versione del contenuto di riferimento corrispondente alla versione del contenuto in cui viene fatto riferimento. Ad esempio, supponiamo che un argomento A abbia un riferimento a un’immagine B. Quando è stata creata la versione 1.5 dell’argomento A, la versione dell’immagine B era 1.2 nell’archivio. Ora, quando si crea una linea di base con la versione 1.5 dell’argomento A, con l’immagine B impostata su **Scegli automaticamente**, il sistema sceglierà automaticamente la versione 1.2 dell&#39;immagine B.
-
-   Se si crea una baseline utilizzando le etichette, **Scegli automaticamente** viene applicato alla versione di tutto il contenuto a cui si fa riferimento.
-
-   Se il contenuto o le risorse a cui si fa riferimento (argomento, mappe secondarie, immagini o video\) non hanno versioni \ (ad esempio, contenuto appena caricato\), la creazione di una baseline creerà una versione per tali file. Tuttavia, se i file sono stati sottoposti a controllo delle versioni, non viene creata alcuna versione incrementale per tali file. Questo comportamento è controllato dall’impostazione di creazione automatica della versione, abilitata per impostazione predefinita. Ciò è necessario anche per la traduzione del contenuto in cui il processo di traduzione si aspetta che tutti i file abbiano una versione.
-
-   >[!NOTE]
-   >
-   > Se desideri specificare una versione diversa per una particolare risorsa, puoi farlo scegliendo la versione desiderata da **Versione** elenco a discesa.
+   >Si consiglia di non utilizzare il **Sfoglia tutti gli argomenti** durante la creazione di una baseline.
 
 1. Fai clic su **Salva**.
 
@@ -108,6 +88,31 @@ Per modificare una baseline esistente, effettuare le operazioni riportate di seg
 
 1. Selezionare la baseline e fare clic su **Modifica**.
 1. Apportare le modifiche necessarie nella baseline. È possibile modificare il nome e la versione dell&#39;argomento o del contenuto di riferimento.
+1. Se si desidera utilizzare una versione diversa per uno o più argomenti, è possibile selezionare manualmente tali argomenti. Clic **Sfoglia argomento**, selezionare l&#39;argomento per il quale si desidera utilizzare una versione diversa. Dall&#39;elenco a discesa Seleziona una versione per l&#39;argomento selezionato, selezionare una versione dell&#39;argomento che si desidera utilizzare nella baseline e fare clic su **OK**.
+
+   ![](images/baseline-select-version-drop-down.png){width="800" align="left"}
+
+   Le informazioni sull&#39;argomento e sulla versione selezionata vengono memorizzate nel back-end. È possibile ripetere questo passaggio per modificare la versione selezionata per più argomenti.
+
+1. Per caricare tutti gli argomenti e i file multimediali a cui si fa riferimento dalla mappa DITA, fare clic sul pulsante **Sfoglia tutti gli argomenti** collegamento. L’UUID degli argomenti e dei file multimediali è riportato anche sotto il titolo dell’argomento o il nome del file \(media\).
+
+   >[!NOTE]
+   >
+   > Se nella mappa DITA è presente un set di file molto grande, con mappe e argomenti nidificati, il caricamento di tutti i file potrebbe richiedere del tempo se si fa clic su Sfoglia tutti gli argomenti.
+
+   Il contenuto della mappa è presentato nelle tre sezioni seguenti: File mappa, Contenuto \(riferimenti argomento\) e Contenuto di riferimento \(argomenti nidificati, mappe e altre risorse\). Una volta disponibili tutti i contenuti a cui si fa riferimento, è possibile selezionare singolarmente la versione dell&#39;argomento che si desidera utilizzare nella baseline.
+
+   Il **Versione** elenco a discesa mostra le versioni disponibili degli argomenti o del contenuto a cui si fa riferimento. Per il contenuto a cui si fa riferimento, è possibile scegliere automaticamente una versione.
+
+   Se si sceglie **Scegli automaticamente** per il contenuto di riferimento, il sistema seleziona automaticamente la versione del contenuto di riferimento corrispondente alla versione del contenuto in cui viene fatto riferimento. Ad esempio, supponiamo che un argomento A abbia un riferimento a un’immagine B. Quando è stata creata la versione 1.5 dell’argomento A, la versione dell’immagine B era 1.2 nell’archivio. Ora, quando si crea una linea di base con la versione 1.5 dell’argomento A, con l’immagine B impostata su **Scegli automaticamente**, il sistema sceglierà automaticamente la versione 1.2 dell&#39;immagine B.
+
+   Se si crea una baseline utilizzando le etichette, **Scegli automaticamente** viene applicato alla versione di tutto il contenuto a cui si fa riferimento.
+
+   Se il contenuto o le risorse a cui si fa riferimento (argomento, mappe secondarie, immagini o video\) non hanno versioni \ (ad esempio, contenuto appena caricato\), la creazione di una baseline creerà una versione per tali file. Tuttavia, se i file sono stati sottoposti a controllo delle versioni, non viene creata alcuna versione incrementale per tali file. Questo comportamento è controllato dall’impostazione di creazione automatica della versione, abilitata per impostazione predefinita. Ciò è necessario anche per la traduzione del contenuto in cui il processo di traduzione si aspetta che tutti i file abbiano una versione.
+
+   >[!NOTE]
+   >
+   > Se desideri specificare una versione diversa per una particolare risorsa, puoi farlo scegliendo la versione desiderata da **Versione** elenco a discesa.
 1. Fai clic su **Salva**.
 
 **Duplica linee di base**
@@ -143,7 +148,7 @@ Per aggiungere un&#39;etichetta a più argomenti e al contenuto di riferimento i
    - Clic **Aggiungi**.
 L&#39;etichetta specificata viene aggiunta alla mappa DITA e agli argomenti e al contenuto a cui si fa riferimento.
 
-      ![](images/label-added-baseline-uuid.png){width="650" align="left"}
+     ![](images/label-added-baseline-uuid.png){width="650" align="left"}
 
 
 ## Esporta previsione tradotta {#id196SE600GHS}
