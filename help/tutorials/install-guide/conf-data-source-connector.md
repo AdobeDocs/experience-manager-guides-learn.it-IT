@@ -1,7 +1,7 @@
 ---
 title: Configurare un connettore di origine dati
 description: Scopri come configurare un connettore di origine dati
-source-git-commit: f13b052b1cba88d946bdc498bc40d7a211ed3830
+source-git-commit: bb04590ccb08cde0826dcb60c664f47d7305c9d1
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 1%
@@ -27,7 +27,7 @@ Esempio di file di configurazione per l’autenticazione di base di Jira con nom
 	"configName": "Jira",
 	"templateFolders": ["/content/dam/dita-templates/konnect/jira"],
 	"connectionConfig": {
-		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthUserNamePasswordRestConfig",
+		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthRestConfig",
 		"configData": {
 			"username": "jirausername",
 			"password": "jirapassword",
@@ -47,7 +47,7 @@ Esempio di file di configurazione per l’autenticazione di base di Jira con tok
 	"configName": "Jira",
 	"templateFolders": ["/content/dam/dita-templates/konnect/jira"],
 	"connectionConfig": {
-		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthTokenRestConfig",
+		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthRestConfig",
 		"configData": {
 			"token": "jiraauthtoken",
 			"url": "https://jira.corp.adobe.com/rest/api/latest/search"
@@ -66,7 +66,7 @@ Un esempio di file di configurazione per l’autenticazione di base di Jira con 
 	"configName": "Jira",
 	"templateFolders": ["/content/dam/dita-templates/konnect/jira"],
 	"connectionConfig": {
-		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthTokenRestConfig",
+		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthRestConfig",
 		"configData": {
 			"token": "Basic jiraauthtoken",
 			"url": "https://jira.corp.adobe.com/rest/api/latest/search"
@@ -176,11 +176,11 @@ Altri campi vengono personalizzati in base alla classe di configurazione selezio
 
 Carica il file in una posizione specifica in AEM Assets.
 
-Ad esempio `/var/dxml/konnect/jira.json`
+Ad esempio,  `/var/dxml/konnect/jira.json`
 
 ## Creare una configurazione tramite API REST
 
-Puoi registrare la configurazione utilizzando l’API REST. Per ulteriori dettagli, vedi *API REST per registrare un connettore di origine dati* nella sezione Riferimento API per Adobe Experience Manager Guides.
+Puoi registrare la configurazione utilizzando l’API REST. Per ulteriori dettagli, vedi *API REST per registrare un connettore di origine dati* nella sezione Riferimento API per le guide di Adobe Experience Manager.
 
 Dopo aver configurato l’origine dati, il connettore viene elencato nel pannello Origini dati dell’Editor web. È quindi possibile connettersi all&#39;origine dati e inserire uno snippet di contenuto negli argomenti. Per ulteriori dettagli, vedi [Inserire uno snippet di contenuto dall&#39;origine dati](../user-guide/web-editor-content-snippet.md).
 

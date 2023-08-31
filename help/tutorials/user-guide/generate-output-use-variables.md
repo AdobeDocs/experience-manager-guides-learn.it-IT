@@ -2,9 +2,9 @@
 title: Utilizzare le variabili per impostare le opzioni Percorso di destinazione, Nome sito o Nome file
 description: Scopri come utilizzare le variabili per impostare le opzioni Percorso di destinazione, Nome sito o Nome file
 exl-id: e8d5b7c7-4f80-4ab6-9ad1-308bf0d4cf74
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: cf45be23a6369de1e510b7e8ee9cd1a2b61721e3
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ Nella tabella seguente sono elencate le variabili supportate come predefinite:
 | `${language_code}` | Utilizza il codice della lingua in cui si trova il file di mappa per creare il percorso di destinazione. | **Nome file mappa DITA**:<br>`SampleDita.ditamap`<br><br>**Percorso file mappa DITA**:<br>`/content/dam/projects/AEM-Guides/en/user-guide/`<br><br>**Percorso di destinazione** configurato come:<br>`/content/output/sites/${language_code}`<br><br>**Ubicazione di output finale**:<br>`/content/output/sites/en/SampleDita.html` |
 | `${map_parentpath}` | Utilizza il percorso completo del file di mappa per creare il percorso di destinazione.<br><br>**Nota**: questa variabile non può essere utilizzata per specificare il nome del sito AEM o il nome del file PDF. | **Nome file mappa DITA**:<br>`SampleDita.ditamap`<br><br>**Percorso file mappa DITA**:<br>`/content/dam/projects/AEM-Guides/en/user-guide`/<br><br>**Percorso di destinazione** configurato come:<br>`/content/output/sites/${map_parentpath}`<br><br>**Ubicazione di output finale**:<br>`/content/output/sites/content/dam/projects/AEM-Guides/en/user-guide/SampleDita.html` |
 | `${path_after_langfolder}` | Utilizza il percorso del file mappa dopo la cartella della lingua per creare il percorso di destinazione.<br><br>**Nota**: questa variabile non può essere utilizzata per specificare il nome del sito AEM o il nome del file PDF. | **Nome file mappa DITA**:<br>`SampleDita.ditamap`<br><br>**Percorso file mappa DITA**:<br>`/content/dam/projects/AEM-Guides/en/user-guide/`<br><br>**Percorso di destinazione** configurato come:<br>`/content/output/sites/${path\_after\_langfolder}`<br><br>**Ubicazione di output finale**:<br>`/content/output/sites/user-guide/SampleDita.html` |
+| `${system_date}` | Utilizza la data del server corrente per creare il percorso di destinazione. | **Nome file mappa DITA**: <br> `SampleDita.ditamap` <br><br> **Percorso file mappa DITA:** <br> `/content/dam/projects/AEM-Guides/en/user-guide/` <br><br> **Percorso di destinazione** configurato come: <br> `/content/output/sites/${system_date}` <br> <br> **Ubicazione di output finale:** <br> /`content/output/sites/08252023/SampleDita.html` |
+| `${system_time}` | Utilizza l’ora del server corrente per creare il percorso di destinazione. | **Nome file mappa DITA:** <br>`SampleDita.ditamap` <br> <br> **Percorso file mappa DITA:** <br>`/content/dam/projects/AEM-Guides/en/user-guide/` <br><Br>**Percorso di destinazione** configurato come: <br> `/content/output/sites/${system_time}`<br><br>**Ubicazione di output finale:**<br>`/content/output/sites/055612/SampleDita.html` |
 
 È inoltre possibile utilizzare come variabili i metadati definiti per il file mappa DITA o mappa di un libro. I metadati si trovano sotto `/jcr:content/metadata` nodo del file mappa DITA o del file di mappa di un libro. Ad esempio, una delle proprietà di metadati definite in `/jcr:content/metadata` il nodo è `dc:title`. È possibile specificare `${dc:title}` e il valore del titolo viene utilizzato nell’output finale.
 **Argomento padre:**[ Generazione di output](generate-output.md)

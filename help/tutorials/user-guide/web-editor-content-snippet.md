@@ -1,9 +1,9 @@
 ---
 title: Inserire uno snippet di contenuto dall'origine dati
 description: Scopri come inserire uno snippet di contenuto dall’origine dati
-source-git-commit: af5ec027ea093a28ba2a2ffd0ca3895546ed6e76
+source-git-commit: 71a64a35d065da10783d8e1a035ea1c4728e35f4
 workflow-type: tm+mt
-source-wordcount: '1685'
+source-wordcount: '1723'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,22 @@ A **origine dati** è un sistema in cui vengono memorizzati e gestiti i dati per
 
 ## Pannello Origini dati
 
-Seleziona **Origini dati** ![](images/data-source-icon.svg) nel pannello a sinistra per visualizzare le origini dati collegate. Viene visualizzato il pannello Origini dati (Data Sources), in cui sono visualizzate tutte le origini dati collegate. Per ulteriori dettagli, vedi [Configurare un connettore di origine dati](../install-guide/conf-data-source-connector.md).
+Seleziona **Origini dati** ![](images/data-source-icon.svg) nel pannello a sinistra per visualizzare le origini dati collegate. Viene visualizzato il pannello Origini dati (Data Sources), in cui sono visualizzate tutte le origini dati collegate.
+
+In base alla configurazione, l’amministratore può configurare un connettore dell’origine dati:
+
+<details>
+<summary> Servizi cloud </summary>
+
+Scopri come [configurare un connettore origine dati](../cs-install-guide/conf-data-source-connector.md) nella Guida all&#39;installazione e alla configurazione dei Cloud Service.
+</details>
+
+<details>    
+<summary>  Software on-premise </summary>
+
+Scopri come [configurare un connettore origine dati](../install-guide/conf-data-source-connector.md)  nella Guida all’installazione e alla configurazione on-premise.
+</details>
+
 
 >[!NOTE]
 >
@@ -28,7 +43,7 @@ Seleziona **Origini dati** ![](images/data-source-icon.svg) nel pannello a sinis
 
 Selezionare un&#39;origine dati per visualizzare i generatori di frammenti di contenuto e i generatori di argomenti disponibili per l&#39;origine dati selezionata.
 
-### Vista a elenco ![](images/data-sources-list-view-icon.svg)
+### Vista a elenco  ![](images/data-sources-list-view-icon.svg)
 
 ![](images/data-sources-list-view.png){width="300" align="left"}
 

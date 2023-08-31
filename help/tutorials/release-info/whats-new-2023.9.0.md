@@ -1,9 +1,9 @@
 ---
 title: Note sulla versione | Novità delle guide di Adobe Experience Manager, versione di settembre 2023
 description: Scopri le funzioni nuove e migliorate nella versione di settembre 2023 di Adobe Experience Manager Guides as a Cloud Service
-source-git-commit: c01c3500b55f3579633ad1a954f9010783365add
+source-git-commit: 9d59fbbc88c3effe0b1c8438d9f3af55ffb8da27
 workflow-type: tm+mt
-source-wordcount: '1361'
+source-wordcount: '1678'
 ht-degree: 0%
 
 ---
@@ -12,22 +12,21 @@ ht-degree: 0%
 
 Questo articolo descrive le funzioni nuove e migliorate della versione di settembre 2023 delle Guide di Adobe Experience Manager (in seguito denominate *Guide AEM as a Cloud Service*).
 
-Per ulteriori dettagli sulle istruzioni di aggiornamento, sulla matrice di compatibilità e sui problemi risolti in questa versione, consulta [Note sulla versione](release-notes-2023.7.0.md).
+Per ulteriori dettagli sulle istruzioni di aggiornamento, sulla matrice di compatibilità e sui problemi risolti in questa versione, consulta [Note sulla versione](release-notes-2023.9.0.md).
 
-## Connettersi a un&#39;origine dati e inserire dati negli argomenti
+## Connessione a un&#39;origine dati e inserimento degli argomenti
 
-Ora è possibile connettersi rapidamente alle origini dati utilizzando i connettori predefiniti delle guide AEM. La connessione a un&#39;origine dati consente di mantenere le informazioni sincronizzate con l&#39;origine e qualsiasi aggiornamento dei dati viene riflesso automaticamente, rendendo le guide AEM un vero e proprio hub di contenuti. Questa funzione ti consente di risparmiare tempo e fatica nell’aggiungere o copiare manualmente i dati.
+Le guide AEM forniscono connettori predefiniti che consentono di connettersi alle origini dati, rendendo le guide AEM un vero e proprio hub di contenuti. In questo modo è possibile risparmiare tempo e fatica, che altrimenti verrebbero utilizzati per l&#39;aggiunta o la replica manuale dei dati.
 
-Le guide AEM consentono all&#39;amministratore di configurare i connettori predefiniti per i database JIRA e SQL (MySQL, PostgreSQL, SQL Server, SQLite). Possono inoltre aggiungere altri connettori estendendo le interfacce predefinite.
-Una volta aggiunti, puoi visualizzare i connettori configurati elencati nel pannello Origini dati nell’Editor web.
+Oltre ai connettori predefiniti come JIRA e SQL (MySQL, PostgreSQL, SQL Server, SQLite), l’amministratore può anche configurare connettori per database MariaDB, H2DB, AdobeCommerce e Elasticsearch. Possono inoltre aggiungere altri connettori estendendo le interfacce predefinite.
+
+Puoi visualizzare i connettori configurati nella sezione **Origini dati** nell&#39;editor Web.
 
 <img src="assets/data-sources.png" alt="Elenco origini dati nel pannello" width="300">
 
 *Visualizzare le origini dati collegate.*
 
-Crea uno snippet di contenuto per recuperare i dati da un’origine dati connessa. È quindi possibile inserire i dati negli argomenti e modificarli. Dopo aver creato un generatore di frammenti di contenuto, puoi riutilizzarlo per inserire i dati in qualsiasi argomento.
-
-Ora è anche possibile creare un argomento da un&#39;origine dati connessa. Un argomento può contenere dati in vari formati, ad esempio tabelle, elenchi e paragrafi. Consente inoltre di creare una mappa DITA per tutti gli argomenti. È possibile associare i metadati all&#39;argomento quando si estrae da un&#39;origine dati.
+È ora possibile anche creare un argomento da un&#39;origine dati connessa. Un argomento può contenere dati in vari formati, ad esempio tabelle, elenchi e paragrafi. Consente inoltre di creare una mappa DITA per tutti gli argomenti. È possibile associare i metadati all&#39;argomento quando si estrae da un&#39;origine dati.
 
 Per ulteriori dettagli, vedi [Utilizzare dati dall’origine dati](../user-guide/web-editor-content-snippet.md).
 
@@ -40,6 +39,7 @@ Nelle guide AEM, puoi aggiungere citazioni o importarle e applicarle al contenut
 Dopo aver inserito le citazioni negli argomenti, è possibile visualizzarne l&#39;anteprima nell&#39;editor Web. Puoi anche pubblicare i contenuti con le citazioni utilizzando Native PDF.
 
 ![Citazioni elencate in un pannello](assets/citation-panel.png){width="300" align="left"}
+
 *Visualizzare l&#39;elenco delle citazioni nel pannello Citazioni.*
 
 Per ulteriori dettagli, vedi [Aggiungere e gestire le citazioni nel contenuto](../user-guide/web-editor-apply-citations.md).
@@ -54,7 +54,10 @@ Ora le guide AEM offrono un modo per pubblicare un argomento o gli elementi all�
 Sfrutta la potenza delle guide AEM e dei frammenti di contenuto e utilizza i frammenti di contenuto in qualsiasi sito AEM. Puoi anche estrarre i dettagli tramite API supportate da frammenti di contenuto.
 
 ![opzione per pubblicare un frammento di contenuto](assets/content-fragment-publish.png){width="550" align="left"}
+
 *Pubblicare un argomento in un frammento di contenuto.*
+
+Per ulteriori dettagli, vedi [Pubblicare in un frammento di contenuto](../user-guide//publish-content-fragment.md).
 
 ## Revisione dei miglioramenti
 
@@ -66,6 +69,7 @@ La conduzione delle revisioni è una caratteristica fondamentale delle Guide del
 È ora possibile cercare un argomento immettendo una parte del testo del titolo o del percorso file nella barra di ricerca della visualizzazione argomenti del pannello di revisione. È inoltre possibile scegliere di visualizzare tutti gli argomenti o visualizzare gli argomenti con commenti. Per impostazione predefinita, è possibile visualizzare tutti gli argomenti presenti nell&#39;attività di revisione. Per ulteriori dettagli, vedi [Rivedi argomenti](../user-guide/review-topics.md).
 
 ![Ricerca in un pannello degli argomenti di revisione](assets/review-search-topic.png){width="800" align="left"}
+
 *Cerca un argomento di revisione nel pannello Revisione.*
 
 
@@ -78,7 +82,7 @@ Crea pacchetti personalizzati sopra le guide AEM per fornire estensibilità util
 
 ## Miglioramenti di Native PDF
 
-I seguenti miglioramenti di Native PDF sono stati apportati nella versione 4.3.0 per rendere le guide AEM un prodotto più robusto:
+I seguenti miglioramenti di Native PDF sono stati apportati nella versione di settembre 2023 per rendere le guide AEM un prodotto più robusto:
 
 
 
@@ -101,15 +105,23 @@ Per ulteriori dettagli, vedi [Ordine pagine](../native-pdf/components-pdf-templa
 
 ### Unisci pagine
 
-In un output di PDF nativo per impostazione predefinita, tutte le sezioni iniziano su una nuova pagina. È ora possibile unire una sezione alla pagina precedente o a quella successiva. In questo modo la sezione viene pubblicata insieme alla pagina selezionata nell’output di PDF e non vi è alcuna interruzione di pagina tra le pagine.
+In un output di PDF nativo per impostazione predefinita, tutte le sezioni iniziano su una nuova pagina. È ora possibile unire una sezione alla pagina precedente o a quella successiva. In questo modo la sezione viene pubblicata continuando con la pagina selezionata nell’output di PDF e non vi è alcuna interruzione di pagina tra le pagine.
 
-Per ulteriori dettagli, consulta la descrizione della funzione Unisci pagine in [Ordine pagine](../native-pdf/components-pdf-template.md#page-order) sezione.
+Per ulteriori dettagli, vedi **Unisci pagine** descrizione della funzione in [Ordine pagine](../native-pdf/components-pdf-template.md#page-order) sezione.
+
+### Inizia qualsiasi capitolo dalla pagina corrente
+
+È possibile impostare le impostazioni di configurazione di base per l&#39;avvio di un capitolo da una pagina pari o dispari, la struttura del sommario e definire il formato della linea guida per le voci del sommario.
+
+Ora è anche possibile iniziare un capitolo dalla pagina corrente. Se scegli di farlo, tutti i capitoli vengono pubblicati in continuazione senza interruzioni di pagina. Ad esempio, se un capitolo termina a metà della pagina 15, anche il capitolo successivo inizia dalla quindicesima pagina.
+
+Per ulteriori dettagli, vedi **Generale** descrizione scheda in  [Impostazioni avanzate di PDF](../native-pdf/components-pdf-template.md#advanced-pdf-settings-advanced-pdf-settings).
 
 ### Pagine statiche
 
 Puoi anche creare layout di pagina personalizzati e pubblicarli come pagine statiche nell’output di PDF. Questo consente di aggiungere qualsiasi contenuto statico come note o pagine vuote.
 
-Per ulteriori dettagli, consulta la descrizione della funzione Pagine statiche in [Ordine pagine](../native-pdf/components-pdf-template.md#page-order) sezione.
+Per ulteriori dettagli, vedi **Pagine statiche** descrizione della funzione in [Ordine pagine](../native-pdf/components-pdf-template.md#page-order) sezione.
 
 
 ### Variabili nei riferimenti incrociati
@@ -135,16 +147,29 @@ Ora puoi utilizzare selettori personalizzati per aggiungere stili complessi. Il 
 
 ![aggiunta di stili nei modelli pdf nativi](assets/add-styles-native-pdf.png){width="300" align="left"}
 
+*Aggiungi i dettagli per il nuovo stile.*
+
 #### Personalizzare le proprietà dello stile
 
 Ora AEM Guides presenta un nuovo pannello proprietà nella sezione di anteprima degli stili. Potete modificare le proprietà degli stili in modo più efficiente e rapido dal pannello delle proprietà.
 
 
+## Supporto per più definizioni di soggetti in una singola definizione di enumerazione
+
+Ora puoi definire una o più definizioni dei soggetti in una mappa e le definizioni di enumerazione in un&#39;altra mappa, quindi aggiungere il riferimento alla mappa. I riferimenti di enumerazione dei soggetti vengono risolti nella stessa mappa o nella mappa di riferimento.
+
+Ora puoi anche definire le condizioni e applicarle ad alcuni elementi specifici di un argomento.  Le condizioni sono visibili solo per questi elementi specifici e non per tutti gli altri elementi.
+
+Per ulteriori dettagli sulla gestione delle definizioni gerarchiche delle definizioni e delle enumerazioni dei soggetti, vedere la descrizione della caratteristica Schema dei soggetti in [Pannello sinistro](../user-guide/web-editor-features.md#id2051EA0M0HS) sezione.
+
+
+
+
 
 ## Selezionare tutti i predefiniti in una raccolta mappe
 
-Non solo è possibile selezionare un singolo predefinito, ma è anche possibile abilitare tutti i predefiniti per una mappa DITA in un&#39;unica operazione.
-![modificare una raccolta di mappe](assets/edit-map-collection.png){width="800" align="left"}\
+È possibile non solo attivare un predefinito singolo e tutti i predefiniti di profilo di cartella, ma anche attivare tutti i predefiniti per una mappa DITA in un&#39;unica operazione.
+![modificare una raccolta di mappe](assets/edit-map-collection-cs.png){width="800" align="left"}\
 *Selezionate tutti i predefiniti in una raccolta di mappe.*
 
 Per ulteriori dettagli, vedi [Usa raccolta mappe per la generazione dell&#39;output](../user-guide/generate-output-use-map-collection-output-generation.md).
@@ -164,3 +189,19 @@ Ora, in qualità di amministratore, puoi utilizzare il migliorato strumento Spos
 Per ulteriori dettagli, vedi [Spostare i file in blocco](../user-guide/authoring-file-management.md#move-files-bulk).
 
 
+## Esperienza di anteprima migliorata dal menu di scelta rapida
+
+Utilizza il menu di scelta rapida per visualizzare rapidamente in anteprima il file (.dita, .xml, audio, video o immagine) senza aprirlo. Ora è possibile ridimensionare il riquadro di anteprima e, se il contenuto contiene un collegamento di riferimento, è possibile selezionarlo per aprirlo in una nuova scheda.
+
+![Riquadro di anteprima ](assets/quick-preview_cs.png){width="800" align="left"}
+
+*Visualizzare l&#39;anteprima del file nel riquadro.*
+
+Per ulteriori dettagli sul menu di scelta rapida, vedere **Opzioni per un file** descrizione della funzione in [Pannello sinistro](../user-guide/web-editor-features.md#id2051EA0M0HS) sezione.
+
+
+## Utilizzare le variabili per la data e l&#39;ora correnti nelle opzioni Percorso di destinazione, Nome sito o Nome file
+
+Durante la generazione di output nel sito AEM o nei PDF, è possibile utilizzare le variabili per impostare **Percorso di destinazione**, **Nome sito**, o **Nome file** opzioni. Ora puoi anche utilizzare il `${system_date}`e `${system_time}` variabili. Queste variabili consentono di aggiungere la data e l’ora correnti a queste opzioni.
+
+Scopri come [utilizzare le variabili per impostare le opzioni Percorso di destinazione, Nome sito o Nome file](../user-guide/generate-output-use-variables.md).

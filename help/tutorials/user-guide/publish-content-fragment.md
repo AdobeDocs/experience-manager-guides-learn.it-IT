@@ -1,9 +1,9 @@
 ---
 title: Pubblicare un argomento in un frammento di contenuto
 description: Scopri come pubblicare un argomento in un frammento di contenuto.
-source-git-commit: 6cd7d2ec76f90a192dbcd0ef552789d42c23a4fb
+source-git-commit: dd677257d94015d888705e4b6a43ae877e58be4b
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '593'
 ht-degree: 1%
 
 ---
@@ -36,11 +36,22 @@ Ad esempio, aggiungi `/conf/we-retail` nella configurazione cloud. Questa config
    * **Modello**: seleziona il modello per frammenti di contenuto da utilizzare per creare il frammento di contenuto. I modelli vengono selezionati dalla cartella configurata nei servizi cloud.
    * **Mappatura**: seleziona una mappatura dal menu a discesa. Seleziona le mappature da *contentFragmentMapping.json* file.
 
-     >[!NOTE]
-     >
-     >L’amministratore può aggiungere le mappature nel *contentFragmentMapping.json* file.  Ulteriori informazioni su come [creare una mappatura tra un argomento e un frammento di contenuto](../install-guide/conf-content-fragment-mapping.md) in *Guida all’installazione e alla configurazione on-premise*.
 
 
+     In base alla configurazione, l’amministratore può aggiungere le mappature nel *contentFragmentMapping.json* file.
+
+     <details>
+        <summary>Servizi cloud</summary>
+
+     Ulteriori informazioni su come [creare una mappatura tra un argomento e un frammento di contenuto](../cs-install-guide/conf-content-fragment-mapping-cs.md) nella Guida all&#39;installazione e alla configurazione dei Cloud Service.
+     </details>
+
+     <details>
+        <summary> Software on-premise</summary>
+
+     Ulteriori informazioni su come [creare una mappatura tra un argomento e un frammento di contenuto](../install-guide/conf-content-fragment-mapping.md) nella Guida all’installazione e alla configurazione on-premise.
+
+     </details>
    * Seleziona la **Sovrascrivere** casella di controllo se il frammento di contenuto esiste già e desideri sovrascriverlo. Le guide AEM visualizzano un errore se non selezioni la casella di controllo e il frammento di contenuto esiste già.
 1. Clic **Crea** per pubblicare il frammento di contenuto.
 1. Puoi visualizzare i frammenti di contenuto di un argomento nella sezione **Frammenti** sezione nella sezione **Proprietà file**.

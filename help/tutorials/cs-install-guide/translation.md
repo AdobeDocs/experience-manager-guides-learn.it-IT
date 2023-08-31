@@ -1,7 +1,7 @@
 ---
 title: Tradurre il contenuto
 description: Scopri come tradurre i contenuti
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 4d54c52b8771b0c5a40018cfec3a6586029af2fb
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 15%
@@ -48,7 +48,7 @@ Per nascondere la scheda Traduzione nel dashboard delle mappe DITA, effettuare l
 
    | PID | Chiave proprietà | Valore proprietà |
    |---|------------|--------------|
-   | `com.adobe.fmdita.config.ConfigManager` | `hide.tabs.translation` | Booleano \( true/ false\).<br> **Valore predefinito**: `true` |
+   | `com.adobe.fmdita.config.ConfigManager` | `tabs.translation` | Booleano \( true/ false\).<br> **Valore predefinito**: `true` |
 
    >[!NOTE]
    >

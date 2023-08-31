@@ -4,9 +4,9 @@ description: Scopri come utilizzare il plug-in di ossigeno per le guide di Adobe
 hide: true
 hidefromtoc: true
 exl-id: 2db9a34e-2efa-47ad-ba6b-02afc5197669
-source-git-commit: a77f93ddc14b6beb440eaa314eebe53fd00265d7
+source-git-commit: 7fbc6d22fd2f93b7b5bf3233f7ebdd0cb020dda2
 workflow-type: tm+mt
-source-wordcount: '5952'
+source-wordcount: '6038'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Il plug-in di ossigeno per le guide AEM è disponibile tramite il portale di dis
 
 >[!NOTE]
 >
->Verifica la compatibilità della versione del connettore di ossigeno dalle note sulla versione per le specifiche Adobe Experience Manager Guides.
+>Verificare la compatibilità della versione del connettore di ossigeno dalle note sulla versione per le specifiche guide Adobe Experience Manager.
 
 Una volta installato il programma di installazione, installarlo nel computer locale in cui è installato Oxygen XML Author. Prima di iniziare il processo di installazione, è necessario assicurarsi che il sistema soddisfi i requisiti tecnici per installare il plug-in di ossigeno per le guide AEM.
 
@@ -146,7 +146,7 @@ Dopo aver scaricato e installato il plug-in, devi configurare i seguenti element
 
 - **Impostazioni di autenticazione Web**: impostazioni per l’autenticazione SSO nel plug-in per le guide AEM.
 - **Impostazioni generali**: impostazioni di connessione per il plug-in, ad esempio l’URL del server AEM, i dettagli di accesso e così via.
-- **Preferenza per la personalizzazione degli attributi di profilatura**: questa configurazione è necessaria per gli schemi di attributi di profilatura per i set di documentazione.
+- **Preferenza per la personalizzazione degli attributi di profilatura e per i nomi di file e nei riferimenti incrociati**: questa configurazione è necessaria per gli schemi di attributi di profilatura per i set di documentazione.
 
 ### Impostazioni di autenticazione Web
 
@@ -204,7 +204,7 @@ Aggiungi le seguenti righe in ossigenoAuthor.bat
 
 ### Impostazioni generali
 
-Per configurare le impostazioni di connessione nel plug-in ossigeno per le guide di Adobe Experience Manager, effettua le seguenti operazioni:
+Per configurare le impostazioni di connessione in Oxygen Plugin for Adobe Experience Manager Guides, effettuare le seguenti operazioni:
 
 1. Nel pannello Guide AEM, fai clic sull’icona delle impostazioni, quindi seleziona **Impostazioni**.
 
@@ -236,11 +236,11 @@ Per configurare le impostazioni di connessione nel plug-in ossigeno per le guide
    - **Estrazione automatica file all&#39;apertura**: se selezionata, facendo doppio clic su un file viene automaticamente estratta e aperta per la modifica. Se il file è già stato estratto, viene semplicemente aperto per la modifica. Se questa opzione non è selezionata, l&#39;apertura di un file sul quale non si dispone di un blocco comporta l&#39;apertura in modalità di sola lettura.
 1. Fai clic su **OK**.
 
-### Preferenza per la personalizzazione degli attributi di profilatura {#id1827K0D0OHT}
+### Preferenza per la personalizzazione degli attributi di profilatura e i nomi dei file nei riferimenti incrociati {#id1827K0D0OHT}
 
-È necessario configurare le preferenze in Oxygen XML Author per utilizzare l&#39;attributo di profilatura associato agli argomenti DITA nell&#39;archivio AEM.
+È necessario configurare le preferenze in Oxygen XML Author per utilizzare l&#39;attributo di profilatura associato agli argomenti DITA nell&#39;archivio AEM. È inoltre necessario configurare la preferenza per la visualizzazione dei nomi di file al posto dei GUID nei riferimenti incrociati.
 
-Per configurare gli attributi di profilatura, effettua le seguenti operazioni:
+Per configurare gli attributi di profilatura e i riferimenti incrociati, effettuare le seguenti operazioni:
 
 1. In Oxygen XML Author, fare clic su **Opzioni** \> **Preferenze**.
 1. In **Associazione tipo di documento** , seleziona **DITA** e quindi fare clic su **Estendi**.
@@ -257,6 +257,11 @@ Per configurare gli attributi di profilatura, effettua le seguenti operazioni:
 La schermata seguente mostra i **Estensione** scheda per argomenti DITA:
 
      ![Estensione configurata per argomenti DITA](images/dita-topic-extension-tab.png){width="650" align="left"}
+
+   - Clic **Scegli** accanto al **Pacchetto di estensioni** e selezionare LinkResolverExtensionBundle - com.adobe.o2.framework.extn nel **Classe** elenco. Fai clic su **OK**.
+
+     ![Estensione configurata per argomenti DITA](images/dita-map-extenstion-link-resolve.png) {width="650" align="left"}
+
 
 1. Clic **OK** in tutte le finestre di dialogo per salvare le modifiche.
 
@@ -496,6 +501,7 @@ Durante lo spostamento o la copia dei contenuti dal sistema locale all’archivi
 
 - Quando si estrae il contenuto dal repository AEM e si apportano modifiche nel sistema locale, assicurarsi che il nome del file non venga modificato al momento del caricamento.
 
+- Quando inserite un riferimento in Gestione mappe DITA, viene visualizzato il titolo del file e non l&#39;UUID. Se il titolo non è presente, viene visualizzato il nome del file.
 
 ### Aggiungi o rimuovi preferiti {#id195HC04405P}
 

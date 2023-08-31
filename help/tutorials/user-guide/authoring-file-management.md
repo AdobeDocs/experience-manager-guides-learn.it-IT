@@ -2,9 +2,9 @@
 title: Gestione di file e cartelle
 description: Scopri come gestire file e cartelle
 exl-id: e7810b06-f49f-467a-b987-a5e6f731d4cf
-source-git-commit: d0b3ccb87901c54b86aa7d0dba14dc7201c072e9
+source-git-commit: 8154cfe11f2f032d457671ebca60c1ab3f090385
 workflow-type: tm+mt
-source-wordcount: '3079'
+source-wordcount: '3082'
 ht-degree: 0%
 
 ---
@@ -129,7 +129,7 @@ Per spostare i file in blocco, effettuare le seguenti operazioni:
 
    <details>
 
-   <summary> File system basato su UUID on-premise </summary>
+   <summary> Cloud Service e file system locale basato su UUID </summary>
 
    ![](images/bulk-move-tool-uuid.png){width="650" align="center"}
 
