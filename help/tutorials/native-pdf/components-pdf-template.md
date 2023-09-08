@@ -2,9 +2,9 @@
 title: Funzione di pubblicazione nativa di PDF | Componenti di un modello PDF
 description: Scopri i vari componenti di un modello di PDF e come personalizzarli e configurarli.
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: 18ec7e1b19cd6404b86f965be96caa88a0a067fe
+source-git-commit: 90cd3c53fd8da0b987c99950dd37d405bea12c6e
 workflow-type: tm+mt
-source-wordcount: '3934'
+source-wordcount: '4160'
 ht-degree: 0%
 
 ---
@@ -226,7 +226,14 @@ Per applicare la struttura del sommario e i livelli di intestazione degli stili,
   >
   >Se sei uno sviluppatore CSS, puoi definire il formato guida direttamente anche nel file CSS.
 
-* **Usa marcatore di continuazione tabella**: seleziona questa opzione per definire marcatori per tabelle lunghe distribuite su più pagine. <!--For more information on using table continuation markers, see Use table continuation markers.-->
+* **Usa marcatore di continuazione tabella**: seleziona questa opzione per definire marcatori per tabelle lunghe distribuite su più pagine.
+Potete definire il testo da visualizzare prima e dopo l&#39;interruzione. Ad esempio, una tabella si interrompe a pagina 5 e puoi definire `<Continued on page %page-num%>` per **Testo prima dell&#39;interruzione**.  Nella parte inferiore della pagina 5 viene visualizzato &quot;Continua a pagina 6&quot;.
+
+  Utilizza le variabili di lingua per definire il testo del marcatore di continuazione prima e dopo l’interruzione. A seconda della lingua scelta, il valore localizzato viene selezionato automaticamente nell’output di PDF. Ad esempio, puoi pubblicare `Continued on page %page-num%` in inglese e `Fortsetzung auf Seite %page-num%` in tedesco.
+
+  Passa il cursore sopra <img src="./assets/info-details.svg" alt= "icona info" width="25"> per visualizzare ulteriori dettagli su di essa.
+
+<!--For more information on using table continuation markers, see Use table continuation markers.-->
 
 ### Layout di pagina {#page-layouts}
 
@@ -355,13 +362,13 @@ Configurare le impostazioni di stampa per assegnare gli indicatori di stampa, se
 
   <!--For more information on applying these print settings, see *Printing preferences*.-->
 
-### Riferimenti incrociati {#cross-references}
+### Rimandi {#cross-references}
 
-Utilizzate la scheda Riferimento incrociato (Cross-reference) per definire la modalità di pubblicazione dei riferimenti incrociati nel PDF. È possibile formattare i riferimenti incrociati per il titolo dell&#39;argomento, tabelle, figure e altro ancora.
+Utilizza il **Riferimento incrociato** per definire la modalità di pubblicazione dei riferimenti incrociati nel PDF. È possibile formattare i riferimenti incrociati per il titolo dell&#39;argomento, tabelle, figure e altro ancora.
 
 È inoltre possibile utilizzare le variabili per definire un riferimento incrociato.  Quando utilizzi una variabile, il relativo valore viene selezionato dalle proprietà. È possibile utilizzare una singola variabile o una combinazione di variabili per definire un riferimento incrociato. Puoi anche utilizzare una combinazione di una stringa e una variabile.
 
-Ad esempio, puoi utilizzare Visualizza dettagli su {chapter}. Se il nome del capitolo è &quot;General settings&quot; (Impostazioni generali), il riferimento incrociato nell’output è &quot;See details on General settings&quot; (Vedi dettagli sulle impostazioni generali).
+Ad esempio, puoi utilizzare `View details on {chapter}`. Se il nome del capitolo è &quot;General settings&quot; (Impostazioni generali), il riferimento incrociato nell’output è &quot;See details on General settings&quot; (Vedi dettagli sulle impostazioni generali).
 
 Le guide AEM forniscono le seguenti variabili predefinite:
 
@@ -381,8 +388,25 @@ Le guide AEM forniscono le seguenti variabili predefinite:
   >È possibile creare stili di numerazione automatica per i tag didascalia e sottotitolo.
 
 
+#### Variabili di lingua nei riferimenti incrociati
+
+È inoltre possibile utilizzare le variabili di lingua per definire i riferimenti incrociati localizzati. A seconda della lingua scelta, il valore localizzato viene selezionato automaticamente nell’output di PDF.
+
+Ad esempio, puoi aggiungere una variabile di lingua &quot;reference-label&quot; e definire i valori in inglese e tedesco.
+
+* Inglese - &quot;View on page {page}&quot;
+* Tedesco - &quot;Einzelheiten finden Sie auf der Seite {page}&quot;
 
 
+Quando aggiungi `${lng:<variable name>}` alla sezione Paragrafo, i rimandi nei paragrafi dell&#39;output contengono il testo localizzato e il numero di pagina.\
+Ad esempio, le schermate seguenti mostrano i riferimenti incrociati &quot;Visualizza a pagina 1&quot; in inglese e &quot;Einzelheiten finden Sie auf der Seite 1&quot; in tedesco.
 
+<img src="./assets/english-output-corss-reference.png" alt="Output inglese di un riferimento incrociato in un pragrah" width ="800">
+
+*Riferimento incrociato all&#39;interno di un paragrafo quando pubblicato in lingua inglese.*
+
+<img src="./assets/german-output-corss-reference.png" alt="Output tedesco di un riferimento incrociato in un pragrah" width ="800">
+
+*Un rimando all’interno di un paragrafo quando pubblicato in lingua tedesca.*
 
 <!--For more information, see *Format cross-references*.-->
