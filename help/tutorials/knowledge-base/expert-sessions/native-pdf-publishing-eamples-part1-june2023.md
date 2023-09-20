@@ -1,9 +1,10 @@
 ---
 title: Pubblicazione PDF nativa - Apprendimento per esempi (parte 1)
 description: Con il motore di pubblicazione di Native PDF, è possibile controllare il layout del contenuto del documento manipolando al contempo le sezioni desiderate in base alle esigenze, utilizzando CSS, HTML e JavaScript facili da aggiornare.
-source-git-commit: c004267eab4dfaea10565b535b875c716c162343
+exl-id: e6fcb2cb-4dfe-4aa7-8c84-f11759898c41
+source-git-commit: 63c2103c18b2a6da450247b1ee6b676a00d5a510
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '287'
 ht-degree: 1%
 
 ---
@@ -43,7 +44,7 @@ In questa sessione, hai appreso le seguenti informazioni per la pubblicazione di
 
 - **Panoramica funzionale della pubblicazione di PDF nativi** - [su Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23.html?lang=en)
 
-- **Casi d’uso comuni documentati** - [su Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/configuring/config-native-pdf-publish/content-styles/stylesheet.html?lang=en)
+- **Casi d’uso comuni documentati** - [su Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/content-styles/stylesheet.html?lang=en)
 
 - **Forum della community** - Per le interazioni della community specifiche per sessione su Experience League, visita  [Forum sulle guide dell’AEM](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
@@ -51,13 +52,12 @@ In questa sessione, hai appreso le seguenti informazioni per la pubblicazione di
 >
 > Le funzioni mostrate in questa sessione sono disponibili nelle seguenti versioni delle Guide AEM:
 > - On-prem 4.2 o versione successiva
-> - Cloud Services 2303 e successivi
-
+> - Cloud Service 2303 e successivi
 
 ## Prossima sessione di esperti
 
-- **Argomento** - Da definire
-- **Pianificato per** - 20 luglio 2023
+- **Argomento** - Pubblicazione PDF nativa &quot;Hands on lab - BYOS&quot; - Apprendimento interattivo
+- **Pianificato per** - 7 settembre 2023
 
 ## Contattaci
 
