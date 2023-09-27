@@ -1,10 +1,10 @@
 ---
 title: Rivedi argomenti
-description: Scopri come rivedere gli argomenti
+description: Scopri come rivedere gli argomenti e utilizzare le funzioni di revisore, visualizzazione documenti, visualizzazione argomenti, barra degli strumenti contestuale, modalità di anteprima, aggiunta di allegati ai commenti e pannello delle condizioni nelle guide AEM.
 exl-id: ca94ec2e-cd45-418d-9b35-73d587ba51ec
-source-git-commit: b9bf08ccbe2eb17ca8d4dac675155e0b4631f0a9
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '2323'
+source-wordcount: '2348'
 ht-degree: 0%
 
 ---

@@ -1,10 +1,10 @@
 ---
 title: Traduci argomenti modificati
-description: Scopri come tradurre gli argomenti modificati
+description: Scopri come tradurre nuovamente un argomento modificato nelle guide dell’AEM.
 exl-id: 48b868c3-27ec-4641-b40d-17a641be7497
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,7 @@ Per inviare un argomento modificato per la ritraduzione, effettua le seguenti op
    - Clic **Accetta traduzione** se pensi che le modifiche siano state tradotte correttamente. Viene visualizzato un messaggio di conferma.
 
    - Clic **Rifiuta traduzione** se pensi che il lavoro debba essere rifatto. Viene visualizzato un messaggio di rifiuto.
+
    >[!NOTE]
    >
    > È importante accettare o rifiutare la risorsa tradotta, altrimenti il file rimane nella posizione temporanea e non viene copiato in DAM.

@@ -1,10 +1,10 @@
 ---
 title: Risoluzione dei problemi di base
-description: Scopri come risolvere i problemi di base
+description: Risolvere i problemi relativi alla risoluzione dei problemi di base nelle guide AEM. Scopri come visualizzare, copiare e controllare il file di registro in un editor di testo e risolvere gli errori di compilazione JSP.
 exl-id: b5ab2618-6f11-4aaa-8471-09521f8bb512
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '690'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,7 @@ Per risolvere il problema, effettua le seguenti operazioni:
 
 1. Nella navigazione globale, selezionare Strumenti e scegliere Operazioni \> Console Web.
 
-   Viene visualizzata la pagina Configurazione della console web di Adobe Experience Manager.
+   Viene visualizzata la pagina Configurazione console Web Adobe Experience Manager.
 
 1. Cerca e fai clic su *Servlet principale Apache Sling* componente.
 

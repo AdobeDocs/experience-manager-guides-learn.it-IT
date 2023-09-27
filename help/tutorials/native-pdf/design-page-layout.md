@@ -2,9 +2,9 @@
 title: Funzione di pubblicazione nativa di PDF | Progettare il layout di una pagina
 description: Scopri come progettare il layout di pagina per presentare le informazioni in diverse sezioni dell’output PDF.
 exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
-source-git-commit: 6182455850fb14cc24ce6229f6e4cb2b547901b7
+source-git-commit: 5abcc887a24d838caabdf9a34a84ebc851ed4cbf
 workflow-type: tm+mt
-source-wordcount: '4712'
+source-wordcount: '4807'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Durante la creazione di un documento PDF, sono disponibili sezioni diverse per l
 
 Quando si progetta il layout di pagina, è possibile definire i vari elementi che compongono la pagina. Ad esempio, è possibile definire le dimensioni della pagina, i margini, l&#39;intestazione e il piè di pagina, l&#39;orientamento e altre specifiche di pagina in una pagina. La funzione di pubblicazione PDF nativa consente di progettare la pagina in base al [Standard per contenuti multimediali pagina](https://www.w3.org/TR/css-page-3/). La maggior parte delle impostazioni coperte dagli standard per file multimediali di paging possono essere facilmente personalizzate utilizzando l’interfaccia utente della funzione di pubblicazione di PDF nativi. Per altre formattazioni avanzate, puoi utilizzare la vista Origine per scrivere il codice CSS desiderato.
 
-Dopo aver progettato i layout di pagina, è necessario associarli alle rispettive sezioni nelle impostazioni Layout pagina PDF. Consulta la [Creare e personalizzare i layout di pagina](components-pdf-template.md#create-customize-page-layout) per informazioni dettagliate su come creare e aprire un layout di pagina per la personalizzazione.
+Dopo aver progettato i layout di pagina, è necessario associarli alle rispettive sezioni nelle impostazioni Layout pagina PDF. Consulta la [Creare e personalizzare layout di pagina](components-pdf-template.md#create-customize-page-layout) per informazioni dettagliate su come creare e aprire un layout di pagina per la personalizzazione.
 
 ## Tipi di layout di pagina {#types-of-page-layout}
 
@@ -33,7 +33,7 @@ Un documento PDF contiene in genere le sezioni seguenti:
 
 Per queste sezioni è necessario un layout di pagina corrispondente per presentare le informazioni in un formato specifico. Inoltre, è anche possibile avere una pagina vuota utilizzata come riempitivo per iniziare un nuovo capitolo da una pagina pari o dispari. In tal caso, è possibile utilizzare il layout di pagina predefinito o creare un layout di pagina per una pagina vuota. Consulta [Crea un nuovo layout di pagina](components-pdf-template.md#create-page-layout) per ulteriori dettagli.
 
-Le impostazioni Layout di pagina in **Modello>Impostazioni** consente di definire il layout di pagina da utilizzare per le diverse sezioni del PDF. Ciascun layout di pagina può inoltre avere diverse varianti di pagina a destra, a destra o a sinistra.
+Le impostazioni Layout di pagina nella sezione **Modello>Impostazioni** consente di definire il layout di pagina da utilizzare per le diverse sezioni del PDF. Ogni layout di pagina può avere ulteriori varianti di pagina a destra, a sinistra o a prima pagina.
 
 ### Creare le varianti di layout della prima pagina, destra o sinistra {#page-layout-variants}
 
@@ -57,9 +57,9 @@ Quando create i layout di pagina, tenete presenti i seguenti punti:
 
 * Se si desidera che i capitoli inizino da una pagina pari o dispari, è possibile scegliere di creare un layout di pagina per la pagina vuota. Questo layout di pagina viene utilizzato per colmare il vuoto tra due capitoli in modo che il capitolo inizi dalla pagina pari o dispari desiderata.
 
-   >[!NOTE]
-   >
-   >Se non si crea un layout di pagina vuoto separato, viene utilizzato il layout di pagina predefinito. Per creare un layout di pagina, consulta [Crea un nuovo layout di pagina](components-pdf-template.md#create-page-layout).
+  >[!NOTE]
+  >
+  >Se non si crea un layout di pagina vuoto separato, viene utilizzato il layout di pagina predefinito. Per creare un layout di pagina, consulta [Crea un nuovo layout di pagina](components-pdf-template.md#create-page-layout).
 
 L’esempio seguente illustra il processo di creazione delle varianti di un layout di pagina:
 
@@ -97,11 +97,14 @@ Durante la progettazione di un layout di pagina, è essenziale avere il controll
 
 * **Rotazione vista** : specifica il lato o la direzione in cui viene rappresentato il lato superiore originale dopo la rotazione. È possibile scegliere tra 90, 90 o 180 gradi in senso antiorario. Questa funzione è molto utile quando si desidera utilizzare una combinazione di layout Verticale e Orizzontale nell&#39;output. È ad esempio possibile utilizzare il formato verticale come layout di pagina generico e impostare un layout di pagina orizzontale per il rendering di tabelle di grandi dimensioni. In tal caso, è possibile impostare la visualizzazione del contenuto della tabella in senso orario di 90 gradi. In questo modo la pagina verrà orientata in orizzontale e il contenuto verrà ruotato di 90 gradi per mantenere la continuità nella visualizzazione. Vedremo come questo viene ottenuto come esempio più avanti in questa sezione.
 
-* **Riavvia numerazione da** : specifica il numero di pagina da cui inizierà la numerazione per questo layout di pagina. Ad esempio, è possibile impostare il numero di pagina da riavviare per ogni capitolo. In tal caso, è necessario impostare la proprietà Riavvia numerazione da su 1 nella variante di layout Prima pagina del layout della pagina del capitolo.
+* **Numerazione pagine** : la numerazione delle pagine, per impostazione predefinita, è continua in un PDF. Ad esempio, un PDF di 100 pagine può avere numeri di pagina continui da 1 a 100. È inoltre possibile riavviare la numerazione da un numero specifico in tutte le diverse sezioni o nella prima occorrenza di una sezione.
+   * **Riavvia da** : specifica il numero di pagina da cui inizierà la numerazione per questo layout di pagina. Ad esempio, è possibile impostare il numero di pagina da riavviare per ogni capitolo. In tal caso, è necessario impostare la proprietà restart from su 1 nella variante di layout Prima pagina del layout della pagina del capitolo. Per impostazione predefinita, la numerazione delle pagine continua dalla pagina precedente.
+
+   * **Applica solo alla prima occorrenza**: puoi anche iniziare da un numero specifico solo per la prima occorrenza di una sezione. Ad esempio, è possibile iniziare solo il primo capitolo da 1 e continuare i numeri di pagina per gli altri capitoli.
 
 * **Layout** : specifica i margini della pagina e la spaziatura per i lati superiore, inferiore, sinistro e destro. Nella figura seguente viene illustrato il rendering di margini, spaziatura interna e bordi attorno al contenuto. I margini nella parte superiore e inferiore di una pagina contengono l&#39;intestazione e il piè di pagina.
 
-   <img src="./assets/margins-padding-illustration.png" width="300">
+  <img src="./assets/margins-padding-illustration.png" width="300">
 
 * **Sfondo** : include un’immagine o un colore come sfondo del layout di pagina. Per un&#39;immagine, potete specificare l&#39;altezza e la larghezza dell&#39;immagine insieme alle proprietà di ripetizione e posizione.
 
@@ -159,7 +162,6 @@ Per eseguire le attività sopra indicate, effettua le seguenti operazioni:
 1. Modificate la proprietà Visualizza rotazione (View Rotation) per eseguire il rendering del contenuto in senso orario di 90°.
 
    1. Seleziona **Senso orario 90°** dall&#39;elenco a discesa Rotazione vista.
-
    <img src="./assets/view-rotation-page-props.png" width="300">
 
    1. Clic **Salva tutto** per salvare le proprietà di layout di pagina aggiornate.
@@ -520,9 +522,9 @@ Per creare un layout di pagina con più colonne, effettuare le seguenti operazio
 
    * **Larghezza colonna:** Specificare la larghezza di una colonna in un layout a più colonne. Per impostazione predefinita, le dimensioni sono impostate in pixel (px). È inoltre possibile specificarle in pt, rem, em, % o in unità.
 
-      >[!NOTE]
-      >
-      >Se non specifichi una dimensione, le colonne vengono divise in modo uniforme per adattarsi alla pagina specificata. Nella maggior parte dei casi non è necessario specificare questo valore.
+     >[!NOTE]
+     >
+     >Se non specifichi una dimensione, le colonne vengono divise in modo uniforme per adattarsi alla pagina specificata. Nella maggior parte dei casi non è necessario specificare questo valore.
 
    * **Spazio tra colonne** : specifica lo spazio tra le singole colonne.
 
@@ -542,7 +544,6 @@ Per creare un layout di pagina con più colonne, effettuare le seguenti operazio
 
    * **Regola colonna** : se desideri inserire una riga tra le colonne, utilizza questa proprietà per definire lo stile della riga o della regola. Specificate i valori per Stile rigatura (Righting Style), Colore (Color) e Larghezza (Width) per aggiungere una linea tra le colonne.
 
-
 ## Utilizzare il pannello Proprietà contenuto {#work-with-content-props}
 
 Il pannello Proprietà contenuto consente di aggiornare facilmente l’aspetto degli elementi nel layout di pagina. Le proprietà nel pannello Proprietà contenuto sono suddivise nelle sezioni seguenti:
@@ -551,7 +552,7 @@ Il pannello Proprietà contenuto consente di aggiornare facilmente l’aspetto d
 
 * **Bordo** : contiene le proprietà per aggiungere e formattare un bordo a un elemento nel layout di pagina. È possibile impostare Lato bordo (come tutti, superiore, inferiore, destro o sinistro), Stile bordo (come linee solide, tratteggiate, punteggiate o altro), Colore bordo, Larghezza e Raggio per avere un bordo curvo. Nell&#39;esempio seguente, è stato aggiunto un bordo curvo nell&#39;area dell&#39;intestazione della pagina.
 
-   <img src="./assets/border-properties.png" width="500">
+  <img src="./assets/border-properties.png" width="500">
 
 * **Layout** : contiene le proprietà per configurare il layout di un elemento nel layout di pagina. È possibile impostare Altezza, Larghezza, Margini e spaziatura interna (per alto, basso, sinistra o destra), Allineamento orizzontale o verticale, Mobile (come Sinistra, Destra o Nessuno), Cancella (come Sinistra, Destra, entrambe o Nessuna), Posizione dell&#39;elemento (come assoluta, fissa, relativa o più), Visualizzazione (come blocco, contenuto, correzione o altro), Indice Z, Trasparenza, Trasforma (mediante rotazione o scala) e Origine trasformazione (per offset X e Y).
 

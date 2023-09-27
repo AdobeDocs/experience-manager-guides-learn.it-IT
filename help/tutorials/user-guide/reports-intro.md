@@ -1,10 +1,10 @@
 ---
 title: Rapporti
-description: Scopri come creare rapporti
+description: Scopri come creare rapporti di mappe DITA nelle guide AEM.
 exl-id: baf3bc11-0725-418e-afef-fe9aa55327fe
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '188'
 ht-degree: 1%
 
 ---

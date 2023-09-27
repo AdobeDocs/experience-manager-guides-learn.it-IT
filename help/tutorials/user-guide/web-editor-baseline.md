@@ -1,10 +1,10 @@
 ---
 title: Creare e gestire le baseline dall'editor Web
-description: Scopri come creare e gestire le linee di base dall’editor web
+description: Crea e gestisci le linee di base dall’editor web nelle guide AEM. Scopri come creare linee di base sulla base di etichette e applicare filtri alle linee di base.
 exl-id: 9e390489-16f5-4f9a-a821-5150a66c2ed4
-source-git-commit: 906b1db461d343568b43195113dbc37ef5f88341
+source-git-commit: 361c605bdf02fb3b8754c6596a70e86a00acb3db
 workflow-type: tm+mt
-source-wordcount: '1327'
+source-wordcount: '1446'
 ht-degree: 0%
 
 ---
@@ -78,21 +78,28 @@ Potete gestire le baseline esistenti utilizzando le varie funzioni del dashboard
 
 - Potete cercare una baseline esistente utilizzando la casella di testo nel pannello Baseline. Utilizza il **Applica filtro** per visualizzare tutte le baseline o elencarle con lo stato di creazione Completato, In corso o Non riuscito.
 - Utilizza il **Aggiorna** nel pannello Baseline per verificare nuovamente tutte le baseline e visualizzare un nuovo elenco di baseline per la mappa DITA aperta nella vista Mappa.
-- Potete visualizzare o modificare il contenuto di una baseline esistente facendo doppio clic sulla baseline dall&#39;elenco nel pannello Baseline. Nella finestra di modifica della baseline al centro vengono visualizzati il file di mappa DITA, il contenuto o gli argomenti della mappa e il contenuto a cui si fa riferimento.
+- Potete visualizzare o modificare il contenuto di una baseline statica esistente facendo doppio clic sulla baseline dall&#39;elenco nel pannello Baseline. Nella finestra di modifica della baseline al centro vengono visualizzati il file di mappa DITA, il contenuto o gli argomenti della mappa e il contenuto a cui si fa riferimento.
 
 
-![](images/baseline-options.png){width="550" align="left"}
+  ![opzioni di una baseline](images/baseline-options.png){width="800" align="left"}
 
 È inoltre possibile eseguire le operazioni riportate di seguito sulla baseline dal menu Opzioni.
 
-- **Modifica**, **Duplicato,** o **Elimina** una baseline esistente.
-- Aggiungi, rimuovi o modifica le etichette esistenti dal **Gestisci etichette** opzione. Se l&#39;amministratore ha configurato etichette predefinite, queste vengono visualizzate nell&#39;elenco a discesa Aggiungi etichetta. Per ulteriori informazioni sull&#39;aggiunta di etichette, vedere [Usa etichette](web-editor-use-label.md#).
+- **Modifica**, **Duplicato,** **Rinomina**, o **Elimina** una baseline esistente.
+
+  >[!NOTE]
+  >
+  >L&#39;operazione di modifica per le baseline statiche è consigliata solo per un numero limitato di modifiche di riferimento. L&#39;operazione di modifica non è consigliata per modificare la versione della mappa DITA principale in quanto deve ricalcolare tutti i riferimenti. Ciò potrebbe causare un errore di aggiornamento della linea di base per le mappe DITA di grandi dimensioni. Per le mappe DITA più grandi, potete creare una nuova linea di base o modificarne le proprietà.
+  >
+  >L&#39;operazione di modifica in caso di baseline dinamica consente di modificare le proprietà della baseline in quanto i riferimenti per le baseline dinamiche vengono generati in fase di esecuzione utilizzando le etichette.
+
+- Aggiungi, rimuovi o modifica le etichette esistenti dal **Gestisci etichette** per le baseline statiche. Se l&#39;amministratore ha configurato etichette predefinite, queste vengono visualizzate nell&#39;elenco a discesa Aggiungi etichetta. Per ulteriori informazioni sull&#39;aggiunta di etichette, vedere [Usa etichette](web-editor-use-label.md#).
 
   >[!NOTE]
   >
   > Il processo di aggiunta o rimozione delle etichette viene eseguito in modo asincrono, pertanto è possibile continuare a lavorare su altri file nell&#39;editor Web. Una volta aggiunta o rimossa l’etichetta, viene visualizzato un messaggio a comparsa che conferma che l’etichetta è stata aggiunta o rimossa e che si riceve anche una notifica nella casella in entrata per la stessa etichetta.
 
-- **Modifica proprietà** di una baseline esistente impostata durante la creazione della baseline.
+- **Modifica proprietà** di una baseline statica esistente impostata durante la creazione della baseline.
 - Esportare lo snapshot di una baseline in un file CSV con **Esporta previsione** opzione.
 
 **Filtri della linea di base**

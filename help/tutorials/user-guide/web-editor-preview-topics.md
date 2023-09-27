@@ -1,10 +1,10 @@
 ---
 title: Visualizzare l'anteprima di un argomento
-description: Scopri come visualizzare in anteprima un argomento
+description: Scopri come visualizzare in anteprima un argomento nelle guide AEM. Scopri le funzioni disponibili in modalità anteprima. Creazione di diramazioni, ripristino e successivo controllo delle versioni nelle guide AEM.
 exl-id: fb8eb87b-2a98-4540-9329-08a759145497
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '1815'
+source-wordcount: '1834'
 ht-degree: 0%
 
 ---
@@ -74,11 +74,11 @@ Se il tuo argomento ha contenuto condizionale, sulla barra degli strumenti verr�
 
 - Aprire il codice sorgente XML di un file. Per visualizzare il codice XML sottostante di un file mappa, argomento o DITAVAL, aprire il file in modalità Anteprima e fare clic sull&#39;icona Origine. Nel pop-up Origine XML viene visualizzato il codice sorgente XML. È possibile selezionare un codice specifico dal file o premere `Ctrl`+`a` per selezionare l&#39;intero contenuto.
 
-   >[!NOTE]
-   >
-   > Per visualizzare il codice sorgente di un file di mappa DITA, selezionalo nell’interfaccia utente di Assets e fai clic su Origine.
+  >[!NOTE]
+  >
+  > Per visualizzare il codice sorgente di un file di mappa DITA, selezionalo nell’interfaccia utente di Assets e fai clic su Origine.
 
-   ![](images/xml-source-code-view-from-preview_cs.png){width="800" align="left"}
+  ![](images/xml-source-code-view-from-preview_cs.png){width="800" align="left"}
 
 **Condividi collegamento UUID**
 
@@ -128,9 +128,9 @@ Se la colonna Estratto non è visibile, selezionare **Impostazioni vista** in **
 
 - Se l&#39;argomento è stato modificato, è possibile individuare facilmente le modifiche apportate in versioni diverse dell&#39;argomento. Per individuare le modifiche apportate a versioni diverse di un argomento:
 
-   >[!IMPORTANT]
-   >
-   > Il metodo descritto nella procedura seguente è applicabile solo ai file DITA. Per i file non DITA, utilizzate la vista Timeline per creare versioni o ripristinare una versione esistente di un file.
+  >[!IMPORTANT]
+  >
+  > Il metodo descritto nella procedura seguente è applicabile solo ai file DITA. Per i file non DITA, utilizzate la vista Timeline per creare versioni o ripristinare una versione esistente di un file.
 
    1. Aprire l&#39;argomento in modalità Anteprima.
 
@@ -157,19 +157,19 @@ Se la colonna Estratto non è visibile, selezionare **Impostazioni vista** in **
    - Creare versioni successive in un nuovo ramo
    - Ripristino di una versione specifica di un argomento
 
-   Nella figura seguente viene illustrato il tipico sistema di ramificazione e di versioni successive:
+  Nella figura seguente viene illustrato il tipico sistema di ramificazione e di versioni successive:
 
-   ![](images/branching_illustration.png){width="550" align="center"}
+  ![](images/branching_illustration.png){width="550" align="center"}
 
-   Per qualsiasi nuovo argomento, la prima versione viene numerata come 1.0. In seguito, ogni nuova versione dell&#39;argomento viene salvata con un numero incrementale come 1.1, 1.2 e così via. Dopo aver creato un ramo di un argomento, viene creato un nuovo ramo che prende il numero di versione dal punto in cui è stato creato il ramo e aggiunge 0 alla fine della versione. Come mostrato nell’illustrazione, viene creato un nuovo ramo dalla versione 1.1 di un argomento. Il nuovo ramo dispone di una versione 1.1.0. Successivamente, ogni volta che si salva una nuova versione dell&#39;argomento in questo ramo, viene assegnato un numero di versione incrementale, ad esempio 1.1.1, 1.1.2 e così via.
+  Per qualsiasi nuovo argomento, la prima versione viene numerata come 1.0. In seguito, ogni nuova versione dell&#39;argomento viene salvata con un numero incrementale come 1.1, 1.2 e così via. Dopo aver creato un ramo di un argomento, viene creato un nuovo ramo che prende il numero di versione dal punto in cui è stato creato il ramo e aggiunge 0 alla fine della versione. Come mostrato nell’illustrazione, viene creato un nuovo ramo dalla versione 1.1 di un argomento. Il nuovo ramo dispone di una versione 1.1.0. Successivamente, ogni volta che si salva una nuova versione dell&#39;argomento in questo ramo, viene assegnato un numero di versione incrementale, ad esempio 1.1.1, 1.1.2 e così via.
 
-   Analogamente alla diramazione, è inoltre possibile ripristinare la versione in uso o corrente a qualsiasi versione esistente nell&#39;archivio. Per ripristinare una versione, seleziona semplicemente la versione desiderata dell’argomento e fai clic su **Ripristina questa versione** nel **Cronologia versioni** pannello.
+  Analogamente alla diramazione, è inoltre possibile ripristinare la versione in uso o corrente a qualsiasi versione esistente nell&#39;archivio. Per ripristinare una versione, seleziona semplicemente la versione desiderata dell’argomento e fai clic su **Ripristina questa versione** nel **Cronologia versioni** pannello.
 
-   Per creare un ramo, ripristinare una versione e gestire le versioni successive di un argomento, effettua le seguenti operazioni:
+  Per creare un ramo, ripristinare una versione e gestire le versioni successive di un argomento, effettua le seguenti operazioni:
 
-   >[!IMPORTANT]
-   >
-   > Il metodo descritto nella procedura seguente è applicabile solo ai file DITA. Per i file non DITA, utilizzate la vista Timeline per creare versioni o ripristinare una versione esistente di un file.
+  >[!IMPORTANT]
+  >
+  > Il metodo descritto nella procedura seguente è applicabile solo ai file DITA. Per i file non DITA, utilizzate la vista Timeline per creare versioni o ripristinare una versione esistente di un file.
 
    1. Accedi all’argomento nell’interfaccia utente di Assets.
 
@@ -201,16 +201,19 @@ Se la colonna Estratto non è visibile, selezionare **Impostazioni vista** in **
 
       - Se selezioni questa opzione, viene creato un ramo dalla versione 1.1. Viene inoltre creata una nuova versione dell&#39;argomento dalla copia di lavoro corrente dell&#39;argomento e salvata come versione successiva, ovvero 1.4.
 
-         ![](images/next_version_created_over_working_copy.png){width="300" align="left"}
+        ![](images/next_version_created_over_working_copy.png){width="300" align="left"}
 
-         La versione 1.2 diventa la copia corrente dell&#39;argomento. Qualsiasi versione salvata dopo questa viene creata nel nuovo ramo di 1.1. Ad esempio, la versione successiva di un nuovo argomento in questo ramo verrà salvata come 1.2.0.
+        La versione 1.2 diventa la copia corrente dell&#39;argomento. Qualsiasi versione salvata dopo questa viene creata nel nuovo ramo di 1.1. Ad esempio, la versione successiva di un nuovo argomento in questo ramo verrà salvata come 1.2.0.
 
-         ![](images/new_version_in_branch.png){width="300" align="left"}
+        ![](images/new_version_in_branch.png){width="300" align="left"}
 
       - Se non si seleziona questa opzione, non verrà creata alcuna nuova versione dalla copia di lavoro corrente dell&#39;argomento. Dalla versione 1.2 dell’argomento viene creato un nuovo ramo. Qualsiasi versione successiva dell’argomento viene salvata nel ramo 1.2 come 1.2.0, 1.2.1 e così via.
 
-         ![](images/new_version_without_working_copy.png){width="300" align="left"}
+        ![](images/new_version_without_working_copy.png){width="300" align="left"}
+
    1. Fai clic su **OK**.
-   Viene creato un nuovo ramo dalla versione selezionata dell&#39;argomento. Il processo descritto sopra è applicabile anche per il ripristino di una versione specifica di un argomento. Il ripristino di una versione specifica implica tecnicamente la creazione di un nuovo ramo dalla versione selezionata e l&#39;impostazione di tale versione come copia di lavoro corrente dell&#39;argomento. È inoltre possibile visualizzare la cronologia dei file ripristinati nel rapporto Cronologia ripristino versione. Per ulteriori dettagli su questo rapporto, vedi [Rapporto cronologia versioni file ripristinati](reports-reverted-file-version-history.md#).
+
+
+  Viene creato un nuovo ramo dalla versione selezionata dell&#39;argomento. Il processo descritto sopra è applicabile anche per il ripristino di una versione specifica di un argomento. Il ripristino di una versione specifica implica tecnicamente la creazione di un nuovo ramo dalla versione selezionata e l&#39;impostazione di tale versione come copia di lavoro corrente dell&#39;argomento. È inoltre possibile visualizzare la cronologia dei file ripristinati nel rapporto Cronologia ripristino versione. Per ulteriori dettagli su questo rapporto, vedi [Rapporto cronologia versioni file ripristinati](reports-reverted-file-version-history.md#).
 
 **Argomento padre:**[ Creazione e anteprima di argomenti](create-preview-topics.md)

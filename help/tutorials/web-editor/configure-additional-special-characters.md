@@ -1,12 +1,12 @@
 ---
 title: Configurare caratteri speciali aggiuntivi nella barra degli strumenti dell'editor Web
-description: Come configurare caratteri speciali aggiuntivi nella barra degli strumenti dell’editor Web
+description: Scopri come configurare caratteri speciali aggiuntivi nell’editor web delle guide AEM.
 feature: Web Editor
 role: User
 exl-id: 0fbc05a5-a6b0-4f6b-bbc4-8fca03581d90
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '259'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Lo stesso può essere visto nella schermata seguente:
 
 L’elenco dei caratteri è configurabile qui. Per aggiungere altri caratteri, effettua le seguenti operazioni:
 
-+ Accedi all’AEM e apri la modalità CRXDE Lite.
++ Accedi all’AEM e apri la modalità CRXDE Liti.
 
 + Crea il file symbols.json nella posizione seguente: &#39;/apps/fmdita/xmleditor/&#39; (puoi copiare il file predefinito da - posizione &#39;/libs/fmdita/clientlibs/clientlibs/xmleditor/symbols.json&#39;)
 
@@ -62,4 +62,3 @@ Verrà aggiunta un’altra categoria nella finestra di dialogo dei caratteri spe
 >[!MORELIKETHIS]
 >
 >+ [Guida all’installazione e alla configurazione](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/3-6/XML-Documentation-for-Adobe-Experience-Manager_Installation-Configuration-Guide_EN.pdf)
-

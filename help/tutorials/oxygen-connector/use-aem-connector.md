@@ -4,9 +4,9 @@ description: Scopri come utilizzare il plug-in di ossigeno per le guide di Adobe
 hide: true
 hidefromtoc: true
 exl-id: 2db9a34e-2efa-47ad-ba6b-02afc5197669
-source-git-commit: 7fbc6d22fd2f93b7b5bf3233f7ebdd0cb020dda2
+source-git-commit: 23c1dfb405643bd9f5906807dddc4fff3f2e8535
 workflow-type: tm+mt
-source-wordcount: '6038'
+source-wordcount: '6120'
 ht-degree: 0%
 
 ---
@@ -377,7 +377,12 @@ Se si desidera utilizzare gli editor disponibili in Guide AEM, è possibile sele
 
 Quando si estrae un file, questo viene memorizzato localmente nel sistema e bloccato per la modifica nel repository AEM. Per estrarre un file, effettuare le seguenti operazioni:
 
-1. Fate clic con il pulsante destro del mouse su un file nel pannello Guide AEM.
+1. È possibile estrarre i file in uno dei modi seguenti:
+   - Fate clic con il pulsante destro del mouse su un file nel pannello Guide AEM.
+   - Fate clic con il pulsante destro del mouse sulla scheda Mappa (Map) nel pannello Gestione mappe DITA.
+   - Fate clic con il pulsante destro del mouse su un file nel pannello Gestione mappe DITA (DITA Maps Manager).
+   - Fare clic con il pulsante destro del mouse sulla scheda del file quando si apre una mappa o un argomento nell&#39;editor.
+
 1. Selezionare una delle opzioni seguenti:
    - **Check-out:** Estrae un file dal repository AEM e lo rende disponibile per la modifica.
    - **Check-out con dipendenti**: estrae un file con i relativi riferimenti diretti. Con questa opzione è possibile apportare modifiche alle pagine padre e figlio. Il plug-in di ossigeno per le guide AEM supporta il check-out di un livello di dipendenti. Ad esempio, Mappa A fa riferimento all&#39;Argomento A e all&#39;Argomento A fa riferimento all&#39;Argomento B. Il Check-Out della Mappa A estrae l&#39;Argomento A indipendentemente dal suo livello nella gerarchia del sommario. Tuttavia, non estrarrà l’argomento B perché non è collegato direttamente dalla mappa A.
@@ -403,7 +408,13 @@ Quando si archivia un file, la copia locale dal sistema viene memorizzata nell&#
 
 1. Salvare il file facendo clic su **File** \> **Salva**.
 
-1. Fare clic con il pulsante destro del mouse su un file estratto e scegliere una delle due opzioni seguenti:
+1. Fare clic con il pulsante destro del mouse su un file o una mappa estratti in una delle seguenti posizioni:
+   - Pannello Guide AEM
+   - Pannello Gestione mappe DITA
+   - Scheda File quando si apre una mappa o un argomento nell&#39;editor.
+   - Scheda Mappa nel pannello Gestione mappe DITA.
+
+1. Scegliete una delle due opzioni seguenti:
 
    - **Check-in**: archivia il file selezionato dal sistema locale nell’archivio AEM.
    - **Check-in con dipendenti:** Se un file è stato estratto insieme alle relative dipendenze, utilizzare questa opzione per archiviare tutti i file dipendenti in un&#39;unica operazione. Quando si seleziona questa opzione, viene visualizzata la finestra di dialogo Check-in con tutti i file dipendenti. Fare clic su OK per archiviare tutti i file contemporaneamente.

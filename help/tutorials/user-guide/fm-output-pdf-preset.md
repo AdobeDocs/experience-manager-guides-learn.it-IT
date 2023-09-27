@@ -1,10 +1,10 @@
 ---
 title: PDF
-description: Scopri come utilizzare PDF
+description: Genera e configura l'output PDF per i documenti di FrameMaker nelle guide AEM.
 exl-id: ece004ed-5233-460b-889d-94e693ceed93
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '381'
 ht-degree: 3%
 
 ---
@@ -15,7 +15,7 @@ Per l’output PDF sono disponibili le seguenti opzioni:
 
 >[!NOTE]
 >
-> Per aprire i predefiniti di output per PDF, fate clic su un oggetto FrameMaker \(`.fm` o `.book`\), fare clic su Predefiniti di output e quindi sull&#39;opzione Output PDF.
+> Per aprire i predefiniti di output per PDF, fate clic su un FrameMaker \(`.fm` o `.book`\), fare clic su Predefiniti di output e quindi sull&#39;opzione Output PDF.
 
 | Opzioni PDF | Descrizione |
 |-----------|-----------|
@@ -38,4 +38,4 @@ Per l’output PDF sono disponibili le seguenti opzioni:
 | Percorso di destinazione | Il percorso all’interno dell’archivio AEM in cui è memorizzato l’output di PDF. |
 | Esegui flusso di lavoro di post-generazione | Quando scegli questa opzione, viene visualizzato un nuovo elenco a discesa Flusso di lavoro di post-generazione contenente tutti i flussi di lavoro configurati in AEM. È necessario selezionare un flusso di lavoro da eseguire dopo il completamento del flusso di lavoro di generazione dell&#39;output. |
 
-**Argomento padre:**[ Genera output di documenti FrameMaker](fm-output-generatation.md)
+**Argomento padre:**[ Genera output di documenti di FrameMaker](fm-output-generatation.md)

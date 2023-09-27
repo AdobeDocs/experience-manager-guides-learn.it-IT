@@ -2,9 +2,9 @@
 title: Funzione di pubblicazione nativa di PDF | Componenti di un modello PDF
 description: Scopri i vari componenti di un modello di PDF e come personalizzarli e configurarli.
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: 90cd3c53fd8da0b987c99950dd37d405bea12c6e
+source-git-commit: 5abcc887a24d838caabdf9a34a84ebc851ed4cbf
 workflow-type: tm+mt
-source-wordcount: '4160'
+source-wordcount: '4376'
 ht-degree: 0%
 
 ---
@@ -166,7 +166,7 @@ Nel pannello centrale puoi modificare le proprietà, ma potrebbe essere difficil
 Nel pannello centrale puoi modificare le proprietà comunemente utilizzate, ma non tutte le proprietà supportate dal CSS. In **Proprietà** , è possibile modificare tutte le proprietà supportate dal CSS e visualizzarle in anteprima. Per modificare le proprietà non è necessario passare alla vista origine.
 
 
-Ulteriori informazioni sull’utilizzo dell’editor di stili per [Utilizzare gli stili di contenuto comuni](stylesheet.md).
+Ulteriori informazioni sull’utilizzo dell’editor di stili per [utilizzare gli stili di contenuto comuni](stylesheet.md).
 
 ## Utilizzare le risorse {#work-with-resources}
 
@@ -219,6 +219,7 @@ Impostate le impostazioni di configurazione di base per l&#39;avvio di un capito
 
   In questa sezione è possibile notare che al primo capitolo Impostazioni avanzate di PDF non viene assegnato alcun numero di pagina, in quanto contiene argomenti nidificati o secondari. mentre un numero di pagina viene assegnato ad Appendice e Legale perché si tratta di argomenti autonomi senza argomenti secondari.
 
+* **Non mostrare il numero del capitolo nel sommario** : seleziona questa opzione per visualizzare i nomi dei capitoli senza i numeri dei capitoli nel sommario.   Per impostazione predefinita, i numeri dei capitoli vengono visualizzati nel sommario dell’output PDF.
 * **Formato guida**: utilizza il menu a discesa per selezionare le linee guida Punteggiate, Solide o Spaziate per collegare i livelli di intestazione ai numeri di pagina corrispondenti.
 Per applicare la struttura del sommario e i livelli di intestazione degli stili, consultate [Aggiungi un sommario capitolo](design-page-layout.md#add-chapter-toc).
 
@@ -232,8 +233,14 @@ Potete definire il testo da visualizzare prima e dopo l&#39;interruzione. Ad ese
   Utilizza le variabili di lingua per definire il testo del marcatore di continuazione prima e dopo l’interruzione. A seconda della lingua scelta, il valore localizzato viene selezionato automaticamente nell’output di PDF. Ad esempio, puoi pubblicare `Continued on page %page-num%` in inglese e `Fortsetzung auf Seite %page-num%` in tedesco.
 
   Passa il cursore sopra <img src="./assets/info-details.svg" alt= "icona info" width="25"> per visualizzare ulteriori dettagli su di essa.
+* **Collegare i termini del glossario alla pagina del glossario**: seleziona questa opzione per visualizzare i termini del glossario come collegamenti ipertestuali nel contenuto e collegarli ai termini nella pagina del glossario. Ciò consente ai lettori di visualizzare rapidamente la definizione di un termine definito nel glossario.
 
-<!--For more information on using table continuation markers, see Use table continuation markers.-->
+  Per convertire i termini del glossario in collegamenti ipertestuali, è necessario:
+   * Abilita **Glossario** nel **Ordine pagine** per una mappa DITA.
+   * Aggiungere il glossario nelle pagine del retro di una mappa del libro.
+
+  Se non si abilita la pagina Glossario, i termini Glossario nel contenuto non vengono convertiti in collegamenti ipertestuali nell’output PDF.
+  <!--For more information on using table continuation markers, see Use table continuation markers.-->
 
 ### Layout di pagina {#page-layouts}
 
@@ -256,7 +263,13 @@ Le seguenti impostazioni sono disponibili nella sezione Layout di pagina:
 
 * **Elenco delle figure ed elenco delle tabelle**: puoi anche specificare il layout di pagina per figure e tabelle. Il layout selezionato verrà applicato a tutte le figure e tabelle.
 
-* **Indice e glossario**: se hai progettato un layout di pagina Indice, mappalo sull’opzione Indice. Se disponi di un layout di pagina Glossario, mappalo sull’opzione Glossario.
+* **Indice**: se hai progettato un layout di pagina Indice, mappalo sull’opzione Indice. Utilizzando i fogli di stile, è possibile applicare uno stile a diversi elementi di indice nell’output di PDF. Utilizzare gli stili di indice `.idx-header`, `.idx-footer`, `.idx-body`, `.idx-title`, `.idx-keyword-group`, `.idx-unit`,  `.idx-keyword`, `.idx-name`, `.idx-link` e `.idx-child` per personalizzare gli stili degli elementi dell&#39;indice.
+
+* **Glossario**: se hai un layout di pagina Glossario, mappalo sull’opzione Glossario.  I termini nel glossario dell’output di PDF sono sempre ordinati in ordine alfabetico.
+
+  Utilizzando i fogli di stile, è possibile applicare uno stile a diversi elementi del glossario nell&#39;output di PDF. Utilizzare gli stili del glossario `.glo-header`, `.glo-footer`, `.glo-body`, `.glo-title`, `.glo-unit`, `.glo-link`, e `.glo-term` personalizzare gli stili degli elementi del glossario.
+
+  Ulteriori informazioni sull’utilizzo dell’editor di stili per [utilizzare gli stili di contenuto comuni](stylesheet.md).
 
 * **Pagine prima argomento e pagine dopo argomento**: questi layout di pagina definiscono lo stile delle pagine anteriori o posteriori del libro. Se avete progettato il layout dell&#39;argomento anteriore, mappatelo al **Pagine di primo livello** opzione. Quando si seleziona il layout dell&#39;argomento anteriore dal menu a discesa, il layout dell&#39;argomento anteriore viene applicato a tutti gli argomenti presenti nell&#39;argomento anteriore.
 
@@ -298,7 +311,7 @@ Puoi mostrare o nascondere le seguenti sezioni nel PDF e anche disporre l’ordi
 
 
 .
-**Capitolo e argomenti** il layout è sempre abilitato e **Glossario** Il layout è sempre disattivato per impostazione predefinita. Non è possibile attivarle.
+**Capitolo e argomenti** Il layout è sempre attivato per impostazione predefinita. Non è possibile attivare/disattivare.
 
 **Unisci pagine**
 

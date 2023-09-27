@@ -1,10 +1,10 @@
 ---
 title: Report mappa DITA dall'editor Web
-description: Scopri come mappare il report DITA dall’editor web
+description: Generare rapporti di mappe DITA dall'editor Web nelle guide AEM. Scopri come generare un file CSV per un elenco di argomenti, contenuti multimediali, metadati e rapporti sui collegamenti interrotti.
 exl-id: b1011cec-6374-4026-bf1c-54a1981c760e
-source-git-commit: 5670b4a8f34916c7ff415680c5ddcfab6e9618e6
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '2351'
+source-wordcount: '2367'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,6 @@ Per creare un rapporto sugli argomenti, effettuare le seguenti operazioni:
    - **Stato documento** Stato corrente dell&#39;argomento.
    - **Autore** Utente che ha lavorato per ultimo sull&#39;argomento.
    - **Mappa padre** L&#39;elenco di tutte le mappe in cui l&#39;argomento è direttamente referenziato.
-
    >[!NOTE]
    >
    > Clic **Aggiorna** per ottenere un nuovo elenco di argomenti e visualizzare le modifiche apportate al file di mappa o se qualsiasi riferimento all&#39;interno del file di argomento viene aggiornato.
@@ -65,17 +64,17 @@ Per visualizzare i metadati dei riferimenti nella mappa DITA corrente, effettuar
    1. È inoltre possibile utilizzare le opzioni di filtro degli argomenti seguenti per scegliere di visualizzare le colonne seguenti nell&#39;elenco metadati:
       - **Titolo** \(selezionato per impostazione predefinita\) Il titolo del file di riferimento è specificato nella mappa DITA. È possibile fare clic sul file per modificarlo.È inoltre possibile fare clic su e riprodurre un file audio o video nell&#39;editor Web. È possibile modificare il volume o la visualizzazione del video. Nel menu di scelta rapida sono inoltre disponibili le opzioni per il download, la modifica della velocità di riproduzione o la visualizzazione delle immagini nell&#39;immagine.
 
-         >[!NOTE]
-         >
-         > Accanto al titolo di un file estratto viene visualizzata anche un&#39;icona di estrazione. Passa il cursore del mouse sull’icona per visualizzare il nome dell’utente.
+        >[!NOTE]
+        >
+        > Accanto al titolo di un file estratto viene visualizzata anche un&#39;icona di estrazione. Passa il cursore del mouse sull’icona per visualizzare il nome dell’utente.
 
       - **Nome file** Nome del file.
       - **Percorso file** Percorso completo del file.
       - **Tag** \(selezione predefinita\) Tag applicati al file.
 
-         >[!NOTE]
-         >
-         > Per impostazione predefinita, è possibile visualizzare due tag per un file. Per visualizzare altri tag, fai clic su **Mostra altro**. Clic **Mostra meno** per contrarre nuovamente l&#39;elenco.
+        >[!NOTE]
+        >
+        > Per impostazione predefinita, è possibile visualizzare due tag per un file. Per visualizzare altri tag, fai clic su **Mostra altro**. Clic **Mostra meno** per contrarre nuovamente l&#39;elenco.
 
       - **Tipo di riferimento** Il tipo di riferimento - diretto o indiretto
       - **Stato documento** \(selezionato per impostazione predefinita\) Stato corrente del file di riferimento.
@@ -115,11 +114,11 @@ Il **Multimedia** Il report fornisce informazioni dettagliate sugli elementi mul
 
    - Quando ordini per **Multimedia**, il **** del contenuto multimediale viene visualizzato nella prima colonna e quindi i nomi di tutti i riferimenti in cui sono stati utilizzati vengono visualizzati in un&#39;altra colonna sulla stessa riga. Ad esempio, la schermata seguente mostra il file multimediale WarmCoolForC.gif nella prima colonna e tre riferimenti in cui viene utilizzato sono visualizzati nella terza colonna sulla stessa riga.
 
-      ![](images/multimedia-report-file-order.png){width="650" align="left"}
+     ![](images/multimedia-report-file-order.png){width="650" align="left"}
 
    - Se ordini per **Utilizzato in** , visualizzerai la visualizzazione trasposta in cui i nomi dei riferimenti in cui sono stati utilizzati elementi multimediali sono elencati nella prima colonna, mentre i nomi multimediali sono elencati in un’altra colonna su righe separate. Ad esempio, la schermata seguente mostra i nomi dei tre riferimenti \(Regolare la temperatura del sedile, Modificare la visualizzazione della temperatura del sedile e l&#39;area dell&#39;equipaggio\) nella prima colonna e il file multimediale WarmCoolForC.gif viene visualizzato nella terza colonna su tre righe separate.
 
-      ![](images/multimedia-report-used-in-order.png){width="650" align="left"}
+     ![](images/multimedia-report-used-in-order.png){width="650" align="left"}
 
 1. È possibile filtrare i contenuti multimediali in base al **Tipo di file multimediale**, e **Tipo di riferimento**. L’elenco dei file multimediali viene visualizzato in base alla selezione effettuata nel menu a discesa. Ad esempio, è possibile scegliere di visualizzare solo i riferimenti audio nella mappa DITA e un file mostra solo i riferimenti audio utilizzati.
 
@@ -135,7 +134,6 @@ Il **Multimedia** Il report fornisce informazioni dettagliate sugli elementi mul
    - **Tipo di file multimediale** \(selezionato per impostazione predefinita\) Tipo del file multimediale. Le opzioni disponibili sono Audio, Video o Immagine.
    - **Utilizzato in** \(selezionato per impostazione predefinita\) I riferimenti in cui è stato utilizzato il contenuto multimediale. Potete fare clic sul riferimento per modificarlo.
    - **Tipo di riferimento** \(selezionato per impostazione predefinita\) Tipo di riferimento: diretto o indiretto.
-
    >[!NOTE]
    >
    > Clic **Aggiorna** per ottenere un nuovo elenco di elementi multimediali e visualizzare le modifiche apportate al file di mappa o gli eventuali elementi multimediali contenuti nella mappa DITA aggiornati.

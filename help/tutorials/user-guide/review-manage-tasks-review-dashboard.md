@@ -1,10 +1,10 @@
 ---
 title: Gestire le attività di revisione mediante il dashboard Revisione
-description: Scopri come gestire le attività di revisione utilizzando il dashboard Revisione
+description: Gestisci le attività di revisione dal dashboard di revisione nelle guide AEM. Scopri le azioni da eseguire nella scheda attività, contenuto e revisori e controlla lo stato di un’attività di revisione.
 exl-id: 617017fe-59b6-4b38-b375-a126fa9dddf5
-source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1300'
 ht-degree: 0%
 
 ---
@@ -61,9 +61,9 @@ Per accedere e utilizzare il dashboard Revisione, effettuare le seguenti operazi
 - Clic **Completa** per contrassegnare l&#39;attività di revisione come completata prima della data di scadenza. Quando l&#39;attività di un singolo argomento viene contrassegnata come Completa, la revisione dell&#39;argomento selezionato viene chiusa. Tuttavia, nel caso di argomenti condivisi per la revisione tramite una mappa DITA, contrassegnando l&#39;attività Mappa DITA come Completa verrà chiusa la revisione di tutti gli argomenti della mappa condivisi per la revisione.
 - Clic **Duplica** per creare una copia dell&#39;attività di revisione. Il processo di creazione di un&#39;attività di revisione duplicata è simile a quello di creazione di una nuova attività di revisione. Dopo aver avviato il flusso di lavoro dell&#39;attività duplicata, viene visualizzata la pagina Crea attività di revisione. È necessario fornire i dettagli della nuova attività come spiegato in [Invia argomenti per la revisione](review-send-topics-for-review.md#).
 
-   Se è stata selezionata un&#39;attività di revisione creata da una mappa DITA, vengono visualizzati gli argomenti che costituiscono un pert della mappa. È quindi possibile scegliere gli argomenti che si desidera includere nella nuova attività di revisione.
+  Se è stata selezionata un&#39;attività di revisione creata da una mappa DITA, vengono visualizzati gli argomenti che costituiscono un pert della mappa. È quindi possibile scegliere gli argomenti che si desidera includere nella nuova attività di revisione.
 
-   In caso di attività di revisione duplicata da uno o più argomenti di revisione, nell&#39;elenco delle attività di revisione vengono visualizzati solo tali argomenti. Puoi scegliere di condividere questi argomenti per la revisione con un diverso gruppo di revisori.
+  In caso di attività di revisione duplicata da uno o più argomenti di revisione, nell&#39;elenco delle attività di revisione vengono visualizzati solo tali argomenti. Puoi scegliere di condividere questi argomenti per la revisione con un diverso gruppo di revisori.
 
 - Clic **Chiudi** per passare alla pagina Casella in entrata.
 
@@ -77,9 +77,9 @@ Per accedere e utilizzare il dashboard Revisione, effettuare le seguenti operazi
 
 - Clic **Aggiorna** per condividere la versione aggiornata dell&#39;argomento con i revisori. I revisori ricevono una notifica e-mail che indica che la versione più recente dell’argomento è stata inviata per la revisione. La volta successiva che un revisore apre l&#39;argomento, viene visualizzata la versione aggiornata dell&#39;argomento.
 
-   >[!NOTE]
-   >
-   > In caso di versione aggiornata di un argomento, i vecchi commenti vengono mantenuti anche nella versione più recente. I revisori possono anche vedere le differenze tra le due versioni.
+  >[!NOTE]
+  >
+  > In caso di versione aggiornata di un argomento, i vecchi commenti vengono mantenuti anche nella versione più recente. I revisori possono anche vedere le differenze tra le due versioni.
 
 - Clic **Completa** per contrassegnare l&#39;attività di revisione come completata prima della data di scadenza. Quando l&#39;attività di un singolo argomento viene contrassegnata come Completa, la revisione dell&#39;argomento selezionato viene chiusa. Tuttavia, nel caso di argomenti condivisi per la revisione tramite una mappa DITA, contrassegnando l&#39;attività Mappa DITA come Completa verrà chiusa la revisione di tutti gli argomenti della mappa condivisi per la revisione.
 
@@ -95,9 +95,9 @@ Per accedere e utilizzare il dashboard Revisione, effettuare le seguenti operazi
 - **Seleziona tutto**: seleziona tutti gli argomenti nell&#39;elenco degli argomenti. È possibile eseguire facilmente un&#39;operazione batch dopo aver selezionato tutti gli argomenti.
 - **Cancella selezione**: deseleziona gli argomenti selezionati nell&#39;elenco argomenti.
 
-   >[!NOTE]
-   >
-   > È inoltre possibile selezionare o deselezionare singolarmente un argomento facendo clic sulla casella di spunta accanto all&#39;argomento.
+  >[!NOTE]
+  >
+  > È inoltre possibile selezionare o deselezionare singolarmente un argomento facendo clic sulla casella di spunta accanto all&#39;argomento.
 
 - **Aggiungi**: visualizza la finestra di dialogo Aggiungi revisori. È possibile digitare il nome del ruolo di revisore o utente \(o gruppo\) che si desidera aggiungere come revisore agli argomenti selezionati.
 - **Rimuovi**: visualizza la finestra di dialogo Rimuovi revisori. È possibile digitare il nome di un revisore o di un ruolo utente \(o gruppo\) che si desidera rimuovere come revisore dagli argomenti selezionati.

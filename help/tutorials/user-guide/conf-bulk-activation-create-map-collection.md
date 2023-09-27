@@ -1,10 +1,10 @@
 ---
 title: Creare una raccolta di mappe di attivazione in blocco
-description: Scopri come creare una raccolta di mappe di attivazione in blocco
+description: Scopri come creare una raccolta di mappe di attivazione in blocco nelle guide AEM.
 exl-id: 7d17fb37-9486-4a3b-a421-08e279c95b6c
-source-git-commit: c13d5146f478ed9b9122986a01eaa8a790bc8212
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ La scheda Mappe e predefiniti presenta le informazioni riportate nelle colonne r
 - **UUID**: mostra l’identificatore univoco associato al file.
 
 - **Lingua**: mostra il codice della lingua della mappa DITA.
-- **Predefinito**: mostra il titolo del predefinito di output configurato nel file di mappa. Visualizza inoltre l’icona in base al tipo di predefinito di output.
+- **Predefinito**: mostra il titolo del predefinito di output configurato nel file di mappa. Inoltre, visualizza l’icona in base al tipo di predefinito di output.
 
   >[!NOTE]
   >

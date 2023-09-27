@@ -1,10 +1,10 @@
 ---
 title: Native PDF | Generazione di output PDF
-description: Genera output PDF in Adobe Experience Manager Guides as a Cloud Service
+description: Scopri come utilizzare la pubblicazione PDF nativa, creare e generare un predefinito di output PDF, scaricare file temporanei dopo la generazione dell’output PDF nativa e utilizzare le variabili di lingua nelle guide AEM.
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: 85075a51d141afa451c22f7a29d21fc7ae391d49
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '3211'
+source-wordcount: '3229'
 ht-degree: 0%
 
 ---

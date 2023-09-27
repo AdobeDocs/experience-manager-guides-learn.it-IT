@@ -1,10 +1,10 @@
 ---
 title: Conoscere le funzioni dell’editor web
-description: Scopri come conoscere le funzioni dell’editor web
+description: Scopri le funzioni dell’editor web nelle guide dell’AEM. Scopri l’interfaccia dell’editor web, compresi la barra degli strumenti principale, la barra degli strumenti secondaria, il pannello sinistro, l’area di modifica del contenuto e il pannello destro.
 exl-id: 38b378ff-da24-4560-a17f-a2c547aea1b8
-source-git-commit: 9196d7b1094149f06067c153b9c02c2cd20c18af
+source-git-commit: a209e46e41055348402292e20c229890cd0c01cf
 workflow-type: tm+mt
-source-wordcount: '15744'
+source-wordcount: '16066'
 ht-degree: 0%
 
 ---
@@ -741,9 +741,7 @@ Viene visualizzato l’elenco dei file filtrati che contengono il testo cercato.
 
 **Menu Opzioni**
 
-Oltre ad aprire i file dal pannello di sinistra, è possibile eseguire molte azioni utilizzando
-
-Il menu Opzioni è disponibile nella Vista archivio. Verranno visualizzate opzioni diverse, a seconda che si scelga una cartella, un file argomento o un file multimediale.
+Oltre ad aprire i file dal pannello di sinistra, è possibile eseguire molte azioni utilizzando il menu Opzioni disponibile nella Vista archivio. Verranno visualizzate opzioni diverse, a seconda che si scelga una cartella, un file argomento o un file multimediale.
 
 **Opzioni per una cartella**
 
@@ -801,7 +799,7 @@ Nel menu Opzioni vengono visualizzate opzioni diverse a seconda che si selezioni
 - Proprietà
 - Visualizza nell’interfaccia utente Assets
 
-![](images/options-menu-repo-view-file-level.png){width="550" align="left"}
+![menu opzioni di un file nella vista archivio](images/options-menu-repo-view-file-level.png){width="550" align="left"}
 
 Di seguito sono illustrate le varie opzioni del menu Opzioni:
 
@@ -896,7 +894,18 @@ Di seguito sono illustrate le varie opzioni del menu Opzioni:
 
 - **Apri dashboard mappa**: nel caso in cui il file selezionato sia una mappa DITA, questa opzione apre il dashboard della mappa.
 
+- **Modifica in ossigeno**: seleziona questa opzione per modificare il file selezionato nel plug-in del connettore ossigeno. Il file viene aperto per la modifica.
+
+  >[!NOTE]
+  >
+  >Contatta il team di successo del cliente per abilitare questa funzione nell’ambiente. Questa funzione non è abilitata come parte del supporto predefinito. Per ulteriori dettagli, vedi [Configurare l’opzione da modificare in Ossigeno](../cs-install-guide/conf-edit-in-oxygen.md) nella Guida all&#39;installazione e alla configurazione.
+
+
 - **Visualizza nell’interfaccia utente Assets**: da utilizzare per visualizzare un’anteprima di un file .dita/.xml nell’interfaccia utente di Assets. Nel caso di un file .ditamap/.bookmap, tutti i file di argomenti all&#39;interno della mappa vengono visualizzati in un&#39;unica visualizzazione unificata pagina per pagina.
+
+- **Scarica come PDF**: utilizza l’opzione per generare l’output PDF e scaricarlo.
+
+- **Pubblica come**: utilizza l’opzione per pubblicare un argomento o gli elementi all’interno di un argomento in un frammento di contenuto.
 
 - **Generazione rapida**: genera l’output per il file selezionato. L&#39;output può essere generato solo per i file che fanno parte di un predefinito di output. Per ulteriori dettagli, consulta [Pubblicazione basata su articolo dall’editor web](web-editor-article-publishing.md#id218CK0U019I).
 
@@ -995,9 +1004,25 @@ Potete eseguire le seguenti operazioni utilizzando il menu Opzioni (Options) del
 - **Apri dashboard mappa**: apri il dashboard delle mappe.
 
 - **Visualizza nell’interfaccia utente Assets**: utilizza questa opzione per visualizzare un’anteprima del file di mappa nell’interfaccia utente Assets. In questa visualizzazione, tutti i file degli argomenti della mappa vengono visualizzati in un&#39;unica visualizzazione unificata pagina per pagina.
+- **Scarica mappa**: seleziona questa opzione per aprire **Scarica mappa** .
+In **Scarica mappa** nella finestra di dialogo, puoi scegliere le seguenti opzioni:
+   - **Usa linea di base**: selezionare questa opzione per ottenere un elenco di baseline create per la mappa DITA. Per scaricare il file mappa e il relativo contenuto in base a una baseline specifica, selezionare la baseline dall&#39;elenco a discesa. Per ulteriori dettagli sull&#39;utilizzo delle baseline, vedere [utilizzare la previsione](./generate-output-use-baseline-for-publishing.md).
+   - **Flatten File Hierarchy**: seleziona questa opzione per salvare tutti gli argomenti e i file multimediali a cui si fa riferimento in un’unica cartella.
 
-- **Generazione rapida**: genera l’output per il file di mappa selezionato. L&#39;output può essere generato solo per i file che fanno parte di un predefinito di output. Per ulteriori dettagli, consulta [Pubblicazione basata su articolo dall’editor web](web-editor-article-publishing.md#id218CK0U019I).
+  È inoltre possibile scaricare il file mappa senza selezionare alcuna opzione. In tal caso, vengono scaricate le ultime versioni persistenti degli argomenti e dei file multimediali a cui si fa riferimento.
+
+  Dopo aver fatto clic su **Scarica** , la richiesta di download della mappa è in coda. Se la mappa è pronta per il download, riceverai una notifica di pronto per il download. Se il download non riesce, si riceve la notifica che il download della mappa non è riuscito
+
+  Puoi accedere al collegamento per il download dalla casella in entrata delle notifiche AEM. Seleziona la notifica della mappa generata nella casella in entrata per scaricare la mappa in formato .zip.
+
+  >[!NOTE]
+  >
+  >  Per impostazione predefinita, le mappe scaricate rimangono per cinque giorni nella casella in entrata delle notifiche AEM.
+
+- **Genera output**: genera l’output per il file di mappa selezionato. L&#39;output può essere generato solo per i file che fanno parte di un predefinito di output. Per ulteriori dettagli, consulta [Pubblicazione basata su articolo dall’editor web](web-editor-article-publishing.md#id218CK0U019I).
 - **Chiudi**: chiude il file mappa.
+
+
 
 La schermata seguente mostra il menu Opzioni per un file nella vista mappa DITA:
 

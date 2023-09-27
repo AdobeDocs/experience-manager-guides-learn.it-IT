@@ -1,10 +1,10 @@
 ---
 title: Rapporto mappa DITA dal dashboard delle mappe
-description: Scopri come mappare il rapporto DITA dal dashboard delle mappe
+description: Genera report mappa DITA dal dashboard delle mappe in Guide AEM. Scopri come generare il file CSV di un rapporto mappa DITA.
 exl-id: 8ba1dc83-fa96-4ae0-bfa8-89b5a8949f08
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '742'
 ht-degree: 0%
 
 ---
@@ -29,15 +29,15 @@ Per visualizzare il rapporto Mappa DITA, effettuare le seguenti operazioni:
 
    - **Riepilogo argomenti:**
 
-      Elenca il riepilogo generale del file di mapping selezionato. Osservando il Riepilogo, è possibile conoscere rapidamente il numero totale di argomenti nella mappa, gli argomenti mancanti, il numero di argomenti con elementi mancanti, lo stato degli argomenti: In bozza, In revisione o Rivisto.
+     Elenca il riepilogo generale del file di mapping selezionato. Osservando il Riepilogo, è possibile conoscere rapidamente il numero totale di argomenti nella mappa, gli argomenti mancanti, il numero di argomenti con elementi mancanti, lo stato degli argomenti: In bozza, In revisione o Rivisto.
 
    - **Dettagli:**
 
-      Quando si fa clic su un argomento, viene visualizzato un report dettagliato dell&#39;argomento selezionato.
+     Quando si fa clic su un argomento, viene visualizzato un report dettagliato dell&#39;argomento selezionato.
 
-      ![](images/detailed-report-uuid.png){width="800" align="left"}
+     ![](images/detailed-report-uuid.png){width="800" align="left"}
 
-      Elementi evidenziati in **A**, **B**, **C** e **D** sono descritti di seguito:
+     Elementi evidenziati in **A**, **B**, **C** e **D** sono descritti di seguito:
 
       - **Argomento**: titolo dell&#39;argomento specificato nella mappa DITA. Passando il puntatore del mouse sul titolo dell&#39;argomento viene visualizzato il percorso completo dell&#39;argomento. In caso di problemi nell&#39;argomento, come riferimenti o immagini mancanti, viene visualizzato un punto rosso prima del titolo dell&#39;argomento.
 
@@ -55,6 +55,7 @@ Per visualizzare il rapporto Mappa DITA, effettuare le seguenti operazioni:
 
       - **Apri nell’editor \(D\)**: facendo clic su questa icona si apre l’argomento nell’Editor web.
 
+
    Elementi evidenziati in **E** sono descritti di seguito:
 
    - **Multimedia**: insieme al relativo UUID vengono mostrati il percorso delle immagini utilizzate nell’argomento. Se fate clic sul percorso dell&#39;immagine, l&#39;immagine corrispondente viene aperta in una finestra a comparsa. I collegamenti immagine interrotti sono elencati in rosso.
@@ -66,8 +67,6 @@ Per visualizzare il rapporto Mappa DITA, effettuare le seguenti operazioni:
    - **Revisione**: mostra lo stato dell’attività di revisione dell’argomento. È possibile visualizzare lo stato \(aperto o chiuso\), la data di scadenza e l&#39;assegnatario dell&#39;argomento in revisione. Se si fa clic sul collegamento dell&#39;argomento, l&#39;argomento viene aperto in modalità di revisione.
 
    - **Utilizzato in**: mostra un elenco di altri argomenti o mappe in cui viene utilizzato l’argomento. È elencato anche l’UUID di tutti questi argomenti e mappe.
-
-
 
 Oltre al report per ogni singolo argomento, gli amministratori hanno anche accesso a informazioni quali la cronologia di pubblicazione di una mappa DITA. Per ulteriori informazioni sulla cronologia degli output generati, consulta [Visualizza lo stato dell&#39;attività di generazione output](generate-output-for-a-dita-map.md#viewing_output_history).
 

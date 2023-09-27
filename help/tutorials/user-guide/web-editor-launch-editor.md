@@ -1,10 +1,10 @@
 ---
 title: Avviare l’editor web
-description: Scopri come avviare l’editor web
+description: Scopri come avviare l’editor web dalla pagina di navigazione AEM, dall’interfaccia utente di AEM Assets e dalla console delle mappe DITA nelle guide dell’AEM.
 exl-id: f02f9612-7aaa-42ea-bad3-c44d23b5d034
-source-git-commit: dce7b1c97f8f7f79b313b08ca0489e8e50b633ec
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
@@ -37,20 +37,20 @@ Dopo aver avviato l&#39;editor Web senza selezionare alcun file, viene visualizz
 
 
 
-   <details>
+  <details>
 
-   <summary> Servizi cloud </summary>
+  <summary> Servizi cloud </summary>
 
-   Se si utilizzano Cloud Services, fare clic su **Chiudi** per tornare alla pagina di navigazione AEM.
-   </details>
+  Se si utilizzano Cloud Service, fare clic su **Chiudi** per tornare alla pagina di navigazione AEM.
+  </details>
 
-   <details>
+  <details>
 
-   <summary> Software on-premise</summary>
+  <summary> Software on-premise</summary>
 
-   Se utilizzi il software on-premise delle guide dell’AEM (4.2.1 e versioni successive), fai clic su **Chiudi** a destra per tornare al percorso del file corrente nell’interfaccia utente Assets.
+  Se utilizzi il software on-premise delle guide dell’AEM (4.2.1 e versioni successive), fai clic su **Chiudi** a destra per tornare al percorso del file corrente nell’interfaccia utente Assets.
 
-   </details>
+  </details>
 
 ## Interfaccia utente di AEM Assets {#id2056BG0307U}
 

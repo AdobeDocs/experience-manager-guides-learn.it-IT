@@ -1,10 +1,10 @@
 ---
 title: Usa pannello Generazione rapida
-description: Scopri come utilizzare il pannello Generazione rapida
+description: Utilizza il pannello di generazione rapida nelle guide AEM. Scopri come generare e visualizzare l’output dal pannello di generazione rapida.
 exl-id: d48803d9-470c-4679-8def-72b45a85917b
-source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---

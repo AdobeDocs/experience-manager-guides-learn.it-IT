@@ -1,17 +1,17 @@
 ---
 title: Genera output di file .book o .fm
-description: Scopri come generare l’output di file .book o .fm
+description: Scopri come generare l’output di file .book o .fm nelle guide AEM.
 exl-id: 578cff9f-cb27-4df3-8571-277f81b930d7
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
 
 # Genera output di file .book o .fm {#generating_output_fm_docs}
 
-Per generare l&#39;output per i documenti FrameMaker, effettuate le seguenti operazioni:
+Per generare l&#39;output per i documenti di FrameMaker, effettuare le operazioni riportate di seguito.
 
 1. Nell’interfaccia utente Assets, accedi a e fai clic sul pulsante `.book` o `.fm` file da pubblicare.
 
@@ -28,4 +28,4 @@ Per generare l&#39;output per i documenti FrameMaker, effettuate le seguenti ope
 >
 > Puoi visualizzare lo stato corrente della richiesta di generazione dell’output facendo clic su Output. Per ulteriori informazioni, consulta [Visualizza lo stato dell&#39;attività di generazione output](fm-output-view-status.md).
 
-**Argomento padre:**[ Genera output di documenti FrameMaker](fm-output-generatation.md)
+**Argomento padre:**[ Genera output di documenti di FrameMaker](fm-output-generatation.md)

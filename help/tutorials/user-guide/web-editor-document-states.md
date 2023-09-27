@@ -1,10 +1,10 @@
 ---
 title: Stato documento
-description: Scopri come documentare lo stato
+description: Scopri i tipi di stati dei documenti nelle Guide AEM. Scopri come modificare o visualizzare lo stato del documento e come utilizzarlo in DDLC.
 exl-id: 6ab85a63-02d2-4802-a6b8-99e6551a567b
-source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---

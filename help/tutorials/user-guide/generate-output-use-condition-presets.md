@@ -1,10 +1,10 @@
 ---
 title: Utilizzare i predefiniti per le condizioni
-description: Scopri come utilizzare i predefiniti per le condizioni
+description: Conoscere l’uso delle condizioni preimpostate nelle guide AEM. Scopri come creare, modificare, copiare ed eliminare i predefiniti per le condizioni in AEM.
 exl-id: cd8f8196-ba03-4a4b-9ce8-2651de4e5cc2
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '499'
 ht-degree: 2%
 
 ---

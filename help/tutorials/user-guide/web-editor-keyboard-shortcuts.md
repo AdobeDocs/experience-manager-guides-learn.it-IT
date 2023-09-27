@@ -1,17 +1,17 @@
 ---
 title: Scelte rapide da tastiera nell’editor web
-description: Scopri come utilizzare le scelte rapide da tastiera nell’editor web
+description: Scopri le scelte rapide da tastiera per risparmiare tempo nell’editor web delle guide AEM.
 exl-id: e8be4c83-a236-43c1-b778-c3da92537174
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
 
 # Scelte rapide da tastiera nell’editor web {#id2056B0A0WHT}
 
-Nell&#39;editor Web sono disponibili numerose operazioni che è possibile eseguire utilizzando le scelte rapide da tastiera. Nella tabella seguente sono elencate le scelte rapide da tastiera seguenti:
+Nell&#39;Editor Web sono disponibili numerose operazioni che è possibile eseguire utilizzando le scelte rapide da tastiera. Nella tabella seguente sono elencate le scelte rapide da tastiera seguenti:
 
 >[!NOTE]
 >

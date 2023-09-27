@@ -1,13 +1,13 @@
 ---
 title: Usa editor DITAVAL
-description: Scopri come utilizzare l’editor DITAVAL
-source-git-commit: c6eceb8ea3ce41f12ea1f689dc8aeab2b4ba3d9c
+description: Comprendere come creare e modificare i file DITAVAL utilizzando l'editor DIVATAL in Guide AEM. Scopri in che modo l’editor DITAVAL supporta i file DITAVAL nelle visualizzazioni di authoring e sorgente.
+exl-id: 53dc9a61-aa07-4fb0-a442-ac845433c8f5
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '780'
 ht-degree: 0%
 
 ---
-
 
 # editor DITAVAL {#ditaval-editor}
 
@@ -88,4 +88,3 @@ Per trovare la versione del file DITAVAL su cui si sta attualmente lavorando, po
 Per richiamare lo Smart Catalog, posizionare il cursore alla fine di qualsiasi definizione di proprietà e immettere &quot;&lt;&quot;. Nell&#39;editor verrà visualizzato un elenco di tutti gli elementi XML validi che è possibile inserire in tale posizione.
 
 ![](images/ditaval-source-view.png)
-

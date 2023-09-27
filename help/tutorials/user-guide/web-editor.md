@@ -1,10 +1,10 @@
 ---
 title: Utilizzare l’editor web
-description: Scopri come utilizzare l’editor web
+description: Creazione e modifica di documenti strutturati tramite l'editor Web. Scopri come utilizzare l’editor web seguendo gli standard DITA nelle guide AEM.
 exl-id: 77d5daa7-4c19-448f-b10e-b52a055467ae
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---

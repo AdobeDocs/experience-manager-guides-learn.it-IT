@@ -1,10 +1,10 @@
 ---
 title: Creare, modificare, duplicare o rimuovere un predefinito di output
-description: Scopri come creare, modificare, duplicare o rimuovere un predefinito di output
+description: Scopri come creare, modificare, duplicare ed eliminare un predefinito di output personalizzato nelle guide AEM.
 exl-id: 6ed4f028-da96-4383-9d5c-06b94d6661c0
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---

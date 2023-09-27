@@ -1,10 +1,10 @@
 ---
 title: Creare documenti Markdown
-description: Scopri come creare documenti Markdown
+description: Creare documenti Markdown dall’editor web. Scopri come creare, scrivere e visualizzare in anteprima un argomento Markdown nelle guide AEM.
 exl-id: ad20ca0b-a01d-4e72-8e3e-1d6feb41e52a
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---

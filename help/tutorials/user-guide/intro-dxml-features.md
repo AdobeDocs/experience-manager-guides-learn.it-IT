@@ -1,10 +1,10 @@
 ---
 title: Caratteristiche principali delle guide AEM
-description: Scopri come visualizzare le funzioni principali delle guide AEM
+description: Esplora le funzioni chiave nelle guide AEM, nell’authoring DITA, nella gestione dei contenuti, nella revisione basata sul web, nella traduzione, nella localizzazione, nella pubblicazione multicanale e nell’integrazione del FrameMaker.
 exl-id: f456741a-b504-4686-8230-64fac0ad8939
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '940'
 ht-degree: 0%
 
 ---
@@ -58,11 +58,11 @@ Rendi la pubblicazione priva di errori controllando e correggendo facilmente il 
 Promuovi un coinvolgimento più profondo degli utenti finali e l’adozione dei contenuti attraverso esperienze di contenuti altamente rilevanti. Con le guide AEM, puoi sfruttare l’ampio supporto per la gestione dei tag in Experience Manager per applicare tag rilevanti al contenuto DITA sorgente. Utilizza questi tag per fornire agli utenti finali esperienze di contenuto altamente personalizzate.
 
 **Integrazione nativa con Adobe FrameMaker**
-Godetevi un&#39;esperienza veloce e fluida mentre lavorate con Experience Manager e FrameMaker (versione 2015) Aggiornamento 4 o successivo.
+Godetevi un&#39;esperienza veloce e fluida lavorando con Experience Manager e FrameMaker (versione 2015) Aggiornamento 4 o successivo.
 
 La stretta integrazione di Experience Manager e FrameMaker attraverso un connettore integrato consente di lavorare senza problemi con l’archivio dei contenuti di Experience Manager. Sfrutta il connettore per iniziare rapidamente a creare, rivedere e cercare contenuti DITA.
 
-Utilizzando il connettore AEM in FrameMaker, potete gestire i file FrameMaker. Il connettore AEM consente di caricare facilmente i documenti DITA e FrameMaker (con estensione book e fm) sull&#39;AEM. Le guide AEM consentono inoltre di pubblicare documenti FrameMaker direttamente dall&#39;AEM. Se il file di registro di FrameMaker contiene una combinazione di file DITA e fm, anche le guide AEM possono pubblicare tali documenti. Attualmente, è possibile pubblicare i file .book e .fm di FrameMaker nei formati PDF, HTML5 e EPUB.
+Utilizzando il connettore AEM in FrameMaker, puoi gestire i file di FrameMaker. Il connettore AEM consente di caricare facilmente il DITA e altri documenti di FrameMaker (con estensione book e fm) sull’AEM. Le guide dell’AEM consentono inoltre di pubblicare documenti del FrameMaker direttamente dall’AEM. Se il file del manuale del FrameMaker contiene una combinazione di file DITA e fm, anche le guide AEM possono pubblicare tali documenti. Attualmente, è possibile pubblicare i file .book e .fm di FrameMaker nei formati PDF, HTML5 e EPUB.
 
 ## Risorse aggiuntive
 

@@ -1,10 +1,10 @@
 ---
 title: Creare un progetto DITA
-description: Scopri come creare un progetto DITA
+description: Creare un progetto DITA utilizzando un modello in Guide AEM. Scopri come utilizzare un progetto DITA per avviare le recensioni.
 exl-id: 6dc88ac4-249a-4da2-9787-a58370e281ca
-source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -48,6 +48,7 @@ Per creare un progetto DITA, effettuare le seguenti operazioni:
    - È possibile scegliere una miniatura per il progetto.
 
    - Per impostazione predefinita, sei il proprietario del progetto. Per aggiungere altri utenti a questo progetto:
+
    1. Inserisci o scegli un utente da **Utente** elenco a discesa.
 
    1. Scegli un tipo di utente: Autori, Revisori o Editori.
@@ -61,11 +62,10 @@ Per creare un progetto DITA, effettuare le seguenti operazioni:
       >[!NOTE]
       >
       >Se si utilizzano le guide AEM versione 3.5 o precedente, viene visualizzata un&#39;opzione per selezionare un file di mappa DITA per risolvere i riferimenti chiave per i flussi di lavoro di modifica, anteprima e revisione degli argomenti. Nelle versioni 3.6 e successive è possibile impostare la mappa principale tramite l&#39;editor Web. Per ulteriori informazioni, vedere [Preferenze utente](web-editor-features.md#id2087G0P40SB) nell&#39;editor Web. Un altro modo per impostare la mappa principale è configurarla a livello globale o di cartella. Per ulteriori dettagli, consulta *Configurare profili globali o a livello di cartella* nella Guida all&#39;installazione e alla configurazione.
+
    Informazioni in **Avanzate** scheda:
 
    - Immettere un nome per il progetto. Questo nome viene utilizzato per creare l’URL per questo progetto.
-
-
 
 1. Fai clic su **Crea**.
 

@@ -2,9 +2,9 @@
 title: Configurare una nuova pubblicazione basata su microservizi per le guide AEM as a Cloud Service
 description: Scopri come configurare una nuova pubblicazione basata su microservizi per le guide AEM.
 exl-id: 92e3091d-6337-4dc6-9609-12b1503684cd
-source-git-commit: 92b087c4cb115f0966d20b6b1d9d26839c6e39b7
+source-git-commit: aa71a2b8ff5f83365ff2f3562bb2b77061a3da8e
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Per ogni richiesta di pubblicazione, le guide AEM as a Cloud Service eseguono un
 
 >[!NOTE]
 >
-> La pubblicazione basata su microservizi nelle guide AEM supporta i tipi di predefiniti di output PDF (sia nativi che basati su DITA-OT), HTML5 e CUSTOM.
+> La pubblicazione basata su microservizi nelle guide AEM supporta i tipi di predefiniti di output PDF (sia nativi che basati su DITA-OT), HTML5, JSON e CUSTOM.
 
 Poiché il nuovo servizio di pubblicazione cloud è protetto dall’autenticazione basata su JWT di Adobe IMS, i clienti devono seguire i passaggi riportati di seguito per integrare i propri ambienti con i flussi di lavoro di autenticazione sicuri basati su token di Adobe e iniziare a utilizzare la nuova soluzione di pubblicazione scalabile basata su cloud.
 

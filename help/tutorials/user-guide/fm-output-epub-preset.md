@@ -1,10 +1,10 @@
 ---
 title: EPUB
-description: Scopri come rendere EPUB
+description: Genera e configura l'output EPUB per i documenti di FrameMaker nelle guide AEM.
 exl-id: 5c9d4b78-94bd-46b7-891e-33d7df596ca3
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '175'
 ht-degree: 4%
 
 ---
@@ -25,4 +25,4 @@ Per l’output EPUB sono disponibili le seguenti opzioni:
 | Percorso di destinazione | Il percorso all’interno dell’archivio AEM in cui è memorizzato l’output EPUB. |
 | Esegui flusso di lavoro di post-generazione | Quando scegli questa opzione, viene visualizzato un nuovo elenco a discesa Flusso di lavoro di post-generazione contenente tutti i flussi di lavoro configurati in AEM. È necessario selezionare un flusso di lavoro da eseguire dopo il completamento del flusso di lavoro di generazione dell&#39;output. |
 
-**Argomento padre:**[ Genera output di documenti FrameMaker](fm-output-generatation.md)
+**Argomento padre:**[ Genera output di documenti di FrameMaker](fm-output-generatation.md)

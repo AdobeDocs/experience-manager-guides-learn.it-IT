@@ -1,10 +1,10 @@
 ---
 title: Rapporto sul riutilizzo dei contenuti
-description: Scopri come riutilizzare i contenuti del rapporto
+description: Scopri come visualizzare il rapporto sul riutilizzo dei contenuti nelle guide dell’AEM. Genera il report per trovare la percentuale di riutilizzo del contenuto.
 exl-id: 658ae0fd-9032-4480-b9e4-fe4fec261e72
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -37,11 +37,11 @@ Per visualizzare il rapporto sul riutilizzo del contenuto, effettua le seguenti 
 
    - **Riepilogo rapporto:**
 
-      Elenca il riutilizzo medio del contenuto, calcolato come Istanze di riutilizzo del contenuto/Conteggio totale argomenti. Questo rapporto prende in considerazione tutti i riferimenti diretti al contenuto di primo livello e i riferimenti agli argomenti per il calcolo. Il valore Istanze di riutilizzo del contenuto viene calcolato come la somma totale dei valori nel campo Numero di volte riutilizzate. L’argomento più ampiamente riutilizzato è elencato anche nel Riepilogo del rapporto. Se si fa clic sul collegamento dell&#39;argomento nell&#39;argomento più riutilizzato, viene aperta l&#39;anteprima dell&#39;argomento.
+     Elenca il riutilizzo medio del contenuto, calcolato come Istanze di riutilizzo del contenuto/Conteggio totale argomenti. Questo rapporto prende in considerazione tutti i riferimenti diretti ai contenuti di primo livello e i riferimenti agli argomenti per il calcolo. Il valore Istanze di riutilizzo del contenuto viene calcolato come la somma totale dei valori nel campo Numero di volte riutilizzate. L’argomento più ampiamente riutilizzato è elencato anche nel Riepilogo del rapporto. Se si fa clic sul collegamento dell&#39;argomento nell&#39;argomento più riutilizzato, viene aperta l&#39;anteprima dell&#39;argomento.
 
    - **Dettagli:**
 
-      La sezione Dettagli contiene le colonne seguenti:
+     La sezione Dettagli contiene le colonne seguenti:
 
       - **Titolo**: titolo dell’argomento. Se si fa clic sul collegamento del titolo dell&#39;argomento, viene visualizzata l&#39;anteprima dell&#39;argomento.
 

@@ -1,21 +1,21 @@
 ---
 title: Visualizza lo stato dell'attività di generazione output
-description: Scopri come visualizzare lo stato dell’attività di generazione dell’output
+description: Visualizzare la coda di generazione output dei documenti di FrameMaker. Scopri come visualizzare lo stato di un’attività di generazione output.
 exl-id: 6fdaa547-8446-4ce5-95c3-a63d9c1f27d2
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
 
 # Visualizza lo stato dell&#39;attività di generazione output {#viewing_output_history}
 
-Una volta avviata l&#39;attività di generazione dell&#39;output per un documento FrameMaker, Guide AEM la invia alla coda di generazione dell&#39;output. Questa coda viene aggiornata in tempo reale, mostrando lo stato di ogni operazione di generazione output nella coda.
+Dopo aver avviato l&#39;operazione di generazione output per un documento di FrameMaker, Guide AEM invia l&#39;operazione alla coda di generazione output. Questa coda viene aggiornata in tempo reale, mostrando lo stato di ogni operazione di generazione output nella coda.
 
 Per visualizzare la coda di generazione dell’output, effettua le seguenti operazioni:
 
-1. Nell’interfaccia utente Assets, individua e fai clic sul documento FrameMaker di cui desideri controllare lo stato di generazione dell’output.
+1. Nell’interfaccia utente Assets, passa al documento di FrameMaker e fai clic su di esso per il quale desideri controllare lo stato di generazione dell’output.
 
 1. Fare clic su Output.
 
@@ -25,13 +25,13 @@ Per visualizzare la coda di generazione dell’output, effettua le seguenti oper
 
    - **Output in coda:**
 
-      Elenca gli output in attesa di generazione o in fase di generazione. È inoltre possibile trovare l&#39;impostazione di generazione dell&#39;output o il predefinito utilizzato per l&#39;attività in coda, il tipo, l&#39;utente che ha avviato l&#39;attività, il tempo trascorso dalla data di accodamento dell&#39;attività e lo stato corrente.
+     Elenca gli output in attesa di generazione o in fase di generazione. È inoltre possibile trovare l&#39;impostazione di generazione dell&#39;output o il predefinito utilizzato per l&#39;attività in coda, il tipo, l&#39;utente che ha avviato l&#39;attività, il tempo trascorso dalla data di accodamento dell&#39;attività e lo stato corrente.
 
    - **Uscite generate**
 
-      Elenca le attività di output completate. Anche in questo caso, le informazioni visualizzate sono simili a quelle della sezione Output in coda, con l&#39;unica differenza del tempo di generazione dell&#39;output.
+     Elenca le attività di output completate. Anche in questo caso, le informazioni visualizzate sono simili a quelle della sezione Output in coda, con l&#39;unica differenza del tempo di generazione dell&#39;output.
 
-      In questo elenco è possibile che siano presenti attività eseguite correttamente o attività non riuscite. Per le attività completate correttamente, il processo di pubblicazione crea un file di registro \(logs.txt\) a cui è possibile accedere facendo clic sul collegamento nella colonna Generato a.
+     In questo elenco è possibile che siano presenti attività eseguite correttamente o attività non riuscite. Per le attività completate correttamente, il processo di pubblicazione crea un file di registro \(logs.txt\) a cui è possibile accedere facendo clic sul collegamento nella colonna Generato a.
 
 
-**Argomento padre:**[ Genera output di documenti FrameMaker](fm-output-generatation.md)
+**Argomento padre:**[ Genera output di documenti di FrameMaker](fm-output-generatation.md)

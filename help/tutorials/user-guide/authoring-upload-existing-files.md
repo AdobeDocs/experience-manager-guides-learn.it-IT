@@ -1,10 +1,10 @@
 ---
 title: Carica file
-description: Scopri come caricare i file
+description: Scopri come caricare i file nell’archivio AEM e gestire gli errori. Conoscere l’interfaccia utente della console delle risorse, l’app desktop AEM, l’acquisizione in blocco delle risorse e utilizzare il FrameMaker per il caricamento in blocco.
 exl-id: d6a73953-94dd-4fa5-b09c-5e4c77fead62
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -31,9 +31,9 @@ In caso di migrazioni su larga scala e acquisizioni in blocco occasionali, utili
 
 ## Usa FrameMaker per il caricamento in blocco
 
-Adobe FrameMaker viene fornito con un potente connettore AEM che consente di caricare facilmente i documenti DITA e FrameMaker esistenti \(`.book` e `.fm`\) nell’AEM. Puoi utilizzare varie funzionalità di caricamento dei file, ad esempio il caricamento di un singolo file e di una cartella completa con o senza dipendenze \(come riferimenti a contenuti, riferimenti incrociati e elementi grafici\).
+Adobe FrameMaker viene fornito con un potente connettore AEM che consente di caricare facilmente i documenti DITA e di altro FrameMaker esistenti \(`.book` e `.fm`\) nell’AEM. Puoi utilizzare varie funzionalità di caricamento dei file, ad esempio il caricamento di un singolo file e di una cartella completa con o senza dipendenze \(come riferimenti a contenuti, riferimenti incrociati e elementi grafici\).
 
-Per ulteriori dettagli sull&#39;utilizzo della funzione di caricamento in blocco in FrameMaker, consultate la sezione *Creare una cartella CRX e caricare i file* nella Guida utente di FrameMaker.
+Per ulteriori dettagli sull’utilizzo della funzione di caricamento in blocco nel FrameMaker, consulta la sezione *Creare una cartella CRX e caricare i file* nella Guida utente del FrameMaker.
 
 ## Gestione degli errori durante il caricamento del contenuto {#id201MI0I04Y4}
 

@@ -1,10 +1,10 @@
 ---
 title: Best practice per la traduzione dei contenuti
-description: Scopri come best practice per la traduzione dei contenuti
+description: Scopri le best practice per la traduzione dei contenuti nelle Guide AEM. Scopri come configurare il servizio di traduzione, creare un nuovo progetto di traduzione e avviare il processo di traduzione.
 exl-id: 4eff0f27-b3d1-4c6e-af88-bcb3f6d96990
-source-git-commit: d87a2e054310e3421dcbf347232a420638823b93
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '1285'
+source-wordcount: '1304'
 ht-degree: 1%
 
 ---
@@ -37,9 +37,9 @@ Per configurare il servizio di traduzione umana o automatica da utilizzare, effe
 
 1. Nell’interfaccia utente Assets, seleziona la cartella della lingua di origine.
 
-1. Apri le proprietà della cartella e vai a **Cloud Services** scheda.
+1. Apri le proprietà della cartella e vai a **Cloud Service** scheda.
 
-1. In **Cloud Services** , configura il servizio di traduzione che desideri utilizzare.
+1. In **Cloud Service** , configura il servizio di traduzione che desideri utilizzare.
 
    Puoi configurare la traduzione automatica o umana.
 

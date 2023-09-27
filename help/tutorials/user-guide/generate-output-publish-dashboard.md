@@ -1,10 +1,10 @@
 ---
 title: Gestire le attività di pubblicazione tramite il dashboard di pubblicazione
-description: Scopri come gestire le attività di pubblicazione utilizzando il dashboard di pubblicazione
+description: Gestisci le attività di pubblicazione utilizzando il dashboard di pubblicazione nelle guide AEM. Scopri come accedere al dashboard di pubblicazione e annullare un’attività di pubblicazione.
 exl-id: 5ede608d-f905-44b7-9147-ab678ad68ee7
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '525'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Il pannello a sinistra nel dashboard di pubblicazione fornisce le seguenti opzio
 
 - **Predefinito di output** - Selezionare uno o più predefiniti di output per i quali si desidera visualizzare le attività di pubblicazione attualmente attive. Nella schermata seguente, le attività di pubblicazione vengono filtrate per mostrare solo le attività che utilizzano il predefinito di output Sito AEM:
 
-   ![](images/publish-dashboard-preset-filter.png){width="800" align="left"}
+  ![](images/publish-dashboard-preset-filter.png){width="800" align="left"}
 
 - **Avviato da** - Selezionare un nome utente dall&#39;elenco per visualizzare le attività di pubblicazione avviate dall&#39;utente selezionato.
 

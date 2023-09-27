@@ -1,10 +1,10 @@
 ---
 title: Rapporto sullo stato della conversione
-description: Scopri come convertire il rapporto sullo stato
+description: Convertire documenti di formati diversi in DITA nelle guide AEM. Scopri come aggiungere filtri e visualizzare un rapporto sullo stato della conversione.
 exl-id: 41887af2-404f-41d7-b54c-ec49797200f0
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
@@ -29,15 +29,15 @@ Per visualizzare il rapporto Stato conversione, effettuare le seguenti operazion
 
    - **Filtro:**
 
-      Puoi filtrare i dati del rapporto in base al tipo di file e allo stato della conversione. In Tipo file è possibile scegliere di visualizzare i dati del report per documenti di Word, HTML strutturati, XML e DocBook. Nello stato è possibile scegliere di visualizzare i dati del report per le attività eseguite correttamente, non riuscite, attive o in coda.
+     Puoi filtrare i dati del rapporto in base al tipo di file e allo stato della conversione. In Tipo file è possibile scegliere di visualizzare i dati del report per documenti di Word, HTML strutturati, XML e DocBook. Nello stato è possibile scegliere di visualizzare i dati del report per le attività eseguite correttamente, non riuscite, attive o in coda.
 
-      Nella schermata seguente vengono visualizzati i dati del rapporto per le attività di conversione con stato Non riuscito, Attivo e In coda.
+     Nella schermata seguente vengono visualizzati i dati del rapporto per le attività di conversione con stato Non riuscito, Attivo e In coda.
 
-      ![](images/conversion-report-failed-active-queued.png){width="800" align="left"}
+     ![](images/conversion-report-failed-active-queued.png){width="800" align="left"}
 
    - **Dati rapporto:**
 
-      I dati del rapporto contengono le colonne seguenti:
+     I dati del rapporto contengono le colonne seguenti:
 
       - **Nome file**: nome del file di origine su cui è stato eseguito il processo di conversione. Se si fa clic sul collegamento Nome file, viene visualizzata la posizione del documento di origine.
 

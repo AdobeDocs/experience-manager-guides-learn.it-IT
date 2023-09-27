@@ -1,10 +1,10 @@
 ---
 title: Invia argomenti per la revisione
-description: Scopri come inviare argomenti per la revisione
+description: Scopri come creare un’attività di revisione e inviare argomenti per la revisione nelle Guide AEM. Inviare uno o più argomenti in una mappa DITA per la revisione.
 exl-id: 7a9b36ad-44d4-4952-9906-d95feb95d0c6
-source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '2733'
+source-wordcount: '2752'
 ht-degree: 0%
 
 ---
@@ -119,16 +119,16 @@ Per creare un&#39;attività di revisione e inviare gli argomenti per la revision
    - **Seleziona tutto**: seleziona tutti gli argomenti nell&#39;elenco degli argomenti. È possibile eseguire facilmente un&#39;operazione batch dopo aver selezionato tutti gli argomenti.
    - **Cancella selezione**: deseleziona gli argomenti selezionati nell&#39;elenco argomenti.
 
-      >[!NOTE]
-      >
-      > È inoltre possibile selezionare o deselezionare singolarmente un argomento facendo clic sulla casella di spunta accanto all&#39;argomento.
+     >[!NOTE]
+     >
+     > È inoltre possibile selezionare o deselezionare singolarmente un argomento facendo clic sulla casella di spunta accanto all&#39;argomento.
 
    - **Aggiungi**: visualizza la finestra di dialogo Aggiungi revisori. È possibile digitare il nome del ruolo di revisore o utente \(o gruppo\) che si desidera aggiungere come revisore agli argomenti selezionati.
    - **Rimuovi**: visualizza la finestra di dialogo Rimuovi revisori. È possibile digitare il nome di un revisore o di un ruolo utente \(o gruppo\) che si desidera rimuovere come revisore dagli argomenti selezionati.
 
-      >[!NOTE]
-      >
-      > È inoltre possibile rimuovere una revisione da un argomento facendo clic sul segno incrociato nella casella del revisore.
+     >[!NOTE]
+     >
+     > È inoltre possibile rimuovere una revisione da un argomento facendo clic sul segno incrociato nella casella del revisore.
 
    - **Riassegna**: visualizza la finestra di dialogo Riassegna revisori. È possibile digitare il nome di un revisore o di un ruolo utente \(o gruppo\) a cui si desidera assegnare l&#39;attività di revisione. In questo modo tutti i revisori esistenti verranno rimossi dagli argomenti selezionati e i revisori appena selezionati verranno assegnati a tali argomenti.
    - **Esporta**: ti consente di esportare i dettagli dell’attività di revisione in un file CSV. Il file contiene dettagli quali il percorso e il titolo dell&#39;argomento, il nome del revisore e la versione degli argomenti inviati per la revisione.
@@ -235,16 +235,15 @@ Per inviare uno o più argomenti insieme al file mappa per la revisione, effettu
    - **Seleziona tutto**: seleziona tutti gli argomenti nell&#39;elenco degli argomenti. È possibile eseguire facilmente un&#39;operazione batch dopo aver selezionato tutti gli argomenti.
    - **Cancella selezione**: deseleziona gli argomenti selezionati nell&#39;elenco argomenti.
 
-      >[!NOTE]
-      >
-      > È inoltre possibile selezionare o deselezionare singolarmente un argomento facendo clic sulla casella di spunta accanto all&#39;argomento.
+     >[!NOTE]
+     >
+     > È inoltre possibile selezionare o deselezionare singolarmente un argomento facendo clic sulla casella di spunta accanto all&#39;argomento.
 
    - **Aggiungi**: visualizza la finestra di dialogo Aggiungi revisori. È possibile digitare il nome del ruolo di revisore o utente \(o gruppo\) che si desidera aggiungere come revisore agli argomenti selezionati.
    - **Rimuovi**: visualizza la finestra di dialogo Rimuovi revisori. È possibile digitare il nome di un revisore o di un ruolo utente \(o gruppo\) che si desidera rimuovere come revisore dagli argomenti selezionati.
    - **Riassegna**: visualizza la finestra di dialogo Riassegna revisori. È possibile digitare il nome di un revisore o di un ruolo utente \(o gruppo\) a cui si desidera assegnare l&#39;attività di revisione. In questo modo tutti i revisori esistenti verranno rimossi dagli argomenti selezionati e i revisori appena selezionati verranno assegnati a tali argomenti.
    - **Esporta**: ti consente di esportare i dettagli dell’attività di revisione in un file CSV. Il file contiene dettagli quali il percorso e il titolo dell&#39;argomento, il nome del revisore e la versione degli argomenti inviati per la revisione.
    - **Modifica revisori**: facendo clic su ![](images/edit_pencil_icon.svg)nell&#39;elenco degli argomenti viene visualizzata la finestra di dialogo Modifica revisori. Da questa finestra di dialogo è possibile aggiungere o rimuovere revisori per l&#39;argomento selezionato.
-
    >[!IMPORTANT]
    >
    > È necessario assegnare almeno un revisore per creare l&#39;attività di revisione.

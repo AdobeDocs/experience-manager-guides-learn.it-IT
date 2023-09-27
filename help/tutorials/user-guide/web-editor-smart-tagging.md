@@ -1,10 +1,10 @@
 ---
 title: Applicazione di tag avanzati
-description: Scopri come assegnare tag avanzati
+description: Scopri come aggiungere tag avanzati nelle guide AEM. Utilizzare lo strumento Estrazione parole chiave XML per estrarre le parole chiave rilevanti.
 exl-id: 73d8d012-6bf0-416b-8180-0c90844e50cb
-source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---

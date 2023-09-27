@@ -1,10 +1,10 @@
 ---
 title: Supporto per i file Schematron
-description: Scopri come convalidare i tuoi argomenti con lo schema
+description: Scopri come importare e convalidare un argomento DITA, utilizzare le istruzioni di asserzione dei rapporti per verificare la presenza di regole, utilizzare espressioni regex e definire pattern astratti nei file Schematron delle guide AEM.
 exl-id: e5912fa1-af26-42f4-b5e5-a6d2afd45bc8
-source-git-commit: f6794078e760565f5934faf63a7cbfb919acce90
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '761'
 ht-degree: 0%
 
 ---

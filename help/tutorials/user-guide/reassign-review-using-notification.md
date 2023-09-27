@@ -1,10 +1,10 @@
 ---
 title: Riassegna attività di revisione tramite notifica
-description: Scopri come riassegnare l’attività di revisione utilizzando la notifica
+description: Riassegna un’attività di revisione utilizzando le notifiche nelle guide AEM. Scopri come riassegnare un’attività revisore dalla notifica nella casella in entrata.
 exl-id: d20865a8-2c30-4bd7-8594-64e0ccdb665a
-source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---

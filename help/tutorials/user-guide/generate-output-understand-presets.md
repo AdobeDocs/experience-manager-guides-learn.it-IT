@@ -1,10 +1,10 @@
 ---
 title: Informazioni sui predefiniti di output
-description: Scopri come comprendere i predefiniti di output
+description: Comprendere i predefiniti di output nelle guide AEM. Crea predefiniti di output dall’editor web e dal dashboard delle mappe per i formati AEM site, PDF, HTML5, EPUB, custom e JSON.
 exl-id: ff4dedbb-47c4-40c7-950c-51f70d5d4b1b
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '177'
 ht-degree: 2%
 
 ---

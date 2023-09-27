@@ -1,10 +1,10 @@
 ---
 title: Scopri come tradurre i contenuti
-description: Scopri come tradurre i contenuti
+description: Traduci i contenuti in più lingue nelle guide AEM. Scopri i flussi di lavoro di traduzione umana e automatica.
 exl-id: 21a3307f-2b25-40e8-8801-2f3fd5b2415f
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '132'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,9 @@ Le guide AEM sono dotate di potenti funzionalità che consentono di tradurre i c
 
 - **Traduzione automatica** - Questo è il servizio predefinito in AEM in cui il contenuto viene tradotto immediatamente utilizzando la traduzione automatica in tempo reale. L’AEM preconfigurato consente di connettersi a Microsoft Translator.
 
-   >[!NOTE]
-   >
-   > Microsoft Translator è disponibile solo come licenza di prova.
+  >[!NOTE]
+  >
+  > Microsoft Translator è disponibile solo come licenza di prova.
 
 
 - **[Best practice per la traduzione dei contenuti](translation-first-time.md)**

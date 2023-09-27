@@ -1,10 +1,10 @@
 ---
 title: Utilizzare l’Editor di mappe avanzato
-description: Scopri come utilizzare l’Editor di mappe avanzato
+description: Scopri come utilizzare l’editor di mappe avanzato nelle guide AEM. Conoscere le funzioni dell’Editor mappe avanzato. Modificare gli argomenti tramite una mappa DITA e utilizzare le visualizzazioni Layout, Autore e Anteprima.
 exl-id: 4f48d489-d13e-4285-8870-373f0324f5f6
-source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '3675'
+source-wordcount: '3701'
 ht-degree: 0%
 
 ---
@@ -77,15 +77,15 @@ Per creare il file di mappa mediante l&#39;Editor mappe avanzato, effettuare le 
 
    - Il file viene aggiunto in un punto in cui la barra orizzontale viene visualizzata nell&#39;area di modifica delle mappe. Nella schermata seguente, *Panoramica* L&#39;argomento verrà aggiunto tra *Descrizione generale* e *Launch e sito di destinazione* argomenti.
 
-      ![](images/horizontal-line-in-adv-map-editor.png){width="350" align="left"}
+     ![](images/horizontal-line-in-adv-map-editor.png){width="350" align="left"}
 
    - Per sostituire un argomento, posizionare l&#39;argomento in alto, a sinistra o a destra dell&#39;argomento che si desidera sostituire. Una barra verticale a sinistra o a destra di un argomento indica che verrà sostituito con l&#39;argomento che viene rilasciato su di esso.
 
-      ![](images/vertical-bar-left-right.png){width="550" align="left"}
+     ![](images/vertical-bar-left-right.png){width="550" align="left"}
 
-      Tuttavia, prima di sostituire un argomento, viene visualizzata una richiesta di conferma. L’argomento viene sostituito solo dopo la conferma.
+     Tuttavia, prima di sostituire un argomento, viene visualizzata una richiesta di conferma. L’argomento viene sostituito solo dopo la conferma.
 
-      ![](images/replace-topic-confirm.png){width="300" align="left"}
+     ![](images/replace-topic-confirm.png){width="300" align="left"}
 
    - Se si aggiunge una mappa secondaria alla mappa DITA, questa verrà visualizzata come collegamento nella mappa DITA. Per visualizzare tutti gli argomenti della mappa secondaria, fare clic sul collegamento corrispondente. Il contenuto della mappa secondaria viene visualizzato in una nuova scheda. Allo stesso modo, per aprire un argomento dalla mappa DITA, fare clic sul collegamento dell&#39;argomento e aprirlo nella nuova scheda.
 
@@ -93,7 +93,7 @@ Per creare il file di mappa mediante l&#39;Editor mappe avanzato, effettuare le 
 
    - Per modificare la posizione di un argomento, selezionare l&#39;argomento \(facendo clic sull&#39;icona dell&#39;argomento\), quindi trascinarlo nella posizione desiderata nel file di mappa. Verificare che la barra orizzontale sia visibile nel punto in cui si desidera inserire l&#39;argomento. Nella schermata seguente, l’argomento *Launch e sito di destinazione* viene spostato dopo il *Panoramica* argomento.
 
-      ![](images/move-topic-adv-map-editor.png){width="350" align="left"}
+     ![](images/move-topic-adv-map-editor.png){width="350" align="left"}
 
    - Per verificare le proprietà del file mappa, fare clic con il pulsante destro del mouse in un punto qualsiasi dell&#39;area di modifica della mappa e scegliere **Proprietà** dal menu di scelta rapida. In base alla versione dell’AEM in uso, puoi visualizzare proprietà quali metadati, pianificazione \(de\)attivazione, riferimenti, stato del documento e altro ancora.
 
@@ -209,16 +209,16 @@ Oltre ad organizzare gli argomenti nel file mappa, è possibile eseguire le azio
 - **Ripeti**: ripete l’ultima operazione nella vista Layout.
 - **Copia**: copia il riferimento selezionato dal file mappa.
 
-   >[!NOTE]
-   >
-   > Potete visualizzare e quindi selezionare le caselle di controllo per copiare più riferimenti.
+  >[!NOTE]
+  >
+  > Potete visualizzare e quindi selezionare le caselle di controllo per copiare più riferimenti.
 
 - **Incolla**: incolla i riferimenti copiati nella posizione corrente nella gerarchia.
 - **Elimina**: elimina i riferimenti selezionati dal file di mappa.
 
-   >[!NOTE]
-   >
-   > È possibile visualizzare e quindi selezionare le caselle di controllo per eliminare più riferimenti.
+  >[!NOTE]
+  >
+  > È possibile visualizzare e quindi selezionare le caselle di controllo per eliminare più riferimenti.
 
 
 ## Pannello a destra nell’editor mappa
@@ -231,10 +231,10 @@ Il pannello Proprietà contenuto contiene informazioni sul tipo di argomento att
 
 - **Altri attributi** Se l&#39;amministratore ha creato un profilo per gli attributi, questi verranno ottenuti insieme ai relativi valori configurati. Utilizzando il pannello delle proprietà del contenuto, potete scegliere questi attributi e assegnarli al contenuto pertinente nell&#39;argomento. Puoi anche assegnare gli attributi configurati dall’amministratore nella sezione **Visualizza attributi** nelle impostazioni dell’editor. Gli attributi definiti per un elemento vengono visualizzati nella vista Layout e Struttura. Questo consente di esaminare rapidamente tutti gli argomenti di una mappa per cui è definito un attributo specifico. Ad esempio, tutti gli argomenti per i quali l’attributo platform è definito come &quot;Android&quot;.
 
-   ![](images/layout-inline-attributes.png){width="650" align="left"}
+  ![](images/layout-inline-attributes.png){width="650" align="left"}
 
 
-   Per ulteriori dettagli, vedi *Visualizza attributi* all&#39;interno del *Impostazioni editor* descrizione della funzione in [Pannello sinistro](web-editor-features.md#id2051EA0M0HS) sezione.
+  Per ulteriori dettagli, vedi *Visualizza attributi* all&#39;interno del *Impostazioni editor* descrizione della funzione in [Pannello sinistro](web-editor-features.md#id2051EA0M0HS) sezione.
 
 - **Metadati** Utilizzando i metadati , puoi impostare le informazioni sui metadati. Puoi definire il Titolo navigazione, il Testo collegamento, la Descrizione breve e le Parole chiave.
 
@@ -334,14 +334,14 @@ Per modificare gli argomenti tramite una mappa DITA, effettuare le seguenti oper
 
    - Puoi salvarli singolarmente. Se si fa clic su **Chiudi senza salvare** negli argomenti verrà visualizzata una finestra di dialogo in cui viene richiesto di salvare gli argomenti non salvati:
 
-      ![](images/save-multiple-topics.PNG){width="550" align="left"}
+     ![](images/save-multiple-topics.PNG){width="550" align="left"}
 
-      È possibile scegliere di salvare tutti gli argomenti selezionati o deselezionare gli argomenti che non si desidera salvare.
+     È possibile scegliere di salvare tutti gli argomenti selezionati o deselezionare gli argomenti che non si desidera salvare.
 
    - È possibile archiviare l&#39;argomento utilizzando **Salva come nuova versione e sblocca** pulsante. Quando si salva una revisione dell&#39;argomento, viene creata una nuova revisione e viene rilasciato anche il blocco.
    - Se l&#39;amministratore ha attivato l&#39;opzione di archiviazione dei file alla chiusura, verrà richiesto di salvare i file alla chiusura dei file estratti. Se questa opzione è attivata, quando si chiude l&#39;editor con i file modificati, viene visualizzato l&#39;elenco dei file estratti che devono essere salvati. I file estratti vengono visualizzati con un&#39;icona di blocco:
 
-      ![](images/save-on-close.PNG){width="550" align="left"}
+     ![](images/save-on-close.PNG){width="550" align="left"}
 
       - Clic su **Chiudi senza salvare** chiude i file senza salvare le modifiche.
 
@@ -358,21 +358,21 @@ Puoi accedere all’anteprima di una mappa da:
 
 - **Interfaccia utente Assets**: nell’interfaccia utente Assets, passa alla posizione della mappa, seleziona il file della mappa e scegli **Anteprima mappa** sulla barra degli strumenti. L’anteprima della mappa viene visualizzata in una nuova scheda. È possibile visualizzare il contenuto di tutti gli argomenti nella modalità anteprima. In questa visualizzazione non è possibile modificare alcun argomento.
 
-   >[!NOTE]
-   >
-   > Se il *Anteprima mappa* non è visibile nella barra degli strumenti principale, potrebbe essere stata spostata **Altro** barra degli strumenti.
+  >[!NOTE]
+  >
+  > Se il *Anteprima mappa* non è visibile nella barra degli strumenti principale, potrebbe essere stata spostata **Altro** barra degli strumenti.
 
 - **Editor mappe avanzato**: nell’Editor mappe avanzato, fai clic sull’icona Anteprima per visualizzare l’anteprima della mappa corrente.
 
-   ![](images/map-preview-icon.png){width="350" align="left"}
+  ![](images/map-preview-icon.png){width="350" align="left"}
 
-   Nella modalità di anteprima puoi eseguire le seguenti attività aggiuntive:
+  Nella modalità di anteprima puoi eseguire le seguenti attività aggiuntive:
 
    - Fare clic con il pulsante destro del mouse su un argomento e selezionare **Modifica** per aprire l&#39;argomento per la modifica in una nuova scheda.
 
-      >[!NOTE]
-      >
-      > Se non si dispone dei diritti di modifica, l&#39;argomento verrà aperto in modalità di sola lettura.
+     >[!NOTE]
+     >
+     > Se non si dispone dei diritti di modifica, l&#39;argomento verrà aperto in modalità di sola lettura.
 
    - Passa all’argomento desiderato facendo clic sul titolo dell’argomento nella struttura ad albero della mappa \(nel pannello a sinistra\).
 

@@ -1,9 +1,9 @@
 ---
 title: Aggiungere e gestire le citazioni nel contenuto
-description: Scopri come implementare i riferimenti aggiungendo e applicando citazioni al contenuto.
-source-git-commit: 85eb0228908134080f3f1e2644f3f7c37b8d7497
+description: Aggiungi e gestisci le citazioni nelle guide AEM. Scopri come applicare, importare, filtrare, cercare, modificare lo stile delle citazioni, modificare, visualizzare in anteprima, inserire, eliminare e generare l’output di contenuto con le citazioni.
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '1863'
+source-wordcount: '1877'
 ht-degree: 0%
 
 ---

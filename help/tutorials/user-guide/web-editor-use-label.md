@@ -1,10 +1,10 @@
 ---
 title: Usa etichette
-description: Scopri come utilizzare le etichette
+description: Scopri l’utilizzo delle etichette per diverse versioni di un file nelle guide AEM. Scopri come aggiungere o eliminare un’etichetta in una versione di un argomento.
 exl-id: 3ea56d06-537f-4bfd-922d-df1f23e61a20
-source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---

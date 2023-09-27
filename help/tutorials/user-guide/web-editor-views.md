@@ -1,10 +1,10 @@
 ---
 title: Visualizzazioni dell’editor web
-description: Scopri come visualizzare l’editor web
+description: Visualizza documenti in modalità di creazione, origine e anteprima. Scopri come visualizzare il contenuto in base ai filtri condizionali, visualizzare i markup di rilevamento delle modifiche ed esportare un argomento come PDF nelle guide AEM.
 exl-id: 86d8abc2-1d0e-4744-91c9-848c00447971
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '1424'
+source-wordcount: '1449'
 ht-degree: 0%
 
 ---
@@ -27,59 +27,59 @@ Nella visualizzazione Origine viene visualizzato il codice XML sottostante che c
 
 - Per richiamare lo Smart Catalog, posizionare il cursore alla fine di qualsiasi tag elemento nel punto in cui si desidera inserire il nuovo elemento e immettere &quot;&lt;&quot;. Nell&#39;editor viene visualizzato un elenco di tutti gli elementi XML validi che è possibile inserire in tale posizione. Utilizzare i tasti di direzione per selezionare l&#39;elemento che si desidera inserire e premere Invio. Quando si immette la parentesi quadra di chiusura &quot;\>, il tag di chiusura dell&#39;elemento viene aggiunto automaticamente.
 
-   ![](images/smart-catalog-elements.png){width="400" align="left"}
+  ![](images/smart-catalog-elements.png){width="400" align="left"}
 
 - Puoi anche modificare facilmente un elemento dalla vista Origine. Ad esempio, se modifichi il tag di apertura di una `p` elemento a `note`, quindi la chiusura `p` viene modificato automaticamente in `/note`. Se sostituisci un elemento con un elemento non corretto, viene immediatamente visualizzato l’Errore di convalida.
 
 - Per aggiungere un attributo a un elemento, posizionare il cursore all&#39;interno del tag elemento e premere la barra spaziatrice. Un elenco di attributi validi per tale elemento viene visualizzato nello Smart Catalog. Utilizza i tasti freccia per selezionare l’elemento desiderato e premi Invio per inserirlo. Per specificare un valore per l&#39;attributo, immettere il segno di uguale \(=\) e l&#39;editor immette automaticamente le virgolette di apertura e chiusura &quot;&quot; in cui è possibile specificare il valore dell&#39;attributo.
 
-   ![](images/smart-catalog-attribute.png){width="350" align="left"}
+  ![](images/smart-catalog-attribute.png){width="350" align="left"}
 
 - Nella vista Origine è disponibile un&#39;opzione Rientro automatico che consente di riorganizzare il codice XML in un formato presentabile e facilmente leggibile. Inoltre, se si seleziona un testo e si passa dalla visualizzazione Autore alla visualizzazione Origine o dalla visualizzazione Origine alla visualizzazione Autore, il testo selezionato viene evidenziato anche nell&#39;altra visualizzazione.
 - Un&#39;altra caratteristica avanzata della visualizzazione Origine è la convalida XML nel documento. Se si apre un documento contenente XML non valido, questo verrà aperto nella visualizzazione Origine con le informazioni relative a XML non valido. Ad esempio, nella schermata seguente vengono fornite informazioni esatte sull&#39;XML errato nel pop-up Errore di analisi.
 
-   ![](images/invalid-topic-xml.png){width="650" align="left"}
+  ![](images/invalid-topic-xml.png){width="650" align="left"}
 
-   Nella schermata precedente, viene utilizzata un’evidenziazione incrociata per puntare la riga contenente XML errato.
+  Nella schermata precedente, viene utilizzata un’evidenziazione incrociata per puntare la riga contenente XML errato.
 
 - La funzione Trova e sostituisci consente di cercare qualsiasi testo, elemento o attributo nella vista origine.
 Per ulteriori dettagli, vedi **Trova e sostituisci** descrizione della funzione in [Barra degli strumenti principale](web-editor-features.md#id#id2051EA0G05Z) sezione.
 
 - La visualizzazione Origine offre numerose scelte rapide per spostarsi rapidamente all&#39;interno di un documento e lavorarvi. Nella tabella seguente sono elencate le azioni supportate e i relativi tasti di scelta rapida:
 
-   | Per effettuare questo collegamento | Usa questa scelta rapida |
-   |----------|-----------------|
-   | Aggiungere più cursori | **Ctrl**+Clic sinistro |
-   | Più selezioni di testo non consecutive | **Ctrl**+Fare clic con il pulsante sinistro del mouse per trascinare e selezionare il testo |
-   | Seleziona testo su e tra le righe | **Alt**+Fare clic con il pulsante sinistro del mouse per trascinare e selezionare il testo |
-   | Annulla la selezione multipla o esci dalla modalità a schermo intero | **Esc** |
-   | Mostra completamento automatico | **Ctrl**+**Spazio** |
-   | Passa al tag di apertura o chiusura del tag corrente | **Ctrl**+**J** |
-   | Espandere o comprimere il tag corrente e il relativo contenuto | **Ctrl**+**Q** |
-   | Seleziona l’elemento corrente e il relativo contenuto | **Ctrl**+**L** |
-   | Applicare un rientro negativo all&#39;elemento corrente | **Maiusc**+**Linguetta** |
-   | Elimina l’elemento corrente e il relativo contenuto | **Maiusc**+**Ctrl**+**K** |
-   | Sposta il cursore di una parola a sinistra | **Alt**+**Freccia sinistra** |
-   | Sposta il cursore di una parola verso destra | **Alt**+**Freccia destra** |
-   | Scorri di una riga verso l&#39;alto senza modificare la posizione del cursore | **Ctrl**+**Freccia Su** |
-   | Scorri di una riga verso il basso senza modificare la posizione del cursore | **Ctrl**+**Freccia giù** |
-   | Attiva/disattiva schermo intero | **F11** |
-   | Inserisci una nuova riga dopo l&#39;elemento corrente | **Ctrl**+**Invio** |
-   | Inserisci una nuova riga prima dell&#39;elemento corrente | **Maiusc**+**Ctrl**+**Invio** |
-   | Trova e seleziona l&#39;occorrenza successiva della parola corrente | **Ctrl**+**D** |
-   | Sposta l&#39;elemento corrente e il relativo contenuto di un elemento in alto | **Maiusc**+**Ctrl**+**Freccia Su** |
-   | Sposta l&#39;elemento corrente e il relativo contenuto di un elemento verso il basso | **Maiusc**+**Ctrl**+**Freccia giù** |
-   | Racchiudi l’elemento corrente nel tag commento | **Ctrl**+**/** |
-   | Duplica l’elemento corrente e il relativo contenuto | **Maiusc**+**Ctrl**+**D** |
-   | Elimina il testo dopo il cursore. Se il cursore si trova prima di un elemento di apertura, l&#39;intero elemento viene eliminato. | **Ctrl**+**K**+**K** |
-   | Elimina il testo a sinistra del cursore nella riga corrente. Se il cursore si trova dopo il tag di chiusura di un elemento, l&#39;intero elemento viene eliminato. | **Ctrl**+**K**+**Backspace** |
-   | Converti il testo corrente in maiuscolo | **Ctrl**+**K**+**U** |
-   | Converti il testo corrente in minuscolo | **Ctrl**+**K**+**L** |
-   | Scorri l’elemento corrente fino al centro dell’editor | **Ctrl**+**K**+**C** |
-   | Aggiungi un cursore sopra la posizione corrente | **Ctrl**+**Alt**+**Freccia Su** |
-   | Aggiungi un cursore sotto la posizione corrente | **Ctrl**+**Alt**+**Freccia giù** |
-   | Trova in modo ricorsivo la parola corrente \(in avanti\) | **Ctrl**+**F3** |
-   | Trova in modo ricorsivo la parola corrente \(in direzione indietro\) | **Maiusc**+**Ctrl**+**F3** |
+  | Per effettuare questo collegamento | Usa questa scelta rapida |
+  |----------|-----------------|
+  | Aggiungere più cursori | **Ctrl**+Clic sinistro |
+  | Più selezioni di testo non consecutive | **Ctrl**+Fare clic con il pulsante sinistro del mouse per trascinare e selezionare il testo |
+  | Seleziona testo su e tra le righe | **Alt**+Fare clic con il pulsante sinistro del mouse per trascinare e selezionare il testo |
+  | Annulla la selezione multipla o esci dalla modalità a schermo intero | **Esc** |
+  | Mostra completamento automatico | **Ctrl**+**Spazio** |
+  | Passa al tag di apertura o chiusura del tag corrente | **Ctrl**+**J** |
+  | Espandere o comprimere il tag corrente e il relativo contenuto | **Ctrl**+**Q** |
+  | Seleziona l’elemento corrente e il relativo contenuto | **Ctrl**+**L** |
+  | Applicare un rientro negativo all&#39;elemento corrente | **Maiusc**+**Linguetta** |
+  | Elimina l’elemento corrente e il relativo contenuto | **Maiusc**+**Ctrl**+**K** |
+  | Sposta il cursore di una parola a sinistra | **Alt**+**Freccia sinistra** |
+  | Sposta il cursore di una parola verso destra | **Alt**+**Freccia destra** |
+  | Scorri di una riga verso l&#39;alto senza modificare la posizione del cursore | **Ctrl**+**Freccia Su** |
+  | Scorri di una riga verso il basso senza modificare la posizione del cursore | **Ctrl**+**Freccia giù** |
+  | Attiva/disattiva schermo intero | **F11** |
+  | Inserisci una nuova riga dopo l&#39;elemento corrente | **Ctrl**+**Invio** |
+  | Inserisci una nuova riga prima dell&#39;elemento corrente | **Maiusc**+**Ctrl**+**Invio** |
+  | Trova e seleziona l&#39;occorrenza successiva della parola corrente | **Ctrl**+**D** |
+  | Sposta l&#39;elemento corrente e il relativo contenuto di un elemento in alto | **Maiusc**+**Ctrl**+**Freccia Su** |
+  | Sposta l&#39;elemento corrente e il relativo contenuto di un elemento verso il basso | **Maiusc**+**Ctrl**+**Freccia giù** |
+  | Racchiudi l’elemento corrente nel tag commento | **Ctrl**+**/** |
+  | Duplica l’elemento corrente e il relativo contenuto | **Maiusc**+**Ctrl**+**D** |
+  | Elimina il testo dopo il cursore. Se il cursore si trova prima di un elemento di apertura, l&#39;intero elemento viene eliminato. | **Ctrl**+**K**+**K** |
+  | Elimina il testo a sinistra del cursore nella riga corrente. Se il cursore si trova dopo il tag di chiusura di un elemento, l&#39;intero elemento viene eliminato. | **Ctrl**+**K**+**Backspace** |
+  | Converti il testo corrente in maiuscolo | **Ctrl**+**K**+**U** |
+  | Converti il testo corrente in minuscolo | **Ctrl**+**K**+**L** |
+  | Scorri l’elemento corrente fino al centro dell’editor | **Ctrl**+**K**+**C** |
+  | Aggiungi un cursore sopra la posizione corrente | **Ctrl**+**Alt**+**Freccia Su** |
+  | Aggiungi un cursore sotto la posizione corrente | **Ctrl**+**Alt**+**Freccia giù** |
+  | Trova in modo ricorsivo la parola corrente \(in avanti\) | **Ctrl**+**F3** |
+  | Trova in modo ricorsivo la parola corrente \(in direzione indietro\) | **Maiusc**+**Ctrl**+**F3** |
 
 
 ## Anteprima
@@ -112,9 +112,9 @@ Sono tre **Tracciamento** opzioni disponibili:
 - **Originale**: in questa vista, tutti gli inserimenti vengono rifiutati e tutte le eliminazioni vengono ripristinate; viene quindi visualizzata un’anteprima. È sufficiente ottenere il modulo originale del documento prima di attivare la modalità di rilevamento delle modifiche.
 - **Mostra markup**: in questa visualizzazione, si ottengono tutte le marcature per il contenuto inserito ed eliminato.
 
-   L&#39;immagine seguente mostra l&#39;anteprima di un file di mappa con le marcature:
+  L&#39;immagine seguente mostra l&#39;anteprima di un file di mappa con le marcature:
 
-   ![](images/preview-map-with-track-changes.PNG){width="800" align="left"}
+  ![](images/preview-map-with-track-changes.PNG){width="800" align="left"}
 
 
 ### Esportare un argomento come PDF {#id2114BL00B5U}

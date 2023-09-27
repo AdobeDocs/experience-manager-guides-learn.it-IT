@@ -1,10 +1,10 @@
 ---
 title: Genera output per una mappa DITA dalla console delle mappe
-description: Scopri come generare l’output per una mappa DITA dalla console delle mappe
+description: Genera output per una mappa DITA dalla console delle mappe in Guide AEM. Scopri la generazione di output incrementale e come visualizzare lo stato, annullare ed eliminare un’attività di output.
 exl-id: 98afbdd2-56d7-44b0-ad2a-25e9143c88f3
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '1399'
+source-wordcount: '1416'
 ht-degree: 0%
 
 ---
@@ -101,21 +101,21 @@ Per visualizzare la coda di generazione dell’output, effettua le seguenti oper
 
    - **Output in coda:**
 
-      Elenca gli output in attesa di generazione o in fase di generazione. Le attività in coda o in corso vengono visualizzate con un&#39;icona blu prima del nome del predefinito. È inoltre possibile trovare l&#39;impostazione di generazione dell&#39;output o il predefinito utilizzato per l&#39;attività in coda, il tipo, l&#39;utente che ha avviato l&#39;attività, il tempo trascorso dalla data di accodamento dell&#39;attività e lo stato corrente.
+     Elenca gli output in attesa di generazione o in fase di generazione. Le attività in coda o in corso vengono visualizzate con un&#39;icona blu prima del nome del predefinito. È inoltre possibile trovare l&#39;impostazione di generazione dell&#39;output o il predefinito utilizzato per l&#39;attività in coda, il tipo, l&#39;utente che ha avviato l&#39;attività, il tempo trascorso dalla data di accodamento dell&#39;attività e lo stato corrente.
 
-      Fai clic sul collegamento per accedere al **Pubblica dashboard** e visualizzare lo stato di esecuzione corrente. Nel dashboard di pubblicazione è disponibile un elenco di tutte le attività di pubblicazione attive. Il **Output in coda** e **Pubblica dashboard** I collegamenti vengono visualizzati solo quando sono presenti output in attesa di generazione o in fase di generazione. Non vengono visualizzate al termine delle attività di output. Per ulteriori dettagli su Pubblica dashboard, vedi [Gestire le attività di pubblicazione tramite il dashboard di pubblicazione](generate-output-publish-dashboard.md#).
+     Fai clic sul collegamento per accedere al **Pubblica dashboard** e visualizzare lo stato di esecuzione corrente. Nel dashboard di pubblicazione è disponibile un elenco di tutte le attività di pubblicazione attive. Il **Output in coda** e **Pubblica dashboard** I collegamenti vengono visualizzati solo quando sono presenti output in attesa di generazione o in fase di generazione. Non vengono visualizzate al termine delle attività di output. Per ulteriori dettagli su Pubblica dashboard, vedi [Gestire le attività di pubblicazione tramite il dashboard di pubblicazione](generate-output-publish-dashboard.md#).
 
    - **Uscite generate**
 
-      Elenca le attività di output completate. Anche in questo caso, le informazioni mostrate qui sono simili a quelle della sezione Output in coda, ma con alcune differenze. Sono disponibili nuove informazioni sotto forma di icona dei risultati di output e del tempo di generazione dell&#39;output.
+     Elenca le attività di output completate. Anche in questo caso, le informazioni mostrate qui sono simili a quelle della sezione Output in coda, ma con alcune differenze. Sono disponibili nuove informazioni sotto forma di icona dei risultati di output e del tempo di generazione dell&#39;output.
 
-      In questo elenco è possibile che siano presenti attività eseguite correttamente, attività eseguite con un messaggio o attività non riuscite. Le attività completate vengono visualizzate con l&#39;icona verde, quelle con un messaggio con l&#39;icona arancione e quelle non riuscite con l&#39;icona rossa.
+     In questo elenco è possibile che siano presenti attività eseguite correttamente, attività eseguite con un messaggio o attività non riuscite. Le attività completate vengono visualizzate con l&#39;icona verde, quelle con un messaggio con l&#39;icona arancione e quelle non riuscite con l&#39;icona rossa.
 
-      Per tutte le attività, il processo di pubblicazione crea un file di registro \(logs.txt\) a cui è possibile accedere facendo clic sul collegamento nella colonna Generato a. Per le attività che non sono riuscite o contengono messaggi, è possibile controllare il file di registro, illustrato nella sezione [Visualizza e controlla il file di registro](generate-output-basic-troubleshooting.md#id1822G0P0CHS).
+     Per tutte le attività, il processo di pubblicazione crea un file di registro \(logs.txt\) a cui è possibile accedere facendo clic sul collegamento nella colonna Generato a. Per le attività che non sono riuscite o contengono messaggi, è possibile controllare il file di registro, illustrato nella sezione [Visualizza e controlla il file di registro](generate-output-basic-troubleshooting.md#id1822G0P0CHS).
 
-      >[!NOTE]
-      >
-      > Quando fai clic su un collegamento dell’output PDF generato, ti viene chiesto di scaricare il PDF. Questo è il comportamento predefinito in AEM 6.5 e 6.4.
+     >[!NOTE]
+     >
+     > Quando fai clic su un collegamento dell’output PDF generato, ti viene chiesto di scaricare il PDF. Questo è il comportamento predefinito in AEM 6.5 e 6.4.
 
 
 ## Annullare un&#39;attività di generazione output {#id2061H100T5Z}

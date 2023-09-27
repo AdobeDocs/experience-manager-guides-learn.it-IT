@@ -1,10 +1,10 @@
 ---
 title: Creare contenuti con strumenti desktop
-description: Scopri come creare contenuti utilizzando gli strumenti desktop
+description: Creare contenuti utilizzando gli strumenti desktop nelle guide AEM. Scopri come utilizzare Adobe FrameMaker e Oxygen XML Editor per creare e pubblicare contenuti DITA.
 exl-id: 43ffb7a6-9740-4e39-bb03-4f8a124f26d3
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Le guide AEM supportano anche l’authoring mediante strumenti desktop come Adobe FrameMaker e Oxygen XML Editor. È possibile utilizzare questi strumenti per creare contenuti DITA, pubblicare i documenti in vari formati e mantenere le versioni dei documenti.
 
-- **[Utilizzare FrameMaker](author-desktop-framemaker.md)**
+- **[Utilizzare il FrameMaker](author-desktop-framemaker.md)**
 
 - **[Lavorare con l&#39;ossigeno](author-desktop-oxygen.md)**
 

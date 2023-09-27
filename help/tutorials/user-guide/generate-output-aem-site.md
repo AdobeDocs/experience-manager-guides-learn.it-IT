@@ -1,10 +1,10 @@
 ---
 title: Sito AEM
-description: Scopri come visitare il sito AEM
+description: Crea e configura un predefinito per sito AEM nelle guide AEM. Utilizza il supporto del sito AEM per generare output basati su articoli, argomenti di collegamento dell’output, conferenze di pubblicazione e ricerche in una stringa all’interno del contenuto.
 exl-id: 8523ec55-d7f3-439d-96e8-163c7632f73c
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '2545'
+source-wordcount: '2569'
 ht-degree: 0%
 
 ---

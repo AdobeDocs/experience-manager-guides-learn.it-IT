@@ -1,10 +1,10 @@
 ---
 title: Applicazione di tag in blocco a contenuto DITA
-description: Scopri come applicare tag in blocco ai contenuti DITA
+description: Utilizza l’assegnazione tag in blocco dei contenuti nelle guide AEM per migliorare la reperibilità dei contenuti DITA. Scopri come applicare, rimuovere, mostrare o nascondere tag in blocco su uno o più argomenti.
 exl-id: 0e855575-e62f-4dc7-869c-7fd3ec61ffdb
-source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
@@ -103,6 +103,6 @@ Per rimuovere tutti i tag da uno o più argomenti, effettua le seguenti operazio
 
 ## Mostra o nascondi tag
 
-Se agli argomenti sono stati applicati numerosi tag, la navigazione potrebbe risultare un po&#39; complicata. È possibile nascondere facilmente i tag in dalla vista della console delle mappe DITA facendo clic sull&#39;icona Nascondi tag. Allo stesso modo, quando i tag non sono visibili, facendo clic su Mostra tag vengono visualizzati tutti i tag.
+Se agli argomenti sono stati applicati numerosi tag, la navigazione potrebbe risultare un po&#39; complicata. È possibile nascondere facilmente i tag nella vista della console delle mappe DITA facendo clic sull&#39;icona Nascondi tag. Allo stesso modo, quando i tag non sono visibili, facendo clic su Mostra tag vengono visualizzati tutti i tag.
 
 **Argomento padre:**[ Gestione metadati](manage-metadata.md)

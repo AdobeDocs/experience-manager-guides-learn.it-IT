@@ -1,9 +1,9 @@
 ---
 title: Pubblicare un argomento in un frammento di contenuto
-description: Scopri come pubblicare un argomento in un frammento di contenuto.
-source-git-commit: dd677257d94015d888705e4b6a43ae877e58be4b
+description: Pubblicare un argomento o gli elementi di un argomento in un frammento di contenuto nelle guide AEM.  Scopri come visualizzare i frammenti di contenuto presenti in un argomento e ripubblicarli.
+source-git-commit: 6143bdcb4c8a9e1f35ea752cf1be142ab98a716b
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '613'
 ht-degree: 1%
 
 ---
