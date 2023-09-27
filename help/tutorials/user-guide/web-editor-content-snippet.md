@@ -1,9 +1,9 @@
 ---
 title: Inserire uno snippet di contenuto dall'origine dati
-description: Scopri come inserire uno snippet di contenuto dall’origine dati
-source-git-commit: 71a64a35d065da10783d8e1a035ea1c4728e35f4
+description: Utilizza i dati della tua origine dati nelle guide AEM. Scopri come inserire uno snippet di contenuto dall’origine dati. Creare un argomento utilizzando il generatore di argomenti.
+source-git-commit: 87aef92535b7204503cd4ed1da838b43b1133b04
 workflow-type: tm+mt
-source-wordcount: '1723'
+source-wordcount: '2028'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,11 @@ In base alla configurazione, l’amministratore può configurare un connettore d
 <details>
 <summary> Servizi cloud </summary>
 
-Scopri come [configurare un connettore origine dati](../cs-install-guide/conf-data-source-connector.md) nella Guida all&#39;installazione e alla configurazione dei Cloud Service.
+
+- Se utilizzi la versione di ottobre 2023 o successiva, scopri come [configurare un connettore origine dati utilizzando gli strumenti](../cs-install-guide/conf-data-source-connector-tools.md) nella Guida all&#39;installazione e alla configurazione dei Cloud Service.
+
+- Se utilizzi la versione di luglio 2023 o di settembre 2023, scopri come [configurare un connettore origine dati](../cs-install-guide/conf-data-source-connector.md) nella Guida all&#39;installazione e alla configurazione dei Cloud Service.
+
 </details>
 
 <details>    
@@ -83,6 +87,8 @@ I modelli predefiniti per l’origine dati selezionata vengono visualizzati nel 
    >[!NOTE]
    >  
    > Se l’amministratore ha configurato dei modelli personalizzati, questi vengono visualizzati anche nell’elenco a discesa (in base alle configurazioni del percorso del modello eseguite dall’amministratore).
+   >   
+   >Puoi anche utilizzare gli strumenti Velocity nei modelli. Ulteriori informazioni su come [utilizzare gli strumenti Velocity](#use-velocity-tools).
 
 1. Clic **Recupera** per recuperare i dati dall&#39;origine dati e applicare il modello ai dati risultanti dalla query SQL.
 
@@ -215,9 +221,7 @@ Per creare un argomento utilizzando il generatore di argomenti, effettuare le se
 
 Fare clic con il pulsante destro del mouse su un generatore di argomenti per aprire **Opzioni**. Utilizzando le opzioni, potete effettuare le seguenti operazioni:
 
-- **Anteprima**: utilizza questa opzione per aprire un riquadro e visualizzare una piccola frazione del modo in cui i dati vengono visualizzati nell’output.
-- **Genera contenuto**: questa opzione genera gli argomenti per il generatore di argomenti selezionato. È inoltre possibile utilizzare questa opzione per aggiornare gli argomenti esistenti. Si connette all’origine dati e recupera i dati aggiornati.
-
+- **Genera**: questa opzione genera gli argomenti per il generatore di argomenti selezionato. È inoltre possibile utilizzare questa opzione per aggiornare gli argomenti esistenti. Si connette all’origine dati e recupera i dati aggiornati. Durante la generazione del contenuto, questa opzione è disabilitata e viene visualizzato un caricatore.
   >[!NOTE]
   >
   >Se l&#39;argomento esiste già, è possibile sovrascrivere i dati nell&#39;argomento o salvarli come nuova versione.
@@ -225,11 +229,50 @@ Fare clic con il pulsante destro del mouse su un generatore di argomenti per apr
   ![](images/generate-topic-options.png)
 
   *Genera un argomento e, se il file esiste già, salvalo come nuova versione o sovrascrivilo.*
+- **Visualizza registro**: seleziona questa opzione per visualizzare il file di registro di generazione del contenuto. Il file di registro viene aperto in una nuova scheda. È possibile visualizzare gli errori, gli avvisi, i messaggi di informazione e le eccezioni nel file di registro. Questa opzione è abilitata se hai generato il contenuto per il generatore di argomenti selezionato.
 
-- **Modifica**: utilizza questa opzione per modificare e salvare il generatore di argomenti.
-- **Elimina**: utilizza questa opzione per eliminare il generatore di argomenti selezionato.
+- **Anteprima**: utilizza questa opzione per aprire un riquadro e visualizzare una piccola frazione del modo in cui i dati vengono visualizzati nell’output.
+
+
+
+- **Modifica**: utilizza questa opzione per modificare e salvare il generatore di argomenti. Questa opzione è disabilitata durante la generazione del contenuto.
+- **Elimina**: utilizza questa opzione per eliminare il generatore di argomenti selezionato. Questa opzione è disabilitata durante la generazione del contenuto.
 - **Duplica**: questa opzione crea un duplicato o una copia del generatore di argomenti selezionato. Il duplicato viene creato con un suffisso (come `topic-sample_1`) per default.
 
+
+
+## Utilizzare gli strumenti Velocity nei modelli di origini dati {#use-velocity-tools}
+
+I modelli di Experience Manager supportano anche gli strumenti Velocity (versione 2.0). Questi strumenti consentono di applicare varie funzioni ai dati recuperati dalle origini dati. Ulteriori informazioni sull&#39;utilizzo di [Strumenti Velocity](https://velocity.apache.org/tools/2.0/generic.html) e le funzioni che puoi applicare.
+
+Per utilizzare uno strumento Velocity in un modello, effettuate le seguenti operazioni:
+1. Modifica un modello Velocity nell’editor web.
+1. Aggiungere uno strumento e la relativa funzione nella `<tool.function>` formato. Ad esempio:
+   - Per generare un numero casuale utilizzando lo strumento matematica, utilizzate `$mathTool.random`.
+   - Per generare la somma dei numeri utilizzando lo strumento matematica, utilizzare `$mathTool.add(num1, num2)`.
+1. Utilizza il modello per creare uno snippet di contenuto o un argomento.
+1. Dopo aver applicato il modello ai dati, è possibile visualizzare i dati nell&#39;anteprima o nella vista origine DITA.
+
+
+
+
+Puoi utilizzare i seguenti strumenti nei modelli Velocity per applicare varie funzioni ai dati recuperati dal connettore: -`$alternatorTool`
+- `$classTool`
+- `$contextTool`
+- `$conversionTool`
+- `$dateTool`
+- `$comparisonDateTool`
+- `$displayTool`
+- `$escapeTool`
+- `$fieldTool`
+- `$loopTool`
+- `$linkTool`
+- `$listTool`
+- `$mathTool`
+- `$numberTool`
+- `$renderTool`
+- `$resourceTool`
+- `$sortTool`
 
 
 
