@@ -1,15 +1,17 @@
 ---
 title: Configurare un connettore origine dati utilizzando gli strumenti
 description: Scopri come configurare un connettore di origine dati utilizzando gli strumenti.
-source-git-commit: 87e907a1fbc27c9b3f8db5e4ab3c78143b03001e
+exl-id: b73ceb8d-caf0-4752-a6d9-07985cdf741e
+source-git-commit: e8503e1441b7bc365d37c76ab9cf7b5f50374f10
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
 
 
-# Configurare un connettore origine dati utilizzando gli strumenti
+
+# Configurare un connettore origine dati dall’interfaccia utente
 
 Experience Manager Guides viene fornito con **Origini dati** strumento che consente di configurare connettori predefiniti per le origini dati. È possibile impostare connettori per database JIRA, SQL (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce e Elasticsearch.
 
@@ -74,7 +76,3 @@ Se esiste un connettore con lo stesso nome, viene visualizzato un errore.
 
 
 Dopo aver configurato l’origine dati, il connettore viene elencato in **Pannello Origini dati** nell&#39;editor Web. È quindi possibile connettersi all&#39;origine dati e inserire uno snippet di contenuto negli argomenti. Per ulteriori dettagli, vedi [Inserire uno snippet di contenuto dall&#39;origine dati](../user-guide/web-editor-content-snippet.md).
-
-
-
-

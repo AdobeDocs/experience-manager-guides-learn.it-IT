@@ -1,9 +1,10 @@
 ---
 title: Note sulla versione | Novità delle guide di Adobe Experience Manager, versione di ottobre 2023
 description: Scopri le funzioni nuove e migliorate nella versione di ottobre 2023 di Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 87aef92535b7204503cd4ed1da838b43b1133b04
+exl-id: 583bc9fe-1e61-4727-869b-0dbc19625f70
+source-git-commit: e8503e1441b7bc365d37c76ab9cf7b5f50374f10
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
@@ -15,11 +16,11 @@ Questo articolo descrive le funzioni nuove e migliorate della versione di ottobr
 Per ulteriori dettagli sulle istruzioni di aggiornamento, sulla matrice di compatibilità e sui problemi risolti in questa versione, consulta [Note sulla versione](release-notes-2023.10.0.md).
 
 
-## Configurare un connettore origine dati utilizzando gli strumenti
+## Configurare un connettore origine dati dall’interfaccia utente
 
 Experience Manager Guides ora fornisce un **Origini dati** strumento che consente di configurare connettori predefiniti per le origini dati. È possibile creare facilmente i connettori per i database JIRA, SQL (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce e Elasticsearch.
 
-È inoltre possibile modificare, riconnettersi, duplicare o eliminare facilmente un connettore di origine dati. Scopri come [configurare un connettore origine dati utilizzando gli strumenti](../cs-install-guide/conf-data-source-connector-tools.md).
+È inoltre possibile modificare, riconnettersi, duplicare o eliminare facilmente un connettore di origine dati. Scopri come [configurare facilmente un connettore origine dati dall’interfaccia utente](../cs-install-guide/conf-data-source-connector-tools.md).
 
 ![connettori di origini dati elencati nel pannello origini dati](assets/data-sources-create-window.png){width="550" align="left"}
 
@@ -65,4 +66,3 @@ Per ulteriori informazioni, consulta **Vista mappa** descrizione della funzione 
 Experience Manager Guides ora consente di selezionare un file nell&#39;editor Web e quindi scegliere di modificare il file nel plug-in del connettore di ossigeno. Questa opzione non è abilitata come parte del supporto predefinito.
 
 Per ulteriori informazioni, consulta **Opzioni per un file** descrizione della funzione all’interno di [Pannello sinistro](../user-guide/web-editor-features.md#id2051EA0M0HS) sezione.
-

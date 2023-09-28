@@ -1,13 +1,13 @@
 ---
 title: Inserire uno snippet di contenuto dall'origine dati
 description: Utilizza i dati della tua origine dati nelle guide AEM. Scopri come inserire uno snippet di contenuto dall’origine dati. Creare un argomento utilizzando il generatore di argomenti.
-source-git-commit: 87aef92535b7204503cd4ed1da838b43b1133b04
+exl-id: 9d60499c-49b4-4793-b3ec-5c99b34338e0
+source-git-commit: e8503e1441b7bc365d37c76ab9cf7b5f50374f10
 workflow-type: tm+mt
-source-wordcount: '2028'
+source-wordcount: '2029'
 ht-degree: 0%
 
 ---
-
 
 # Utilizzare dati dall’origine dati
 
@@ -23,7 +23,7 @@ In base alla configurazione, l’amministratore può configurare un connettore d
 <summary> Servizi cloud </summary>
 
 
-- Se utilizzi la versione di ottobre 2023 o successiva, scopri come [configurare un connettore origine dati utilizzando gli strumenti](../cs-install-guide/conf-data-source-connector-tools.md) nella Guida all&#39;installazione e alla configurazione dei Cloud Service.
+- Se utilizzi la versione di ottobre 2023 o successiva, scopri come [configurare un connettore origine dati dall’interfaccia utente](../cs-install-guide/conf-data-source-connector-tools.md) nella Guida all&#39;installazione e alla configurazione dei Cloud Service.
 
 - Se utilizzi la versione di luglio 2023 o di settembre 2023, scopri come [configurare un connettore origine dati](../cs-install-guide/conf-data-source-connector.md) nella Guida all&#39;installazione e alla configurazione dei Cloud Service.
 
@@ -273,6 +273,3 @@ Puoi utilizzare i seguenti strumenti nei modelli Velocity per applicare varie fu
 - `$renderTool`
 - `$resourceTool`
 - `$sortTool`
-
-
-
