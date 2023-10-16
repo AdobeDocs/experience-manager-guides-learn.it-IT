@@ -1,10 +1,10 @@
 ---
 title: Inserire uno snippet di contenuto dall'origine dati
 description: Utilizza i dati della tua origine dati nelle guide AEM. Scopri come inserire uno snippet di contenuto dall’origine dati. Creare un argomento utilizzando il generatore di argomenti.
-exl-id: 9d60499c-49b4-4793-b3ec-5c99b34338e0
-source-git-commit: e8503e1441b7bc365d37c76ab9cf7b5f50374f10
+exl-id: fbd5eff2-451b-49d6-ba77-6eb271e94349
+source-git-commit: f7a0140a274a83dfeb6a1ba70ae9c09297d1754c
 workflow-type: tm+mt
-source-wordcount: '2029'
+source-wordcount: '2060'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,9 @@ In base alla configurazione, l’amministratore può configurare un connettore d
 <details>    
 <summary>  Software on-premise </summary>
 
-Scopri come [configurare un connettore origine dati](../install-guide/conf-data-source-connector.md)  nella Guida all’installazione e alla configurazione on-premise.
+- Se utilizzi la versione 4.3.1 o successiva, scopri come [configurare un connettore origine dati dall’interfaccia utente](../cs-install-guide/conf-data-source-connector-tools.md) nella Guida all’installazione e alla configurazione on-premise.
+
+- Se utilizzi la versione 4.3, scopri come [configurare un connettore origine dati](../cs-install-guide/conf-data-source-connector.md) nella Guida all’installazione e alla configurazione on-premise.
 </details>
 
 
