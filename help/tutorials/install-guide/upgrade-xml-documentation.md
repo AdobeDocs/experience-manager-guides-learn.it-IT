@@ -2,7 +2,7 @@
 title: Aggiornare le guide di Adobe Experience Manager
 description: Scopri come aggiornare le guide di Adobe Experience Manager
 exl-id: f058b39f-7408-4874-942b-693e133886cf
-source-git-commit: 9a4f230d6724bcb5d8fc7036048ca13fd7bc52bc
+source-git-commit: 6078cb1856ba45524e46165d546daf4109e9b2b2
 workflow-type: tm+mt
 source-wordcount: '4349'
 ht-degree: 1%
@@ -526,7 +526,7 @@ Effettua le seguenti operazioni per la post-elaborazione del contenuto esistente
 
 ## Aggiornamento alla versione 4.3.1 {#upgrade-version-4-3-1}
 
-L’aggiornamento alla versione 4.3.1 dipende dalla versione corrente di Experience Manager Guides. Se utilizzi le versioni 4.3, 4.2 o 4.2.1, puoi eseguire direttamente l’aggiornamento alla versione 4.3.1.
+L’aggiornamento alla versione 4.3.1 dipende dalla versione corrente di Experience Manager Guides. Se utilizzi le versioni 4.3.0, 4.2 o 4.2.1, puoi eseguire direttamente l’aggiornamento alla versione 4.3.1.
 
 >[!NOTE]
 >
