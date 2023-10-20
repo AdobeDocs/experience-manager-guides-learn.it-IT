@@ -1,41 +1,41 @@
 ---
 title: Note sulla versione | Istruzioni per l’aggiornamento e problemi risolti in Adobe Experience Manager Guides versione 4.3.1
 description: Scopri le correzioni di bug e come effettuare l’aggiornamento alle versioni 4.3.1 delle guide di Adobe Experience Manager
-source-git-commit: a8f36d020422d9d83ca47e2246dc42278f2c7963
+source-git-commit: eb22fe5d4872b0e5c6594869193799fd9e64d95d
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1216'
 ht-degree: 5%
 
 ---
 
 # Versione 4.3.1 delle guide di Adobe Experience Manager (ottobre 2023)
 
-Questa nota sulla versione descrive le istruzioni per l’aggiornamento, la matrice di compatibilità e i problemi risolti nella versione 4.3.1 delle Guide di Adobe Experience Manager (in seguito denominate *Guide AEM*).
+Questa nota sulla versione descrive le istruzioni per l’aggiornamento, la matrice di compatibilità e i problemi risolti nella versione 4.3.1 delle Guide di Adobe Experience Manager (in seguito denominate *Guide Experience Manager*).
 
 Per ulteriori informazioni sulle nuove funzioni e sui miglioramenti, consulta [Novità della versione 4.3.1 delle guide di Adobe Experience Manager](./whats-new-4.3.1-release.md).
 
-## Aggiornamento alla versione 4.3.1 delle guide AEM
+## Aggiornamento alla versione 4.3.1 delle guide di Experience Manager
 
 
-Puoi aggiornare facilmente la versione corrente delle guide AEM alla versione 4.3.1. Prima di procedere con l’aggiornamento alla versione 4.3.1 delle guide AEM, è necessario considerare i seguenti punti: È possibile aggiornare la versione corrente delle guide AEM alla versione 4.3.1
+È possibile aggiornare facilmente la versione corrente delle Guide alla versione 4.3.1. Prima di procedere con l&#39;aggiornamento alla versione 4.3.1 di Experience Manager Guides, è necessario considerare i seguenti punti: È possibile aggiornare la versione corrente di Experience Manager Guides alla versione 4.3.1
 
-- Se utilizzi la versione 4.2 o 4.2.x, puoi eseguire direttamente l’aggiornamento alla versione 4.3.1.
-- Se utilizzi la versione 4.1 o 4.1.x, devi effettuare l’aggiornamento alla versione 4.2 o 4.2.x prima di passare alla versione 4.3.1.
+
+- Se utilizzi le versioni 4.3.0, 4.2 o 4.2.1, puoi eseguire direttamente l’aggiornamento alla versione 4.3.1.
+- Se utilizzi la versione 4.1 o 4.1.x, devi effettuare l’aggiornamento alla versione 4.3.0, 4.2 o 4.2.x prima di eseguire l’aggiornamento alla versione 4.3.1.
 - Se utilizzi la versione 4.0, devi effettuare l’aggiornamento alla versione 4.2 prima di passare alla versione 4.3.1.
 - Se utilizzi la versione 3.8.5, devi effettuare l’aggiornamento alla versione 4.0 prima di passare alla versione 4.2.
-- Se utilizzi una versione precedente alla 3.8.5, consulta la sezione Aggiornamento delle guide AEM nella guida all’installazione specifica per il prodotto.
-
+- Se utilizzi una versione precedente alla 3.8.5, consulta la sezione Guide per l’aggiornamento degli Experienci Manager nella guida all’installazione specifica per il prodotto.
 
 
 >[!NOTE]
 >
->È necessario installare il service pack per l’AEM prima di aggiornare la versione delle guide AEM.
+>È necessario installare il service pack per l’AEM prima di aggiornare la versione delle guide Experienci Manager.
 
 Per ulteriori informazioni, consulta [Istruzioni per l’aggiornamento](../install-guide/upgrade-xml-documentation.md).
 
 ## Matrice di compatibilità
 
-In questa sezione viene elencata la matrice di compatibilità per le applicazioni software supportate dalla versione 4.3.1 delle guide AEM.
+In questa sezione viene elencata la matrice di compatibilità per le applicazioni software supportate dalla versione 4.3.1 delle Guide di Experience Manager.
 
 ### Adobe Experience Manager
 
@@ -71,7 +71,7 @@ Per ulteriori dettagli, vedi *Requisiti tecnici* nella guida Installare e config
 
 | Nome pacchetto componenti | Versione componenti | Versione modello |
 |---|---|---|
-| Pacchetto di contenuti dei componenti delle guide AEM per il Cloud Service | dxml-components.all-1.2.2 | aem-site-template-dxml.all-1.0.15 |
+| Pacchetto di contenuti dei componenti Experience Manager Guides per il Cloud Service | dxml-components.all-1.2.2 | aem-site-template-dxml.all-1.0.15 |
 
 ## Problemi risolti
 

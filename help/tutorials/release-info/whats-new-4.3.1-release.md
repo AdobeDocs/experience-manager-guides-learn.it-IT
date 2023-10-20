@@ -1,22 +1,22 @@
 ---
 title: Note sulla versione | Novità della versione 4.3.1 delle Guide di Adobe Experience Manager
 description: Scopri le funzioni nuove e migliorate delle versioni 4.3.1 delle Guide di Adobe Experience Manager
-source-git-commit: 5c51ff7f52624c6403e5486e099d1262f324e523
+source-git-commit: a865630527045574ef5a96622537e767eacd9fc2
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1119'
 ht-degree: 0%
 
 ---
 
 # Novità della versione 4.3.1 delle guide di Adobe Experience Manager (ottobre 2023)
 
-Questo articolo descrive le funzioni nuove e migliorate della versione 4.3.1 delle Guide di Adobe Experience Manager (in seguito denominate *Guide AEM*).
+Questo articolo descrive le funzioni nuove e migliorate della versione 4.3.1 delle Guide di Adobe Experience Manager (in seguito denominate *Guide Experience Manager*).
 
 Per ulteriori dettagli sulle istruzioni di aggiornamento, sulla matrice di compatibilità e sui problemi risolti in questa versione, consulta [Note sulla versione](./release-notes-4.3.1.md).
 
 ## Connessione a un&#39;origine dati e inserimento degli argomenti
 
-Experience Manager Guides fornisce connettori predefiniti per la connessione con le origini dati, rendendo AEM Guides un vero e proprio hub di contenuti. In questo modo è possibile risparmiare tempo e fatica, che altrimenti verrebbero utilizzati per l&#39;aggiunta o la replica manuale dei dati.
+Experience Manager Guides fornisce connettori predefiniti per la connessione con le origini dati, rendendo Experience Manager Guides un vero e proprio hub di contenuti. In questo modo è possibile risparmiare tempo e fatica, che altrimenti verrebbero utilizzati per l&#39;aggiunta o la replica manuale dei dati.
 
 Oltre ai connettori predefiniti come JIRA e SQL (MySQL, PostgreSQL, SQL Server, SQLite), l’amministratore può anche configurare connettori per database MariaDB, H2DB, AdobeCommerce e Elasticsearch. Possono inoltre aggiungere altri connettori estendendo le interfacce predefinite.
 
