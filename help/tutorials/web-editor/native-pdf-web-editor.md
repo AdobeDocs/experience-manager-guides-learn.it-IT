@@ -2,9 +2,9 @@
 title: Native PDF | Generazione di output PDF
 description: Scopri come utilizzare la pubblicazione PDF nativa, creare e generare un predefinito di output PDF, scaricare file temporanei dopo la generazione dell’output PDF nativa e utilizzare le variabili di lingua nelle guide AEM.
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 4c10f2387208477bd2ba27188e8aeaa6f3a4a661
 workflow-type: tm+mt
-source-wordcount: '3229'
+source-wordcount: '3264'
 ht-degree: 0%
 
 ---
@@ -135,7 +135,7 @@ Utilizzare per impostare i layout di pagina e specificare le opzioni di visualiz
 
 | Impostazione | Descrizione |
 | --- | --- |
-| **Modello PDF** | I modelli di PDF forniscono una chiara struttura per definire i layout di pagina, lo stile del contenuto e applicare varie impostazioni all’output di PDF. Seleziona dall’elenco a discesa Modello PDF per scegliere il modello desiderato. |
+| **Modello PDF** | I modelli di PDF forniscono una chiara struttura per definire i layout di pagina, lo stile del contenuto e applicare varie impostazioni all’output di PDF. Seleziona dall’elenco a discesa Modello PDF per scegliere il modello desiderato. <br> Puoi anche selezionare **Sfoglia modello** <img src="./assets/browse-templates-icon.svg"  alt= "icona Sfoglia modelli" width="25">  per scegliere un modello. In **Seleziona modello PDF** finestra di dialogo puoi anche visualizzare l’anteprima della miniatura e visualizzare il titolo e la descrizione del modello selezionato. |
 | **Visualizzazione pagina** | Utilizza Visualizzazione pagina per la visualizzazione della pagina che mostra come viene visualizzato il PDF all’apertura. Seleziona dall’elenco a discesa Visualizzazione pagina per scegliere una visualizzazione preferita. <br><ul><li> **Predefinito**  Viene visualizzato come impostazione predefinita del visualizzatore PDF sul computer di un utente.  <br> <li> **Visualizzazione a pagina singola** Visualizza una pagina alla volta.   <br> <li> **Scorrimento di una pagina** Visualizza una singola pagina in una colonna verticale continua.  <br> <li> **Visualizzazione a due pagine** Visualizza due pagine affiancate alla volta. .<br> <li> **Scorrimento di due pagine** Visualizza due pagine affiancate con scorrimento continuo. </ul> |
 | **Zoom** | Selezionare questa opzione per ridimensionare la visualizzazione della pagina che mostra la modalità di visualizzazione del PDF all&#39;apertura.  <br><ul><li> **Predefinito** Visualizza come impostazione predefinita del visualizzatore di PDF sul computer di un utente    <br> <li> **100%** Fa apparire la pagina nelle sue dimensioni effettive.     <br> <li> **Adatta pagina** Adatta la larghezza e l&#39;altezza della pagina al riquadro del documento. .<br> <li> **Adatta larghezza pagina** Rende la larghezza della pagina piena della larghezza del riquadro del documento.  <br> <li> **Adatta altezza pagina** Fa in modo che l&#39;altezza della pagina riempia l&#39;altezza del riquadro del documento. </ul> |
 

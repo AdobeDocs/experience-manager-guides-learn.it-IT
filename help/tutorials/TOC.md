@@ -2,9 +2,9 @@
 user-guide-title: Tutorial su AEM Guides
 user-guide-description: Leggi la nostra raccolta di tutorial su Adobe Experience Manager Guides.
 breadcrumb-title: Tutorial su AEM Guides
-source-git-commit: ebc63f6320f512987846b9d359014faf4772c5a7
+source-git-commit: a9772cdde6161923d28be806407931859d9918d1
 workflow-type: tm+mt
-source-wordcount: '1612'
+source-wordcount: '1617'
 ht-degree: 5%
 
 ---
@@ -20,27 +20,30 @@ ht-degree: 5%
       + Cloud Services {#cloud-release-notes}
          + [Istruzioni di implementazione](./release-info/deploy-xml-on-aemaacs.md)
          + Versioni del 2023 {#2023-releases}
-            + Versione di ottobre {#2310-release}
-               + [Novità](./release-info/whats-new-2023.10.0.md)
-               + [Note sulla versione](./release-info/release-notes-2023.10.0.md)
-            + Versione di settembre {#2309-release}
-               + [Novità](./release-info/whats-new-2023.9.0.md)
-               + [Note sulla versione](./release-info/release-notes-2023.9.0.md)
-            + Versione di luglio {#2307-release}
-               + [Novità](./release-info/whats-new-2023.7.0.md)
-               + [Note sulla versione](./release-info/release-notes-2023.7.0.md)
-            + Versione di giugno {#2306-release}
-               + [Novità](./release-info/whats-new-2023.6.0.md)
-               + [Note sulla versione](./release-info/release-notes-2023.6.0.md)
-            + Versione di aprile {#2304-release}
-               + [Novità](./release-info/whats-new-2023.4.0.md)
-               + [Note sulla versione](./release-info/release-notes-2023.4.0.md)
-            + Versione di marzo {#2303-release}
-               + [Novità](./release-info/whats-new-2023.3.0.md)
-               + [Note sulla versione](./release-info/release-notes-2023.3.0.md)
-            + Versione di febbraio {#2302-release}
-               + [Novità](./release-info/whats-new-2023.2.0.md)
-               + [Note sulla versione](./release-info/release-notes-2023.2.0.md)
+         + Versione di novembre {#2311-release}
+            + [Novità](./release-info/whats-new-2023.11.0.md)
+            + [Note sulla versione](./release-info/release-notes-2023.11.0.md)
+         + Versione di ottobre {#2310-release}
+            + [Novità](./release-info/whats-new-2023.10.0.md)
+            + [Note sulla versione](./release-info/release-notes-2023.10.0.md)
+         + Versione di settembre {#2309-release}
+            + [Novità](./release-info/whats-new-2023.9.0.md)
+            + [Note sulla versione](./release-info/release-notes-2023.9.0.md)
+         + Versione di luglio {#2307-release}
+            + [Novità](./release-info/whats-new-2023.7.0.md)
+            + [Note sulla versione](./release-info/release-notes-2023.7.0.md)
+         + Versione di giugno {#2306-release}
+            + [Novità](./release-info/whats-new-2023.6.0.md)
+            + [Note sulla versione](./release-info/release-notes-2023.6.0.md)
+         + Versione di aprile {#2304-release}
+            + [Novità](./release-info/whats-new-2023.4.0.md)
+            + [Note sulla versione](./release-info/release-notes-2023.4.0.md)
+         + Versione di marzo {#2303-release}
+            + [Novità](./release-info/whats-new-2023.3.0.md)
+            + [Note sulla versione](./release-info/release-notes-2023.3.0.md)
+         + Versione di febbraio {#2302-release}
+            + [Novità](./release-info/whats-new-2023.2.0.md)
+            + [Note sulla versione](./release-info/release-notes-2023.2.0.md)
          + Versioni del 2022 {#2022-releases}
             + [Note sulla versione di novembre](./release-info/release-notes-2022.11.0.md)
             + [Note sulla versione di ottobre](./release-info/release-notes-2022.10.0.md)
@@ -267,7 +270,7 @@ ht-degree: 5%
                + [Applicare uno stile personalizzato alle voci del sommario e al contenuto dell’argomento](./native-pdf/custom-style-toc.md)
                + [Aggiungere un segnalibro personalizzato nell’output di PDF](./native-pdf/add-custom-bookmark.md)
                + [Utilizzare JavaScript per lavorare con contenuti o stili](./native-pdf/use-javascript-content-style.md)
-               + [Usa stili personalizzati nelle note a piè di pagina](./native-pdf/footnote-number-style.md)
+               + [Applicare gli stili alle note a piè di pagina](./native-pdf/footnote-number-style.md)
          + [Configurare i flag JVM per la pubblicazione nativa di PDF](./native-pdf/configure-jvm-flags.md)
          + [Creare una mappatura tra un argomento e un frammento di contenuto](./install-guide/conf-content-fragment-mapping.md)
       + Utilizzare flussi di lavoro personalizzati {#custom-workflow}

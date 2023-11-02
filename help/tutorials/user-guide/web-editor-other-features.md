@@ -1,10 +1,10 @@
 ---
 title: Altre funzioni dell’editor web
 description: Esplora altre funzioni dell’editor web nelle guide dell’AEM. Scopri come utilizzare queste funzioni per migliorare l’authoring nelle Guide AEM.
-exl-id: dea19372-8a15-4b5d-aea4-47dc914d779e
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
+source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
 workflow-type: tm+mt
-source-wordcount: '2144'
+source-wordcount: '2136'
 ht-degree: 0%
 
 ---
@@ -190,7 +190,7 @@ Oltre al menu di scelta rapida della breadcrumb, è possibile accedere alla fine
 
 **Annullare il wrapping di un elemento**
 
-- L’apertura di un elemento consente di rimuovere il tag elemento dal testo selezionato e di unirlo al relativo elemento padre. Ad esempio, se hai un `p` elemento in un `note` , è possibile rimuovere il wrapping dell&#39; `p` per unire il testo direttamente all&#39;interno del `note` elemento. L&#39;opzione Annulla wrapping elemento è disponibile nel menu di scelta rapida della breadcrumb dell&#39;argomento. Per annullare il wrapping di un elemento, selezionalo dalla breadcrumb dell’argomento, fai clic con il pulsante destro del mouse sull’elemento per aprire il menu di scelta rapida, quindi seleziona Annulla wrapping elemento per rimuovere l’elemento e unire il testo dell’elemento con il relativo elemento padre.
+- L’apertura di un elemento consente di rimuovere il tag elemento dal testo selezionato e di unirlo al relativo elemento padre. Ad esempio, se hai un `p` elemento in un `note` , è possibile rimuovere il wrapping dell&#39; `p` per unire il testo direttamente all&#39;interno del `note` elemento. Il **Annulla wrapping elemento** L&#39;opzione è disponibile nel menu di scelta rapida della breadcrumb dell&#39;argomento. Per rimuovere il wrapping di un elemento, fai clic con il pulsante destro del mouse sull’elemento per aprire il menu di scelta rapida, quindi seleziona **Annulla wrapping elemento** per rimuovere l&#39;elemento e unire il testo dell&#39;elemento con il relativo elemento padre.
 
 **Mantenimento delle interruzioni di riga e del rientro**
 

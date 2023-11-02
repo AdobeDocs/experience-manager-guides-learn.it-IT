@@ -1,10 +1,10 @@
 ---
 title: Creare e gestire le baseline dall'editor Web
 description: Crea e gestisci le linee di base dall’editor web nelle guide AEM. Scopri come creare linee di base sulla base di etichette e applicare filtri alle linee di base.
-exl-id: 9e390489-16f5-4f9a-a821-5150a66c2ed4
-source-git-commit: 361c605bdf02fb3b8754c6596a70e86a00acb3db
+exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
+source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
 workflow-type: tm+mt
-source-wordcount: '1446'
+source-wordcount: '1447'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Le guide AEM forniscono la funzione Baseline integrata nell’editor web che con
 
    - **Usa etichetta selezionata**: è possibile creare una baseline con l&#39;etichetta selezionata definita per una versione degli argomenti.
    - **Usa la versione più recente o la copia di lavoro**: utilizzare la versione più recente degli argomenti a cui non è applicata l&#39;etichetta specificata oppure, se non è stata creata alcuna versione, utilizzare la copia di lavoro degli argomenti per creare la baseline.
-1. Clic **Applica**.
+1. Fai clic su **Applica**.
 
 Viene creata la baseline. La creazione della baseline viene eseguita in modo asincrono, pertanto è possibile continuare a lavorare su altri file nell&#39;editor Web. Una volta creata la baseline, viene visualizzato un messaggio a comparsa che conferma la creazione della baseline e viene visualizzata una notifica della casella in entrata per la baseline.
 
@@ -100,7 +100,7 @@ Potete gestire le baseline esistenti utilizzando le varie funzioni del dashboard
   > Il processo di aggiunta o rimozione delle etichette viene eseguito in modo asincrono, pertanto è possibile continuare a lavorare su altri file nell&#39;editor Web. Una volta aggiunta o rimossa l’etichetta, viene visualizzato un messaggio a comparsa che conferma che l’etichetta è stata aggiunta o rimossa e che si riceve anche una notifica nella casella in entrata per la stessa etichetta.
 
 - **Modifica proprietà** di una baseline statica esistente impostata durante la creazione della baseline.
-- Esportare lo snapshot di una baseline in un file CSV con **Esporta previsione** opzione.
+- Esportare lo snapshot di una baseline in un file di Microsoft Excel con **Esporta previsione** opzione.
 
 **Filtri della linea di base**
 

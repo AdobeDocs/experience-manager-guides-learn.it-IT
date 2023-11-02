@@ -2,9 +2,9 @@
 title: Funzione di pubblicazione nativa di PDF | Componenti di un modello PDF
 description: Scopri i vari componenti di un modello di PDF e come personalizzarli e configurarli.
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: 7fe45a2bb55e9cb72518edd3cb2aa81b99612613
+source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
 workflow-type: tm+mt
-source-wordcount: '4376'
+source-wordcount: '4859'
 ht-degree: 0%
 
 ---
@@ -236,7 +236,7 @@ Potete definire il testo da visualizzare prima e dopo l&#39;interruzione. Ad ese
 * **Collegare i termini del glossario alla pagina del glossario**: seleziona questa opzione per visualizzare i termini del glossario come collegamenti ipertestuali nel contenuto e collegarli ai termini nella pagina del glossario. Ciò consente ai lettori di visualizzare rapidamente la definizione di un termine definito nel glossario.
 
   Per convertire i termini del glossario in collegamenti ipertestuali, è necessario:
-   * Abilita **Glossario** nel **Ordine pagine** per una mappa DITA.
+   * Abilita **Glossario** nel **Ordine di layout pagina** per una mappa DITA.
    * Aggiungere il glossario nelle pagine del retro di una mappa del libro.
 
   Se non si abilita la pagina Glossario, i termini Glossario nel contenuto non vengono convertiti in collegamenti ipertestuali nell’output PDF.
@@ -265,7 +265,11 @@ Le seguenti impostazioni sono disponibili nella sezione Layout di pagina:
 
 * **Indice**: se hai progettato un layout di pagina Indice, mappalo sull’opzione Indice. Utilizzando i fogli di stile, è possibile applicare uno stile a diversi elementi di indice nell’output di PDF. Utilizzare gli stili di indice `.idx-header`, `.idx-footer`, `.idx-body`, `.idx-title`, `.idx-keyword-group`, `.idx-unit`,  `.idx-keyword`, `.idx-name`, `.idx-link` e `.idx-child` per personalizzare gli stili degli elementi dell&#39;indice.
 
-* **Glossario**: se hai un layout di pagina Glossario, mappalo sull’opzione Glossario.  I termini nel glossario dell’output di PDF sono sempre ordinati in ordine alfabetico.
+* **Glossario**: se hai un layout di pagina Glossario, mappalo sull’opzione Glossario.
+
+  I termini nel glossario dell’output di PDF sono sempre ordinati in ordine alfabetico.
+
+  Puoi anche aggiungere il tag `sort-as` per definire una chiave di ordinamento per i termini del glossario. Experience Manager Guide utilizza quindi il tasto di ordinamento per ordinare i termini del glossario al posto dei termini del glossario. Se la chiave di ordinamento non è stata definita, verranno utilizzati i termini del glossario per l&#39;ordinamento. Ad esempio, puoi aggiungere il tag `sort-as` al `glossterm` e impostarne il valore su `A` per il termine &quot;USB&quot; (ad esempio, `<glossterm>USB<sort-as>A</sort-as></glossterm>`). Allo stesso modo, è possibile aggiungere `sort-as` e impostarne il valore su `B` per il termine &quot;Pen Drive&quot;. Quando si ordinano questi termini del glossario, il tasto di ordinamento `A` per il glossario, il termine &quot;USB&quot; viene visualizzato prima del tasto di ordinamento `B` per il termine del glossario &quot;Pen Drive&quot;. Quindi, nell&#39;output PDF, &quot;USB&quot; viene prima di &quot;Pen Drive&quot; nella pagina del glossario.
 
   Utilizzando i fogli di stile, è possibile applicare uno stile a diversi elementi del glossario nell&#39;output di PDF. Utilizzare gli stili del glossario `.glo-header`, `.glo-footer`, `.glo-body`, `.glo-title`, `.glo-unit`, `.glo-link`, e `.glo-term` personalizzare gli stili degli elementi del glossario.
 
@@ -285,7 +289,7 @@ Le seguenti impostazioni sono disponibili nella sezione Layout di pagina:
 
 Per ulteriori informazioni sui layout di pagina, vedere [Progettare un layout di pagina](design-page-layout.md).
 
-### Ordine pagine {#page-order}
+### Ordine di layout pagina {#page-order}
 
 Puoi mostrare o nascondere le seguenti sezioni nel PDF e anche disporre l’ordine in cui devono essere visualizzate nell’output PDF finale:
 
@@ -299,7 +303,7 @@ Puoi mostrare o nascondere le seguenti sezioni nel PDF e anche disporre l’ordi
 * Glossario
 * Citazione
 
-  <img src="assets/page-order-advance-settings.png" alt="Ordine delle pagine" width="550">
+  <img src="assets/page-order-advance-settings.png" alt="Ordine di layout pagina" width="550">
 
   Se non desideri visualizzare una particolare sezione nell’output PDF, puoi nasconderla disattivando l’interruttore.
 
@@ -350,6 +354,43 @@ Per aggiungere un layout di pagina personalizzato, effettua le seguenti operazio
 * Puoi anche aggiungere più volte un layout personalizzato e ordinarlo. Questo consente di pubblicare il contenuto statico di conseguenza.
 
   È ad esempio possibile utilizzare un layout personalizzato per pubblicare più volte un avviso statico all&#39;interno dell&#39;output di PDF.
+
+
+
+### Organizzazione pagina
+
+Le pagine di un documento di PDF vengono in genere pubblicate in base al contenuto organizzato nel file mappa o mappa segnalibro DITA. Tuttavia, è anche possibile modificare l’ordine delle pagine nel documento di PDF. È ad esempio possibile stampare un documento multipagina come opuscolo. Quando si fascicolano, piegano e graffiano i fogli, il risultato è un singolo libro con l&#39;ordine di pagina corretto.  Potete quindi leggere il libretto pubblicato come un libro.
+
+<img src="assets/template-page-organization.png" alt="Organizzazione pagina" width="550">
+
+
+Le seguenti impostazioni sono disponibili nella sezione **Organizzazione pagina** sezione:
+
+#### Ordine delle pagine
+
+Selezionare un ordine di pagina che determini la sequenza delle pagine nel documento PDF. Puoi scegliere le seguenti opzioni dal menu a discesa:
+
+* **Predefinito**: ordine predefinito delle pagine in base al file di origine.
+* **Prima le pagine dispari**: tutte le pagine dispari vengono spostate prima di tutte le pagine pari.
+* **Prima le pagine pari**: tutte le pagine pari vengono spostate prima di tutte le pagine dispari.
+* **Inverso**: l’ordine delle pagine viene invertito.
+* **Opuscolo**: tutte le pagine sono ordinate come in un opuscolo.
+* **Opuscolo da destra a sinistra**: tutte le pagine sono in ordine di opuscolo da destra a sinistra.
+* **Personalizzato**: definisci un ordine personalizzato delle pagine invece di un ordine predefinito.
+   * &quot;a..b&quot; — tutte le pagine consecutive da a a b.
+   * &quot;a,b,c&quot; — Ordine delle nuove pagine a, b, c.
+   * &quot;a*b&quot; — La pagina a viene ripetuta b volte.
+   * &quot;-a&quot; — I numeri di pagina negativi vengono conteggiati a ritroso a partire dall’ultima pagina e possono essere combinati con altri ordini personalizzati.
+   * &quot;X&quot; — Tutte le pagine del documento. Come &quot;1..-1&quot;.
+
+Ad esempio, puoi assegnare un ordine personalizzato come &quot;2,3,5*2,7..10,-1,-2.
+L&#39;ordine di pagina specificato determina un PDF con i seguenti numeri di pagina del documento originale, supponendo che contenga un totale di 25 pagine: 2, 3, 5, 5, 7, 8, 9, 10, 25, 24.
+
+#### Configura più di una pagina per foglio
+
+Scegliere questa opzione per pubblicare più pagine su un singolo foglio.  Quindi, seleziona il numero di righe e colonne e pubblica le pagine come una griglia su un singolo foglio. Ad esempio, puoi pubblicare le pagine come una griglia di 2 righe e 4 colonne.
+
+Definite le dimensioni del foglio di destinazione e l&#39;orientamento con cui desiderate pubblicare il foglio. È inoltre possibile specificare le proprietà del margine e della spaziatura interna del foglio.
 
 
 

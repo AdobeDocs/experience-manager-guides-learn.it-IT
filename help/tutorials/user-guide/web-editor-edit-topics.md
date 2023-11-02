@@ -1,10 +1,10 @@
 ---
 title: Modificare gli argomenti nell'editor Web
 description: Scopri come modificare gli argomenti nell’editor web. Scopri le varie funzioni di modifica per modificare i file degli argomenti nelle guide AEM.
-exl-id: 9950df78-09bd-433a-891d-0d689bb0c2e4
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+exl-id: 8da37a81-e8c3-434f-b3f4-4723d87c2ade
+source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '572'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,9 @@ L&#39;editor Web include una serie di funzioni di modifica che consentono di cre
    > Se non desideri confermare le modifiche nell’archivio AEM, fai clic su **Chiudi** e quindi fare clic su **Chiudi senza salvare** nella finestra di dialogo Modifiche non salvate.
 
    **Aggiorna il browser durante la modifica dei file**
-Le guide AEM supportano l&#39;aggiornamento del browser quando si modifica il contenuto nell&#39;editor Web. Questa funzione consente di continuare a modificare il contenuto in caso di errore dell’applicazione durante il lavoro. Se si preme il pulsante di aggiornamento del browser mentre uno o più file con modifiche non salvate vengono aperti per la modifica, viene visualizzato un avviso che segnala che le modifiche non salvate potrebbero andare perse. È possibile annullare l&#39;operazione di aggiornamento e salvare i file per mantenere le modifiche.
+Experience Manager Guides consente di aggiornare il browser mentre si modifica il contenuto nell&#39;editor Web. Questa funzione consente di continuare a modificare il contenuto in caso di errore dell’applicazione durante il lavoro. Se si preme il pulsante di aggiornamento del browser mentre uno o più file con modifiche non salvate vengono aperti per la modifica, viene visualizzato un avviso che segnala che le modifiche non salvate potrebbero andare perse. È possibile annullare l&#39;operazione di aggiornamento e salvare i file per mantenere le modifiche.
 
-   Anche durante l&#39;aggiornamento del browser, le visualizzazioni dei pannelli sinistro e destro vengono mantenute nell&#39;editor Web. Ad esempio, l’argomento attivo nel pannello Archivio viene nuovamente aperto. Il pannello mappa viene mantenuto insieme alla mappa aperta in precedenza.
+   Anche durante l&#39;aggiornamento del browser, le visualizzazioni dei pannelli sinistro e destro vengono mantenute nell&#39;editor Web. Experience Manager Guide ripristina l&#39;ultimo stato salvato dei file aperti nell&#39;editor Web quando si aggiorna il browser. Ad esempio, i file aperti nel pannello Repository vengono aperti nuovamente. Il pannello mappa viene mantenuto insieme alla mappa aperta in precedenza.
 
    L&#39;argomento attivo o la mappa DITA viene riaperto nell&#39;area di modifica del contenuto.
 

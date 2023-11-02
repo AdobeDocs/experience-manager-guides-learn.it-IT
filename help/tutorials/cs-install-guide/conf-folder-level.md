@@ -1,13 +1,13 @@
 ---
 title: Configurare profili globali o a livello di cartella
 description: Scopri come configurare profili globali o a livello di cartella
-source-git-commit: 6f4ab3baf0c0dd333035c3a7d131bd151b17de45
+exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
+source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
 workflow-type: tm+mt
-source-wordcount: '3962'
+source-wordcount: '3961'
 ht-degree: 0%
 
 ---
-
 
 # Configurare profili globali o a livello di cartella {#id181AH2003PF}
 
@@ -25,7 +25,7 @@ Utilizzando il riquadro Profili cartella nelle impostazioni delle Guide, è poss
 
 - **Attributi condizionali**: utilizza questa scheda per configurare gli attributi condizionali a livello globale o di cartella. Un attributo condizionale è una combinazione del nome e del valore dell&#39;attributo e puoi anche definire un&#39;etichetta per esso. È possibile utilizzare gli attributi DITA standard o attributi personalizzati. Gli attributi condizionali definiti a livello globale vengono resi disponibili a tutti gli utenti nei vari progetti. Se sono stati definiti attributi condizionali a livello di cartella, questi vengono uniti agli attributi condizionali definiti a livello globale.
 
-- **Authoring del modello**: utilizza questa scheda per configurare i modelli che gli autori utilizzeranno per creare contenuti DITA. Sono disponibili i seguenti modelli di argomento predefiniti:
+- **Modelli**: utilizza questa scheda per configurare i modelli che gli autori utilizzeranno per creare o pubblicare contenuti DITA. Sono disponibili i seguenti modelli di argomento predefiniti:
 
    - Glossario
 
@@ -53,7 +53,7 @@ Utilizzando il riquadro Profili cartella nelle impostazioni delle Guide, è poss
 
    - Bookmap
 
-- **Predefinito di output**: come per i modelli di authoring, esistono cinque predefiniti di output preconfigurati:
+- **Predefinito di output**: simile ai modelli, esistono cinque predefiniti di output preconfigurati:
 
    - Sito AEM
 
@@ -75,9 +75,9 @@ Utilizzando il riquadro Profili cartella nelle impostazioni delle Guide, è poss
    - Etichette di versione del contenuto XML
    - Rootmap \(solo a livello di cartella\)
 
-Puoi configurare entrambi: profilo globale e profilo a livello di cartella. In un profilo a livello di cartella, puoi definire le cartelle in cui applicare le impostazioni. Queste impostazioni includono gli attributi condizionali, i modelli di creazione, i predefiniti di output e le impostazioni dell&#39;editor XML. I predefiniti condizionali, i modelli di creazione e le configurazioni dell&#39;editor XML vengono quindi resi disponibili agli autori che lavorano nelle cartelle configurate. Analogamente, gli editori avranno accesso ai predefiniti di output configurati definiti nelle cartelle configurate.
+Puoi configurare entrambi: profilo globale e profilo a livello di cartella. In un profilo a livello di cartella, puoi definire le cartelle in cui applicare le impostazioni. Queste impostazioni includono gli attributi condizionali, i modelli, i predefiniti di output e le impostazioni dell&#39;editor XML. I predefiniti condizionali, i modelli e le configurazioni dell&#39;editor XML vengono quindi resi disponibili agli autori che lavorano nelle cartelle configurate. Analogamente, gli editori avranno accesso ai predefiniti di output configurati definiti nelle cartelle configurate.
 
-Un profilo a livello di cartella sostituisce le impostazioni configurate nel profilo globale. In altre parole, se una cartella dispone di un profilo a livello di cartella, verranno visualizzati i modelli di creazione, i modelli di output e le impostazioni dell&#39;editor XML configurati nel profilo di cartella corrispondente. Non mostra le impostazioni configurate nel profilo globale. Tuttavia, questo non si applica agli attributi condizionali. In caso di attributi condizionali, gli attributi condizionali vengono uniti a livello globale e di cartella.
+Un profilo a livello di cartella sostituisce le impostazioni configurate nel profilo globale. In altre parole, se una cartella dispone di un profilo a livello di cartella, verranno visualizzati i modelli, i modelli di output e le impostazioni dell&#39;editor XML configurati nel profilo di cartella corrispondente. Non mostra le impostazioni configurate nel profilo globale. Tuttavia, questo non si applica agli attributi condizionali. In caso di attributi condizionali, gli attributi condizionali vengono uniti a livello globale e di cartella.
 
 Le sezioni seguenti descrivono come configurare profili globali e profili a livello di cartella.
 
@@ -85,7 +85,7 @@ Le sezioni seguenti descrivono come configurare profili globali e profili a live
 
 Per configurare il profilo globale, effettua le seguenti operazioni:
 
-1. Accedi ad Adobe Experience Manager come amministratore.
+1. Accedi a Adobe Experience Manager come amministratore.
 
 1. Fai clic sul collegamento Adobe Experience Manager in alto e scegli **Strumenti**.
 
@@ -99,7 +99,7 @@ Per configurare il profilo globale, effettua le seguenti operazioni:
 
 1. Per configurare **Attributi condizionali**, vedi [Configurare gli attributi condizionali per i profili globali o a livello di cartella](#id1889D0I305Z).
 
-1. Per configurare **Authoring del modello**, vedi [Configurare i modelli di authoring](#id1889D0IL0Y4).
+1. Per configurare **Modelli**, vedi [Configurare i modelli di authoring](#id1889D0IL0Y4).
 
 1. Per configurare **Predefiniti di output**, vedi [Configurare i predefiniti di output](#id18AGD0IH0Y4).
 
@@ -112,7 +112,7 @@ Per configurare il profilo globale, effettua le seguenti operazioni:
 
 Per configurare un profilo a livello di cartella, effettua le seguenti operazioni:
 
-1. Accedi ad Adobe Experience Manager come amministratore.
+1. Accedi a Adobe Experience Manager come amministratore.
 
 1. Fai clic sul collegamento Adobe Experience Manager in alto e scegli **Strumenti**.
 
@@ -144,7 +144,7 @@ Per configurare un profilo a livello di cartella, effettua le seguenti operazion
 
    >[!NOTE]
    >
-   > Gli utenti che aggiungi qui disporranno dei diritti di amministratore per aggiornare gli attributi condizionali, il modello di authoring e i predefiniti di output configurati per questo profilo di cartella.
+   > Gli utenti che aggiungi qui disporranno dei diritti di amministratore per aggiornare gli attributi condizionali, il modello e i predefiniti di output configurati per questo profilo di cartella.
 
 1. Per aggiungere una cartella, fai clic sull’icona Sfoglia in Percorso cartella, individua e seleziona una cartella, quindi fai clic su Aggiungi per aggiungere la cartella a questo profilo.
 
@@ -161,17 +161,17 @@ Per configurare un profilo a livello di cartella, effettua le seguenti operazion
 1. Dopo aver aggiunto al profilo della cartella tutte le cartelle e gli utenti richiesti, fai clic su **Salva**.
 
 
-Ora è possibile configurare gli attributi condizionali, i modelli di authoring, i predefiniti di output e l’editor XML.
+È ora possibile configurare gli attributi condizionali, i modelli, i predefiniti di output e l&#39;editor XML.
 
 >[!IMPORTANT]
 >
-> Quando crei un profilo di cartella, per impostazione predefinita non contiene modelli di authoring. Devi aggiungere i modelli di authoring richiesti nel profilo della cartella per renderli disponibili per gli autori.
+> Quando crei un profilo di cartella, per impostazione predefinita non contiene modelli. Devi aggiungere i modelli richiesti nel profilo della cartella per renderli disponibili agli autori.
 
 ## Configurare gli attributi condizionali per i profili globali o a livello di cartella {#id1889D0I305Z}
 
 Per configurare gli attributi condizionali standard supportati da DITA a livello globale o di cartella, effettuare le seguenti operazioni:
 
-1. Accedi ad Adobe Experience Manager come amministratore o come utente con diritti di amministratore per un profilo a livello di cartella.
+1. Accedi a Adobe Experience Manager come amministratore o come utente con diritti di amministratore per un profilo a livello di cartella.
 
 1. Fai clic sul collegamento Adobe Experience Manager in alto e scegli **Strumenti**.
 
@@ -225,15 +225,15 @@ Se si utilizza un attributo personalizzato, deve essere un attributo DITA valido
 1. Aggiungi attributi personalizzati al profilo globale o a livello di cartella.
 
 
-## Configurare i modelli di authoring {#id1889D0IL0Y4}
+## Configurare i modelli {#id1889D0IL0Y4}
 
-Le guide AEM includono 7 modelli di authoring predefiniti e 2 modelli di mappe DITA. Puoi scegliere di avere solo pochi modelli disponibili per gli autori. Se utilizzi un modello personalizzato, lo stesso può essere configurato e reso disponibile per l’authoring. La scheda Modello di creazione della configurazione Profili cartella consente di aggiungere o rimuovere modelli di argomento o di mappa da profili globali o a livello di cartella.
+Le guide AEM includono 7 modelli di argomenti predefiniti, 2 modelli di mappe DITA e 3 modelli PDF. Puoi scegliere di avere solo pochi modelli disponibili per gli autori e gli editori. Se utilizzi un modello personalizzato, lo stesso può essere configurato e reso disponibile per l’authoring e la pubblicazione. Utilizzi il **Modelli** nella configurazione di Profili cartella per aggiungere o rimuovere modelli di argomenti, mappe o PDF da profili globali o a livello di cartella.
 
-Anche prima di configurare i modelli di argomento o mappa a livello globale o di cartella, puoi definire una posizione in cui memorizzare i modelli di authoring personalizzati. Per configurare un percorso personalizzato per l’archiviazione dei modelli di authoring, consulta [Configura percorso cartella modello DITA personalizzato](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z).
+Anche prima di configurare i modelli di argomento, mappa o PDF a livello globale o di cartella, puoi definire un percorso in cui memorizzare i modelli personalizzati. Per configurare un percorso personalizzato per la memorizzazione dei modelli, vedi [Configura percorso cartella modello DITA personalizzato](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z).
 
-Per aggiungere l’argomento o i modelli di mappa a un profilo di cartella, effettua le seguenti operazioni:
+Per aggiungere i modelli di argomento, mappa o PDF a un profilo di cartella, effettua le seguenti operazioni:
 
-1. Accedi ad Adobe Experience Manager come amministratore o come utente con diritti di amministratore per un profilo a livello di cartella.
+1. Accedi a Adobe Experience Manager come amministratore o come utente con diritti di amministratore per un profilo a livello di cartella.
 
 1. Fai clic sul collegamento Adobe Experience Manager in alto e scegli **Strumenti**.
 
@@ -243,26 +243,26 @@ Per aggiungere l’argomento o i modelli di mappa a un profilo di cartella, effe
 
    >[!NOTE]
    >
-   > Puoi scegliere di configurare il modello di authoring nel Profilo globale o in un profilo a livello di cartella.
+   > Puoi scegliere di configurare un modello nel Profilo globale o in un profilo a livello di cartella.
 
-1. Nella pagina del profilo, fai clic su **Authoring del modello** scheda.
+1. Nella pagina del profilo, fai clic su **Modelli** scheda.
 1. Clic **Modifica**.
 
-   Le opzioni per aggiungere modelli Argomento e Mappa sono disponibili eseguendo una ricerca dalla posizione predefinita o individuandola.
+   Per aggiungere modelli di Argomento, Mappa e PDF, puoi effettuare una ricerca dalla posizione predefinita o cercarla.
 
    >[!NOTE]
    >
-   > Per impostazione predefinita, tutti i modelli di creazione vengono memorizzati nella cartella /content/dam/dita-templates. Il `dita-templates` la cartella contiene `topics` e `maps` sottocartelle per memorizzare l’argomento e mappare i modelli. È possibile aggiungere i modelli personalizzati \(.dita,.xml o .ditamapfiles\) nelle cartelle dei modelli predefinite. Una volta aggiunto il modello nella cartella predefinita, potrai aggiungerlo nel profilo globale o cartella. Per ulteriori informazioni sulla creazione di modelli personalizzati tramite l&#39;Editor Web, vedere [Creare un modello di authoring personalizzato](#id1917D0EG0HJ).
+   > Per impostazione predefinita, tutti i modelli sono memorizzati nella cartella /content/dam/dita-templates. Il `dita-templates` la cartella contiene `topics`, `maps`, e `PDF` sottocartelle in cui sono memorizzati i modelli di argomento, mappa e PDF. È possibile aggiungere i modelli personalizzati \(.dita,.xml o .ditamapfiles\) nelle cartelle dei modelli predefinite. Una volta aggiunto il modello nella cartella predefinita, potrai aggiungerlo nel profilo globale o cartella. Per ulteriori informazioni sulla creazione di modelli personalizzati tramite l&#39;Editor Web, vedere [Creare un modello di authoring personalizzato](#id1917D0EG0HJ).
 
-   ![](assets/search-author-temp.png)
+   ![](assets/search-author-temp.png){width="800" align="left"}
 
-1. Aggiungi l’argomento richiesto e mappa i modelli nel tuo profilo.
+1. Aggiungi al tuo profilo i modelli di argomento, mappa e PDF richiesti.
 
    Per aggiungere un modello, effettuare una delle seguenti operazioni:
 
    - Scegli **Cerca o digita** e immettere o selezionare il nome di un modello dall&#39;elenco a discesa. L’elenco a discesa è costituito da tutti i modelli predefiniti ed eventuali nuovi modelli creati.
 
-     ![](assets/default-template-list.png)
+     ![](assets/default-template-list.png){width="800" align="left"}
 
    - Clic **Sfoglia** e seleziona un modello da DAM.
 
@@ -270,7 +270,7 @@ Per aggiungere l’argomento o i modelli di mappa a un profilo di cartella, effe
 
    I modelli selezionati vengono aggiunti all&#39;elenco dei modelli.
 
-   ![](assets/author-templ-added-list.png)
+   ![](assets/author-templ-added-list.png){width="800" align="left"}
 
    >[!NOTE]
    >
@@ -293,7 +293,7 @@ Le guide AEM consentono di creare facilmente modelli. In qualità di amministrat
 
 Per creare un modello di authoring personalizzato, effettua le seguenti operazioni:
 
-1. Accedi ad Adobe Experience Manager come amministratore.
+1. Accedi a Adobe Experience Manager come amministratore.
 
 1. Nell’interfaccia utente Assets, passa alla cartella configurata per memorizzare i file modello. Per impostazione predefinita, tutti i modelli di argomento sono memorizzati nella cartella /content/dam/dita-templates/topic.
 
@@ -334,11 +334,11 @@ Le guide AEM consentono all&#39;amministratore di creare predefiniti di output c
 
 Una volta creati i predefiniti di output nel sistema, tutte le mappe DITA create successivamente utilizzeranno i predefiniti di default per generare l&#39;output. Tuttavia, tutte le mappe DITA esistenti continuerebbero a utilizzare i predefiniti di output precedentemente configurati con esse. Se si desidera applicare il nuovo predefinito di output a tutte le mappe DITA esistenti, è necessario eseguire il flusso di lavoro Applica modifiche predefinito.
 
-Oltre ai predefiniti configurati a livello globale o aziendale, un editore disporrebbe comunque dei diritti per creare più predefiniti di output. Tuttavia, tali predefiniti sono associati alla mappa DITA per la quale vengono creati. Per ulteriori dettagli sulla creazione di predefiniti di output regolari per una mappa DITA, consultate *Creare, modificare, duplicare o rimuovere un predefinito di output* nella guida Utilizzo delle guide as a Cloud Service di Adobe Experience Manager.
+Oltre ai predefiniti configurati a livello globale o aziendale, un editore disporrebbe comunque dei diritti per creare più predefiniti di output. Tuttavia, tali predefiniti sono associati alla mappa DITA per la quale vengono creati. Per ulteriori dettagli sulla creazione di predefiniti di output regolari per una mappa DITA, consultate *Creare, modificare, duplicare o rimuovere un predefinito di output* nella guida Utilizzo delle guide di Adobe Experience Manager as a Cloud Service.
 
 Per configurare predefiniti di output globali o specifici per le cartelle, effettua le seguenti operazioni:
 
-1. Accedi ad Adobe Experience Manager come amministratore o come utente con diritti di amministratore per un profilo specifico della cartella.
+1. Accedi a Adobe Experience Manager come amministratore o come utente con diritti di amministratore per un profilo specifico della cartella.
 
 1. Fai clic sul collegamento Adobe Experience Manager in alto e scegli **Strumenti**.
 
@@ -361,7 +361,7 @@ Per configurare predefiniti di output globali o specifici per le cartelle, effet
 
    - Clic **Modifica** per aprire la configurazione del predefinito selezionato per la modifica.
 
-     Per informazioni sulle impostazioni del predefinito di output, consultate *Informazioni sui predefiniti di output* nella guida Utilizzo delle guide as a Cloud Service di Adobe Experience Manager.
+     Per informazioni sulle impostazioni del predefinito di output, consultate *Informazioni sui predefiniti di output* nella guida Utilizzo delle guide di Adobe Experience Manager as a Cloud Service.
 
 1. Clic **Salva** per salvare le impostazioni predefinite.
 
@@ -374,7 +374,7 @@ Un nuovo predefinito di output creato a livello globale viene reso disponibile p
 
 Se avete aggiornato un predefinito di output esistente o desiderate rendere disponibile un nuovo predefinito di output per le mappe DITA esistenti, effettuate le seguenti operazioni:
 
-1. Accedi ad Adobe Experience Manager come amministratore o come utente con diritti di amministratore per un profilo specifico della cartella.
+1. Accedi a Adobe Experience Manager come amministratore o come utente con diritti di amministratore per un profilo specifico della cartella.
 
 1. Fai clic sul collegamento Adobe Experience Manager in alto e scegli **Strumenti**.
 
@@ -475,4 +475,3 @@ Nell’esempio precedente, &quot;label1&quot; è l’identificatore della sequen
 **Rootmap**
 
 Se gli autori utilizzano una mappa principale specifica, puoi cercare e selezionare tale mappa qui. Puoi definire la rootmap solo per un profilo a livello di cartella.
-

@@ -1,13 +1,13 @@
 ---
 title: Configurare le impostazioni di generazione dell’output
 description: Scopri come configurare le impostazioni di generazione dell’output
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+exl-id: b5cf4f6c-dc56-428e-a514-6c9f879ac03d
+source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
 workflow-type: tm+mt
-source-wordcount: '5252'
+source-wordcount: '5340'
 ht-degree: 1%
 
 ---
-
 
 # Configurare le impostazioni di generazione dell’output {#id181AI0B0E30}
 
@@ -66,9 +66,7 @@ La prossima volta che pubblichi un contenuto DITA utilizzando le configurazioni 
 Le guide dell’AEM supportano la creazione di output nei seguenti formati:
 
 - Sito AEM
-
 - PDF
-
 - HTML5
 - EPUB
 - Output personalizzato tramite DITA-OT
@@ -80,6 +78,7 @@ Per l&#39;output Sito AEM, è possibile assegnare diversi modelli struttura con 
 >[!TIP]
 >
 > Consulta la *Pubblicazione di siti AEM* sezione nella guida alle best practice per le best practice sulla creazione dell’output del sito AEM.
+
 
 ### Personalizza modello struttura per generare output {#customize_xml-add-on}
 
@@ -261,6 +260,12 @@ Per interrompere la creazione di una versione per le pagine da eliminare, effett
    >
    > Selezionando questa opzione, gli utenti potranno eliminare direttamente le pagine senza creare alcuna versione. Se l&#39;opzione non è selezionata, viene creata una versione prima che le pagine\(s\) vengano eliminate.
 
+### Configurare il rewriter personalizzato con Experience Manager Guides {#custom-rewriter}
+
+Experience Manager Guides ha un sling personalizzato [**rewriter**](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html) modulo per la gestione dei collegamenti generati in caso di mappe incrociate (collegamenti tra gli argomenti di due mappe diverse). La configurazione del rewriter è installata nel percorso seguente: <br> `/apps/fmdita/config/rewriter/fmdita-crossmap-link-patcher`.
+
+Se nel codebase è presente un altro rewriter di sling personalizzato, utilizza un `'order'` valore maggiore di 50, utilizzato dal rewriter sling di Experience Manager Guides `'order'` 50  Per evitare questo problema, è necessario un valore >50. Per ulteriori dettagli, vedi [Pipeline di riscrittura di output](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
+
 
 ## Utilizzare i metadati nell&#39;output di pubblicazione tramite DITA-OT {#id191LF0U0TY4}
 
@@ -275,7 +280,7 @@ Le guide AEM consentono di trasmettere metadati personalizzati durante la pubbli
 
 Per aggiungere i metadati richiesti nel sistema, effettuare le seguenti operazioni:
 
-1. Accedi ad Adobe Experience Manager come amministratore.
+1. Accedi a Adobe Experience Manager come amministratore.
 
 1. Fai clic sul collegamento Adobe Experience Manager in alto e scegli **Strumenti**.
 
@@ -657,4 +662,3 @@ Utilizzare le istruzioni fornite in [Sostituzioni configurazione](download-insta
 >[!TIP]
 >
 > Consulta la *Cronologia output* sezione nella guida alle best practice per le best practice sull’utilizzo della cronologia degli output.
-

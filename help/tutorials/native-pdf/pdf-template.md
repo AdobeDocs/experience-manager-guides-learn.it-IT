@@ -1,10 +1,10 @@
 ---
 title: Creazione e personalizzazione di modelli di PDF nativi
-description: Scopri come creare e personalizzare modelli Native PDF.
+description: Scopri come creare e personalizzare modelli di PDF nativi.
 exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
-source-git-commit: 49fa930483f48cafd057002ee26c9499ce967c60
+source-git-commit: da6ada7329aa338849de86ebfda94587bbc4ab54
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '1121'
 ht-degree: 0%
 
 ---
@@ -13,22 +13,31 @@ ht-degree: 0%
 
 L’utilizzo di un modello garantisce coerenza nel layout e nella struttura del contenuto. Poiché i modelli sono predefiniti, è possibile evitare la rielaborazione dei problemi di formattazione che si verificano per ogni nuovo progetto o aggiornamento. I modelli consentono di progettare layout di pagina, applicare stili al contenuto e applicare varie impostazioni per personalizzare il PDF.
 
-Anche se gli autori possono utilizzare i predefiniti di PDF per generare l’output, gli sviluppatori possono creare modelli personalizzati. Sono disponibili modelli di esempio forniti con il prodotto, che possono essere ulteriormente personalizzati o duplicati dagli sviluppatori in base ai loro requisiti organizzativi.
+## Modelli PDF predefiniti e personalizzati
+
+Sono disponibili alcuni modelli di fabbrica di esempio forniti come predefiniti, che gli sviluppatori possono utilizzare come modelli di base per creare modelli personalizzati in base ai propri requisiti organizzativi.
+
 
 
 ## Crea un nuovo modello di PDF {#create-pdf-template}
 
-È possibile creare modelli di PDF personalizzati con layout di pagina specifici e definire la formattazione per i componenti layout di pagina (come sommario, indice, glossario) o per i componenti DITA (come intestazione, paragrafo, elenco) utilizzando i fogli di stile. Puoi creare un nuovo modello da zero o generarlo utilizzando un modello di esempio.
+È possibile creare modelli di PDF personalizzati con layout di pagina specifici e definire la formattazione per i componenti layout di pagina (come sommario, indice, glossario) o per i componenti DITA (come intestazione, paragrafo, elenco) utilizzando i fogli di stile.
 
-Per creare un nuovo modello di PDF, effettua le seguenti operazioni:
+Per creare un nuovo modello di PDF, effettuare le seguenti operazioni:
 1. Nell’editor web, vai al **Output** scheda.
-1. Espandi la barra laterale a sinistra e seleziona **Modelli**.
+1. Seleziona **Modelli** <img src="./assets/template.svg" alt= "icona modelli" width="25"> nel pannello a sinistra.
 <img src="assets/create-pdf-template.png" alt="Crea modello PDF" width="400">
-1. Nel pannello **Modelli**, seleziona l’icona **+** accanto a **Modelli** quindi scegli **Modello PDF**.
-1. Specifica un nome per il modello nella finestra di dialogo **Nuovo modello**.
-1. Fai clic su **Fine**.
+1. Nella finestra **Modelli**, seleziona l’icona **+** accanto a **Modelli** quindi scegli **Modello PDF**.
+1. Nella finestra di dialogo **Nuovo modello PDF **, selezionare un modello di fabbrica da utilizzare come base per la creazione del modello personalizzato. È inoltre possibile utilizzare la casella di ricerca per cercare un modello.
+1. Specifica un titolo per il modello.
 
-Il nuovo modello viene creato e aggiunto nel *Modelli* pannello.
+>[!NOTE]
+>
+>  È inoltre possibile visualizzare in anteprima una miniatura per il modello durante la creazione e la duplicazione di un modello. Modifica o elimina la miniatura tramite [**Proprietà**](#properties-option) nel **Opzioni** dopo aver creato il modello.
+
+1. Fai clic su **Crea**.
+
+   Il nuovo modello viene creato e aggiunto nel **Modelli** pannello.
 
 ## Duplicare un modello PDF {#duplicate-pdf-template}
 
@@ -36,37 +45,83 @@ Se si desidera creare un nuovo modello con gli stessi layout di pagina e la stes
 
 Per duplicare un modello di PDF esistente, effettua le seguenti operazioni:
 1. Nell’editor web, vai al **Output** scheda.
-1. Espandi la barra laterale a sinistra e seleziona **Modelli**.
+1. Seleziona **Modelli** <img src="./assets/template.svg" alt= "icona modelli" width="25"> nel pannello a sinistra. Verrà aperto il **Modelli** finestra.
+1. Passa il puntatore del mouse sul modello da duplicare e seleziona la **...** *Opzioni* e scegli **Duplica** dal menu di scelta rapida.
 
-   Viene aperto il pannello Modelli.
-1. Passa il puntatore del mouse sul modello da duplicare e seleziona l’opzione (*Opzioni* ) **...** e scegli **Duplica** dal menu di scelta rapida.
+   Verrà aperto il **Duplica modello PDF** .
 
-   Viene visualizzata la finestra di dialogo Duplica modello.\
-   <img src="assets/duplicate-template.png" alt="Duplica modello PDF" width="250">
-1. Specificare un nome per il team.
+   <img src="assets/duplicate-template.png" alt="Duplica modello PDF" width="350">
 
-   Il **Nome** viene precompilato come copia con lo stesso nome del modello di origine.
+   *Seleziona un modello da duplicare, visualizza l’anteprima della miniatura e aggiorna il titolo nella **Duplica modello PDF**.*
 
-1. Per specificare un nome preferito, rimuovi il nome precompilato e specifica un nome.
-1. Clic **Fine**.
+1. Specifica un titolo per il modello.
 
-   Un modello duplicato viene creato e aggiunto in Modelli.
+   Il **Titolo** viene precompilato come copia dello stesso titolo del modello di origine. Se esiste un modello con lo stesso titolo, verrà visualizzato un messaggio di errore.
+
+
+
+1. Per specificare un titolo preferito, rimuovi il titolo precompilato e specifica un titolo.
+1. Clic **Duplica**.
+
+   Un modello duplicato viene creato e aggiunto nella sezione **Modelli**.
+
+## Altre operazioni sui modelli
+
+È inoltre possibile eseguire le operazioni seguenti sui modelli da **Opzioni** menu:
+
+<img src="assets/PDF-template-options.png" alt="Duplica modello PDF" width="350">
+
+### Eliminare
+
+Selezionare l&#39;opzione Elimina per eliminare il modello selezionato. Quindi, seleziona Sì al prompt di conferma.
+Il predefinito viene rimosso dal **Modelli**.
+
+### Proprietà{#properties-option}
+
+Selezionare questa opzione per visualizzare e modificare le proprietà del modello. Puoi visualizzare in anteprima la miniatura esistente per il modello. È inoltre possibile modificare o eliminare la miniatura. Puoi anche modificare il titolo e la descrizione del modello.
+
+### Visualizza nell’interfaccia utente Assets
+
+Seleziona questa opzione per visualizzare il modello nell’interfaccia utente Assets. Quando si apre la posizione principale del modello, è possibile visualizzare tutte le risorse del modello.
+
+Dopo aver creato il modello personalizzato, puoi sceglierlo tra Layout di pagina nel predefinito di output di PDF.
+Scopri come [pubblicare un output di PDF](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=en).
+
+>[!NOTE]
+>
+>Se nella cartella è configurato un profilo di cartella, verranno visualizzati solo i modelli di PDF configurati nel profilo di cartella.
+
+In base alla configurazione, l’amministratore può configurare i modelli:
+
+<details>
+<summary> Servizi cloud </summary>
+
+Per informazioni dettagliate sulla configurazione dei profili globali e a livello di cartella, vedi [Configurare i modelli](../cs-install-guide/conf-folder-level.md#id1889D0IL0Y4) nella guida all&#39;installazione e alla configurazione per i Cloud Service.
+
+</details>
+
+<details>    
+<summary>  Software on-premise </summary>
+
+Per informazioni dettagliate sulla configurazione dei profili globali e a livello di cartella, vedi [Configurare i modelli di authoring](../install-guide/conf-folder-level.md#create-custom-authoring-template-id1917d0eg0hj) nella guida all’installazione e alla configurazione on-premise.
+
+</details>
 
 ## Personalizzare un modello di PDF {#customize-pdf-template}
 
 È possibile personalizzare i modelli modificando i componenti del modello e applicando formati di stile utilizzando i fogli di stile.
 
-Per personalizzare un modello di PDF, attieniti alla procedura seguente:
-1. Nell’editor web, passa alla scheda Output.
-1. Espandi la barra laterale a sinistra e seleziona Modelli.
+Per personalizzare un modello di PDF, effettuare le seguenti operazioni:
+1. Nell’editor web, vai al **Output** scheda.
+1. Espandi la barra laterale a sinistra e seleziona **Modelli**.
 
-   Viene aperto il pannello Modelli.
+   Verrà aperto il **Modelli** pannello.
 1. Per visualizzare i componenti di un modello, effettuate una delle seguenti operazioni:
 
    * Seleziona l’icona > accanto a un modello o fai doppio clic sul nome del modello.
-   * Passa il puntatore del mouse su un modello, seleziona l’icona ... (Opzioni) e scegli Modifica dal menu di scelta rapida.
+   * Passa il puntatore del mouse su un modello e seleziona ... (**Opzioni** ) e scegliere **Modifica** dal menu di scelta rapida.
 
-     Per impostazione predefinita, questo apre il pannello Impostazioni nell’editor modelli.
+     Per impostazione predefinita, viene aperto il **Impostazioni** nell’editor modelli.
    <img src="assets/customize-pdf-template.png" alt="Personalizza team PDF" width="350">
 
    >[!NOTE]
@@ -90,4 +145,9 @@ Per ulteriori informazioni sull&#39;applicazione delle impostazioni, vedere [Imp
 1. Per personalizzare un componente modello, fai doppio clic su un componente modello o seleziona l’icona > prima di esso.
 
    Ad esempio, fare doppio clic su *Layout di pagina* o seleziona la *>* icona prima di *Layout di pagina* per visualizzare i layout di pagina disponibili.
+
+   >[!NOTE]
+   >
+   >È inoltre possibile aggiornare una miniatura e la descrizione del modello utilizzando [**Proprietà**](#properties-option) nel **Opzioni** menu.
+
 1. Dopo aver apportato le modifiche desiderate, seleziona *Salva tutto* (o `Ctrl+S`).

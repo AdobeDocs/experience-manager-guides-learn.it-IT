@@ -2,9 +2,9 @@
 title: Conoscere le funzioni dell’editor web
 description: Scopri le funzioni dell’editor web nelle guide dell’AEM. Scopri l’interfaccia dell’editor web, compresi la barra degli strumenti principale, la barra degli strumenti secondaria, il pannello sinistro, l’area di modifica del contenuto e il pannello destro.
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
-source-git-commit: f7a0140a274a83dfeb6a1ba70ae9c09297d1754c
+source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
 workflow-type: tm+mt
-source-wordcount: '16500'
+source-wordcount: '17079'
 ht-degree: 0%
 
 ---
@@ -212,6 +212,12 @@ Le Preferenze utente sono disponibili per tutti gli autori. Utilizzando le prefe
 ![](images/user_preference_editor.PNG){width="550" align="left"}
 
 - **Usa tema dispositivo**: seleziona questa casella di controllo per consentire alle guide AEM di passare automaticamente dai temi chiari a quelli scuri in base al tema del dispositivo.
+
+- **Visualizza file per**: seleziona il modo predefinito per visualizzare i file nell’editor web. È possibile visualizzare l’elenco dei file in base ai titoli o ai nomi dei file dai vari pannelli della **Autore** visualizzazione.
+  >[!NOTE]
+  >
+  > Per impostazione predefinita, i file vengono visualizzati per titolo nell&#39;editor Web.
+
 - **Tema**: puoi scegliere tra i temi Chiaro, Più chiaro, Scuro o Più scuro per l’editor. Nel caso del tema Più chiaro, le barre degli strumenti e i pannelli utilizzano uno sfondo di colore grigio più chiaro. Nel caso del tema Luce, le barre degli strumenti e i pannelli utilizzano lo sfondo grigio chiaro. Nel caso del tema Più scuro, le barre degli strumenti e i pannelli utilizzano uno sfondo nero più scuro. In caso di tema scuro, le barre degli strumenti e i pannelli utilizzano lo sfondo nero. In tutti i temi, l&#39;area di modifica dei contenuti è visualizzata in bianco.
 
 - **Profili cartella**: il profilo cartella controlla diverse configurazioni relative agli attributi condizionali, ai modelli di authoring, ai predefiniti di output e alle configurazioni dell’editor web. Il Profilo globale è visualizzato per impostazione predefinita. Inoltre, se l’amministratore ha configurato i profili delle cartelle nel sistema, anche tali profili vengono visualizzati nell’elenco Profili cartella.
@@ -713,6 +719,10 @@ Il pannello sinistro consente di accedere alle seguenti funzioni:
 **Preferiti** -  ![](images/favorite-collections.svg)
 
 Se si lavora su un insieme di file o cartelle, è possibile aggiungerli all&#39;elenco dei preferiti per accedervi rapidamente. L&#39;elenco Preferiti mostra l&#39;elenco dei documenti aggiunti e altri elenchi accessibili al pubblico dei documenti preferiti degli altri utenti.
+Per impostazione predefinita, è possibile visualizzare i file in base ai titoli. Passando il puntatore del mouse su un file, potete visualizzare il titolo e il percorso del file come descrizione comando.
+>[!NOTE]
+>
+> In qualità di amministratore, è inoltre possibile scegliere di visualizzare l&#39;elenco dei file in base ai nomi dei file nell&#39;Editor Web. Seleziona la **Nome file** opzione del **Visualizza file per** sezione in **Preferenze utente** ![](images/user_preference_editor_icon.svg).
 
 Per creare un elenco o una raccolta preferita, fai clic sull’icona + accanto al pannello Preferiti per visualizzare il registro dei dati della nuova raccolta:
 
@@ -753,7 +763,12 @@ Per aggiungere un file alla raccolta preferita, utilizzare uno dei metodi seguen
 
 **Vista archivio** - ![](images/Repository_icon.svg)
 
-Facendo clic sull’icona Vista archivio, si ottiene un elenco di file e cartelle disponibili in DAM.
+Facendo clic sull’icona Vista archivio, si ottiene un elenco di file e cartelle disponibili in DAM. Per impostazione predefinita, è possibile visualizzare i file in base ai titoli. Passando il cursore del mouse su un file, potete visualizzare il titolo e il nome del file come descrizione comando.
+
+>[!NOTE]
+>
+> In qualità di amministratore, è inoltre possibile scegliere di visualizzare l&#39;elenco dei file in base ai nomi dei file nell&#39;Editor Web. Seleziona la **Nome file** opzione del **Visualizza file per** sezione in **Preferenze utente** ![](images/user_preference_editor_icon.svg).
+
 
 Vengono caricati 75 file alla volta. Ogni volta che fai clic su **Carica di più**... vengono caricati 75 file e il pulsante smette di essere visualizzato quando tutti i file sono stati elencati. Questo caricamento batch è efficiente e consente di accedere ai file più rapidamente rispetto al caricamento di tutti i file esistenti in una cartella.
 
@@ -1013,7 +1028,15 @@ Immetti un **Titolo** per la cartella, che viene automaticamente convertita nel 
 
 **Vista mappa** -  ![](images/map-view-icon.svg)
 
-Quando si fa clic sull&#39;icona Vista mappa, viene visualizzato un elenco di argomenti all&#39;interno del file mappa. Se non è stato aperto alcun file di mappa, la vista Mappa appare vuota. Facendo doppio clic su un file di mappa, il file di mappa viene aperto in questa vista. È possibile fare doppio clic su qualsiasi file all&#39;interno della mappa per aprirlo nell&#39;editor Web. Quando apri una mappa nella vista mappa, il titolo della mappa corrente viene visualizzato al centro della barra degli strumenti principale. Se il titolo è troppo lungo, vengono visualizzati dei puntini di sospensione e puoi anche passare il puntatore del mouse sul titolo per vedere il titolo completo nella descrizione comando. Se si dispone dei diritti di modifica sui file di mappa, sarà possibile modificare anche i file. Per ulteriori informazioni sull&#39;apertura e la modifica di un argomento tramite mappa DITA, vedere [Modifica argomenti tramite mappa DITA](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
+Quando si fa clic sull&#39;icona Vista mappa, viene visualizzato un elenco di argomenti all&#39;interno del file mappa. Se non è stato aperto alcun file di mappa, la vista Mappa appare vuota. Facendo doppio clic su un file di mappa, il file di mappa viene aperto in questa vista. È possibile fare doppio clic su qualsiasi file all&#39;interno della mappa per aprirlo nell&#39;editor Web.
+
+Per impostazione predefinita, è possibile visualizzare i file in base ai titoli. Passando il puntatore del mouse su un file, potete visualizzare il titolo e il percorso del file come descrizione comando.
+>[!NOTE]
+>
+>In qualità di amministratore, puoi anche scegliere di visualizzare il nome del file della mappa principale che è attualmente aperto nella vista mappa. Seleziona la **Nome file** opzione del **Visualizza file per** sezione in **Preferenze utente** ![](images/user_preference_editor_icon.svg).
+
+
+Quando apri una mappa nella vista mappa, il titolo della mappa corrente viene visualizzato al centro della barra degli strumenti principale. Se il titolo è troppo lungo, vengono visualizzati dei puntini di sospensione e puoi anche passare il puntatore del mouse sul titolo per vedere il titolo completo nella descrizione comando. Se si dispone dei diritti di modifica sui file di mappa, sarà possibile modificare anche i file. Per ulteriori informazioni sull&#39;apertura e la modifica di un argomento tramite mappa DITA, vedere [Modifica argomenti tramite mappa DITA](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
 
 Potete eseguire le seguenti operazioni utilizzando il menu Opzioni (Options) del file di mappa:
 
@@ -1177,6 +1200,11 @@ La ricerca non distingue tra maiuscole e minuscole e corrisponde esattamente all
 Una delle caratteristiche principali di DITA è la possibilità di riutilizzare i contenuti. Il pannello Contenuti riutilizzabili consente di memorizzare i file DITA da cui vengono generalmente inseriti i contenuti riutilizzabili. Una volta aggiunti, i file DITA rimangono nel pannello Contenuti riutilizzabili per tutte le sessioni. Ciò significa che non è necessario aggiungere di nuovo i file DITA per accedervi in un secondo momento.
 
 Puoi semplicemente trascinare e rilasciare i contenuti riutilizzabili dal pannello sull’argomento corrente, per inserirli in modo semplice e rapido. È inoltre possibile ottenere un&#39;anteprima del contenuto prima di inserirlo nel documento.
+
+Per impostazione predefinita, è possibile visualizzare i file in base ai titoli. Passando il puntatore del mouse su un file, potete visualizzare il titolo e il percorso del file come descrizione comando.
+>[!NOTE]
+>
+> In qualità di amministratore, è inoltre possibile scegliere di visualizzare l&#39;elenco dei file in base ai nomi dei file nell&#39;Editor Web. Seleziona la **Nome file** opzione del **Visualizza file per** sezione in **Preferenze utente** ![](images/user_preference_editor_icon.svg).
 
 Per aggiungere un file DITA al pannello Contenuti riutilizzabili, utilizzate uno dei metodi seguenti:
 
@@ -1527,6 +1555,12 @@ Il pannello Modelli è disponibile solo per gli amministratori. Utilizzando ques
 
 ![](images/templates-panel_cs.png){width="550" align="left"}
 
+Per impostazione predefinita, è possibile visualizzare i file in base ai titoli. Passando il puntatore del mouse su un modello, è possibile visualizzare il titolo e il nome del file come descrizione comando.
+
+>[!NOTE]
+>
+> In qualità di amministratore, è inoltre possibile scegliere di visualizzare l&#39;elenco dei file nell&#39;Editor Web. Seleziona la **Nome file** opzione del **Visualizza file per** sezione in **Preferenze utente** ![](images/user_preference_editor_icon.svg).
+
 Per creare un modello, fai clic sull’icona + accanto a Modelli e scegli il modello da creare. Se si seleziona **Modello argomento**, viene visualizzata la finestra di dialogo Crea nuovo modello di argomento:
 
 ![](images/create-new-topic-template.PNG){width="400" align="left"}
@@ -1544,7 +1578,12 @@ Utilizzando il menu Opzioni di un modello esistente, è possibile scegliere di *
 **Revisione** -  ![](images/active-review-tasklist-icon.svg)
 
 Le guide AEM consentono di visualizzare tutte le attività di revisione nei progetti. Puoi visualizzare tutti i progetti di revisione e le attività di revisione attive all’interno dei progetti di revisione di cui fai parte dal **Revisione** pannello.  È quindi possibile aprire le attività di revisione per visualizzare i commenti dei vari revisori.
-Nel pannello Revisione vengono visualizzate le attività di revisione. In qualità di autore, è possibile indirizzare i commenti in un argomento utilizzando l&#39;Editor Web.
+Nel pannello Revisione vengono visualizzate le attività di revisione. Per impostazione predefinita, è possibile visualizzare i file in base ai titoli. Passando il puntatore del mouse su un file, potete visualizzare il titolo e il percorso del file come descrizione comando.
+>[!NOTE]
+>
+> In qualità di amministratore, è inoltre possibile scegliere di visualizzare l&#39;elenco dei file in base ai nomi dei file nell&#39;Editor Web. Seleziona la **Nome file** opzione del **Visualizza file per** sezione in **Preferenze utente** ![](images/user_preference_editor_icon.svg).
+
+In qualità di autore, è possibile indirizzare i commenti in un argomento utilizzando l&#39;Editor Web.
 
 
 Per visualizzare i commenti di revisione nelle attività di revisione attive presenti nei progetti, effettuare le seguenti operazioni:
@@ -1581,6 +1620,11 @@ Per visualizzare i commenti di revisione nelle attività di revisione attive pre
 L’icona Trova e sostituisci si trova nella parte inferiore del pannello a sinistra. Il pannello Trova e sostituisci consente di cercare e sostituire il testo tra i file di una mappa o di una cartella all’interno dell’archivio. Puoi trovare e sostituire in tutti gli argomenti di una mappa così come gli argomenti presenti nelle mappe secondarie all&#39;interno della mappa.
 
 ![](images/map-find-replace.png){width="800" align="left"}
+
+Per impostazione predefinita, è possibile visualizzare i file in base ai titoli. Passando il puntatore del mouse su un file, potete visualizzare il titolo e il percorso del file come descrizione comando.
+>[!NOTE]
+>
+> In qualità di amministratore, è inoltre possibile scegliere di visualizzare l&#39;elenco dei nomi di file nell&#39;Editor Web. Seleziona la **Nome file** opzione del **Visualizza file per** sezione in **Preferenze utente** ![](images/user_preference_editor_icon.svg).
 
 Per eseguire la ricerca e la sostituzione globali, effettuare le seguenti operazioni:
 
@@ -1665,7 +1709,14 @@ Per eseguire la ricerca e la sostituzione globali, effettuare le seguenti operaz
 
 ## Area di modifica dei contenuti {#id2051EB000UI}
 
-Nell&#39;area di modifica del contenuto viene visualizzato il contenuto dell&#39;argomento o della mappa. In quest’area vengono apportate tutte le modifiche al contenuto. Offre una visualizzazione WYSIWYG del contenuto che si sta modificando. È possibile aprire più argomenti contemporaneamente, che vengono visualizzati nelle rispettive schede. Sotto la scheda del file, la breadcrumb dell’elemento si trova nella posizione corrente del cursore. Nell&#39;angolo superiore destro dell&#39;area di modifica dei contenuti viene visualizzato il numero di versione dell&#39;argomento corrente.
+Nell&#39;area di modifica del contenuto viene visualizzato il contenuto dell&#39;argomento o della mappa. In quest’area vengono apportate tutte le modifiche al contenuto. Offre una visualizzazione WYSIWYG del contenuto che si sta modificando. È possibile aprire più argomenti contemporaneamente, che vengono visualizzati nelle rispettive schede.
+
+Per impostazione predefinita, è possibile visualizzare i titoli dei file nelle schede. Passando il puntatore del mouse su un file, potete visualizzare il titolo e il percorso del file come descrizione comando.
+>[!NOTE]
+>
+> In qualità di amministratore, puoi anche scegliere di visualizzare l’elenco dei file per nome nelle schede. Seleziona la **Nome file** opzione del **Visualizza file per** sezione in **Preferenze utente** ![](images/user_preference_editor_icon.svg).
+
+Sotto la scheda del file, la breadcrumb dell’elemento si trova nella posizione corrente del cursore. Nell&#39;angolo superiore destro dell&#39;area di modifica dei contenuti viene visualizzato il numero di versione dell&#39;argomento corrente.
 
 ![](images/content-editing-area.png){width="650" align="left"}
 
@@ -1720,7 +1771,10 @@ La sezione Riferimenti (References) consente di accedere alle seguenti funzioni:
 - **Utilizzato in**: i riferimenti Utilizzati in elencano i documenti in cui viene fatto riferimento o utilizzato il file corrente.
 - **Collegamenti in uscita:** Collegamenti in uscita elenca i documenti a cui si fa riferimento nel documento corrente.
 
-Passa il puntatore del mouse sul riferimento del file e ottieni il percorso e l’UUID del file nella descrizione comando.
+Per impostazione predefinita, è possibile visualizzare i file in base ai titoli. Passando il puntatore del mouse su un file, potete visualizzare il titolo e il percorso del file come descrizione comando.
+>[!NOTE]
+>
+> In qualità di amministratore, è inoltre possibile scegliere di visualizzare l&#39;elenco dei file in base ai nomi dei file nell&#39;Editor Web. Seleziona la **Nome file** opzione del **Visualizza file per** sezione in **Preferenze utente** ![](images/user_preference_editor_icon.svg).
 
 **Nota:** Tutti i riferimenti utilizzati in e in uscita sono collegati ai documenti. È possibile aprire e modificare facilmente i documenti collegati.
 

@@ -2,10 +2,10 @@
 title: Scelte rapide da tastiera nell’editor web
 description: Scopri le scelte rapide da tastiera per risparmiare tempo nell’editor web delle guide AEM.
 exl-id: d843c5a9-04f8-44f2-9bf5-60cb4ed7fa38
-source-git-commit: f7a0140a274a83dfeb6a1ba70ae9c09297d1754c
+source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 2%
+source-wordcount: '320'
+ht-degree: 3%
 
 ---
 
@@ -32,10 +32,15 @@ Nell&#39;Editor Web sono disponibili numerose operazioni che è possibile esegui
 | Spostare il cursore di una parola verso destra. | ***Ctrl***+***Freccia destra*** | ***Opzione***+***Freccia destra*** |
 | Sposta il cursore all&#39;inizio della riga corrente. | ***Pagina principale*** | ***Comando***+***Freccia sinistra*** |
 | Sposta il cursore alla fine della riga corrente. | **Fine** | ***Comando***+***Freccia destra*** |
+| Sposta il cursore all&#39;inizio dell&#39;elemento successivo. | ***Tabulazione*** | ***Tabulazione*** |
+| Rientra la voce di elenco al livello successivo. | ***Tabulazione*** | ***Tabulazione*** |
+| Sposta il cursore alla fine dell&#39;elemento precedente. | ***Maiusc***+***Linguetta*** | ***Maiusc***+***Linguetta*** |
+| Rientro negativo della voce di elenco al livello precedente. | ***Maiusc***+***Linguetta*** | ***Maiusc***+***Linguetta*** |
 | Rientro automatico XML in visualizzazione Origine | ***Ctrl***+***Alt***+***L*** | ***Comando***+***Opzione***+***L*** |
 | Dividi l&#39;elemento corrente | ***Inserisci*** | ***Ritorno*** |
 | Copia testo selezionato | ***Ctrl***+**C** | ***Comando***+**C** |
 | Incolla | ***Ctrl***+**V** | ***Comando***+**V** |
+| Incolla e applica formattazione | ***Ctrl***+***Maiusc***+**V** | ***Comando***+***Maiusc***+**V** |
 | Apri finestra di dialogo Stampa | ***Ctrl***+**P** | ***Comando***+**P** |
 | Annulla l’ultima azione | ***Ctrl***+**Z** | ***Comando***+**Z** |
 | Ripeti ultima azione | ***Ctrl***+**Y** | ***Comando***+**Y** |
