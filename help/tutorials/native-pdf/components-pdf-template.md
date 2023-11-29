@@ -2,9 +2,9 @@
 title: Funzione di pubblicazione nativa di PDF | Componenti di un modello PDF
 description: Scopri i vari componenti di un modello di PDF e come personalizzarli e configurarli.
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '4859'
+source-wordcount: '4947'
 ht-degree: 0%
 
 ---
@@ -420,6 +420,10 @@ Configurare le impostazioni di stampa per assegnare gli indicatori di stampa, se
 
 Utilizza il **Riferimento incrociato** per definire la modalità di pubblicazione dei riferimenti incrociati nel PDF. È possibile formattare i riferimenti incrociati per il titolo dell&#39;argomento, tabelle, figure e altro ancora.
 
+>[!NOTE]
+>
+> Se avete definito il testo di collegamento durante l&#39;inserimento del riferimento incrociato, questo avrà la precedenza sul formato del riferimento incrociato definito nel modello di PDF nativo.
+
 È inoltre possibile utilizzare le variabili per definire un riferimento incrociato.  Quando utilizzi una variabile, il relativo valore viene selezionato dalle proprietà. È possibile utilizzare una singola variabile o una combinazione di variabili per definire un riferimento incrociato. Puoi anche utilizzare una combinazione di una stringa e una variabile.
 
 Ad esempio, puoi utilizzare `View details on {chapter}`. Se il nome del capitolo è &quot;General settings&quot; (Impostazioni generali), il riferimento incrociato nell’output è &quot;See details on General settings&quot; (Vedi dettagli sulle impostazioni generali).
@@ -441,6 +445,22 @@ Le guide AEM forniscono le seguenti variabili predefinite:
   >
   >È possibile creare stili di numerazione automatica per i tag didascalia e sottotitolo.
 
+#### Formato riferimento incrociato predefinito
+
+Se si lascia vuoto il campo di testo e non è stato definito il testo di collegamento durante l&#39;inserimento di un riferimento incrociato, l&#39;Experience Manager Guide aggiunge le seguenti variabili per i rispettivi riferimenti incrociati:
+
+* **Titolo**: `{title}`
+* **Descrizione**: `{description}`
+* **Paragrafo**: `{bookmarkText}`
+* **Segnalibro**: `{bookmarkText}`
+* **Figura**: `{captionText}`
+* **Tabella**: `{captionText}`
+
+L&#39;ordine di precedenza per i riferimenti incrociati è il seguente:
+* Testo di collegamento aggiunto nei rimandi
+* Formato del riferimento incrociato definito nel modello di PDF nativo
+* Formato riferimento incrociato predefinito
+
 
 #### Variabili di lingua nei riferimenti incrociati
 
@@ -455,11 +475,12 @@ Ad esempio, puoi aggiungere una variabile di lingua &quot;reference-label&quot; 
 Quando aggiungi `${lng:<variable name>}` alla sezione Paragrafo, i rimandi nei paragrafi dell&#39;output contengono il testo localizzato e il numero di pagina.\
 Ad esempio, le schermate seguenti mostrano i riferimenti incrociati &quot;Visualizza a pagina 1&quot; in inglese e &quot;Einzelheiten finden Sie auf der Seite 1&quot; in tedesco.
 
-<img src="./assets/english-output-corss-reference.png" alt="Output inglese di un riferimento incrociato in un pragrah" width ="800" border="2px solid blue">
+<img src="./assets/english-output-corss-reference.png" alt="Output inglese di un riferimento incrociato in un pragrah" width ="800" border="2px">
 
 *Riferimento incrociato all&#39;interno di un paragrafo quando pubblicato in lingua inglese.*
 
-<img src="./assets/german-output-corss-reference.png" alt="Output tedesco di un riferimento incrociato in un pragrah" width ="800" border="2px solid blue">
+<img src="./assets/german-output-corss-reference.png" alt="Output tedesco di un riferimento incrociato in un pragrah" width ="800" border="2px">
+
 
 *Un rimando all’interno di un paragrafo quando pubblicato in lingua tedesca.*
 

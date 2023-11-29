@@ -1,11 +1,11 @@
 ---
 title: Informazioni sui predefiniti di output
 description: Comprendere i predefiniti di output nelle guide AEM. Crea predefiniti di output dall’editor web e dal dashboard delle mappe per i formati AEM site, PDF, HTML5, EPUB, custom e JSON.
-exl-id: ff4dedbb-47c4-40c7-950c-51f70d5d4b1b
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+exl-id: 8eaf0765-8b66-47d6-9c40-888495baa711
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 2%
+source-wordcount: '208'
+ht-degree: 1%
 
 ---
 
@@ -34,5 +34,6 @@ Nelle sezioni seguenti vengono illustrate le opzioni disponibili per i formati d
 
 - **[JSON](generate-output-json.md)**
 
+In qualità di amministratore, Experience Manager Guides consente di creare e gestire predefiniti di output per i profili globali e cartelle. Per ulteriori dettagli, vedi [Gestire i predefiniti di output per Profilo globale e Cartella](./web-editor-manage-output-presets.md).
 
 **Argomento padre:**[ Generazione di output](generate-output.md)

@@ -1,10 +1,10 @@
 ---
 title: Utilizzare l’Editor di mappe avanzato
 description: Scopri come utilizzare l’editor di mappe avanzato nelle guide AEM. Conoscere le funzioni dell’Editor mappe avanzato. Modificare gli argomenti tramite una mappa DITA e utilizzare le visualizzazioni Layout, Autore e Anteprima.
-exl-id: 4f48d489-d13e-4285-8870-373f0324f5f6
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '3701'
+source-wordcount: '3707'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ Per creare il file di mappa mediante l&#39;Editor mappe avanzato, effettuare le 
 
    L&#39;argomento viene aggiunto nella mappa.
 
-   ![](images/map-editor-add-topic.png){width="800" align="left"}
+   ![aggiungi argomento editor mappe](images/map-editor-add-topic.png){width="800" align="left"}
 
 1. Per aggiungere argomenti successivi o una mappa secondaria, trascinare l&#39;argomento o la mappa secondaria nella posizione desiderata nella mappa.
 
@@ -231,7 +231,7 @@ Il pannello Proprietà contenuto contiene informazioni sul tipo di argomento att
 
 - **Altri attributi** Se l&#39;amministratore ha creato un profilo per gli attributi, questi verranno ottenuti insieme ai relativi valori configurati. Utilizzando il pannello delle proprietà del contenuto, potete scegliere questi attributi e assegnarli al contenuto pertinente nell&#39;argomento. Puoi anche assegnare gli attributi configurati dall’amministratore nella sezione **Visualizza attributi** nelle impostazioni dell’editor. Gli attributi definiti per un elemento vengono visualizzati nella vista Layout e Struttura. Questo consente di esaminare rapidamente tutti gli argomenti di una mappa per cui è definito un attributo specifico. Ad esempio, tutti gli argomenti per i quali l’attributo platform è definito come &quot;Android&quot;.
 
-  ![](images/layout-inline-attributes.png){width="650" align="left"}
+  ![vista layout](images/layout-inline-attributes.png){width="650" align="left"}
 
 
   Per ulteriori dettagli, vedi *Visualizza attributi* all&#39;interno del *Impostazioni editor* descrizione della funzione in [Pannello sinistro](web-editor-features.md#id2051EA0M0HS) sezione.

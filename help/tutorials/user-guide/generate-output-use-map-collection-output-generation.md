@@ -1,11 +1,11 @@
 ---
 title: Usa raccolta mappe per la generazione dell'output
 description: Scopri come creare ed eliminare una raccolta di mappe e aggiungere o eliminare una mappa DITA. Configurare, generare e annullare un'attività di generazione output da una raccolta di mappe nelle guide AEM.
-exl-id: 32e3af6c-9670-42cc-8dbe-9f99fbc60adf
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+exl-id: 41152fa4-f739-44d2-9ccd-74072f53e31b
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '963'
-ht-degree: 0%
+source-wordcount: '1212'
+ht-degree: 1%
 
 ---
 
@@ -47,7 +47,7 @@ Per creare una raccolta di mappe e aggiungere mappe DITA alla raccolta, effettua
 
    I file di mappa DITA vengono aggiunti alla raccolta di mappe.
 
-   ![](images/maps_presets_62_63.png){width="800" align="left"}
+   ![mappa dashboard raccolta](./images/map-collection-dashboard.png){width="800" align="left"}
 
 Nella pagina della raccolta sono visualizzate le seguenti opzioni di filtro e i seguenti dettagli della mappa:
 
@@ -57,8 +57,10 @@ Nella pagina della raccolta sono visualizzate le seguenti opzioni di filtro e i 
    - **Lingua**: puoi selezionare uno qualsiasi dei codici lingua disponibili e visualizzare solo la lingua selezionata nella tabella Mappe e predefiniti.
 - **Mappe e predefiniti** tabella: la tabella Mappe e predefiniti presenta le informazioni riportate nelle colonne riportate di seguito.
    - **Mappa**: mostra il titolo del file di mappa DITA.
+   - **Nome file**: mostra il nome del file della mappa DITA.
    - **Lingua**: mostra la lingua della mappa DITA.
    - **Predefinito**: mostra il tipo di predefinito di output configurato nel file di mappa.
+   - **Linea di base**: mostra la linea di base utilizzata dal predefinito di output.  Se non viene utilizzata alcuna linea di base, viene visualizzato un trattino &quot;-&quot;
    - **Modificato**: indica se la mappa DITA viene aggiornata dopo l&#39;ultima pubblicazione. In base a queste informazioni, è possibile decidere se ripubblicare o meno l&#39;output per questa mappa DITA.
    - **Ultima generazione**: mostra la data e l’ora dell’ultimo output generato.
 
@@ -92,9 +94,36 @@ Per configurare e generare l’output utilizzando una raccolta di mappe, effettu
 
    - Per generare l&#39;output delle mappe selezionate, selezionate i file di mappa e fate clic su **Genera selezionati**.
    - Per generare l&#39;output di tutte le mappe DITA con i relativi predefiniti configurati, fare clic su **Genera tutto**.
+
    >[!IMPORTANT]
    >
    > Se un processo di generazione dell&#39;output per un predefinito o una mappa DITA è in coda o in corso, non è possibile avviare un&#39;altra attività di generazione dell&#39;output per lo stesso predefinito o mappa.
+
+## Configurare le proprietà dei metadati
+
+Nell&#39;insieme map è possibile configurare le proprietà dei metadati in blocco per le mappe DITA. Seleziona **Configurare i metadati**  per aprire **Metadati risorsa** pagina. Il giorno **Metadati risorsa** , tutte le mappe presenti nella raccolta sono elencate a sinistra.
+
+![configurare i metadati](images/map-collection-asset-metadata.png){width="800" align="left"}
+
+Per configurare le proprietà dei metadati, effettua le seguenti operazioni:
+
+1. Puoi scegliere le mappe per le quali desideri aggiornare i metadati. Per impostazione predefinita, vengono selezionate tutte le mappe DITA presenti.
+
+1. Dopo aver selezionato le mappe DITA, è possibile visualizzare proprietà quali metadati, attivazione o disattivazione della pianificazione, riferimenti, stato del documento e altro ancora.
+
+1. Aggiorna le proprietà dei metadati.
+
+1. Clic **Salva e chiudi** per salvare gli aggiornamenti.
+1. (Facoltativo) Quando aggiorni i tag, puoi anche selezionare Aggiungi in **Salva e chiudi** per aggiungere i nuovi tag all’elenco esistente.
+1. Clic **Invia** dal **Salva e chiudi** a discesa.
+Le proprietà dei metadati vengono aggiornate per le mappe DITA selezionate in blocco dalla raccolta di mappe.
+
+>[!NOTE]
+> 
+>Per **Stato documento** a discesa, è possibile selezionare solo gli stati del documento che sono consentiti in comune per tutte le mappe DITA selezionate. Per ulteriori informazioni, vedi [**Stato documento**](./web-editor-document-states.md).
+
+Le proprietà dei metadati sono sincronizzate con le proprietà del file. Dopo averli aggiornati, puoi visualizzarli dalla sezione **Proprietà file** nell&#39;editor Web.
+
 
 
 ## Eliminare una raccolta Mappa o una mappa DITA dalla raccolta Mappa
@@ -102,7 +131,7 @@ Per configurare e generare l’output utilizzando una raccolta di mappe, effettu
 - Per eliminare una raccolta mappa, selezionala nella pagina Mappa raccolta e fai clic su **Elimina**.
 - Per eliminare una mappa DITA da una raccolta di mappe, aprire Raccolta mappe in modalità Modifica, selezionare il file di mappa DITA e fare clic su **Rimuovi da raccolta**.
 
-  Verranno inoltre rimossi tutti i predefiniti o le impostazioni internazionali associati alla mappa DITA dall&#39;insieme Map.
+Verranno inoltre rimossi tutti i predefiniti o le impostazioni internazionali associati alla mappa DITA dall&#39;insieme Map.
 
 
 ## Annullare un&#39;attività di generazione output da una raccolta di mappe

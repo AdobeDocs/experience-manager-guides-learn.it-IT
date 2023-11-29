@@ -2,10 +2,10 @@
 title: Scelte rapide da tastiera nell’editor web
 description: Scopri le scelte rapide da tastiera per risparmiare tempo nell’editor web delle guide AEM.
 exl-id: d843c5a9-04f8-44f2-9bf5-60cb4ed7fa38
-source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 3%
+source-wordcount: '347'
+ht-degree: 2%
 
 ---
 
@@ -24,6 +24,9 @@ Nell&#39;Editor Web sono disponibili numerose operazioni che è possibile esegui
 | Applica il formato grassetto al testo selezionato | ***Ctrl***+***B*** | ***Comando***+***B*** |
 | Applica formattazione corsivo al testo selezionato | ***Ctrl***+***I*** | ***Comando***+***I*** |
 | Applica formattazione sottolineatura al testo selezionato | ***Ctrl***+***U*** | ***Comando***+***U*** |
+| Attiva nel pannello sinistro | **Ctrl***+**Maiusc**+***1*** | ***Comando***+**Maiusc**+***1*** |
+| Metti a fuoco il pannello a destra | **Ctrl***+**Maiusc**+***2*** | ***Comando***+**Maiusc**+***2*** |
+| Attiva l&#39;editor corrente | **Ctrl***+**Maiusc**+***0*** | ***Comando***+**Maiusc**+***0*** |
 | Salva documento in visualizzazione Creazione o Origine | ***Ctrl***+**Maiusc**+***S*** | ***Comando***+**Maiusc**+***S*** |
 | Salvare tutti i documenti aperti nella visualizzazione Creazione o Origine | ***Ctrl***+***S*** | ***Comando***+***S*** |
 | Mostra finestra di dialogo Inserisci elemento | ***Alt***+***Invio*** | ***Opzione***+***Invio*** |

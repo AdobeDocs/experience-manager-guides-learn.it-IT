@@ -1,10 +1,10 @@
 ---
 title: Creare una raccolta di mappe di attivazione in blocco
 description: Scopri come creare una raccolta di mappe di attivazione in blocco nelle guide AEM.
-exl-id: 7d17fb37-9486-4a3b-a421-08e279c95b6c
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+exl-id: ea0bd465-a2d9-488f-83e9-62b336233eb1
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ La scheda Mappe e predefiniti presenta le informazioni riportate nelle colonne r
   > Il piccolo ![](images/global-preset-icon.svg) icona indica un predefinito a livello di profilo della cartella.
 - **Modificato**: indica se la mappa DITA viene aggiornata dopo l&#39;ultima pubblicazione. In base a queste informazioni, è possibile decidere se attivare o meno l&#39;output per questa mappa DITA.
 - **Generato**: mostra la data e l’ora dell’ultimo output generato.
-- **Pubblicato**: mostra la data e l’ora dell’ultimo output pubblicato \(o attivato\). Se fai clic sul collegamento, viene visualizzata la pagina Risultati attivazione con informazioni sul percorso della directory principale in cui viene attivato il contenuto.
+- **Pubblicato**: mostra la data e l’ora dell’ultimo output pubblicato (o attivato). Se selezioni il collegamento, il **Risultati attivazione** viene visualizzata la pagina, che contiene i registri con informazioni sul percorso della directory principale in cui viene attivato il contenuto.
 
 
 Nel pannello a sinistra sono disponibili le seguenti opzioni di filtro:

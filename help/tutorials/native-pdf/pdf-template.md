@@ -2,9 +2,9 @@
 title: Creazione e personalizzazione di modelli di PDF nativi
 description: Scopri come creare e personalizzare modelli di PDF nativi.
 exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
-source-git-commit: da6ada7329aa338849de86ebfda94587bbc4ab54
+source-git-commit: 9e806ae9a06eb77441e47413981f27f6e69bd2f9
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1161'
 ht-degree: 0%
 
 ---
@@ -136,7 +136,10 @@ Per personalizzare un modello di PDF, effettuare le seguenti operazioni:
      Oltre all&#39;aspetto, è possibile definire la disposizione degli elementi della pagina, ad esempio l&#39;intestazione, il piè di pagina e le aree contenuto di una pagina. Per ulteriori informazioni sulla personalizzazione del layout di una pagina, consulta [Creare e personalizzare layout di pagina](components-pdf-template.md#create-customize-page-layout).
 
    * Fogli di stile: le impostazioni nella sezione Fogli di stile consentono di personalizzare l’aspetto dei componenti di layout di pagina come il sommario, l’indice, il glossario, le citazioni e altro ancora. È inoltre possibile personalizzare gli stili per il contenuto DITA, ad esempio intestazioni, paragrafi, elenchi e altro ancora. Per ulteriori informazioni sull&#39;utilizzo dei fogli di stile, vedere [Utilizzare i fogli di stile per personalizzare PDF](components-pdf-template.md#stylesheet-customization).
-   * Risorse: archivia i file di risorse necessari per personalizzare o progettare modelli di PDF. Le risorse come loghi, font personalizzati, immagini di sfondo e altro ancora sono memorizzate nelle Risorse. Per ulteriori informazioni sull’utilizzo delle risorse, consulta [Utilizzare le risorse](components-pdf-template.md#work-with-resources).
+   * Risorse: archivia i file di risorse necessari per personalizzare o progettare modelli di PDF. Le risorse come loghi, font personalizzati, immagini di sfondo e altro ancora sono memorizzate nelle Risorse.
+Puoi inoltre utilizzare le risorse presenti in qualsiasi altra posizione nell’archivio. Non è necessario creare risorse duplicate per ciascun modello, ma è possibile mantenerle in una cartella condivisa e utilizzarle in tutti i modelli di PDF nativi.
+
+     Per ulteriori informazioni sull’utilizzo delle risorse, consulta [Utilizzare le risorse](components-pdf-template.md#work-with-resources).
    * Impostazioni: configura le impostazioni di output per la generazione di un PDF utilizzando il modello. Questa sezione ti consente di definire la mappatura dei modelli per varie pagine di un PDF, pagina iniziale del capitolo, marcatori di stampa, citazioni e altro ancora.
 Puoi anche impostare l’ordine in cui devono essere visualizzate nell’output PDF finale.
 Per ulteriori informazioni sull&#39;applicazione delle impostazioni, vedere [Impostazioni avanzate di PDF](components-pdf-template.md#advanced-pdf-settings).

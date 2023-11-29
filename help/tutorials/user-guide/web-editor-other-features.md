@@ -2,9 +2,9 @@
 title: Altre funzioni dell’editor web
 description: Esplora altre funzioni dell’editor web nelle guide dell’AEM. Scopri come utilizzare queste funzioni per migliorare l’authoring nelle Guide AEM.
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
-source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '2136'
+source-wordcount: '2248'
 ht-degree: 0%
 
 ---
@@ -187,6 +187,15 @@ Oltre al menu di scelta rapida della breadcrumb, è possibile accedere alla fine
 
 - Potete accedere alla finestra di dialogo Rinomina elemento (Rename Element) richiamando il menu Opzioni (Options) di un elemento nel pannello Struttura.
 
+
+
+**Racchiudi un elemento**
+
+- La disposizione di un elemento consente di aggiungere un tag elemento al testo selezionato. È possibile racchiudere il testo in qualsiasi elemento figlio seguendo gli standard DITA. Ad esempio, se il testo si trova sotto `note` , è quindi possibile racchiudere il testo in un `p` elemento.
+
+  Il **Elemento a capo** L&#39;opzione è disponibile nel menu di scelta rapida della breadcrumb dell&#39;argomento. Per racchiudere un elemento, fai clic con il pulsante destro del mouse sull’elemento e apri il menu di scelta rapida. Seleziona l’elemento dalla sezione **Elemento a capo** . Il testo viene visualizzato nel nuovo elemento.
+
+  Puoi anche selezionare il testo o l’elemento nel contenuto, quindi selezionare **Elemento a capo**  dal menu di scelta rapida.
 
 **Annullare il wrapping di un elemento**
 

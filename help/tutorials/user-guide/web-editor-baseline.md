@@ -2,9 +2,9 @@
 title: Creare e gestire le baseline dall'editor Web
 description: Crea e gestisci le linee di base dall’editor web nelle guide AEM. Scopri come creare linee di base sulla base di etichette e applicare filtri alle linee di base.
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
-source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1454'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Le guide AEM forniscono la funzione Baseline integrata nell’editor web che con
 1. Nel pannello Repository, aprire il file mappa DITA in Vista mappa.
 1. Fai clic su **Gestisci** scheda. Il **Linea di base** Nel pannello vengono visualizzate le linee di base della mappa DITA.
 
-   ![](images/baseline-manage.png){width="800" align="left"}
+   ![Pannello Linea di base](images/baseline-manage.png){width="800" align="left"}
 
 1. Il giorno **Linea di base** fai clic sull’icona + in alto a destra. È possibile creare una baseline con una versione specifica degli argomenti e del contenuto di riferimento disponibile in una data e un&#39;ora specifiche oppure con un&#39;etichetta definita per una versione degli argomenti.
 1. Immettere un nome per la baseline in **Nome linea di base**.
@@ -56,7 +56,7 @@ Le guide AEM forniscono la funzione Baseline integrata nell’editor web che con
 
    Le linee di base basate sulle etichette vengono aggiornate in modo dinamico. Se si genera una baseline, si scarica una baseline o si crea un progetto di traduzione utilizzando una baseline, i file vengono selezionati in modo dinamico in base alle etichette aggiornate. Ad esempio, se è stata utilizzata la versione 1.2 di un argomento con Label Release 1.0 per la baseline e successivamente è stata aggiornata la versione 1.5 con Label Release 1.0, la baseline verrà aggiornata dinamicamente e verrà utilizzata la versione 1.5.
 
-   ![](images/dynamic-baseline.png){width="550" align="left"}
+   ![Creare una baseline](images/dynamic-baseline.png){width="550" align="left"}
 
    - **Seleziona etichette**: se per gli argomenti sono specificate etichette, queste sono elencate nella **Seleziona etichette** a discesa. Puoi scegliere l&#39;etichetta\(s\) dall&#39;elenco. Alle etichette selezionate per prime viene assegnata una priorità maggiore rispetto a quelle successive.
 
@@ -83,7 +83,9 @@ Potete gestire le baseline esistenti utilizzando le varie funzioni del dashboard
 
   ![opzioni di una baseline](images/baseline-options.png){width="800" align="left"}
 
-È inoltre possibile eseguire le operazioni riportate di seguito sulla baseline dal menu Opzioni.
+
+
+  È inoltre possibile eseguire le operazioni riportate di seguito sulla baseline dal menu Opzioni.
 
 - **Modifica**, **Duplicato,** **Rinomina**, o **Elimina** una baseline esistente.
 
@@ -106,7 +108,7 @@ Potete gestire le baseline esistenti utilizzando le varie funzioni del dashboard
 
 Utilizzo dell’icona Filtri in **Filtri linea di base** pannello puoi applicare filtri alla linea di base aperta nella finestra di modifica della linea di base:
 
-![](images/baseline-filter.png){width="350" align="left"}
+![filtri linea di base](images/baseline-filter.png){width="300" align="left"}
 
 - Filtra i file in base ai nomi o alla posizione.
 - Filtrare i file in base ai valori per colonne diverse, ad esempio Tipo file, Tipo riferimento e così via.

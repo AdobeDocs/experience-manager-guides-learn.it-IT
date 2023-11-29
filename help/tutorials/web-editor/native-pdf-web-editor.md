@@ -2,9 +2,9 @@
 title: Native PDF | Generazione di output PDF
 description: Scopri come utilizzare la pubblicazione PDF nativa, creare e generare un predefinito di output PDF, scaricare file temporanei dopo la generazione dell’output PDF nativa e utilizzare le variabili di lingua nelle guide AEM.
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: 4c10f2387208477bd2ba27188e8aeaa6f3a4a661
+source-git-commit: 1305c960df98553edbd1fb65c8f6e8da7c232087
 workflow-type: tm+mt
-source-wordcount: '3264'
+source-wordcount: '3327'
 ht-degree: 0%
 
 ---
@@ -165,8 +165,9 @@ Utilizza le seguenti opzioni per specificare impostazioni avanzate per unire i P
 | **Usa risoluzione personalizzata (pixel per pollice)** | Si tratta della risoluzione di visualizzazione della pagina in pixel per pollice. Immetti un valore preferito nel campo che viene visualizzato quando questa opzione è selezionata. Il valore predefinito è 96 pixel per pollice. Impostate un valore più alto per adattare più contenuto in pollice e viceversa, se impostate un valore più basso. |
 | **Mostra filigrana** | Selezionare questa opzione per sovrapporre una filigrana nell&#39;output. È possibile immettere una nuova stringa di testo nella casella di testo con il carattere maiuscolo nel modo desiderato. <br><br>Utilizza variabili di testo o di lingua statiche per pubblicare la versione localizzata della filigrana.  A seconda della lingua scelta, il valore localizzato viene selezionato automaticamente nell’output di PDF. Ad esempio, è possibile stampare &quot;Publisher&quot; come filigrana in inglese e &quot;Auteure&quot; in francese.  <br> Formato: `${lng:<variable name>}`. Ad esempio: `$ {lng:publisher-label}` dove `publisher-label` è una variabile di linguaggio. <br> Passa il cursore sopra <img src="./assets/info-details.svg" alt= "icona info" width="25"> per visualizzare ulteriori dettagli su di essa. |
 | **Abilita equazioni MathML** | Seleziona questa opzione per eseguire il rendering delle equazioni MathML presenti nel contenuto. In caso contrario, per impostazione predefinita, le equazioni verranno ignorate. |
-| **Conformità PDF** | È lo standard al quale intendi salvare il PDF per assicurarti che sia conforme. Seleziona dall’elenco a discesa per scegliere dall’elenco degli standard PDF disponibili. Per ulteriori dettagli sugli standard supportati consulta [Informazioni sugli standard PDF](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
 | **Scarica file temporanei** | Selezionare questa opzione se si desidera scaricare i file di HTML provvisori creati durante la generazione dell&#39;output di PDF nativo. Successivamente puoi scaricare i file temporanei dopo aver generato l’output. |
+| **Conformità PDF** | È lo standard al quale intendi salvare il PDF per assicurarti che sia conforme. Seleziona dall’elenco a discesa per scegliere dall’elenco degli standard PDF disponibili. Per ulteriori dettagli sugli standard supportati consulta [Informazioni sugli standard PDF](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
+| **Proprietà file** | Seleziona le proprietà da elaborare come metadati. Nel menu a discesa sono elencate sia le proprietà personalizzate che quelle predefinite. Queste proprietà vengono impostate dalla pagina Proprietà del file mappa DITA o del file mappa segnalibro. Una volta impostate, queste proprietà vengono copiate anche negli argomenti della mappa. Le proprietà dei metadati selezionate vengono passate all&#39;output generato utilizzando Native-PDF. |
 
 ## Generare un output PDF {#generate-pdf-output}
 

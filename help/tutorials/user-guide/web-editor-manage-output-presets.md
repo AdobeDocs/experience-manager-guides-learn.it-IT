@@ -1,10 +1,10 @@
 ---
 title: Gestire i predefiniti di output per Profilo globale e Cartella
 description: Scopri come creare, modificare, rinominare, duplicare ed eliminare i predefiniti di output dei profili globali e delle cartelle come utenti amministratori nelle guide AEM.
-exl-id: 40ea464c-16c8-4c95-9c0e-61b6bad95272
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+exl-id: 549c9fe2-77f8-423c-8b3e-b43e56055732
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Per creare un predefinito di output per i profili globali e cartelle, effettua l
    - Nome
    - Target \(per predefinito Knowledge Base\)
 1. Seleziona la **Aggiungi al profilo cartella** per creare un predefinito di output per il profilo di cartella correlato, quindi fare clic su **Aggiungi**. Il predefinito viene creato e visualizzato sotto **Output** di tutte le mappe correlate. \( ![](images/global-preset-icon.svg)\) indica un predefinito a livello di profilo della cartella.
-1. Immetti i dettagli della configurazione.
+1. Immetti i dettagli della configurazione. Per ulteriori dettagli sui predefiniti di output, visualizzare [Informazioni sui predefiniti di output](./generate-output-understand-presets.md).
 
    >[!NOTE]
    >

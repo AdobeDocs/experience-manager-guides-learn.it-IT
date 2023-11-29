@@ -2,9 +2,9 @@
 title: Configurare le impostazioni di generazione dell’output
 description: Scopri come configurare le impostazioni di generazione dell’output
 exl-id: b5cf4f6c-dc56-428e-a514-6c9f879ac03d
-source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '5340'
+source-wordcount: '5496'
 ht-degree: 1%
 
 ---
@@ -140,6 +140,23 @@ Utilizzare le istruzioni fornite in [Sostituzioni configurazione](download-insta
 | PID | Chiave proprietà | Valore proprietà |
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager` | `aemsite.pagetitle` | Booleano \(true/false\). Se desideri generare l’output utilizzando il titolo della pagina, imposta questa proprietà su true. Per impostazione predefinita, viene impostato per utilizzare il nome del file.<br> **Valore predefinito**: false |
+
+### Configura l’URL dell’output del sito AEM per utilizzare il titolo del documento
+
+Puoi utilizzare i titoli dei documenti nell’URL dell’output del sito AEM. Se il nome del file non esiste o contiene tutti i caratteri speciali, puoi configurare il sistema per sostituire i caratteri speciali con un separatore nell’URL dell’output del sito AEM. Puoi anche configurarlo per sostituirli con il nome del primo argomento secondario.
+
+
+Per configurare i nomi delle pagine, effettuare le seguenti operazioni:
+
+1. Utilizzare le istruzioni fornite in [Sostituzioni configurazione](download-install-additional-config-override.md#) per creare il file di configurazione.
+1. Nel file di configurazione, fornisci i seguenti dettagli (proprietà) per configurare i nomi delle pagine per gli argomenti.
+
+| PID | Chiave proprietà | Valore proprietà |
+|---|------------|--------------|
+| `com.adobe.fmdita.common.SanitizeNodeName` | `nodename.systemDefinedPageName` | Booleano (`true/false`). **Valore predefinito**: `false` |
+
+Ad esempio, se *@navtitle* in `<topichead>` contiene tutti i caratteri speciali e puoi impostare `aemsite.pagetitle` proprietà su true e, per impostazione predefinita, utilizza un separatore. Se si imposta `nodename.systemDefinedPageName` su true, viene visualizzato il nome del primo argomento figlio.
+
 
 ### Configurare le regole di bonifica del nome file per la creazione di argomenti e la pubblicazione dell&#39;output del sito AEM {#id2164D0KD0XA}
 

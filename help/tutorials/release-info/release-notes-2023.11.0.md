@@ -1,7 +1,8 @@
 ---
 title: Note sulla versione | Istruzioni per l’aggiornamento e problemi risolti in Adobe Experience Manager Guides, versione di novembre 2023
 description: Scopri le correzioni di bug e come effettuare l’aggiornamento alla versione di novembre 2023 di Adobe Experience Manager Guides as a Cloud Service
-source-git-commit: 1d8f00a82e92e1648615c409d4652b6ce3da7a1f
+exl-id: 80839890-075f-4187-a167-444c73215496
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
 source-wordcount: '1640'
 ht-degree: 3%
@@ -12,7 +13,7 @@ ht-degree: 3%
 
 Questa nota sulla versione descrive le istruzioni per l’aggiornamento, la matrice di compatibilità e i problemi risolti nella versione di novembre 2023 di Adobe Experience Manager Guides as a Cloud Service (in seguito denominata *Guide di Experience Manager as a Cloud Service*).
 
-Per ulteriori informazioni sulle nuove funzioni e sui miglioramenti, consulta [Novità della versione di novembre 2023 di Experience Manager Guides as a Cloud Service](whats-new-2023.11.0.md).
+Per ulteriori informazioni sulle nuove funzioni e sui miglioramenti, vedi [Novità della versione di novembre 2023 di Experience Manager Guides as a Cloud Service](whats-new-2023.11.0.md).
 
 ## Aggiornamento alla versione di novembre 2023
 
@@ -88,11 +89,11 @@ Ad esempio: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/
 
 Effettua i seguenti passaggi per indicizzare il contenuto esistente e utilizza il nuovo testo Trova e sostituisci a livello di mappa e l’elenco degli argomenti nella scheda Rapporti:
 
-1. Esegui una richiesta POST al server \(con autenticazione corretta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Facoltativo: Puoi trasmettere percorsi specifici delle mappe per indicizzarle; per impostazione predefinita, tutte le mappe saranno indicizzate \|\| Ad esempio: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+1. Eseguire una richiesta POST al server (con l’autenticazione corretta) - `http://<server:port>/bin/guides/map-find/indexing`. (Facoltativo: Puoi trasmettere percorsi specifici delle mappe per indicizzarle; per impostazione predefinita, tutte le mappe saranno indicizzate || Ad esempio: `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
-1. È inoltre possibile passare una cartella principale per indicizzare le mappe DITA di una cartella specifica (e delle relative sottocartelle). Esempio: `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Si noti che se vengono passati sia il parametro paths che il parametro root, viene considerato solo il parametro paths.
+1. È inoltre possibile passare una cartella principale per indicizzare le mappe DITA di una cartella specifica (e delle relative sottocartelle). Esempio: `http://<server:port>/bin/guides/map-find/indexing?root=/content/dam/test`. Si noti che se vengono passati sia il parametro paths che il parametro root, viene considerato solo il parametro paths.
 
-1. L’API restituisce un jobId. Per verificare lo stato del processo, puoi inviare una richiesta di GET con ID processo allo stesso endpoint: `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(Ad esempio: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
+1. L’API restituisce un jobId. Per verificare lo stato del processo, puoi inviare una richiesta di GET con ID processo allo stesso endpoint: `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`Ad esempio: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`)
 
 
 1. Una volta completato il processo, la richiesta di GET precedente risponde con successo e indica se eventuali mappe non sono riuscite. Le mappe indicizzate correttamente possono essere confermate dai registri del server.
@@ -138,7 +139,7 @@ Di seguito sono elencati i bug risolti in varie aree:
 
 
 
-### Authoring  
+### Authoring
 
 - Spazio dopo conref `<ph>` scompare quando si salva l&#39;argomento. (13642)
 - Si verifica un errore di applicazione quando si tenta di salvare file DITA prima del completamento della post-elaborazione. (13571)

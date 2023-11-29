@@ -2,9 +2,9 @@
 title: Conoscere le funzioni dell’editor web
 description: Scopri le funzioni dell’editor web nelle guide dell’AEM. Scopri l’interfaccia dell’editor web, compresi la barra degli strumenti principale, la barra degli strumenti secondaria, il pannello sinistro, l’area di modifica del contenuto e il pannello destro.
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
-source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '17079'
+source-wordcount: '17231'
 ht-degree: 0%
 
 ---
@@ -302,7 +302,12 @@ Utilizzando il menu di scelta rapida della tabella, è possibile:
 - Genera ID
 
 
-È inoltre possibile definire attributi su più celle, righe intere o colonne di una tabella. Ad esempio, per allineare la cella della tabella, trascinare e selezionare la cella desiderata. Nel pannello Proprietà contenuto \(a destra\), la proprietà **Tipo** modifiche apportate a **Voce multipla**. Nella sezione Altri attributi, seleziona la `@valign` dall&#39;elenco a discesa degli attributi. Dall&#39;elenco a discesa valore, selezionare l&#39;allineamento del testo che si desidera applicare alle celle di tabella selezionate.
+È inoltre possibile definire attributi su più celle, righe intere o colonne di una tabella. Ad esempio, per allineare la cella della tabella, trascinare e selezionare la cella desiderata. Nel pannello Proprietà contenuto (a destra), la proprietà **Tipo** modifiche apportate a **Voce multipla**.
+
+1. In **Attributi** , fare clic su **+Aggiungi**.
+1. Seleziona la `@valign` attributo da **Attributo** elenco a discesa.
+1. Dall&#39;elenco a discesa valore, selezionare l&#39;allineamento del testo che si desidera applicare alle celle di tabella selezionate.
+1. Clic **Aggiungi.**
 
 ![](images/align-table-cell_cs.png){width="800" align="left"}
 
@@ -329,7 +334,7 @@ Nel campo Sorgente viene visualizzato l’UUID del file immagine inserito. Per t
 
 Per ridimensionare un&#39;immagine, specificate Altezza (Height) o Larghezza (Width) per il file di immagine. Le proporzioni dell&#39;immagine vengono mantenute automaticamente. Se lo desideri, puoi anche scegliere di non mantenere le proporzioni del file immagine facendo clic sull’icona del lucchetto \(di Mantieni proporzioni\) e fornendo i valori di Altezza e Larghezza.
 
-Potete inoltre specificare l&#39;impostazione Posizionamento (Placement) per l&#39;immagine come In linea (Inline) o Interruzione (Break). Se scegli di utilizzare l’opzione di posizionamento Interrompi, puoi quindi scegliere dove allineare l’immagine \(Sinistra, Centro o Destra\).
+Potete inoltre specificare l&#39;impostazione Posizionamento (Placement) per l&#39;immagine come In linea (Inline) o Interruzione (Break). Se si sceglie di utilizzare l&#39;opzione di posizionamento Interrompi, è possibile scegliere dove allineare l&#39;immagine (a sinistra, al centro o a destra).
 
 È inoltre possibile aggiungere altre proprietà per un file di immagine selezionando le proprietà richieste nel **Attributi** campo.
 
@@ -778,7 +783,7 @@ Puoi passare facilmente al file richiesto all’interno di DAM e aprirlo nell’
 
 
 
-Facendo doppio clic su un file di mappa, questo viene aperto nel **Vista mappa**. Per ulteriori dettagli, vedi **Vista mappa** descrizione della funzione in [Pannello sinistro](web-editor-features.md#id2051EA0M0HS) sezione. Se si fa doppio clic su un file di argomento, questo viene aperto nel [Area di modifica dei contenuti](#id2051EB000UI). La possibilità di navigare e aprire un file direttamente dall’editor web consente di risparmiare tempo e di aumentare la produttività.
+Seleziona una mappa e premi Invio o fai doppio clic per aprirla nella **Vista mappa**. Per ulteriori dettagli, vedi **Vista mappa** descrizione della funzione in [Pannello sinistro](web-editor-features.md#id2051EA0M0HS) sezione. Selezionare un argomento e premere Invio o fare doppio clic per aprirlo nel [Area di modifica dei contenuti](#id2051EB000UI). La possibilità di navigare e aprire un file direttamente dall’editor web consente di risparmiare tempo e di aumentare la produttività.
 
 **Ricerca filtro**
 
@@ -1036,7 +1041,14 @@ Per impostazione predefinita, è possibile visualizzare i file in base ai titoli
 >In qualità di amministratore, puoi anche scegliere di visualizzare il nome del file della mappa principale che è attualmente aperto nella vista mappa. Seleziona la **Nome file** opzione del **Visualizza file per** sezione in **Preferenze utente** ![](images/user_preference_editor_icon.svg).
 
 
-Quando apri una mappa nella vista mappa, il titolo della mappa corrente viene visualizzato al centro della barra degli strumenti principale. Se il titolo è troppo lungo, vengono visualizzati dei puntini di sospensione e puoi anche passare il puntatore del mouse sul titolo per vedere il titolo completo nella descrizione comando. Se si dispone dei diritti di modifica sui file di mappa, sarà possibile modificare anche i file. Per ulteriori informazioni sull&#39;apertura e la modifica di un argomento tramite mappa DITA, vedere [Modifica argomenti tramite mappa DITA](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
+Quando apri una mappa nella vista mappa, il titolo della mappa corrente viene visualizzato al centro della barra degli strumenti principale. Se il titolo è troppo lungo, vengono visualizzati dei puntini di sospensione e puoi anche passare il puntatore del mouse sul titolo per vedere il titolo completo nella descrizione comando.
+
+Quando definite gli attributi chiave per i riferimenti argomento o mappa, potete visualizzare il titolo, l&#39;icona corrispondente e il tasto nel pannello sinistro. La chiave viene visualizzata come `keys=<key-name>`.
+
+![tasti nella vista mappa](images/view-key-title-map-view.png){width="300" align="left"}
+
+Se si dispone dei diritti di modifica sui file di mappa, sarà possibile modificare anche i file. Per ulteriori informazioni sull&#39;apertura e la modifica di un argomento tramite mappa DITA, vedere [Modifica argomenti tramite mappa DITA](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
+
 
 Potete eseguire le seguenti operazioni utilizzando il menu Opzioni (Options) del file di mappa:
 
@@ -1163,7 +1175,7 @@ La vista Struttura offre le seguenti caratteristiche:
 
   ![](images/drop-element-outline-view_cs.png){width="300" align="left"}
 
-- Il **Opzioni** menu in *Visualizzazione Struttura* consente di eseguire operazioni generiche come Taglia, Copia, Elimina, Genera ID, Inserisci elemento prima o dopo l’elemento corrente, Rinomina o sostituisci un elemento, Annulla il wrapping di un elemento e crea uno snippet dall’elemento selezionato.
+- Il **Opzioni** menu in *Visualizzazione Struttura* consente di eseguire operazioni generiche come Taglia, Copia, Elimina, Genera ID, Inserisci elemento prima o dopo l’elemento corrente, Rinomina o sostituisci un elemento, Racchiudi un elemento, Annulla il wrapping di un elemento e crea uno snippet dall’elemento selezionato.
 
 >[!NOTE]
 >
@@ -1487,9 +1499,16 @@ Ad esempio, utilizza l’enumerazione seguente per limitare `@platform` attribui
 
 **Elenco a discesa Attributi**
 
-Puoi anche modificare il valore dello schema dell’oggetto utilizzando il menu a discesa Attributo dal pannello Proprietà contenuto nella vista Autore. Per modificare il valore, seleziona un valore dal menu a discesa Attributo.
+È inoltre possibile modificare il valore dello schema soggetto utilizzando **Attributi** a discesa dal menu **Proprietà contenuto** pannello in **Autore** visualizzazione.
+![](images/subject-scheme-attribute-dropdown.png){width="200" align="left"}
+Per modificare il valore, effettua le seguenti operazioni:
 
-![](images/subject-scheme-attribute-dropdown.png){width="300" align="left"}
+1. Seleziona un attributo da **Attributo** a discesa.
+1. Seleziona **Modifica** ![edit-icon](images/edit_pencil_icon.svg).
+1. Seleziona il valore richiesto da **Valore** a discesa.
+1. Fai clic su **Aggiorna**.
+
+
 
 Puoi anche applicare valori a un attributo selezionando più valori dal menu a discesa.
 
@@ -1732,7 +1751,22 @@ Il pannello a destra consente di accedere alle seguenti funzioni:
 
 **Proprietà contenuto** -  ![](images/content-properties-icon.svg)
 
-Puoi accedere alla funzione Proprietà contenuto facendo clic sull’icona Proprietà contenuto nel pannello di destra. Il pannello Proprietà contenuto contiene informazioni sul tipo di elemento attualmente selezionato nel documento e sui relativi attributi. È inoltre possibile aggiungere attributi selezionandoli dall&#39;elenco a discesa e specificandone il valore.
+Puoi accedere alla funzione Proprietà contenuto facendo clic sull’icona Proprietà contenuto nel pannello di destra. Il pannello Proprietà contenuto contiene informazioni sul tipo di elemento attualmente selezionato nel documento e sui relativi attributi.
+Puoi aggiungere, modificare o eliminare facilmente gli attributi.
+
+1. Clic **+ Aggiungi**.
+
+   ![attributi nelle proprietà del contenuto](images/properties-tab-attributes_cs.png){width="300" align="left"}
+
+1. In **Attributo** nel pannello a discesa, seleziona l’attributo dall’elenco a discesa e specifica il valore di un attributo.  Quindi fai clic su **Aggiungi**.
+
+   ![pannello attributi con più attributi ](images/attributes-multiple-properties.png){width="300" align="left"}
+
+1. Per modificare l’attributo, passa il puntatore del mouse su di esso e seleziona **Modifica** ![edit-icon](images/edit_pencil_icon.svg).
+   ![modifica attributi](images/edit-attributes-content-properties.png){width="300" align="left"}
+
+1. Per eliminare l’attributo, passa il puntatore del mouse su di esso e seleziona **Elimina** ![delete-icon](images/Delete_icon.svg).
+
 
 >[!NOTE]
 >
@@ -1740,7 +1774,7 @@ Puoi accedere alla funzione Proprietà contenuto facendo clic sull’icona Propr
 
 Se l’amministratore ha creato un profilo per gli attributi, questi vengono ottenuti insieme ai relativi valori configurati. Utilizzando il pannello delle proprietà del contenuto, potete scegliere questi attributi e assegnarli al contenuto pertinente nell&#39;argomento. In questo modo puoi anche creare contenuto condizionale, che può quindi essere utilizzato per creare l’output condizionale. Per ulteriori informazioni sulla generazione dell&#39;output tramite i predefiniti condizionali, consultate [Utilizzare i predefiniti per le condizioni](generate-output-use-condition-presets.md#).
 
-![](images/properties-tab-attributes_cs.png){width="300" align="left"}
+
 
 **Proprietà file** -  ![](images/topic-properties-icon.svg)
 
@@ -1750,11 +1784,12 @@ Visualizzare le proprietà del file selezionato facendo clic sull&#39;icona Prop
 
 La sezione Generale consente di accedere alle seguenti funzioni:
 
-![](images/file-properties-general.png){width="300" align="left"}
+![file-properties](images/file-properties-general.png){width="300" align="left"}
 
 - **Nome**: visualizza il nome del file dell&#39;argomento selezionato. Il nome del file viene collegato alla pagina delle proprietà del file selezionato.
 - **ID**: visualizza l’ID dell’argomento selezionato.
-- **Tag metadati**: questi sono i tag di metadati dell’argomento. Vengono impostati dal campo tag della pagina delle proprietà.
+- **Tag**: questi sono i tag di metadati dell’argomento. Vengono impostati dal campo tag della pagina delle proprietà. Puoi digitarli o selezionarli dal menu a discesa.  I tag vengono visualizzati sotto il menu a discesa. Per eliminare un tag, seleziona l’icona a forma di croce accanto al tag.
+- **Modifica altre proprietà**: puoi modificare altre proprietà dalla pagina delle proprietà del file.
 - **Lingua**: mostra la lingua dell’argomento. Viene impostato dal campo della lingua nella pagina delle proprietà.
 - **Creato il**: visualizza la data e l&#39;ora di creazione dell&#39;argomento.
 - **Ritirato da**: mostra l&#39;utente che ha estratto l&#39;argomento.
