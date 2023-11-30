@@ -1,9 +1,10 @@
 ---
 title: Note sulla versione | Novità delle guide di Adobe Experience Manager, versione di novembre 2023
 description: Scopri le funzioni nuove e migliorate nella versione di novembre 2023 di Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 6cc5299f8f4566e38c5a8c96e17fadd915f6e206
+exl-id: 83c04e01-92f1-41b0-8866-a202f4106b51
+source-git-commit: 57ff1a3b6ceb9debc8e29065fd37cab21adc1b96
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '797'
 ht-degree: 0%
 
 ---
@@ -43,6 +44,7 @@ Per ulteriori dettagli, vedi [Impostazioni avanzate di PDF](../native-pdf/compon
 ### Gestione delle risorse migliorata per i modelli di PDF nativi
 
 Experience Manager Guides ora ha migliorato la gestione delle risorse per i modelli Native PDF. È ora possibile condividere e riutilizzare le risorse, come immagini, file CSS e file font, tra più modelli di Native PDF. Grazie a questo miglioramento, la gestione delle risorse per un set elevato di modelli è molto più semplice. Non è necessario creare risorse duplicate per ciascun modello, ma è possibile mantenerle in una cartella condivisa e utilizzarle in tutti i modelli di PDF nativi.
+Per ulteriori dettagli, vedi [Modello PDF](../native-pdf/pdf-template.md).
 
 ## Miglioramenti dell’editor web
 
@@ -64,6 +66,8 @@ Nella versione di novembre 2023 sono stati apportati i seguenti miglioramenti al
 
 ![Predefiniti di condizione dalla scheda Gestisci dell’editor web ](assets/web-editor-manage-condition-presets.png){width="550" align="left"}
 
+Per ulteriori dettagli, vedi [Utilizzare i predefiniti per le condizioni](../user-guide/generate-output-use-condition-presets.md).
+
 ### Ripristina schede file all&#39;aggiornamento del browser
 
 Experience Manager Guide ripristina lo stato delle schede dei file aperte nell&#39;editor Web quando si aggiorna il browser. Per ulteriori dettagli, vedi **Aggiorna il browser durante la modifica dei file** sezione in [Modificare gli argomenti nell&#39;editor Web](../user-guide/web-editor-edit-topics.md).
@@ -78,4 +82,3 @@ Per ulteriori dettagli, vedi **Annullare il wrapping di un elemento** sezione da
 Experience Manager Guide consente ora di utilizzare le scelte rapide da tastiera per spostare il cursore nell&#39;editor Web. È possibile utilizzare le scelte rapide da tastiera per spostare rapidamente una parola verso sinistra o verso destra. È inoltre possibile spostarsi all&#39;inizio o alla fine della riga con l&#39;aiuto delle scelte rapide da tastiera.
 Ora è anche possibile utilizzare i tasti di scelta rapida per spostare il cursore all&#39;inizio dell&#39;elemento successivo o alla fine dell&#39;elemento precedente.
 Ulteriori informazioni su [scelte rapide da tastiera nell’Editor web](../user-guide/web-editor-keyboard-shortcuts.md).
-

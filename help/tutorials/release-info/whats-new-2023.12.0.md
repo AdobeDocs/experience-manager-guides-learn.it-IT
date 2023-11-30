@@ -1,9 +1,9 @@
 ---
 title: Note sulla versione | Novità delle guide di Adobe Experience Manager, versione di dicembre 2023
 description: Scopri le funzioni nuove e migliorate nella versione di dicembre 2023 di Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 9fcc8faec4631d710dbdfd7e4f8567069d0ba120
+source-git-commit: 8d24048af5f5583988da50927e31f2643d844e68
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1021'
 ht-degree: 0%
 
 ---
@@ -99,6 +99,8 @@ Experience Manager Guides fornisce un dashboard avanzato per la raccolta mappe. 
 ![Mappa dashboard raccolta](assets/map-collection-dashboard.png){width="800" align="left"}
 
 *Visualizza, modifica e genera output dal dashboard di raccolta mappe.*
+
+Scopri come [utilizzare la raccolta di mappe per la generazione dell&#39;output](../user-guide/generate-output-use-map-collection-output-generation.md).
 
 ## Visualizzare gli attributi chiave nella vista Mappa
 
