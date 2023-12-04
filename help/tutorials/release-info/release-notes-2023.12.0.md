@@ -1,10 +1,10 @@
 ---
 title: Note sulla versione | Istruzioni per l’aggiornamento e problemi risolti in Adobe Experience Manager Guides, versione di dicembre 2023
 description: Scopri le correzioni di bug e come effettuare l’aggiornamento alla versione di dicembre 2023 di Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 9fcc8faec4631d710dbdfd7e4f8567069d0ba120
+source-git-commit: b4bbed1de8fc2d8ef81332445a5c96161be508d4
 workflow-type: tm+mt
-source-wordcount: '1290'
-ht-degree: 3%
+source-wordcount: '1319'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ Per ulteriori informazioni sulle nuove funzioni e sui miglioramenti, vedi [Novit
 Aggiorna la configurazione as a Cloud Service delle guide di Experience Manager correnti eseguendo i seguenti passaggi:
 
 1. Consulta il codice Git del Cloud Service e passa al ramo configurato nella pipeline dei Cloud Service corrispondente all’ambiente da aggiornare.
-2. Aggiorna `<dox.version>` proprietà in `/dox/dox.installer/pom.xml` file del codice Git dei Cloud Service in 2023.12.0.15.
+2. Aggiorna `<dox.version>` proprietà in `/dox/dox.installer/pom.xml` file del codice Git dei Cloud Service in 2023.12.0.16.
 3. Apporta le modifiche ed esegui la pipeline dei Cloud Service per l’aggiornamento alla versione di dicembre 2023 di Experience Manager Guides as a Cloud Service.
 
 ## Passaggi per abilitare l’attivazione di uno script tramite un servlet
@@ -90,7 +90,7 @@ Effettua i seguenti passaggi per indicizzare il contenuto esistente e utilizza i
 
 1. Eseguire una richiesta POST al server (con l’autenticazione corretta) - `http://<server:port>/bin/guides/map-find/indexing`. (Facoltativo: Puoi trasmettere percorsi specifici delle mappe per indicizzarle; per impostazione predefinita, tutte le mappe saranno indicizzate|| Ad esempio: `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
-1. È inoltre possibile passare una cartella principale per indicizzare le mappe DITA di una cartella specifica (e delle relative sottocartelle). Esempio: `http://<server:port>/bin/guides/map-find/indexing?root=/content/dam/test`. Si noti che se vengono passati sia il parametro paths che il parametro root, viene considerato solo il parametro paths.
+1. È inoltre possibile passare una cartella principale per indicizzare le mappe DITA di una cartella specifica (e delle relative sottocartelle). Ad esempio: `http://<server:port>/bin/guides/map-find/indexing?root=/content/dam/test`. Si noti che se vengono passati sia il parametro paths che il parametro root, viene considerato solo il parametro paths.
 
 1. L’API restituisce un jobId. Per verificare lo stato del processo, puoi inviare una richiesta di GET con ID processo allo stesso endpoint: `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`Ad esempio: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
@@ -122,7 +122,7 @@ In questa sezione è elencata la matrice di compatibilità per le applicazioni s
 
 | Rilascio di Experience Manager Guides as a Cloud | Finestre del connettore dell&#39;ossigeno | Connettore di ossigeno Mac | Modifica in finestre a ossigeno | Modifica in Oxygen Mac |
 | --- | --- | --- | --- | --- |
-| 2023.12.0 | 3.3-uuid.5 | 3.3-uuid.5 | 2.3 | 2.3 |
+| 2023.12.0 | 3.3-uuid.5 | 3.3-uuid.5 | 2,3 | 2,3 |
 |  |  |  |  |
 
 
