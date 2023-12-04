@@ -1,13 +1,12 @@
 ---
 title: Personalizza editor web
 description: Scopri come personalizzare l’editor web
-source-git-commit: 419cb49fb122d8cf05f82ed4588fc28eac1b81bd
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 0%
 
 ---
-
 
 # Personalizza editor web {#id181AI0003PN}
 
@@ -56,5 +55,3 @@ Le guide AEM sono dotate di un potente editor Web che consente agli autori di cr
 - **[Imposta l&#39;Editor mappe avanzato come predefinito](conf-map-editor.md)**
 
 - **[Includi attributo @navtitle per impostazione predefinita](auto-add-navtitle.md)**
-
-

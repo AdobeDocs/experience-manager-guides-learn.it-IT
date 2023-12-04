@@ -1,9 +1,9 @@
 ---
-title: Note sulla versione | Novità della versione 4.3.0 delle guide di Adobe Experience Manager
-description: Scopri le funzioni nuove e migliorate delle versioni 4.3.0 delle guide di Adobe Experience Manager
-source-git-commit: 7581085859785c5b8b597ecfeb7dbe58c7c9e2bc
+title: Note sulla versione | Novità della versione 4.3.0 delle Guide di Adobe Experience Manager
+description: Scopri le funzioni nuove e migliorate delle versioni 4.3.0 delle Guide di Adobe Experience Manager
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '2639'
+source-wordcount: '2655'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Una volta aggiunti, puoi visualizzare i connettori configurati elencati nel pann
 
 <img src="assets/data-sources.png" alt="Elenco origini dati nel pannello" width="300">
 
-Creare uno snippet di contenuto per recuperare i dati da un&#39;origine dati connessa. È quindi possibile inserire i dati negli argomenti e modificarli. Dopo aver creato un generatore di frammenti di contenuto, puoi riutilizzarlo per inserire i dati in qualsiasi argomento.
+Crea uno snippet di contenuto per recuperare i dati da un’origine dati connessa. È quindi possibile inserire i dati negli argomenti e modificarli. Dopo aver creato un generatore di frammenti di contenuto, puoi riutilizzarlo per inserire i dati in qualsiasi argomento.
 
 Ora è anche possibile creare un argomento da un&#39;origine dati connessa. Un argomento può contenere dati in vari formati, ad esempio tabelle, elenchi e paragrafi. Consente inoltre di creare una mappa DITA per tutti gli argomenti. È possibile associare i metadati all&#39;argomento quando si estrae da un&#39;origine dati.
 

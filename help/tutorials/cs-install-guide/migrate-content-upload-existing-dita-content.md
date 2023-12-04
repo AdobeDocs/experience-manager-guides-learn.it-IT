@@ -1,13 +1,12 @@
 ---
 title: Carica contenuto DITA esistente
 description: Scopri come caricare contenuto DITA esistente
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
-
 
 # Carica contenuto DITA esistente {#id176FF000JUI}
 
@@ -79,4 +78,3 @@ Specifica i seguenti parametri per aggiungere informazioni sui metadati:
 
 
 **Argomento padre:**[ Migrare i contenuti esistenti](migrate-content.md)
-

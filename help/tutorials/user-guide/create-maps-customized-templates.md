@@ -1,10 +1,9 @@
 ---
 title: Creare mappe in base a modelli personalizzati
 description: Scopri come creare un modello di personalizzazione, utilizzarlo per creare nuovi file di mappa e passare il titolo definito a una mappa DITA nelle guide AEM.
-exl-id: 02513148-3876-4549-962a-9984f619030f
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1103'
 ht-degree: 0%
 
 ---

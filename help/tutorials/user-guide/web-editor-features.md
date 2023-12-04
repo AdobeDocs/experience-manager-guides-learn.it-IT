@@ -1,10 +1,9 @@
 ---
 title: Conoscere le funzioni dell’editor web
 description: Scopri le funzioni dell’editor web nelle guide dell’AEM. Scopri l’interfaccia dell’editor web, compresi la barra degli strumenti principale, la barra degli strumenti secondaria, il pannello sinistro, l’area di modifica del contenuto e il pannello destro.
-exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
-source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '17231'
+source-wordcount: '17222'
 ht-degree: 0%
 
 ---
@@ -615,7 +614,7 @@ Per unire le modifiche in un file di mappa, effettuare le seguenti operazioni:
       Potete scegliere di accettare o rifiutare tutte le modifiche dal pannello Revisioni tracciate oppure accettare o rifiutare singole modifiche nel file di mappa.
 
 
-**Cronologia delle versioni** - ![](images/version-history-web-editor-ico.svg)
+**Cronologia versioni** - ![](images/version-history-web-editor-ico.svg)
 
 Le guide AEM consentono di visualizzare le versioni create per i file di argomento e di ripristinare una versione specifica. Tuttavia, la maggior parte di queste funzioni sono disponibili al di fuori dell’editor web.
 

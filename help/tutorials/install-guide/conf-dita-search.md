@@ -1,13 +1,12 @@
 ---
 title: Configurare la ricerca per l’interfaccia utente di AEM Assets
 description: Scopri come configurare la ricerca per l’interfaccia utente di AEM Assets
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '1697'
 ht-degree: 1%
 
 ---
-
 
 # Configurare la ricerca per l’interfaccia utente di AEM Assets {#id192SC800MY4}
 
@@ -29,7 +28,7 @@ Oltre ad aggiungere la funzionalità di ricerca, puoi anche configurare le carte
 
 Per aggiungere il componente di ricerca contenuto DITA nell’interfaccia utente di AEM Assets, effettua le seguenti operazioni:
 
-1. Accedi ad Adobe Experience Manager come amministratore.
+1. Accedi a Adobe Experience Manager come amministratore.
 
 1. Fai clic sul pulsante **Adobe Experience Manager** collegamento in alto e scelta **Strumenti**.
 
@@ -55,7 +54,7 @@ Per aggiungere il componente di ricerca contenuto DITA nell’interfaccia utente
 
 Per aggiungere un componente di ricerca basato su UUID nell’interfaccia utente di AEM Assets, effettua le seguenti operazioni:
 
-1. Accedi ad Adobe Experience Manager come amministratore.
+1. Accedi a Adobe Experience Manager come amministratore.
 
 1. Fai clic sul pulsante **Adobe Experience Manager** collegamento in alto e scelta **Strumenti**.
 
@@ -157,7 +156,7 @@ attribute : Elenco di attributi in cui eseguire la ricerca. Per ogni attributo, 
 
 Per aggiungere elementi o attributi DITA personalizzati nel file di serializzazione della ricerca, effettuare le seguenti operazioni:
 
-1. Accedi all’AEM e apri la modalità CRXDE Lite.
+1. Accedi all’AEM e apri la modalità CRXDE Liti.
 
 1. Passare al file di configurazione della serializzazione disponibile nella posizione seguente:
 
@@ -173,7 +172,7 @@ Per aggiungere elementi o attributi DITA personalizzati nel file di serializzazi
 
 1. Salva il file.
 
-1. Apri la pagina Configurazione della console web Adobe Experience Manager. L&#39;URL predefinito per accedere alla pagina di configurazione è:
+1. Aprire la pagina Configurazione della console Web Adobe Experience Manager. L&#39;URL predefinito per accedere alla pagina di configurazione è:
 
    http://&lt;server name=&quot;&quot;>:&lt;port>/system/console/configMgr
 
@@ -197,7 +196,7 @@ L&#39;estrazione dei metadati da file DITA esistenti comporta due attività:
 
 Per abilitare l’opzione di estrazione dei metadati in configMgr, effettua le seguenti operazioni:
 
-1. Apri la pagina Configurazione della console web Adobe Experience Manager. L&#39;URL predefinito per accedere alla pagina di configurazione è:
+1. Aprire la pagina Configurazione della console Web Adobe Experience Manager. L&#39;URL predefinito per accedere alla pagina di configurazione è:
 
    http://&lt;server name=&quot;&quot;>:&lt;port>/system/console/configMgr
 
@@ -210,7 +209,7 @@ Per abilitare l’opzione di estrazione dei metadati in configMgr, effettua le s
 
 Per eseguire il flusso di lavoro di estrazione dei metadati, effettua le seguenti operazioni:
 
-1. Accedi ad Adobe Experience Manager come amministratore.
+1. Accedi a Adobe Experience Manager come amministratore.
 
 1. Fai clic sul pulsante **Adobe Experience Manager** collegamento in alto e scelta **Strumenti**.
 
@@ -241,7 +240,7 @@ Per escludere la cartella di traduzione temporanea dalla ricerca, effettua le se
 >
 > Questa procedura consente di aggiungere qualsiasi altro percorso di cartella all&#39;elenco di esclusione.
 
-1. Accedi all’AEM e apri la modalità CRXDE Lite.
+1. Accedi all’AEM e apri la modalità CRXDE Liti.
 
 1. Passa al nodo damAssetLucene disponibile nella seguente posizione:
 
@@ -262,5 +261,3 @@ Per escludere la cartella di traduzione temporanea dalla ricerca, effettua le se
    | Nome proprietà | Tipo | Valore |
    |-------------|----|-----|
    | excludedPaths | Stringa\[\] | Aggiungi i seguenti valori a questa proprietà: <br><ul><li>/var/dxml</li><li>/content/dam/projects/translation\_output</li></ul> |
-
-

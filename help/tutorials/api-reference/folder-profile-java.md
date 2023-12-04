@@ -1,13 +1,12 @@
 ---
 title: API basata su Java per lavorare con i profili di cartelle
 description: Scopri l’API basata su Java per lavorare con i profili delle cartelle
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
-
 
 # API basata su Java per lavorare con i profili di cartelle {#id175UB30E05Z}
 
@@ -62,4 +61,3 @@ Session session) throws GuidesApiException
 - Se l’API viene chiamata tramite una sessione utente non autorizzata, ad esempio un utente che non è un amministratore per il profilo di cartella specificato.
 
 [1](#fnsrc_1) Il `attributeNames`, `values`, e `labels` allo stesso indice in un elenco di array deve corrispondere alla stessa voce.
-

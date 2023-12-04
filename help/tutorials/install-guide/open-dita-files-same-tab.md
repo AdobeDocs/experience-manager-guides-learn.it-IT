@@ -1,19 +1,18 @@
 ---
 title: Aprire un argomento DITA o mappare i file nella stessa scheda
 description: Scopri come aprire un argomento DITA o mappare i file nella stessa scheda
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 0%
 
 ---
 
-
 # Aprire un argomento DITA o mappare i file nella stessa scheda {#id223HI0P202H}
 
 In alcuni flussi di lavoro, quando fai clic su un collegamento di un argomento o di un file di mappa, questo si apre in una nuova scheda. Questo potrebbe comportare l’apertura di molte schede nel browser, con un conseguente impatto sulla produttività. È possibile modificare questo comportamento di apertura di un file argomento o mappa in una nuova scheda e forzarne l&#39;apertura nella scheda corrente. A questo scopo, esegui le seguenti modifiche di configurazione:
 
-1. Apri la pagina Configurazione della console web Adobe Experience Manager.
+1. Aprire la pagina Configurazione della console Web Adobe Experience Manager.
 
    L&#39;URL predefinito per accedere alla pagina di configurazione è:
 
@@ -42,4 +41,3 @@ Questa impostazione ha effetto sui seguenti punti da cui è possibile accedere a
 
 
 **Argomento padre:**[ Personalizza editor web](conf-web-editor.md)
-

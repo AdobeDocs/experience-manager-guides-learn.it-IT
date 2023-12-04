@@ -1,11 +1,10 @@
 ---
 title: Note sulla versione | Adobe Experience Manager Guides versione 4.2
 description: Scopri le correzioni di bug e come effettuare l’aggiornamento alle versioni 4.2 delle guide di Adobe Experience Manager
-exl-id: 8a7fef77-63af-462f-89c5-054ab31e079b
-source-git-commit: b7a6cb6086e94e2c0cbed8e35ca8d194a4fa36d4
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1338'
-ht-degree: 6%
+source-wordcount: '1391'
+ht-degree: 1%
 
 ---
 
@@ -42,13 +41,13 @@ Versione 6.5 Service Pack 15, 14, 13 o 12
 
 Per ulteriori dettagli, vedi *Requisiti tecnici* nella guida Installare e configurare Adobe Experience Manager Guides.
 
-### Server di pubblicazione FrameMaker e FrameMaker
+### FRAMEMAKER e FRAMEMAKER PUBLISHING SERVER
 
 | Versione | FMPS 2022 | FMPS 2020 | Fm 2022 | Fm 2020 |
 | --- | --- | --- | --- | --- |
 | 4.2 (non UUID) | 2022 o versione successiva | 2020.2 o versione successiva* | 2022 o versione successiva | 2020.3 o versione successiva |
 | 4.2 (UUID) | 2022 o versione successiva | 2020.2 o versione successiva* | 2022 o versione successiva | 2020.4 o versione successiva |
-|  |  |  |  |
+| | | | |
 
 *Le condizioni di base e quelle create nell’AEM sono supportate nelle versioni di FMPS a partire dal 2020.2.
 
@@ -56,15 +55,15 @@ Per ulteriori dettagli, vedi *Requisiti tecnici* nella guida Installare e config
 
 | Versione | Finestre del connettore dell&#39;ossigeno | Connettore di ossigeno Mac | Modifica in finestre a ossigeno | Modifica in Oxygen Mac |
 | --- | --- | --- |--- |--- |
-| 4.2 (non UUID) | 2.1-regular-4 | 2.1-regular-4 | 1.6 | 1.6 |
-| 4.2 (UUID) | 2,8-uuid-8 | 2,8-uuid-8 | 2.3 | 2.3 |
-|  |  |  |
+| 4.2 (non UUID) | 2.1-regular-4 | 2.1-regular-4 | 1,6 | 1,6 |
+| 4.2 (UUID) | 2,8-uuid-8 | 2,8-uuid-8 | 2,3 | 2,3 |
+|  |  |   |
 
 ## Problemi risolti
 
 Di seguito sono elencati i bug risolti in varie aree:
 
-### Authoring  
+### Authoring
 
 * Il pannello sinistro si interrompe quando si aggiunge una scheda. (11126)
 * Le modifiche nell’HTML dell’editor web causano problemi con `<dl>` e `<dlentry>`. (11024)

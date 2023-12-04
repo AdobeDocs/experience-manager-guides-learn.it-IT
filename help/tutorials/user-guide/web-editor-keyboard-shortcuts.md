@@ -1,11 +1,10 @@
 ---
 title: Scelte rapide da tastiera nell’editor web
 description: Scopri le scelte rapide da tastiera per risparmiare tempo nell’editor web delle guide AEM.
-exl-id: d843c5a9-04f8-44f2-9bf5-60cb4ed7fa38
-source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 2%
+source-wordcount: '353'
+ht-degree: 0%
 
 ---
 
@@ -33,14 +32,14 @@ Nell&#39;Editor Web sono disponibili numerose operazioni che è possibile esegui
 | Mostra la finestra di dialogo Inserisci elemento per inserire l’elemento prima dell’elemento selezionato | ***Alt***+***Maiusc***+***Invio*** | ***Opzione***+***Maiusc***+***Invio*** |
 | Spostare il cursore di una parola verso sinistra. | ***Ctrl***+***Freccia sinistra*** | ***Opzione***+***Freccia sinistra*** |
 | Spostare il cursore di una parola verso destra. | ***Ctrl***+***Freccia destra*** | ***Opzione***+***Freccia destra*** |
-| Sposta il cursore all&#39;inizio della riga corrente. | ***Pagina principale*** | ***Comando***+***Freccia sinistra*** |
+| Sposta il cursore all&#39;inizio della riga corrente. | ***Home*** | ***Comando***+***Freccia sinistra*** |
 | Sposta il cursore alla fine della riga corrente. | **Fine** | ***Comando***+***Freccia destra*** |
-| Sposta il cursore all&#39;inizio dell&#39;elemento successivo. | ***Tabulazione*** | ***Tabulazione*** |
-| Rientra la voce di elenco al livello successivo. | ***Tabulazione*** | ***Tabulazione*** |
+| Sposta il cursore all&#39;inizio dell&#39;elemento successivo. | ***Linguetta*** | ***Linguetta*** |
+| Rientra la voce di elenco al livello successivo. | ***Linguetta*** | ***Linguetta*** |
 | Sposta il cursore alla fine dell&#39;elemento precedente. | ***Maiusc***+***Linguetta*** | ***Maiusc***+***Linguetta*** |
 | Rientro negativo della voce di elenco al livello precedente. | ***Maiusc***+***Linguetta*** | ***Maiusc***+***Linguetta*** |
 | Rientro automatico XML in visualizzazione Origine | ***Ctrl***+***Alt***+***L*** | ***Comando***+***Opzione***+***L*** |
-| Dividi l&#39;elemento corrente | ***Inserisci*** | ***Ritorno*** |
+| Dividi l&#39;elemento corrente | ***Invio*** | ***Ritorno*** |
 | Copia testo selezionato | ***Ctrl***+**C** | ***Comando***+**C** |
 | Incolla | ***Ctrl***+**V** | ***Comando***+**V** |
 | Incolla e applica formattazione | ***Ctrl***+***Maiusc***+**V** | ***Comando***+***Maiusc***+**V** |

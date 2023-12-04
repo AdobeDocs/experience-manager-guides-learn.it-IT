@@ -1,13 +1,12 @@
 ---
 title: Configurare la generazione di PDF con argomento singolo
 description: Scopri come configurare la generazione di PDF per un singolo argomento
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
-
 
 # Configurare la generazione di PDF con argomento singolo {#id22ADC70M0XA}
 
@@ -19,7 +18,7 @@ Le guide AEM consentono di generare le PDF di singoli argomenti o di un intero f
 
 Per abilitare la generazione precedente di PDF tramite DITA-OT dalla modalità di anteprima dell&#39;argomento, effettuare le seguenti operazioni:
 
-1. Accedi ad Adobe Experience Manager come amministratore e scarica il file di configurazione dell’interfaccia utente.
+1. Accedi a Adobe Experience Manager come amministratore e scarica il file di configurazione dell’interfaccia utente.
 
 1. Per farlo, fai clic sul collegamento Adobe Experience Manager in alto e scegli **Strumenti**.
 1. Seleziona **Guide** dall&#39;elenco degli strumenti e fare clic su **Profili cartella**.
@@ -57,4 +56,3 @@ Per abilitare la generazione precedente di PDF tramite DITA-OT dalla modalità d
 Dopo aver eseguito i passaggi indicati sopra, se si sceglie lo stesso profilo di cartella da Preferenze utente nell’editor Web, verrà visualizzata l’opzione per la generazione di PDF nella modalità di anteprima di un argomento.
 
 **Argomento padre:**[ Personalizza editor web](conf-web-editor.md)
-

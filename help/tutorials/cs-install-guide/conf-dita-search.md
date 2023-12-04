@@ -1,13 +1,12 @@
 ---
 title: Configurare la ricerca per l’interfaccia utente di AEM Assets
 description: Scopri come configurare la ricerca per l’interfaccia utente di AEM Assets
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1585'
-ht-degree: 1%
+source-wordcount: '1580'
+ht-degree: 0%
 
 ---
-
 
 # Configurare la ricerca per l’interfaccia utente di AEM Assets {#id192SC800MY4}
 
@@ -27,7 +26,7 @@ Oltre ad aggiungere la funzionalità di ricerca, puoi anche configurare le carte
 
 Per aggiungere il componente di ricerca contenuto DITA nell’interfaccia utente di AEM Assets, effettua le seguenti operazioni:
 
-1. Accedi ad Adobe Experience Manager come amministratore.
+1. Accedi a Adobe Experience Manager come amministratore.
 
 1. Fai clic sul pulsante **Adobe Experience Manager** collegamento in alto e scelta **Strumenti**.
 
@@ -53,7 +52,7 @@ Per aggiungere il componente di ricerca contenuto DITA nell’interfaccia utente
 
 Per aggiungere un componente di ricerca basato su UUID nell’interfaccia utente di AEM Assets, effettua le seguenti operazioni:
 
-1. Accedi ad Adobe Experience Manager come amministratore.
+1. Accedi a Adobe Experience Manager come amministratore.
 
 1. Fai clic sul pulsante **Adobe Experience Manager** collegamento in alto e scelta **Strumenti**.
 
@@ -187,7 +186,7 @@ Utilizzare le istruzioni fornite in [Sostituzioni configurazione](download-insta
 
 Per eseguire il flusso di lavoro di estrazione dei metadati, effettua le seguenti operazioni:
 
-1. Accedi ad Adobe Experience Manager come amministratore.
+1. Accedi a Adobe Experience Manager come amministratore.
 
 1. Fai clic sul pulsante **Adobe Experience Manager** collegamento in alto e scelta **Strumenti**.
 
@@ -233,5 +232,3 @@ Per escludere la cartella di traduzione temporanea dalla ricerca, effettua le se
    | Nome proprietà | Tipo | Valore |
    |-------------|----|-----|
    | excludedPaths | Stringa\[\] | Aggiungi i seguenti valori a questa proprietà:<br> `/content/dam/projects/translation\_output` |
-
-

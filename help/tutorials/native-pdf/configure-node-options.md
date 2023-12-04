@@ -1,13 +1,12 @@
 ---
 title: Native PDF | Processo di configurazione del nodo per la pubblicazione nativa di PDF
 description: Scopri come configurare il processo del nodo per la pubblicazione nativa di PDF
-source-git-commit: 45974b88a5b1bbbd2d83ea5cc18e0def2f15c51f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 1%
 
 ---
-
 
 # Configura processo nodo per pubblicazione PDF nativa
 
@@ -18,4 +17,3 @@ Utilizzare le istruzioni fornite in [Sostituzioni configurazione](../cs-install-
 | PID | Chiave proprietà | Valore proprietà |
 |---|---|---|
 | `com.adobe.fmdita.config.ConfigManager` | `native.pdf.node.opts` | Valore stringa per impostare qualsiasi standard `NODE_OPTIONS`.<BR> Valore predefinito: &quot;&quot; |
-

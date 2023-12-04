@@ -1,8 +1,7 @@
 ---
 title: Configurare un modello di mappa DITA personalizzato
 description: Scopri come configurare un modello di mappa DITA personalizzato
-exl-id: 2ad0fc50-97fd-437e-94cc-db5f51f3bc3f
-source-git-commit: 0dea2f1d17e7d9b12d07b459a10a00c1dd7460a5
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 1%
@@ -15,7 +14,7 @@ AEM Guides è dotato di due modelli di mappe preconfigurati: DITA map e Bookmap.
 
 Per aggiungere modelli di mappa personalizzati, effettua le seguenti operazioni:
 
-1. Accedi ad Adobe Experience Manager come amministratore.
+1. Accedi a Adobe Experience Manager come amministratore.
 
 1. Nell’interfaccia utente Assets, passa alla cartella configurata per memorizzare i file del modello di mappa. Per impostazione predefinita, tutti i modelli di mappa sono memorizzati nella cartella /content/dam/dita-templates/maps.
 

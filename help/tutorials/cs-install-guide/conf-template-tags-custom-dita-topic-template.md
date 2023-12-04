@@ -1,13 +1,12 @@
 ---
 title: Configura modello di argomento DITA personalizzato
 description: Scopri come configurare un modello di argomento DITA personalizzato
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 2%
 
 ---
-
 
 # Configura modello di argomento DITA personalizzato {#id16A7G0O02TD}
 
@@ -62,4 +61,3 @@ Utilizzare le istruzioni fornite in [Sostituzioni configurazione](download-insta
 | `com.adobe.fmdita.config.ConfigManager` | `topic.templates` | Specifica un percorso in cui memorizzare i modelli personalizzati.<br> Se il percorso specificato esiste in DAM, tutti i modelli di mappa e argomenti predefiniti vengono copiati in tale cartella. Se il percorso non esiste, la cartella viene creata con tutti i modelli predefiniti per mappe e argomenti. |
 
 **Argomento padre:**[ Configurare modelli di argomenti e mappe](conf-template-tags.md)
-

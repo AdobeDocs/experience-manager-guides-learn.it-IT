@@ -1,13 +1,12 @@
 ---
 title: Configurare il salvataggio automatico dei file nell’editor web
 description: Scopri come configurare il salvataggio automatico dei file nell’editor web
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 1%
 
 ---
-
 
 # Configurare il salvataggio automatico dei file nell’editor web {#id199CC0J0M5Z}
 
@@ -23,4 +22,3 @@ Utilizzare le istruzioni fornite in [Sostituzioni configurazione](download-insta
 | `xmleditor.autosaveinterval` | Specifica l’intervallo di tempo in secondi per attivare la funzione di salvataggio automatico. |
 
 **Argomento padre:**[ Personalizza editor web](conf-web-editor.md)
-

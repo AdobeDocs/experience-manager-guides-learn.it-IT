@@ -1,13 +1,12 @@
 ---
 title: Gestire i tag per i file DITA nelle guide AEM
 description: Breve articolo da raccontare sulla gestione di cq:tags nelle guide AEM
-source-git-commit: 06f7adfd4fbbc3b51c6d6c08689697c20c8ce8fe
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '280'
 ht-degree: 1%
 
 ---
-
 
 # Come aggiungere, rimuovere e gestire i tag nel contenuto DITA
 
@@ -56,8 +55,7 @@ Esistono diversi modi per aggiungere tag ai contenuti DITA, ma questo articolo s
 
 - [Assegnazione di tag in blocco tramite Map Dashboard (interfaccia utente Assets)](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/manaege-metadata/map-editor-bulk-tagging.html?lang=en)
 - [Rapporti Ditamap nell’editor web](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/reports-aem-guide/reports-web-editor.html?lang=en)
-- [Assegnazione di tag nell’AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/configuring/tagging.html?lang=en)
+- [Assegnazione di tag in AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/configuring/tagging.html?lang=en)
 
 
 **Contatta il tuo CSM per qualsiasi altra domanda**
-

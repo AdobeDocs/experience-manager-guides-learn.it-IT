@@ -1,13 +1,12 @@
 ---
 title: Configurare il salvataggio automatico dei file nell’editor web
 description: Scopri come configurare il salvataggio automatico dei file nell’editor web
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 1%
 
 ---
-
 
 # Configurare il salvataggio automatico dei file nell’editor web {#id199CC0J0M5Z}
 
@@ -15,7 +14,7 @@ Una delle funzioni più comuni nell’editor basato su browser è la possibilit�
 
 La funzione di salvataggio automatico non è attivata per impostazione predefinita ed è necessario attivarla da configMgr. Per abilitare la funzione di salvataggio automatico nell’editor Web, effettua le seguenti operazioni:
 
-1. Apri la pagina Configurazione della console web Adobe Experience Manager.
+1. Aprire la pagina Configurazione della console Web Adobe Experience Manager.
 
    L&#39;URL predefinito per accedere alla pagina di configurazione è:
 
@@ -33,4 +32,3 @@ La funzione di salvataggio automatico non è attivata per impostazione predefini
 
 
 **Argomento padre:**[ Personalizza editor web](conf-web-editor.md)
-

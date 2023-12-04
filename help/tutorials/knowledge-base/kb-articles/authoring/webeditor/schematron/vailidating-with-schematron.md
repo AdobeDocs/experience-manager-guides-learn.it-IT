@@ -1,10 +1,9 @@
 ---
 title: Supporto di Schematron nell’editor web
 description: Utilizzo di Schematron nell’editor web
-exl-id: 3e61432f-d81e-446e-b0ad-560f5b9fa91a
-source-git-commit: f3c8ec973d3a6369d6135a33f61584c8bf7d083d
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '379'
 ht-degree: 0%
 
 ---
@@ -56,45 +55,45 @@ La versione corrente delle guide AEM supporta la convalida utilizzando solo le r
 
 - Controlla se un collegamento è esterno e se ha ambito &quot;esterno&quot;
 
-   ```
-   <sch:pattern>
-       <sch:rule context="xref[contains(@href, 'http') or contains(@href, 'https')]">
-           <sch:assert test="@scope = 'external' and @format = 'html'">
-               All external xref links must be with scope='external' and format='html'
-           </sch:assert>
-       </sch:rule>
-   </sch:pattern>
-   ```
+  ```
+  <sch:pattern>
+      <sch:rule context="xref[contains(@href, 'http') or contains(@href, 'https')]">
+          <sch:assert test="@scope = 'external' and @format = 'html'">
+              All external xref links must be with scope='external' and format='html'
+          </sch:assert>
+      </sch:rule>
+  </sch:pattern>
+  ```
 
 - Controlla se c&#39;è almeno un &quot;topicref&quot; in una mappa o almeno un &quot;li&quot; sotto un &quot;ul&quot;
 
-   ```
-   <sch:pattern>
-       <sch:rule context="map">
-           <sch:assert test="count(topicref) > 0">
-               There should be atleast one topicref in map
-           </sch:assert>
-       </sch:rule>
-   
-       <sch:rule context="ul">
-           <sch:assert test="count(li) > 1" >
-               A list must have more than one item.
-           </sch:assert>
-       </sch:rule>
-   </sch:pattern>
-   ```
+  ```
+  <sch:pattern>
+      <sch:rule context="map">
+          <sch:assert test="count(topicref) > 0">
+              There should be atleast one topicref in map
+          </sch:assert>
+      </sch:rule>
+  
+      <sch:rule context="ul">
+          <sch:assert test="count(li) > 1" >
+              A list must have more than one item.
+          </sch:assert>
+      </sch:rule>
+  </sch:pattern>
+  ```
 
 - L’elemento &quot;indexterm&quot; deve essere sempre presente in un &quot;prologo&quot;
 
-   ```
-   <sch:pattern>
-       <sch:rule context="*[contains(@class, ' topic/indexterm ')]">
-           <sch:assert test="ancestor::node()/local-name() = 'prolog'">
-               The indexterm element should be in a prolog.
-           </sch:assert>
-       </sch:rule>
-   </sch:pattern>
-   ```
+  ```
+  <sch:pattern>
+      <sch:rule context="*[contains(@class, ' topic/indexterm ')]">
+          <sch:assert test="ancestor::node()/local-name() = 'prolog'">
+              The indexterm element should be in a prolog.
+          </sch:assert>
+      </sch:rule>
+  </sch:pattern>
+  ```
 
 #### Riferimenti
 

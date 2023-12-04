@@ -1,13 +1,12 @@
 ---
 title: Note sulla versione | Adobe Experience Manager Guides as a Cloud Service, versione di febbraio 2023
 description: Versione di febbraio di Adobe Experience Manager Guides as a Cloud Service
-source-git-commit: 4bb9ce2690a2e76a5b2a93b65db7dd452e15d295
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1428'
+source-wordcount: '1426'
 ht-degree: 0%
 
 ---
-
 
 # Novità della versione di febbraio 2023 di Adobe Experience Manager Guides as a Cloud Service
 
@@ -55,7 +54,7 @@ Ora le guide AEM forniscono un’interfaccia utente migliorata che consente di r
 * Quando si utilizzano i filtri, i commenti nel pannello di destra vengono filtrati in base alla selezione e il numero di commenti nel pannello di sinistra viene aggiornato di conseguenza.
 
 
-   <img alt="attività di revisione" src="assets/comment-pop-up-panel.png" width="600">
+  <img alt="attività di revisione" src="assets/comment-pop-up-panel.png" width="600">
 
 
 
@@ -141,4 +140,3 @@ Ora è possibile applicare uno stile al marcatore di pagina nelle note a piè di
 Le guide AEM ora consentono di identificare rapidamente gli argomenti modificati nel sommario dell’output PDF.  Viene visualizzata una barra di modifica a sinistra degli argomenti modificati nel sommario. Puoi fare clic sull’argomento nel sommario e visualizzare le modifiche dettagliate.
 
 <img src="assets/change-marker-toc.png" alt="Modifica marcatore nel sommario " width="500">
-

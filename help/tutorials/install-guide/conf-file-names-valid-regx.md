@@ -1,13 +1,12 @@
 ---
 title: Configura Regx per caratteri validi per i nomi di file
 description: Scopri come configurare Regx per caratteri validi per i nomi di file
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '396'
 ht-degree: 0%
 
 ---
-
 
 # Configura Regx per caratteri validi per i nomi di file {#id214BD0550E8}
 
@@ -21,7 +20,7 @@ Se non configuri l’elenco dei caratteri speciali validi, il processo di creazi
 
 Per configurare regx per caratteri \(o allowed\) validi nei nomi dei file, effettuare le seguenti operazioni:
 
-1. Apri la pagina Configurazione della console web Adobe Experience Manager.
+1. Aprire la pagina Configurazione della console Web Adobe Experience Manager.
 
    L&#39;URL predefinito per accedere alla pagina di configurazione è:
 
@@ -45,4 +44,3 @@ Per configurare regx per caratteri \(o allowed\) validi nei nomi dei file, effet
 > Analogamente all&#39;elenco dei caratteri validi per i nomi di file, è inoltre possibile specificare un elenco di caratteri validi per i nomi di file per l&#39;output del sito AEM. Per ulteriori dettagli, consulta [Configurare nomi di file validi per l&#39;output del sito AEM](conf-file-names-valid-regx-aem-site-output.md#).
 
 **Argomento padre:**[ Configura nomi file](conf-file-names.md)
-

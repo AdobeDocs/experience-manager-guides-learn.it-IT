@@ -1,13 +1,12 @@
 ---
 title: Configurare il numero di LimitReads per una query
 description: Scopri come configurare il numero di LimitReads per una query
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 2%
 
 ---
-
 
 # Configurare il numero di LimitReads per una query {#id231RC0HL0ID}
 
@@ -31,4 +30,3 @@ Per aumentare il numero di nodi che una query può leggere alla volta, eseguire 
 Quando si aumenta il valore di questo attributo, è possibile generare il report per mappe DITA più grandi.
 
 **Argomento padre:**[ Personalizza editor web](conf-web-editor.md)
-

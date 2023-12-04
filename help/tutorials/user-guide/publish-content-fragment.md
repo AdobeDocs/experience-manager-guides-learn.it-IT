@@ -1,13 +1,12 @@
 ---
 title: Pubblicare un argomento in un frammento di contenuto
 description: Pubblicare un argomento o gli elementi di un argomento in un frammento di contenuto nelle guide AEM.  Scopri come visualizzare i frammenti di contenuto presenti in un argomento e ripubblicarli.
-source-git-commit: 6143bdcb4c8a9e1f35ea752cf1be142ab98a716b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 1%
+source-wordcount: '605'
+ht-degree: 0%
 
 ---
-
 
 # Pubblicare in un frammento di contenuto
 
@@ -65,4 +64,3 @@ Ad esempio, aggiungi `/conf/we-retail` nella configurazione cloud. Questa config
 
 
 Dopo aver pubblicato i frammenti di contenuto, puoi utilizzarli in qualsiasi sito AEM.
-

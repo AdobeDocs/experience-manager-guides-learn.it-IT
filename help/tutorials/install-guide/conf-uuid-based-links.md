@@ -1,13 +1,12 @@
 ---
 title: Configurare la visualizzazione dei collegamenti basati su UUID
 description: Scopri come configurare la visualizzazione dei collegamenti basati su UUID
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 0%
 
 ---
-
 
 # Configurare la visualizzazione dei collegamenti basati su UUID {#id2035G20M0QN}
 
@@ -15,7 +14,7 @@ Per impostazione predefinita, quando si crea un collegamento utilizzando l&#39;o
 
 Per visualizzare il percorso relativo o l’UUID del contenuto a cui si fa riferimento nell’editor web, effettua le seguenti operazioni:
 
-1. Apri la pagina Configurazione della console web Adobe Experience Manager.
+1. Aprire la pagina Configurazione della console Web Adobe Experience Manager.
 
    L&#39;URL predefinito per accedere alla pagina di configurazione è:
 
@@ -33,4 +32,3 @@ Per visualizzare il percorso relativo o l’UUID del contenuto a cui si fa rifer
 
 
 **Argomento padre:**[ Personalizza editor web](conf-web-editor.md)
-

@@ -1,13 +1,12 @@
 ---
 title: Configurare nomi di file validi per l'output del sito AEM
 description: Scopri come configurare nomi di file validi per l’output del sito AEM
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 1%
 
 ---
-
 
 # Configurare nomi di file validi per l&#39;output del sito AEM {#id214GK0X0KXA}
 
@@ -20,4 +19,3 @@ Utilizzare le istruzioni fornite in [Sostituzioni configurazione](download-insta
 | `com.adobe.fmdita.common.SanitizeNodeNameImpl` | `aemsite.DisallowedFileNameChars` | Aggiungi i caratteri da sostituire con un trattino basso nei nomi dei file di output del sito AEM. <br> **Valore predefinito**: ``'<\>\`@$`` |
 
 **Argomento padre:**[ Configura nomi file](conf-file-names.md)
-

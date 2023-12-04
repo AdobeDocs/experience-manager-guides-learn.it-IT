@@ -1,8 +1,7 @@
 ---
 title: Usa raccolta mappe per la generazione dell'output
 description: Scopri come creare ed eliminare una raccolta di mappe e aggiungere o eliminare una mappa DITA. Configurare, generare e annullare un'attività di generazione output da una raccolta di mappe nelle guide AEM.
-exl-id: 41152fa4-f739-44d2-9ccd-74072f53e31b
-source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 1%

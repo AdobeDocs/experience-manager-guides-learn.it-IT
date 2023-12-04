@@ -1,11 +1,10 @@
 ---
 title: Note sulla versione | Adobe Experience Manager Guides versione 4.1
 description: Ultima versione di Adobe Experience Manager Guides
-exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '3532'
-ht-degree: 3%
+source-wordcount: '3644'
+ht-degree: 1%
 
 ---
 
@@ -40,13 +39,13 @@ Versione 6.5 Service Pack 13, 12, 11 o 10
 Per ulteriori dettagli, consulta la sezione Requisiti tecnici nella guida Installare e configurare le guide di Adobe Experience Manager.
 
 
-### Server di pubblicazione FrameMaker e FrameMaker
+### FRAMEMAKER e FRAMEMAKER PUBLISHING SERVER
 
 | Versione | FMPS 2020 | FMPS 2019 | Fm 2020 | Fm 2019 |
 | --- | --- | --- | --- | --- |
 | 4.1.3 (non UUID) | 2020.2 o versione successiva* | 2019 | 2020.3 o versione successiva | 2019.8 (ultimo aggiornamento) |
 | 4.1.3 (UUID) | 2020.2 o versione successiva* | Non compatibile | 2020.4 o versione successiva | Non compatibile |
-|  |  |  |  |
+| | | | |
 
 *Le condizioni di base e quelle create nell’AEM sono supportate nelle versioni di FMPS a partire dal 2020.2.
 
@@ -54,9 +53,9 @@ Per ulteriori dettagli, consulta la sezione Requisiti tecnici nella guida Instal
 
 | Versione | Finestre del connettore dell&#39;ossigeno | Connettore di ossigeno Mac | Modifica in finestre a ossigeno | Modifica in Oxygen Mac |
 | --- | --- | --- |--- |--- |
-| 4.1.3 (non UUID) | 2.0 | 2.0 | 1.6 | 1.6 |
-| 4.1.3 (UUID) | 2.7 | 2.7 | 2.3 | 2.3 |
-|  |  |  |
+| 4.1.3 (non UUID) | 2.0 | 2.0 | 1,6 | 1,6 |
+| 4.1.3 (UUID) | 2,7 | 2,7 | 2,3 | 2,3 |
+|  |  |   |
 
 
 ## Problemi risolti
@@ -83,13 +82,13 @@ Versione 6.5 Service Pack 13, 12, 11 o 10
 Per ulteriori dettagli, consulta la sezione Requisiti tecnici nella guida Installare e configurare le guide di Adobe Experience Manager.
 
 
-### Server di pubblicazione FrameMaker e FrameMaker
+### FRAMEMAKER e FRAMEMAKER PUBLISHING SERVER
 
 | Versione | FMPS 2020 | FMPS 2019 | Fm 2020 | Fm 2019 |
 | --- | --- | --- | --- | --- |
 | 4.1.2 (non UUID) | 2020.2 o versione successiva* | 2019 | 2020.3 o versione successiva | 2019.8 (ultimo aggiornamento) |
 | 4.1.2 (UUID) | 2020.2 o versione successiva* | Non compatibile | 2020.4 o versione successiva | Non compatibile |
-|  |  |  |  |
+| | | | |
 
 *Le condizioni di base e quelle create nell’AEM sono supportate nelle versioni di FMPS a partire dal 2020.2.
 
@@ -97,9 +96,9 @@ Per ulteriori dettagli, consulta la sezione Requisiti tecnici nella guida Instal
 
 | Versione | Finestre del connettore dell&#39;ossigeno | Connettore di ossigeno Mac | Modifica in finestre a ossigeno | Modifica in Oxygen Mac |
 | --- | --- | --- |--- |--- |
-| 4.1.2 (non UUID) | 2.0 | 2.0 | 1.6 | 1.6 |
-| 4.1.2 (UUID) | 2.7 | 2.7 | 2.3 | 2.3 |
-|  |  |  |
+| 4.1.2 (non UUID) | 2.0 | 2.0 | 1,6 | 1,6 |
+| 4.1.2 (UUID) | 2,7 | 2,7 | 2,3 | 2,3 |
+|  |  |   |
 
 
 ## Problemi risolti
@@ -117,7 +116,7 @@ Di seguito sono elencati i bug risolti in varie aree:
 
 * La linea di base esportata durante la traduzione non viene caricata nella scheda linea di base dell’editor.
 
-   **Soluzione alternativa**: utilizza la scheda baseline del dashboard delle mappe DITA.
+  **Soluzione alternativa**: utilizza la scheda baseline del dashboard delle mappe DITA.
 
 ## 4,1 | Note sulla versione
 
@@ -140,13 +139,13 @@ Per ulteriori dettagli, consulta la sezione Requisiti tecnici nella guida Instal
 
 
 
-### Server di pubblicazione FrameMaker e FrameMaker
+### FRAMEMAKER e FRAMEMAKER PUBLISHING SERVER
 
 | Versione | FMPS 2020 | FMPS 2019 | Fm 2020 | Fm 2019 |
 | --- | --- | --- | --- | --- |
 | 4.1 (non UUID) | 2020.2 o versione successiva* | 2019 | 2020.3 o versione successiva | 2019.8 (ultimo aggiornamento) |
 | 4.1 (UUID) | 2020.2 o versione successiva* | Non compatibile | 2020.4 o versione successiva | Non compatibile |
-|  |  |  |  |
+| | | | |
 
 *Le condizioni di base e quelle create nell’AEM sono supportate nelle versioni di FMPS a partire dal 2020.2.
 
@@ -154,8 +153,8 @@ Per ulteriori dettagli, consulta la sezione Requisiti tecnici nella guida Instal
 
 | Versione | Finestre del connettore dell&#39;ossigeno | Connettore di ossigeno Mac | Modifica in finestre a ossigeno | Modifica in Oxygen Mac |
 | --- | --- | --- |--- |--- |
-| 4.1 (non UUID) | 2.0 | 2.0 | 1.6 | 1.6 |
-| 4.1 (UUID) | 2.7 | 2.7 | 2.3 | 2.3 |
+| 4.1 (non UUID) | 2.0 | 2.0 | 1,6 | 1,6 |
+| 4.1 (UUID) | 2,7 | 2,7 | 2,3 | 2,3 |
 |  |  |  |
 
 
@@ -248,8 +247,7 @@ Per ulteriori dettagli, consulta *Scenari di chiusura e salvataggio dei file* ne
 ![parola chiave insert](assets/insert-keyword.png)
 
 * **Supporto per i documenti Markdown**
-Markdown è un linguaggio di markup leggero che consente di aggiungere elementi di formattazione ai documenti di testo normale. L&#39;Editor Web consente di utilizzare i documenti Markdown (con estensione md) insieme ai documenti DITA. È possibile creare e visualizzare in anteprima un documento Markdown nell&#39;Editor Web e aggiungerlo nel file di mappa tramite l&#39;editor di mappe DITA.  Per ulteriori dettagli, consulta 
-*Creare documenti Markdown dall’editor web* sezione nella guida Utilizzo delle guide di Adobe Experience Manager.
+Markdown è un linguaggio di markup leggero che consente di aggiungere elementi di formattazione ai documenti di testo normale. L&#39;Editor Web consente di utilizzare i documenti Markdown (con estensione md) insieme ai documenti DITA. È possibile creare e visualizzare in anteprima un documento Markdown nell&#39;Editor Web e aggiungerlo nel file di mappa tramite l&#39;editor di mappe DITA.  Per ulteriori dettagli, consulta *Creare documenti Markdown dall’editor web* sezione nella guida Utilizzo delle guide di Adobe Experience Manager.
 
 ![markdown del supporto](assets/create-markdown-dita-topic.png)
 
@@ -283,8 +281,7 @@ Nota: la scheda Linea di base nel quadro comandi mappa è nascosta per impostazi
 ### Processo di traduzione migliorato
 
 * **Possibilità di creare un progetto di traduzione con ambito**
-Se devi creare solo l’ambito per un progetto da tradurre, puoi selezionare 
-**Crea un nuovo progetto di traduzione ambito**. Questo non invierà le copie per la traduzione e lo stato di traduzione originale dei file viene mantenuto.
+Se devi creare solo l’ambito per un progetto da tradurre, puoi selezionare **Crea un nuovo progetto di traduzione ambito**. Questo non invierà le copie per la traduzione e lo stato di traduzione originale dei file viene mantenuto.
 
 ![progetto di traduzione ambito](assets/scoping-translation-project.png)
 
@@ -320,7 +317,7 @@ Quando si sceglie di scaricare la mappa DITA, la richiesta viene inserita in cod
 
 ### Funzione obsoleta
 
-Le guide AEM non supportano più la generazione del formato di output DITA per i documenti FrameMaker. Questa opzione DITA è stata rimossa anche dai predefiniti di output del dashboard Mappa.
+Le guide AEM non supportano più la generazione del formato di output DITA per i documenti di FrameMaker. Questa opzione DITA è stata rimossa anche dai predefiniti di output del dashboard Mappa.
 
 ## Problemi risolti
 
@@ -348,7 +345,7 @@ Di seguito sono elencati i bug risolti in varie aree:
 * Il codice della lingua non viene visualizzato con la lingua nel pannello Traduzione. (9108)
 * Le schede Traduzione e Linea di base sono visibili per un certo periodo di tempo sul dashboard Mappa. (9146)
 * Al termine della traduzione, viene creata una versione aggiuntiva per la risorsa tradotta. (9310)
-* La traduzione approvata non viene integrata nella lingua di destinazione quando il codice della lingua di destinazione contiene cinque caratteri come `fr_ca`. (9357)
+* La traduzione approvata non viene integrata nella lingua di destinazione quando il codice della lingua di destinazione contiene cinque caratteri come `fr_ca`. 9357
 * Il contenuto tradotto viene interrotto quando il codice della lingua di destinazione creato viene menzionato come `fr-fr, `, `en-us`. (9527)
 * Quando si carica una mappa DITA all&#39;esterno della cartella della lingua, viene registrata un&#39;eccezione nel backend.(9543)
 * Impossibile creare un file DITA utilizzando il modello DITA personalizzato dall&#39;editor. (7262)
@@ -367,10 +364,10 @@ Di seguito sono elencati i bug risolti in varie aree:
 * La posizione di evidenziazione non è corretta nella vista affiancata. (9305)
 * La nota a piè di pagina &quot;Use-by-reference&quot; non scorre fino alla sezione della nota a piè di pagina nell&#39;output del sito AEM. (9061)
 * L’ordine delle note a piè di pagina non è corretto nell’output del sito AEM. (9327)
-* Le nuove risorse DITA create vengono sempre estratte da un altro utente. (9387)
+* Le nuove risorse DITA create vengono sempre estratte da un altro utente. 9387
 * L’errore viene sempre registrato durante la creazione di un nuovo contenuto. (9388)
 * Nella terza schermata del processo di creazione dell&#39;attività di revisione non viene visualizzato l&#39;elenco dei glossari. (4558)
-* Riferimenti UUID errati assegnati durante il caricamento di più file dal connettore FrameMaker/Oxygen. (8269)
+* Riferimenti UUID errati assegnati durante il caricamento di più file dal connettore FrameMaker/ossigeno. (8269)
 * La notifica e-mail non viene inviata quando un’attività di revisione viene riassegnata nella casella in entrata. (8376)
 * Impossibile aggiungere il secondo utente amministratore come primo utente amministratore a una cartella. (8430)
 * **Applica etichette** nella scheda Baseline non visualizza le etichette nel menu a discesa. (8455)
@@ -379,9 +376,9 @@ Di seguito sono elencati i bug risolti in varie aree:
 * Nel pannello Cronologia versioni, la sezione della versione corrente mostra una marca temporale errata e informazioni modificate da. (8765)
 * Linea di base non aggiornata sulla base dell’etichetta definita. (8799)
 * Si verifica un errore quando i file la cui cartella principale contiene caratteri speciali nel nome del file vengono aperti in Ossigeno (utilizzando **Modifica in ossigeno** ). (8918)
-* Il caricamento di file da Oxygen a AEM non riesce. (9157)
+* Il caricamento di file da Oxygen a AEM non riesce. 9157
 * Il download della mappa con linea di base non funziona se il contenuto viene spostato in un’altra cartella. (9331)
-* L&#39;ossigeno verifica una versione errata di un argomento dopo il ripristino di una versione in AEM. (9411)
+* Oxygen verifica una versione errata di un argomento dopo il ripristino di una versione in AEM. (9411)
 * La ricerca nel pannello Archivio e nella finestra di dialogo Sfoglia topicref blocca lo schermo quando il contenuto è di grandi dimensioni. (9432)
 * Se l&#39;impostazione **Crea nuova versione per file caricato** è ON, viene creata una nuova versione al momento del ripristino e del salvataggio su qualsiasi nodo bloccato. (9473)
 * Nell’interfaccia utente di Assets, al ripristino della versione di un file vengono visualizzate differenze di marca temporale non corrette. (9480)
@@ -390,7 +387,7 @@ Di seguito sono elencati i bug risolti in varie aree:
 * Impossibile aggiungere elementi di frontmatter o di backmatter in una mappa segnalibro utilizzando la visualizzazione Autore dell&#39;editor Web. (7652)
 * La modalità Anteprima non supporta `deliveryTarget` attributo di elaborazione condizionale in DITA. (7685)
 * All’apertura di un argomento del glossario nell’editor XML, AEM forza il salvataggio anche se non è stato modificato. (8105)
-* Viene visualizzata la finestra di dialogo Inserisci riferimenti quando si aggiunge un riferimento soggetto a una mappa tramite l’interfaccia utente. (8212)
+* Viene visualizzata la finestra di dialogo Inserisci riferimenti quando si aggiunge un riferimento soggetto a una mappa mediante l&#39;interfaccia utente. (8212)
 * Il pannello Riutilizza contenuto si blocca durante la ricerca di caratteri speciali `[` o `*` .(8279)
 * Durante l&#39;authoring di Glossentry, l&#39;editor Web mostra il contenuto come una nota. (8384)
 * Editor XML rimuove la nuova riga nel blocco di codice. (8522)
@@ -398,7 +395,7 @@ Di seguito sono elencati i bug risolti in varie aree:
 * Impossibile chiudere un argomento sbloccato. (8545)
 * Non esiste alcuna opzione per scegliere il percorso della Knowledge Base nei predefiniti di pubblicazione basati su articoli. (8636)
 * Attributi mancanti quando si aggiunge un capitolo a una mappa segnalibro mediante trascinamento dalla vista Preferiti. (8746)
-* La finestra di dialogo Inserisci parola chiave non è disponibile e le parole chiave non sono elencate in ordine ordinato. (9094)
+* La finestra di dialogo Inserisci parola chiave non è disponibile e le parole chiave non sono elencate in ordine ordinato. 9094
 * L&#39;esecuzione di una ricerca nell&#39;editor XML determina il blocco della pagina. (9452)
 * Siti mancanti nei predefiniti AEM nella scheda Output. (9567)
 * Immagini SVG che non vengono riprodotte correttamente nelle modalità di creazione di XML Editor. (9426)

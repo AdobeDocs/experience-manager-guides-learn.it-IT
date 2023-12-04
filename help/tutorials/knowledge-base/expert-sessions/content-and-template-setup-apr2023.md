@@ -1,9 +1,9 @@
 ---
 title: Configurazione di contenuti e modelli
 description: Scopri tutte le considerazioni da fare per impostare contenuti e modelli nelle Guide AEM.
-source-git-commit: 87c92776f417aba49096b447baf81916dea5d57f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '275'
 ht-degree: 1%
 
 ---
@@ -58,8 +58,7 @@ In questa sessione hai appreso quanto segue:
 >
 > Le funzioni mostrate in questa sessione sono disponibili nelle seguenti versioni delle Guide AEM:
 > - On-prem: 4.2 o versione successiva
-> - Cloud Services: 2303 o versione successiva
-
+> - Cloud Service: 2303 o versione successiva
 
 
 ## Prossima sessione di esperti

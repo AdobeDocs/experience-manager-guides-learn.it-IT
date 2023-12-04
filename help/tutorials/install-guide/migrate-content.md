@@ -1,13 +1,12 @@
 ---
 title: Migrare i contenuti esistenti
 description: Scopri come eseguire la migrazione dei contenuti esistenti
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 0%
 
 ---
-
 
 # Migrare i contenuti esistenti {#id181AGB000Y4}
 
@@ -20,5 +19,3 @@ Le guide AEM consentono di convertire in formato DITA diversi documenti struttur
 - **[Carica contenuto DITA esistente](migrate-content-upload-existing-dita-content.md)**
 
 - **[Migrare contenuti non DITA](migrate-content-non-dita.md)**
-
-

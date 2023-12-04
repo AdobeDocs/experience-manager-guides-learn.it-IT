@@ -1,10 +1,9 @@
 ---
 title: Genera output per una mappa DITA dalla console delle mappe
 description: Genera output per una mappa DITA dalla console delle mappe in Guide AEM. Scopri la generazione di output incrementale e come visualizzare lo stato, annullare ed eliminare un’attività di output.
-exl-id: 98afbdd2-56d7-44b0-ad2a-25e9143c88f3
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1416'
+source-wordcount: '1418'
 ht-degree: 0%
 
 ---

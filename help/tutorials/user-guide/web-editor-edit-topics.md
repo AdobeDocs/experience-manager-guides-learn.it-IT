@@ -1,8 +1,7 @@
 ---
 title: Modificare gli argomenti nell'editor Web
 description: Scopri come modificare gli argomenti nell’editor web. Scopri le varie funzioni di modifica per modificare i file degli argomenti nelle guide AEM.
-exl-id: 8da37a81-e8c3-434f-b3f4-4723d87c2ade
-source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '572'
 ht-degree: 0%

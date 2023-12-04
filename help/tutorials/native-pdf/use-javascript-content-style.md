@@ -1,8 +1,7 @@
 ---
 title: Funzione di pubblicazione nativa di PDF | Utilizza JavaScript per lavorare con contenuti o stili
 description: Scopri come creare fogli di stile di utilizzo e stili per i contenuti.
-exl-id: 2f301f6a-0d1c-4194-84c2-0fddaef8d3ec
-source-git-commit: 99ca14a816630f5f0ec1dc72ba77994ffa71dff6
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 0%

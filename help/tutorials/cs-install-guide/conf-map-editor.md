@@ -1,13 +1,12 @@
 ---
 title: Imposta l'Editor mappe avanzato come predefinito
 description: Scopri come impostare l’Editor mappe avanzato come predefinito
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 0%
 
 ---
-
 
 # Imposta l&#39;Editor mappe avanzato come predefinito {#id181AI0003PN}
 
@@ -26,4 +25,3 @@ Utilizzare le istruzioni fornite in [Sostituzioni configurazione](download-insta
 > Per impostazione predefinita, quando un autore crea un file di mappa e sceglie di aprirlo per la modifica, viene avviato Basic Map Editor. Quando l’opzione Modifica è selezionata per un file di mappa dall’interfaccia utente Assets, viene aperta anche nell’editor di mappe di base.
 
 **Argomento padre:**[ Personalizza editor web](conf-web-editor.md)
-

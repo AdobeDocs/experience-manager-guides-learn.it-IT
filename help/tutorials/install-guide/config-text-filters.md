@@ -1,13 +1,12 @@
 ---
 title: Configurare i filtri di testo
 description: Scopri come configurare i filtri di testo
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 0%
 
 ---
-
 
 # Configurare i filtri di testo {#id21BPD0FK0XA}
 
@@ -21,7 +20,7 @@ Per impostazione predefinita, è possibile utilizzare alcuni filtri migliorati p
 
 Per configurare i filtri di testo, effettua le seguenti operazioni:
 
-1. Accedi ad Adobe Experience Manager come amministratore.
+1. Accedi a Adobe Experience Manager come amministratore.
 1. Fai clic sul pulsante **Adobe Experience Manager** collegamento in alto e scelta **Strumenti**.
 1. Seleziona **Guide** dall&#39;elenco degli strumenti e fare clic su **Profili cartella**.
 1. Fai clic sul pulsante **Profilo globale** affiancare.
@@ -100,4 +99,3 @@ Per configurare i filtri di testo, effettua le seguenti operazioni:
 I filtri configurati sono disponibili nel pannello dei filtri.
 
 **Argomento padre:**[ Personalizza editor web](conf-web-editor.md)
-

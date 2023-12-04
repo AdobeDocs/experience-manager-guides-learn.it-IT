@@ -1,13 +1,12 @@
 ---
 title: API basata su Java per la creazione e l’attivazione di pacchetti
 description: Scopri l’API basata su Java per la creazione e l’attivazione dei pacchetti
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
-
 
 # API basata su Java per la creazione e l’attivazione di pacchetti {#id175UB30E05Z}
 
@@ -90,4 +89,3 @@ La query JSON di esempio è costituita dalle regole seguenti:
 - Solo le immagini .png, .jpg e .gif nel percorso /content/dam/nested sono incluse nel pacchetto.
 - Tutti i nodi in /content/output/sites/hierarchy\_ditamap sono inclusi nel pacchetto.
 - I percorsi presenti nel `fileReference` proprietà dei nodi in /content/output/sites/hierarchy\_ditamap sono inclusi nel pacchetto.
-

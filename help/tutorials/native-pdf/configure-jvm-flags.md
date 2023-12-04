@@ -1,13 +1,12 @@
 ---
 title: Native PDF | Configurare i flag JVM per la pubblicazione nativa di PDF
 description: Configurare i flag JVM per la pubblicazione nativa di PDF
-source-git-commit: cfb1197d0aad7ea3771bc6e1a73c02f540cef0c9
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 1%
 
 ---
-
 
 # Configurare i flag JVM per la pubblicazione nativa di PDF
 
@@ -15,7 +14,7 @@ La pubblicazione nativa di PDF avvia un processo JVM separato per generare un PD
 
 Per configurare i flag JVM di pubblicazione nativa di PDF AEM, effettua le seguenti operazioni:
 
-1. Apri la pagina Configurazione della console web Adobe Experience Manager.
+1. Aprire la pagina Configurazione della console Web Adobe Experience Manager.
 
    L&#39;URL predefinito per accedere alla pagina di configurazione è:
 

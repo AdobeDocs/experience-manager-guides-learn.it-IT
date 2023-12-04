@@ -1,10 +1,9 @@
 ---
 title: Native PDF | Generazione di output PDF
 description: Scopri come utilizzare la pubblicazione PDF nativa, creare e generare un predefinito di output PDF, scaricare file temporanei dopo la generazione dell’output PDF nativa e utilizzare le variabili di lingua nelle guide AEM.
-exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: 1305c960df98553edbd1fb65c8f6e8da7c232087
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '3327'
+source-wordcount: '3259'
 ht-degree: 0%
 
 ---
@@ -120,7 +119,7 @@ Per utilizzare una variabile, è necessario definirla nel `${<variable>}` format
 Ad esempio, una delle proprietà di metadati definite in /`jcr:content/metadata` il nodo è
 `dc:title`. È possibile specificare `${dc:title}`e il valore del titolo viene utilizzato nell’output finale.
 
-Puoi utilizzare una singola variabile o una combinazione di variabili per definire i metadati. Esempio: `${dc:title} ${dc:docstate}`. Puoi anche utilizzare la combinazione di una variabile e una stringa.  Esempio: `View ${dc:title} in ${dc:language}`.
+Puoi utilizzare una singola variabile o una combinazione di variabili per definire i metadati. Ad esempio: `${dc:title} ${dc:docstate}`. Puoi anche utilizzare la combinazione di una variabile e una stringa.  Esempio: `View ${dc:title} in ${dc:language}`.
 
 Utilizza le variabili di linguaggio per definire il valore localizzato delle proprietà dei metadati. A seconda della lingua scelta, il valore localizzato viene selezionato automaticamente nell’output di PDF. Ad esempio, puoi stampare &quot;Autore&quot; come valore dei metadati in inglese e &quot;Autorin&quot; in tedesco.
 

@@ -1,10 +1,9 @@
 ---
 title: Configurare profili globali o a livello di cartella
 description: Scopri come configurare profili globali o a livello di cartella
-exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
-source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '3961'
+source-wordcount: '3967'
 ht-degree: 0%
 
 ---
@@ -63,7 +62,7 @@ Utilizzando il riquadro Profili cartella nelle impostazioni delle Guide, è poss
 
    - EPUB
 
-   - Personalizzati
+   - Personale
 
   Gli editori possono utilizzare questi predefiniti di output predefiniti per pubblicare i contenuti. Questi predefiniti possono essere configurati da un amministratore del profilo globale o a livello di cartella. Una volta configurati, i predefiniti di pubblicazione diventano disponibili per gli editori per le mappe DITA appena create. È inoltre possibile applicare predefiniti di pubblicazione alle mappe DITA esistenti. Vedere [Applicare le modifiche ai predefiniti](#id18AGD0K0OHS) per ulteriori dettagli.
 

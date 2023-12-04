@@ -1,8 +1,7 @@
 ---
 title: Gestire le attività di revisione mediante il dashboard Revisione
 description: Gestisci le attività di revisione dal dashboard di revisione nelle guide AEM. Scopri le azioni da eseguire nella scheda attività, contenuto e revisori e controlla lo stato di un’attività di revisione.
-exl-id: 617017fe-59b6-4b38-b375-a126fa9dddf5
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '1300'
 ht-degree: 0%

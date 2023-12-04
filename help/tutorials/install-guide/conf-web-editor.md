@@ -1,13 +1,12 @@
 ---
 title: Personalizza editor web
 description: Scopri come personalizzare l’editor web
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
 
 ---
-
 
 # Personalizza editor web {#id181AI0003PN}
 
@@ -40,5 +39,3 @@ Le guide AEM sono dotate di un potente editor Web che consente agli autori di cr
 - [Configurare il numero di LimitReads per una query](conf-query-limitreads.md)
 
 - [Installare pacchetti per la pubblicazione basata su articoli](configure-article-based-publishing.md)
-
-

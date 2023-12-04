@@ -1,11 +1,10 @@
 ---
 title: Note sulla versione | Adobe Experience Manager Guides as a Cloud Service, versione di maggio 2022
 description: Versione di maggio di Adobe Experience Manager Guides as a Cloud Service
-exl-id: 7928a300-5ec9-492c-b9be-02b6f87638c6
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1874'
-ht-degree: 4%
+source-wordcount: '1887'
+ht-degree: 0%
 
 ---
 
@@ -13,21 +12,21 @@ ht-degree: 4%
 
 ## Aggiornamento alla versione di maggio
 
-Aggiorna le guide Adobe Experience Manager as a Cloud Service correnti (in seguito denominate *Guide AEM as a Cloud Service*) eseguendo i seguenti passaggi:
-1. Consulta il codice Git del Cloud Services e passa al ramo configurato nella pipeline dei Cloud Services corrispondente all’ambiente da aggiornare.
-1. Aggiorna `<dox.version>` proprietà in `/dox/dox.installer/pom.xml` file del codice Git dei tuoi Cloud Services in 2022.5.144.
-1. Apporta le modifiche ed esegui la pipeline dei Cloud Services per l’aggiornamento alla versione as a Cloud Service di maggio delle guide AEM.
+Aggiorna le guide Adobe Experience Manager correnti as a Cloud Service (in seguito denominate *Guide AEM as a Cloud Service*) eseguendo i seguenti passaggi:
+1. Consulta il codice Git del Cloud Service e passa al ramo configurato nella pipeline dei Cloud Service corrispondente all’ambiente da aggiornare.
+1. Aggiorna `<dox.version>` proprietà in `/dox/dox.installer/pom.xml` file del codice Git dei tuoi Cloud Service in 2022.5.144.
+1. Apporta le modifiche ed esegui la pipeline dei Cloud Service per l’aggiornamento alla versione as a Cloud Service di maggio delle guide AEM.
 
 ## Matrice di compatibilità
 
 In questa sezione è elencata la matrice di compatibilità per le applicazioni software supportate dalla versione di maggio 2022 delle guide dell’AEM as a Cloud Service.
 
-### Server di pubblicazione FrameMaker e FrameMaker
+### FRAMEMAKER e FRAMEMAKER PUBLISHING SERVER
 
 | FMPS | FrameMaker |
 | --- | --- |
 | Non compatibile | Aggiornamento 2020 4 e versioni successive |
-|  |  |
+| | |
 
 *Le condizioni di base e quelle create nell’AEM sono supportate nelle versioni di FMPS a partire dal 2020.2.
 
@@ -35,7 +34,7 @@ In questa sezione è elencata la matrice di compatibilità per le applicazioni s
 
 | Versione di AEM Guides as a Cloud | Finestre del connettore dell&#39;ossigeno | Connettore di ossigeno Mac |
 | --- | --- | --- |
-| 2022.5.0 | 2.6.9 | 2.6.9 |
+| 2022.5.0 | 2.6.9. | 2.6.9. |
 |  |  |  |
 
 
@@ -72,8 +71,7 @@ Il modello di mappa personalizzato può aiutarti a replicare molto facilmente i 
 ### Processo di traduzione migliorato
 
 * **Possibilità di creare un progetto di traduzione con ambito**
-Se devi creare solo l’ambito per un progetto da tradurre, puoi selezionare 
-**Crea un nuovo progetto di traduzione ambito**. Questo non invierà le copie per la traduzione e lo stato di traduzione originale dei file viene mantenuto.
+Se devi creare solo l’ambito per un progetto da tradurre, puoi selezionare **Crea un nuovo progetto di traduzione ambito**. Questo non invierà le copie per la traduzione e lo stato di traduzione originale dei file viene mantenuto.
 
 ![progetto di traduzione ambito](assets/scoping-translation-project.png)
 
@@ -81,7 +79,7 @@ Se devi creare solo l’ambito per un progetto da tradurre, puoi selezionare
 
 * Il **Lingue** visualizza le cartelle della lingua insieme ai relativi codici di lingua. Ad esempio, francese (fr) e tedesco (de).
 
-* La funzione di traduzione ora supporta anche il codice della lingua, che include sia il paese che la lingua. Ad esempio, `fr-fr`, `en-us`.
+* La funzione di traduzione ora supporta anche il codice della lingua, che include sia il paese che la lingua. Ad esempio: `fr-fr`, `en-us`.
 
 ![traduzione in lingua](assets/translation-languages.png)
 
@@ -99,7 +97,7 @@ Per ulteriori dettagli sulla traduzione, vedi *Traduci documenti dall&#39;editor
 * Dal dashboard delle mappe puoi selezionare più file DITAVAL per generare contenuto condizionale. È possibile mantenere l&#39;ordine dei file aggiungendo o eliminando file. Puoi anche passare il cursore sul nome del file per visualizzare il percorso nell’archivio AEM in cui è memorizzato il file.
 
 * **Funzione obsoleta**
-AEM as a Cloud Service non supporta più la generazione di formati di output DITA per i documenti FrameMaker. Questa opzione DITA è stata rimossa anche dai predefiniti di output del dashboard Mappa.
+AEM as a Cloud Service non supporta più la generazione di formato di output DITA per i documenti di FrameMaker. Questa opzione DITA è stata rimossa anche dai predefiniti di output del dashboard Mappa.
 
 ### Miglioramento della pubblicazione basata su articoli
 
@@ -141,13 +139,13 @@ Di seguito sono elencati i bug risolti in varie aree:
 * Oxygen verifica una versione errata di un argomento dopo il ripristino di una versione in AEM. (9411)
 * La linea di base non riuscita disattiva la modifica nella scheda Predefinito del dashboard delle mappe. (9403)
 * L’errore viene sempre registrato durante la creazione di un nuovo contenuto. (9388)
-* Le nuove risorse DITA create vengono sempre estratte da un altro utente. (9387)
-* L&#39;elemento Rename non funziona correttamente durante la conversione di topicref in glossref. (9380)
+* Le nuove risorse DITA create vengono sempre estratte da un altro utente. 9387
+* L&#39;elemento Rename non funziona correttamente durante la conversione di topicref in glossref. 9380
 * L’etichetta della versione non viene visualizzata come elenco a discesa in **Salva come nuova versione** . (9379)
 * Le condizioni non vengono applicate al passaggio tra versioni diverse da **Mostra differenze** a discesa. (9366)
 * Si verificano diversi problemi durante l’utilizzo dei filtri di anteprima. (9365)
-* Impossibile inserire risorse non DITA e DITAVAL nel riferimento argomento. (9363)
-* La traduzione approvata non viene integrata nella lingua di destinazione quando il codice della lingua di destinazione contiene cinque caratteri come `fr_ca`. (9357)
+* Impossibile inserire risorse non DITA e DITAVAL nel riferimento argomento. 9363
+* La traduzione approvata non viene integrata nella lingua di destinazione quando il codice della lingua di destinazione contiene cinque caratteri come `fr_ca`. 9357
 * Impossibile cercare i file tramite **Trova file nella cartella** dal **Altre opzioni** e l’app non risponde. (9337)
 * La finestra di dialogo Sfoglia si blocca se è presente un numero elevato di tasti. (9332)
 * I file DITAVAL non funzionano durante la pubblicazione basata su articoli. (9330)
@@ -172,7 +170,7 @@ Di seguito sono elencati i bug risolti in varie aree:
 * La funzione di eliminazione dell&#39;output ha esito negativo se è presente un numero elevato di nodi della cronologia di output rimasti. (8568)
 * Il pacchetto Add on DITA impedisce il rilevamento delle risorse duplicate DAM. (8417)
 * Pulsante Crea attività di revisione abilitato per i file non DITA. (8401)
-* Viene visualizzata la finestra di dialogo Inserisci riferimenti quando si aggiunge un riferimento soggetto a una mappa tramite l’interfaccia utente. (8212)
+* Viene visualizzata la finestra di dialogo Inserisci riferimenti quando si aggiunge un riferimento soggetto a una mappa mediante l&#39;interfaccia utente. (8212)
 * Spazio imprevisto trovato in ogni spazio vuoto `entry` quando l&#39;attributo outputclass viene aggiunto a `tgroup` elemento. (7532)
 * Il pannello dell’archivio non visualizza le icone di blocco file archiviate o estratte al termine dell’azione. (5817)
 * L’icona Blocca viene visualizzata nella vista archivio anche quando il file viene archiviato dall’editor.  (5756)
@@ -183,7 +181,7 @@ Di seguito sono elencati i bug risolti in varie aree:
 * Il ricaricamento non riesce in ossigeno quando i file esistono già nell’AEM nella stessa posizione. (9328)
 * La posizione di evidenziazione non è corretta nella vista affiancata. (9305)
 * Dopo il check-in di un documento da Oxygen a AEM, il contenuto giapponese nel documento viene sostituito da punti interrogativi (???). (9276)
-* Il caricamento di file da Oxygen a AEM non riesce. (9157)
+* Il caricamento di file da Oxygen a AEM non riesce. 9157
 * La notifica e-mail non viene inviata quando un’attività di revisione viene riassegnata nella casella in entrata. (8376)
 
 ## Problemi noti

@@ -1,13 +1,12 @@
 ---
 title: Personalizza barra degli strumenti
 description: Scopri come personalizzare la barra degli strumenti
-source-git-commit: 7306c1c3fbf37c049f9de1b2b492bb9b8906b065
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: '956'
 ht-degree: 0%
 
 ---
-
 
 # Personalizza barra degli strumenti {#id172FB00L0V6}
 
@@ -26,7 +25,7 @@ L’aggiunta di una funzionalità all’editor web comporta due attività princi
 
 Per aggiungere una funzionalità alla barra degli strumenti dell&#39;editor Web, effettuare le operazioni riportate di seguito.
 
-1. Per scaricare il file di configurazione dell’interfaccia utente, accedi ad Adobe Experience Manager come amministratore.
+1. Per scaricare il file di configurazione dell’interfaccia utente, accedi a Adobe Experience Manager come amministratore.
 
 1. Fai clic sul collegamento Adobe Experience Manager in alto e scegli **Strumenti**.
 1. Seleziona **Guide** dall&#39;elenco degli strumenti e fare clic su **Profili cartella**.
@@ -113,7 +112,7 @@ Talvolta è possibile non assegnare tutte le funzionalità attualmente disponibi
 
 Per rimuovere qualsiasi feature indesiderata dalla barra degli strumenti, effettuate le seguenti operazioni:
 
-1. Per scaricare il file di configurazione dell’interfaccia utente, accedi ad Adobe Experience Manager come amministratore.
+1. Per scaricare il file di configurazione dell’interfaccia utente, accedi a Adobe Experience Manager come amministratore.
 
 1. Fai clic sul collegamento Adobe Experience Manager in alto e scegli **Strumenti**.
 1. Seleziona **Guide** dall&#39;elenco degli strumenti e fare clic su **Profili cartella**.
@@ -127,7 +126,7 @@ Per rimuovere qualsiasi feature indesiderata dalla barra degli strumenti, effett
 
    1. **scelte rapide**: questa sezione contiene la definizione delle scelte rapide da tastiera assegnate a una particolare funzione nell’editor.
 
-   1. **modelli**: questa sezione contiene la struttura predefinita degli elementi DITA che è possibile utilizzare nel documento. Per impostazione predefinita, la sezione modelli contiene le definizioni dei modelli per gli elementi paragrafo, tabella semplice, tabella e corpo. Puoi creare una definizione di modello per qualsiasi elemento aggiungendo una struttura XML valida per l’elemento desiderato. Ad esempio, se desideri aggiungere una `p` con ogni nuovo `li` in un elenco, puoi aggiungere il seguente codice alla fine della sezione modelli per ottenere questo risultato:
+   1. **modelli**: questa sezione contiene la struttura predefinita degli elementi DITA che è possibile utilizzare nel documento. Per impostazione predefinita, la sezione modelli contiene le definizioni dei modelli per gli elementi paragrafo, tabella semplice, tabella e corpo. Puoi creare una definizione di modello per qualsiasi elemento aggiungendo una struttura XML valida per l’elemento desiderato. Ad esempio, se desideri aggiungere una `p` con ogni nuovo elemento `li` in un elenco, puoi aggiungere il seguente codice alla fine della sezione modelli per ottenere questo risultato:
 
    ```css
    "li": "<li><p></p></li>"
@@ -139,4 +138,3 @@ Per rimuovere qualsiasi feature indesiderata dalla barra degli strumenti, effett
 
 
 **Argomento padre:**[ Personalizza editor web](conf-web-editor.md)
-

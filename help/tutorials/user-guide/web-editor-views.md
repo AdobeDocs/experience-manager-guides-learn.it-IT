@@ -1,8 +1,7 @@
 ---
 title: Visualizzazioni dell’editor web
 description: Visualizza documenti in modalità di creazione, origine e anteprima. Scopri come visualizzare il contenuto in base ai filtri condizionali, visualizzare i markup di rilevamento delle modifiche ed esportare un argomento come PDF nelle guide AEM.
-exl-id: 86d8abc2-1d0e-4744-91c9-848c00447971
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '1449'
 ht-degree: 0%
@@ -47,7 +46,7 @@ Per ulteriori dettagli, vedi **Trova e sostituisci** descrizione della funzione 
 
 - La visualizzazione Origine offre numerose scelte rapide per spostarsi rapidamente all&#39;interno di un documento e lavorarvi. Nella tabella seguente sono elencate le azioni supportate e i relativi tasti di scelta rapida:
 
-  | Per effettuare questo collegamento | Usa questa scelta rapida |
+  | Per eseguire questa operazione | Usa questa scelta rapida |
   |----------|-----------------|
   | Aggiungere più cursori | **Ctrl**+Clic sinistro |
   | Più selezioni di testo non consecutive | **Ctrl**+Fare clic con il pulsante sinistro del mouse per trascinare e selezionare il testo |

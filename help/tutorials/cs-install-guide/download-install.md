@@ -1,13 +1,12 @@
 ---
 title: Scarica e installa
 description: Scopri come scaricare e installare
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '53'
-ht-degree: 3%
+ht-degree: 0%
 
 ---
-
 
 # Scarica e installa {#id1645E0O04MK}
 
@@ -24,5 +23,3 @@ Le guide AEM sono disponibili tramite l’archivio GitHub. Puoi scaricare le gui
 - **[Sostituzioni configurazione](download-install-additional-config-override.md)**
 
 - **[Recommendations per l&#39;ottimizzazione delle prestazioni](download-install-recommend-perf-optimiz.md)**
-
-

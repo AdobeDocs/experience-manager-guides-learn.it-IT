@@ -1,13 +1,12 @@
 ---
 title: Gestione delle versioni
 description: Scopri come gestire le versioni
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1498'
+source-wordcount: '1502'
 ht-degree: 0%
 
 ---
-
 
 # Gestione delle versioni {#id181GB000XY4}
 
@@ -169,4 +168,3 @@ Per eliminare le versioni precedenti, effettua le seguenti operazioni:
 >[!NOTE]
 >
 > Il rapporto viene scaricato nella posizione seguente: `/var/dxml/versionpurge`
-

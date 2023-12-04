@@ -1,11 +1,10 @@
 ---
 title: Tradurre il contenuto
 description: Scopri come tradurre i contenuti in più lingue.
-exl-id: c8dacbdc-4b0b-44ca-82d4-889cd83741ff
-source-git-commit: 3d12389dbd7458a74bb9b9ec488e83bf39c8c9bf
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 3%
+source-wordcount: '166'
+ht-degree: 4%
 
 ---
 
@@ -48,8 +47,7 @@ In questa sessione imparerai quanto segue:
 >
 > Le funzioni mostrate in questa sessione sono disponibili nelle seguenti versioni delle Guide AEM:
 > - On-prem 4.1 o versione successiva
-> - Cloud Services 2207 o successivi
-
+> - Cloud Service 2207 o successivi
 
 ## Contattaci
 

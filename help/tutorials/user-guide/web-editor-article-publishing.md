@@ -1,8 +1,7 @@
 ---
 title: Pubblicazione basata su articolo dall’editor web
 description: Scopri come pubblicare uno o più articoli dall’editor web. Genera output per uno o più argomenti in una mappa DITA nelle guide AEM.
-exl-id: b827c606-0d4b-4e7b-8a82-75b375dffe1a
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 0%

@@ -1,13 +1,12 @@
 ---
 title: Configurare i filtri per la finestra di dialogo Sfoglia file
 description: Scopri come configurare i filtri per la finestra di dialogo di navigazione dei file
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 0%
 
 ---
-
 
 # Configurare i filtri per la finestra di dialogo Sfoglia file {#id20CIL7009GN}
 
@@ -15,7 +14,7 @@ Quando si lavora nell&#39;editor Web, è necessario utilizzare la finestra di di
 
 Per aggiungere le opzioni di filtro dei file personalizzati alla finestra di dialogo Sfoglia file, effettua le seguenti operazioni:
 
-1. Accedi all’AEM e apri la modalità CRXDE Lite.
+1. Accedi all’AEM e apri la modalità CRXDE Liti.
 
 1. Passare al file di configurazione predefinito disponibile nella posizione seguente:
 
@@ -65,5 +64,3 @@ Per aggiungere le opzioni di filtro dei file personalizzati alla finestra di dia
    Quando avvii la finestra di dialogo Sfoglia file, vengono visualizzate le opzioni di filtro configurate nel file ui\_config.json.
 
    ![](assets/file-browse-custom-filters.png){width="300" align="left"}
-
-

@@ -1,10 +1,9 @@
 ---
 title: Guide alla pubblicazione di benchmark su AEMaaCS
 description: Comprendere i limiti di sistema per la pubblicazione su AEM Cloud.
-exl-id: cc6e38b9-6276-4147-beda-93f66368e15d
-source-git-commit: 06a55ef933f9e7941cef2337212a830413a478af
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '234'
 ht-degree: 8%
 
 ---
@@ -35,7 +34,7 @@ Per configurare il nuovo servizio di pubblicazione per qualsiasi ambiente cloud 
 | Native PDF | 3500 | 780 | Sì |
 | PDF (DITA-OT) | 11000 | 960 | Sì |
 | HTML5 | 3500 | 240 | No |
-| Personalizzati | 300 | 300 | No |
+| Personale | 300 | 300 | No |
 
 ## Punti chiave da ricordare
 

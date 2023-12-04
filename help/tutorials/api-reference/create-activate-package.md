@@ -1,13 +1,12 @@
 ---
 title: API REST per la creazione e l’attivazione dei pacchetti
 description: Scopri l’API REST per la creazione e l’attivazione dei pacchetti
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
-
 
 # API REST per la creazione e l’attivazione dei pacchetti {#id198CF0260Y4}
 

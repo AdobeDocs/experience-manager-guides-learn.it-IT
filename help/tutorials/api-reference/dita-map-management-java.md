@@ -1,13 +1,12 @@
 ---
 title: API basate su Java per l'utilizzo delle mappe DITA
 description: Scopri le API basate su Java per lavorare con le mappe DITA
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1027'
 ht-degree: 0%
 
 ---
-
 
 # API basate su Java per l&#39;utilizzo delle mappe DITA {#id175UB30E05Z}
 
@@ -154,4 +153,3 @@ public static List
 **Parametri**: |Nome|Tipo|Descrizione| ----|----|-----------| |`rootNode`|javax.jcr.Node|Il nodo principale per il quale devono essere recuperate tutte le dipendenze.|
 
 **Restituisce**: elenco di nodi contenente tutte le dipendenze del nodo principale.
-

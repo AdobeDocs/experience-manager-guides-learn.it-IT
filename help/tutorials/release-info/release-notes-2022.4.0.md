@@ -1,11 +1,10 @@
 ---
 title: Note sulla versione | Adobe Experience Manager Guides as a Cloud Service, versione di aprile 2022
 description: Versione di aprile di Adobe Experience Manager Guides as a Cloud Service
-exl-id: c735ba24-a803-454b-8723-57dacf90061b
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 3%
+source-wordcount: '809'
+ht-degree: 0%
 
 ---
 
@@ -14,27 +13,27 @@ ht-degree: 3%
 ## Effettua l’aggiornamento alla versione di aprile
 
 Aggiorna il tuo attuale [!DNL Adobe Experience Manager Guides] as a Cloud Service (in seguito denominato *[!DNL AEM Guides]as a Cloud Service*) eseguendo i seguenti passaggi:
-1. Consulta il codice Git del Cloud Services e passa al ramo configurato nella pipeline dei Cloud Services corrispondente all’ambiente da aggiornare.
-1. Aggiorna `<dox.version>` proprietà in `/dox/dox.installer/pom.xml` file del codice Git dei tuoi Cloud Services in 2022.4.133.
-1. Esegui il commit delle modifiche ed esegui la pipeline dei Cloud Services per l’aggiornamento alla versione di aprile di [!DNL AEM Guides] as a Cloud Service.
+1. Consulta il codice Git del Cloud Service e passa al ramo configurato nella pipeline dei Cloud Service corrispondente all’ambiente da aggiornare.
+1. Aggiorna `<dox.version>` proprietà in `/dox/dox.installer/pom.xml` file del codice Git dei tuoi Cloud Service in 2022.4.133.
+1. Esegui il commit delle modifiche ed esegui la pipeline dei Cloud Service per l’aggiornamento alla versione di aprile di [!DNL AEM Guides] as a Cloud Service.
 
 ## Matrice di compatibilità
 
 In questa sezione viene elencata la matrice di compatibilità per le applicazioni software supportate da [!DNL AEM Guides] Versione as a Cloud Service di aprile 2022.
 
-### Server di pubblicazione FrameMaker e FrameMaker
+### FRAMEMAKER e FRAMEMAKER PUBLISHING SERVER
 
 | FMPS | FrameMaker |
 | --- | --- |
 | Non compatibile | Aggiornamento 2020 4 e versioni successive |
-|  |  |
+| | |
 
 
 ### Connettore ossigeno
 
 | Versione cloud delle guide AEM | Finestre del connettore dell&#39;ossigeno | Connettore di ossigeno Mac |
 | --- | --- | --- |
-| 2022.4.0 | 2.5.6 | 2.5.6 |
+| 2022.4.0 | 2.5.6. | 2.5.6. |
 |  |  |  |
 
 *Le condizioni di base e quelle create nell’AEM sono supportate nelle versioni di FMPS a partire dal 2020.2.
@@ -81,17 +80,17 @@ Di seguito sono elencati i bug risolti in varie aree:
 * Impossibile modificare il titolo della baseline se una baseline viene creata in base ai criteri delle etichette. (9171)
 * Il processo di pubblicazione che utilizza una baseline si blocca in stato di &quot;attesa&quot; se lo stato della baseline diventa &quot;non riuscito&quot;. (9194)
 * La rimozione delle etichette sui riferimenti diretti comporta anche la rimozione delle etichette dai riferimenti indiretti. (9257)
-* La ricerca durante la digitazione causa richieste di ricerca indesiderate nella vista Archivio. (9307)
+* La ricerca durante la digitazione causa richieste di ricerca indesiderate nella vista Archivio. 9307
 * Si verificano dei problemi quando nel titolo della scheda viene utilizzata una parola chiave. (9318)
 * La linea di base non riesce quando si aggiunge un’etichetta con spazi. (9362)
 * L&#39;output del sito AEM non visualizza correttamente l&#39;elemento glossusage. (8936)
 * Si verifica un errore della console all’apertura di **Output** nell&#39;editor Web. (8715)
 * Il messaggio di errore visualizzato quando si pubblica un tipo di record manuale tramite Salesforce non è intuitivo. (8952)
-* L’impostazione Convalida con attributi condizione non viene aperta immediatamente, ma l’utente deve riaprire il file per visualizzare le convalide. (9300)
+* L’impostazione Convalida con attributi condizione non viene aperta immediatamente, ma l’utente deve riaprire il file per visualizzare le convalide. 9300
 * I metadati non possono essere rimossi dopo la pubblicazione di una mappa DITA con i metadati.  (9178)
 * Il pannello Traduzione è visibile anche all&#39;apertura della mappa DITA nell&#39;Editor mappa. (9053)
 * La DTD personalizzata definita dall&#39;utente non ha la precedenza sulla DTD DITA standard incorporata in DITA-OT. (9104)
-* Nella funzione Native PDF, il caricamento nei modelli non riesce per i file non DITA e non di immagine. (9070)
+* Nella funzione Native PDF, il caricamento nei modelli non riesce per i file non DITA e non di immagine. 9070
 * Il meccanismo di autorizzazione esegue due query invece di una, in alcuni scenari specializzati. (9221)
 * La pubblicazione dell&#39;output del sito AEM non riesce se si utilizza una DTD personalizzata. (9243)
 * La nota a piè di pagina &quot;Use-by-reference&quot; non scorre fino alla sezione della nota a piè di pagina nell&#39;output del sito AEM. (9234)

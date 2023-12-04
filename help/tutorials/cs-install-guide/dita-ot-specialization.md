@@ -1,13 +1,12 @@
 ---
 title: Usa specializzazione DITA-OT e DITA personalizzata
 description: Scopri come utilizzare la specializzazione DITA-OT e DITA personalizzata
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '1697'
 ht-degree: 0%
 
 ---
-
 
 # Usa specializzazione DITA-OT e DITA personalizzata {#id181GAJ0005Z}
 
@@ -45,11 +44,11 @@ Per caricare un plug-in DITA-OT personalizzato nell&#39;archivio AEM, effettuare
 
    - Eseguire l&#39;integratore \(per installare il plug-in personalizzato\) su un sistema operativo Mac/Linux per evitare problemi con i separatori di file. Poiché i sistemi operativi Windows e Linux dispongono di separatori di file diversi, il plug-in integrato nel sistema operativo Mac/Linux è compatibile sia con il programma di installazione di Windows che con quello di Linux.
    - Assicurati che `DITA-OT.ZIP` Il file contiene una cartella denominata &quot;DITA-OT&quot; che contiene tutti i plug-in e i file rilevanti.
-   - Controlla che `DITA-OT.ZIP` il file creato è di tipo mime: &quot;nt:file&quot; \(questo corrisponde al tipo principale di file ZIP quando viene caricato su AEM\). Utilizza uno strumento WebDAV o un’implementazione di codice per caricare questo file ZIP nel percorso desiderato in AEM. \(Non utilizzare Gestione pacchetti AEM per distribuire questo file ZIP poiché questo file ZIP non è un pacchetto di contenuti AEM ma solo un file di archivio.\)
+   - Controlla che `DITA-OT.ZIP` il file creato è di tipo mime: &quot;nt:file&quot; \(questo corrisponde al tipo principale di file ZIP quando viene caricato su AEM\). Utilizza uno strumento WebDAV o un’implementazione di codice per caricare il file ZIP nel percorso desiderato in AEM. \(Non utilizzare Gestione pacchetti AEM per distribuire questo file ZIP poiché questo file ZIP non è un pacchetto di contenuti AEM ma solo un file di archivio.\)
 
    >[!NOTE]
    >
-   > Si consiglia di non sovrascrivere il pacchetto DITA-OT predefinito. È necessario caricare il pacchetto DITA-OT personalizzato contenente la cartella plug-in /var/dxml/dita\_resources/dita-ot. Puoi eseguire questa operazione anche con la pipeline di Cloud Manager, vedi [Distribuzione a AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=it) per ulteriori informazioni, consulta la documentazione AEM.
+   > Si consiglia di non sovrascrivere il pacchetto DITA-OT predefinito. È necessario caricare il pacchetto DITA-OT personalizzato contenente la cartella plug-in /var/dxml/dita\_resources/dita-ot. Puoi eseguire questa operazione anche con la pipeline di Cloud Manager, vedi [Distribuzione a AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html) per ulteriori informazioni, consulta la documentazione AEM.
 
 1. Per creare un nuovo profilo, potete scegliere di modificare il profilo predefinito, crearne uno nuovo o duplicare le impostazioni del profilo predefinito.
 
@@ -71,7 +70,7 @@ Per caricare un plug-in DITA-OT personalizzato nell&#39;archivio AEM, effettuare
    | Argomenti PDF DITA-OT | Specificare gli argomenti della riga di comando elaborati dal plug-in DITA-OT personalizzato per la generazione dell&#39;output PDF. Per tutti i profili DITA-OT personalizzati, specificare il seguente argomento della riga di comando:`-lib plugins/org.dita.pdf2.fop/lib/` |
    | Argomenti AEM DITA-OT | \(*Facoltativo*\) Specificare gli argomenti della riga di comando personalizzati elaborati dal plug-in DITA-OT personalizzato per la generazione dell&#39;output del sito AEM. |
    | Percorsi libreria DITA-OT | \(*Facoltativo*\) Specificare i percorsi libreria aggiuntivi del plug-in DITA-OT. |
-   | XML build DITA-OT | \(*Facoltativo*\) Specificare il percorso dello script di generazione delle formiche personalizzato fornito con il plug-in DITA-OT personalizzato. Questo percorso è relativo alla directory DITA-OT del file system. |
+   | XML build DITA-OT | \(*Facoltativo*\) Specificare il percorso dello script di generazione della formica personalizzato fornito con il plug-in DITA-OT personalizzato. Questo percorso è relativo alla directory DITA-OT del file system. |
    | Cartella script ant DITA-OT | \(Facoltativo\) Specificare il percorso della cartella degli script di annotazione DITA-OT. Questo percorso è relativo alla directory DITA-OT del file system. |
    | Variabili di ambiente DITA-OT | *\(Facoltativo\)* Specificare le variabili di ambiente da passare al processo DITA-OT. Per impostazione predefinita, le Guide dell’AEM aggiungono quattro variabili: `ANT_OPTS`, `ANT_HOME`, `PATH`, e `CLASSPATH`. <br> È possibile riutilizzare una qualsiasi delle variabili di ambiente di sistema o delle proprietà esistenti per la creazione di nuove variabili di ambiente. Ad esempio, se hai `JAVA_HOME` variabile di sistema definita nel sistema e si desidera definire una nuova variabile di ambiente denominata `JAVA_BIN` che viene creato utilizzando `JAVA_HOME`. Quindi, puoi aggiungere la definizione di `JAVA_BIN` come:`JAVA_BIN= ${JAVA_HOME}/bin` <br> **Nota:** Puoi anche utilizzare le proprietà del sistema Java per generare le variabili di ambiente. Ad esempio, se lo script di avvio AEM definisce una proprietà del sistema Java `java.io.tmpdir` in una directory temporanea, è possibile utilizzare questa proprietà per definire una nuova variabile come: `${java.io.tmpdir}/fmdita/dita_ot`. <br> **Importante:** Per riutilizzare una variabile di sistema o una proprietà esistente, è necessario racchiuderla in `${}`. |
    | Sovrascrivi output DITA-OT | Scegliere se l&#39;output DITA-OT deve essere sovrascritto. Mantieni selezionata questa opzione. |
@@ -141,5 +140,3 @@ Per creare un nuovo profilo e configurarlo per l’utilizzo di DTD e XSD special
    Per ulteriori informazioni sulle altre proprietà disponibili nella pagina Profili, vedere la tabella delle proprietà in [Passaggio 6](#id17A9F0D075Z) del [Usa plug-in DITA-OT personalizzati](#id181NH1020L7) sezione.
 
 1. Clic **Fine** per salvare il profilo.
-
-

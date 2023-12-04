@@ -1,11 +1,10 @@
 ---
 title: Note sulla versione | Istruzioni per l’aggiornamento e problemi risolti in Adobe Experience Manager Guides, versione di ottobre 2023
 description: Scopri le correzioni di bug e come effettuare l’aggiornamento alla versione di ottobre 2023 di Adobe Experience Manager Guides as a Cloud Service
-exl-id: fb1b74d7-25f2-4a20-9248-44dfdabf553d
-source-git-commit: e8503e1441b7bc365d37c76ab9cf7b5f50374f10
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1017'
-ht-degree: 2%
+source-wordcount: '1045'
+ht-degree: 1%
 
 ---
 
@@ -90,7 +89,7 @@ Effettua i seguenti passaggi per indicizzare il contenuto esistente e utilizza i
 
 1. Esegui una richiesta POST al server \(con autenticazione corretta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Facoltativo: Puoi trasmettere percorsi specifici delle mappe per indicizzarle; per impostazione predefinita, tutte le mappe saranno indicizzate \|\| Ad esempio: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
-1. È inoltre possibile passare una cartella principale per indicizzare le mappe DITA di una cartella specifica (e delle relative sottocartelle). Esempio: `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Si noti che se vengono passati sia il parametro paths che il parametro root, viene considerato solo il parametro paths.
+1. È inoltre possibile passare una cartella principale per indicizzare le mappe DITA di una cartella specifica (e delle relative sottocartelle). Ad esempio: `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Si noti che se vengono passati sia il parametro paths che il parametro root, viene considerato solo il parametro paths.
 
 1. L’API restituisce un jobId. Per verificare lo stato del processo, puoi inviare una richiesta di GET con ID processo allo stesso endpoint: `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(Ad esempio: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
 
@@ -113,7 +112,7 @@ In questa sezione è elencata la matrice di compatibilità per le applicazioni s
 
 | Versione di AEM Guides as a Cloud | Finestre del connettore dell&#39;ossigeno | Connettore di ossigeno Mac | Modifica in finestre a ossigeno | Modifica in Oxygen Mac |
 | --- | --- | --- | --- | --- |
-| 2023.10.0 | 3,2-uuid 5 | 3,2-uuid 5 | 2.3 | 2.3 |
+| 2023.10.0 | 3,2-uuid 5 | 3,2-uuid 5 | 2,3 | 2,3 |
 |  |  |  |  |
 
 
@@ -127,7 +126,7 @@ In questa sezione è elencata la matrice di compatibilità per le applicazioni s
 
 Di seguito sono elencati i bug risolti in varie aree:
 
-### Authoring  
+### Authoring
 
 - Le ore pomeridiane non sono impostate nel **Data** per la creazione di baseline. (12712)
 - Impossibile incollare il codice JSON in `<codeblock>` dell&#39;editor Web. (12326)
@@ -165,4 +164,3 @@ Di seguito sono elencati i bug risolti in varie aree:
 L’Adobe ha identificato il seguente problema noto per la versione di ottobre 2023.
 
 - Ripubblicazione del frammento di contenuto non riuscita.
-

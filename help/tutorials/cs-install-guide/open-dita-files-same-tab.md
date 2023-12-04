@@ -1,13 +1,12 @@
 ---
 title: Aprire un argomento DITA o mappare i file nella stessa scheda
 description: Scopri come aprire un argomento DITA o mappare i file nella stessa scheda
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 0%
 
 ---
-
 
 # Aprire un argomento DITA o mappare i file nella stessa scheda {#id223HH0301J3}
 
@@ -33,4 +32,3 @@ Questa impostazione ha effetto sui seguenti punti da cui è possibile accedere a
 
 
 **Argomento padre:**[ Personalizza editor web](conf-web-editor.md)
-

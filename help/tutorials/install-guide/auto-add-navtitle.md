@@ -1,13 +1,12 @@
 ---
 title: Includi attributo @navtitle per impostazione predefinita
 description: Scopri come includere @navtitle attributo per impostazione predefinita
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 1%
 
 ---
-
 
 # Includi attributo @navtitle per impostazione predefinita {#id2115BC0J0XA}
 
@@ -45,4 +44,3 @@ Da includere `@navtitle` per impostazione predefinita, nelle proprietà dei file
 
 
 Con questa configurazione, ogni file di riferimento aggiunto a una mappa conterrà `@navtitle` per impostazione predefinita.
-

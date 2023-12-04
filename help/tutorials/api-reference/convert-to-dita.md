@@ -1,13 +1,12 @@
 ---
 title: API REST per il flusso di lavoro di conversione
 description: Scopri le API REST per il flusso di lavoro di conversione
-source-git-commit: 8707acf3ba01b7488eea6597c434da73a901d037
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
-
 
 # API REST per il flusso di lavoro di conversione {#id175UB30E05Z}
 
@@ -42,4 +41,3 @@ Metodo GET che converte i documenti InDesign in formato DITA.
 **Parametri**: |Nome|Tipo|Obbligatorio|Descrizione| ----|----|--------|-----------| |``operation``|String|Yes|Nome dell&#39;operazione chiamata. Il valore di questo parametro è ``idml2dita``. <br> **Nota:** Il valore non distingue tra maiuscole e minuscole.| |`inputFile`|String|Yes|Percorso assoluto dei file InDesign di origine nell&#39;archivio AEM.| |`destPath`|String|Yes|Percorso assoluto del percorso di destinazione in cui verranno salvati i file DITA convertiti.| |`createRev`|Booleano|Sì|Specifica se viene creata una revisione dei file \( `true`\) alla destinazione specificata o meno \( `false`\). Questa opzione viene considerata solo se il percorso di destinazione contiene una versione esistente dei file convertiti.|
 
 **Valori di risposta**: restituisce una risposta HTTP 200 \(Riuscito\).
-

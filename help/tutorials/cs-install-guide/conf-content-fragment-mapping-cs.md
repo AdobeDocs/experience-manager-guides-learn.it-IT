@@ -1,13 +1,12 @@
 ---
 title: Configura il mapping basato su JSON tra un argomento e un modello per frammenti di contenuto.
 description: Scopri come configurare la mappatura basata su JSON tra un argomento e un modello per frammenti di contenuto.
-source-git-commit: dd677257d94015d888705e4b6a43ae877e58be4b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
 
 ---
-
 
 # Creare una mappatura tra un argomento e un frammento di contenuto
 

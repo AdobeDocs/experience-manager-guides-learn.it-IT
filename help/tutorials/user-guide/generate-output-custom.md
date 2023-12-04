@@ -1,15 +1,14 @@
 ---
-title: Personalizzati
+title: Personale
 description: Scopri come creare un predefinito personalizzato dall’editor web e dal dashboard delle mappe. Configura un predefinito di output personalizzato nelle guide AEM.
-exl-id: 72e59379-b092-49a2-8cd6-a929fe880750
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '945'
 ht-degree: 2%
 
 ---
 
-# Personalizzati {#id205BEF00PX0}
+# Personale {#id205BEF00PX0}
 
 I predefiniti di output personalizzati sono disponibili per i plug-in DITA-OT personalizzati. È possibile creare un predefinito di output DITA-OT personalizzato per pubblicare l&#39;output utilizzando il plug-in DITA-OT personalizzato.
 

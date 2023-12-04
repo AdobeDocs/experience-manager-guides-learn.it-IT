@@ -1,13 +1,12 @@
 ---
 title: Appendice
 description: Scopri come preparare i documenti InDesign per la migrazione
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '2866'
+source-wordcount: '2852'
 ht-degree: 0%
 
 ---
-
 
 # Appendice {#id195AD0L60Y4}
 
@@ -249,7 +248,7 @@ Attributi utilizzati in `doctypeParaRule` sono spiegati di seguito:
 
 Le regole di ritorno a capo degli elementi definiscono i modi in cui gli elementi del documento in ingresso vengono racchiusi o spostati in un elemento predefinito in base a un insieme di valori di attributo.
 
-***`wrap`element***
+***`wrap`elemento***
 
 Questo è un elemento facoltativo. Il `wrap` elemento elenca gli elementi che verranno racchiusi o spostati. Il wrapping viene in genere utilizzato quando a una serie di elementi deve essere assegnato un elemento padre comune. Ad esempio, più `li` elementi racchiusi in un `ol` elemento. Inoltre, `wrap` può essere utilizzato per spostare elementi quali titoli per figure e tabelle.
 
@@ -341,7 +340,7 @@ L’esempio seguente mostra come spostare un `title` in un `table`:
 
 Il `paragraphStyleRule` Gli elementi sono descritti di seguito:
 
-** `paraRule` element**
+** `paraRule` elemento**
 
 Il `paraRule` L&#39;elemento è obbligatorio. Specifica le regole di mapping per tutti gli stili di paragrafo. In un documento InDesign, tutto il testo è contenuto all’interno di una sottostruttura di Stili di paragrafo, anche i paragrafi senza alcuno stile vengono denominati `\[No paragraph style\]`. Le parentesi quadre indicano un nome di stile InDesign incorporato.
 
@@ -376,7 +375,7 @@ Il `charRule` Gli elementi sono descritti di seguito:
 >
 > Non verrà eseguita alcuna mappatura per lo stile di carattere predefinito `[No character style]` quando `local="0"`, perché vengono rimossi durante la pre-elaborazione.
 
-***`charRule`element***
+***`charRule`elemento***
 
 Questo è un elemento facoltativo.
 
@@ -460,11 +459,11 @@ Il `mapDoctypeElemRule` L&#39;elemento è obbligatorio. Gli attributi di questo 
 
 Consulta [\#id194CG600NY4](#id194CG600NY4).
 
-**`elementRules`element**
+**`elementRules`elemento**
 
 Questo elenca tutti [\#id194CGC00SHS](#id194CGC00SHS)elementi.
 
-**`elementRule`element**
+**`elementRule`elemento**
 
 Il `elementRule` L&#39;elemento è obbligatorio. Si tratta delle regole di mappatura per tutti gli elementi sorgente. Sebbene un documento InDesign contenga elementi di stile non strutturati, questi vengono ignorati per i contenuti strutturati a meno che l’***modalità ibrida***&#39; elaborazione abilitata.
 
@@ -485,5 +484,3 @@ Attributi utilizzati in `elementRule` sono spiegati di seguito:
 - `@context`: questo attributo viene utilizzato per il collegamento a una regola di wrapping specifica quando è disponibile più di una scelta di wrapper. Esempio: il `li` può essere racchiuso in un `ol`o un `ul` elemento.
 
 - `@commentOut`: questo attributo abilita il wrapping dell’elemento target nei commenti XML in modo che le informazioni non vengano perse ma possano essere gestite manualmente dall’utente. Ciò è utile se il contenuto sorgente non può essere forzato a conformarsi alle regole della struttura DITA.
-
-

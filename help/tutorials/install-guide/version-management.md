@@ -1,13 +1,12 @@
 ---
 title: Gestione delle versioni
 description: Scopri come funziona la gestione delle versioni
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1657'
+source-wordcount: '1662'
 ht-degree: 0%
 
 ---
-
 
 # Gestione delle versioni {#id181GB000XY4}
 
@@ -25,7 +24,7 @@ In un ambiente multiuso, è inoltre importante assicurarsi che gli utenti non el
 
 Per creare una nuova versione del file caricato, effettua le seguenti operazioni:
 
-1. Apri la pagina Configurazione della console web Adobe Experience Manager.
+1. Aprire la pagina Configurazione della console Web Adobe Experience Manager.
 
    L&#39;URL predefinito per accedere alla pagina di configurazione è:
 
@@ -56,7 +55,7 @@ Un&#39;altra regola importante consiste nel garantire che i file estratti vengan
 
 Per abilitare queste funzioni, effettua le seguenti operazioni:
 
-1. Apri la pagina Configurazione della console web Adobe Experience Manager.
+1. Aprire la pagina Configurazione della console Web Adobe Experience Manager.
 
    L&#39;URL predefinito per accedere alla pagina di configurazione è:
 
@@ -89,7 +88,7 @@ Per abilitare queste funzioni, effettua le seguenti operazioni:
 
 Per consentire agli utenti di sovrascrivere il file durante il caricamento che è stato estratto da loro o da un altro utente, effettuare le seguenti operazioni:
 
-1. Apri la pagina Configurazione della console web Adobe Experience Manager.
+1. Aprire la pagina Configurazione della console Web Adobe Experience Manager.
 
    L&#39;URL predefinito per accedere alla pagina di configurazione è:
 
@@ -110,7 +109,7 @@ Per consentire agli utenti di sovrascrivere il file durante il caricamento che �
 
 Per impedire agli utenti di eliminare accidentalmente i file estratti da loro o da altri utenti, effettuare le seguenti operazioni:
 
-1. Apri la pagina Configurazione della console web Adobe Experience Manager.
+1. Aprire la pagina Configurazione della console Web Adobe Experience Manager.
 
    L&#39;URL predefinito per accedere alla pagina di configurazione è:
 
@@ -160,7 +159,7 @@ Utilizzando questa configurazione, puoi consentire o vietare a tutti gli utenti 
 
 Per definire chi può eliminare un file che contiene riferimenti o a cui fanno riferimento altri file, effettuare le seguenti operazioni:
 
-1. Apri la pagina Configurazione della console web Adobe Experience Manager.
+1. Aprire la pagina Configurazione della console Web Adobe Experience Manager.
 
    L&#39;URL predefinito per accedere alla pagina di configurazione è:
 
@@ -176,11 +175,11 @@ Per definire chi può eliminare un file che contiene riferimenti o a cui fanno r
 
    - allow\_unsafe\_delete\_for\_all: concedere a tutti gli utenti l’autorizzazione per eliminare i file. In questo caso, se il file\(s\) contiene riferimenti o vi fanno riferimento altri file, potete anche eliminarlo forzatamente. Prima di eliminare il file, viene visualizzato un messaggio con i riferimenti, è possibile annullare l&#39;operazione di eliminazione, rimuovere i riferimenti e infine eliminare il file\(s\). In alternativa, è possibile eliminare forzatamente il file\(s\) senza rimuovere i riferimenti.
 
-      ![](assets/allow_unsafe_delete-force-delete.PNG){width="550" align="left"}
+     ![](assets/allow_unsafe_delete-force-delete.PNG){width="550" align="left"}
 
    - allow\_unsafe\_delete\_for\_delete\_assets\_group: un amministratore o un utente appartenente al *delete-assets* gruppo è autorizzato a eliminare i file. Se un altro utente tenta di eliminare file con qualsiasi riferimento, non potrà eliminare tali file finché non saranno stati rimossi tutti i riferimenti. La schermata seguente viene visualizzata quando un utente che non dispone delle autorizzazioni necessarie tenta di eliminare dei file.
 
-      ![](assets/allow_unsafe_delete_for_delete_assets_group.PNG){width="550" align="left"}
+     ![](assets/allow_unsafe_delete_for_delete_assets_group.PNG){width="550" align="left"}
 
    - block\_unsafe\_delete\_for\_all: non consentire a tutti gli utenti \(inclusi gli amministratori\) di eliminare i file finché i riferimenti a e dal file\(s\) non vengono rimossi.
 
@@ -214,9 +213,9 @@ Per eliminare le versioni precedenti, effettua le seguenti operazioni:
 - **Mantieni versioni create nell&#39;intervallo di tempo \(in giorni\)**: inserisci l’età massima di una versione in giorni. Le versioni precedenti al numero di giorni specificato possono essere eliminate nel caso in cui siano soddisfatte altre condizioni di eliminazione. Ad esempio, se si immette 100, tutte le versioni create prima di 100 giorni vengono qualificate per l&#39;eliminazione nel caso in cui vengano soddisfatte altre condizioni di rimozione.
 - **Percorso**: seleziona il percorso del file o della cartella di cui desideri eliminare i file.
 
-   >[!NOTE]
-   >
-   > È possibile eliminare solo i file DITA.
+  >[!NOTE]
+  >
+  > È possibile eliminare solo i file DITA.
 
 1. Clic **Anteprima report di rimozione**.
 
@@ -239,4 +238,3 @@ Per eliminare le versioni precedenti, effettua le seguenti operazioni:
 >[!NOTE]
 >
 > Il report viene scaricato nella posizione seguente: /var/dxml/versionpurge
-

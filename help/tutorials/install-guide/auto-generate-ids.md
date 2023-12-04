@@ -1,13 +1,12 @@
 ---
 title: Genera automaticamente ID elemento
 description: Scopri come generare automaticamente gli ID degli elementi
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
-
 
 # Genera automaticamente ID elemento {#id20CIL40016I}
 
@@ -17,7 +16,7 @@ Le guide AEM forniscono semplici impostazioni di configurazione in cui è necess
 
 Per configurare gli elementi in modo che abbiano un ID generato automaticamente, effettua le seguenti operazioni:
 
-1. Apri la pagina Configurazione della console web Adobe Experience Manager.
+1. Aprire la pagina Configurazione della console Web Adobe Experience Manager.
 
    L&#39;URL predefinito per accedere alla pagina di configurazione è:
 
@@ -43,4 +42,3 @@ Per configurare gli elementi in modo che abbiano un ID generato automaticamente,
 
 
 **Argomento padre:**[ Personalizza editor web](conf-web-editor.md)
-

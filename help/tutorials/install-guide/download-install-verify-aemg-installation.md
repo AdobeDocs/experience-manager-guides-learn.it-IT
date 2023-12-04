@@ -1,13 +1,12 @@
 ---
 title: Verificare l'installazione delle guide AEM
 description: Scopri come verificare l’installazione delle guide AEM
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 0%
 
 ---
-
 
 # Verificare l&#39;installazione delle guide AEM {#id213BD030FBE}
 
@@ -33,4 +32,3 @@ Dopo aver installato le guide AEM, è necessario verificare se l&#39;installazio
 > È possibile prendere in considerazione una serie di raccomandazioni sull&#39;ottimizzazione delle prestazioni per migliorare le prestazioni del sistema. Consulta [Recommendations per l&#39;ottimizzazione delle prestazioni](download-install-recommend-perf-optimiz.md#) per i dettagli.
 
 **Argomento padre:**[ Scarica e installa](download-install.md)
-

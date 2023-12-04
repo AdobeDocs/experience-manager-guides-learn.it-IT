@@ -1,13 +1,12 @@
 ---
 title: API REST per funzionare con gli attributi condizionali
 description: Scopri l’API REST per lavorare con gli attributi condizionali
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 2%
+source-wordcount: '147'
+ht-degree: 0%
 
 ---
-
 
 # API REST per funzionare con gli attributi condizionali {#id175UB30E05Z}
 
@@ -40,4 +39,3 @@ http://*&lt;aem-guides-server>*: *&lt;port-number>*/bin/fmdita/folderprofiles
 
 **Valori di risposta**:\
 Restituisce una risposta HTTP 200 \(Riuscito\).
-

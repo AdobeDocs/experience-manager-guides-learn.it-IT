@@ -1,13 +1,12 @@
 ---
 title: Configurare i filtri per la finestra di dialogo Sfoglia file
 description: Scopri come configurare i filtri per la finestra di dialogo di navigazione dei file
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 0%
 
 ---
-
 
 # Configurare i filtri per la finestra di dialogo Sfoglia file {#id20CIL7009GN}
 
@@ -15,7 +14,7 @@ Quando si lavora nell&#39;editor Web, è necessario utilizzare la finestra di di
 
 Per aggiungere le opzioni di filtro dei file personalizzati alla finestra di dialogo Sfoglia file, effettua le seguenti operazioni:
 
-1. Per scaricare il file di configurazione dell’interfaccia utente, accedi ad Adobe Experience Manager come amministratore.
+1. Per scaricare il file di configurazione dell’interfaccia utente, accedi a Adobe Experience Manager come amministratore.
 
 1. Fai clic sul collegamento Adobe Experience Manager in alto e scegli **Strumenti**.
 1. Seleziona **Guide** dall&#39;elenco degli strumenti e fare clic su **Profili cartella**.
@@ -63,4 +62,3 @@ Per aggiungere le opzioni di filtro dei file personalizzati alla finestra di dia
 
 
 **Argomento padre:**[ Personalizza editor web](conf-web-editor.md)
-

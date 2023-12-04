@@ -1,10 +1,10 @@
 ---
 title: Configurare le impostazioni di generazione dell’output
 description: Scopri come configurare le impostazioni di generazione dell’output
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '5761'
-ht-degree: 1%
+source-wordcount: '5762'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ Puoi configurare e nascondere la scheda Baseline disponibile nel dashboard delle
 
 Il **Nascondi scheda Baseline** L&#39;opzione non è attivata per impostazione predefinita ed è necessario attivarla da configMgr. Per abilitare l’opzione per impostazione predefinita nell’editor web, effettua le seguenti operazioni:
 
-1. Apri la pagina Configurazione della console web Adobe Experience Manager.
+1. Aprire la pagina Configurazione della console Web Adobe Experience Manager.
 
    L&#39;URL predefinito per accedere alla pagina di configurazione è:
 
@@ -37,13 +37,13 @@ Il **Nascondi scheda Baseline** L&#39;opzione non è attivata per impostazione p
    > Questa configurazione è disabilitata per impostazione predefinita e la scheda Baseline è disponibile nel dashboard delle mappe.
 
 
-## Configura server di pubblicazione FrameMaker {#id1678G0Z0TN6}
+## Configura FrameMaker Publishing Server {#id1678G0Z0TN6}
 
-È possibile utilizzare FrameMaker Publishing Server \(FMPS\) per generare l&#39;output per il contenuto DITA. La configurazione di FMPS consente di generare output in più formati supportati da FMPS.
+È possibile utilizzare il FrameMaker Publishing Server \(FMPS\) per generare l&#39;output per il contenuto DITA. La configurazione di FMPS consente di generare output in più formati supportati da FMPS.
 
 >[!NOTE]
 >
-> Per generare l&#39;output utilizzando FMPS, è necessario che il server FMPS sia configurato. Per informazioni dettagliate sull&#39;installazione e la configurazione, vedere la Guida utente di FrameMaker Publishing Server.
+> Per generare l&#39;output utilizzando FMPS, è necessario che il server FMPS sia configurato. Per informazioni dettagliate sull&#39;installazione e la configurazione, vedere la Guida utente del FrameMaker Publishing Server.
 
 Per configurare le guide AEM per l’utilizzo di FMPS, aggiorna le seguenti proprietà della `com.adobe.fmdita.config.ConfigManager` nella console Web.
 
@@ -53,13 +53,13 @@ Per configurare le guide AEM per l’utilizzo di FMPS, aggiorna le seguenti prop
 
 | Proprietà | Descrizione |
 |--------|-----------|
-| Dominio di accesso al server di pubblicazione FrameMaker | Specificare il nome di dominio o il nome del gruppo di lavoro su cui è ospitato FrameMaker Publishing Server. In base alla versione di FMPS, fornisci il nome di dominio come:   **FMPS 2020**: indirizzo IP come 192.168.1.101 <br>- **FMPS 2019 e versioni precedenti**: indirizzo IP o nome di dominio |
-| URL server di pubblicazione FrameMaker | Specificare l&#39;URL del server di pubblicazione FrameMaker. In base alla versione FMPS, fornisci l’URL FMPS come:<br>- **FMPS 2020**: `http://<fmps_ip>:<port>` \(http://192.168.1.101:7000\) <br> - **FMPS 2019 e versioni precedenti**: `http://<fmps_ip>:<port>/fmserver/v1/` |
-| Versione FMPS | Specificare il numero di versione di FrameMaker Publishing Server. In base alla versione di FMPS, fornisci le informazioni sulla versione come: <br>- **FMPS 2020**: 2020 <br> - **FMPS 2019 e versioni precedenti**: 2019 o 2017 |
-| Nome utente e password di FrameMaker Publishing Server | Specificare il nome utente e la password per accedere a FrameMaker Publishing Server. |
-| Timeout FMPS | \(*Facoltativo*\) Specificare il tempo \(in secondi\) per il quale le guide AEM attendono una risposta da FrameMaker Publishing Server. Se non viene ricevuta alcuna risposta entro il tempo specificato, AEM Guides interrompe l&#39;attività di pubblicazione e l&#39;attività viene contrassegnata come non riuscita. <br> Valore predefinito: 300 secondi \(5 minuti\) |
-| URL AEM esterno | *\(Facoltativo\)* URL AEM in cui FrameMaker Publishing Server inserirà i file di output generati. Esempio: `http://<server-name>:<port>/`. |
-| Nome utente e password amministratore AEM | *\(Facoltativo\)* Il nome utente e la password di un amministratore della configurazione AEM. Verrà utilizzato da FrameMaker Publishing Server per comunicare con AEM. |
+| Dominio di accesso FrameMaker Publishing Server | Specificare il nome di dominio o il nome del gruppo di lavoro in cui è ospitato il FrameMaker Publishing Server. In base alla versione di FMPS, fornisci il nome di dominio come:   **FMPS 2020**: indirizzo IP come 192.168.1.101 <br>- **FMPS 2019 e versioni precedenti**: indirizzo IP o nome di dominio |
+| URL FRAMEMAKER PUBLISHING SERVER | Specifica l’URL del FrameMaker Publishing Server. In base alla versione FMPS, fornisci l’URL FMPS come:<br>- **FMPS 2020**: `http://<fmps_ip>:<port>` \(http://192.168.1.101:7000\) <br> - **FMPS 2019 e versioni precedenti**: `http://<fmps_ip>:<port>/fmserver/v1/` |
+| Versione FMPS | Specifica il numero di versione del FrameMaker Publishing Server. In base alla versione di FMPS, fornisci le informazioni sulla versione come: <br>- **FMPS 2020**: 2020 <br> - **FMPS 2019 e versioni precedenti**: 2019 o 2017 |
+| Nome utente e password FrameMaker Publishing Server | Specificare il nome utente e la password per accedere al FrameMaker Publishing Server. |
+| Timeout FMPS | \(*Facoltativo*\) Specifica il tempo \(in secondi\) per il quale le guide AEM attendono una risposta dal FrameMaker Publishing Server. Se non viene ricevuta alcuna risposta entro il tempo specificato, AEM Guides interrompe l&#39;attività di pubblicazione e l&#39;attività viene contrassegnata come non riuscita. <br> Valore predefinito: 300 secondi \(5 minuti\) |
+| URL AEM esterno | *\(Facoltativo\)* URL AEM in cui il FrameMaker Publishing Server inserirà i file di output generati. Esempio: `http://<server-name>:<port>/`. |
+| Nome utente e password amministratore AEM | *\(Facoltativo\)* Il nome utente e la password di un amministratore della configurazione AEM. Questo sarà usato dal FrameMaker Publishing Server per comunicare con l&#39;AEM. |
 | Timeout attesa esecuzione attività FMPS | Questa impostazione è applicabile solo a FMPS 2020. Specifica il tempo \(in secondi\) dopo il quale FMPS smetterà di attendere l&#39;esecuzione del processo. |
 
 ## Configurare la pubblicazione mista in un sito AEM esistente {#id1691I0V0MGR}
@@ -79,7 +79,7 @@ Per consentire la pubblicazione di contenuto DITA in un nodo predefinito, è nec
 
 Per configurare le proprietà del modello del sito esistente, effettua le seguenti operazioni:
 
-1. Accedi all’AEM e apri la modalità CRXDE Lite.
+1. Accedi all’AEM e apri la modalità CRXDE Liti.
 
 1. Passa al nodo di configurazione del modello del sito. Ad esempio, Guide AEM memorizza le configurazioni di modelli predefinite nel seguente nodo:
 
@@ -107,7 +107,7 @@ Tuttavia, per i siti esistenti, è necessario aggiungere manualmente `topicConte
 
 Per aggiungere i nodi richiesti al sito esistente, effettua le seguenti operazioni:
 
-1. Accedi all’AEM e apri la modalità CRXDE Lite.
+1. Accedi all’AEM e apri la modalità CRXDE Liti.
 
 1. Individua `jcr:content` all’interno del nodo del sito.
 
@@ -144,7 +144,7 @@ Il modello di progettazione predefinito fornito con le guide AEM consente di per
 
 Per specificare il modello di progettazione da utilizzare per la generazione di output del sito AEM, effettua le seguenti operazioni:
 
-1. Accedi all’AEM e apri la modalità CRXDE Lite.
+1. Accedi all’AEM e apri la modalità CRXDE Liti.
 
 1. Passare al nodo predefinito del modello struttura. La posizione del nodo predefinito del modello struttura è:
 
@@ -195,7 +195,7 @@ Quando si genera l’output del sito AEM, il modo in cui gli URL vengono generat
 
 Per configurare la generazione di URL nell’output del sito AEM, effettua le seguenti operazioni:
 
-1. Apri la pagina Configurazione della console web Adobe Experience Manager.
+1. Aprire la pagina Configurazione della console Web Adobe Experience Manager.
 
    L&#39;URL predefinito per accedere alla pagina di configurazione è:
 
@@ -228,7 +228,7 @@ Quando definisci un elenco di caratteri validi, ricorda che questi caratteri &qu
 
 Per configurare i caratteri speciali validi nei nomi di file e nell’output del sito AEM, effettua le seguenti operazioni:
 
-1. Apri la pagina Configurazione della console web Adobe Experience Manager.
+1. Aprire la pagina Configurazione della console Web Adobe Experience Manager.
 
    L&#39;URL predefinito per accedere alla pagina di configurazione è:
 
@@ -295,7 +295,7 @@ Per appiattire la struttura dei nodi del sito AEM, effettuare le seguenti operaz
 
 1. Abilitare la configurazione di appiattimento del nodo del sito in configMgr.
 
-   1. Apri la pagina Configurazione della console web Adobe Experience Manager.
+   1. Aprire la pagina Configurazione della console Web Adobe Experience Manager.
 
       L&#39;URL predefinito per accedere alla pagina di configurazione è:
 
@@ -332,7 +332,7 @@ Quando si genera l’output del sito AEM con **Elimina e** Crea ****selezionata 
 
 Per interrompere la creazione di una versione per le pagine da eliminare, effettua le seguenti operazioni:
 
-1. Apri la pagina Configurazione della console web Adobe Experience Manager.
+1. Aprire la pagina Configurazione della console Web Adobe Experience Manager.
 
    L&#39;URL predefinito per accedere alla pagina di configurazione è:
 
@@ -363,7 +363,7 @@ Le guide AEM consentono di trasmettere metadati personalizzati durante la pubbli
 
 Per aggiungere i metadati richiesti nel sistema, effettuare le seguenti operazioni:
 
-1. Accedi ad Adobe Experience Manager come amministratore.
+1. Accedi a Adobe Experience Manager come amministratore.
 
 1. Fai clic sul collegamento Adobe Experience Manager in alto e scegli **Strumenti**.
 
@@ -371,7 +371,7 @@ Per aggiungere i metadati richiesti nel sistema, effettuare le seguenti operazio
 
 1. Fai clic sul pulsante **Schemi metadati** affiancare.
 
-   Viene visualizzata la pagina Moduli schema metadati.
+   Viene visualizzata la pagina Forms schema metadati.
 
 1. Seleziona la **predefinito** dall&#39;elenco.
 
@@ -402,7 +402,7 @@ Il nuovo parametro ora viene visualizzato nella pagina Proprietà per tutte le m
 
 Successivamente, è necessario rendere disponibili i metadati personalizzati nella console delle mappe DITA. Per rendere disponibili i metadati personalizzati sulla dashboard delle mappe DITA, effettuare le seguenti operazioni:
 
-1. Accedi all’AEM e apri la modalità CRXDE Lite.
+1. Accedi all’AEM e apri la modalità CRXDE Liti.
 
 1. Accedere al file metadataList disponibile nel percorso seguente:
 
@@ -446,7 +446,7 @@ Le proprietà/metadati selezionati vengono trasmessi al processo di pubblicazion
 
 ## Personalizzare la mappatura degli elementi DITA con i componenti AEM {#id1679J600HEL}
 
-Gli elementi DITA nelle guide AEM sono mappati ai corrispondenti componenti AEM. Le guide AEM utilizzano questa mappatura nei flussi di lavoro, ad esempio pubblicazione e revisione, per convertire l’elemento DITA in un componente AEM corrispondente. La mappatura è definita nel `elementmapping.xml` , accessibile dalla modalità CRXDE Lite. Accedi al seguente URL in modalità CRXDE Lite:
+Gli elementi DITA nelle guide AEM sono mappati ai corrispondenti componenti AEM. Le guide AEM utilizzano questa mappatura nei flussi di lavoro, ad esempio pubblicazione e revisione, per convertire l’elemento DITA in un componente AEM corrispondente. La mappatura è definita nel `elementmapping.xml` , accessibile dalla modalità CRXDE Liti. Accedi al seguente URL in modalità CRXDE Liti:
 
 `/libs/fmdita/config/elementmapping.xml`
 
@@ -638,7 +638,7 @@ Le guide AEM forniscono le `apps.fmdita.dashboard-extn` categoria per personaliz
 
 >[!NOTE]
 >
-> Per ulteriori informazioni sulla creazione della libreria client AEM, consulta [Utilizzo delle librerie lato client](https://helpx.adobe.com/it/experience-manager/6-4/sites/developing/using/clientlibs.html).
+> Per ulteriori informazioni sulla creazione della libreria client AEM, consulta [Utilizzo delle librerie lato client](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/clientlibs.html).
 
 ## Gestione della rappresentazione delle immagini durante la generazione dell&#39;output {#id177BF0G0VY4}
 
@@ -692,7 +692,7 @@ La configurazione della funzione di rimozione della cronologia influisce sulla g
 
 Per impostare un giorno e un’ora per eliminare la cronologia e i registri di output, effettua le seguenti operazioni:
 
-1. Apri la pagina Configurazione della console web Adobe Experience Manager.
+1. Aprire la pagina Configurazione della console Web Adobe Experience Manager.
 
    L&#39;URL predefinito per accedere alla pagina di configurazione è:
 
@@ -726,4 +726,3 @@ Per impostare un giorno e un’ora per eliminare la cronologia e i registri di o
 Le guide AEM consentono di configurare la dimensione del pool dei processi di generazione dell&#39;output che controlla il numero di processi di generazione dell&#39;output eseguiti contemporaneamente. Per impostazione predefinita, la dimensione del pool di processi è impostata sul numero di core di elaborazione disponibili nel sistema più uno. Puoi cambiare questo valore in 1 per la pubblicazione sequenziale. In questo caso, viene eseguita la prima attività di pubblicazione e l’attività di pubblicazione successiva viene memorizzata nella coda di pubblicazione.
 
 Per modificare la dimensione del pool di elaborazione della generazione dell&#39;output, aggiornare **Generation Pool Size** impostazione in `com.adobe.fmdita.publish.manager.PublishThreadManagerImpl` pacchetto.
-

@@ -1,13 +1,12 @@
 ---
 title: Configurare e personalizzare i flussi di lavoro
 description: Scopri come configurare e personalizzare i flussi di lavoro
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1387'
+source-wordcount: '1362'
 ht-degree: 1%
 
 ---
-
 
 # Configurare e personalizzare i flussi di lavoro {#id181AI0OJ0RO}
 
@@ -153,4 +152,3 @@ generatedPath;
 ```
 
 Dopo aver creato lo script, chiama lo script personalizzato nel flusso di lavoro. Quindi, a seconda delle tue esigenze, puoi chiamare gli altri processi del flusso di lavoro. Dopo aver progettato il flusso di lavoro personalizzato, chiama *Finalizza post-generazione* come ultimo passaggio del processo di workflow. Il *Finalizza post-generazione* Il passaggio assicura che lo stato dell&#39;attività di generazione dell&#39;output venga aggiornato a *Completato* al completamento del processo di generazione dell’output. Dopo aver creato un flusso di lavoro di generazione post-output personalizzato, puoi configurarlo con uno qualsiasi dei predefiniti di generazione di output. Seleziona il flusso di lavoro richiesto in *Esegui flusso di lavoro di post-generazione* del predefinito richiesto. Quando si esegue un&#39;attività di generazione output utilizzando il predefinito di output configurato, lo stato dell&#39;attività \(nella scheda Output\) diventa *Post-elaborazione*.
-

@@ -1,13 +1,12 @@
 ---
 title: Carica contenuto DITA esistente
 description: Scopri come caricare contenuto DITA esistente
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1200'
+source-wordcount: '1201'
 ht-degree: 0%
 
 ---
-
 
 # Carica contenuto DITA esistente {#id176FF000JUI}
 
@@ -40,9 +39,9 @@ Per utilizzare WinSCP per caricare i file, effettuare le seguenti operazioni:
 
 ## Usa FrameMaker
 
-Adobe FrameMaker viene fornito con un potente connettore AEM che consente di caricare facilmente in AEM i documenti esistenti DITA e FrameMaker \(.book e .fm\). Puoi utilizzare varie funzionalità di caricamento dei file, ad esempio il caricamento di un singolo file e di una cartella completa con o senza dipendenze \(come riferimenti a contenuti, riferimenti incrociati e elementi grafici\).
+Adobe FrameMaker viene fornito con un potente connettore AEM che consente di caricare facilmente in AEM i documenti DITA e di altro FrameMaker esistenti \(.book e .fm\). Puoi utilizzare varie funzionalità di caricamento dei file, ad esempio il caricamento di un singolo file e di una cartella completa con o senza dipendenze \(come riferimenti a contenuti, riferimenti incrociati e elementi grafici\).
 
-Per utilizzare il connettore AEM di FrameMaker per caricare il contenuto, effettuare le seguenti operazioni:
+Per utilizzare il connettore AEM del FrameMaker per caricare il contenuto, effettua le seguenti operazioni:
 
 1. Avvia FrameMaker.
 
@@ -72,7 +71,7 @@ Quando importi il contenuto, non è necessario che i nomi dei file siano basati 
 
 Effettua le seguenti operazioni per controllare i nomi dei file in base a un pattern UUID e assegnare UUID ai file a cui non è stato assegnato un UUID:
 
-1. Apri la pagina Configurazione della console web Adobe Experience Manager.
+1. Aprire la pagina Configurazione della console Web Adobe Experience Manager.
 
    L&#39;URL predefinito per accedere alla pagina di configurazione è:
 
@@ -175,4 +174,3 @@ Specifica i seguenti parametri per aggiungere informazioni sui metadati:
 
 
 **Argomento padre:**[ Migrare i contenuti esistenti](migrate-content.md)
-

@@ -1,13 +1,12 @@
 ---
 title: Genera automaticamente ID elemento
 description: Scopri come generare automaticamente gli ID degli elementi
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '284'
 ht-degree: 1%
 
 ---
-
 
 # Genera automaticamente ID elemento {#id20CIL40016I}
 
@@ -28,4 +27,3 @@ Per configurare un pattern per l’ID generato automaticamente, crea un file di 
 | `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.pattern` | Il valore predefinito per questo campo è impostato su `${elementName}_${id}`. Il `${elementName}` viene sostituito con il nome dell’elemento. Il `${id}` variabile genera un numero sequenziale per l’elemento. Ad esempio, se assegni all&#39;elemento paragrafo gli ID generati automaticamente, il primo paragrafo dell&#39;argomento o del documento otterrà un ID come p\_1, il paragrafo successivo otterrà p\_2 e così via. Tuttavia, in un documento diverso, il processo di generazione ID viene riavviato. Ciò significa che in un documento diverso, gli ID come p\_1 e p\_2 possono essere assegnati agli elementi di paragrafo. **Valore predefinito**: ``${elementName}_${id}`` |
 
 **Argomento padre:**[ Personalizza editor web](conf-web-editor.md)
-

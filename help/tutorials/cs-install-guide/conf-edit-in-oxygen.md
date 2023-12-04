@@ -1,13 +1,12 @@
 ---
 title: Configurare l’opzione da modificare in Ossigeno
 description: Scopri come configurare l’opzione da modificare nel plug-in del connettore ossigeno.
-source-git-commit: a209e46e41055348402292e20c229890cd0c01cf
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 1%
 
 ---
-
 
 # Configurare l’opzione da modificare in Ossigeno
 
@@ -26,4 +25,3 @@ Utilizzare le istruzioni fornite in [Sostituzioni configurazione](download-insta
 > Questa configurazione è disabilitata per impostazione predefinita e l’opzione non è disponibile nell’editor web.
 
 **Argomento padre:**[ Personalizza editor web](conf-web-editor.md)
-

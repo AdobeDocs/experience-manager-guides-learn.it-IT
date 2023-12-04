@@ -1,13 +1,12 @@
 ---
 title: Configurare la richiesta di archiviazione di un file alla chiusura
 description: Scopri come configurare la richiesta di archiviazione di un file alla chiusura
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 1%
 
 ---
-
 
 # Configurare la richiesta di archiviazione di un file alla chiusura {#id222HC040PE8}
 
@@ -24,4 +23,3 @@ Quando questa configurazione è abilitata, il **Sblocca il file** è selezionata
 Per ulteriori dettagli, consulta *Scenari di chiusura e salvataggio dei file* nella guida Utilizzo delle guide di Adobe Experience Manager as a Cloud Service.
 
 **Argomento padre:**[ Personalizza editor web](conf-web-editor.md)
-

@@ -1,13 +1,12 @@
 ---
 title: Aggiungere e gestire le citazioni nel contenuto
 description: Aggiungi e gestisci le citazioni nelle guide AEM. Scopri come applicare, importare, filtrare, cercare, modificare lo stile delle citazioni, modificare, visualizzare in anteprima, inserire, eliminare e generare l’output di contenuto con le citazioni.
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1877'
+source-wordcount: '1887'
 ht-degree: 0%
 
 ---
-
 
 # Aggiungere e gestire le citazioni nel contenuto
 
@@ -133,7 +132,7 @@ Nel menu a discesa sono disponibili le seguenti opzioni:
 | MLA | APA | Chicago | IEEE | AHA |
 |---|---|---|---|---|
 | Stile associazione lingua moderna <br> | Stile associazione psicologica americana | Manuale di stile di Chicago | Stile dell&#39;Institute for Electrical and Electronics Engineers | Stile American Heart Association |
-| Esempio:<br> Crawford, Claire, ecc. *Contenuto emotivo di ricordi scuri*.Edited by Memory, vol 16, 2010, Amsterdam. | Esempio: <br> Crawford, C., J., &amp; , C. (2010) *Contenuto emotivo di ricordi scuri* (505-16 ed.) 10.1080/ 09658210902067289 | Esempio: <br> Crawford, Claire, ecc. *Contenuto emotivo di ricordi scuri*. 505-16, 2010. | Esempio: <br> C. Crawford, J. , e C. , *Contenuto emotivo di ricordi scuri*. Amsterdam, 2010. | Esempio: <br> C. Crawford, J. , e C. , *Contenuto emotivo di ricordi scuri*. Amsterdam, 2010. |
+| Esempio:<br> Crawford, Claire, ecc. *Contenuto emotivo di ricordi scuri*.Edited by Memory, vol 16, 2010, Amsterdam. | Esempio: <br> Crawford, C., J., &amp; , C. (2010) *Contenuto emotivo di ricordi scuri* (505-16 ed.) 10,1080/09658210902067289 | Esempio: <br> Crawford, Claire, ecc. *Contenuto emotivo di ricordi scuri*. 505-16, 2010. | Esempio: <br> C. Crawford, J. , e C. , *Contenuto emotivo di ricordi scuri*. Amsterdam, 2010. | Esempio: <br> C. Crawford, J. , e C. , *Contenuto emotivo di ricordi scuri*. Amsterdam, 2010. |
 
 
 ## Modificare una citazione
@@ -142,7 +141,7 @@ Per modificare la citazione, effettuare le seguenti operazioni:
 
 1. Passa il puntatore del mouse sul nome della citazione dall’elenco. Seleziona  ![](images/options.svg) il **Opzioni** icona.
 
-1. Seleziona **Modifica**.
+1. Seleziona  **Modifica**.
 
 Il **Modifica citazione** viene visualizzata.
 

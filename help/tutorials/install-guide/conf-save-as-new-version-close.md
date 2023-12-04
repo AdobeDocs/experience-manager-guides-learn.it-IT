@@ -1,13 +1,12 @@
 ---
 title: Configura richiesta di salvataggio come nuova versione alla chiusura
 description: Scopri come configurare la richiesta di salvataggio come nuova versione alla chiusura
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 0%
 
 ---
-
 
 # Configura richiesta di salvataggio come nuova versione alla chiusura {#id222HBI00XXA}
 
@@ -15,7 +14,7 @@ Quando l&#39;utente tenta di chiudere un file aperto nell&#39;editor Web utilizz
 
 Il **Salva come nuova versione** La casella di controllo non è attivata per impostazione predefinita ed è necessario attivarla da configMgr. Per abilitare l’opzione per impostazione predefinita nell’editor web, effettua le seguenti operazioni:
 
-1. Apri la pagina Configurazione della console web Adobe Experience Manager.
+1. Aprire la pagina Configurazione della console Web Adobe Experience Manager.
 
    L&#39;URL predefinito per accedere alla pagina di configurazione è:
 
@@ -35,4 +34,3 @@ Quando questa opzione è selezionata, il **Salva come nuova versione** è selezi
 Per ulteriori dettagli, consulta *Scenari di chiusura e salvataggio dei file* nella guida Utilizzo delle guide di Adobe Experience Manager as a Cloud Service.
 
 **Argomento padre:**[ Personalizza editor web](conf-web-editor.md)
-

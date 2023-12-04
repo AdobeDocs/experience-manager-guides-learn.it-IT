@@ -1,10 +1,10 @@
 ---
 title: Note sulla versione | Istruzioni per l’aggiornamento e problemi risolti in Adobe Experience Manager Guides versione 4.3.1
 description: Scopri le correzioni di bug e come effettuare l’aggiornamento alle versioni 4.3.1 delle guide di Adobe Experience Manager
-source-git-commit: eb22fe5d4872b0e5c6594869193799fd9e64d95d
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1216'
-ht-degree: 5%
+source-wordcount: '1306'
+ht-degree: 1%
 
 ---
 
@@ -61,8 +61,8 @@ Per ulteriori dettagli, vedi *Requisiti tecnici* nella guida Installare e config
 
 | Versione | Finestre del connettore dell&#39;ossigeno | Connettore di ossigeno Mac | Modifica in finestre a ossigeno | Modifica in Oxygen Mac |
 | --- | --- | --- |--- |--- |
-| 4.3.1 (non UUID) | 2.3-regular-5 | 2.3-regular-5 | 1.6 | 1.6 |
-| 4.3.1 (UUID) | 3.2-uuid-5 | 3.2-uuid-5 | 2.3 | 2.3 |
+| 4.3.1 (non UUID) | 2.3-regular-5 | 2.3-regular-5 | 1,6 | 1,6 |
+| 4.3.1 (UUID) | 3.2-uuid-5 | 3.2-uuid-5 | 2,3 | 2,3 |
 |  |  |   |
 
 
@@ -77,7 +77,7 @@ Per ulteriori dettagli, vedi *Requisiti tecnici* nella guida Installare e config
 
 Di seguito sono elencati i bug risolti in varie aree:
 
-### Authoring  
+### Authoring
 
 - Le ore pomeridiane non sono impostate nel **Data** per la creazione di baseline. (12712)
 - Impossibile incollare il codice JSON in `<codeblock>` dell&#39;editor Web. (12326)

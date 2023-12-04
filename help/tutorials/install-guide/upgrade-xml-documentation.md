@@ -1,11 +1,10 @@
 ---
 title: Aggiornare le guide di Adobe Experience Manager
 description: Scopri come aggiornare le guide di Adobe Experience Manager
-exl-id: f058b39f-7408-4874-942b-693e133886cf
-source-git-commit: 6078cb1856ba45524e46165d546daf4109e9b2b2
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '4349'
-ht-degree: 1%
+source-wordcount: '4470'
+ht-degree: 0%
 
 ---
 
@@ -457,7 +456,7 @@ Effettua le seguenti operazioni per indicizzare il contenuto esistente e utilizz
 
 - Esegui una richiesta POST al server \(con autenticazione corretta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Facoltativo: Puoi trasmettere percorsi specifici delle mappe per indicizzarle; per impostazione predefinita, tutte le mappe saranno indicizzate \|\| Ad esempio: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
-- È inoltre possibile passare una cartella principale per indicizzare le mappe DITA di una cartella specifica (e delle relative sottocartelle). Esempio: `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Si noti che se vengono passati sia il parametro paths che il parametro root, viene considerato solo il parametro paths.
+- È inoltre possibile passare una cartella principale per indicizzare le mappe DITA di una cartella specifica (e delle relative sottocartelle). Ad esempio: `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Si noti che se vengono passati sia il parametro paths che il parametro root, viene considerato solo il parametro paths.
 
 - L’API restituirà un jobId. Per verificare lo stato del processo, puoi inviare una richiesta di GET con ID processo allo stesso endpoint: `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(Ad esempio: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
 
@@ -522,7 +521,7 @@ Effettua le seguenti operazioni per la post-elaborazione del contenuto esistente
 1. Ripristina il valore predefinito o esistente precedente di `queryLimitReads` se è stato modificato nel passaggio 1.
 
 
-4.3.1
+4.3.1.
 
 ## Aggiornamento alla versione 4.3.1 {#upgrade-version-4-3-1}
 

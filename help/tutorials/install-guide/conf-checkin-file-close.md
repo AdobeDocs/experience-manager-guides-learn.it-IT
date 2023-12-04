@@ -1,13 +1,12 @@
 ---
 title: Configurare la richiesta di archiviazione di un file alla chiusura
 description: Scopri come configurare la richiesta di archiviazione di un file alla chiusura
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 1%
 
 ---
-
 
 # Configurare la richiesta di archiviazione di un file alla chiusura {#id222HC040PE8}
 
@@ -15,7 +14,7 @@ Quando l&#39;utente tenta di chiudere un file aperto nell&#39;editor Web utilizz
 
 Il **Sblocca il file** La casella di controllo non è attivata per impostazione predefinita ed è necessario attivarla da configMgr. Per abilitare l’opzione per impostazione predefinita nell’editor web, effettua le seguenti operazioni:
 
-1. Apri la pagina Configurazione della console web Adobe Experience Manager.
+1. Aprire la pagina Configurazione della console Web Adobe Experience Manager.
 
    L&#39;URL predefinito per accedere alla pagina di configurazione è:
 
@@ -35,4 +34,3 @@ Quando questa configurazione è abilitata, il **Sblocca il file** è selezionata
 Per ulteriori dettagli, consulta *Scenari di chiusura e salvataggio dei file* nella guida Utilizzo delle guide di Adobe Experience Manager as a Cloud Service.
 
 **Argomento padre:**[ Personalizza editor web](conf-web-editor.md)
-

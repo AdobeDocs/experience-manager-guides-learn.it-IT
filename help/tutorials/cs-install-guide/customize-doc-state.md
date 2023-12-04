@@ -1,13 +1,12 @@
 ---
 title: Configurare gli stati dei documenti
 description: Scopri come configurare gli stati dei documenti
-source-git-commit: e3b2fc8c96ce535bb91e7bce935720aa389a917a
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 0%
 
 ---
-
 
 # Configurare gli stati dei documenti {#id181GB0400UI}
 
@@ -161,7 +160,7 @@ Se non si desidera modificare manualmente gli stati del documento, è possibile 
 
 Le guide AEM forniscono un flusso di lavoro di approvazione dei documenti che consente di controllare il ciclo di vita del processo di sviluppo dei documenti. Per abilitare il flusso di lavoro di approvazione, effettua le seguenti operazioni:
 
-1. Per scaricare il file di configurazione dell’interfaccia utente, accedi ad Adobe Experience Manager come amministratore.
+1. Per scaricare il file di configurazione dell’interfaccia utente, accedi a Adobe Experience Manager come amministratore.
 
 1. Fai clic sul collegamento Adobe Experience Manager in alto e scegli **Strumenti**.
 1. Seleziona **Guide** dall&#39;elenco degli strumenti e fare clic su **Profili cartella**.
@@ -178,4 +177,3 @@ Le guide AEM forniscono un flusso di lavoro di approvazione dei documenti che co
    ```
 
 1. Salva il file e caricalo.
-

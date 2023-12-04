@@ -3,8 +3,7 @@ title: Escludere dalla traduzione i paragrafi di un argomento
 description: Escludere i paragrafi di un argomento dalla traduzione
 feature: Translation
 role: User
-exl-id: 21e41bb4-52f3-4352-92d9-4a60f636de99
-source-git-commit: 6ae539eff23b1fd5f1d74878b03cf6dd5b20a57d
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 0%
@@ -17,7 +16,7 @@ Il modo più semplice è utilizzare translation=no attribute.
 
 + Gli autori possono inserire l’attributo aggiuntivo come **translation=no** sui paragrafi che non desiderano tradurre. Il fornitore di traduzione deve essere informato e può eseguire la configurazione alla sua fine per ignorare il testo con questo attributo.
 + La traduzione automatica OOTB (con connettore di traduzione Microsoft di prova) presenta lo stesso comportamento.
-+ Test con Microsoft Translation : se definisci **translate=no** a livello di paragrafo, quindi non traduce l’intero paragrafo. Questo attributo può essere definito in qualsiasi elemento e il contenuto all’interno di tale elemento non verrà tradotto.
++ Test con Microsoft Translation : se definisci **translate=no** a livello di paragrafo, quindi non traduce l&#39;intero paragrafo. Questo attributo può essere definito in qualsiasi elemento e il contenuto all’interno di tale elemento non verrà tradotto.
 
 
 Ecco alcune schermate che lo spiegano ulteriormente:

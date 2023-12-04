@@ -1,10 +1,9 @@
 ---
 title: Utilizzare l’Editor di mappe avanzato
 description: Scopri come utilizzare l’editor di mappe avanzato nelle guide AEM. Conoscere le funzioni dell’Editor mappe avanzato. Modificare gli argomenti tramite una mappa DITA e utilizzare le visualizzazioni Layout, Autore e Anteprima.
-exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
-source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '3707'
+source-wordcount: '3695'
 ht-degree: 0%
 
 ---
@@ -164,7 +163,7 @@ Ottiene un blocco sul file mappa e lo rilascia. Se nel file di mappa sono presen
 
 Per ulteriori dettagli sull’unione di contenuto di una versione diversa dello stesso file o di un file diverso, consulta [Unisci](web-editor-features.md#id205DF04E0HS) nell&#39;editor Web.
 
-**Cronologia delle versioni** - ![](images/version-history-web-editor-ico.svg)
+**Cronologia versioni** - ![](images/version-history-web-editor-ico.svg)
 
 Controlla le versioni e le etichette disponibili nell’argomento attivo e ripristina qualsiasi versione dall’editor stesso.
 

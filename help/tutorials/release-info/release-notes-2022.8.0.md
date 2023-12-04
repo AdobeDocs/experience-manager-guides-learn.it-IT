@@ -1,11 +1,10 @@
 ---
 title: Note sulla versione | Adobe Experience Manager Guides as a Cloud Service, versione di agosto 2022
 description: Versione di agosto di Adobe Experience Manager Guides as a Cloud Service
-exl-id: a01bfe8a-4715-438c-bb94-aa1d31f6662d
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1156'
-ht-degree: 2%
+source-wordcount: '1169'
+ht-degree: 0%
 
 ---
 
@@ -13,21 +12,21 @@ ht-degree: 2%
 
 ## Effettua l’aggiornamento alla versione di agosto
 
-Aggiorna le guide Adobe Experience Manager as a Cloud Service correnti (in seguito denominate *Guide AEM as a Cloud Service*) eseguendo i seguenti passaggi:
-1. Consulta il codice Git del Cloud Services e passa al ramo configurato nella pipeline dei Cloud Services corrispondente all’ambiente da aggiornare.
-1. Aggiorna `<dox.version>` proprietà in `/dox/dox.installer/pom.xml` file del codice Git dei tuoi Cloud Services in 2022.8.167.
-1. Apporta le modifiche ed esegui la pipeline dei Cloud Services per l’aggiornamento alla versione di agosto dell’as a Cloud Service AEM Guides.
+Aggiorna le guide Adobe Experience Manager correnti as a Cloud Service (in seguito denominate *Guide AEM as a Cloud Service*) eseguendo i seguenti passaggi:
+1. Consulta il codice Git del Cloud Service e passa al ramo configurato nella pipeline dei Cloud Service corrispondente all’ambiente da aggiornare.
+1. Aggiorna `<dox.version>` proprietà in `/dox/dox.installer/pom.xml` file del codice Git dei tuoi Cloud Service in 2022.8.167.
+1. Apporta le modifiche ed esegui la pipeline dei Cloud Service per l’aggiornamento alla versione di agosto dell’as a Cloud Service AEM Guides.
 
 ## Matrice di compatibilità
 
 In questa sezione è elencata la matrice di compatibilità per le applicazioni software supportate dalla versione di agosto 2022 delle guide AEM as a Cloud Service.
 
-### Server di pubblicazione FrameMaker e FrameMaker
+### FRAMEMAKER e FRAMEMAKER PUBLISHING SERVER
 
 | FMPS | FrameMaker |
 | --- | --- |
 | Non compatibile | Aggiornamento 2020 4 e versioni successive |
-|  |  |
+| | |
 
 *Le condizioni di base e quelle create nell’AEM sono supportate nelle versioni di FMPS a partire dal 2020.2.
 
@@ -35,7 +34,7 @@ In questa sezione è elencata la matrice di compatibilità per le applicazioni s
 
 | Versione di AEM Guides as a Cloud | Finestre del connettore dell&#39;ossigeno | Connettore di ossigeno Mac |
 | --- | --- | --- |
-| 2022.8.0 | 2.7.5 | 2.7.5 |
+| 2022.8.0 | 2.7.5. | 2.7.5. |
 |  |  |  |
 
 
@@ -97,7 +96,7 @@ Di seguito sono elencati i bug risolti in varie aree:
 * L&#39;elemento Frontmatter aggiunto a una bookmap DITA non funziona correttamente. (9507)
 * Native PDF | Viene generato un PDF vuoto quando si utilizza **Generazione rapida** per più file quando viene selezionato un elemento vuoto. (9822)
 * Native PDF | L’appendice è pubblicata come capitolo nell’output PDF. (9829)
-* Native PDF | Quando si modifica un’immagine SVG, questa non viene visualizzata come aggiornata nel layout della pagina. (9069)
+* Native PDF | Quando si modifica un’immagine SVG, questa non viene visualizzata come aggiornata nel layout della pagina. 9069
 * Un carattere trattino regolare viene inserito quando `Nonbreaking Hyphen` viene inserito utilizzando il **Inserisci carattere speciale** . (8919)
 * XML Editor non mostra le immagini aggiornate negli argomenti se sono state modificate. (9500)
 * Durante la pubblicazione dell’output tramite l’Editor, i predefiniti non possono essere eliminati dal **Output** scheda. (9100)
@@ -120,11 +119,11 @@ Utilizza la soluzione alternativa specificata per i seguenti problemi noti:
 
 * La vista Layout non è visibile nell&#39;Editor mappa.
 
-   **Soluzione alternativa**: aggiorna ui_config.json nel Profilo cartella.
+  **Soluzione alternativa**: aggiorna ui_config.json nel Profilo cartella.
 
 * Symbols.json viene sovrascritto, quindi si verifica il problema 8919.
 
-   **Soluzione alternativa**: i file symbols.json aggiornati devono essere uniti con i file symbol.json sostituiti.
+  **Soluzione alternativa**: i file symbols.json aggiornati devono essere uniti con i file symbol.json sostituiti.
 
 ### Altri problemi noti
 

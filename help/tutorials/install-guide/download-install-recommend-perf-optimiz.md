@@ -1,13 +1,12 @@
 ---
 title: Recommendations per l'ottimizzazione delle prestazioni
 description: Scopri Recommendations per l’ottimizzazione delle prestazioni
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '967'
 ht-degree: 0%
 
 ---
-
 
 # Recommendations per l&#39;ottimizzazione delle prestazioni {#id213BD0JG0XA}
 
@@ -116,7 +115,7 @@ Un numero maggiore di **Limita pagine del sito AEM nell’heap** ottimizza il pr
 **Qual è il cambiamento?**
 Questa modifica è necessaria se si esegue il caricamento in blocco di contenuto DITA.
 
-Imposta il **Thread post-elaborazione** proprietà in `com.adobe.fmdita.config.ConfigManager` a `1`.
+Imposta il **Threads post-elaborazione** proprietà in `com.adobe.fmdita.config.ConfigManager` a `1`.
 
 **Quando configurare?**
 Questa operazione può essere eseguita in fase di esecuzione.
@@ -125,4 +124,3 @@ Questa operazione può essere eseguita in fase di esecuzione.
 Questa modifica riduce il tempo di post-elaborazione durante il caricamento in blocco di file DITA.
 
 **Argomento padre:**[ Scarica e installa](download-install.md)
-

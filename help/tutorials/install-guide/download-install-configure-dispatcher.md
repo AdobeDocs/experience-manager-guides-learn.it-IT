@@ -1,21 +1,20 @@
 ---
 title: Configurare Dispatcher
 description: Scopri come configurare Dispatcher
-source-git-commit: 9fe396dcfd2e3570ec386c958d7d4efdb4d608e5
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 9%
+source-wordcount: '302'
+ht-degree: 3%
 
 ---
 
-
 # Configurare Dispatcher {#id213BCM0M05U}
 
-Se prevedi di utilizzare un’istanza di Dispatcher sull’istanza di AEM Author insieme alle guide dell’AEM, per completare la configurazione devi eseguire le seguenti configurazioni aggiuntive:
+Se prevedi di utilizzare un’istanza di Dispatcher sull’istanza di AEM Author insieme alle guide AEM, per completare la configurazione devi eseguire le seguenti configurazioni aggiuntive:
 
 >[!NOTE]
 >
-> Dispatcher è lo strumento di caching e/o bilanciamento del carico di Adobe Experience Manager. Per ulteriori dettagli sull’utilizzo di Dispatcher, consulta [Panoramica di Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=it).
+> Dispatcher è lo strumento di caching e/o bilanciamento del carico di Adobe Experience Manager. Per ulteriori dettagli sull’utilizzo di Dispatcher, consulta [Panoramica di Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=en).
 
 ## Abilitare AllowEncodedSlashes negli URL
 
@@ -54,7 +53,7 @@ Per aggiornare il file mime.types, effettua le seguenti operazioni:
 
    `text/html html htm ditamap dita`
 
-1. Salva e chiudi il file 
+1. Salva e chiudi il file.
 
 
 Questo aggiornamento della configurazione assicura che i file di mappe e argomenti DITA sottoposti a rendering da Dispatcher vengano visualizzati come HTML nell’interfaccia utente di Assets.
@@ -79,4 +78,3 @@ Quando utilizzi un Dispatcher con guide AEM, se l’istanza Autore ha in primo p
 ```
 
 **Argomento padre:**[ Scarica e installa](download-install.md)
-

@@ -2,10 +2,9 @@
 title: Utilizzo delle chiavi
 description: Come creare chiavi da utilizzare nei contenuti dell’organizzazione
 role: Admin
-exl-id: b8e3a6d2-ea82-4fdb-bd16-3f4b6594af52
-source-git-commit: c8feab55ed3b8e7b36ec46b21f63155766627e40
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '179'
 ht-degree: 0%
 
 ---
@@ -56,8 +55,8 @@ Qui hai definito due definizioni, come mostrato sopra, a condizione che [!UICONT
 
 + Modifica l’argomento e aggiungi il valore chiave utilizzando [!UICONTROL keyref].
 + Come mostrato nella schermata, viene visualizzata una piccola finestra da cui è possibile scegliere le parole chiave. Questo verrà visualizzato quando aggiungi l’elemento &quot;keyword&quot;.
-   ![Inserisci elemento](assets/insert_element.png)
-   ![Rif. chiave](assets/key_ref.png)
+  ![Inserisci elemento](assets/insert_element.png)
+  ![Rif. chiave](assets/key_ref.png)
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>

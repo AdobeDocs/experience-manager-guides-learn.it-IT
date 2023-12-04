@@ -1,13 +1,12 @@
 ---
 title: Sostituzioni configurazione
 description: Scopri come eseguire le sostituzioni della configurazione
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
-
 
 # Sostituzioni configurazione {#id216IFC003XA}
 
@@ -39,4 +38,3 @@ Per apportare qualsiasi aggiornamento alla configurazione, si deve utilizzare il
 
 
 **Argomento padre:**[ Scarica e installa](download-install.md)
-

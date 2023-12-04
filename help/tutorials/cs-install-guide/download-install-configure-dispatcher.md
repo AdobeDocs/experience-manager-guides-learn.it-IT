@@ -1,13 +1,12 @@
 ---
 title: Configurare Dispatcher
 description: Scopri come configurare Dispatcher
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 22%
+source-wordcount: '81'
+ht-degree: 14%
 
 ---
-
 
 # Configurare Dispatcher {#id213BCM0M05U}
 
@@ -21,4 +20,3 @@ Dispatcher è lo strumento di caching e/o bilanciamento del carico di Adobe Expe
 > AEM as a Cloud Service non supporta Dispatcher per l’istanza di authoring.
 
 **Argomento padre:**[ Scarica e installa](download-install.md)
-

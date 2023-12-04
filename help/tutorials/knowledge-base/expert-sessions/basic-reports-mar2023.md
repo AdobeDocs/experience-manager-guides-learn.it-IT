@@ -1,10 +1,9 @@
 ---
 title: Rapporti nelle guide AEM
 description: Scopri quali sono tutti i rapporti disponibili nell’AEM per aiutare gli utenti a migliorare la qualità dei contenuti.
-exl-id: f0d761ff-efea-452c-bb8e-865f34a182fc
-source-git-commit: 7871a54f3181fd114e24e0e10cfc15351cefd761
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '263'
 ht-degree: 1%
 
 ---
@@ -59,8 +58,7 @@ In questa sessione hai appreso quanto segue:
 >
 > Le funzioni mostrate in questa sessione sono disponibili nelle seguenti versioni delle Guide AEM:
 > - On-prem: 4.2 o versione successiva
-> - Cloud Services: 2302 o versione successiva
-
+> - Cloud Service: 2302 o versione successiva
 
 
 ## Prossima sessione di esperti

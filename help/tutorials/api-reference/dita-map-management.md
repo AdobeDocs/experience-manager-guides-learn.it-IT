@@ -1,13 +1,12 @@
 ---
 title: API REST per lavorare con le mappe DITA
 description: Scopri l’API REST per lavorare con le mappe DITA
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 0%
 
 ---
-
 
 # API REST per lavorare con le mappe DITA {#id175UB30E05Z}
 
@@ -43,4 +42,3 @@ Un metodo GET che recupera lo stato di esportazione di una mappa DITA con tutti 
 |Nome|Tipo|Obbligatorio|Descrizione| ----|----|--------|-----------| |`jobId`|Stringa|Sì|L&#39;ID del processo recuperato all&#39;avvio del processo di esportazione.|
 
 **Valori di risposta**: |Elemento|Descrizione| ----------- ------- |`status`|Stato del processo di esportazione. Le opzioni possibili sono: AVVIATO, NON RIUSCITO, IN CORSO, RIUSCITO, MANCANTE, ELIMINATO| |`jobId`|ID univoco del processo. Può essere utilizzato in seguito per eseguire una query per lo stato.| |`errorMessage`|Messaggio di errore del processo in caso di errore \(se lo stato è FAILED, MISSING o DELETED\).| |`filePath`|Percorso file del file ZIP. È presente solo quando il processo è completato e lo stato è RIUSCITO. Può essere utilizzato per scaricare il file ZIP.|
-

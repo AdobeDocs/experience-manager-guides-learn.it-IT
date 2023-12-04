@@ -1,10 +1,10 @@
 ---
 title: Note sulla versione | Istruzioni per l’aggiornamento e problemi risolti in Adobe Experience Manager Guides, versione di luglio 2023
 description: Scopri le correzioni di bug e come effettuare l’aggiornamento alla versione di luglio 2023 di Adobe Experience Manager Guides as a Cloud Service
-source-git-commit: 6061d35b86790e24c6f55e4ccac5dbb40c43aae8
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 2%
+source-wordcount: '926'
+ht-degree: 0%
 
 ---
 
@@ -18,9 +18,9 @@ Per ulteriori informazioni sulle nuove funzioni e sui miglioramenti, consulta [N
 
 Aggiorna l’attuale configurazione as a Cloud Service delle Guide AEM eseguendo i seguenti passaggi:
 
-1. Consulta il codice Git del Cloud Services e passa al ramo configurato nella pipeline dei Cloud Services corrispondente all’ambiente da aggiornare.
-2. Aggiorna `<dox.version>` proprietà in `/dox/dox.installer/pom.xml` file del codice Git dei tuoi Cloud Services su 2023.7.0.314.
-3. Apporta le modifiche ed esegui la pipeline dei Cloud Services per l’aggiornamento alla versione di luglio 2023 delle guide AEM as a Cloud Service.
+1. Consulta il codice Git del Cloud Service e passa al ramo configurato nella pipeline dei Cloud Service corrispondente all’ambiente da aggiornare.
+2. Aggiorna `<dox.version>` proprietà in `/dox/dox.installer/pom.xml` file del codice Git dei tuoi Cloud Service su 2023.7.0.314.
+3. Apporta le modifiche ed esegui la pipeline dei Cloud Service per l’aggiornamento alla versione di luglio 2023 delle guide AEM as a Cloud Service.
 
 ## Passaggi per abilitare l’attivazione di uno script tramite un servlet
 
@@ -65,7 +65,7 @@ Effettua le seguenti operazioni per la post-elaborazione del contenuto esistente
 
 1. (Facoltativo) Se nel sistema sono presenti più di 100.000 file dita, aggiornare `queryLimitReads` in `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` su un valore più grande (qualsiasi valore maggiore del numero di risorse presenti, ad esempio 200.000) e quindi ridistribuiscilo.
 
-   - Utilizzare le istruzioni fornite in *Sostituzioni configurazione* sezione in Installare e configurare Adobe Experience Manager Guides as a Cloud Service, per creare il file di configurazione.
+   - Utilizzare le istruzioni fornite in *Sostituzioni configurazione* in Installare e configurare Adobe Experience Manager Guides as a Cloud Service, per creare il file di configurazione.
    - Nel file di configurazione, fornisci i seguenti dettagli (proprietà) per configurare l’opzione queryLimitReads:
 
      | PID | Chiave proprietà | Valore proprietà |
@@ -89,7 +89,7 @@ Effettua i seguenti passaggi per indicizzare il contenuto esistente e utilizza i
 
 1. Esegui una richiesta POST al server \(con autenticazione corretta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Facoltativo: Puoi trasmettere percorsi specifici delle mappe per indicizzarle; per impostazione predefinita, tutte le mappe saranno indicizzate \|\| Ad esempio: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
-1. È inoltre possibile passare una cartella principale per indicizzare le mappe DITA di una cartella specifica (e delle relative sottocartelle). Ad esempio, `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Si noti che se vengono passati sia il parametro paths che il parametro root, viene considerato solo il parametro paths.
+1. È inoltre possibile passare una cartella principale per indicizzare le mappe DITA di una cartella specifica (e delle relative sottocartelle). Ad esempio: `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Si noti che se vengono passati sia il parametro paths che il parametro root, viene considerato solo il parametro paths.
 
 1. L’API restituirà un jobId. Per verificare lo stato del processo, puoi inviare una richiesta di GET con ID processo allo stesso endpoint: `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(Ad esempio: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
 
@@ -100,7 +100,7 @@ Effettua i seguenti passaggi per indicizzare il contenuto esistente e utilizza i
 
 In questa sezione è elencata la matrice di compatibilità per le applicazioni software supportate dalla versione di luglio 2023 di AEM Guides as a Cloud Service.
 
-### Server di pubblicazione FrameMaker e FrameMaker
+### FRAMEMAKER e FRAMEMAKER PUBLISHING SERVER
 
 | Versione di AEM Guides as a Cloud | FMPS | FrameMaker |
 | --- | --- | --- |
@@ -112,7 +112,7 @@ In questa sezione è elencata la matrice di compatibilità per le applicazioni s
 
 | Versione di AEM Guides as a Cloud | Finestre del connettore dell&#39;ossigeno | Connettore di ossigeno Mac | Modifica in finestre a ossigeno | Modifica in Oxygen Mac |
 | --- | --- | --- | --- | --- |
-| 2023.07.0 | 2,9-uuid-2 | 2,9-uuid-2 | 2.3 | 2.3 |
+| 2023.07.0 | 2,9-uuid-2 | 2,9-uuid-2 | 2,3 | 2,3 |
 |  |  |  |  |
 
 
@@ -120,7 +120,7 @@ In questa sezione è elencata la matrice di compatibilità per le applicazioni s
 
 Di seguito sono elencati i bug risolti in varie aree:
 
-### Authoring  
+### Authoring
 
 - Gli attributi Inline/Display non vengono visualizzati nella visualizzazione Layout dell&#39;editor Web. (12498)
 - Caricare i file nel plug-in di ossigeno per le guide AEM non funziona in Cloud Services se si dispone di ! nel nome del file. (12207)
@@ -133,5 +133,3 @@ Di seguito sono elencati i bug risolti in varie aree:
 ### Pubblicazione
 
 - Il flusso di lavoro di approvazione non funziona se docstate viene modificato in &quot;end state&quot; dalle proprietà File del pannello di destra. (11026)
-
-

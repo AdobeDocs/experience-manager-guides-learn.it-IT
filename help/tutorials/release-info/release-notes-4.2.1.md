@@ -1,11 +1,10 @@
 ---
-title: Note sulla versione | Istruzioni per l’aggiornamento e problemi risolti in Adobe Experience Manager Guides versione 4.2.1
+title: Note sulla versione | Istruzioni per l’aggiornamento e problemi risolti nella versione 4.2.1 delle Guide di Adobe Experience Manager
 description: Scopri le correzioni di bug e come effettuare l’aggiornamento alle versioni 4.2.1 delle guide di Adobe Experience Manager
-exl-id: 19b23164-4a07-4748-a8c4-1760bfdb2ca6
-source-git-commit: 6d7b17709e7a17c30b544a7f3f3707328431aac0
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 5%
+source-wordcount: '876'
+ht-degree: 1%
 
 ---
 
@@ -44,13 +43,13 @@ Versione 6.5 Service Pack 15, 14, 13 o 12
 
 Per ulteriori dettagli, vedi *Requisiti tecnici* nella guida Installare e configurare Adobe Experience Manager Guides.
 
-### Server di pubblicazione FrameMaker e FrameMaker
+### FRAMEMAKER e FRAMEMAKER PUBLISHING SERVER
 
 | Versione | FMPS 2022 | FMPS 2020 | Fm 2022 | Fm 2020 |
 | --- | --- | --- | --- | --- |
 | 4.2.1 (non UUID) | 2022 o versione successiva | 2020.2 o versione successiva* | 2022 o versione successiva | 2020.3 o versione successiva |
 | 4.2.1 (UUID) | 2022 o versione successiva | 2020.2 o versione successiva* | 2022 o versione successiva | 2020.4 o versione successiva |
-|  |  |  |  |
+| | | | |
 
 *Le condizioni di base e quelle create nell’AEM sono supportate nelle versioni di FMPS a partire dal 2020.2.
 
@@ -58,15 +57,15 @@ Per ulteriori dettagli, vedi *Requisiti tecnici* nella guida Installare e config
 
 | Versione | Finestre del connettore dell&#39;ossigeno | Connettore di ossigeno Mac | Modifica in finestre a ossigeno | Modifica in Oxygen Mac |
 | --- | --- | --- |--- |--- |
-| 4.2.1 (non UUID) | 2.2-regular-3 | 2.2-regular-3 | 1.6 | 1.6 |
-| 4.2.1 (UUID) | 2,9-uuid-2 | 2,9-uuid-2 | 2.3 | 2.3 |
-|  |  |  |
+| 4.2.1 (non UUID) | 2.2-regular-3 | 2.2-regular-3 | 1,6 | 1,6 |
+| 4.2.1 (UUID) | 2,9-uuid-2 | 2,9-uuid-2 | 2,3 | 2,3 |
+|  |  |   |
 
 ## Problemi risolti
 
 Di seguito sono elencati i bug risolti in varie aree:
 
-### Authoring  
+### Authoring
 
 * Navtitle viene rimosso dal contenuto quando si passa dalla vista Layout a quella Author o Source. (12174)
 * Il pulsante Chiudi nell’editor web non porta alla pagina di navigazione AEM. (11948)

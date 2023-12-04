@@ -1,13 +1,12 @@
 ---
 title: Configurare un connettore di origine dati
 description: Scopri come configurare un connettore di origine dati
-source-git-commit: fc142d8a6e907fac1321dfd5c2cb9615d523709d
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '387'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
-
 
 # Configurare un connettore di origine dati
 
@@ -176,11 +175,10 @@ Altri campi vengono personalizzati in base alla classe di configurazione selezio
 
 Carica il file in una posizione specifica in AEM Assets.
 
-Ad esempio,  `/content/dam/jira.json`
+Ad esempio:  `/content/dam/jira.json`
 
 ## Creare una configurazione tramite API REST
 
 Puoi registrare la configurazione utilizzando l’API REST. Per ulteriori dettagli, vedi *API REST per registrare un connettore di origine dati* nella sezione Riferimento API per le guide di Adobe Experience Manager.
 
 Dopo aver configurato l’origine dati, il connettore viene elencato nel pannello Origini dati dell’Editor web. È quindi possibile connettersi all&#39;origine dati e inserire uno snippet di contenuto negli argomenti. Per ulteriori dettagli, vedi [Inserire uno snippet di contenuto dall&#39;origine dati](../user-guide/web-editor-content-snippet.md).
-

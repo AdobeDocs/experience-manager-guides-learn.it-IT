@@ -1,13 +1,12 @@
 ---
 title: API REST per la gestione dell’output
 description: Informazioni sulle API REST per la gestione dell’output
-source-git-commit: 4dcd90422f02f3b45aa74137fe58609962b09b49
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1175'
 ht-degree: 0%
 
 ---
-
 
 # API REST per la gestione dell’output {#id175UB30E05Z}
 
@@ -134,4 +133,3 @@ Metodo POST che elimina un predefinito di output.
 **Parametri**: |Nome|Tipo|Obbligatorio|Descrizione| ----|----|--------|-----------| |`:operation`|String|Yes|Nome dell&#39;operazione chiamata. Il valore di questo parametro è `deleteoutput`.<br> **Nota:** Il valore non distingue tra maiuscole e minuscole.| |`sourcePath`|String|Yes|Percorso assoluto del file di mapping DITA.| |`outputName`|String|Yes|Nome del predefinito di output da eliminare.|
 
 **Valori di risposta**: restituisce una risposta HTTP 200 \(Riuscito\).
-

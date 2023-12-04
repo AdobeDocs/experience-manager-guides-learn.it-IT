@@ -1,13 +1,12 @@
 ---
 title: Disinstallare le guide AEM
 description: Scopri come disinstallare le guide AEM
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 0%
 
 ---
-
 
 # Disinstallare le guide AEM {#id21BHG0C0SXA}
 
@@ -47,4 +46,3 @@ Per pulire i file residui dopo la disinstallazione, effettuare le seguenti opera
 1. Pulisci la cache del browser.
 
 **Argomento padre:**[ Scarica e installa](download-install.md)
-

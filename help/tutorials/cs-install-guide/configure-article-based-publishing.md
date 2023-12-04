@@ -1,13 +1,12 @@
 ---
 title: Installare pacchetti per la pubblicazione basata su articoli
 description: Scopri come installare pacchetti per la pubblicazione basata su articoli
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
-
 
 # Installare pacchetti per la pubblicazione basata su articoli {#id21BNL02052Z}
 
@@ -40,4 +39,3 @@ Per creare un sito AEM per la pubblicazione dell’output basato su articoli, ef
 Puoi utilizzare il sito AEM per pubblicare l’articolo utilizzando i predefiniti di output dell’editor web.
 
 **Argomento padre:**[ Personalizza editor web](conf-web-editor.md)
-

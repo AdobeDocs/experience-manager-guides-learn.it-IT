@@ -1,13 +1,12 @@
 ---
 title: Installare pacchetti per la pubblicazione basata su articoli
 description: Scopri come installare pacchetti per la pubblicazione basata su articoli
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 0%
 
 ---
-
 
 # Installare pacchetti per la pubblicazione basata su articoli {#id21BNL02052Z}
 
@@ -19,4 +18,3 @@ Per abilitare la pubblicazione basata su articoli, scarica e installa i seguenti
 - Pacchetto di componenti per la pubblicazione basata su articoli
 
 **Argomento padre:**[ Personalizza editor web](conf-web-editor.md)
-

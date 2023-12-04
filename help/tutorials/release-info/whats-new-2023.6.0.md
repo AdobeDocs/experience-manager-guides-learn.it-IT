@@ -1,10 +1,9 @@
 ---
 title: Note sulla versione | Novità delle guide di Adobe Experience Manager, versione di giugno 2023
 description: Scopri le funzioni nuove e migliorate nella versione di giugno 2023 di Adobe Experience Manager Guides as a Cloud Service
-exl-id: ff6ac4a4-76a3-4b41-9da7-6a888de0eca5
-source-git-commit: f1292c94d77b724467d9eede59687bf0041cbce5
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1212'
 ht-degree: 0%
 
 ---

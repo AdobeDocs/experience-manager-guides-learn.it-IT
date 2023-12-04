@@ -1,13 +1,12 @@
 ---
 title: Includi attributo @navtitle per impostazione predefinita
 description: Scopri come includere @navtitle attributo per impostazione predefinita
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 1%
 
 ---
-
 
 # Includi attributo @navtitle per impostazione predefinita {#id2115BC0J0XA}
 
@@ -17,7 +16,7 @@ Una volta attivato, ogni file di riferimento aggiunto in una mappa otterrà auto
 
 Da includere `@navtitle` per impostazione predefinita, nelle proprietà dei file di riferimento, effettuare le seguenti operazioni:
 
-1. Per scaricare il file di configurazione dell’interfaccia utente, accedi ad Adobe Experience Manager come amministratore.
+1. Per scaricare il file di configurazione dell’interfaccia utente, accedi a Adobe Experience Manager come amministratore.
 
 1. Fai clic sul collegamento Adobe Experience Manager in alto e scegli **Strumenti**.
 1. Seleziona **Guide** dall&#39;elenco degli strumenti e fare clic su **Profili cartella**.
@@ -52,4 +51,3 @@ Da includere `@navtitle` per impostazione predefinita, nelle proprietà dei file
 Con questa configurazione, ogni file di riferimento aggiunto a una mappa conterrà `@navtitle` per impostazione predefinita.
 
 **Argomento padre:**[ Personalizza editor web](conf-web-editor.md)
-

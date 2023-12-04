@@ -1,13 +1,12 @@
 ---
 title: Personalizza dizionario predefinito AEM
 description: Scopri come personalizzare il dizionario predefinito per AEM
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 1%
 
 ---
-
 
 # Personalizza dizionario predefinito AEM {#id209SD8000WU}
 
@@ -33,4 +32,3 @@ Per creare un elenco di parole personalizzato aggiunto nel dizionario AEM, effet
 Per aggiornare l&#39;elenco delle parole personalizzate nel dizionario AEM, gli autori dovranno riavviare la sessione dell&#39;editor Web.
 
 **Argomento padre:**[ Personalizza editor web](conf-web-editor.md)
-

@@ -1,13 +1,12 @@
 ---
 title: Configurare e personalizzare i flussi di lavoro
 description: Scopri come configurare e personalizzare i flussi di lavoro
-source-git-commit: 9fe396dcfd2e3570ec386c958d7d4efdb4d608e5
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1781'
-ht-degree: 4%
+source-wordcount: '1744'
+ht-degree: 1%
 
 ---
-
 
 # Configurare e personalizzare i flussi di lavoro {#id181AI0OJ0RO}
 
@@ -15,11 +14,11 @@ I flussi di lavoro consentono di automatizzare le attività di Adobe Experience 
 
 Per ulteriori informazioni sui flussi di lavoro in AEM, consulta:
 
-- [Amministrazione dei flussi di lavoro](https://helpx.adobe.com/it/experience-manager/6-5/sites/administering/using/workflows.html)
+- [Amministrazione dei flussi di lavoro](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html)
 
-- Applicazione e partecipazione ai flussi di lavoro: [Utilizzo dei flussi di lavoro](https://helpx.adobe.com/it/experience-manager/6-5/sites/authoring/using/workflows.html).
+- Applicazione e partecipazione ai flussi di lavoro: [Utilizzo dei flussi di lavoro](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/workflows.html).
 
-- Creazione di modelli di flusso di lavoro ed estensione delle funzionalità del flusso di lavoro: [Sviluppo ed estensione dei flussi di lavoro](https://helpx.adobe.com/it/experience-manager/6-5/sites/developing/using/workflows.html).
+- Creazione di modelli di flusso di lavoro ed estensione delle funzionalità del flusso di lavoro: [Sviluppo ed estensione dei flussi di lavoro](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/workflows.html).
 
 - Miglioramento delle prestazioni dei flussi di lavoro che utilizzano risorse server significative: [Elaborazione flusso di lavoro simultaneo](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance).
 
@@ -28,7 +27,7 @@ Le sezioni in questo argomento descrivono le varie personalizzazioni che è poss
 
 ## Personalizza flusso di lavoro di revisione {#id176NE0C00HS}
 
-Il team di authoring dei contenuti di ogni organizzazione lavora in modo specifico per soddisfare i requisiti aziendali. In alcune organizzazioni è presente un editor dedicato, mentre in altre potrebbe essere presente un sistema di revisione editoriale automatizzato. Ad esempio, in un’organizzazione, un flusso di lavoro tipico per l’authoring e la pubblicazione può includere attività come: ogni volta che un autore esegue l’authoring di contenuti, questo passa automaticamente ai revisori e, al termine della revisione, passa all’editore per generare l’output finale. In AEM, le attività che esegui sui contenuti e sulle risorse possono essere combinate sotto forma di un processo e mappate a un flusso di lavoro AEM. Per ulteriori informazioni sui flussi di lavoro in AEM, consulta [Amministrazione dei flussi di lavoro](https://helpx.adobe.com/it/experience-manager/6-5/sites/administering/using/workflows.html) nella documentazione AEM.
+Il team di authoring dei contenuti di ogni organizzazione lavora in modo specifico per soddisfare i requisiti aziendali. In alcune organizzazioni è presente un editor dedicato, mentre in altre potrebbe essere presente un sistema di revisione editoriale automatizzato. Ad esempio, in un’organizzazione, un flusso di lavoro tipico per l’authoring e la pubblicazione può includere attività come: ogni volta che un autore esegue l’authoring di contenuti, questo passa automaticamente ai revisori e, al termine della revisione, passa all’editore per generare l’output finale. In AEM, le attività che esegui sui contenuti e sulle risorse possono essere combinate sotto forma di un processo e mappate a un flusso di lavoro AEM. Per ulteriori informazioni sui flussi di lavoro in AEM, consulta [Amministrazione dei flussi di lavoro](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html) nella documentazione AEM.
 
 Le guide AEM consentono di personalizzare il flusso di lavoro di revisione predefinito. Con gli altri flussi di lavoro di authoring o pubblicazione, puoi utilizzare i quattro processi personalizzati seguenti relativi alla revisione.
 
@@ -96,7 +95,7 @@ Diversi flussi di lavoro delle guide dell’AEM utilizzano le notifiche e-mail. 
 
 Le guide AEM contengono un set di modelli e-mail che puoi personalizzare. Per personalizzare questi modelli, effettua le seguenti operazioni:
 
-1. Accedi all’AEM e apri la modalità CRXDE Lite.
+1. Accedi all’AEM e apri la modalità CRXDE Liti.
 
 1. Nella scheda Navigator, passare alla posizione seguente:
 
@@ -184,7 +183,7 @@ Per personalizzare il *Aggiorna risorsa DAM* workflow:
    jcr:content/metadata/dc:format!=application/xml
    ```
 
-1. Fai clic su **Salva e chiudi**
+1. Clic **Salva e chiudi**
 
 
 ## Configurare il flusso di lavoro XML di post-elaborazione {#id18CJB03J0Y4}
@@ -204,5 +203,4 @@ Le seguenti proprietà determinano il modo in cui AEM Guides esegue i flussi di 
 | Proprietà | Nome bundle | Descrizione |
 |--------|-----------|-----------|
 | Outref dinamici | `com.adobe.fmdita.postprocess.PostProcessObservation` | Per tutti i file su cui non è stata eseguita la post-elaborazione, recupera i riferimenti in uscita analizzando i file dell’argomento. Si consiglia di mantenere questa opzione disabilitata in quanto ha la possibilità di sovraccaricare il sistema se il numero di file da elaborare è elevato. |
-| Thread post-elaborazione | `com.adobe.fmdita.config.ConfigManager` | Imposta il numero di thread di post-elaborazione da utilizzare per il flusso di lavoro di post-elaborazione. <br>Il valore predefinito è 1. |
-
+| Threads post-elaborazione | `com.adobe.fmdita.config.ConfigManager` | Imposta il numero di thread di post-elaborazione da utilizzare per il flusso di lavoro di post-elaborazione. <br>Il valore predefinito è 1. |

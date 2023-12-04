@@ -1,8 +1,7 @@
 ---
 title: Funzione di pubblicazione nativa di PDF | Applicare uno stile personalizzato alle voci del sommario e al contenuto dell’argomento
 description: Scopri come creare fogli di stile di utilizzo e stili per i contenuti.
-exl-id: f65c9683-a1fc-432a-854b-83e8f39d7dae
-source-git-commit: e2349fc14143e5e49f8672ef1bfa48984df3b1c7
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 0%

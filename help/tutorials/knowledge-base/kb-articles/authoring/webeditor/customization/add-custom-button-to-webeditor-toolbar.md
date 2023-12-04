@@ -1,10 +1,9 @@
 ---
 title: Aggiungi un nuovo pulsante actionable personalizzato nella barra degli strumenti dell’editor web
 description: Scopri come aggiungere un nuovo pulsante personalizzato nella barra degli strumenti dell’editor web e chiamare JavaScript per utilizzarlo.
-exl-id: 118c4545-9eda-4e1e-a224-843767e49b5b
-source-git-commit: ed3adf0cf8006c76461de34c6a2a4ba38d8b3406
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
@@ -64,7 +63,7 @@ Utilizza i profili cartella per controllare *ui_config.json* nella scheda &quot;
 
 
 - Dopo aver salvato il profilo della cartella, crea una &quot;cq:ClientLibraryFolder&quot; sotto una directory di progetto (potrebbe essere in */apps*) e aggiungi le proprietà come mostrato nella schermata seguente:
-   ![Impostazioni della libreria client per l’editor web](../../../assets/authoring/webeditor-add-customtoolbarbutton-clientlibrarysettings.png)
+  ![Impostazioni della libreria client per l’editor web](../../../assets/authoring/webeditor-add-customtoolbarbutton-clientlibrarysettings.png)
 
 ```
 This example uses "coralui3" library to show a dialog as it is used in the Javascript sample we presented.

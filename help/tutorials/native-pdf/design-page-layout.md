@@ -1,10 +1,9 @@
 ---
 title: Funzione di pubblicazione nativa di PDF | Progettare il layout di una pagina
 description: Scopri come progettare il layout di pagina per presentare le informazioni in diverse sezioni dell’output PDF.
-exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
-source-git-commit: 5abcc887a24d838caabdf9a34a84ebc851ed4cbf
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '4807'
+source-wordcount: '4825'
 ht-degree: 0%
 
 ---
@@ -416,7 +415,7 @@ Nell’esempio seguente, nell’area del piè di pagina di un layout di pagina v
 
    1. Fai clic sull’elemento Campo nella breadcrumb per selezionare il campo Titolo capitolo.
 
-   1. Nel pannello di destra, fai clic su **Proprietà contenuto** (<img src="./assets/content-properties-icon.png" width="25">) icon.
+   1. Nel pannello di destra, fai clic su **Proprietà contenuto** (<img src="./assets/content-properties-icon.png" width="25">).
 
    1. Espandi **Layout** proprietà e impostare **Mobile** valore proprietà a **destra**.
       <img src="./assets/float-prop-html-content.png" width="400">
@@ -468,7 +467,7 @@ Nell’esempio seguente, inseriremo un sommario di capitolo nel layout della pri
 
 1. Posizionare il cursore nell&#39;area del contenuto del layout di pagina.
 
-1. Fare clic sul sommario del capitolo (<img src="./assets/chapter-toc-icon.svg">) icon.
+1. Fare clic sul sommario del capitolo (<img src="./assets/chapter-toc-icon.svg">).
 
    Il sommario del capitolo predefinito viene inserito nell’area del contenuto.
 

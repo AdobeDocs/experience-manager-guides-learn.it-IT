@@ -1,19 +1,18 @@
 ---
 title: Tradurre il contenuto
 description: Scopri come tradurre i contenuti
-source-git-commit: 4d54c52b8771b0c5a40018cfec3a6586029af2fb
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '711'
-ht-degree: 15%
+source-wordcount: '651'
+ht-degree: 11%
 
 ---
-
 
 # Tradurre il contenuto {#id181GB0400UI}
 
 Automatizza la traduzione di contenuti di pagina, risorse e contenuti generati dall&#39;utente per creare e gestire siti web multilingue. Per automatizzare i flussi di lavoro di traduzione, puoi integrare fornitori di servizi di traduzione con AEM e creare progetti per la traduzione dei contenuti in più lingue. AEM supporta flussi di lavoro di traduzione umana e automatica.
 
-- Traduzione umana: il contenuto viene inviato al tuo provider di traduzioni e tradotto da professionisti. Una volta completato, il contenuto tradotto viene rinviato e importato in AEM. Quando il fornitore di traduzione è integrato con l&#39;AEM, i contenuti vengono scambiati automaticamente tra l&#39;AEM e il fornitore di traduzione
+- Traduzione umana: il contenuto viene inviato al tuo provider di traduzioni e tradotto da traduttori professionisti. Una volta completato, il contenuto tradotto viene rinviato e importato in AEM. Quando il fornitore di traduzione è integrato con l&#39;AEM, i contenuti vengono scambiati automaticamente tra l&#39;AEM e il fornitore di traduzione
 
 - Traduzione automatica: il servizio di traduzione automatica traduce immediatamente il contenuto
 
@@ -82,4 +81,3 @@ Utilizzare le istruzioni fornite in [Sostituzioni configurazione](download-insta
 | PID | Chiave proprietà | Valore proprietà |
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | Booleano: <br> - Se non si desidera eseguire l&#39;operazione di post-elaborazione sui file temporanei, *Disattiva* \( false\) il **Copie per lingua post-elaborazione** opzione.<br> - Se si desidera eseguire l&#39;operazione di post-elaborazione sui file temporanei, *Abilita* \( true\) il **Copie per lingua post-elaborazione** opzione.<br> **Valore predefinito**: false |
-

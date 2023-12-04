@@ -3,14 +3,12 @@ title: Plug-in ossigeno per Adobe Experience Manager Guides
 description: Scopri come utilizzare il plug-in di ossigeno per le guide di Adobe Experience Manager per creare e gestire i contenuti.
 hide: true
 hidefromtoc: true
-exl-id: 2db9a34e-2efa-47ad-ba6b-02afc5197669
-source-git-commit: 23c1dfb405643bd9f5906807dddc4fff3f2e8535
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '6120'
+source-wordcount: '6101'
 ht-degree: 0%
 
 ---
-
 
 # Plug-in ossigeno per Adobe Experience Manager Guides {#id1645H6010Q5}
 
@@ -43,7 +41,7 @@ Una volta installato il programma di installazione, installarlo nel computer loc
 
 >[!IMPORTANT]
 >
->Se nel sistema è installata una versione precedente del plug-in, accertarsi di disinstallarla prima di avviare il processo di installazione. Consulta la **Disinstallazione dei pacchetti** sezione nella sezione [Come utilizzare i pacchetti](https://helpx.adobe.com/it/experience-manager/6-4/sites/administering/using/package-manager.html) articolo per le istruzioni di disinstallazione.
+>Se nel sistema è installata una versione precedente del plug-in, accertarsi di disinstallarla prima di avviare il processo di installazione. Consulta la **Disinstallazione dei pacchetti** sezione nella sezione [Come utilizzare i pacchetti](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html) articolo per le istruzioni di disinstallazione.
 
 Effettuare le seguenti operazioni sul sistema in cui è installato Oxygen XML Author:
 
@@ -77,7 +75,7 @@ Effettuare le seguenti operazioni sul sistema in cui è installato Oxygen XML Au
 
 >[!IMPORTANT]
 >
->Se nel sistema è installata una versione precedente del plug-in, accertarsi di disinstallarla prima di avviare il processo di installazione. Consulta la **Disinstallazione dei pacchetti** sezione nella sezione [Come utilizzare i pacchetti](https://helpx.adobe.com/it/experience-manager/6-4/sites/administering/using/package-manager.html) istruzioni per la disinstallazione dell’articolo.
+>Se nel sistema è installata una versione precedente del plug-in, accertarsi di disinstallarla prima di avviare il processo di installazione. Consulta la **Disinstallazione dei pacchetti** sezione nella sezione [Come utilizzare i pacchetti](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html) istruzioni per la disinstallazione dell’articolo.
 
 Effettuare le seguenti operazioni sul sistema in cui è installato Oxygen XML Author:
 
@@ -253,7 +251,7 @@ Per configurare gli attributi di profilatura e i riferimenti incrociati, effettu
 
 1. In **Estensioni** , apportare le seguenti modifiche:
    - Clic **Scegli** accanto al **Listener dello stato dell’estensione dell’autore** in **Singole estensioni** e selezionare CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn nel **Classe** elenco. Fai clic su **OK**.
-   - Clic **Scegli** accanto al **Editor valore attributo personalizzato autore** in **Singole estensioni** e selezionare CustomValueEditor - com.adobe.o2.framework.extn nel **Classe** elenco. Fai clic su **OK**.
+   - Clic **Scegli** accanto al **Editor valore attributo personalizzato autore** in **Singole estensioni** e selezionare CustomValueEditor - com.adobe.o2.framework.extn nel **Classe** elenco. Clic **OK**.
 La schermata seguente mostra i **Estensione** scheda per argomenti DITA:
 
      ![Estensione configurata per argomenti DITA](images/dita-topic-extension-tab.png){width="650" align="left"}
@@ -682,7 +680,7 @@ Per modificare la porta predefinita del server proxy, effettuare le seguenti ope
 1. Passa alla home directory \(utente\).
 1. Crea un file denominato aem\_connector\_proxy.
 1. Apri il file in un qualsiasi editor di testo e aggiungi un numero di porta disponibile nella prima riga del file.
-1. Salva e chiudi il file 
+1. Salva e chiudi il file.
 1. Riavviare Oxygen XML Author ed eseguire la trasformazione DITA-OT.
 
 
@@ -749,5 +747,3 @@ Soluzione: per configurare i logger per ossigeno e JxBrowser, effettua le seguen
 
 
 Con i passaggi precedenti, i registri verranno abilitati e potrai utilizzarli per eseguire il debug dei problemi.
-
-

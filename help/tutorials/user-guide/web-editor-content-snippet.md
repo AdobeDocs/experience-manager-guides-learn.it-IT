@@ -1,10 +1,9 @@
 ---
 title: Inserire uno snippet di contenuto dall'origine dati
 description: Utilizza i dati della tua origine dati nelle guide AEM. Scopri come inserire uno snippet di contenuto dall’origine dati. Creare un argomento utilizzando il generatore di argomenti.
-exl-id: fbd5eff2-451b-49d6-ba77-6eb271e94349
-source-git-commit: f7a0140a274a83dfeb6a1ba70ae9c09297d1754c
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '2060'
+source-wordcount: '2066'
 ht-degree: 0%
 
 ---
@@ -180,7 +179,7 @@ Per creare un argomento utilizzando il generatore di argomenti, effettuare le se
       > 
       > È necessario seguire la convenzione di denominazione dei file per il nome del nuovo generatore di argomenti. Non è possibile inserire uno spazio nel nome del generatore di argomenti. Inoltre, non è possibile salvare un nuovo generatore di argomenti con il nome di un generatore di argomenti esistente. Si verifica un errore.
 
-   **Configurazione output**
+   **Configurazione di output**
 
    ![](images/topic-generator-output-configuration.png){width="300" align="left"}
 

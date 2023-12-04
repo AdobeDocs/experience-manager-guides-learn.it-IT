@@ -1,13 +1,12 @@
 ---
 title: Configurare la visualizzazione dei collegamenti basati su UUID
 description: Scopri come configurare la visualizzazione dei collegamenti basati su UUID
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 1%
 
 ---
-
 
 # Configurare la visualizzazione dei collegamenti basati su UUID {#id2035G20M0QN}
 
@@ -20,4 +19,3 @@ Utilizzare le istruzioni fornite in [Sostituzioni configurazione](download-insta
 | `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.uuid` | Booleano \(true/false\). Se desideri visualizzare il percorso relativo del contenuto collegato, imposta questa proprietà su false. <br> **Valore predefinito**: true |
 
 **Argomento padre:**[ Personalizza editor web](conf-web-editor.md)
-

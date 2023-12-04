@@ -1,10 +1,9 @@
 ---
 title: Creare contenuti basati sul web
 description: Scopri come creare contenuti strutturati utilizzando l’editor web.
-exl-id: ab051c14-5c1e-4685-89e8-3c90dff9ea5e
-source-git-commit: 3d12389dbd7458a74bb9b9ec488e83bf39c8c9bf
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '196'
 ht-degree: 1%
 
 ---
@@ -48,8 +47,7 @@ In questa sessione imparerai quanto segue:
 >
 > Le funzioni mostrate in questa sessione sono disponibili nelle seguenti versioni delle Guide AEM:
 > - On-prem 4.1.3 o versione successiva
-> - Cloud Services 2211 e successivi
-
+> - Cloud Service 2211 e successivi
 
 ## Contattaci
 

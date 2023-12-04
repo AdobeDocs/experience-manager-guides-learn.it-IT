@@ -1,10 +1,9 @@
 ---
 title: Funzione di pubblicazione nativa di PDF | Operazioni con gli stili di contenuto comuni
 description: Scopri come creare fogli di stile di utilizzo e stili per i contenuti.
-exl-id: 42ba7347-d81d-45d9-9627-8d164e4f9539
-source-git-commit: 2fde719ced7d94af382a13e31af1c04591c8a258
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '3496'
+source-wordcount: '3525'
 ht-degree: 0%
 
 ---
@@ -90,40 +89,55 @@ Le proprietà dello stile h1 vengono visualizzate nel pannello Proprietà insiem
    Gli stili che è possibile applicare all&#39;elenco numerazione automatica sono visualizzati sotto la proprietà Numerazione automatica.
 
 1. Imposta le seguenti proprietà:
-   * **Stile**: possibilità di scegliere tra un&#39;ampia gamma di stili di numerazione generici o specifici per le impostazioni internazionali. Puoi scegliere stili come Arabo-Indaco, Devanagari, Georgiano, Decimale, Alfa-Inferiore e altro ancora. Per l’esempio corrente, seleziona `upper-alpha`.
+   * **Stile**: possibilità di scegliere tra un&#39;ampia gamma di stili di numerazione generici o specifici per le impostazioni internazionali. Puoi scegliere stili come Arabo-Indaco, Devanagari, Georgiano, Decimale, Alpha inferiore e altro ancora. Per l’esempio corrente, seleziona `upper-alpha`.
 
    * **Formato**: il formato predefinito è impostato su `<x>`, in cui il `x` Il valore viene sostituito con lo stile di numerazione selezionato nella proprietà Style. Ad esempio, se hai selezionato `decimal` (1), quindi il valore di `x` incrementi automatici per ogni istanza del `h1` e va da 2 a 3 e così via. Puoi anche aggiungere testo personalizzato nel campo per formattare lo stile dell’intestazione. Ad esempio, se desideri che tutte le intestazioni h1 abbiano il prefisso `Chapter`, è necessario impostare questo campo come `Chapter <x>`.
 
-   * **Inserisci carattere**: per aggiungere un carattere speciale nel formato, fare clic sul pulsante Inserisci carattere (<img src="./assets/insert-chars.png" width="25">) icon. Selezionare il carattere desiderato che si desidera aggiungere nel formato di stile e fare clic su Inserisci. Nell&#39;elenco a discesa Seleziona categoria sono disponibili diversi tipi di caratteri speciali. Nel nostro esempio, selezionare il segno di virgoletta con doppio angolo rivolto a destra dalla categoria Punteggiatura.
+   * **Inserisci carattere**: per aggiungere un carattere speciale nel formato, fare clic sul pulsante Inserisci carattere (<img src="./assets/insert-chars.png" width="25">). Selezionare il carattere desiderato che si desidera aggiungere nel formato di stile e fare clic su Inserisci. Nell&#39;elenco a discesa Seleziona categoria sono disponibili diversi tipi di caratteri speciali. Nel nostro esempio, selezionare il segno di virgoletta con doppio angolo rivolto a destra dalla categoria Punteggiatura.
 
-      <img src="./assets/insert-special-chars.png" width="400">
+     <img src="./assets/insert-special-chars.png" width="400">
 
 
    * **Inizia numerazione da**: se desideri che la numerazione inizi da un numero specifico, specifica tale valore. Nel nostro esempio, mantieni il valore predefinito 1.
 
-   * **Rientro**: se desideri applicare un rientro all’intestazione, devi impostare il valore Rientro. Nel nostro esempio, impostalo su 0 px.
+   * **Rientra**: se desideri applicare un rientro all’intestazione, devi impostare il valore Rientro. Nel nostro esempio, impostalo su 0 px.
 
-      >[!NOTE]
-      >
-      >Potete immettere il valore in pixel (pixel), pt (punti), rem, em, % (percentuale) o in unità (pollici).
+     >[!NOTE]
+     >
+     >Potete immettere il valore in pixel (pixel), pt (punti), rem, em, % (percentuale) o in unità (pollici).
 
    * **Larghezza prefisso**: area occupata dal formato di numerazione automatica. Viene impostato automaticamente su una dimensione che può facilmente adattarsi al formato di stile selezionato. Se desideri aumentare le dimensioni, puoi sostituire il valore predefinito.
 
-      Quando imposti questo valore manualmente, prova a modificare le altre proprietà che avranno un impatto sulla larghezza. Ad esempio, modificare la dimensione del carattere, il formato con prefisso (Capitolo) o un suffisso (:), impostare il valore massimo in *Inizia numerazione da* e le varie proprietà dei caratteri per ottenere le dimensioni ottimali.
+     Quando imposti questo valore manualmente, prova a modificare le altre proprietà che avranno un impatto sulla larghezza. Ad esempio, modificare la dimensione del carattere, il formato con prefisso (Capitolo) o un suffisso (:), impostare il valore massimo in *Inizia numerazione da* e le varie proprietà dei caratteri per ottenere le dimensioni ottimali.
 
-      Nel nostro esempio, mantieni il valore predefinito.
+     Nel nostro esempio, mantieni il valore predefinito.
 
    * **Spaziatura**: specifica la spaziatura orizzontale e verticale. Nel nostro esempio, mantieni i valori predefiniti.
 
-      Con le personalizzazioni di cui sopra, lo stile viene personalizzato come mostrato di seguito:
+     Con le personalizzazioni di cui sopra, lo stile viene personalizzato come mostrato di seguito:
 
-      <img src="./assets/h1-style-custmization.png" width="500">
+     <img src="./assets/h1-style-custmization.png" width="500">
 
    * **Applica formattazione a**: le proprietà della categoria Numerazione automatica consentono di definire facilmente lo stile di numerazione. Per applicare ulteriori personalizzazioni allo stile di numerazione o al contenuto del formato titolo, è possibile scegliere Numerazione o Paragrafo in questo campo. Se si sceglie Numerazione, le modifiche apportate a Tipo di carattere, Bordo, Layout e ad altre categorie verranno applicate solo allo stile di numerazione nell&#39;intestazione. Tuttavia, se selezioni Paragrafo, le modifiche verranno applicate al contenuto dell’intestazione e non allo stile di numerazione.
 
    Utilizza le seguenti impostazioni per generare un output mostrato nella schermata seguente:
 
-   |**Stile intestazione**|**Proprietà**|**Valore**|**Commenti aggiuntivi**| | :- | :- | :- | :- | |h1|Stile|Decimale|Queste proprietà si trovano nella categoria Numerazione automatica | Formato`Capter <x>:`|| Larghezza prefisso 160 px ||Carattere > Allineamento testo|Sinistra|Assicurarsi che Applica formattazione a sia impostato su Numerazione| |h2|Stile|Decimale|Queste proprietà si trovano nella categoria Numerazione automatica | Formato`Section <x>:`|| Larghezza prefisso 125 px ||Carattere > Allineamento testo|Sinistra|Assicurarsi che Applica formattazione a sia impostato su Numerazione| |h3|Stile|Decimale|Queste proprietà si trovano nella categoria Numerazione automatica | ||Inserisci livello|2|| Formato`Section <2>.<x>:`|| Larghezza prefisso 125 px ||Carattere > Allineamento testo|Sinistra|Assicurarsi che Applica formattazione a sia impostato su Numerazione| ||
+   | **Stile intestazione** | **Proprietà** | **Valore** | **Commenti aggiuntivi** |
+   | :- | :- | :- | :- |
+   | h1 | Stile | Decimale | Queste proprietà si trovano nella categoria Numerazione automatica |
+   |  | Formato | `Capter <x>:` |  |
+   |  | Larghezza prefisso | 160 px |  |
+   |  | Font > Allineamento testo | A sinistra | Assicurarsi che Applica formattazione a sia impostato su Numerazione |
+   | h2 | Stile | Decimale | Queste proprietà si trovano nella categoria Numerazione automatica |
+   |  | Formato | `Section <x>:` |  |
+   |  | Larghezza prefisso | 125 px |  |
+   |  | Font > Allineamento testo | A sinistra | Assicurarsi che Applica formattazione a sia impostato su Numerazione |
+   | h3 | Stile | Decimale | Queste proprietà si trovano nella categoria Numerazione automatica |
+   |  | Inserisci livello | 2 |  |
+   |  | Formato | `Section <2>.<x>:` |  |
+   |  | Larghezza prefisso | 125 px |  |
+   |  | Font > Allineamento testo | A sinistra | Assicurarsi che Applica formattazione a sia impostato su Numerazione |
+   |  |
 
    <img src="./assets/auto-number-output.png" width="500">
 
@@ -140,6 +154,7 @@ Nell’esempio seguente verrà creato uno stile capolettera:
 1. Aprire il foglio di stile richiesto per la modifica.
 
    >[!NOTE]
+   >
    Consulta [Personalizzare uno stile predefinito o nuovo](components-pdf-template.md#customize-style) sezione per l&#39;apertura di un foglio di stile per la personalizzazione o la modifica.
 
 1. In **Stili** , espandere **Stili paragrafo**.
@@ -175,6 +190,7 @@ Nell’esempio seguente verrà creato uno stile di carattere in linea:
 1. Aprire il foglio di stile richiesto per la modifica.
 
    >[!NOTE]
+   >
    Consulta [Personalizzare uno stile predefinito o nuovo](components-pdf-template.md#customize-style) sezione per l&#39;apertura di un foglio di stile per la personalizzazione o la modifica.
 
 1. In **Stili** , espandere **Stili di carattere**.
@@ -193,8 +209,9 @@ Nell’esempio seguente verrà creato uno stile di carattere in linea:
 
    * **Font**: da questa sezione è possibile personalizzare tutte le proprietà relative ai caratteri. Per impostazione predefinita, alcuni tipi di carattere sono forniti in bundle con il prodotto. È possibile scegliere il tipo di carattere desiderato per lo stile di carattere. Nel nostro esempio, impostate la famiglia di caratteri su *Serif* e seleziona *Bold* e *Corsivo* nella proprietà Stile carattere. È inoltre possibile personalizzare altre proprietà del tipo di carattere, ad esempio lo spessore del carattere (grassetto, più chiaro), la decorazione del testo (come sottolineato, sovrapposto), la dimensione del carattere, il colore del carattere, l&#39;allineamento del testo e altro ancora.
 
-      >[!NOTE]
-      Puoi anche aggiungere font al modello, che sono memorizzati nella sezione Risorse del modello. Per ulteriori dettagli sull&#39;aggiunta di font e sull&#39;utilizzo delle risorse, consultate [Utilizzare le risorse](components-pdf-template.md#work-with-resources).
+     >[!NOTE]
+     >
+     Puoi anche aggiungere font al modello, che sono memorizzati nella sezione Risorse del modello. Per ulteriori dettagli sull&#39;aggiunta di font e sull&#39;utilizzo delle risorse, consultate [Utilizzare le risorse](components-pdf-template.md#work-with-resources).
 
    * **Layout**: puoi impostare le proprietà relative al layout, ad esempio Altezza e Larghezza, Margine, Spaziatura, Allineamento e altro ancora.
 
@@ -217,6 +234,7 @@ Nell’esempio seguente, personalizzeremo lo stile dell’elenco numerato o ordi
 1. Aprire il foglio di stile richiesto per la modifica.
 
    >[!NOTE]
+   >
    Consulta [Personalizzare uno stile predefinito o nuovo](components-pdf-template.md#customize-style) sezione per l&#39;apertura di un foglio di stile per la personalizzazione o la modifica.
 
 1. In **Stili** , espandere **Stili elenco**.
@@ -243,29 +261,29 @@ Nell’esempio seguente, personalizzeremo lo stile dell’elenco numerato o ordi
 
    * **Formato numero**: il formato predefinito è impostato su `<x>`, in cui il `x` Il valore viene sostituito con lo stile di numerazione selezionato nella proprietà Tipo di stile elenco. Ad esempio, se hai selezionato `decimal` (1), quindi il valore di `x` incrementa automaticamente per ogni istanza dell’elemento elenco, passando a 2, 3 e così via. Puoi anche aggiungere testo personalizzato nel campo per formattare lo stile dell’elenco. Ad esempio, se desideri che tutti gli stili di elenco di primo livello abbiano un suffisso &quot;`)`&quot;, quindi è necessario impostare questo campo per lo stile di elenco di primo livello come &quot;`<x>)`&quot;.
 
-   * **Inserisci carattere**: per aggiungere un carattere speciale nel formato numero, fare clic sul pulsante Inserisci carattere (<img src="./assets/insert-chars.png" width="25">) icon. Selezionare il carattere desiderato che si desidera aggiungere nel formato di stile e fare clic su Inserisci. Nell&#39;elenco a discesa Seleziona categoria sono disponibili diversi tipi di caratteri speciali.
+   * **Inserisci carattere**: per aggiungere un carattere speciale nel formato numero, fare clic sul pulsante Inserisci carattere (<img src="./assets/insert-chars.png" width="25">). Selezionare il carattere desiderato che si desidera aggiungere nel formato di stile e fare clic su Inserisci. Nell&#39;elenco a discesa Seleziona categoria sono disponibili diversi tipi di caratteri speciali.
 
    * **Inserisci livello**: nel formato numerico è possibile includere il numero di uno qualsiasi dei livelli precedenti. Ad esempio, se si desidera includere il formato numero del quinto livello nel formato numero del sesto livello, scegliere 5 nell&#39;elenco a discesa Inserisci livello. Si noti che il menu a discesa Inserisci livello mostra i numeri dei soli livelli precedenti e non del livello seguente. Ad esempio, mentre si è al livello 3, l&#39;elenco Inserisci livello mostrerà solo i livelli 1 e 2.
 
-      <img src="./assets/list-insert-level.png" width="400">
+     <img src="./assets/list-insert-level.png" width="400">
 
-      È inoltre possibile modificare il Formato numero per presentare i valori dell&#39;elenco in base alle esigenze. Ad esempio, quando si utilizza uno stile di numerazione nidificato per il livello 3, è possibile formattarlo come &quot;`<2>.<x>))`&quot;. Verrà visualizzato l&#39;elenco numero 2, seguito da un punto, seguito dall&#39;elenco numero 3 e quindi da due parentesi, come `2.3))`.
+     È inoltre possibile modificare il Formato numero per presentare i valori dell&#39;elenco in base alle esigenze. Ad esempio, quando si utilizza uno stile di numerazione nidificato per il livello 3, è possibile formattarlo come &quot;`<2>.<x>))`&quot;. Verrà visualizzato l&#39;elenco numero 2, seguito da un punto, seguito dall&#39;elenco numero 3 e quindi da due parentesi, come `2.3))`.
 
    * **Rientra**: se desideri applicare un rientro all’elenco, devi impostare il valore Rientro. Qualsiasi modifica al rientro può essere rivista nel pannello Anteprima e regolata.
 
-      >[!NOTE]
-      Potete immettere il valore in pixel (pixel), pt (punti), rem, em, % (percentuale) o in unità (pollici).
+     >[!NOTE]
+     >
+     Potete immettere il valore in pixel (pixel), pt (punti), rem, em, % (percentuale) o in unità (pollici).
 
    * **Larghezza prefisso**: area occupata dal formato numero. Viene automaticamente impostato su una dimensione che può adattarsi facilmente al formato selezionato. Se desideri aumentare le dimensioni, puoi sostituire il valore predefinito.
 
-      Quando imposti questo valore manualmente, prova a modificare le altre proprietà che avranno un impatto sulla larghezza. Ad esempio, modificare la dimensione del carattere, il formato con prefisso o suffisso e le varie proprietà del carattere per ottenere la dimensione ottimale.
+     Quando imposti questo valore manualmente, prova a modificare le altre proprietà che avranno un impatto sulla larghezza. Ad esempio, modificare la dimensione del carattere, il formato con prefisso o suffisso e le varie proprietà del carattere per ottenere la dimensione ottimale.
 
    * **Spaziatura**: specifica la spaziatura orizzontale tra il formato del numero di elenco e il contenuto. La spaziatura verticale controlla lo spazio tra le due voci di elenco.
 
-      La schermata seguente mostra l’elenco ordinato personalizzato per ogni livello:
+     La schermata seguente mostra l’elenco ordinato personalizzato per ogni livello:
 
-      <img src="./assets/list-number-format-final.png" width="500">
-
+     <img src="./assets/list-number-format-final.png" width="500">
 
 ## Utilizzare lo stile di tabella {#table-styles}
 
@@ -276,6 +294,7 @@ Nell’esempio seguente viene illustrato come creare uno stile di tabella e le v
 1. Aprire il foglio di stile richiesto per la modifica.
 
    >[!NOTE]
+   >
    Consulta [Personalizzare uno stile predefinito o nuovo](components-pdf-template.md#customize-style) sezione per l&#39;apertura di un foglio di stile per la personalizzazione o la modifica.
 
 1. In **Stili** , fare clic con il pulsante destro del mouse sulla **Stile tabella** e scegli **Nuovo stile**.
@@ -290,21 +309,23 @@ Nell’esempio seguente viene illustrato come creare uno stile di tabella e le v
 
    * **Applica formattazione a**: puoi scegliere di applicare la formattazione dello stile all’intera tabella, alle righe o colonne pari/dispari o alla prima/ultima riga o colonna.
 
-      >[!NOTE]
-      Le seguenti impostazioni sono disponibili nella sezione **Generale** sezione quando **Applica formattazione a** è impostato su **Tabella intera**.
+     >[!NOTE]
+     >
+     Le seguenti impostazioni sono disponibili nella sezione **Generale** sezione quando **Applica formattazione a** è impostato su **Tabella intera**.
 
    * **Testo a capo**: seleziona come disporre il testo attorno alla tabella. Questa funzione è utile quando la tabella si trova all’interno di un altro elemento a livello di blocco e deve essere sottoposta a rendering insieme ad altro contenuto nell’elemento del blocco. Le opzioni di wrapping sono *left* o *destra* allineato, oppure *nessuno*.
 
    * **Comprimi bordo**: seleziona l’aspetto del bordo della tabella. Se si seleziona Comprimi, tra le celle della tabella viene disegnata una sola linea di bordo. Tuttavia, per uno stile separato, il bordo è visibile attorno a ogni cella con una spaziatura aggiuntiva.
 
-      <img src="./assets/table-style-collapse-separate.png" width="500">
+     <img src="./assets/table-style-collapse-separate.png" width="500">
 
    * **Spaziatura bordo**: questa impostazione è disponibile solo se l&#39;opzione Comprimi bordo è impostata su Separa. Questa impostazione consente di specificare la spaziatura verticale e orizzontale tra i bordi delle celle.
 
-      <img src="./assets/table-border-spacing.png" width="500">
+     <img src="./assets/table-border-spacing.png" width="500">
 
-      >[!NOTE]
-      Le seguenti impostazioni sono disponibili nella sezione **Cella** sezione quando **Applica formattazione a** è impostato su **Tabella intera**.
+     >[!NOTE]
+     >
+     Le seguenti impostazioni sono disponibili nella sezione **Cella** sezione quando **Applica formattazione a** è impostato su **Tabella intera**.
 
    * **Spaziatura**: specifica la spaziatura tra le celle della tabella. Potete specificare valori di spaziatura diversi per i lati superiore, inferiore, sinistro e destro.
 
@@ -329,6 +350,7 @@ Nell’esempio seguente verrà creato il titolo di una nuova finestra (`wintitle
 1. Aprire il foglio di stile richiesto per la modifica.
 
    >[!NOTE]
+   >
    Consulta [Personalizzare uno stile predefinito o nuovo](components-pdf-template.md#customize-style) sezione per l&#39;apertura di un foglio di stile per la personalizzazione o la modifica.
 
 1. In **Stili** list, expand **Altri stili**.

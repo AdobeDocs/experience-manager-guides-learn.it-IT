@@ -1,8 +1,7 @@
 ---
 title: Funzione di pubblicazione nativa di PDF | Aggiungi un segnalibro personalizzato nell’output di PDF
 description: Scopri come creare fogli di stile di utilizzo e stili per i contenuti.
-exl-id: 6e6dbba3-da41-4066-b7b2-735a3d92b70a
-source-git-commit: e2349fc14143e5e49f8672ef1bfa48984df3b1c7
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 0%
@@ -20,7 +19,7 @@ Ecco, il `bookmark-level` è un attributo e un numero `3` è il valore che indic
 
 <img src="./assets/custom-bookmark-attribute.png" width="500">
 
-La seguente definizione di `custom-bookmark` nel file CSS viene aggiunta la classe:
+La seguente definizione di `custom-bookmark` viene aggiunta nel file CSS:
 
 ```css
 …

@@ -1,13 +1,12 @@
 ---
 title: Configurare un modello di mappa DITA personalizzato
 description: Scopri come configurare un modello di mappa DITA personalizzato
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 1%
 
 ---
-
 
 # Configurare un modello di mappa DITA personalizzato {#id1774F04F05Z}
 
@@ -15,7 +14,7 @@ AEM Guides è dotato di due modelli di mappe preconfigurati: DITA map e Bookmap.
 
 Per aggiungere modelli di mappa personalizzati, effettua le seguenti operazioni:
 
-1. Accedi ad Adobe Experience Manager come amministratore.
+1. Accedi a Adobe Experience Manager come amministratore.
 
 1. Nell’interfaccia utente Assets, passa alla cartella configurata per memorizzare i file del modello di mappa. Per impostazione predefinita, tutti i modelli di mappa sono memorizzati nella cartella /content/dam/dita-templates/maps.
 
@@ -46,11 +45,10 @@ Per aggiungere modelli di mappa personalizzati, effettua le seguenti operazioni:
    È possibile scegliere di aprire il modello per la modifica nell&#39;Editor mapping o di salvare il file modello nel percorso dell&#39;archivio modelli. Una volta creato il modello, puoi utilizzare l’Editor mappa per personalizzarlo in base alle tue esigenze di authoring. Una volta installato un modello, accertati di associarlo a un profilo globale o a livello di cartella.
 
 
-La prossima volta che crei una nuova mappa, il modello viene visualizzato nella pagina Blueprint. Per ulteriori informazioni sulla creazione di una mappa DITA, vedere la guida as a Cloud Service Utilizzo delle guide di Adobe Experience Manager.
+La prossima volta che crei una nuova mappa, il modello viene visualizzato nella pagina Blueprint. Per ulteriori informazioni sulla creazione di una mappa DITA, vedere la guida Utilizzo delle guide di Adobe Experience Manager as a Cloud Service.
 
 >[!TIP]
 >
 > Consulta *i modelli personalizzati* sezione nella guida alle best practice per le best practice sull’utilizzo di modelli di mappa personalizzati.
 
 **Argomento padre:**[ Configurare modelli di argomenti e mappe](conf-template-tags.md)
-

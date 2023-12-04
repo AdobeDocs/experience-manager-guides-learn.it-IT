@@ -1,13 +1,12 @@
 ---
 title: Migrare contenuti non DITA
 description: Scopri come eseguire la migrazione di contenuti non DITA
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '2936'
+source-wordcount: '2889'
 ht-degree: 0%
 
 ---
-
 
 # Migrare contenuti non DITA {#id181AH0R02HT}
 
@@ -129,7 +128,7 @@ In generale, il processo di conversione richiede di: [Prepara i file InDesign pe
 
 Per convertire i documenti InDesign esistenti in documenti di tipo argomento DITA, effettuare le seguenti operazioni:
 
-1. Accedi all’AEM e apri la modalità CRXDE Lite.
+1. Accedi all’AEM e apri la modalità CRXDE Liti.
 
 1. Passare al file di configurazione predefinito disponibile nella posizione seguente:
 
@@ -377,4 +376,3 @@ Per convertire i documenti strutturati esistenti in formato DITA, effettuare le 
 Utilizzo di `<config> </config>` , puoi definire uno o più blocchi di configurazioni da convertire. Il flusso di lavoro di conversione viene eseguito e l&#39;output finale sotto forma di argomento DITA viene salvato nella posizione specificata in `outputDir` elemento.
 
 **Argomento padre:**[ Migrare i contenuti esistenti](migrate-content.md)
-

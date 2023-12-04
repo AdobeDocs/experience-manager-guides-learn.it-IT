@@ -1,10 +1,9 @@
 ---
 title: Rivedi argomenti
 description: Scopri come rivedere gli argomenti e utilizzare le funzioni di revisore, visualizzazione documenti, visualizzazione argomenti, barra degli strumenti contestuale, modalità di anteprima, aggiunta di allegati ai commenti e pannello delle condizioni nelle guide AEM.
-exl-id: ca94ec2e-cd45-418d-9b35-73d587ba51ec
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '2348'
+source-wordcount: '2351'
 ht-degree: 0%
 
 ---
@@ -172,7 +171,7 @@ Per aggiungere un allegato al commento, effettua le seguenti operazioni:
 
    Nel pannello Commenti potete visualizzare il nome del file e le relative dimensioni. È inoltre possibile rimuovere un file facendo clic sull&#39;icona Elimina. ![](images/Delete_icon.svg) associato al nome del file.
 
-1. Clic **Invia**.
+1. Fai clic su **Invia**.
 
    Gli allegati vengono caricati e aggiunti al commento.
 

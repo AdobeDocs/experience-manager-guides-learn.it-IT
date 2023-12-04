@@ -1,13 +1,12 @@
 ---
 title: Configurare nomi di file automatici basati su UUID
 description: Scopri come configurare i nomi di file automatici in base all’UUID
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 0%
 
 ---
-
 
 # Configurare nomi di file automatici basati su UUID {#id205QG070D5Z}
 
@@ -15,7 +14,7 @@ Per impostazione predefinita, quando viene creato un file argomento o mappa, agl
 
 Per assegnare automaticamente il nome di file basato su UUID per tutti i nuovi file creati nel sistema, effettua le seguenti operazioni:
 
-1. Apri la pagina Configurazione della console web Adobe Experience Manager.
+1. Aprire la pagina Configurazione della console Web Adobe Experience Manager.
 
    L&#39;URL predefinito per accedere alla pagina di configurazione è:
 
@@ -35,4 +34,3 @@ Per assegnare automaticamente il nome di file basato su UUID per tutti i nuovi f
 > Per impostazione predefinita, questa opzione è disattivata. Quando questa opzione è attivata, gli autori non visualizzeranno l&#39;opzione per specificare il nome del file durante la creazione di un nuovo argomento o di un nuovo file di mappa. È possibile creare un nuovo argomento o un nuovo file di mappa dall’interfaccia utente di Assets e dall’editor web.
 
 **Argomento padre:**[ Configura nomi file](conf-file-names.md)
-

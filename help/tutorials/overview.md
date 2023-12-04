@@ -1,11 +1,10 @@
 ---
 title: Tutorials per Experienci Manager di guide
-description: Trova video tutorial per Experience Manager di guide (precedentemente XML Documentation per Adobe Experience Manager). Scopri il supporto DITA nativo e l’authoring strutturato in Experience Manager.
-exl-id: 06dd1b77-1a98-430f-8322-475d4fa4947b
-source-git-commit: 7fa60a962a94ad5011359398cc668f8080859a8c
+description: Trova video tutorial per Experience Manager di guide (già XML Documentation per Adobe Experience Manager). Scopri il supporto DITA nativo e l’authoring strutturato in Experience Manager.
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 2%
+source-wordcount: '303'
+ht-degree: 0%
 
 ---
 
@@ -25,16 +24,16 @@ Con [!DNL AEM Guides] soluzione, le aziende possono fornire agli utenti finali e
 
 * **[[!DNL AEM Guides] Guida introduttiva al corso](../courses/course-1/overview.md)**
 
-   _Scopri come creare, organizzare, creare e pubblicare contenuti con [!DNL Adobe Experience Manager Guides]._
+  _Scopri come creare, organizzare, creare e pubblicare contenuti con [!DNL Adobe Experience Manager Guides]._
 
 
 * **[[!DNL AEM Guides] Authoring nell’editor web integrato](../courses/course-3/overview.md)**
 
-   _Scopri come creare contenuti utilizzando l’editor web nativo in  [!DNL Adobe Experience Manager Guides]. Comprendi completamente le preferenze degli utenti, le impostazioni dell’editor, la configurazione, le barre degli strumenti e altro ancora._
+  _Scopri come creare contenuti utilizzando l’editor web nativo in  [!DNL Adobe Experience Manager Guides]. Comprendi completamente le preferenze degli utenti, le impostazioni dell’editor, la configurazione, le barre degli strumenti e altro ancora._
 
 * **[Generazione di output con [!DNL AEM Guides]](../courses/course-2/overview.md)**
 
-   _Scopri come generare l’output utilizzando [!DNL Adobe Experience Manager Guides]. Scopri le varie funzioni disponibili per la generazione dell’output: rapporti, linee di base, condizioni, risoluzione dei problemi, pubblicazione in blocco e attivazione._
+  _Scopri come generare l’output utilizzando [!DNL Adobe Experience Manager Guides]. Scopri le varie funzioni disponibili per la generazione dell’output: rapporti, linee di base, condizioni, risoluzione dei problemi, pubblicazione in blocco e attivazione._
 
 
 <!--

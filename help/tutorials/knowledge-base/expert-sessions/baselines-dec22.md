@@ -1,10 +1,9 @@
 ---
 title: Gestire i contenuti tramite le linee di base
 description: Scopri come utilizzare le linee di base per gestire in modo efficace i contenuti.
-exl-id: 3fc2e889-b255-4e8d-9750-ab61337107ae
-source-git-commit: 3d12389dbd7458a74bb9b9ec488e83bf39c8c9bf
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '183'
 ht-degree: 1%
 
 ---
@@ -48,8 +47,7 @@ In questa sessione imparerai quanto segue:
 >
 >Le funzioni mostrate in questa sessione sono disponibili nelle seguenti versioni delle Guide AEM:
 > - On-prem 4.1 e versioni successive
-> - Cloud Services 2211 e successivi
-
+> - Cloud Service 2211 e successivi
 
 ## Contattaci
 

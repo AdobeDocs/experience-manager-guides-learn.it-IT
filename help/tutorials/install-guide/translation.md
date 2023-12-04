@@ -1,19 +1,18 @@
 ---
 title: Tradurre i contenuti nelle guide AEM
 description: Scopri come tradurre i contenuti
-source-git-commit: 9fe396dcfd2e3570ec386c958d7d4efdb4d608e5
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 12%
+source-wordcount: '707'
+ht-degree: 9%
 
 ---
-
 
 # Tradurre il contenuto {#id181GB0400UI}
 
 Automatizza la traduzione di contenuti di pagina, risorse e contenuti generati dall&#39;utente per creare e gestire siti web multilingue. Per automatizzare i flussi di lavoro di traduzione, puoi integrare fornitori di servizi di traduzione con AEM e creare progetti per la traduzione dei contenuti in più lingue. AEM supporta flussi di lavoro di traduzione umana e automatica.
 
-- Traduzione umana: il contenuto viene inviato al tuo provider di traduzioni e tradotto da professionisti. Una volta completato, il contenuto tradotto viene rinviato e importato in AEM. Quando il fornitore di traduzione è integrato con l&#39;AEM, i contenuti vengono scambiati automaticamente tra l&#39;AEM e il fornitore di traduzione
+- Traduzione umana: il contenuto viene inviato al tuo provider di traduzioni e tradotto da traduttori professionisti. Una volta completato, il contenuto tradotto viene rinviato e importato in AEM. Quando il fornitore di traduzione è integrato con l&#39;AEM, i contenuti vengono scambiati automaticamente tra l&#39;AEM e il fornitore di traduzione
 
 - Traduzione automatica: il servizio di traduzione automatica traduce immediatamente il contenuto
 
@@ -43,7 +42,7 @@ Se il fornitore di servizi di traduzione non fornisce un connettore per l’inte
 
 L&#39;opzione Nascondi scheda di traduzione non è attivata per impostazione predefinita ed è necessario attivarla da configMgr. Per nascondere la scheda Traduzione nel dashboard delle mappe DITA, effettuare le seguenti operazioni:
 
-1. Apri la pagina Configurazione della console web Adobe Experience Manager.
+1. Aprire la pagina Configurazione della console Web Adobe Experience Manager.
 
    L&#39;URL predefinito per accedere alla pagina di configurazione è:
 
@@ -67,7 +66,7 @@ Se il connettore per il fornitore di traduzione non supporta il contenuto DITA, 
 
 In base al flusso di lavoro di traduzione utilizzato nella configurazione, l’opzione del flusso di lavoro di traduzione basato su componenti deve essere configurata come segue:
 
-1. Apri la pagina Configurazione della console web Adobe Experience Manager.
+1. Aprire la pagina Configurazione della console Web Adobe Experience Manager.
 
    L&#39;URL predefinito per accedere alla pagina di configurazione è:
 
@@ -82,6 +81,7 @@ In base al flusso di lavoro di traduzione utilizzato nella configurazione, l’o
    - Se utilizzi la traduzione umana, allora *Disattiva* il **Flusso di lavoro di traduzione basato su componenti** opzione.
 
    - Se utilizzi la traduzione automatica, allora *Abilita* il **Flusso di lavoro di traduzione basato su componenti** opzione.
+
    >[!NOTE]
    >
    > Se utilizzi un connettore di traduzione, accertati di averlo configurato come descritto in *[Configurazione del framework di integrazione della traduzione](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html)* argomento nella documentazione AEM.
@@ -99,7 +99,7 @@ Quando avvii il flusso di lavoro di traduzione, il sistema crea copie temporanee
 
 Per impostazione predefinita, l’opzione di post-elaborazione dei file temporanei è disabilitata. Per configurare questa opzione, effettua le seguenti operazioni:
 
-1. Apri la pagina Configurazione della console web Adobe Experience Manager.
+1. Aprire la pagina Configurazione della console Web Adobe Experience Manager.
 
    L&#39;URL predefinito per accedere alla pagina di configurazione è:
 
@@ -116,5 +116,3 @@ Per impostazione predefinita, l’opzione di post-elaborazione dei file temporan
    - Se si desidera eseguire l&#39;operazione di post-elaborazione sui file temporanei, *Abilita* il **Copie per lingua post-elaborazione** opzione.
 
 1. Fai clic su **Salva**.
-
-

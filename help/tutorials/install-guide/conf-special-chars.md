@@ -1,13 +1,12 @@
 ---
 title: Configurare i caratteri speciali consentiti
 description: Scopri come configurare i caratteri speciali consentiti
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 0%
 
 ---
-
 
 # Configurare i caratteri speciali consentiti {#id20CIL600035}
 
@@ -15,7 +14,7 @@ L’editor web consente di inserire caratteri speciali pronti all’uso. Tuttavi
 
 Per sovrascrivere l’elenco predefinito di caratteri speciali, effettua le seguenti operazioni:
 
-1. Accedi all’AEM e apri la modalità CRXDE Lite.
+1. Accedi all’AEM e apri la modalità CRXDE Liti.
 
 1. creare `symbols.json` file nella posizione seguente:
 
@@ -42,8 +41,7 @@ La struttura del `symbols.json` Il file è spiegato di seguito:
 - `"items"`: definisce la raccolta di caratteri speciali nella categoria.
 - `"name": "←", "title": "Left Arrow"`: questa è la definizione del carattere speciale. Inizia con `"name"` etichetta, che non deve essere modificata. Il nome è seguito dal carattere speciale. Il `"title"` è il nome o il titolo del carattere speciale visualizzato come descrizione comando per il carattere speciale.
 
-   All’interno di una categoria è possibile definire più definizioni di caratteri speciali.
+  All’interno di una categoria è possibile definire più definizioni di caratteri speciali.
 
 
 **Argomento padre:**[ Personalizza editor web](conf-web-editor.md)
-

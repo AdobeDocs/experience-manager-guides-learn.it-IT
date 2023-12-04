@@ -1,13 +1,12 @@
 ---
 title: Amministrazione degli utenti e sicurezza
 description: Scopri come funzionano l’amministrazione degli utenti e la sicurezza
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '716'
-ht-degree: 12%
+source-wordcount: '708'
+ht-degree: 10%
 
 ---
-
 
 # Amministrazione degli utenti e sicurezza {#id181AED00G5Z}
 
@@ -17,7 +16,7 @@ I seguenti argomenti nella documentazione AEM ti aiuteranno a comprendere l’am
 
 - [Utenti, gruppi e autorizzazioni AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html)
 
-- [Amministrazione utenti e sicurezza](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=it)
+- [Amministrazione utenti e sicurezza](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html)
 
 
 ## Gruppi di utenti creati da Guide AEM {#id181TF0K0MHT}
@@ -82,11 +81,11 @@ Il seguente elenco contiene alcuni consigli e punti relativi ai gruppi di utenti
 
 - Per impostazione predefinita, *Editori* dispongono dell’accesso e delle autorizzazioni per le seguenti cartelle in DAM:
 
-   - `/content/fmdita` –\> Leggi e scrivi
+   - `/content/fmdita` -\> Lettura e scrittura
 
-   - `/content/dam/fmdita-outputs` –\> Leggi e scrivi
+   - `/content/dam/fmdita-outputs` -\> Lettura e scrittura
 
-   - `/content/output/sites` –\> Leggi e scrivi
+   - `/content/output/sites` -\> Lettura e scrittura
 
   Se utilizzi una posizione diversa da quelle di pubblicazione predefinite sopra indicate, devi assegnare all’editore autorizzazioni di lettura e scrittura esplicite.
 
@@ -101,4 +100,3 @@ Il seguente elenco contiene alcuni consigli e punti relativi ai gruppi di utenti
 - Per assegnare a un utente i diritti per modificare lo stato di un documento, assicurarsi di aggiungere l&#39;utente nella sezione relativa alla transizione dello stato del profilo di stato del documento.
 
 [1](#fnsrc_1) Se *Autori* e *Editori* sono invitati a una revisione.[2](#fnsrc_2) A seconda dei diritti assegnati all&#39;utente nel profilo dello stato del documento.
-

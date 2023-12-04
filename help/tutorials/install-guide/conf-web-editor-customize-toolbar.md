@@ -1,13 +1,12 @@
 ---
 title: Personalizza barra degli strumenti
 description: Scopri come personalizzare la barra degli strumenti
-source-git-commit: ef2e99db8c298d34af5777baa48886a55ac32590
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 0%
 
 ---
-
 
 # Personalizza barra degli strumenti {#id172FB00L0V6}
 
@@ -28,7 +27,7 @@ L’aggiunta di una funzionalità all’editor web comporta due attività princi
 
 Per aggiungere una funzionalità alla barra degli strumenti dell&#39;editor Web, effettuare le operazioni riportate di seguito.
 
-1. Accedi all’AEM e apri la modalità CRXDE Lite.
+1. Accedi all’AEM e apri la modalità CRXDE Liti.
 
 1. Passare al file di configurazione predefinito disponibile nella posizione seguente:
 
@@ -48,20 +47,20 @@ Per aggiungere una funzionalità alla barra degli strumenti dell&#39;editor Web,
 
    - **elementi:** Specificate la definizione di tutti i gruppi nella barra degli strumenti. Ogni gruppo può contenere una o più icone della barra degli strumenti. Per definire le icone all&#39;interno di un gruppo di barre degli strumenti, è necessario definire nuovamente `type` all&#39;interno del `items`e impostarne il valore su `buttonGroup`. Specifica uno o più nomi di classe in `extraclass` proprietà. Specificate il nome della feature nella `label` proprietà. Lo snippet seguente proveniente da `ui_config.json` file mostra la definizione del blocco della barra degli strumenti principale, seguito da `buttonGroup` definizione:
 
-      ```json
-      "toolbar": {    
-        "type": "blockGroup",    
-        "extraclass": 
-        "toolbar operations",    
-          "items": [      
-            {        
-              "type": "buttonGroup",        
-              "extraclass": "left-controls",        
-              "label": "Left Controls",        
-              "items": [
-      ```
+     ```json
+     "toolbar": {    
+       "type": "blockGroup",    
+       "extraclass": 
+       "toolbar operations",    
+         "items": [      
+           {        
+             "type": "buttonGroup",        
+             "extraclass": "left-controls",        
+             "label": "Left Controls",        
+             "items": [
+     ```
 
-      All&#39;interno del `items` raccolta, è necessario specificare la definizione per una o più icone della barra degli strumenti.
+     All&#39;interno del `items` raccolta, è necessario specificare la definizione per una o più icone della barra degli strumenti.
 Per aggiungere un&#39;icona a forma di barra degli strumenti, è necessario definire le seguenti proprietà:
 
    - **tipo:** Specifica `button` come `type` valore. Questo valore indica che si sta aggiungendo un pulsante della barra degli strumenti.
@@ -74,9 +73,9 @@ Per aggiungere un&#39;icona a forma di barra degli strumenti, è necessario defi
 
    - **clic:** Specifica il nome del comando definito per la funzione nel file JavaScript. Se il comando richiede parametri di input, specificare il nome del comando come:
 
-      ```JavaScript
-      "on-click": {"name": "AUTHOR_INSERT_ELEMENT", "args": "simpletable"}
-      ```
+     ```JavaScript
+     "on-click": {"name": "AUTHOR_INSERT_ELEMENT", "args": "simpletable"}
+     ```
 
    - **mostra o nascondi:** Se si sta definendo `show` , quindi specificare le modalità di visualizzazione dell&#39;icona. I valori possibili sono - `@isAuthorMode`, `@isSourceMode`, `@isPreviewMode`, `true` \(visualizza in tutte le modalità\), oppure `false` \(nascondi in tutte le modalità\).
 
@@ -205,7 +204,7 @@ Talvolta è possibile non assegnare tutte le funzionalità attualmente disponibi
 
 Per rimuovere qualsiasi feature indesiderata dalla barra degli strumenti, effettuate le seguenti operazioni:
 
-1. Accedi all’AEM e apri la modalità CRXDE Lite.
+1. Accedi all’AEM e apri la modalità CRXDE Liti.
 
 1. Passa al file di configurazione predefinito disponibile nella posizione seguente:.
 
@@ -222,7 +221,7 @@ Il `ui_config.json` Il file è suddiviso in tre sezioni:
 
 - **collegamenti:**   Questa sezione contiene la definizione delle scelte rapide da tastiera assegnate a una particolare funzione nell’editor.
 
-- **modelli:**   Questa sezione contiene la struttura predefinita degli elementi DITA che è possibile utilizzare nel documento. Per impostazione predefinita, la sezione modelli contiene le definizioni dei modelli per gli elementi paragrafo, tabella semplice, tabella e corpo. Puoi creare una definizione di modello per qualsiasi elemento aggiungendo una struttura XML valida per l’elemento desiderato. Ad esempio, se desideri aggiungere una `p` con ogni nuovo `li` in un elenco, puoi aggiungere il seguente codice alla fine della sezione modelli per ottenere questo risultato:
+- **modelli:**   Questa sezione contiene la struttura predefinita degli elementi DITA che è possibile utilizzare nel documento. Per impostazione predefinita, la sezione modelli contiene le definizioni dei modelli per gli elementi paragrafo, tabella semplice, tabella e corpo. Puoi creare una definizione di modello per qualsiasi elemento aggiungendo una struttura XML valida per l’elemento desiderato. Ad esempio, se desideri aggiungere una `p` con ogni nuovo elemento `li` in un elenco, puoi aggiungere il seguente codice alla fine della sezione modelli per ottenere questo risultato:
 
 ```HTML
 "li": "<li><p></p></li>"
@@ -234,4 +233,3 @@ Il `ui_config.json` Il file è suddiviso in tre sezioni:
 
 
 **Argomento padre:**[ Personalizza editor web](conf-web-editor.md)
-

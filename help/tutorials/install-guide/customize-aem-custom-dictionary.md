@@ -1,13 +1,12 @@
 ---
 title: Personalizza dizionario predefinito AEM
 description: Scopri come personalizzare il dizionario predefinito per AEM
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '173'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
-
 
 # Personalizza dizionario predefinito AEM {#id209SD8000WU}
 
@@ -15,7 +14,7 @@ L&#39;editor Web può essere configurato in modo da utilizzare il controllo orto
 
 Per creare un elenco di parole personalizzato aggiunto nel dizionario AEM, effettuare le seguenti operazioni:
 
-1. Accedi all’AEM e apri la modalità CRXDE Lite.
+1. Accedi all’AEM e apri la modalità CRXDE Liti.
 
 1. Passa al seguente nodo:
 
@@ -29,10 +28,9 @@ Per creare un elenco di parole personalizzato aggiunto nel dizionario AEM, effet
 
    ![](assets/custom-words-list-dictionary.png){width="650" align="left"}
 
-1. Salva e chiudi il file 
+1. Salva e chiudi il file.
 
 
 Per aggiornare l&#39;elenco delle parole personalizzate nel dizionario AEM, gli autori dovranno riavviare la sessione dell&#39;editor Web.
 
 **Argomento padre:**[ Personalizza editor web](conf-web-editor.md)
-

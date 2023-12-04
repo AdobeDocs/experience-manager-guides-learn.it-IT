@@ -1,13 +1,12 @@
 ---
 title: Configurare la funzione di traduzione nell’editor web
 description: Scopri come configurare la funzione di traduzione nell’editor web
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 0%
 
 ---
-
 
 # Configurare la funzione di traduzione nell’editor web {#id21BONI0J0YR}
 
@@ -46,4 +45,3 @@ Per nascondere **Gestisci** nell&#39;Editor Web, effettuare le seguenti operazio
 Tieni presente che **Gestisci** Il filtro non è più disponibile.
 
 **Argomento padre:**[ Personalizza editor web](conf-web-editor.md)
-

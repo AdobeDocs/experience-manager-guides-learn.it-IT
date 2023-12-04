@@ -1,10 +1,9 @@
 ---
 title: Nozioni di base sulla pubblicazione nativa di PDF
 description: Scopri come pubblicare PDF utilizzando il motore pdf nativo nelle guide AEM.
-exl-id: e7ba6d2d-ebfb-4400-9b10-c4fb173123cf
-source-git-commit: 093cb6c3b3a523e56f401e813c2b51a414c725d2
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '204'
 ht-degree: 1%
 
 ---
@@ -49,8 +48,7 @@ In questa sessione imparerai quanto segue:
 >
 > Le funzioni mostrate in questa sessione sono disponibili nelle seguenti versioni delle Guide AEM:
 > - On-prem 4.2 o versione successiva
-> - Cloud Services 2211 e successivi
-
+> - Cloud Service 2211 e successivi
 
 ## Contattaci
 

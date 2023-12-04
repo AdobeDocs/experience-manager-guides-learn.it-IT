@@ -1,13 +1,12 @@
 ---
 title: Imposta l'Editor mappe avanzato come predefinito
 description: Scopri come impostare l’Editor mappe avanzato come predefinito
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 0%
 
 ---
-
 
 # Imposta l&#39;Editor mappe avanzato come predefinito {#id181AI0003PN}
 
@@ -17,7 +16,7 @@ Per impostazione predefinita, ogni volta che viene creato un nuovo file mappa, q
 
 Per impostare l&#39;Editor mappe avanzato come editor predefinito per i file di mappa, effettuate le seguenti operazioni:
 
-1. Apri la pagina Configurazione della console web Adobe Experience Manager.
+1. Aprire la pagina Configurazione della console Web Adobe Experience Manager.
 
    L&#39;URL predefinito per accedere alla pagina di configurazione è:
 
@@ -30,5 +29,3 @@ Per impostare l&#39;Editor mappe avanzato come editor predefinito per i file di 
 1. Seleziona la **Nascondi editor mappe di base** opzione.
 
    Selezionando questa opzione, gli utenti non visualizzeranno il collegamento Editor mappe di base nell&#39;interfaccia utente. Per impostazione predefinita, i file di mappa si aprono nell’Editor mappe avanzato.
-
-

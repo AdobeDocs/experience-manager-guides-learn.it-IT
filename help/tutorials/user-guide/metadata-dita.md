@@ -1,10 +1,9 @@
 ---
 title: Utilizzo dei metadati nell’AEM
 description: Scopri come creare risorse e aggiungere metadati utilizzando Adobe Experience Manager Assets. Gestisci i metadati dalle guide AEM.
-exl-id: 78b80f19-d8c0-448e-960f-ec4bb5844a3f
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '90'
 ht-degree: 0%
 
 ---

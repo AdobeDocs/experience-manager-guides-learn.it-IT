@@ -1,13 +1,12 @@
 ---
 title: API basata su Java per lavorare con la generazione di output
 description: Scopri l’API basata su Java per lavorare con la generazione dell’output
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
-
 
 # API basata su Java per lavorare con la generazione di output {#id175UB30E05Z}
 
@@ -48,4 +47,3 @@ throws GuidesApiException
 **Parametri**: |Nome|Tipo|Descrizione| ----|----|-----------| |`session`|javax.jcr.Session|Sessione JCR valida.| |``sourcePath``|String|Percorso \(nel repository AEM\) del file di mapping DITA per il quale deve essere generato l&#39;output.| |``outputName``|String|Nome del predefinito di output\(s\) da utilizzare per generare l&#39;output. È possibile specificare più predefiniti di output utilizzando un delimitatore pipe \(&quot;\|&quot;\), ad esempio `aemsite\|pdfoutput`.|
 
 **Eccezione**: proiezioni ``javax.jcr.RepositoryException``, `java.io.IOException`, e `java.lang.Exception`.
-

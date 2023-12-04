@@ -1,10 +1,10 @@
 ---
 title: Note sulla versione | Istruzioni per l’aggiornamento e problemi risolti nella versione 4.3.0 delle Guide di Adobe Experience Manager
 description: Scopri le correzioni di bug e come effettuare l’aggiornamento alle versioni 4.3.0 delle guide di Adobe Experience Manager
-source-git-commit: b53f76c2f0234c1ef6c65d954311e3f8c980ffe2
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '998'
-ht-degree: 5%
+source-wordcount: '1086'
+ht-degree: 1%
 
 ---
 
@@ -61,15 +61,15 @@ Per ulteriori dettagli, vedi *Requisiti tecnici* nella guida Installare e config
 
 | Versione | Finestre del connettore dell&#39;ossigeno | Connettore di ossigeno Mac | Modifica in finestre a ossigeno | Modifica in Oxygen Mac |
 | --- | --- | --- |--- |--- |
-| 4.3.0 (non UUID) | 2.3-regular-5 | 2.3-regular-5 | 1.6 | 1.6 |
-| 4.3.0 (UUID) | 3,0-uuid-4 | 3.0-uuid-3 | 2.3 | 2.3 |
+| 4.3.0 (non UUID) | 2.3-regular-5 | 2.3-regular-5 | 1,6 | 1,6 |
+| 4.3.0 (UUID) | 3,0-uuid-4 | 3.0-uuid-3 | 2,3 | 2,3 |
 |  |  |   |
 
 ## Problemi risolti
 
 Di seguito sono elencati i bug risolti in varie aree:
 
-### Authoring  
+### Authoring
 
 - Il file dell&#39;argomento non viene sbloccato nell&#39;editor Web, anche se sono selezionate le opzioni Sblocca il file e Non salvare. (12558)
 - Impossibile estrarre un file nell&#39;editor Web, nonostante sia stata selezionata l&#39;opzione NO per ignorare le modifiche prima dell&#39;archiviazione. (12557)

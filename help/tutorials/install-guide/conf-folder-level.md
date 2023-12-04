@@ -1,10 +1,9 @@
 ---
 title: Configurare profili globali o a livello di cartella
 description: Scopri come configurare profili globali o a livello di cartella
-exl-id: 3370e22c-b996-4261-b250-8b8f8667c2a0
-source-git-commit: 192d807d0020193f39e8340fb6c0b6a50c6489f8
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '3891'
+source-wordcount: '3896'
 ht-degree: 0%
 
 ---
@@ -63,7 +62,7 @@ Utilizzando il riquadro Profili cartella nelle impostazioni delle Guide, è poss
 
    - EPUB
 
-   - Personalizzati
+   - Personale
 
   Gli editori possono utilizzare questi predefiniti di output predefiniti per pubblicare i contenuti. Questi predefiniti possono essere configurati da un amministratore del profilo globale o a livello di cartella. Una volta configurati, i predefiniti di pubblicazione diventano disponibili per gli editori per le mappe DITA appena create. È inoltre possibile applicare predefiniti di pubblicazione alle mappe DITA esistenti. Vedere [Applicare le modifiche ai predefiniti](#id18AGD0K0OHS) per ulteriori dettagli.
 
@@ -85,7 +84,7 @@ Le sezioni seguenti descrivono come configurare profili globali e profili a live
 
 Per configurare il profilo globale, effettua le seguenti operazioni:
 
-1. Accedi ad Adobe Experience Manager come amministratore.
+1. Accedi a Adobe Experience Manager come amministratore.
 
 1. Fai clic sul collegamento Adobe Experience Manager in alto e scegli **Strumenti**.
 
@@ -112,7 +111,7 @@ Per configurare il profilo globale, effettua le seguenti operazioni:
 
 Per configurare un profilo a livello di cartella, effettua le seguenti operazioni:
 
-1. Accedi ad Adobe Experience Manager come amministratore.
+1. Accedi a Adobe Experience Manager come amministratore.
 
 1. Fai clic sul collegamento Adobe Experience Manager in alto e scegli **Strumenti**.
 
@@ -171,7 +170,7 @@ Ora è possibile configurare gli attributi condizionali, i modelli di authoring,
 
 Per configurare gli attributi condizionali standard supportati da DITA a livello globale o di cartella, effettuare le seguenti operazioni:
 
-1. Accedi ad Adobe Experience Manager come amministratore o come utente con diritti di amministratore per un profilo a livello di cartella.
+1. Accedi a Adobe Experience Manager come amministratore o come utente con diritti di amministratore per un profilo a livello di cartella.
 
 1. Fai clic sul collegamento Adobe Experience Manager in alto e scegli **Strumenti**.
 
@@ -216,7 +215,7 @@ Se si utilizza un attributo personalizzato, deve essere un attributo DITA valido
    >
    > Il file DTD specializzato deve far parte della distribuzione del codice personalizzato. Le DTD in /etc fanno parte della distribuzione del prodotto e vengono quindi sovrascritte con l&#39;installazione di qualsiasi nuova versione. Si consiglia di aggiungere una DTD specializzata in /apps all&#39;interno della cartella del progetto e di includere il percorso della DTD o del catalogo nel profilo DITA.Per ulteriori informazioni, vedere [Integrare la specializzazione DITA](dita-ot-specialization.md#id211MB0E00XA).
 
-1. Apri la pagina Configurazione della console web di Adobe Experience Manager.
+1. Aprire la pagina Configurazione della console Web Adobe Experience Manager.
 
 1. Cerca e fai clic su *com.adobe.fmdita.config.ConfigManager* pacchetto.
 
@@ -247,7 +246,7 @@ Anche prima di configurare i modelli di argomento o mappa a livello globale o di
 
 Per aggiungere l’argomento o i modelli di mappa a un profilo di cartella, effettua le seguenti operazioni:
 
-1. Accedi ad Adobe Experience Manager come amministratore o come utente con diritti di amministratore per un profilo a livello di cartella.
+1. Accedi a Adobe Experience Manager come amministratore o come utente con diritti di amministratore per un profilo a livello di cartella.
 
 1. Fai clic sul collegamento Adobe Experience Manager in alto e scegli **Strumenti**.
 
@@ -301,7 +300,7 @@ Le guide AEM consentono di creare facilmente modelli. In qualità di amministrat
 
 Per creare un modello di authoring personalizzato, effettua le seguenti operazioni:
 
-1. Accedi ad Adobe Experience Manager come amministratore.
+1. Accedi a Adobe Experience Manager come amministratore.
 
 1. Nell’interfaccia utente Assets, passa alla cartella configurata per memorizzare i file modello. Per impostazione predefinita, tutti i modelli di argomento sono memorizzati nella cartella /content/dam/dita-templates/topic.
 
@@ -346,7 +345,7 @@ Oltre ai predefiniti configurati a livello globale o aziendale, un editore dispo
 
 Per configurare predefiniti di output globali o specifici per le cartelle, effettua le seguenti operazioni:
 
-1. Accedi ad Adobe Experience Manager come amministratore o come utente con diritti di amministratore per un profilo specifico della cartella.
+1. Accedi a Adobe Experience Manager come amministratore o come utente con diritti di amministratore per un profilo specifico della cartella.
 
 1. Fai clic sul collegamento Adobe Experience Manager in alto e scegli **Strumenti**.
 
@@ -382,7 +381,7 @@ Un nuovo predefinito di output creato a livello globale viene reso disponibile p
 
 Se avete aggiornato un predefinito di output esistente o desiderate rendere disponibile un nuovo predefinito di output per le mappe DITA esistenti, effettuate le seguenti operazioni:
 
-1. Accedi ad Adobe Experience Manager come amministratore o come utente con diritti di amministratore per un profilo specifico della cartella.
+1. Accedi a Adobe Experience Manager come amministratore o come utente con diritti di amministratore per un profilo specifico della cartella.
 
 1. Fai clic sul collegamento Adobe Experience Manager in alto e scegli **Strumenti**.
 

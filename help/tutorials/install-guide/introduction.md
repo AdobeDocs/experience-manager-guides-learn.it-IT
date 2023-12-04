@@ -1,13 +1,12 @@
 ---
 title: Informazioni su questa guida
 description: Scopri come Informazioni su questa guida
-source-git-commit: cf1b9812cb6bb00319eb8fe23162d3830c82b1b1
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '580'
 ht-degree: 0%
 
 ---
-
 
 # Informazioni su questa guida {#id175MC0P0S5Z}
 
@@ -71,4 +70,3 @@ Di seguito è riportato un elenco di altre utili risorse delle Guide dell’AEM,
 - Guida di riferimento API
 - Guida rapida
 - [Pagina Archiviazione della Guida](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \(accedere alla documentazione sulle versioni precedenti\)
-

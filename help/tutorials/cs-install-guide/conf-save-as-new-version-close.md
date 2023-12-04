@@ -1,13 +1,12 @@
 ---
 title: Configura richiesta di salvataggio come nuova versione alla chiusura
 description: Scopri come configurare la richiesta di salvataggio come nuova versione alla chiusura
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 1%
 
 ---
-
 
 # Configura richiesta di salvataggio come nuova versione alla chiusura {#id222HBI00XXA}
 
@@ -24,4 +23,3 @@ Quando questa configurazione è abilitata, il **Salva come nuova versione** è s
 Per ulteriori dettagli, consulta *Scenari di chiusura e salvataggio dei file* nella guida Utilizzo delle guide di Adobe Experience Manager as a Cloud Service.
 
 **Argomento padre:**[ Personalizza editor web](conf-web-editor.md)
-

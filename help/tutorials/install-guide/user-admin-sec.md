@@ -1,13 +1,12 @@
 ---
 title: Amministrazione degli utenti e sicurezza
 description: Scopri come funzionano l’amministrazione degli utenti e la sicurezza
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 11%
+source-wordcount: '718'
+ht-degree: 10%
 
 ---
-
 
 # Amministrazione degli utenti e sicurezza {#id181AED00G5Z}
 
@@ -42,7 +41,7 @@ Nella tabella seguente sono elencate le varie attività e i gruppi che possono e
 | Crea attività di revisione | Sì |   | Sì |
 | Rivedi argomento[1](#fntarg_1) | Sì | Sì | Sì |
 | Risoluzione chiave | Sì |   | Sì |
-| Apri in FrameMaker | Sì |   | Sì |
+| Apri nel FrameMaker | Sì |   | Sì |
 | Check-out/check-in | Sì |   | Sì |
 | Modifica argomento | Sì |   | Sì |
 | Sposta argomento | Sì |   | Sì |
@@ -87,13 +86,13 @@ Il seguente elenco contiene alcuni consigli e punti relativi ai gruppi di utenti
 
 - Per impostazione predefinita, *Editori* dispongono dell’accesso e delle autorizzazioni per le seguenti cartelle in DAM:
 
-   - ``/var/dxml``–\> Leggi e scrivi
+   - ``/var/dxml``-\> Lettura e scrittura
 
-   - `/content/dam/fmdita-outputs` –\> Leggi e scrivi
+   - `/content/dam/fmdita-outputs` -\> Lettura e scrittura
 
-   - `/content/output/sites` –\> Leggi e scrivi
+   - `/content/output/sites` -\> Lettura e scrittura
 
-   Se utilizzi una posizione diversa da quelle di pubblicazione predefinite sopra indicate, devi assegnare all’editore autorizzazioni di lettura e scrittura esplicite.
+  Se utilizzi una posizione diversa da quelle di pubblicazione predefinite sopra indicate, devi assegnare all’editore autorizzazioni di lettura e scrittura esplicite.
 
 - Tutti gli utenti in *Autori*, *Revisori*, e *Editori* i gruppi dispongono dell’accesso in lettura a tutto il contenuto in DAM.
 
@@ -106,4 +105,3 @@ Il seguente elenco contiene alcuni consigli e punti relativi ai gruppi di utenti
 - Per assegnare a un utente i diritti per modificare lo stato di un documento, assicurarsi di aggiungere l&#39;utente nella sezione relativa alla transizione dello stato del profilo di stato del documento.
 
 [1](#fnsrc_1) Se *Autori* e *Editori* sono invitati a una revisione.[2](#fnsrc_2) A seconda dei diritti assegnati all&#39;utente nel profilo dello stato del documento.
-

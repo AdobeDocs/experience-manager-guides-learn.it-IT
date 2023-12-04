@@ -1,15 +1,12 @@
 ---
 title: Convertire contenuti non UUID con versioni in contenuti UUID
 description: Scopri come migrare i contenuti non UUID con le versioni.
-source-git-commit: 33cdc1b14db0d123c01bbc719c2833ce0df4c9d9
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1272'
-ht-degree: 2%
+source-wordcount: '1287'
+ht-degree: 1%
 
 ---
-
-
-
 
 # Migrare contenuti non UUID con versioni
 
@@ -19,7 +16,7 @@ Per migrare contenuti non UUID con versioni a contenuti UUID, effettua le seguen
 
 | Versione corrente delle guide AEM (non-UUID) | Versione richiesta per la migrazione a UUID | Percorso di aggiornamento supportato |
 |---|---|---|
-| 3.8.5 | 4.0 non UUID | Installare 4.1 (UUID) ed eseguire la migrazione |
+| 3.8.5. | 4.0 non UUID | Installare 4.1 (UUID) ed eseguire la migrazione |
 | 4.0, 4.0.x, 4.1 o 4.1.x | Uguale al non UUID corrente | Installare 4.1 (UUID) ed eseguire la migrazione |
 | 4.2 o superiore | ND | Non ancora supportato |
 

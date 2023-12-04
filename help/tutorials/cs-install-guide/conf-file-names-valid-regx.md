@@ -1,13 +1,12 @@
 ---
 title: Configura Regx per caratteri validi per i nomi di file
 description: Scopri come configurare Regx per caratteri validi per i nomi di file
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
-
 
 # Configura Regx per caratteri validi per i nomi di file {#id214BD0550E8}
 
@@ -30,4 +29,3 @@ Utilizzare le istruzioni fornite in [Sostituzioni configurazione](download-insta
 > Analogamente all&#39;elenco dei caratteri validi per i nomi di file, è inoltre possibile specificare un elenco di caratteri validi per i nomi di file per l&#39;output del sito AEM. Per ulteriori dettagli, consulta [Configurare nomi di file validi per l&#39;output del sito AEM](conf-file-names-valid-regx-aem-site-output.md#).
 
 **Argomento padre:**[ Configura nomi file](conf-file-names.md)
-

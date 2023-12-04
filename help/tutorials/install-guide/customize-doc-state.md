@@ -1,13 +1,12 @@
 ---
 title: Configurare gli stati dei documenti
 description: Scopri come configurare gli stati dei documenti
-source-git-commit: cf1b9812cb6bb00319eb8fe23162d3830c82b1b1
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '1131'
 ht-degree: 0%
 
 ---
-
 
 # Configurare gli stati dei documenti {#id181GB0400UI}
 
@@ -45,12 +44,13 @@ Per creare gli stati del documento utilizzando il Profilo cartella, effettuare l
    - Specifica il percorso in cui desideri applicare il nuovo profilo.
    - Specificare gli stati del documento in **Stati consentiti** in **Stati**. Gli stati predefiniti del documento sono Bozza, Modifica (Edit), In-Review, Approvato (Approved) e Fatto (Done).
 
-      Fai clic su **Aggiungi** per aggiungere uno stato del documento.
+     Fai clic su **Aggiungi** per aggiungere uno stato del documento.
 
       - Fare clic sull&#39;icona Elimina per eliminare uno stato del documento.
-      >[!NOTE]
-      >
-      > Non eliminare uno stato del documento se i documenti sono ancora in tale stato. Se si elimina uno stato del documento, non sarà possibile modificarne lo stato a meno che non si appartenga al *amministratore* gruppo di utenti.
+
+     >[!NOTE]
+     >
+     > Non eliminare uno stato del documento se i documenti sono ancora in tale stato. Se si elimina uno stato del documento, non sarà possibile modificarne lo stato a meno che non si appartenga al *amministratore* gruppo di utenti.
 
    - Specificare lo stato iniziale del documento in **Stato iniziale**.
    - Specificare lo stato finale del documento in **Stato finale**.
@@ -61,11 +61,10 @@ Per creare gli stati del documento utilizzando il Profilo cartella, effettuare l
       - Fai clic su **Aggiungi** per aggiungere una transizione di stato.
 
       - Fai clic sull’icona Elimina per eliminare una transizione di stato.
-      >[!NOTE]
-      >
-      > Non eliminare una transizione di stato se i documenti sono ancora in `From` stato. Se si elimina una transizione di stato, non sarà possibile modificare lo stato del documento di tali documenti a meno che non si appartenga al *amministratore* gruppo di utenti.
 
-
+     >[!NOTE]
+     >
+     > Non eliminare una transizione di stato se i documenti sono ancora in `From` stato. Se si elimina una transizione di stato, non sarà possibile modificare lo stato del documento di tali documenti a meno che non si appartenga al *amministratore* gruppo di utenti.
 
 1. Clic **Fine**.
 
@@ -138,9 +137,9 @@ Per automatizzare la modifica dello stato del documento, effettuare le seguenti 
    - Selezionare la casella di controllo Avanzamento gestore.
    - Immettere il nome dello stato del documento in **Argomenti** casella di testo.
 
-      >[!NOTE]
-      >
-      > Assicurarsi di immettere lo stato corretto del documento nella casella di testo Argomento. Se si immette un nome errato, il documento verrà impostato sullo stato errato.
+     >[!NOTE]
+     >
+     > Assicurarsi di immettere lo stato corretto del documento nella casella di testo Argomento. Se si immette un nome errato, il documento verrà impostato sullo stato errato.
 
 1. Clic **Salva** per salvare il workflow.
 
@@ -148,7 +147,7 @@ Per automatizzare la modifica dello stato del documento, effettuare le seguenti 
 
 Le guide AEM forniscono un flusso di lavoro di approvazione dei documenti che consente di controllare il ciclo di vita del processo di sviluppo dei documenti. Per abilitare il flusso di lavoro di approvazione, effettua le seguenti operazioni:
 
-1. Accedi all’AEM e apri la modalità CRXDE Lite.
+1. Accedi all’AEM e apri la modalità CRXDE Liti.
 
 1. Passare al file di configurazione predefinito disponibile nella posizione seguente:
 
@@ -168,5 +167,3 @@ Le guide AEM forniscono un flusso di lavoro di approvazione dei documenti che co
       "approvalWorkflow":  true 
    }
    ```
-
-
