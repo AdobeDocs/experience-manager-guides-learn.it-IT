@@ -1,20 +1,20 @@
 ---
-user-guide-title: Video su Adobe Experience Manager Guides
+user-guide-title: Tutorial sulle guide di Adobe Experience Manager
 user-guide-description: Raccolta di video su Adobe Experience Manager Guides.
 breadcrumb-title: Video su AEM Guides
-source-git-commit: 7d5e4616c0f36c696549e9e08a1b5c137f36a66c
+source-git-commit: 6a35536d55bec04d69d1c296b75b55f034f70186
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 17%
+source-wordcount: '125'
+ht-degree: 12%
 
 ---
 
 
-# [!DNL Adobe Experience Manager Guides] {#videos}
+# [!DNL Adobe Experience Manager Guides] esercitazioni {#videos}
 
 + [[!DNL AEM Guides] Video](overview.md)
 + Guida introduttiva a [!DNL AEM Guides] {#getting-started}
-   + [Panoramica del corso](./course-1/overview.md)
+   + [Panoramica introduttiva](./course-1/overview.md)
    + [Interfaccia utente dell’AEM](./course-1/understanding-the-aem-user-interface.md)
    + [Creare e strutturare il contenuto](./course-1/creating-and-structuring-content.md)
    + [Utilizzare le immagini](./course-1/working-with-images.md)
@@ -25,7 +25,7 @@ ht-degree: 17%
    + [Pubblica output predefinito](./course-1/publishing-default-output.md)
    + [Riassunto](./course-1/recap.md)
 + Generazione di output con [!DNL AEM Guides] {#output-generation}
-   + [Panoramica](./course-2/overview.md)
+   + [Panoramica sulla generazione dell’output](./course-2/overview.md)
    + [Informazioni sul dashboard mappa](./course-2/introduction-to-the-map-dashboard.md)
    + [Utilizzo dei rapporti](./course-2/working-with-reports.md)
    + [Creazione e pubblicazione con le linee di base](./course-2/creating-and-publishing-with-baselines.md)
@@ -35,7 +35,7 @@ ht-degree: 17%
    + [Pubblicazione in blocco](./course-2/bulk-publishing.md)
    + [Riassunto](./course-2/recap.md)
 + Authoring con [!DNL AEM Guides] Editor {#advanced-user-guide}
-   + [Introduzione/Panoramica](./course-3/overview.md)
+   + [Panoramica sull’authoring](./course-3/overview.md)
    + [Preferenze utente, Impostazioni editor e Barre degli strumenti dell&#39;editor](./course-3/user-settings-preferences-toolbars.md)
    + [Profili cartella](./course-3/folder-profiles.md)
    + [Configurazione editor](./course-3/editor-configuration.md)

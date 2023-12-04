@@ -1,19 +1,19 @@
 ---
-title: Editor guide per Adobe Experience Manager corso 3
+title: Corso 3 dell’Editor guide di Adobe Experience Manager
 description: Guida utente avanzata all’editor web delle guide AEM
 exl-id: f73a11ae-07e4-42c6-a803-7bdffe08de6d
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 6a35536d55bec04d69d1c296b75b55f034f70186
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 3%
+source-wordcount: '68'
+ht-degree: 0%
 
 ---
 
-# Panoramica del corso
+# Panoramica sull’authoring
 
 >[!VIDEO](https://video.tv.adobe.com/v/342759?quality=12&learn=on)
 
-In questo corso imparerai a utilizzare i seguenti elementi:
+In questa serie di esercitazioni imparerai a utilizzare i seguenti elementi:
 
 - [Preferenze utente, Impostazioni editor e Barre degli strumenti dell&#39;editor](user-settings-preferences-toolbars.md)
 - [Profili cartella](folder-profiles.md)

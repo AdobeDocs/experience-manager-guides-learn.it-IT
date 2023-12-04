@@ -2,16 +2,16 @@
 title: Generazione di output con [!DNL AEM Guides]
 description: Generazione di output con [!DNL Adobe Experience Manager Guides]
 exl-id: 3786dc47-e006-4059-ba8f-4dc66dbbcf71
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 6a35536d55bec04d69d1c296b75b55f034f70186
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 2%
+source-wordcount: '45'
+ht-degree: 0%
 
 ---
 
-# Panoramica
+# Panoramica sulla generazione dell’output
 
-In questo corso imparerai a eseguire le seguenti operazioni:
+In questa serie di esercitazioni imparerai a eseguire le seguenti operazioni:
 
 - [Comprendere il dashboard della mappa](./introduction-to-the-map-dashboard.md)
 - [Utilizzare i rapporti](./working-with-reports.md)
