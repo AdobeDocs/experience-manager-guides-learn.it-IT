@@ -1,10 +1,10 @@
 ---
 title: Configurare la ricerca per l’interfaccia utente di AEM Assets
 description: Scopri come configurare la ricerca per l’interfaccia utente di AEM Assets
-source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
+source-git-commit: 14b835074e2b1847f07887275d2cbb81ddd7541d
 workflow-type: tm+mt
-source-wordcount: '1580'
-ht-degree: 0%
+source-wordcount: '1578'
+ht-degree: 1%
 
 ---
 
@@ -130,15 +130,15 @@ Una regola è costituita dai seguenti elementi:
 
 xpath : Query XPath che recupera gli elementi o gli attributi dai file DITA. La configurazione predefinita per la regola elemento recupera tutto `prolog` elementi. La configurazione predefinita per la regola attributo recupera tutti gli attributi di `prolog` elementi. È possibile specificare una query XPath per serializzare gli elementi o gli attributi che si desidera cercare.
 
-    La query XPath contiene il nome della classe del tipo di documento. La classe &quot;topic/topic&quot; viene utilizzata per i documenti DITA di tipo argomento. Se si desidera creare una regola per altri documenti DITA, è necessario utilizzare i seguenti nomi di classe:
-    
-    |Tipo di documento|Nome classe|
-    ---------- -------------
-    |Argomento|- argomento|
-    |Attività|- attività/argomento|
-    |Concetto|- concetto/concetto argomento|
-    |Riferimento|- riferimento argomento/argomento/riferimento|
-    |Mappa|- mappa/mappa|
+La query XPath contiene il nome della classe del tipo di documento. Il `topic/topic` La classe viene utilizzata per i documenti DITA di tipo argomento. Se si desidera creare una regola per altri documenti DITA, è necessario utilizzare i seguenti nomi di classe:
+
+| Tipo di documento | Nome classe |
+|-------------|----------|
+| Argomento | - argomento/argomento |
+| Attività | - attività/attività argomento/argomento |
+| Concetto | - concetto/concetto argomento/argomento |
+| Riferimento | - riferimento/riferimento argomento/argomento |
+| Mappa | - mappa/mappa |
 
 text : Se desideri cercare il testo all’interno dell’elemento specificato, specifica il valore yes. Se non si specifica alcun valore come, vengono serializzati solo gli attributi all&#39;interno dell&#39;elemento. Gli attributi che si desidera cercare devono essere specificati nella sezione del set di attributi.
 
