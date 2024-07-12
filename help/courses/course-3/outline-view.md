@@ -1,6 +1,6 @@
 ---
 title: Visualizzazione Struttura
-description: Utilizzo della visualizzazione Struttura nelle guide AEM
+description: Utilizzo della vista Struttura in AEM Guides
 exl-id: 300f550f-dc79-4971-b8ba-43fe8499ea02
 source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
@@ -21,9 +21,9 @@ Gli elementi possono essere espansi per mostrare elementi figlio o compressi, a 
 
 1. Fare clic sull&#39;icona appropriata per espandere o comprimere la visualizzazione Struttura.
 
-   ![Contorno riferimento](images/lesson-6/outline-collapsed-before.png)
+   ![Struttura riferimento](images/lesson-6/outline-collapsed-before.png)
 
-   ![Scheda secondaria Struttura riferimento](images/lesson-6/outline-expanded-after.png)
+   ![Schede secondarie struttura riferimento](images/lesson-6/outline-expanded-after.png)
 
 La visualizzazione Struttura passa da espansa a compressa.
 
@@ -31,7 +31,7 @@ La visualizzazione Struttura passa da espansa a compressa.
 
 1. Fai clic su un elemento per passare alla posizione desiderata.
 
-1. Fai clic su [!UICONTROL **Puntini di sospensione**] accanto a un elemento per accedere alle opzioni di scelta rapida.
+1. Fai clic sui [!UICONTROL **puntini di sospensione**] accanto a un elemento per accedere alle opzioni dei collegamenti.
 
    ![Menu di scelta rapida](images/lesson-6/shortcut-options.png)
 
@@ -39,7 +39,7 @@ La visualizzazione Struttura passa da espansa a compressa.
 
 Un nuovo ID può essere generato automaticamente in base alla configurazione del sistema. Se necessario, puoi aggiornare anche l’ID e il relativo valore utilizzando le Proprietà del contenuto.
 
-1. Fai clic su [!UICONTROL **Puntini di sospensione**] accanto a qualsiasi elemento.
+1. Fai clic sui [!UICONTROL **puntini di sospensione**] accanto a qualsiasi elemento.
 
 1. Scegli **Genera ID**.
 
@@ -63,9 +63,9 @@ Gli elementi possono essere riordinati all&#39;interno della vista Struttura.
 
 1. Seleziona l’elemento.
 
-1. Fai clic su [!UICONTROL **Puntini di sospensione**].
+1. Fai clic sui [!UICONTROL **puntini di sospensione**].
 
-1. Seleziona **Rinomina elemento**.
+1. Selezionare **Rinomina elemento**.
 
    ![Menu di scelta rapida Rinomina elemento](images/lesson-6/rename-before.png)
 
@@ -77,19 +77,19 @@ L’elemento è stato rinominato.
 
 1. Selezionare l&#39;elemento di cui si desidera annullare il wrapping.
 
-1. Fai clic su [!UICONTROL **Puntini di sospensione**].
+1. Fai clic sui [!UICONTROL **puntini di sospensione**].
 
-1. Seleziona [!UICONTROL **Annulla wrapping elemento**].
+1. Selezionare [!UICONTROL **Annulla wrapping elemento**].
 
 Il contenuto rimane ma la struttura è stata rimossa.
 
 ## Filtrare il contenuto mediante la visualizzazione Struttura
 
-1. Fai clic su [!UICONTROL **Filtro**] accanto alla barra di ricerca nella visualizzazione Struttura.
+1. Fare clic sull&#39;icona [!UICONTROL **Filtro**] accanto alla barra di ricerca nella visualizzazione Struttura.
 
    ![Filtri](images/lesson-6/filter-icon.png)
 
-1. Scegli una delle seguenti opzioni **Tutti** per mostrare tutti gli elementi o **Collegamenti interrotti** per trovare e correggere i riferimenti interrotti.
+1. Scegliere **Tutti** per visualizzare tutti gli elementi oppure **Collegamenti interrotti** per trovare e correggere i riferimenti interrotti.
 
 ## Ricerca con visualizzazione Struttura
 

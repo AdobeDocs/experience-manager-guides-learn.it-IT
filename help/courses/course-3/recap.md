@@ -1,21 +1,21 @@
 ---
 title: Conclusione della serie di training
-description: Panoramica e riepilogo della formazione sulle guide AEM
+description: Panoramica e riepilogo della formazione su AEM Guides
 exl-id: 29fe5e78-8787-4f09-a969-60f68e376976
 source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '50'
-ht-degree: 6%
+ht-degree: 2%
 
 ---
 
-# Recensione
+# Rivedi
 
 >[!VIDEO](https://video.tv.adobe.com/v/342771?quality=12&learn=on)
 
 In questo corso hai imparato:
 
-- [Preferenze e impostazioni utente](./user-settings-preferences-toolbars.md)
+- [Impostazioni e preferenze utente](./user-settings-preferences-toolbars.md)
 
 - [Profili cartella](folder-profiles.md)
 
@@ -27,7 +27,7 @@ In questo corso hai imparato:
 
 - [Riferimenti incrociati e collegamenti](cross-references-and-links.md)
 
-- [Riutilizzo dei contenuti](content-reuse.md)
+- [Riutilizzo contenuto](content-reuse.md)
 
 - [Chiavi](keys.md)
 

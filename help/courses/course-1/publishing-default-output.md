@@ -1,6 +1,6 @@
 ---
-title: Pubblicazione dell’output predefinito nelle guide AEM
-description: Pubblicazione dell’output predefinito in [!DNL Adobe Experience Manager Guides]
+title: Pubblicazione dell’output predefinito in AEM Guides
+description: Pubblicazione dell'output predefinito in [!DNL Adobe Experience Manager Guides]
 exl-id: 97a259dd-4266-4a7b-8677-3fa261714687
 source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
@@ -19,7 +19,7 @@ Una volta completata la mappa, puoi pubblicare il contenuto in più formati di o
 
 Sono disponibili diversi predefiniti di output tra cui scegliere. Questa guida si concentrerà sul sito dell’AEM e sui risultati ottenuti dai PDF.
 
-1. Nel repository, selezionare l&#39;icona con i puntini di sospensione sulla mappa per aprire il menu Opzioni, quindi **Apri in Map Dashboard (Dashboard mappa).**
+1. Nel repository, selezionare l&#39;icona con i puntini di sospensione sulla mappa per aprire il menu Opzioni, quindi **Apri in Map Dashboard.**
 
    ![Apri in Map Dashboard](images/lesson-9/map-dashboard-with-markings.png)
 
@@ -35,7 +35,7 @@ Sono disponibili diversi predefiniti di output tra cui scegliere. Questa guida s
 
    Un cerchio verde indica che la generazione è completa.
 
-   ![Generazione dell&#39;output completata](images/lesson-9/green-circle.png)
+   ![Generazione output completata](images/lesson-9/green-circle.png)
 
 ## Output in sede AEM
 

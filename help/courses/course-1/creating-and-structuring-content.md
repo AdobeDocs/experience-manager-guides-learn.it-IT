@@ -1,11 +1,11 @@
 ---
-title: Creazione di contenuti in [!DNL AEM Guides]
-description: Creazione di contenuti in [!DNL Adobe Experience Manager Guides]
+title: Creazione del contenuto in [!DNL AEM Guides]
+description: Creazione del contenuto in [!DNL Adobe Experience Manager Guides]
 exl-id: f7cfc5c8-414f-4480-a9c9-b9920975a55d
 source-git-commit: 6959927315c7afc62a7423e835a36895c76fdc6d
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -17,13 +17,13 @@ Dopo aver acquisito familiarità con l’interfaccia utente, puoi iniziare a cre
 
 ## Creazione di una cartella
 
-1. Seleziona la **Archivio** per visualizzare le cartelle e i file.
+1. Seleziona l&#39;icona **Archivio** per visualizzare le cartelle e i file.
 
    ![Icona archivio](images/common/repository-icon.png)
 
-1. Seleziona la **+** icona e **Cartella**.
+1. Seleziona l&#39;icona **+** e **Cartella**.
 
-   ![+ icon](images/lesson-3/+-icon.png)
+   Icona ![+](images/lesson-3/+-icon.png)
 
 1. Assegna un titolo alla cartella.
 1. Seleziona **Crea**.
@@ -35,11 +35,11 @@ Ora è possibile creare una cartella all’interno della nuova cartella per cont
 
 1. Passa il puntatore del mouse sulla nuova cartella nell’archivio e seleziona l’icona con i puntini di sospensione che viene visualizzata.
 
-   ![Icona con i puntini di sospensione](images/lesson-3/ellipses-icon.png)
+   ![Icona puntini di sospensione](images/lesson-3/ellipses-icon.png)
 
    Viene visualizzato il menu Opzioni.
 
-1. Seleziona **Crea cartella \>**.
+1. Selezionare **Crea \> Cartella**.
    ![Creazione di una sottocartella](images/lesson-3/create-subfolder-with-markings.png)
 
 1. Assegna un titolo alla sottocartella (ad esempio, &quot;immagini&quot;) e seleziona **Crea**.
@@ -48,11 +48,11 @@ Ora è possibile creare una cartella all’interno della nuova cartella per cont
 
 1. Passa il puntatore del mouse sulla cartella principale nell’archivio e seleziona l’icona con i puntini di sospensione.
 
-   ![Icona con i puntini di sospensione](images/lesson-3/ellipses-icon.png)
+   ![Icona puntini di sospensione](images/lesson-3/ellipses-icon.png)
 
    Viene visualizzato il menu Opzioni.
 
-1. Seleziona **Crea \> argomento**.
+1. Selezionare **Crea \> Argomento**.
 
    ![Creazione di un nuovo argomento](images/lesson-3/create-topic-with-markings.png)
 
@@ -60,7 +60,7 @@ Ora è possibile creare una cartella all’interno della nuova cartella per cont
 
 1. Dal menu a discesa Modello nella finestra di dialogo, seleziona **Concetto**.
 
-   ![Menu a discesa del modello](images/lesson-3/dropdown-with-markings.png)
+   ![Elenco a discesa dei modelli](images/lesson-3/dropdown-with-markings.png)
 
 1. Assegna un titolo al concetto e seleziona **Crea**.
 
@@ -76,13 +76,13 @@ Ora è possibile creare una cartella all’interno della nuova cartella per cont
 
 ### Salvataggio del lavoro senza controllo delle versioni
 
-1. Seleziona la **Salva** icona.
+1. Seleziona l&#39;icona **Salva**.
 
    ![Icona Salva](images/common/save.png)
 
 ### Salvataggio come nuova versione
 
-1. Seleziona la **Salva come nuova versione** sulla destra dell’icona Salva.
+1. Selezionare l&#39;icona **Salva come nuova versione** a destra dell&#39;icona Salva.
 
    ![Icona Salva come nuova versione](images/common/save-as-new-version.png)
 

@@ -5,6 +5,6 @@ source-wordcount: '20'
 ht-degree: 0%
 
 ---
-# Guide di Adobe Experience Manager
+# Adobe Experience Manager Guides
 
-Questo è l’archivio in cui memorizzare i video e i file markdown per i corsi &quot;AEM Guides&quot;.
+Questo è l’archivio in cui memorizzare i video e i file Markdown per i corsi &quot;AEM Guides&quot;.

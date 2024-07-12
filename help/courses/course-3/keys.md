@@ -1,6 +1,6 @@
 ---
 title: Chiavi
-description: Le chiavi consentono di includere informazioni sulle variabili in quando si lavora con DITA nelle guide AEM
+description: Le chiavi consentono di includere informazioni sulle variabili in quando si lavora con DITA in AEM Guides
 exl-id: cb64e094-fe6d-4a5e-8f0e-25ae58aaa2c6
 source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Diversi set di materiali possono contenere informazioni simili che devono essere personalizzate in punti selezionati. Le chiavi consentono di includere informazioni sulle variabili in quando si lavora con DITA.
 
-I file di esempio che puoi scegliere di utilizzare per questa lezione sono forniti nel file [keys.zip](assets/keys.zip).
+I file di esempio che si può scegliere di utilizzare per questa lezione sono forniti nel file [keys.zip](assets/keys.zip).
 
 >[!VIDEO](https://video.tv.adobe.com/v/342756?quality=12&learn=on)
 
@@ -35,11 +35,11 @@ I file di esempio che puoi scegliere di utilizzare per questa lezione sono forni
 
    e. Nella finestra di dialogo, scegli il percorso specifico dei file da estrarre, ad esempio una cartella denominata Chiavi.
 
-   f. Fai clic su [!UICONTROL **Successivo**].
+   f. Fai clic su [!UICONTROL **Avanti**].
 
    g. Ignora eventuali conflitti in quanto non esisteranno per contenuti mai caricati in precedenza.
 
-   h. Seleziona [!UICONTROL **Extract**] in alto a destra.
+   h. Seleziona [!UICONTROL **Estrai**] in alto a destra dello schermo.
 
 1. Al termine dell&#39;estrazione, fare clic su [!UICONTROL **Vai alla cartella di destinazione**].
 
@@ -55,21 +55,21 @@ Per utilizzare correttamente le chiavi, Preferenze utente deve fare riferimento 
 
    b. Configurare le preferenze utente.
 
-   c. Fai clic sul pulsante [!UICONTROL **Preferenze utente**] nella barra degli strumenti superiore.
+   c. Fai clic sull&#39;icona [!UICONTROL **Preferenze utente**] nella barra degli strumenti superiore.
 
    ![Barra degli strumenti superiore](images/lesson-9/author-view.png)
 
-   d. Fai clic sull’icona a forma di chiave per specificare un’ **Mappa radice** che verrà utilizzato per risolvere le chiavi.
+   d. Fai clic sull&#39;icona chiave per specificare una **mappa principale** che verrà utilizzata per risolvere le chiavi.
 
-   e. Selezionare le caselle di controllo relative alle risorse desiderate.
+   e. Seleziona le caselle di controllo per qualsiasi Assets desiderato.
 
-   ![Elenco a discesa delle risorse](images/lesson-9/select-assets.png)
+   ![Elenco a discesa Assets](images/lesson-9/select-assets.png)
 
    f. Fai clic su [!UICONTROL **Seleziona**].
 
-   g. **Salva** Preferenze utente.
+   g. **Salva** le preferenze utente.
 
-1. Accedi a **Vista mappa**.
+1. Passare alla **vista mappa**.
 
 1. Apri la mappa specificata.
 
@@ -81,23 +81,23 @@ Le chiavi vengono risolte.
 
 1. Seleziona una chiave.
 
-   ![Elenco a discesa chiave](images/lesson-9/hybrid-key.png)
+   ![Elenco a discesa chiavi](images/lesson-9/hybrid-key.png)
 
 1. Inserisce un nuovo keydef.
 
    a. Fai clic in una posizione valida nella mappa.
 
-   b. Selezionare **Keydef** nella barra degli strumenti superiore.
+   b. Seleziona l&#39;icona **Keydef** nella barra degli strumenti superiore.
 
    ![Barra degli strumenti Keydef](images/lesson-9/key-icon.png)
 
    c. Nella finestra di dialogo Inserisci keydef, immettere un valore univoco per Chiavi che abbia senso per la definizione che si sta creando.
 
-   d. Fai clic su [!UICONTROL **Inserisci**].
+   d. Fare clic su [!UICONTROL **Inserisci**].
 
 1. Aggiungere topicmeta all&#39;interno del keydef.
 
-   a. Fai clic sul pulsante [!UICONTROL **Inserisci elemento**] nella barra degli strumenti superiore.
+   a. Fai clic sull&#39;icona [!UICONTROL **Inserisci elemento**] nella barra degli strumenti superiore.
 
    ![Barra degli strumenti Keydef](images/lesson-9/add-icon.png)
 
@@ -105,7 +105,7 @@ Le chiavi vengono risolte.
 
 1. Aggiungere parole chiave all&#39;interno dell&#39;argomento meta.
 
-   a. Fai clic sul pulsante [!UICONTROL **Inserisci elemento**] nella barra degli strumenti superiore.
+   a. Fai clic sull&#39;icona [!UICONTROL **Inserisci elemento**] nella barra degli strumenti superiore.
 
    ![Barra degli strumenti Keydef](images/lesson-9/add-icon.png)
 
@@ -113,11 +113,11 @@ Le chiavi vengono risolte.
 
 1. Aggiungete una parola chiave all&#39;interno dell&#39;argomento meta.
 
-   a. Fai clic sul pulsante [!UICONTROL **Inserisci elemento**] nella barra degli strumenti superiore.
+   a. Fai clic sull&#39;icona [!UICONTROL **Inserisci elemento**] nella barra degli strumenti superiore.
 
    ![Barra degli strumenti Keydef](images/lesson-9/add-icon.png)
 
-   b. Nel **Inserisci elemento** , cerca e seleziona &quot;keyword&quot;
+   b. Nella finestra di dialogo **Inserisci elemento**, cerca e seleziona &quot;parola chiave&quot;
 
 1. Digitate il valore del keydef nella parola chiave.
 
@@ -131,14 +131,14 @@ I frammenti sono piccoli frammenti di contenuto che possono essere riutilizzati 
 
 1. Selezionare un elemento keydef nella mappa.
 
-1. Nel menu contestuale, fai clic su [!UICONTROL **Crea snippet**].
+1. Nel menu contestuale, fare clic su [!UICONTROL **Crea snippet**].
 
 1. Nella finestra di dialogo Nuovo snippet, aggiungi un titolo e una descrizione.
 Puoi anche rimuovere dal Contenuto le chiavi o le definizioni di parole chiave esistenti.
 
 1. Fai clic su [!UICONTROL **Crea**].
 
-1. Nel pannello a sinistra, seleziona **Snippet**.
+1. Nel pannello sinistro, seleziona **Snippet**.
 
 1. Trascinate sulla mappa lo snippet appena creato dal pannello Snippet.
 

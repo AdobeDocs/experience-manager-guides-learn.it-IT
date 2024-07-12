@@ -1,6 +1,6 @@
 ---
-title: Utilizzo delle immagini nelle guide dell’AEM
-description: Utilizzo delle immagini nelle guide di Adobe Experience Manager
+title: Utilizzo delle immagini in AEM Guides
+description: Utilizzo delle immagini in Adobe Experience Manager Guides
 exl-id: 8b920a9a-bedb-434c-b6fb-3569ce4b7a81
 source-git-commit: 1f8fe099be2b4123eec6f7c973668b415097ac45
 workflow-type: tm+mt
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Di seguito vengono descritti i passaggi necessari per caricare e inserire un&#39;immagine e per salvare una nuova versione di un argomento.
 
-Puoi scaricare il file di immagine di esempio da [qui.](assets/working-with-images/SignInScreen.png)
+È possibile scaricare il file di immagine di esempio da [qui.](assets/working-with-images/SignInScreen.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/336661?quality=12&learn=on)
 
@@ -21,15 +21,15 @@ Puoi scaricare il file di immagine di esempio da [qui.](assets/working-with-imag
 
 1. Passa il puntatore del mouse sulla sottocartella e seleziona l’icona con i puntini di sospensione per aprire il menu Opzioni.
 
-   ![Icona con i puntini di sospensione](images/lesson-4/ellipses.png)
+   ![Icona puntini di sospensione](images/lesson-4/ellipses.png)
 
-1. Seleziona **[!UICONTROL Carica risorse]**.
+1. Seleziona **[!UICONTROL Carica Assets]**.
 
-   ![Carica risorse](images/lesson-4/upload-assets.png)
+   ![Carica Assets](images/lesson-4/upload-assets.png)
 
-1. Seleziona l’immagine da caricare dal sistema locale e fai clic su **Apri**.
+1. Seleziona l&#39;immagine da caricare dal sistema locale e fai clic su **Apri**.
 
-   Il [!UICONTROL Carica risorse] viene visualizzata.
+   Viene visualizzata la finestra di dialogo [!UICONTROL Carica Assets].
 
 1. Seleziona **Carica**.
 
@@ -49,27 +49,27 @@ Di seguito, assicurati che l’argomento sia aperto nell’editor di documenti.
 
 ### Inserimento di un’immagine con il pulsante Inserisci immagine
 
-1. Seleziona la **Inserisci immagine** icona.
+1. Selezionare l&#39;icona **Inserisci immagine**.
 
    ![Icona Inserisci immagine](images/lesson-4/insert-image.png)
 
    Viene visualizzata la finestra di dialogo Inserisci immagine.
 
 1. Seleziona l’icona della cartella accanto al campo Seleziona file per cercare l’immagine o spostarti nella relativa posizione all’interno del repository.
-1. Seleziona l’icona dell’immagine, quindi **Seleziona**.
+1. Seleziona l&#39;icona dell&#39;immagine, quindi **Seleziona**.
 
    ![Seleziona immagine](images/lesson-4/select-image-with-markings.png)
 
    Viene visualizzata la finestra di dialogo Inserisci immagine con le informazioni relative all&#39;immagine scelta.
 
 1. Immettere il testo nei campi Titolo figura e Testo alternativo, in base alle esigenze.
-1. Seleziona **Inserisci**.
+1. Selezionare **Inserisci**.
 
    L’immagine viene visualizzata nell’editor insieme al titolo della figura.
 
 ## Rimozione di un&#39;immagine da un argomento
 
-1. Selezionare l&#39;immagine nell&#39;editor di documenti e premere **Elimina** chiave.
+1. Selezionare l&#39;immagine nell&#39;editor documenti e premere il tasto **Elimina**.
 
 ## Salvataggio di una nuova versione di un argomento
 
@@ -77,11 +77,11 @@ Il controllo delle versioni consente di esaminare e confrontare versioni diverse
 
 Dopo aver apportato una modifica significativa all&#39;argomento, potrebbe essere utile salvare il lavoro corrente come nuova versione.
 
-1. Seleziona la **Salva come nuova versione** icona.
+1. Selezionare l&#39;icona **Salva come nuova versione**.
 
    ![Icona Salva come nuova versione](images/common/save-as-new-version.png)
 
-   Il **Salva come nuova versione** viene visualizzata.
+   Viene visualizzata la finestra di dialogo **Salva come nuova versione**.
 
 1. Nel campo Commenti per nuova versione immettere un breve ma chiaro riepilogo delle modifiche.
 1. Nel campo Etichette versione immettere le etichette pertinenti.

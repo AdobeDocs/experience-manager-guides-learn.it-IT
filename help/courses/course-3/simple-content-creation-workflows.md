@@ -1,17 +1,17 @@
 ---
 title: Flussi di lavoro semplici per la creazione di contenuti
-description: Creazione di contenuti nelle guide AEM
+description: Creazione di contenuti in AEM Guides
 exl-id: e4b8e512-0688-44f7-b981-78af33b57b08
 source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '719'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
 # Flussi di lavoro per la creazione di contenuti semplici
 
-L’Editor guide AEM dispone di più scelte rapide che semplificano il flusso di lavoro di creazione dei contenuti. Queste scelte rapide consentono agli utenti di aggiungere e modificare rapidamente immagini, utilizzare più argomenti contemporaneamente, correggere errori, scaricare PDF di argomenti e utilizzare versioni ed etichette.
+L’editor di AEM Guides dispone di più scelte rapide che semplificano il flusso di lavoro di creazione dei contenuti. Queste scelte rapide consentono agli utenti di aggiungere e modificare rapidamente immagini, utilizzare più argomenti contemporaneamente, correggere errori, scaricare PDF di argomenti e utilizzare versioni ed etichette.
 
 >[!VIDEO](https://video.tv.adobe.com/v/342770?quality=12&learn=on)
 
@@ -19,15 +19,15 @@ L’Editor guide AEM dispone di più scelte rapide che semplificano il flusso di
 
 Le immagini possono essere aggiunte direttamente da un&#39;unità locale.
 
-1. Trascina e rilascia l’immagine direttamente nell’argomento. Il **Carica risorse** viene visualizzata.
+1. Trascina e rilascia l’immagine direttamente nell’argomento. Viene visualizzata la finestra di dialogo **Carica Assets**.
 
-   ![Finestra di dialogo Carica risorse](images/lesson-15/upload-assets-dialog.png)
+   ![Carica finestra di dialogo Assets](images/lesson-15/upload-assets-dialog.png)
 
 1. Modifica il percorso della cartella con il percorso immagine desiderato.
 
 1. Modifica il nome dell’immagine in un elemento rappresentativo del suo scopo.
 
-1. Clic [!UICONTROL **Carica**].
+1. Fai clic su [!UICONTROL **Carica**].
 
 ## Modificare un’immagine
 
@@ -35,7 +35,7 @@ Le immagini possono essere aggiunte direttamente da un&#39;unità locale.
 
 1. Per spostare un&#39;immagine in un&#39;altra posizione all&#39;interno dell&#39;argomento, trascinarla.
 
-1. Utilizzare **Proprietà contenuto** sul pannello laterale destro per modificare i
+1. Utilizza **Proprietà contenuto** nel pannello laterale destro per modificare le proprietà di un&#39;immagine
 
    - scala
 
@@ -59,13 +59,13 @@ La Visualizzazione suddivisa è utile per confrontare argomenti, copiare e incol
 
 1. Scegli **Destra**.
 
-   ![Vista divisa](images/lesson-15/split-view.png)
+   ![Visualizzazione divisa](images/lesson-15/split-view.png)
 
 ## Correggere gli errori tipografici
 
 1. Individuare la parola o la frase contenente l&#39;errore.
 
-1. Premi e tieni premuto [!UICONTROL **Ctrl**].
+1. Tenere premuto [!UICONTROL **Ctrl**].
 
 1. Fare clic sul pulsante secondario del mouse sull&#39;errore.
 
@@ -77,13 +77,13 @@ L&#39;errore è stato corretto nel testo dell&#39;argomento.
 
 Gli utenti potrebbero voler scaricare un PDF dell’argomento corrente per iscriversi o condividerlo con altri utenti.
 
-1. Clic [!UICONTROL **Anteprima**] in alto a destra.
+1. Fai clic su [!UICONTROL **Anteprima**] in alto a destra dello schermo.
 
-1. Fai clic su [!UICONTROL **Icona PDF**] sopra l&#39;argomento. Viene visualizzata una finestra di dialogo.
+1. Fai clic sull&#39;icona [!UICONTROL **PDF**] sopra l&#39;argomento. Viene visualizzata una finestra di dialogo.
 
    ![Esportazione PDF](images/lesson-15/pdf-export.png)
 
-1. Compila le informazioni per **Nome trasformazione** o **Argomenti riga di comando DITA-OT** se necessario. Tieni presente che un PDF genera comunque se tutti i campi vengono lasciati vuoti.
+1. Immettere le informazioni per **Nome trasformazione** o **Argomenti riga di comando DITA-OT** se necessario. Tieni presente che un PDF genera comunque se tutti i campi vengono lasciati vuoti.
 
 1. Fai clic su [!UICONTROL **Scarica**]. Il PDF genera.
 
@@ -95,9 +95,9 @@ Gli utenti potrebbero voler scaricare un PDF dell’argomento corrente per iscri
 
 1. Fare clic con il pulsante secondario del mouse sulla scheda Titolo.
 
-1. Seleziona **Individua in**.
+1. Seleziona **Individua In**.
 
-1. Scegli una delle seguenti opzioni **Archivio** o **Mappa** per passare alla posizione desiderata dell&#39;argomento.
+1. Scegliere **Archivio** o **Mappa** per passare alla posizione desiderata dell&#39;argomento.
 
 ## Versione di un argomento
 
@@ -105,11 +105,11 @@ Gli utenti potrebbero voler scaricare un PDF dell’argomento corrente per iscri
 
 1. Salva l&#39;argomento.
 
-1. Fai clic su **Archivio** nel menu in alto a sinistra.
+1. Fai clic sull&#39;icona **Archivio** nel menu in alto a sinistra.
 
    ![Icona archivio](images/lesson-15/repository-icon.png)
 
-1. Nella finestra di dialogo, aggiungi **Commenti per nuova versione**.
+1. Nella finestra di dialogo, aggiungi **Commenti per la nuova versione**.
 
    ![Finestra di dialogo Nuova versione](images/lesson-15/version-dialog.png)
 
@@ -121,7 +121,7 @@ Il numero di versione viene aggiornato.
 
 Tentare di tenere traccia dello stato di un argomento in base solo al numero di versione può essere difficile. Le etichette consentono di identificare più facilmente lo stato esatto di un argomento che è stato sottoposto a più revisioni.
 
-1. Seleziona un **Profilo cartella**.
+1. Seleziona un **profilo cartella**.
 
 1. All&#39;interno del Profilo cartella, configura l&#39;editor XML.
 
@@ -135,11 +135,11 @@ Tentare di tenere traccia dello stato di un argomento in base solo al numero di 
 
 1. Scegli un file come ReviewLabels.json o simile. I dettagli su come creare un file di questo tipo sono trattati in un altro video.
 
-1. Clic [!UICONTROL **Apri**].
+1. Fai clic su [!UICONTROL **Apri**].
 
-1. Clic [!UICONTROL **Salva**] in alto a sinistra nella schermata Profilo cartella.
+1. Fai clic su [!UICONTROL **Salva**] in alto a sinistra nella schermata Profilo cartella.
 
-1. Clic [!UICONTROL **Chiudi**] in alto a destra.
+1. Fai clic su [!UICONTROL **Chiudi**] in alto a destra.
 
 Le etichette di versione sono ora caricate.
 
@@ -147,7 +147,7 @@ Le etichette di versione sono ora caricate.
 
 1. Carica etichette versione.
 
-1. Fai clic su [!UICONTROL **Preferenze utente**] in alto a sinistra nell’argomento corrente.
+1. Fai clic sull&#39;icona [!UICONTROL **Preferenze utente**] in alto a sinistra nell&#39;argomento corrente.
 
    ![Profilo cartella](images/lesson-15/folder-profile-icon.png)
 
@@ -175,21 +175,21 @@ Il numero di versione viene aggiornato.
 
 1. Fai clic sul titolo per aprire il menu contestuale.
 
-1. Seleziona [!UICONTROL **Visualizza nell’interfaccia utente Assets**].
+1. Seleziona [!UICONTROL **Visualizza nell&#39;interfaccia utente di Assets**].
 
-   ![Interfaccia utente Assets](images/lesson-15/view-assets-ui.png)
+   ![Interfaccia utente di Assets](images/lesson-15/view-assets-ui.png)
 
    - La cronologia delle versioni con le etichette viene visualizzata a sinistra.
 
-   ![Cronologia delle versioni](images/lesson-15/version-history.png)
+   ![Cronologia versioni](images/lesson-15/version-history.png)
 
-1. Fai clic su una versione per accedere a opzioni quali **Ripristina questa versione** e **Anteprima versione**.
+1. Fare clic su una versione per accedere ad opzioni quali **Ripristina questa versione** e **Anteprima versione**.
 
 ## Crea un nuovo modello
 
 Esistono modelli sia per gli argomenti che per le mappe. Gli amministratori possono accedere ai modelli nel pannello a sinistra.
 
-1. Clic [!UICONTROL **Modelli**] nel pannello a sinistra.
+1. Fai clic su [!UICONTROL **Modelli**] nel pannello a sinistra.
 
 1. Seleziona Mappa o Argomento per aprire il menu contestuale associato.
 

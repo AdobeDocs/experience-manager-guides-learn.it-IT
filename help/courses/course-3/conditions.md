@@ -5,7 +5,7 @@ exl-id: 2cb670d9-1a22-47c6-8409-52d1d526010a
 source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '497'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -13,19 +13,19 @@ ht-degree: 2%
 
 In DITA, le condizioni sono spesso guidate tramite attributi come Prodotto, Piattaforma e Pubblico. A questi possono essere assegnati anche valori specifici. Gli utenti possono controllare tutto questo tramite Profili cartella.
 
-I file di esempio che puoi scegliere di utilizzare per questa lezione sono forniti nel file [condition.zip](assets/conditions.zip).
+I file di esempio che si può scegliere di utilizzare per questa lezione sono forniti nel file [conditions.zip](assets/conditions.zip).
 
 >[!VIDEO](https://video.tv.adobe.com/v/342755?quality=12&learn=on)
 
 ## Assegnare condizioni a un profilo cartella
 
-1. Seleziona la **Profili cartella** affiancare.
+1. Selezionare il riquadro **Profili cartella**.
 
-1. Clic [!UICONTROL **Attributi condizionali**].
+1. Fare clic su [!UICONTROL **Attributi condizionali**].
 
-1. Clic [!UICONTROL **Modifica**] nell’angolo in alto a sinistra del profilo.
+1. Fai clic su [!UICONTROL **Modifica**] nell&#39;angolo superiore sinistro del profilo.
 
-1. Clic [!UICONTROL **Aggiungi**].
+1. Fare clic su [!UICONTROL **Aggiungi**].
 
    ![Condizioni nei profili cartella](images/lesson-13/add-name.png)
 
@@ -47,13 +47,13 @@ I file di esempio che puoi scegliere di utilizzare per questa lezione sono forni
 
 Se a un concetto non è stato assegnato alcun profilo di cartella personalizzato, è possibile assegnare attributi a elementi specifici, ad esempio i paragrafi.
 
-1. Dalla sezione **Vista archivio**, fare clic sull&#39;elemento che si desidera utilizzare per selezionarlo.
+1. Dalla **Vista archivio**, fare clic sull&#39;elemento che si desidera utilizzare per selezionarlo.
 
-1. In **Proprietà contenuto** , fare clic sul pulsante [!UICONTROL **Attributo**] a discesa.
+1. Nel pannello **Proprietà contenuto**, fai clic sul menu a discesa [!UICONTROL **Attributo**].
 
 1. Scegliere l&#39;attributo che si desidera assegnare.
 
-1. Aggiungi un **Valore**.
+1. Aggiungi un **valore**.
 
 L’associazione di attributi e valori viene ora assegnata all’elemento selezionato.
 
@@ -61,13 +61,13 @@ L’associazione di attributi e valori viene ora assegnata all’elemento selezi
 
 Il pannello Condizioni consente l’assegnazione controllata delle coppie Attributo/Valore.
 
-1. Modifica il **Preferenze utente**.
+1. Modifica le **preferenze utente**.
 
    a. Fai clic sull’icona Preferenze utente.
 
    ![Icona Preferenze Utente](images/lesson-13/user-prefs-icon.png)
 
-   b. Compila i campi obbligatori nella sezione **Preferenze utente** . Ad esempio:
+   b. Compila i campi obbligatori nella finestra di dialogo **Preferenze utente**. Ad esempio:
 
    ![Preferenze utente](images/lesson-13/user-preferences.png)
 
@@ -81,7 +81,7 @@ Il pannello Condizioni consente l’assegnazione controllata delle coppie Attrib
 
 Le mappe dello schema dei soggetti sono una forma specializzata di mappa digitale e sono referenziate da una mappa. Gli schemi oggetto vengono utilizzati per definire le tassonomie. Essi forniscono il controllo sui valori disponibili.
 
-1. Accedi a **Vista archivio**.
+1. Passare alla **Visualizzazione archivio**.
 
 1. Selezionate una mappa che faccia riferimento al mapping dello schema soggetto. In questo esempio viene utilizzata la mappa denominata _Progettazione e layout_.
 
@@ -89,17 +89,17 @@ Le mappe dello schema dei soggetti sono una forma specializzata di mappa digital
 
 1. Configurare le preferenze utente.
 
-   a. Fai clic sul pulsante [!UICONTROL **Preferenze utente**] icona.
+   a. Fai clic sull&#39;icona [!UICONTROL **Preferenze utente**].
 
    ![Preferenze utente](images/lesson-13/user-prefs-icon-2.png)
 
-   b. Compila i campi nella sezione **Preferenze utente** .
+   b. Compila i campi nella finestra di dialogo **Preferenze utente**.
 
    c. Fare clic sul simbolo della cartella accanto al campo Percorso base per scegliere il percorso del file desiderato.
 
    d. Fai clic su [!UICONTROL **Seleziona**].
 
-   e. Fai clic sul simbolo del tasto accanto al simbolo **Mappa radice** per immettere un percorso.
+   e. Fai clic sul simbolo della chiave accanto al campo **Root Map** per immettere un percorso.
 
    >[!IMPORTANT]
    >
@@ -117,8 +117,8 @@ Lo schema soggetto è stato assegnato.
 
 ## Visualizzare lo schema soggetto dal pannello Condizioni
 
-1. Accedi a **Impostazioni editor**.
+1. Passa a **Impostazioni editor**.
 
-1. Seleziona la **Condizioni** scheda.
+1. Selezionare la scheda **Condizioni**.
 
-1. Seleziona la casella **Mostra schema soggetto nel pannello Condizioni**
+1. Selezionare la casella **Mostra schema soggetto nel pannello Condizioni**

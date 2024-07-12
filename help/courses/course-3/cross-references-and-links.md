@@ -1,10 +1,10 @@
 ---
 title: Riferimenti incrociati e collegamenti
-description: Creazione di riferimenti incrociati e collegamenti nelle guide AEM
+description: Creazione di rimandi e collegamenti in AEM Guides
 exl-id: bee7d50f-cbdd-4ac8-b15b-101febc4ae80
 source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 L&#39;editor XML e DITA consentono di creare collegamenti efficaci tra gli argomenti. È importante gestire in modo efficace i riferimenti ai contenuti, e ciò include l’utilizzo di valori ID univoci.
 
 I file di esempio che puoi scegliere di utilizzare per questa lezione sono forniti nel file
-[crossreferencesandlinks.zip](assets/crossreferencesandlinks.zip)
+[riferimenti incrociati andlinks.zip](assets/crossreferencesandlinks.zip)
 
 >[!VIDEO](https://video.tv.adobe.com/v/342764?quality=12&learn=on)
 
@@ -28,39 +28,39 @@ I file di esempio che puoi scegliere di utilizzare per questa lezione sono forni
 
    a. Fai clic all’interno dell’elemento.
 
-   b. Nel pannello Proprietà contenuto, scegliete **ID** dal menu a discesa Attributo.
+   b. Nel pannello Proprietà contenuto, scegli **ID** dal menu a discesa Attributo.
 
    c. Digitare un nome logico nel campo Valore.
 
-   d. Visualizzare l’elemento e il relativo valore in **Visualizzazione Struttura** se desiderato.
+   d. Se necessario, visualizzare l&#39;elemento e il relativo valore in **Visualizzazione struttura**.
 
-1. **Salva** l’argomento per garantire che l’archivio abbia l’ID aggiornato.
+1. **Salva** l&#39;argomento per verificare che l&#39;archivio disponga dell&#39;ID aggiornato.
 
-1. Fai clic su [!UICONTROL **Riferimento**] nella barra degli strumenti superiore.
+1. Fai clic sull&#39;icona [!UICONTROL **Riferimento**] nella barra degli strumenti superiore.
 
    ![Barra degli strumenti](images/lesson-7/references-icon.png)
 
-1. Dalla sezione **Riferimento contenuto** , selezionare l&#39;ID e l&#39;accoppiamento di elementi che si desidera inserire come riferimento incrociato.
+1. Dalla scheda **Riferimento contenuto**, selezionare l&#39;associazione ID ed elemento che si desidera inserire come riferimento incrociato.
 
-1. Clic [!UICONTROL **Seleziona**].
+1. Fai clic su [!UICONTROL **Seleziona**].
 
 Il riferimento incrociato è stato aggiunto all&#39;argomento.
 
 ## Collegamento a un sito Web
 
-È possibile inserire un collegamento a un sito Web all&#39;interno di qualsiasi argomento. Per ulteriori informazioni, consulta il video sulle guide dell’AEM al corso 1 sul collegamento ai siti web.
+È possibile inserire un collegamento a un sito Web all&#39;interno di qualsiasi argomento. Per ulteriori informazioni, consulta il video di AEM Guides Course 1 sul collegamento ai siti web.
 
 
 ## Visualizza collegamenti interrotti
 
-Alcune modifiche possono causare la rottura dei riferimenti incrociati. Queste includono l’eliminazione di un argomento, la riorganizzazione di una sezione che contiene un riferimento incrociato o la modifica di un ID dopo l’inserimento del riferimento incrociato. Tieni presente che un argomento di esempio _crossreferencesandlinks.zip_ viene fornito con questa lezione che causerà l’interruzione di diversi riferimenti incrociati al contenuto interno tra puntati.
+Alcune modifiche possono causare la rottura dei riferimenti incrociati. Queste includono l’eliminazione di un argomento, la riorganizzazione di una sezione che contiene un riferimento incrociato o la modifica di un ID dopo l’inserimento del riferimento incrociato. Si noti che con questa lezione viene fornito un argomento di esempio _crossreferencesandlinks.zip_ che causerà l&#39;interruzione di diversi riferimenti incrociati puntati al contenuto interno.
 
-1. Accedi a **Visualizzazione Struttura** nel pannello sinistro.
+1. Passa alla **visualizzazione Struttura** nel pannello a sinistra.
 
-1. Fai clic su [!UICONTROL **Filtro**] icona.
+1. Fai clic sull&#39;icona [!UICONTROL **Filtro**].
 
 1. Seleziona **Collegamenti interrotti**.
 
-   ![Menu a discesa Filtro](images/lesson-7/broken-links.png)
+   ![Elenco a discesa dei filtri](images/lesson-7/broken-links.png)
 
 I collegamenti interrotti vengono visualizzati come oggetti cliccabili. Puoi identificarli in rosso nell’argomento.

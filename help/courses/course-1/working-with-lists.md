@@ -21,7 +21,7 @@ Un elenco puntato o non ordinato deve essere utilizzato quando i componenti dell
 
 ### Inserimento di un elenco puntato
 
-1. Seleziona la **Inserisci elenco puntato** dalla barra degli strumenti.
+1. Selezionare l&#39;icona **Inserisci elenco puntato** nella barra degli strumenti.
 
    ![Icona Inserisci elenco puntato](images/lesson-6/insert-bulleted-list.png)
 
@@ -37,7 +37,7 @@ Un elenco numerato deve essere utilizzato quando i componenti dell’elenco devo
 
 ### Inserimento di un elenco ordinato
 
-1. Seleziona la **Inserisci elenco numerato** dalla barra degli strumenti.
+1. Selezionare l&#39;icona **Inserisci elenco numerato** nella barra degli strumenti.
 
    ![Icona Inserisci elenco numerato](images/lesson-6/insert-numbered-list.png)
 
@@ -51,7 +51,7 @@ Un elenco numerato deve essere utilizzato quando i componenti dell’elenco devo
 
 Ora che hai aggiunto più contenuto al concetto, puoi salvare il lavoro come nuova versione e registrare le modifiche.
 
-1. Seleziona la **Salva come nuova versione** icona.
+1. Selezionare l&#39;icona **Salva come nuova versione**.
 
    ![Icona Salva come nuova versione](images/common/save-as-new-version.png)
 

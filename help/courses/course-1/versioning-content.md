@@ -1,10 +1,10 @@
 ---
-title: Controllo delle versioni dei contenuti in [!DNL AEM Guides]
-description: Controllo delle versioni dei contenuti in [!DNL Adobe Experience Manager Guides]
+title: Controllo delle versioni del contenuto in [!DNL AEM Guides]
+description: Controllo delle versioni del contenuto in [!DNL Adobe Experience Manager Guides]
 exl-id: 766af002-d17b-4d27-b4d1-baaacc4579ca
 source-git-commit: 97254946f5ee732fe3b93ff60dd9ef51a379b9f4
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '350'
 ht-degree: 1%
 
 ---

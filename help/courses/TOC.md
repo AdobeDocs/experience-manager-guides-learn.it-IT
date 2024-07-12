@@ -12,7 +12,7 @@ ht-degree: 16%
 
 # Tutorials per [!DNL Adobe Experience Manager Guides] {#videos}
 
-+ [[!DNL AEM Guides] Video](overview.md)
++ [Video su [!DNL AEM Guides]](overview.md)
 + Guida introduttiva a [!DNL AEM Guides] {#getting-started}
    + [Panoramica introduttiva](./course-1/overview.md)
    + [Interfaccia utente dell’AEM](./course-1/understanding-the-aem-user-interface.md)
@@ -22,9 +22,9 @@ ht-degree: 16%
    + [Utilizzare gli elenchi](./course-1/working-with-lists.md)
    + [Contenuto versione](./course-1/versioning-content.md)
    + [Creare una mappa](./course-1/creating-a-map.md)
-   + [Pubblica output predefinito](./course-1/publishing-default-output.md)
+   + [Output predefinito di Publish](./course-1/publishing-default-output.md)
    + [Riassunto](./course-1/recap.md)
-+ Generazione di output con [!DNL AEM Guides] {#output-generation}
++ Generazione output con [!DNL AEM Guides] {#output-generation}
    + [Panoramica sulla generazione dell’output](./course-2/overview.md)
    + [Informazioni sul dashboard mappa](./course-2/introduction-to-the-map-dashboard.md)
    + [Utilizzo dei rapporti](./course-2/working-with-reports.md)
@@ -34,7 +34,7 @@ ht-degree: 16%
    + [Risoluzione dei problemi di pubblicazione](./course-2/troubleshooting-publishing-errors.md)
    + [Pubblicazione in blocco](./course-2/bulk-publishing.md)
    + [Riassunto](./course-2/recap.md)
-+ Authoring con [!DNL AEM Guides] Editor {#advanced-user-guide}
++ Authoring con l&#39;editor [!DNL AEM Guides] {#advanced-user-guide}
    + [Panoramica sull’authoring](./course-3/overview.md)
    + [Preferenze utente, Impostazioni editor e Barre degli strumenti dell&#39;editor](./course-3/user-settings-preferences-toolbars.md)
    + [Profili cartella](./course-3/folder-profiles.md)

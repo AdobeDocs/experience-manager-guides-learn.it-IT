@@ -1,11 +1,11 @@
 ---
 title: Preferenze utente, impostazioni editor e barre degli strumenti editor
-description: Modifica delle preferenze utente e delle impostazioni dell’editor nelle guide AEM
+description: Modifica delle preferenze utente e delle impostazioni dell’editor in AEM Guides
 exl-id: 8cb099e4-d985-4eeb-b1a5-0e372b04d218
 source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '1169'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -19,7 +19,7 @@ L’editor dispone di un’interfaccia altamente configurabile. La combinazione 
 
 I tag sono segnali visivi che indicano i limiti di un elemento. Un limite di elemento contrassegna l&#39;inizio e la fine di un elemento. È quindi possibile utilizzare questi limiti come spunto visivo per posizionare il punto di inserimento o selezionare il testo all&#39;interno di un limite.
 
-1. Fai clic su [!UICONTROL **Attiva/Disattiva visualizzazione tag**] sulla barra degli strumenti secondaria.
+1. Fai clic sull&#39;icona [!UICONTROL **Attiva/disattiva visualizzazione tag**] sulla barra degli strumenti secondaria.
 
    ![Attiva/Disattiva tag](images/lesson-2/tags-on-icon.png)
 
@@ -33,7 +33,7 @@ I tag sono segnali visivi che indicano i limiti di un elemento. Un limite di ele
 
    - Trascina e rilascia gli elementi selezionando il tag e rilasciando l’elemento in una posizione valida.
 
-1. Fai clic su [!UICONTROL **Attiva/Disattiva visualizzazione tag**] per nascondere i tag.
+1. Fai di nuovo clic sull&#39;icona [!UICONTROL **Attiva/disattiva visualizzazione tag**] per nascondere i tag.
 
 I tag scompaiono consentendo di concentrarsi sul testo.
 
@@ -41,21 +41,21 @@ I tag scompaiono consentendo di concentrarsi sul testo.
 
 Il blocco (o l&#39;estrazione) di un file consente all&#39;utente l&#39;accesso in scrittura esclusivo sul file. Quando il file viene sbloccato (o archiviato), le modifiche vengono salvate nella versione corrente del file.
 
-1. Fai clic su [!UICONTROL **Blocca**] sulla barra degli strumenti secondaria.
+1. Fai clic sull&#39;icona [!UICONTROL **Blocca**] sulla barra degli strumenti secondaria.
 
-   ![Pagamento](images/lesson-2/checkout-icon.png)
+   ![Estrazione](images/lesson-2/checkout-icon.png)
 
    Il file è stato estratto e accanto al nome del file nel repository viene visualizzata un&#39;icona Blocca.
 
-1. Fai clic su [!UICONTROL **Sblocca**] icona.
+1. Fai clic sull&#39;icona [!UICONTROL **Sblocca**].
 
-   ![Registra](images/lesson-2/check-in-icon.png)
+   ![Archiviazione](images/lesson-2/check-in-icon.png)
 
 L’archivio viene aggiornato per mostrare che il file è stato archiviato.
 
 ## Inserisci caratteri speciali
 
-1. Fai clic su [!UICONTROL **Inserisci caratteri speciali**] sulla barra degli strumenti secondaria.
+1. Fare clic sull&#39;icona [!UICONTROL **Inserisci caratteri speciali**] sulla barra degli strumenti secondaria.
 
    ![Speciale](images/lesson-2/special-icon.png)
 
@@ -65,19 +65,19 @@ L’archivio viene aggiornato per mostrare che il file è stato archiviato.
 
 1. Seleziona il carattere desiderato.
 
-1. Clic [!UICONTROL **Inserisci**].
+1. Fare clic su [!UICONTROL **Inserisci**].
 
 Il carattere speciale viene inserito nel testo.
 
-## Passa dalla modalità Autore alla modalità Origine e Anteprima
+## Source Passa dalla modalità Autore alla modalità Anteprima e viceversa
 
 La barra degli strumenti in alto a destra dello schermo consente di passare da una visualizzazione all’altra.
 
 ![Modalità](images/lesson-2/modes.png)
 
-- Seleziona **Autore** per visualizzare la struttura e il contenuto mentre si lavora con un argomento.
+- Seleziona **Autore** per visualizzare la struttura e il contenuto mentre lavori con un argomento.
 
-- Seleziona **Sorgente** per visualizzare il codice XML sottostante che costituisce l&#39;argomento.
+- Selezionare **Source** per visualizzare l&#39;XML sottostante che costituisce l&#39;argomento.
 
 - Seleziona **Anteprima** per mostrare come verrà visualizzato un argomento quando viene visualizzato da un utente nel browser.
 
@@ -85,11 +85,11 @@ La barra degli strumenti in alto a destra dello schermo consente di passare da u
 
 Puoi scegliere tra i temi Chiaro o Scuro per l’editor. Utilizzando il tema Luce, le barre degli strumenti e i pannelli utilizzano uno sfondo grigio chiaro. Utilizzando il tema Scuro, le barre degli strumenti e i pannelli utilizzano uno sfondo nero. In entrambi i temi, l&#39;area di modifica dei contenuti viene visualizzata con uno sfondo bianco.
 
-1. Fai clic su [!UICONTROL **Preferenze utente**] nella barra degli strumenti superiore.
+1. Fai clic sull&#39;icona [!UICONTROL **Preferenze utente**] nella barra degli strumenti superiore.
 
    ![Preferenze utente](images/reuse/user-prefs-icon.png)
 
-1. Nella finestra di dialogo Preferenze utente, fai clic su [!UICONTROL **Tema**] a discesa.
+1. Nella finestra di dialogo Preferenze utente, fai clic sul menu a discesa [!UICONTROL **Tema**].
 
 1. Scegli tra le opzioni disponibili.
 
@@ -103,17 +103,17 @@ L’editor viene aggiornato per visualizzare il tema preferito.
 
 È possibile aggiornare il Percorso base in modo che la Vista archivio mostri il contenuto da una posizione specifica non appena si avvia l’Editor. Questo riduce il tempo necessario per accedere ai file di lavoro.
 
-1. Fai clic su [!UICONTROL **Preferenze utente**] nella barra degli strumenti superiore.
+1. Fai clic sull&#39;icona [!UICONTROL **Preferenze utente**] nella barra degli strumenti superiore.
 
    ![Preferenze utente](images/reuse/user-prefs-icon.png)
 
-1. Nella finestra di dialogo Preferenze utente, fai clic su [!UICONTROL **Cartella**] accanto al Percorso base.
+1. Nella finestra di dialogo Preferenze utente fare clic sull&#39;icona [!UICONTROL **Cartella**] accanto al Percorso base.
 
    ![Percorso cartella base](images/lesson-2/base-path-folder-icon.png)
 
 1. Nella finestra di dialogo Seleziona percorso, fai clic sulla casella di controllo accanto a una cartella specifica.
 
-1. Clic [!UICONTROL **Seleziona**].
+1. Fai clic su [!UICONTROL **Seleziona**].
 
 Al successivo avvio dell&#39;editor, nel repository verranno visualizzati i file specificati nel Percorso base.
 
@@ -121,11 +121,11 @@ Al successivo avvio dell&#39;editor, nel repository verranno visualizzati i file
 
 Il Profilo globale è un&#39;impostazione predefinita del sistema. Gli amministratori possono creare ulteriori profili cartella tra cui scegliere.
 
-1. Fai clic su [!UICONTROL **Preferenze utente**] nella barra degli strumenti superiore.
+1. Fai clic sull&#39;icona [!UICONTROL **Preferenze utente**] nella barra degli strumenti superiore.
 
    ![Preferenze utente](images/reuse/user-prefs-icon.png)
 
-1. Nella finestra di dialogo Preferenze utente, fai clic su [!UICONTROL **Profili cartella**] a discesa.
+1. Nella finestra di dialogo Preferenze utente, fai clic sul menu a discesa [!UICONTROL **Profili cartella**].
 
    ![Elenco profili](images/lesson-2/folder-profiles-dropdown.png)
 
@@ -139,11 +139,11 @@ Il nuovo Profilo cartella è ora assegnato. Sono state modificate le opzioni del
 
 Le impostazioni dell&#39;editor sono disponibili per gli utenti amministratori. Queste preferenze consentono di configurare una serie di impostazioni, tra cui il dizionario utilizzato dall&#39;editor per il controllo ortografico.
 
-1. Fai clic su [!UICONTROL **Impostazioni editor**] nella barra degli strumenti superiore.
+1. Fai clic sull&#39;icona [!UICONTROL **Impostazioni editor**] nella barra degli strumenti superiore.
 
    ![Impostazioni editor](images/lesson-2/editor-settings-icon.png)
 
-1. Nella finestra di dialogo Impostazioni editor, fai clic su [!UICONTROL **Generale**] scheda.
+1. Nella finestra di dialogo Impostazioni editor fare clic sulla scheda [!UICONTROL **Generale**].
 
 1. Selezionare il dizionario che si desidera utilizzare.
 
@@ -155,11 +155,11 @@ Il dizionario viene aggiornato. Il passaggio al controllo ortografico dell’AEM
 
 Una delle funzioni personalizzabili con Impostazioni editor è Pannelli. In particolare, puoi selezionare quali pannelli visualizzare o nascondere nell’Editor.
 
-1. Fai clic su [!UICONTROL **Impostazioni editor**] nella barra degli strumenti superiore.
+1. Fai clic sull&#39;icona [!UICONTROL **Impostazioni editor**] nella barra degli strumenti superiore.
 
    ![Impostazioni editor](images/lesson-2/editor-settings-icon.png)
 
-1. Nella finestra di dialogo Impostazioni editor, fai clic su [!UICONTROL **Pannelli**] scheda.
+1. Nella finestra di dialogo Impostazioni editor, fai clic sulla scheda [!UICONTROL **Panels**].
 
 1. Attiva Mostra o Nascondi i pannelli disponibili in base alle esigenze.
 
@@ -173,15 +173,15 @@ Il pannello sinistro è ora configurato per mostrare solo i pannelli attivati Mo
 
 L’elenco Elementi consente di denominare un elemento specifico e assegnargli un’etichetta più semplice da usare. Il nome elemento deve essere uno degli elementi DITA. L’etichetta può essere qualsiasi stringa.
 
-1. Fai clic su [!UICONTROL **Impostazioni editor**] nella barra degli strumenti superiore.
+1. Fai clic sull&#39;icona [!UICONTROL **Impostazioni editor**] nella barra degli strumenti superiore.
 
    ![Impostazioni editor](images/lesson-2/editor-settings-icon.png)
 
-1. Nella finestra di dialogo Impostazioni editor, fai clic su [!UICONTROL **Elenco elementi**] scheda.
+1. Nella finestra di dialogo Impostazioni editor fare clic sulla scheda [!UICONTROL **Elenco elementi**].
 
-1. Digita un **Nome elemento** e un **Etichetta** nei rispettivi campi.
+1. Digitare un **nome elemento** e un **etichetta** nei rispettivi campi.
 
-1. Fai clic su [!UICONTROL **Più**] per aggiungere altri elementi all’elenco.
+1. Fai clic sull&#39;icona [!UICONTROL **Plus**] per aggiungere altri elementi all&#39;elenco.
 
    ![Elenco elementi](images/lesson-2/elements-list.png)
 
@@ -193,25 +193,25 @@ Puoi vedere immediatamente la modifica all’Elenco elementi nei tag esistenti n
 
 L&#39;elenco Attributi funziona in modo simile all&#39;elenco Elementi. In Impostazioni editor è possibile controllare l&#39;elenco degli attributi e i relativi nomi visualizzati.
 
-1. Fai clic su [!UICONTROL **Impostazioni editor**] nella barra degli strumenti superiore.
+1. Fai clic sull&#39;icona [!UICONTROL **Impostazioni editor**] nella barra degli strumenti superiore.
 
    ![Impostazioni editor](images/lesson-2/editor-settings-icon.png)
 
-1. Nella finestra di dialogo Impostazioni editor, fai clic su [!UICONTROL **Lista Attributi**] scheda.
+1. Nella finestra di dialogo Impostazioni editor fare clic sulla scheda [!UICONTROL **Elenco attributi**].
 
-1. Digita un **Nome attributo** e un **Etichetta** nei rispettivi campi.
+1. Digitare un **Nome attributo** e un **Etichetta** nei rispettivi campi.
 
-1. Fai clic su [!UICONTROL **Più**] per aggiungere altri attributi all&#39;elenco.
+1. Fai clic sull&#39;icona [!UICONTROL **Plus**] per aggiungere altri attributi all&#39;elenco.
 
 ## Configurare le condizioni nelle impostazioni dell’editor
 
 La scheda Condizione consente di configurare diverse proprietà.
 
-1. Fai clic su [!UICONTROL **Impostazioni editor**] nella barra degli strumenti superiore.
+1. Fai clic sull&#39;icona [!UICONTROL **Impostazioni editor**] nella barra degli strumenti superiore.
 
    ![Impostazioni editor](images/lesson-2/editor-settings-icon.png)
 
-1. Nella finestra di dialogo Impostazioni editor, fai clic su [!UICONTROL **Condizione**] scheda.
+1. Nella finestra di dialogo Impostazioni editor fare clic sulla scheda [!UICONTROL **Condizione**].
 
 1. Selezionare le caselle di controllo delle condizioni da applicare.
 
@@ -221,15 +221,15 @@ La scheda Condizione consente di configurare diverse proprietà.
 
 ## Creare un profilo di pubblicazione nelle impostazioni dell’editor
 
-I profili di pubblicazione possono essere utilizzati per pubblicare la knowledge base. Ad esempio, Salesforce utilizza un’app configurata con una chiave consumer e un segreto consumer. Queste informazioni possono essere utilizzate per creare un profilo di pubblicazione Salesforce.
+I profili Publish possono essere utilizzati per pubblicare la knowledge base. Ad esempio, Salesforce utilizza un’app configurata con una chiave consumer e un segreto consumer. Queste informazioni possono essere utilizzate per creare un profilo di pubblicazione Salesforce.
 
-1. Fai clic su [!UICONTROL **Impostazioni editor**] nella barra degli strumenti superiore.
+1. Fai clic sull&#39;icona [!UICONTROL **Impostazioni editor**] nella barra degli strumenti superiore.
 
    ![Impostazioni editor](images/lesson-2/editor-settings-icon.png)
 
-1. Nella finestra di dialogo Impostazioni editor, fai clic su [!UICONTROL **Profili**] scheda.
+1. Nella finestra di dialogo Impostazioni editor fare clic sulla scheda [!UICONTROL **Profili**].
 
-1. Fai clic su [!UICONTROL **Più**] accanto a Profili.
+1. Fai clic sull&#39;icona [!UICONTROL **Plus**] accanto a Profili.
 
 1. Compila i campi come richiesto.
 

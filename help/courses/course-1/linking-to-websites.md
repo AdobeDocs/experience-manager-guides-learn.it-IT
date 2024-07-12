@@ -21,21 +21,21 @@ I collegamenti web indirizzano i lettori ai siti web per ottenere ulteriori info
 1. Aggiungi una stringa di testo al concetto ed evidenziala oppure evidenzia il testo esistente desiderato.
 
    Il testo evidenziato è il punto in cui verrà inserito il collegamento.
-1. Seleziona la **Inserisci riferimento incrociato** dalla barra degli strumenti.
+1. Selezionare il pulsante **Inserisci riferimento incrociato** nella barra degli strumenti.
 
    ![Icona Inserisci riferimento incrociato](images/lesson-5/insert-crossref-icon.png)
 
    Viene visualizzata la finestra di dialogo Riferimento (Reference).
 
 
-1. Seleziona **Collegamento web** dal menu a sinistra.
-1. Incolla l’URL desiderato, quindi fai clic su **Seleziona**.
+1. Selezionare **Collegamento Web** dal menu a sinistra.
+1. Incolla l&#39;URL desiderato, quindi fai clic su **Seleziona**.
 
    Il collegamento è funzionante e quando viene fatto clic su di esso verrà aperta una pagina Web in una nuova scheda del browser.
 
 ## Utilizzo di Anteprima per testare i collegamenti
 
-Il pulsante Anteprima consente di visualizzare un&#39;anteprima di un argomento. Qui puoi testare i collegamenti e visualizzarli come farebbe il pubblico.
+Il pulsante Anteprima consente di visualizzare un&#39;anteprima di un argomento. Qui puoi testare i tuoi collegamenti e visualizzarli come farebbe il tuo pubblico.
 
 1. Seleziona **Anteprima** dalla barra dei menu nera superiore.
 
@@ -45,7 +45,7 @@ Il pulsante Anteprima consente di visualizzare un&#39;anteprima di un argomento.
 
 1. Seleziona il collegamento.
 La destinazione del collegamento si apre in un’altra scheda.
-1. Torna alla vista Autore selezionando **Autore** dalla barra dei menu nera superiore.
+1. Torna alla visualizzazione Autore selezionando **Autore** dalla barra dei menu nera superiore.
 
    ![Pulsante Autore](images/lesson-5/author-map.png)
 
@@ -54,7 +54,7 @@ La destinazione del collegamento si apre in un’altra scheda.
 
 Ora che hai aggiunto più contenuto al concetto, puoi salvare il lavoro come nuova versione e registrare le modifiche.
 
-1. Seleziona la **Salva come nuova versione** icona.
+1. Selezionare l&#39;icona **Salva come nuova versione**.
 
    ![Icona Salva come nuova versione](images/common/save-as-new-version.png)
 

@@ -1,6 +1,6 @@
 ---
-title: Riassunto della generazione dell’output con [!DNL AEM Guides]
-description: Riassunto della generazione dell’output con [!DNL Adobe Experience Manager Guides]
+title: Riepilogo della generazione dell'output con  [!DNL AEM Guides]
+description: Riepilogo della generazione dell'output con  [!DNL Adobe Experience Manager Guides]
 exl-id: 624b53a4-a5c3-4066-a7b9-9a913ccde93d
 source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt

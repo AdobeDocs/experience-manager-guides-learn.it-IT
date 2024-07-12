@@ -5,7 +5,7 @@ exl-id: b0c64737-48a0-4337-8a7f-35d1deb03366
 source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -19,7 +19,7 @@ Un predefinito di output è una raccolta di proprietà di pubblicazione che sono
 
 Un predefinito di output viene visualizzato quando si apre una mappa nell&#39;editor XML nel dashboard Mappa. I predefiniti possono includere informazioni su un tipo di output specifico, un percorso di destinazione, istruzioni su come gestire le pagine di output esistenti e altre impostazioni che possono essere applicate a una mappa per generare l’output.
 
-![Access-Output-Presets](images/access-output-presets.png)
+![Predefiniti-Output-Accesso](images/access-output-presets.png)
 
 ## Creazione di un predefinito di output
 
@@ -35,7 +35,7 @@ Un predefinito di output viene visualizzato quando si apre una mappa nell&#39;ed
 
 1. In base al tipo di output, configura ulteriormente le opzioni.
 
-1. Clic **Fine**.
+1. Fai clic su **Fine**.
 
 ## Modificare un predefinito di output
 
@@ -43,14 +43,14 @@ I predefiniti di output sono predefiniti ma possono essere personalizzati in bas
 
 1. Apri Map Dashboard (Mappa dashboard).
 
-1. Seleziona la **Predefiniti di output** scheda.
+1. Selezionare la scheda **Predefiniti di output**.
 
 1. Seleziona un predefinito di output.
 
-1. Clic **Modifica**.
+1. Fai clic su **Modifica**.
 
 1. Modificare le impostazioni in base alle esigenze.
 
-   ![Modifica-Output-Predefinito](images/edit-output-preset.png)
+   ![Modifica-Predefinito-Output](images/edit-output-preset.png)
 
-1. Clic **Fine**.
+1. Fai clic su **Fine**.

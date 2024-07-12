@@ -1,11 +1,11 @@
 ---
 title: Riutilizzo dei contenuti
-description: Uso ricorrente di funzioni nelle guide AEM
+description: Utilizzo ricorrente delle funzioni in AEM Guides
 exl-id: 453c5a09-0bcf-4760-87fc-df3ea4a3a30a
 source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 2%
+source-wordcount: '357'
+ht-degree: 1%
 
 ---
 
@@ -19,11 +19,11 @@ Una delle caratteristiche principali di DITA è la possibilità di riutilizzare 
 
 Quando si apporta una modifica a un argomento di origine riutilizzabile, le informazioni vengono aggiornate ovunque venga utilizzato il contenuto.
 
-1. Accedi a **Archivio**.
+1. Passare all&#39;**archivio**.
 
-1. Fai clic su **menu contestuale** accanto alla cartella di riutilizzo.
+1. Fai clic sul **menu contestuale** accanto alla cartella di riutilizzo.
 
-1. Scegli **Crea > Argomento Dita**.
+1. Scegliere **Crea > Argomento Dita**.
 
 1. Compila i campi nella finestra di dialogo Crea nuovo argomento. Ad esempio:
 
@@ -41,11 +41,11 @@ Esistono diversi metodi per aggiungere elementi riutilizzabili. In questo caso, 
 
 1. Fare clic nell&#39;argomento in un percorso valido.
 
-1. Seleziona la **Inserisci contenuto riutilizzabile** nella barra degli strumenti superiore.
+1. Selezionare l&#39;icona **Inserisci contenuto riutilizzabile** nella barra degli strumenti superiore.
 
    ![Conferma](images/lesson-8/insert-reuse-icon.png)
 
-1. Nella finestra di dialogo Riutilizza contenuto, fai clic su [!UICONTROL **Cartella**] icona.
+1. Nella finestra di dialogo Riutilizza contenuto fare clic sull&#39;icona [!UICONTROL **Cartella**].
 
 1. Passa alla cartella desiderata.
 
@@ -54,19 +54,19 @@ Ad esempio:
 
    ![Conferma](images/lesson-8/reusable-topic.png)
 
-1. Clic [!UICONTROL **Seleziona**].
+1. Fai clic su [!UICONTROL **Seleziona**].
 
 1. Scegli un componente specifico da riutilizzare.
 
-1. Clic [!UICONTROL **Seleziona**].
+1. Fai clic su [!UICONTROL **Seleziona**].
 
 L&#39;elemento riutilizzabile è stato inserito nell&#39;argomento.
 
 ### Flusso di lavoro 2
 
-1. Accedi a **Contenuti riutilizzabili** nel pannello sinistro.
+1. Passa a **Contenuti riutilizzabili** nel pannello a sinistra.
 
-1. Fai clic su [!UICONTROL **Aggiungi**] nel pannello Contenuti riutilizzabili.
+1. Fare clic sull&#39;icona [!UICONTROL **Aggiungi**] nel pannello Contenuti riutilizzabili.
 
    ![Conferma](images/lesson-8/reuse-contents-icon.png)
 
@@ -74,9 +74,9 @@ L&#39;elemento riutilizzabile è stato inserito nell&#39;argomento.
 
 1. Selezionare uno o più argomenti specifici.
 
-1. Clic [!UICONTROL **Aggiungi**].
+1. Fare clic su [!UICONTROL **Aggiungi**].
 
-1. Dal pannello Contenuti riutilizzabili, espandete **Panoramica degli elementi**.
+1. Dal pannello Contenuti riutilizzabili, espandere **Panoramica elemento**.
 
 1. Trascina e rilascia un elemento nell’argomento in una posizione valida.
 

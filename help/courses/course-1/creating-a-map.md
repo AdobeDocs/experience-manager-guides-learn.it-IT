@@ -1,5 +1,5 @@
 ---
-title: Creare una mappa in [!DNL AEM Guides]
+title: Crea una mappa in [!DNL AEM Guides]
 description: Scopri come creare una mappa in [!DNL Adobe Experience Manager Guides]
 exl-id: e38a7fd5-2a29-4248-8e8f-e6a87e1eae9c
 source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
@@ -15,7 +15,7 @@ Una mappa è uno strumento organizzativo che consente di aggiungere e organizzar
 
 È possibile scaricare file DITA di esempio da qui:
 
-* [Documents-with-Visual-Content.dita](assets/working-with-maps/Documents-with-Visual-Content.dita)
+* [Documenti-con-Visual-Content.dita](assets/working-with-maps/Documents-with-Visual-Content.dita)
 * [Utilizzo di Tables.dita](assets/working-with-maps/Working-with-Tables.dita)
 
 >[!VIDEO](https://video.tv.adobe.com/v/336725?quality=12&learn=on)
@@ -29,18 +29,18 @@ Se lo desideri, puoi caricare file di esempio locali in AEM per un set più comp
 
 ## Creare una mappa
 
-1. Per aprire [!UICONTROL Opzioni] , seleziona l’icona con i puntini di sospensione nella cartella principale .
+1. Per aprire il menu [!UICONTROL Opzioni], seleziona l&#39;icona con i puntini di sospensione nella cartella principale.
 
-   ![Icona con i puntini di sospensione](images/lesson-8/ellipses-9.png)
+   ![Icona puntini di sospensione](images/lesson-8/ellipses-9.png)
 
 1. Seleziona **[!UICONTROL Crea]** > **[!UICONTROL Mappa]**.
 
 
    ![Crea mappa](images/lesson-8/create-map-with-markings.png)
 
-   Il [!UICONTROL Crea nuova mappa] viene visualizzata una finestra di dialogo.
+   Viene visualizzata la finestra di dialogo [!UICONTROL Crea nuova mappa].
 
-1. In [!UICONTROL Modello] campo, seleziona **[!UICONTROL Bookmap]** dal menu a discesa e assegna alla mappa un titolo.
+1. Nel campo [!UICONTROL Modello], seleziona **[!UICONTROL Mappa dei libri]** dal menu a discesa e assegna un titolo alla mappa.
 1. Seleziona **[!UICONTROL Crea]**.
 
    La mappa viene creata e la barra a sinistra cambia automaticamente dalla vista Archivio alla vista Mappa.
@@ -71,9 +71,9 @@ L’anteprima consente di esaminare rapidamente il contenuto utilizzando i forma
 
    ![Pulsante Anteprima](images/common/select-preview.png)
 
-Il contenuto si apre in [!UICONTROL Anteprima].
+Il contenuto verrà aperto in [!UICONTROL Anteprima].
 
-1. Per tornare alla vista Autore e riprendere la modifica delle mappe, seleziona **Autore.**
+1. Per tornare alla visualizzazione Autore e riprendere la modifica della mappa, selezionare **Autore.**
 
    ![Pulsante Autore](images/lesson-5/author-map.png)
 
@@ -90,7 +90,7 @@ Il contenuto si apre in [!UICONTROL Anteprima].
 
 Una volta completata la mappatura, puoi salvare il lavoro come nuova versione e registrare le modifiche.
 
-1. Seleziona la **[!UICONTROL Salva come nuova versione]** icona.
+1. Selezionare l&#39;icona **[!UICONTROL Salva come nuova versione]**.
 
    ![Icona Salva come nuova versione](images/common/save-as-new-version.png)
 

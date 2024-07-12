@@ -7,7 +7,7 @@ ht-degree: 0%
 ---
 # I FILE SONO STATI SPOSTATI
 
-I file nella sezione &quot;Esercitazioni&quot; sono ora nella sezione `experience-manager-guides.en` repository:
+I file nella sezione &quot;Esercitazioni&quot; sono ora nel repository `experience-manager-guides.en`:
 
 <https://git.corp.adobe.com/AdobeDocs/experience-manager-guides.en>
 

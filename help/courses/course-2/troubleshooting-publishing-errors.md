@@ -1,6 +1,6 @@
 ---
 title: Risoluzione dei problemi di pubblicazione
-description: Risoluzione dei problemi di pubblicazione in [!DNL Adobe Experience Manager Guides]
+description: Risoluzione dei problemi relativi agli errori di pubblicazione in [!DNL Adobe Experience Manager Guides]
 exl-id: b37ea3e7-59cf-4fc5-8fae-e1fadd26f8d8
 source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
@@ -37,21 +37,21 @@ Gli errori possono essere introdotti nel contenuto sorgente. Ad esempio:
 
 * Errori nei valori di un attributo (ad esempio, stringa anziché numero)
 
-* Configurazione errata dei componenti utilizzati da [!DNL AEM Guides]
+* Impostazione errata dei componenti utilizzati da [!DNL AEM Guides]
 
 ## Impatto degli errori
 
 Un errore può essere non grave e causare una semplice nota per comunicare che un file non è stato correttamente compilato o sufficientemente grave da impedire completamente la generazione dell’output. Nella scheda Output vengono visualizzate icone codificate a colori per indicare operazioni riuscite, errori o errori correlati alla generazione dell’output.
 
-![impatto sugli errori](images/error-impact.png)
+![impatto errore](images/error-impact.png)
 
 ## Apertura e revisione dei registri di errore
 
 Il file di registro generato può essere aperto per la revisione.
 
-1. In **Uscite** , fare clic sulla scheda **data/ora in Generato alle.**
+1. Nella scheda **Output**, fare clic su **data/ora in Generato alle.**
 
-   ![error-log](images/error-log.png)
+   ![registro errori](images/error-log.png)
 
 1. Scorri il registro degli errori.
 
@@ -59,48 +59,48 @@ Il file di registro generato può essere aperto per la revisione.
 
 Nel registro degli errori ogni tipo di errore viene visualizzato in un colore univoco.
 
-![navigate-errors](images/navigate-errors.png)
+![errori di navigazione](images/navigate-errors.png)
 
-1. **Seleziona** o **deseleziona** qualsiasi tipo di errore per mostrare o nascondere l’evidenziazione.
+1. **Seleziona** o **deseleziona** qualsiasi tipo di errore per mostrare o nascondere l&#39;evidenziazione.
 
-1. Navigare tra gli errori utilizzando **avanti** o **precedente** pulsanti (frecce).
+1. Spostarsi tra gli errori utilizzando i pulsanti **avanti** o **precedente** (frecce).
 
 ## Risoluzione degli errori
 
-A seconda del tipo di errore, la risoluzione può essere semplice o complessa. Può essere completata da un autore nell&#39;editor XML o può richiedere l&#39;intervento di un amministratore [!DNL AEM Guides]. Le correzioni specifiche dipendono dall’errore, dall’impatto e dai flussi di lavoro organizzativi.
+A seconda del tipo di errore, la risoluzione può essere semplice o complessa. Può essere completata da un autore in XML Editor o richiedere a un amministratore di lavorare con [!DNL AEM Guides]. Le correzioni specifiche dipendono dall’errore, dall’impatto e dai flussi di lavoro organizzativi.
 
 * Riferimento percorso file con nome errato
 
-       Gli autori possono aggiornare il riferimento al percorso nel documento di origine.
-       
-   
+      Gli autori possono aggiornare il riferimento al percorso nel documento di origine.
+     
+  
 * Cartella con nome errato
 
-       Gli autori possono aggiornare il nome della cartella o spostare i file in base alle esigenze.
-       
-   
+      Gli autori possono aggiornare il nome della cartella o spostare i file in base alle esigenze.
+     
+  
 * File o elemento grafico mancante
 
-       Gli autori possono caricare un elemento grafico/file mancante, rinominare un elemento grafico/file o spostare un elemento grafico/file
-       
-   
+      Gli autori possono caricare un elemento grafico/file mancante, rinominare un elemento grafico/file o spostare un elemento grafico/file
+     
+  
 * Riferimento al contenuto configurato in modo errato
 
-       Gli autori possono correggere la posizione del contenuto a cui si fa riferimento o modificare il percorso del riferimento al contenuto.
-       
-   
+      Gli autori possono correggere il percorso del contenuto a cui si fa riferimento o modificare il percorso del riferimento al contenuto.
+     
+  
 * Riferimento incrociato interrotto
 
-       Gli autori possono correggere la posizione in cui il riferimento incrociato fa riferimento a o modificare il nome o le proprietà del file di destinazione
-       
-   
+      Gli autori possono correggere la posizione in cui il riferimento incrociato fa riferimento o modificare il nome o le proprietà del file di destinazione
+     
+  
 * Errori nei valori di un attributo (ad esempio, stringa anziché numero)
 
-       Gli autori possono aggiornare l’attributo con un valore corretto oppure gli amministratori possono aggiornare il sistema per supportare nuovi valori.
-       
-   
-* Configurazione errata dei componenti utilizzati da [!DNL AEM Guides]
+      Gli autori possono aggiornare l&#39;attributo con un valore corretto oppure gli amministratori possono aggiornare il sistema per supportare nuovi valori.
+     
+  
+* Impostazione errata dei componenti utilizzati da [!DNL AEM Guides]
 
-       Gli amministratori possono aggiornare l’installazione del sistema, dei relativi componenti o delle autorizzazioni.
-       
-   
+      Gli amministratori possono aggiornare l&#39;installazione del sistema, i relativi componenti o le autorizzazioni.
+     
+  

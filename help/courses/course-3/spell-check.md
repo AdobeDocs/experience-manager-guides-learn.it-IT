@@ -1,17 +1,17 @@
 ---
 title: Controllo ortografico e ricerca/sostituzione
-description: Utilizzo del controllo ortografico e ricerca/sostituzione nelle guide AEM
+description: Utilizzo del controllo ortografico e della funzione Trova/Sostituisci in AEM Guides
 exl-id: 5f39618d-a919-4d3c-a4de-2896f2d1bf20
 source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
 
 # Controllo ortografico e ricerca/sostituzione
 
-L’editor di guide dell’AEM dispone di potenti funzionalità di controllo ortografico e di Trova e sostituisci.
+L’editor di AEM Guides dispone di potenti funzionalità di controllo ortografico e di Trova e sostituisci.
 
 >[!VIDEO](https://video.tv.adobe.com/v/342768?quality=12&learn=on)
 
@@ -29,19 +29,19 @@ Se non viene suggerita l&#39;ortografia corretta, è sempre possibile modificare
 
 È possibile utilizzare uno strumento di controllo ortografico diverso dal dizionario predefinito del browser.
 
-1. Accedi a **Impostazioni editor**.
+1. Passa a **Impostazioni editor**.
 
-1. Seleziona la **Generale** impostazioni.
+1. Selezionare la scheda Impostazioni **Generali**.
 
-   ![Configurazione controllo ortografia](images/lesson-11/configure-dictionary.png)
+   ![Configurazione controllo ortografico](images/lesson-11/configure-dictionary.png)
 
 1. Sono disponibili due opzioni:
 
-   - **Controllo ortografia browser** — l&#39;impostazione predefinita in cui il controllo ortografico utilizza il dizionario incorporato del browser.
+   - **Controllo ortografia browser**: impostazione predefinita in cui il controllo ortografico utilizza il dizionario incorporato del browser.
 
-   - **Controllo ortografia AEM** — utilizzare questa proprietà per creare un elenco di parole personalizzato utilizzando il dizionario personalizzato AEM.
+   - **Controllo ortografia AEM**. Utilizzare questa proprietà per creare un elenco di parole personalizzato utilizzando il dizionario personalizzato dell&#39;AEM.
 
-1. Scegli **Controllo ortografia AEM**.
+1. Scegliere **Controllo ortografia AEM**.
 
 1. Fai clic su [!UICONTROL **Salva**].
 
@@ -49,21 +49,21 @@ Configurare un dizionario personalizzato
 
 L&#39;amministratore può modificare le impostazioni in modo che il dizionario AEM riconosca parole personalizzate come i nomi delle società.
 
-1. Accedi a **Strumenti** riquadro.
+1. Passa al riquadro **Strumenti**.
 
-1. Accedi a **CRXDE Lite**.
+1. Accedi a **CRXDE Liti**.
 
-   ![Icona CRXDE Lite dell’interfaccia utente AEM](images/lesson-11/crxde-lite.png)
+   ![Icona CRXDE Liti interfaccia utente AEM](images/lesson-11/crxde-lite.png)
 
-1. Accedi a **_/apps/fmdita/config nodo_**.
+1. Passare al nodo **_/apps/fmdita/config_**.
 
-   ![Nodo configurazione CRXDE Lite](images/lesson-11/config-node.png)
+   ![Nodo di configurazione CRXDE Liti](images/lesson-11/config-node.png)
 
 1. Crea un nuovo file.
 
    a. Fai clic con il pulsante destro del mouse sulla cartella di configurazione.
 
-   b. Scegli **Crea > Crea file**.
+   b. Scegliere **Crea > Crea file**.
 
    ![Creazione di un nuovo file del dizionario](images/lesson-11/new-dictionary-file.png)
 
@@ -77,7 +77,7 @@ L&#39;amministratore può modificare le impostazioni in modo che il dizionario A
 
 1. Aggiungere un elenco di parole da includere nel dizionario personalizzato.
 
-1. Clic [!UICONTROL **Salva tutto**].
+1. Fare clic su [!UICONTROL **Salva tutto**].
 
 1. Chiudete il file.
 
@@ -87,40 +87,40 @@ Per ottenere l&#39;elenco di parole personalizzato aggiornato nel dizionario AEM
 
 1. Fai clic sull’icona Trova e sostituisci nella barra degli strumenti superiore.
 
-   ![Icona Trova Sostituisci](images/lesson-11/find-replace-icon.png)
+   ![Trova icona Sostituisci](images/lesson-11/find-replace-icon.png)
 
 1. Nella barra degli strumenti inferiore digitare una parola o una frase.
 
-1. Clic [!UICONTROL **Trova**].
+1. Fare clic su [!UICONTROL **Trova**].
 
 1. Se necessario, digitare una parola per sostituire la parola trovata.
 
-1. Clic [!UICONTROL **Sostituisci**].
+1. Fare clic su [!UICONTROL **Sostituisci**].
 
 ## Trova e sostituisci nell’archivio
 
-1. Accedi a **Archivio**.
+1. Passare all&#39;**archivio**.
 
-1. Fai clic su [!UICONTROL **Trova e sostituisci**] in basso a sinistra.
+1. Fai clic sull&#39;icona [!UICONTROL **Trova e sostituisci**] in basso a sinistra nella schermata.
 
-1. Fai clic su [!UICONTROL **Mostra impostazioni**] icona.
+1. Fai clic sull&#39;icona [!UICONTROL **Mostra impostazioni**].
 
 1. Scegli una delle seguenti opzioni
 
-   - **Estrai il file prima della sostituzione** — se attivato da un amministratore, il file viene estratto automaticamente prima della sostituzione dei termini di ricerca.
+   - **Estrai il file prima di sostituirlo**. Se attivato da un amministratore, il file verrà estratto automaticamente prima di sostituire i termini di ricerca.
 
    - **Solo parola intera** — limita la ricerca in modo che restituisca solo la parola o la frase esatta immessa.
 
-   ![Trova sostituisci nel repository](images/lesson-11/repository-find-replace.png)
+   ![Trova sostituto nell&#39;archivio](images/lesson-11/repository-find-replace.png)
 
-1. Fai clic su [!UICONTROL **Applica filtro**] per selezionare il percorso nel repository in cui eseguire la ricerca.
+1. Fai clic sull&#39;icona [!UICONTROL **Applica filtro**] per selezionare il percorso nell&#39;archivio in cui desideri eseguire la ricerca.
 
 1. Inserire i termini da trovare e sostituire.
 
-1. Se necessario, seleziona **Crea nuova versione dopo la sostituzione**.
+1. Se necessario, selezionare **Crea nuova versione dopo la sostituzione**.
 
-1. Clic [!UICONTROL **Trova**].
+1. Fare clic su [!UICONTROL **Trova**].
 
 1. Apri il file desiderato e utilizza le frecce per passare da un risultato trovato all’altro.
 
-   ![Interfaccia utente di navigazione di Sostituisci](images/lesson-11/find-replace-navigation.png)
+   ![Trova Interfaccia Sostituisci Navigazione](images/lesson-11/find-replace-navigation.png)

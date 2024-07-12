@@ -1,11 +1,11 @@
 ---
 title: Creazione e pubblicazione con le linee di base
-description: Creazione e pubblicazione di con le baseline in [!DNL Adobe Experience Manager Guides]
+description: Creazione e pubblicazione con linee di base in [!DNL Adobe Experience Manager Guides]
 exl-id: 3c229c30-f2e0-4fb0-b60c-7bae60ef1a5b
 source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '739'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -19,20 +19,20 @@ L&#39;utilizzo di una linea di base consente di creare una versione degli argome
 
 Puoi accedere alle linee di base nel dashboard Mappa.
 
-1. Vista archivio, seleziona l’icona con i puntini di sospensione sulla mappa per aprire il menu Opzioni, quindi **Apri Map Dashboard.**
+1. Vista archivio, seleziona l&#39;icona con i puntini di sospensione sulla mappa per aprire il menu Opzioni, quindi **Apri dashboard mappa.**
 
-   ![ellipsis-map-dashboard.png](images/ellipsis-map-dashboard.png)
+   ![puntini di sospensione-mappa-dashboard.png](images/ellipsis-map-dashboard.png)
 Il quadro comandi Mappa (Map Dashboard) si apre in un’altra scheda.
 
-1. Seleziona **Linee di base**.
+1. Seleziona **Base Line**.
 
    ![baseline-tab.png](images/baseline-tab.png)
 
 Viene visualizzata la scheda Baseline.
 
-## Creazione di una baseline basata su etichette
+## Creazione di una baseline in base alle etichette
 
-1. Nella scheda Baseline, seleziona **Crea**.
+1. Nella scheda Baseline selezionare **Crea**.
 
    ![create-baseline.png](images/create-baseline.png)
 
@@ -45,7 +45,7 @@ Viene visualizzata la scheda Baseline.
 
    >[!NOTE]
    >
-   >NOTA: il *Usa la versione più recente se l’etichetta non è presente* è selezionata per impostazione predefinita. Se questa opzione non è selezionata e nella mappa sono presenti argomenti o file multimediali senza l&#39;etichetta scelta, il processo di creazione della linea di base avrà esito negativo.
+   >NOTA: la casella di controllo *Usa versione più recente se l&#39;etichetta non è presente* è selezionata per impostazione predefinita. Se questa opzione non è selezionata e nella mappa sono presenti argomenti o file multimediali senza l&#39;etichetta scelta, il processo di creazione della linea di base avrà esito negativo.
 
 1. Immetti l’etichetta che desideri utilizzare.
 
@@ -55,9 +55,9 @@ Viene creata la baseline. Viene visualizzata una tabella con tutti gli argomenti
 
 ### Utilizzo della funzione Sfoglia tutti gli argomenti
 
-La funzione Sfoglia tutti gli argomenti consente di visualizzare le informazioni dell&#39;argomento, incluse la versione e l&#39;etichetta, nonché di specificare la versione utilizzata. Puoi accedervi selezionando **Sfoglia tutti gli argomenti** durante la creazione o la modifica della baseline.
+La funzione Sfoglia tutti gli argomenti consente di visualizzare le informazioni dell&#39;argomento, incluse la versione e l&#39;etichetta, nonché di specificare la versione utilizzata. Puoi accedervi selezionando **Sfoglia tutti gli argomenti** durante la creazione o la modifica della linea di base.
 
-![browse-all-topic.png](images/browse-all-topics.png)
+![sfoglia-tutti-argomenti.png](images/browse-all-topics.png)
 
 ## Creazione di una baseline in base a data e ora
 
@@ -73,7 +73,7 @@ La funzione Sfoglia tutti gli argomenti consente di visualizzare le informazioni
 
 1. Seleziona l’icona del calendario e specifica la data e l’ora desiderate.
 
-   ![calendar.png](images/calendar.png)
+   ![calendario.png](images/calendar.png)
 
 1. Se necessario, assegnare un nuovo nome alla linea di base.
 
@@ -93,7 +93,7 @@ Puoi assegnare una nuova etichetta in blocco a tutto il contenuto della mappa.
 
    Viene visualizzata la finestra di dialogo Aggiungi etichetta.
 
-1. Inserisci l’etichetta da assegnare e seleziona **Aggiungi**.
+1. Immettere l&#39;etichetta che si desidera assegnare e selezionare **Aggiungi**.
 
 L&#39;etichetta è stata aggiunta a tutti gli argomenti.
 
@@ -107,7 +107,7 @@ L&#39;etichetta è stata aggiunta a tutti gli argomenti.
 
 1. Seleziona **Modifica**.
 
-   ![edit-aem.png](images/edit-aem.png)
+   ![modifica-aem.png](images/edit-aem.png)
 
    Viene visualizzata una nuova pagina.
 
@@ -117,7 +117,7 @@ L&#39;etichetta è stata aggiunta a tutti gli argomenti.
 
 1. Seleziona **Fine**.
 
-   ![done.png](images/done.png)
+   ![fine.png](images/done.png)
 
 1. Seleziona **Genera**.
 
@@ -136,13 +136,13 @@ L&#39;etichetta è stata aggiunta a tutti gli argomenti.
 
 1. Nella scheda Baseline selezionare la baseline da rimuovere.
 
-1. Seleziona **Rimuovi**.
+1. Selezionare **Rimuovi**.
 
    ![remove-baseline.png](images/remove-baseline.png)
 
    Viene visualizzata la finestra di dialogo Rimuovi baseline.
 
-1. Seleziona **Rimuovi**.
+1. Selezionare **Rimuovi**.
 
 La baseline viene rimossa.
 
@@ -156,7 +156,7 @@ La baseline viene rimossa.
 
 1. Seleziona **Salva**.
 
-   ![save.png](images/save.png)
+   ![salva.png](images/save.png)
 
 Viene creata la baseline duplicata.
 
@@ -167,11 +167,11 @@ Viene creata la baseline duplicata.
 1. Nella scheda Baseline selezionare la baseline da modificare.
 1. Seleziona **Modifica**.
 
-   ![edit-aem.png](images/edit-aem.png)
+   ![modifica-aem.png](images/edit-aem.png)
 
-1. Seleziona **Sfoglia tutti gli argomenti**.
+1. Selezionare **Sfoglia tutti gli argomenti**.
 
-   ![browse-all-topic.png](images/browse-all-topics.png)
+   ![sfoglia-tutti-argomenti.png](images/browse-all-topics.png)
 
    Viene visualizzata una tabella di argomenti con le relative informazioni associate.
 
