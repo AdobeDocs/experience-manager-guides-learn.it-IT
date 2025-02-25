@@ -2,27 +2,27 @@
 user-guide-title: Tutorial su Adobe Experience Manager Guides
 user-guide-description: Raccolta di video su Adobe Experience Manager Guides.
 breadcrumb-title: Tutorial su AEM Guides
-source-git-commit: b78894069aa2b1279365d716332b5f6e2e3be865
+source-git-commit: 2f11a068afaa2941e437ee8b0a735a8c7e69784c
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '130'
 ht-degree: 16%
 
 ---
 
 
-# Tutorials per [!DNL Adobe Experience Manager Guides] {#videos}
+# Tutorial per [!DNL Adobe Experience Manager Guides] {#videos}
 
 + [Video su [!DNL AEM Guides]](overview.md)
 + Guida introduttiva a [!DNL AEM Guides] {#getting-started}
    + [Panoramica introduttiva](./course-1/overview.md)
-   + [Interfaccia utente dell’AEM](./course-1/understanding-the-aem-user-interface.md)
+   + [Interfaccia utente di AEM](./course-1/understanding-the-aem-user-interface.md)
    + [Creare e strutturare il contenuto](./course-1/creating-and-structuring-content.md)
    + [Utilizzare le immagini](./course-1/working-with-images.md)
    + [Collegamento a siti Web](./course-1/linking-to-websites.md)
    + [Utilizzare gli elenchi](./course-1/working-with-lists.md)
    + [Contenuto versione](./course-1/versioning-content.md)
    + [Creare una mappa](./course-1/creating-a-map.md)
-   + [Output predefinito di Publish](./course-1/publishing-default-output.md)
+   + [Pubblica output predefinito](./course-1/publishing-default-output.md)
    + [Riassunto](./course-1/recap.md)
 + Generazione output con [!DNL AEM Guides] {#output-generation}
    + [Panoramica sulla generazione dell’output](./course-2/overview.md)
@@ -38,6 +38,7 @@ ht-degree: 16%
    + [Panoramica sull’authoring](./course-3/overview.md)
    + [Preferenze utente, Impostazioni editor e Barre degli strumenti dell&#39;editor](./course-3/user-settings-preferences-toolbars.md)
    + [Profili cartella](./course-3/folder-profiles.md)
+   + [Converti configurazione interfaccia utente](./course-3/conver-ui-config.md)
    + [Configurazione editor](./course-3/editor-configuration.md)
    + [Pannelli](./course-3/panels.md)
    + [Visualizzazione Struttura](./course-3/outline-view.md)
