@@ -222,7 +222,7 @@ Proprietà file mostra informazioni aggiuntive sull&#39;intero argomento aperto.
 
 1. Aprire un argomento nell&#39;editor.
 
-1. Fare clic sull&#39;icona [!UICONTROL  **Proprietà file**] nel pannello di destra.
+1. Fare clic sull&#39;icona [!UICONTROL &#x200B; **Proprietà file**] nel pannello di destra.
 
    ![Icona proprietà file](images/lesson-5/file-properties-icon.png)
 

@@ -67,7 +67,7 @@ L&#39;amministratore può modificare le impostazioni in modo che il dizionario A
 
    ![Creazione di un nuovo file del dizionario](images/lesson-11/new-dictionary-file.png)
 
-   c. Denomina il file _**user_dictionary.txt**_.
+   c. Denomina il file _&#x200B;**user_dictionary.txt**&#x200B;_.
 
    ![Testo dizionario utente](images/lesson-11/user-dictionary.png)
 
