@@ -2,9 +2,9 @@
 title: Configurazione editor AEM Guides
 description: Personalizzazione delle configurazioni JSON e conversione delle configurazioni dell’interfaccia utente per il nuovo editor di AEM Guides.
 exl-id: bb047962-0e2e-4b3a-90c1-052a2a449628
-source-git-commit: efdb02d955e223783fc1904eda8d41942c1c9ccf
+source-git-commit: 1ed48d543161be88becad9c0cd58014323aeda47
 workflow-type: tm+mt
-source-wordcount: '1197'
+source-wordcount: '1303'
 ht-degree: 0%
 
 ---
@@ -405,6 +405,94 @@ Lo snippet seguente mostra il pulsante **Esporta come PDF** con uno scenario di 
 Inoltre, il pulsante **Esporta come PDF** con lo scenario di sblocco è visibile nello snippet seguente.
 
 ![Esporta come PDF](images/reuse/unlock.png)
+
+### Personalizzare le opzioni visualizzate nel menu a discesa della barra degli strumenti dell’editor
+
+Puoi aggiungere, nascondere, sostituire e aggiungere opzioni personalizzate nel menu a discesa utilizzando gli esempi seguenti.
+
+#### Aggiunta
+
+Aggiunta di un’opzione nel menu a discesa Menu. Qui aggiungiamo **Pulsante Menu personalizzato** nelle opzioni Menu
+
+```json
+{
+        "icon": "specialCharacter",
+        "title": "Custom menu button",
+        "on-click": "$$AUTHOR_INSERT_SYMBOL",
+        "targetEditor": {
+          "editor": [
+            "ditamap"
+          ],
+          "mode": [
+            "author"
+          ]
+        },
+        "target": {
+          "key": "label",
+          "value": "Version label",
+          "viewState": "append"
+        }
+      }
+```
+
+#### Sostituzione
+
+Sostituzione di un&#39;opzione visualizzata nel menu a discesa Menu. Stiamo sostituendo **Crea attività di revisione** con **Pulsante del menu personalizzato 3**.
+
+```json
+{
+        "icon": "specialCharacter",
+        "title": "Custom menu button 3",
+        "on-click": "$$AUTHOR_INSERT_SYMBOL",
+        "target": {
+          "key": "label",
+          "value": "Create review task",
+          "viewState": "replace"
+        }
+
+      }
+```
+
+#### Nascondi
+
+Nasconde un’opzione visualizzata nel menu a discesa Menu. Stiamo nascondendo l&#39;opzione **Trova e sostituisci** dal menu.
+
+```json
+{
+        "hide": true,
+        "target": {
+          "key": "label",
+          "value": "Find and replace",
+          "viewState": "replace"
+        }
+      }
+```
+
+#### Aggiunta di un’opzione personalizzata nel sottomenu
+
+Aggiunta di un&#39;opzione nel sottomenu nel menu a discesa Menu.
+
+```json
+{
+        "icon": "viewAllTags",
+        "title": "Toggle Tags View Goziamasu",
+        "key": "AUTHOR_TOGGLE_TAG_VIEW",
+        "target": {
+          "key": "label",
+          "value": "Track changes",
+          "viewState": "replace"
+        },
+        "targetEditor": {
+          "documentType": [
+            "dita"
+          ],
+          "mode": [
+            "author"
+          ]
+        }
+
+      }
+```
 
 ## Come caricare JSON personalizzati
 
