@@ -2,7 +2,7 @@
 title: Crea una mappa in [!DNL AEM Guides]
 description: Scopri come creare una mappa in [!DNL Adobe Experience Manager Guides]
 exl-id: e38a7fd5-2a29-4248-8e8f-e6a87e1eae9c
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+source-git-commit: 9e3650f4711ca49b923baf445c36d5b460daf70b
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 1%
@@ -10,6 +10,8 @@ ht-degree: 1%
 ---
 
 # Creare una mappa
+
+{{test}}
 
 Una mappa è uno strumento organizzativo che consente di aggiungere e organizzare le informazioni in una struttura gerarchica. Queste attività mostrano come creare una mappa e organizzare il contenuto nella mappa.
 
@@ -22,9 +24,9 @@ Una mappa è uno strumento organizzativo che consente di aggiungere e organizzar
 
 ## Carica componenti mappa
 
-Se lo desideri, puoi caricare file di esempio locali in AEM per un set più completo di materiali.
+Se lo desideri, puoi caricare file di esempio locali in AEM per un set di materiali più completo.
 
-1. Trascina e rilascia eventuali file locali nell’AEM per caricarli.
+1. Trascina e rilascia i file locali in AEM per caricarli.
 1. Ripetere le operazioni necessarie per qualsiasi file, incluse immagini e argomenti.
 
 ## Creare una mappa
