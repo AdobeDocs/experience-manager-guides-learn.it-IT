@@ -16,7 +16,7 @@ In questa serie di esercitazioni imparerai a eseguire le seguenti operazioni:
 - [Comprendere il dashboard delle mappe](./introduction-to-the-map-dashboard.md)
 - [Utilizzare i report](./working-with-reports.md)
 - [Crea e pubblica con linee di base](./creating-and-publishing-with-baselines.md)
-- [Publish con condizioni](./publishing-with-conditions.md)
+- [Pubblica con condizioni](./publishing-with-conditions.md)
 - [Comprendere i predefiniti di output](./output-presets.md)
 - [Risoluzione dei problemi di pubblicazione](./troubleshooting-publishing-errors.md)
 - [Pubblicazione in blocco](./bulk-publishing.md)

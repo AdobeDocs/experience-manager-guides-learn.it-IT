@@ -5,7 +5,7 @@ breadcrumb-title: Tutorial su AEM Guides
 source-git-commit: 2f11a068afaa2941e437ee8b0a735a8c7e69784c
 workflow-type: tm+mt
 source-wordcount: '130'
-ht-degree: 16%
+ht-degree: 22%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 16%
    + [Creare una mappa](./course-1/creating-a-map.md)
    + [Pubblica output predefinito](./course-1/publishing-default-output.md)
    + [Riassunto](./course-1/recap.md)
-+ Generazione output con [!DNL AEM Guides] {#output-generation}
++ Generazione di output con [!DNL AEM Guides] {#output-generation}
    + [Panoramica sulla generazione dell’output](./course-2/overview.md)
    + [Informazioni sul dashboard mappa](./course-2/introduction-to-the-map-dashboard.md)
    + [Utilizzo dei rapporti](./course-2/working-with-reports.md)
