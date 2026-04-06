@@ -2,16 +2,16 @@
 title: Pubblicazione in blocco
 description: Pubblicazione in blocco in [!DNL Adobe Experience Manager Guides]
 exl-id: b277e846-ef71-47ec-a66c-ac9d392d53e0
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+source-git-commit: 4e0a32263d6363e367685213fe3e524cd0f6965e
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 3%
+source-wordcount: '372'
+ht-degree: 4%
 
 ---
 
 # Pubblicazione in blocco
 
-Quando si pubblica un documento, spesso è necessario più di un tipo di documentazione. Utilizzando Map Collections (Raccolte mappe) puoi controllare il numero e i tipi di output che verranno assemblati e generati e avviare la pubblicazione in blocco. La dashboard di Publish consente di visualizzare i processi di pubblicazione attivi. La dashboard di Publish in blocco consente di attivare le raccolte in blocco.
+Quando si pubblica un documento, spesso è necessario più di un tipo di documentazione. Utilizzando Map Collections (Raccolte mappe) puoi controllare il numero e i tipi di output che verranno assemblati e generati e avviare la pubblicazione in blocco. Il dashboard di pubblicazione consente di visualizzare i processi di pubblicazione attivi. Il dashboard Pubblicazione in blocco consente di attivare in blocco le raccolte.
 
 >[!VIDEO](https://video.tv.adobe.com/v/338985?quality=12&learn=on)
 
@@ -61,25 +61,24 @@ Utilizzando Raccolte mappe, puoi controllare i tipi di output che verranno gener
 
 1. Rivedi l’output.
 
-## Visualizzazione dei processi di pubblicazione attivi nel dashboard di Publish
+## Visualizzazione dei processi di pubblicazione attivi nel dashboard di pubblicazione
 
-La dashboard di Publish consente di visualizzare
+Il dashboard di pubblicazione consente di visualizzare i
 processi di pubblicazione. Mostra un elenco dinamico di mappe e il loro stato corrente. Puoi tenere traccia, gestire o annullare i flussi di lavoro di pubblicazione.
 
 1. In visualizzazione Struttura fare clic sull&#39;icona **Strumenti**.
 
 1. Fai clic su **[!DNL Guides]**.
 
-1. Seleziona il riquadro **Dashboard di Publish**.
+1. Selezionare il riquadro **Pubblica dashboard**.
 
-       Se il dashboard è vuoto, non sono in esecuzione processi di pubblicazione.
-       
-   
+   Se il dashboard è vuoto, non ci sono processi di pubblicazione in esecuzione.
+
 1. Filtra il dashboard in base alle esigenze per visualizzare tutti i processi di pubblicazione.
 
-### Utilizzo della dashboard di Publish in blocco
+### Utilizzo del dashboard di pubblicazione in blocco
 
-La dashboard di Bulk Publish consente di utilizzare le raccolte di attivazione in blocco e di controllare più tipi di output.
+Il dashboard Pubblicazione in blocco consente di utilizzare le raccolte di attivazione in blocco e di controllare più tipi di output.
 
 ### Creazione di una raccolta di attivazione in blocco
 
@@ -87,7 +86,7 @@ La dashboard di Bulk Publish consente di utilizzare le raccolte di attivazione i
 
 1. Fai clic su **[!DNL Guides]**.
 
-1. Selezionare il riquadro **Dashboard di Publish in blocco**.
+1. Seleziona il riquadro **Dashboard di pubblicazione in blocco**.
 
 1. Digita un titolo per la raccolta.
 
@@ -105,9 +104,9 @@ La dashboard di Bulk Publish consente di utilizzare le raccolte di attivazione i
 1. Fai clic su **Fine**.
 1. Al termine, chiudi la raccolta di mappe.
 
-### Publish rapido: raccolta per attivazione in blocco
+### Pubblicazione rapida di una raccolta per attivazione in blocco
 
 1. Seleziona un riquadro Raccolta attivazione in blocco.
 1. Fai clic su **Apri**.
 1. Seleziona una o più mappe.
-1. Fare clic su **Publish rapido**.
+1. Fai clic su **Pubblicazione rapida**.
