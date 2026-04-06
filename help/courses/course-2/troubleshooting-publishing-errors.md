@@ -2,9 +2,9 @@
 title: Risoluzione dei problemi di pubblicazione
 description: Risoluzione dei problemi relativi agli errori di pubblicazione in [!DNL Adobe Experience Manager Guides]
 exl-id: b37ea3e7-59cf-4fc5-8fae-e1fadd26f8d8
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+source-git-commit: 4e0a32263d6363e367685213fe3e524cd0f6965e
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
@@ -71,36 +71,28 @@ A seconda del tipo di errore, la risoluzione può essere semplice o complessa. P
 
 * Riferimento percorso file con nome errato
 
-      Gli autori possono aggiornare il riferimento al percorso nel documento di origine.
-     
-  
+  Gli autori possono aggiornare il riferimento al percorso nel documento di origine.
+
 * Cartella con nome errato
 
-      Gli autori possono aggiornare il nome della cartella o spostare i file in base alle esigenze.
-     
-  
+  Gli autori possono aggiornare il nome della cartella o spostare i file in base alle esigenze.
+
 * File o elemento grafico mancante
 
-      Gli autori possono caricare un elemento grafico/file mancante, rinominare un elemento grafico/file o spostare un elemento grafico/file
-     
-  
+  Gli autori possono caricare un elemento grafico/file mancante, rinominare un elemento grafico/file o spostare un elemento grafico/file
+
 * Riferimento al contenuto configurato in modo errato
 
-      Gli autori possono correggere il percorso del contenuto a cui si fa riferimento o modificare il percorso del riferimento al contenuto.
-     
-  
+  Gli autori possono correggere la posizione del contenuto a cui si fa riferimento o modificare il percorso del riferimento al contenuto.
+
 * Riferimento incrociato interrotto
 
-      Gli autori possono correggere la posizione in cui il riferimento incrociato fa riferimento o modificare il nome o le proprietà del file di destinazione
-     
-  
+  Gli autori possono correggere la posizione in cui il riferimento incrociato fa riferimento a o modificare il nome o le proprietà del file di destinazione
+
 * Errori nei valori di un attributo (ad esempio, stringa anziché numero)
 
-      Gli autori possono aggiornare l&#39;attributo con un valore corretto oppure gli amministratori possono aggiornare il sistema per supportare nuovi valori.
-     
-  
+  Gli autori possono aggiornare l’attributo con un valore corretto oppure gli amministratori possono aggiornare il sistema per supportare nuovi valori.
+
 * Impostazione errata dei componenti utilizzati da [!DNL AEM Guides]
 
-      Gli amministratori possono aggiornare l&#39;installazione del sistema, i relativi componenti o le autorizzazioni.
-     
-  
+  Gli amministratori possono aggiornare l’installazione del sistema, dei relativi componenti o delle autorizzazioni.
