@@ -2,9 +2,13 @@
 title: Creazione e pubblicazione con le linee di base
 description: Creazione e pubblicazione con linee di base in [!DNL Adobe Experience Manager Guides]
 exl-id: 3c229c30-f2e0-4fb0-b60c-7bae60ef1a5b
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+TQID: https://experienceleague.adobe.com/P2NbWdOXSWFs40gpSWNrtDLR3VKofXymN5FlZSQRJ7Y
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: d90290ec-3e61-4ebd-8649-bcafe0836803
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 27ffc636d63300fb2e99903d92cab12f0cfcbb25
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: 764
 ht-degree: 2%
 
 ---
@@ -97,11 +101,11 @@ Puoi assegnare una nuova etichetta in blocco a tutto il contenuto della mappa.
 
 L&#39;etichetta è stata aggiunta a tutti gli argomenti.
 
-## Generazione di un output del sito AEM utilizzando una linea di base
+## Generazione di un output del sito AEM utilizzando una baseline
 
 1. Passate alla scheda Predefiniti di output nel quadro comandi Mappa (Map Dashboard).
 
-1. Selezionare la casella di controllo Sito AEM.
+1. Seleziona la casella di controllo Sito AEM.
 
    ![aem-site-checkbox.png](images/aem-site-checkbox.png)
 
@@ -183,7 +187,7 @@ Viene creata la baseline duplicata.
 
 Le modifiche sono state salvate. La baseline utilizzerà le versioni dell&#39;argomento specificate.
 
-## Creazione di un predefinito di output per il sito AEM personalizzato
+## Creazione di un predefinito di output per siti AEM personalizzato
 
 Nella scheda Output è difficile distinguere tra output predefiniti dello stesso tipo. L’utilizzo di un predefinito di output personalizzato con un nome univoco e intuitivo consente di risolvere questo problema.
 

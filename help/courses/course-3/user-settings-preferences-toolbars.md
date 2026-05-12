@@ -2,9 +2,14 @@
 title: Preferenze utente, impostazioni editor e barre degli strumenti editor
 description: Modifica delle preferenze utente e delle impostazioni dell’editor in AEM Guides
 exl-id: 8cb099e4-d985-4eeb-b1a5-0e372b04d218
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+TQID: https://experienceleague.adobe.com/OA2xVO7uyM-70UZKo4oq37HvbpXkTWKmCmQjGkppF7o
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: afb45297-4313-4f67-818e-bc0b03abe086
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 27ffc636d63300fb2e99903d92cab12f0cfcbb25
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: 1171
 ht-degree: 1%
 
 ---
@@ -69,7 +74,7 @@ L’archivio viene aggiornato per mostrare che il file è stato archiviato.
 
 Il carattere speciale viene inserito nel testo.
 
-## Source Passa dalla modalità Autore alla modalità Anteprima e viceversa
+## Passa dalla modalità Autore alla modalità Anteprima e viceversa
 
 La barra degli strumenti in alto a destra dello schermo consente di passare da una visualizzazione all’altra.
 
@@ -149,7 +154,7 @@ Le impostazioni dell&#39;editor sono disponibili per gli utenti amministratori. 
 
 1. Fai clic su [!UICONTROL **Salva**].
 
-Il dizionario viene aggiornato. Il passaggio al controllo ortografico dell’AEM consente di utilizzare un elenco di parole personalizzato.
+Il dizionario viene aggiornato. Il passaggio al controllo ortografico di AEM consente di utilizzare un elenco di parole personalizzato.
 
 ## Mostrare e nascondere i pannelli con le impostazioni dell’editor
 
@@ -221,7 +226,7 @@ La scheda Condizione consente di configurare diverse proprietà.
 
 ## Creare un profilo di pubblicazione nelle impostazioni dell’editor
 
-I profili Publish possono essere utilizzati per pubblicare la knowledge base. Ad esempio, Salesforce utilizza un’app configurata con una chiave consumer e un segreto consumer. Queste informazioni possono essere utilizzate per creare un profilo di pubblicazione Salesforce.
+I profili di pubblicazione possono essere utilizzati per pubblicare la knowledge base. Ad esempio, Salesforce utilizza un’app configurata con una chiave consumer e un segreto consumer. Queste informazioni possono essere utilizzate per creare un profilo di pubblicazione Salesforce.
 
 1. Fai clic sull&#39;icona [!UICONTROL **Impostazioni editor**] nella barra degli strumenti superiore.
 
