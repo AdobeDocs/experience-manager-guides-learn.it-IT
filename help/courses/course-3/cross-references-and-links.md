@@ -2,9 +2,17 @@
 title: Riferimenti incrociati e collegamenti
 description: Creazione di rimandi e collegamenti in AEM Guides
 exl-id: bee7d50f-cbdd-4ac8-b15b-101febc4ae80
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+TQID: https://experienceleague.adobe.com/K55H51fnM7bsR68-HQWbNHrSxHgQBPkM-jnGG-OFIbw
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+source-git-commit: 27ffc636d63300fb2e99903d92cab12f0cfcbb25
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: 362
 ht-degree: 0%
 
 ---
@@ -28,11 +36,11 @@ I file di esempio che puoi scegliere di utilizzare per questa lezione sono forni
 
    a. Fai clic all’interno dell’elemento.
 
-   b. Nel pannello Proprietà contenuto, scegli **ID** dal menu a discesa Attributo.
+   b. Nel pannello Proprietà contenuto scegliere **ID** dal menu a discesa Attributo.
 
    c. Digitare un nome logico nel campo Valore.
 
-   d. Se necessario, visualizzare l&#39;elemento e il relativo valore in **Visualizzazione struttura**.
+   d. Visualizzare l&#39;elemento e il relativo valore in **Visualizzazione struttura**, se necessario.
 
 1. **Salva** l&#39;argomento per verificare che l&#39;archivio disponga dell&#39;ID aggiornato.
 

@@ -2,9 +2,15 @@
 title: Controllo ortografico e ricerca/sostituzione
 description: Utilizzo del controllo ortografico e della funzione Trova/Sostituisci in AEM Guides
 exl-id: 5f39618d-a919-4d3c-a4de-2896f2d1bf20
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+TQID: https://experienceleague.adobe.com/cSdhulSc30KrwsGh1ldB2yn-8eSLccHBpyD-0S1x1M0
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 27ffc636d63300fb2e99903d92cab12f0cfcbb25
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: 443
 ht-degree: 0%
 
 ---
@@ -25,7 +31,7 @@ Correggere un errore ortografico
 
 Se non viene suggerita l&#39;ortografia corretta, è sempre possibile modificare manualmente la parola.
 
-## Passa al controllo ortografico AEM
+## Passa a controllo ortografia AEM
 
 È possibile utilizzare uno strumento di controllo ortografico diverso dal dizionario predefinito del browser.
 
@@ -39,25 +45,25 @@ Se non viene suggerita l&#39;ortografia corretta, è sempre possibile modificare
 
    - **Controllo ortografia browser**: impostazione predefinita in cui il controllo ortografico utilizza il dizionario incorporato del browser.
 
-   - **Controllo ortografia AEM**. Utilizzare questa proprietà per creare un elenco di parole personalizzato utilizzando il dizionario personalizzato dell&#39;AEM.
+   - **Controllo ortografico AEM**. Utilizzarlo per creare un elenco di parole personalizzato utilizzando il dizionario personalizzato di AEM.
 
-1. Scegliere **Controllo ortografia AEM**.
+1. Scegli **Controllo ortografia AEM**.
 
 1. Fai clic su [!UICONTROL **Salva**].
 
 Configurare un dizionario personalizzato
 
-L&#39;amministratore può modificare le impostazioni in modo che il dizionario AEM riconosca parole personalizzate come i nomi delle società.
+L&#39;amministratore può modificare le impostazioni in modo che il dizionario AEM riconosca parole personalizzate, ad esempio i nomi delle società.
 
 1. Passa al riquadro **Strumenti**.
 
-1. Accedi a **CRXDE Liti**.
+1. Accedi a **CRXDE Lite**.
 
-   ![Icona CRXDE Liti interfaccia utente AEM](images/lesson-11/crxde-lite.png)
+   ![Icona CRXDE Lite dell&#39;interfaccia utente di AEM](images/lesson-11/crxde-lite.png)
 
 1. Passare al nodo **_/apps/fmdita/config_**.
 
-   ![Nodo di configurazione CRXDE Liti](images/lesson-11/config-node.png)
+   ![Nodo di configurazione CRXDE Lite](images/lesson-11/config-node.png)
 
 1. Crea un nuovo file.
 

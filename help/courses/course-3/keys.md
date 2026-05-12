@@ -2,10 +2,18 @@
 title: Chiavi
 description: Le chiavi consentono di includere informazioni sulle variabili in quando si lavora con DITA in AEM Guides
 exl-id: cb64e094-fe6d-4a5e-8f0e-25ae58aaa2c6
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+TQID: https://experienceleague.adobe.com/Uw-JiHQLITcmUtAuV-SogA6mM73A6EeCi27gUQC-8Eo
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+source-git-commit: 27ffc636d63300fb2e99903d92cab12f0cfcbb25
 workflow-type: tm+mt
-source-wordcount: '585'
-ht-degree: 0%
+source-wordcount: 585
+ht-degree: 1%
 
 ---
 
@@ -23,7 +31,7 @@ I file di esempio che si può scegliere di utilizzare per questa lezione sono fo
 
    a. Carica il file zip.
 
-   b. Aggiornare l’ambiente AEM.
+   b. Aggiorna l’ambiente AEM.
 
    c. Seleziona il file per l’estrazione.
 
@@ -37,7 +45,7 @@ I file di esempio che si può scegliere di utilizzare per questa lezione sono fo
 
    f. Fai clic su [!UICONTROL **Avanti**].
 
-   g. Ignora eventuali conflitti in quanto non esisteranno per contenuti mai caricati in precedenza.
+   g. Ignora eventuali conflitti in quanto non esisteranno per contenuti che non sono mai stati caricati in precedenza.
 
    h. Seleziona [!UICONTROL **Estrai**] in alto a destra dello schermo.
 
@@ -91,7 +99,7 @@ Le chiavi vengono risolte.
 
    ![Barra degli strumenti Keydef](images/lesson-9/key-icon.png)
 
-   c. Nella finestra di dialogo Inserisci keydef, immettere un valore univoco per Chiavi che abbia senso per la definizione che si sta creando.
+   c. Nella finestra di dialogo Inserisci keydef, immettete un valore univoco per Tasti che abbia senso per la definizione che state creando.
 
    d. Fare clic su [!UICONTROL **Inserisci**].
 

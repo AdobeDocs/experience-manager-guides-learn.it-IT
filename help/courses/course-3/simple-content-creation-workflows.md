@@ -2,16 +2,22 @@
 title: Flussi di lavoro semplici per la creazione di contenuti
 description: Creazione di contenuti in AEM Guides
 exl-id: e4b8e512-0688-44f7-b981-78af33b57b08
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+TQID: https://experienceleague.adobe.com/fLMRJWYDwHU-0ZbbUQ2kFZ1ZUM4vIwHccPV3q-pkn0I
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 27ffc636d63300fb2e99903d92cab12f0cfcbb25
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: 720
 ht-degree: 1%
 
 ---
 
 # Flussi di lavoro per la creazione di contenuti semplici
 
-L’editor di AEM Guides dispone di più scelte rapide che semplificano il flusso di lavoro di creazione dei contenuti. Queste scelte rapide consentono agli utenti di aggiungere e modificare rapidamente immagini, utilizzare più argomenti contemporaneamente, correggere errori, scaricare PDF di argomenti e utilizzare versioni ed etichette.
+L’editor di AEM Guides dispone di più scelte rapide che semplificano il flusso di lavoro di creazione dei contenuti. Queste scelte rapide consentono agli utenti di aggiungere e modificare rapidamente le immagini, lavorare con più argomenti contemporaneamente, correggere gli errori, scaricare PDF di argomenti e lavorare con versioni ed etichette.
 
 >[!VIDEO](https://video.tv.adobe.com/v/342770?quality=12&learn=on)
 
@@ -73,9 +79,9 @@ La Visualizzazione suddivisa è utile per confrontare argomenti, copiare e incol
 
 L&#39;errore è stato corretto nel testo dell&#39;argomento.
 
-## Scaricare un PDF di argomenti
+## Scaricare un argomento PDF
 
-Gli utenti potrebbero voler scaricare un PDF dell’argomento corrente per iscriversi o condividerlo con altri utenti.
+Gli utenti potrebbero voler scaricare un PDF dell’argomento corrente per iscriversi o condividerlo con altri.
 
 1. Fai clic su [!UICONTROL **Anteprima**] in alto a destra dello schermo.
 
@@ -83,11 +89,11 @@ Gli utenti potrebbero voler scaricare un PDF dell’argomento corrente per iscri
 
    ![Esportazione PDF](images/lesson-15/pdf-export.png)
 
-1. Immettere le informazioni per **Nome trasformazione** o **Argomenti riga di comando DITA-OT** se necessario. Tieni presente che un PDF genera comunque se tutti i campi vengono lasciati vuoti.
+1. Immettere le informazioni per **Nome trasformazione** o **Argomenti riga di comando DITA-OT** se necessario. Tieni presente che un PDF continua a generare se tutti i campi vengono lasciati vuoti.
 
 1. Fai clic su [!UICONTROL **Scarica**]. Il PDF genera.
 
-1. Utilizza le icone disponibili per configurare, scaricare o condividere l’argomento di PDF.
+1. Utilizza le icone disponibili per configurare, scaricare o condividere l&#39;argomento di PDF.
 
 ## Individuare un argomento nel repository o nella mappa
 

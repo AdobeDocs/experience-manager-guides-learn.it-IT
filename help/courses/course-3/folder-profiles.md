@@ -2,16 +2,30 @@
 title: Profili cartella
 description: Creazione e utilizzo di profili di cartelle per AEM Guides
 exl-id: 5a0daa68-51ae-42d0-8320-6e8bdb1fe545
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+TQID: https://experienceleague.adobe.com/ztMvUcFQ-GJTOEU3ikB-2WFgj--ttbY7JoSyGW6Poa8
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 27ffc636d63300fb2e99903d92cab12f0cfcbb25
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 0%
+source-wordcount: 917
+ht-degree: 1%
 
 ---
 
 # Profili cartella
 
-L’AEM fornisce un accesso rapido agli strumenti di configurazione. Personalizzando i profili cartella, diversi reparti o prodotti possono disporre di modelli, ambienti di authoring, profili di attributi condizionali, snippet o configurazioni dell’editor web univoche.
+AEM fornisce un accesso rapido agli strumenti di configurazione. Personalizzando i profili cartella, diversi reparti o prodotti possono disporre di modelli, ambienti di authoring, profili di attributi condizionali, snippet o configurazioni dell’editor web univoche.
 
 I file di esempio che si può scegliere di utilizzare per questa lezione sono forniti nel file [folderprofiles.zip](assets/folderprofiles.zip).
 
@@ -45,7 +59,7 @@ Dopo aver effettuato l’accesso al Profilo globale puoi modificarne la configur
 
    ![Attributi condizionali](images/lesson-3/edit-conditional-attributes.png)
 
-1. Fare clic su [!UICONTROL **Aggiungi**].
+1. Fai clic su [!UICONTROL **Aggiungi**].
 
 1. Compilare i campi **Nome**, **Valore** e **Etichetta** per la nuova condizione.
 
@@ -96,7 +110,7 @@ Gli utenti amministratori dispongono delle autorizzazioni per aggiornare Attribu
 
 1. In Utenti amministratori, seleziona un utente dal menu a discesa o digita il nome di un utente.
 
-1. Fare clic su [!UICONTROL **Aggiungi**].
+1. Fai clic su [!UICONTROL **Aggiungi**].
 
    Se necessario, puoi aggiungere più utenti amministratore.
 
@@ -116,7 +130,7 @@ Dopo aver effettuato l’accesso al Profilo globale puoi modificarne la configur
 
    ![Modifica attributi condizionali 2](images/lesson-3/edit-conditional-attributes-2.png)
 
-1. Fare clic su [!UICONTROL **Aggiungi**].
+1. Fai clic su [!UICONTROL **Aggiungi**].
 
 1. Compilare i campi **Nome**, **Valore** e **Etichetta** per la nuova condizione.
 
@@ -140,7 +154,7 @@ AEM Guides viene fornito con modelli e mappe di authoring pronti all’uso. Puoi
 
    a. Dal menu a discesa **Modelli mappa**, seleziona un&#39;opzione dalle mappe disponibili.
 
-   b. Fare clic su [!UICONTROL **Aggiungi**].
+   b. Fai clic su [!UICONTROL **Aggiungi**].
 
    ![Modelli mappa](images/lesson-3/map-templates.png)
 
@@ -150,7 +164,7 @@ AEM Guides viene fornito con modelli e mappe di authoring pronti all’uso. Puoi
 
    ![Modelli di argomento](images/lesson-3/topic-templates.png)
 
-1. Fare clic su [!UICONTROL **Aggiungi**].
+1. Fai clic su [!UICONTROL **Aggiungi**].
 
 1. Se necessario, aggiungi altri modelli di argomento.
 

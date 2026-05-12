@@ -1,11 +1,17 @@
 ---
 title: Condizioni
-description: Utilizzo delle condizioni nelle guide AEM
+description: Utilizzo delle condizioni nei GUID di AEM
 exl-id: 2cb670d9-1a22-47c6-8409-52d1d526010a
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+TQID: https://experienceleague.adobe.com/RmYnleEQKJitdoHoBKuBDRR1LdFcqmMm4lEDqF3E-vY
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 27ffc636d63300fb2e99903d92cab12f0cfcbb25
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 1%
+source-wordcount: 498
+ht-degree: 3%
 
 ---
 
@@ -25,7 +31,7 @@ I file di esempio che si può scegliere di utilizzare per questa lezione sono fo
 
 1. Fai clic su [!UICONTROL **Modifica**] nell&#39;angolo superiore sinistro del profilo.
 
-1. Fare clic su [!UICONTROL **Aggiungi**].
+1. Fai clic su [!UICONTROL **Aggiungi**].
 
    ![Condizioni nei profili cartella](images/lesson-13/add-name.png)
 
@@ -99,7 +105,7 @@ Le mappe dello schema dei soggetti sono una forma specializzata di mappa digital
 
    d. Fai clic su [!UICONTROL **Seleziona**].
 
-   e. Fai clic sul simbolo della chiave accanto al campo **Root Map** per immettere un percorso.
+   e. Fai clic sul simbolo della chiave accanto al campo **Mappa principale** per immettere un percorso.
 
    >[!IMPORTANT]
    >
